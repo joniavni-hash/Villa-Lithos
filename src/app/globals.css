@@ -1,0 +1,972 @@
+@import "tailwindcss";
+
+/* =========================================================
+   MALIBU RANCH-STYLE (EDITORIAL MINIMAL) — FULL REPLACE
+   Look: dark green outer + centered white column + hairlines
+   ========================================================= */
+
+/* ---------- Tokens ---------- */
+:root{
+  color-scheme: light;
+
+  /* Outer background like screenshot */
+  --outer: #fbfcfb;        /* deep ranch green */
+  --page: #ffffff;         /* paper */
+  --page-2: #f4f2ee;       /* light warm grey */
+  --page-3: #f7f6f3;
+
+  /* Ink */
+  --text: rgba(18,18,18,.92);
+  --muted: rgba(18,18,18,.62);
+  --faint: rgba(18,18,18,.48);
+
+  /* Hairline rules */
+  --border: rgba(18,18,18,.14);
+  --border-soft: rgba(18,18,18,.10);
+
+  /* Accent: ultra quiet */
+  --accent: #a8956f;
+
+  /* Shadows: basically none */
+  --shadow-none: none;
+
+  /* Radii: modest, mostly square-ish */
+  --radius-lg: 18px;
+  --radius-md: 14px;
+
+  /* Ring */
+  --ring: 0 0 0 2px;
+}
+
+/* ---------- Base ---------- */
+html, body { height: 100%; }
+
+body{
+  background: var(--outer);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* remove prior heavy atmospherics */
+body::before,
+body::after{ content:none !important; }
+
+main, footer, section{ position: relative; z-index: 1; }
+
+/* Selection */
+::selection{
+  background: rgba(168,149,111,.22);
+  color: rgba(18,18,18,.95);
+}
+
+/* Scrollbar */
+*::-webkit-scrollbar{ width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb{
+  background: rgba(255,255,255,.18);
+  border-radius: 999px;
+}
+*::-webkit-scrollbar-thumb:hover{ background: rgba(255,255,255,.26); }
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce){
+  *, *::before, *::after{
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* =========================================================
+   THE KEY: Centered white page column (like screenshot)
+   ========================================================= */
+
+main {
+  background: var(--page);              /* Χρησιμοποιεί το λευκό χρώμα για το φόντο της σελίδας */
+  width: 100%;                          /* Κάνει το πλάτος της στήλης 100% της οθόνης */
+  margin: 0 auto;                       /* Κεντράρει την κεντρική στήλη (θα έχει 0 περιθώρια από πάνω και κάτω) */
+  min-height: 100dvh;                   /* Εξασφαλίζει ότι η στήλη θα καλύπτει τουλάχιστον το 100% του ύψους της οθόνης */
+  box-shadow: var(--shadow-none);       /* Δεν έχει σκιά για το στοιχείο */
+}
+
+/* Give the column that “mobile brochure” feel */
+main{
+  border-left: 1px solid rgba(255,255,255,.06); /* subtle outer frame illusion */
+  border-right: 1px solid rgba(255,255,255,.06);
+}
+
+/* Sections more “brochure” spacing */
+.section{
+  padding-block: clamp(2.4rem, 6vw, 4.8rem);
+}
+
+/* Container inside the white column */
+.container-page{
+  width: 100%;
+  
+  margin-inline: auto;
+  padding-inline: 50px; /* similar to screenshot */
+}
+
+/* Dividers: super thin */
+.divider{
+  height: 1px;
+  background: var(--border-soft);
+  opacity: 1;
+}
+
+/* =========================================================
+   Typography — Ranch editorial
+   ========================================================= */
+
+.kicker{
+  text-transform: uppercase;
+  letter-spacing: .28em;
+  font-size: .70rem;
+  color: var(--faint);
+}
+
+/* Headings: serif + airy tracking */
+.h1, .h2, .page-header h1, .fs-form__title, .fs-aside__title{
+  font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  font-weight: 520;
+  color: var(--text);
+}
+
+.h1{
+  font-size: clamp(2.2rem, 5.8vw, 3.4rem);
+  line-height: 1.05;
+}
+
+.h2{
+  font-size: clamp(1.55rem, 3.6vw, 2.1rem);
+  line-height: 1.12;
+}
+
+.lead,
+.page-header p,
+.fs-form__lead,
+.fs-aside__muted,
+.fs-summary__hint{
+  color: var(--muted);
+  line-height: 1.9;
+  font-size: 1rem;
+}
+
+/* Page header spacing like brochure */
+.page-header{ margin-bottom: 1.6rem; }
+.page-header p{ margin-top: .7rem; max-width: 70ch; }
+
+/* =========================================================
+   Cards / Tiles — flat paper, hairlines, no glass
+   ========================================================= */
+
+.card {
+  background: var(--page-2);              /* Απαλό φόντο */
+  border: 1px solid var(--border-soft);   /* Απαλή διαχωριστική γραμμή */
+  border-radius: var(--radius-md);        /* Στρογγυλεμένες γωνίες για πιο φιλική αίσθηση */
+  padding: 1.5rem;                        /* Αυξημένο padding για καλύτερη αίσθηση */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ελαφριά σκιά για βάθος */
+  transition: background-color .18s ease, border-color .18s ease, box-shadow .18s ease; /* Ομαλή μετάβαση */
+}
+
+/* Hover effect για καλύτερη αλληλεπίδραση */
+.card:hover {
+  background: var(--page-3);              /* Σκούρο φόντο κατά το hover */
+  border-color: var(--border);            /* Σκούρα γραμμή διαχωρισμού κατά το hover */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Δυνατότερη σκιά κατά το hover */
+}
+
+
+/* Tiles: remove glow, keep minimal hover */
+.tile{
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  transition: transform .18s ease, border-color .18s ease;
+}
+.tile::after{ content:none !important; }
+.tile:hover{ transform: translateY(-1px); }
+
+.tile[role="button"]:focus-visible{
+  outline: none;
+  box-shadow: var(--ring) rgba(18,18,18,.12);
+}
+
+/* Media tiles: image + caption layout */
+.media-tile{
+  border-radius: 0;
+  border: 1px solid var(--border-soft);
+  background: var(--page-2);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.media-tile img{
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform .45s ease;
+  transform: scale(1.001);
+  filter: none;
+}
+
+.media-tile:hover img{ transform: scale(1.03); }
+
+.media-meta{
+  padding: 1rem 1rem 1.15rem;
+  color: var(--text);
+}
+
+.media-meta .eyebrow{
+  font-size: .70rem;
+  letter-spacing: .28em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+
+.media-meta .title {
+  margin-top: .55rem;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  color: rgba(18,18,18,.86);
+}
+
+/* =========================================================
+/* =========================================================
+   Forms — flat + hairline
+   ========================================================= */
+
+.form-modern label {
+  display: block;
+  font-size: 0.75rem; /* Slightly bigger for better readability */
+  color: var(--faint);
+  margin-bottom: 0.45rem;
+  text-transform: uppercase;
+  letter-spacing: 0.26em;
+}
+
+.form-modern input,
+.form-modern select,
+.form-modern textarea {
+  width: 100%;
+  border-radius: 0;
+  background: #fff;
+  border: 1px solid var(--border-soft);
+  padding: 0.85rem 1.15rem; /* Slightly more padding for better touch targets */
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.form-modern input::placeholder,
+.form-modern textarea::placeholder {
+  color: rgba(18, 18, 18, 0.38);
+}
+
+.form-modern input:focus,
+.form-modern select:focus,
+.form-modern textarea:focus {
+  border-color: rgba(18, 18, 18, 0.22);
+  box-shadow: var(--ring) rgba(18, 18, 18, 0.10);
+}
+
+.form-modern textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.form-modern input,
+.form-modern select,
+.form-modern textarea {
+  font-size: 1rem; /* Ensuring consistent font size */
+}
+
+.form-modern input:focus,
+.form-modern select:focus,
+.form-modern textarea:focus {
+  border-color: rgba(18, 18, 18, 0.22);
+  box-shadow: 0 0 0 2px rgba(168, 149, 111, 0.2); /* Light shadow on focus */
+}
+
+/* =========================================================
+   Buttons — minimal (like Ranch)
+   ========================================================= */
+
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .55rem;
+
+  padding: .85rem 1.35rem;
+  border-radius: 0;
+
+  font-weight: 650;
+  letter-spacing: .26em;
+  text-transform: uppercase;
+  font-size: .72rem;
+
+  color: rgba(18,18,18,.90);
+  background: #fff;
+  border: 1px solid var(--border-soft);
+
+  box-shadow: none;
+  transition: background-color .18s ease, border-color .18s ease, transform .08s ease;
+  outline: none;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background: var(--page-2);
+  border-color: rgba(18,18,18,.18);
+}
+.btn:active{ transform: translateY(1px); }
+
+.btn:focus-visible{
+  box-shadow: var(--ring) rgba(18,18,18,.12);
+}
+
+/* primary: slightly tinted */
+.btn.primary{
+  background: color-mix(in srgb, var(--accent) 14%, #fff);
+  border-color: color-mix(in srgb, var(--accent) 22%, rgba(18,18,18,.12));
+}
+
+/* ghost */
+.btn.ghost{
+  background: transparent;
+  border-color: rgba(18,18,18,.14);
+}
+.btn.ghost:hover{ background: rgba(255,255,255,.92); }
+
+
+/* Form Container */
+.fs-inquiry {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px;
+  background-color: var(--background-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px var(--shadow-color);
+  max-width: 1100px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+/* Left Section: Information */
+.fs-inquiry__aside {
+  flex: 1;
+  background-color: var(--secondary-color);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.fs-inquiry__block {
+  margin-bottom: 24px;
+}
+
+.fs-aside__title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+}
+
+/* Booking summary card */
+.fs-summary {
+  background-color: var(--background-color);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.fs-summary__kicker {
+  font-size: 1.1rem;
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.fs-summary__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.fs-summary__label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+.fs-summary__value {
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+.fs-summary__divider {
+  border-top: 1px solid var(--border-color);
+  margin: 16px 0;
+}
+
+.fs-summary__warn {
+  color: #ff4d4d;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.fs-summary__hint {
+  font-size: 0.85rem;
+  color: var(--accent-color);
+}
+
+.fs-summary__actions a,
+.fs-summary__actions button {
+  background-color: var(--primary-color);
+  color: #030303;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fs-summary__actions a:hover,
+.fs-summary__actions button:hover {
+  background-color: var(--highlight-color);
+}
+
+/* Right Section: Form */
+.fs-form__header {
+  margin-bottom: 20px;
+}
+
+.fs-form__title {
+  font-size: 2.2rem;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.fs-form__lead {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  margin-bottom: 24px;
+}
+
+/* Input Fields */
+.fs-field {
+  margin-bottom: 20px;
+}
+
+.fs-field label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--accent-color);
+  margin-bottom: 8px;
+}
+
+.fs-field input,
+.fs-field textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  font-size: 1rem;
+  color: var(--accent-color);
+  background-color: #fdfdfd;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fs-field input:focus,
+.fs-field textarea:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  outline: none;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 16px 24px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  max-width: 250px;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--highlight-color);
+  transform: scale(1.05);
+}
+
+button[type="submit"]:disabled {
+  background-color: #d1d1d1;
+  cursor: not-allowed;
+}
+
+/* Error/Success Message */
+span {
+  font-size: 1rem;
+  color: var(--accent-color);
+  text-align: center;
+}
+
+span.success {
+  color: #4caf50;
+}
+
+span.error {
+  color: #f44336;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  .fs-inquiry {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .fs-inquiry__aside {
+    width: 100%;
+  }
+
+  .fs-summary__actions {
+    margin-top: 20px;
+  }
+
+  .fs-form__lead {
+    font-size: 1rem;
+  }
+
+  .fs-field input,
+  .fs-field textarea {
+    padding: 10px;
+  }
+
+  button[type="submit"] {
+    max-width: 100%;
+  }
+}
+
+
+/* =========================================================
+   Menu overlay — keep functional, match style
+   ========================================================= */
+
+#site-menu {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 2147483647 !important;
+  background: rgba(251, 252, 252, 0.96) !important; /* outer green */
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch;
+  width: 100%; /* Ensures the menu spans the full width */
+  height: 100%; /* Full height of the viewport */
+}
+
+/* safety closed */
+#site-menu[hidden],
+#site-menu[data-state="closed"],
+#site-menu.is-closed {
+  display: none !important;
+  pointer-events: none !important;
+  visibility: hidden !important;
+}
+
+#menu-fab {
+  position: fixed;
+  left: 50%;
+  bottom: calc(18px + env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  z-index: 2147483646;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .7rem;
+
+  padding: 14px 26px;
+  border-radius: 0;
+  background: #fff;
+  border: 1px solid rgba(255, 255, 255, .16);
+  color: rgba(18, 18, 18, .88);
+
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  font-size: 12px;
+  font-weight: 650;
+
+  box-shadow: none;
+}
+
+#menu-fab:hover {
+  background: var(--page-2);
+}
+
+#menu-fab:active {
+  transform: translateX(-50%) translateY(1px);
+}
+
+body.menu-open #menu-fab {
+  display: none !important;
+}
+
+body.menu-open main {
+  visibility: hidden !important;
+}
+
+body.menu-open main * {
+  pointer-events: none !important;
+}
+
+body.menu-open #site-menu {
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* menu nav type */
+.menu-nav {
+  padding: 2.6rem 1.6rem;
+  padding-top: calc(max(env(safe-area-inset-top), 14px) + 88px);
+}
+
+.menu-nav a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+
+  font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+  font-size: clamp(1.25rem, 5vw, 1.95rem);
+  letter-spacing: .18em;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, .92);
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .14);
+  text-decoration: none;
+}
+
+.menu-nav a:hover {
+  color: #fff;
+  border-bottom-color: rgba(255, 255, 255, .22);
+}
+
+/* Footer container */
+.menu-footer {
+  position: static;
+  margin-top: 26px;
+  padding: 20px;
+  background: rgba(18, 18, 18, 0.9); /* Premium dark background */
+  color: rgba(255, 255, 255, 0.9); /* White text for better contrast */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15); /* Light border for distinction */
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+/* Content inside the footer */
+.footer-content {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Text styling */
+.footer-text {
+  opacity: 0.92;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+}
+
+/* Separator styling */
+.footer-separator {
+  opacity: 0.45;
+  font-size: 1.2rem;
+}
+
+/* Footer contact section */
+.footer-contact {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Label styling */
+.footer-label {
+  opacity: 0.75;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+}
+
+/* Email styling */
+.footer-email {
+  color: #a8956f; /* Accent color for the email */
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  font-weight: bold;
+}
+
+.footer-email:hover {
+  color: rgba(255, 255, 255, 0.95); /* Hover effect to brighten the email */
+}
+
+@media (max-width: 768px) {
+  /* Mobile view adjustments */
+  .menu-footer {
+    padding: 15px 10px;
+    font-size: 0.8rem; /* Smaller font size on mobile */
+  }
+
+  .footer-content {
+    flex-direction: column; /* Stack the content vertically on mobile */
+    text-align: center; /* Center text on mobile */
+  }
+
+  .footer-email {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* close btn */
+.menu-close {
+  position: fixed;
+  top: calc(max(env(safe-area-inset-top), 14px) + 8px);
+  left: 16px;
+  width: 54px;
+  height: 54px;
+  border-radius: 0;
+  border: 1px solid rgba(255, 255, 255, .18);
+  background: rgba(255, 255, 255, .08);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  z-index: 4;
+}
+
+@media (max-width: 768px) {
+  #menu-fab {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+  
+  .menu-nav a {
+    font-size: 1rem;
+  }
+}
+
+/* ---------- Safety override ---------- */
+main .text-white,
+main [class*="text-white/"]{
+  color: var(--text) !important;
+}
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Section Styles */
+.section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Title and Subtitle Styles */
+.kicker {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.lead {
+  font-size: 18px;
+  color: #777;
+  max-width: 800px;
+  margin-top: 1rem;
+}
+
+/* Flex Layout for Section */
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+/* Accommodation Content */
+.accommodation {
+  display: flex;
+  flex-direction: column;
+}
+
+.accommodation .title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fdfbfb;
+}
+
+.accommodation .description {
+  font-size: 16px;
+  color: #666;
+  margin-top: 1rem;
+}
+/* Button Styling */
+button {
+  background-color: #fcf8f8;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px; /* Rounded corners for a smoother appearance */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+  box-shadow: 0 4px 12px rgba(236, 236, 236, 0.2); /* Soft shadow effect */
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #f7f4f4; /* Darker blue on hover */
+  transform: translateY(-3px); /* Lift the button slightly on hover */
+  box-shadow: 0 8px 16px rgba(255, 254, 254, 0.842); /* Stronger shadow on hover */
+}
+
+button:active {
+  transform: translateY(1px); /* Button clicks down when pressed */
+}
+
+.btn--sm {
+  background-color: #eaeaeb;  /* Χρώμα μπλε για τα κουμπιά */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn--sm:hover {
+  background-color: #3f4041;  /* Σκούρο μπλε κατά την αιώρηση */
+}
+
+
+/* Button Group Styling */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.button-group button {
+  margin-right: 12px;
+}
+
+.button-group button:last-child {
+  margin-right: 0;
+}
+
+/* Image Styling */
+.relative {
+  position: relative;
+}
+
+.aspect-w-16 {
+  aspect-ratio: 16 / 9;
+}
+
+.aspect-h-9 {
+  aspect-ratio: 9 / 16;
+}
+
+.rounded-lg {
+  border-radius: 12px;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Layout */
+@media (min-width: 768px) {
+  .flex-row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-page {
+    width:100%
+    ;
+    margin: 0 auto;
+  }
+}
+
+/* Button Group Styling */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.button-group button {
+  margin-right: 10px;
+}
+
+.button-group button:last-child {
+  margin-right: 0;
+}
