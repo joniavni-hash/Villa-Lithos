@@ -4,7 +4,7 @@ import "./globals.css";
 
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-
+import Splash from "@/components/Splash";
 export const metadata: Metadata = {
   title: "Villa Lithos",
   description:
