@@ -8,7 +8,7 @@ type Props = {
 };
 
 export default function MarqueeLine({
-  text = "VILLA LITHOS • PRIVATE RETREAT • SEA VIEWS • INFINITY POOL • SAUNA • JACUZZI • PRIVATE PADEL COURT • BESPOKE EXPERIENCES • CONCIERGE • ",
+  text = "VILLA LITHOS • PRIVATE VILLA • SEA VIEWS • INFINITY POOL • SAUNA • JACUZZI • PADEL COURT • LOCAL EXPERIENCES • CONCIERGE • ",
   speedSeconds = 18,
 }: Props) {
   // repeat enough so it loops smoothly

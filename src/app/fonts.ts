@@ -1,16 +1,19 @@
-// FILE: src/app/fonts.ts
-import { Noto_Sans, Space_Grotesk } from "next/font/google";
+import { DM_Sans, DM_Serif_Display } from "next/font/google";
 
-/* Body font with full Greek support */
-export const sans = Noto_Sans({
-  subsets: ["latin", "greek"],
+/* Body font - geometric sans-serif */
+export const sans = DM_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-sans",
   display: "swap",
 });
 
-/* Display font (latin only). Greek will fallback to --font-sans */
-export const display = Space_Grotesk({
+/* Display font - refined serif for headings */
+export const serif = DM_Serif_Display({
   subsets: ["latin"],
-  variable: "--font-display",
+  weight: ["400"],
+  variable: "--font-serif",
   display: "swap",
 });
+
+export const fontVariables = `${sans.variable} ${serif.variable}`;

@@ -1,138 +1,123 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
 type Props = {
   kicker?: string;
   title?: string;
   subtitle?: string;
+  videoSrc?: string;
+  poster?: string;
   imageUrl?: string;
-  bookingUrl?: string;
-  mapUrl?: string;
-  whatsappUrl?: string;
   contactHref?: string;
+  galleryHref?: string;
 };
 
 export default function HeroBanner({
   kicker = "WELCOME TO",
   title = "Villa Lithos",
-  subtitle = "A private retreat in Greece — designed for serene stays, curated comfort, and effortless luxury.",
-  imageUrl = "/img/hero.jpg",
-  bookingUrl = "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72?minOccupancy=1",
-  mapUrl,
-  whatsappUrl,
+  subtitle = "A private villa in Greece. Quiet stays, thoughtful comfort, easy luxury.",
+  videoSrc,
+  poster = "/img/hero.webp",
+  imageUrl = "/img/hero.webp",
   contactHref = "/#inquiry",
+  galleryHref = "/#gallery",
 }: Props) {
-  return (
-    <section
-      className="relative w-full overflow-hidden"
-      style={{
-        minHeight: "100svh",
-        paddingTop: "max(env(safe-area-inset-top), 14px)",
-      }}
-    >
-      {/* Background photo */}
-      <div className="absolute inset-0">
-        <Image
-          src={imageUrl}
-          alt="Villa Lithos"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-          style={{ objectPosition: "center 40%" }}
-        />
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [videoReady, setVideoReady] = useState(false);
+  const [videoError, setVideoError] = useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
-        {/* ✅ LIGHTER overlay (photo stays visible) */}
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(180deg, rgba(0,0,0,.10) 0%, rgba(0,0,0,.38) 55%, rgba(0,0,0,.55) 100%)",
-          }}
-        />
+  // Check reduced motion preference after mount
+  useEffect(() => {
+    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+    setPrefersReducedMotion(mq.matches);
+
+    const handler = (e: MediaQueryListEvent) => setPrefersReducedMotion(e.matches);
+    mq.addEventListener("change", handler);
+    return () => mq.removeEventListener("change", handler);
+  }, []);
+
+  // Handle video load/error
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video || !videoSrc || prefersReducedMotion) return;
+
+    const onCanPlay = () => setVideoReady(true);
+    const onError = () => setVideoError(true);
+
+    video.addEventListener("canplaythrough", onCanPlay);
+    video.addEventListener("error", onError);
+
+    return () => {
+      video.removeEventListener("canplaythrough", onCanPlay);
+      video.removeEventListener("error", onError);
+    };
+  }, [videoSrc, prefersReducedMotion]);
+
+  const showVideo = videoSrc && !videoError && !prefersReducedMotion;
+  const fallbackImage = poster || imageUrl;
+
+  return (
+    <section className="hv">
+      {/* Media Container */}
+      <div className="hv-media">
+        <div className="hv-media__inner">
+          {/*
+            ALWAYS render the poster Image as base layer (SSR).
+            This ensures LCP is the optimized Next.js Image, not the video poster.
+          */}
+          <Image
+            src={fallbackImage}
+            alt="Villa Lithos exterior"
+            fill
+            priority
+            sizes="100vw"
+            quality={80}
+            className="hv-poster"
+            fetchPriority="high"
+          />
+
+          {/* Video overlays on top, fades in when ready */}
+          {showVideo && (
+            <video
+              ref={videoRef}
+              className={`hv-video ${videoReady ? "hv-video--loaded" : ""}`}
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="none"
+            >
+              <source src={videoSrc} type="video/mp4" />
+            </video>
+          )}
+
+          {/* Gradient overlay */}
+          <div className="hv-media__gradient" aria-hidden="true" />
+        </div>
       </div>
 
+      {/* Divider (desktop) */}
+      <div className="hv-divider" aria-hidden="true" />
+
       {/* Content */}
-      <div
-        className="relative container-page"
-        style={{
-          minHeight: "100svh",
-          display: "flex",
-          alignItems: "center",
-          paddingTop: "clamp(4.5rem, 10vh, 7rem)",
-          paddingBottom: "clamp(5rem, 10vh, 7rem)",
-        }}
-      >
-        <div className="max-w-3xl">
-          <motion.p
-            className="kicker"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.45 }}
-            style={{ color: "rgba(255,255,255,.78)" }}
-          >
-            {kicker}
-          </motion.p>
+      <div className="hv-content">
+        <div className="hv-content__inner">
+          <p className="hv-kicker">{kicker}</p>
+          <h1 className="hv-title">{title}</h1>
+          <p className="hv-subtitle">{subtitle}</p>
 
-          <motion.h1
-            className="h1 mt-3"
-            initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.45 }}
-            style={{
-              fontSize: "clamp(2.2rem, 6vw, 4.4rem)",
-              lineHeight: 1.02,
-              color: "rgba(255,255,255,.95)",
-              textShadow: "0 18px 55px rgba(0,0,0,.55)",
-            }}
-          >
-            {title}
-          </motion.h1>
-
-          <motion.p
-            className="lead mt-5"
-            initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.45, delay: 0.05 }}
-            style={{
-              maxWidth: 56 * 16,
-              fontSize: "clamp(1.02rem, 2.2vw, 1.2rem)",
-              color: "rgba(255,255,255,.80)",
-              textShadow: "0 14px 38px rgba(0,0,0,.55)",
-            }}
-          >
-            {subtitle}
-          </motion.p>
-
-          <motion.div
-            className="mt-7 flex flex-wrap gap-3"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.35, delay: 0.12 }}
-          >
-            <a className="btn primary" href={bookingUrl} target="_blank" rel="noreferrer">
-              Check availability & book
-            </a>
-
-            <Link href={contactHref} className="btn ghost">
-              Contact
+          <div className="hv-cta">
+            <Link href={contactHref} className="hv-btn hv-btn--primary">
+              Booking Request
             </Link>
-
-            {whatsappUrl ? (
-              <a className="btn ghost" href={whatsappUrl} target="_blank" rel="noreferrer">
-                WhatsApp
-              </a>
-            ) : null}
-
-            {mapUrl ? (
-              <a className="btn ghost" href={mapUrl} target="_blank" rel="noreferrer">
-                Map
-              </a>
-            ) : null}
-          </motion.div>
+            <Link href={galleryHref} className="hv-btn hv-btn--secondary">
+              View Gallery
+            </Link>
+          </div>
         </div>
       </div>
     </section>

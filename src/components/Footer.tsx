@@ -1,77 +1,177 @@
 import Link from "next/link";
+import FooterSocialLinks from "./FooterSocialLinks";
 
 export default function Footer() {
   return (
-    <footer className="mt-16 border-t" style={{ borderColor: "var(--border-soft)" }}>
-      <div className="container-page" style={{ paddingBlock: "2.2rem" }}>
+    <footer
+      style={{
+        marginTop: "var(--space-2xl)",
+        borderTop: "1px solid var(--border)",
+        background: "var(--page-2)",
+      }}
+    >
+      <div className="container-page" style={{ paddingBlock: "var(--space-xl)" }}>
         <div
           style={{
             display: "grid",
-            gap: 18,
-            gridTemplateColumns: "1.2fr 1fr",
+            gap: "var(--space-xl)",
+            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
             alignItems: "start",
           }}
         >
+          {/* Brand Column */}
           <div>
-            <div className="kicker">Villa Lithos</div>
-            <div
+            <p
               style={{
-                marginTop: 10,
-                fontFamily: 'ui-serif, Georgia, "Times New Roman", Times, serif',
-                letterSpacing: ".06em",
-                textTransform: "uppercase",
-                fontSize: "1.25rem",
+                fontFamily: "var(--font-serif)",
+                fontSize: "1.5rem",
                 color: "var(--text)",
+                letterSpacing: "-0.02em",
               }}
             >
-              Private stays in Greece
-            </div>
-            <p style={{ marginTop: 10, color: "var(--muted)", lineHeight: 1.8, maxWidth: 62 * 16 }}>
-              For availability, rates, and tailored recommendations, send an inquiry and we’ll get back to you promptly.
+              Villa Lithos
+            </p>
+            <p
+              style={{
+                marginTop: "var(--space-xs)",
+                color: "var(--muted)",
+                fontSize: "0.95rem",
+                lineHeight: 1.6,
+                maxWidth: "320px",
+              }}
+            >
+              A private villa in Greece. Quiet stays, thoughtful comfort, easy luxury.
             </p>
           </div>
 
-          <div style={{ display: "grid", gap: 10, justifyItems: "start" }}>
-            <div className="kicker">Explore</div>
-            <Link className="btn link" href="/#services">
-              Services
-            </Link>
-            <Link className="btn link" href="/#gallery">
-              Gallery
-            </Link>
-            <Link className="btn link" href="/#inquiry">
+          {/* Navigation Column */}
+          <div style={{ display: "grid", gap: "var(--space-sm)" }}>
+            <p
+              style={{
+                fontSize: "0.75rem",
+                fontWeight: 600,
+                letterSpacing: "0.15em",
+                textTransform: "uppercase",
+                color: "var(--accent)",
+              }}
+            >
+              Explore
+            </p>
+            <nav style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+              <Link
+                href="/#services"
+                style={{
+                  color: "var(--text-secondary)",
+                  textDecoration: "none",
+                  fontSize: "0.95rem",
+                  transition: "color 0.2s",
+                }}
+              >
+                Experiences
+              </Link>
+              <Link
+                href="/#gallery"
+                style={{
+                  color: "var(--text-secondary)",
+                  textDecoration: "none",
+                  fontSize: "0.95rem",
+                  transition: "color 0.2s",
+                }}
+              >
+                Gallery
+              </Link>
+              <Link
+                href="/#inquiry"
+                style={{
+                  color: "var(--text-secondary)",
+                  textDecoration: "none",
+                  fontSize: "0.95rem",
+                  transition: "color 0.2s",
+                }}
+              >
+                Contact
+              </Link>
+            </nav>
+          </div>
+
+          {/* Contact Column */}
+          <div style={{ display: "grid", gap: "var(--space-sm)" }}>
+            <p
+              style={{
+                fontSize: "0.75rem",
+                fontWeight: 600,
+                letterSpacing: "0.15em",
+                textTransform: "uppercase",
+                color: "var(--accent)",
+              }}
+            >
               Contact
-            </Link>
-
-            <div className="divider" style={{ marginTop: 10, marginBottom: 6, width: "100%" }} />
-
-            <div style={{ color: "var(--muted)", fontSize: ".92rem", lineHeight: 1.7 }}>
-              <div>
-                Email:{" "}
-                <a href="mailto:reservations@villalithos.com" style={{ color: "var(--text)" }}>
-                  reservations@villalithos.com
-                </a>
-              </div>
+            </p>
+            <div style={{ display: "grid", gap: "0.625rem" }}>
+              <a
+                href="mailto:Office@goldenberg-re.com"
+                style={{
+                  color: "var(--text)",
+                  textDecoration: "none",
+                  fontSize: "0.95rem",
+                }}
+              >
+                Office@goldenberg-re.com
+              </a>
+              <a
+                href="tel:+306932757142"
+                style={{
+                  color: "var(--text-secondary)",
+                  textDecoration: "none",
+                  fontSize: "0.95rem",
+                }}
+              >
+                +30 693 275 7142
+              </a>
+              <a
+                href="https://wa.me/306932757142"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  color: "var(--text-secondary)",
+                  textDecoration: "none",
+                  fontSize: "0.95rem",
+                }}
+              >
+                WhatsApp
+              </a>
             </div>
           </div>
+
+          {/* Social Links Column */}
+          <FooterSocialLinks />
         </div>
 
-        <div className="divider" style={{ marginTop: 26, marginBottom: 16 }} />
-
+        {/* Bottom Bar */}
         <div
           style={{
+            marginTop: "var(--space-xl)",
+            paddingTop: "var(--space-md)",
+            borderTop: "1px solid var(--border)",
             display: "flex",
-            gap: 14,
+            gap: "var(--space-md)",
             flexWrap: "wrap",
             alignItems: "center",
             justifyContent: "space-between",
             color: "var(--muted)",
-            fontSize: ".9rem",
+            fontSize: "0.85rem",
           }}
         >
-          <span>© {new Date().getFullYear()} Villa Lithos. All rights reserved.</span>
-          <span style={{ letterSpacing: ".10em", textTransform: "uppercase" }}>
-            Crafted for refined stays
+          <span>© {new Date().getFullYear()} Villa Lithos</span>
+          <span
+            style={{
+              fontSize: "0.75rem",
+              letterSpacing: "0.1em",
+              textTransform: "uppercase",
+              color: "var(--faint)",
+            }}
+          >
+            Porto Rafti, Greece
           </span>
         </div>
       </div>

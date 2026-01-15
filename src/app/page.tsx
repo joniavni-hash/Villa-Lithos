@@ -1,37 +1,93 @@
+import dynamic from "next/dynamic";
 import HeroBanner from "@/components/HeroBanner";
 import MarqueeLine from "@/components/MarqueeLine";
-import ServicesGrid from "@/components/ServicesGrid";
-import ContactForm from "@/components/ContactForm";
-import Gallery from "@/components/Gallery";
+import RenderOnView from "@/components/RenderOnView";
+
+// Dynamic imports for below-fold heavy components
+// These reduce initial JS bundle and main thread work
+const VillaIntroSection = dynamic(
+  () => import("@/components/VillaIntroSection"),
+  { ssr: true }
+);
+
+const ConciergeSection = dynamic(
+  () => import("@/components/ConciergeSection"),
+  { ssr: true }
+);
+
+const Gallery = dynamic(() => import("@/components/Gallery"), {
+  ssr: true,
+});
+
+const VillaMapSection = dynamic(
+  () => import("@/components/VillaMapSection"),
+  { ssr: true }
+);
+
+const ContactForm = dynamic(() => import("@/components/ContactForm"), {
+  ssr: true,
+});
 
 export default function HomePage() {
   return (
     <main>
+      {/* Above-fold: HeroBanner loaded eagerly with priority image */}
       <HeroBanner
         kicker="WELCOME TO"
         title="Villa Lithos"
-        subtitle="A private retreat in Greece — designed for serene stays, curated comfort, and effortless luxury."
-        imageUrl="/img/hero.jpg"
-        bookingUrl="https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72?minOccupancy=1"
+        subtitle="A private villa in Greece. Quiet stays, thoughtful comfort, easy luxury."
+        videoSrc="/videos/hero.mp4"
+        poster="/img/hero.webp"
+        imageUrl="/img/hero.webp"
         contactHref="/#inquiry"
+        galleryHref="/#gallery"
       />
 
+      {/* MarqueeLine is lightweight, keep above fold */}
       <MarqueeLine />
 
-      <section id="services" className="section">
-        <ServicesGrid />
-      </section>
+      {/* Below-fold sections wrapped with RenderOnView for lazy mounting */}
+      <RenderOnView fallbackHeight="800px" rootMargin="400px">
+        <VillaIntroSection />
+      </RenderOnView>
 
-      <section id="gallery" className="section">
-      <Gallery 
-  title="Villa Lithos Gallery"
-  subtitle="Exterior, interiors, pool & views — a taste of the experience."
-/>
-      </section>
+      <RenderOnView fallbackHeight="600px" rootMargin="400px">
+        <ConciergeSection />
+      </RenderOnView>
 
-      <section id="inquiry" className="section">
-        <ContactForm />
-      </section>
+      {/* Gallery section - preserve id for anchor */}
+      <RenderOnView
+        id="gallery"
+        className="section"
+        fallbackHeight="300px"
+        rootMargin="400px"
+      >
+        <Gallery
+          title="Villa Lithos Gallery"
+          subtitle="Exterior, interiors, pool, and views."
+        />
+      </RenderOnView>
+
+      {/* Map section - preserve id for anchor */}
+      <RenderOnView
+        id="location"
+        fallbackHeight="500px"
+        rootMargin="400px"
+      >
+        <VillaMapSection />
+      </RenderOnView>
+
+      {/* Contact/Inquiry section - preserve ids for anchor */}
+      <RenderOnView
+        id="contact"
+        className="section"
+        fallbackHeight="700px"
+        rootMargin="400px"
+      >
+        <div id="inquiry">
+          <ContactForm />
+        </div>
+      </RenderOnView>
     </main>
   );
 }
