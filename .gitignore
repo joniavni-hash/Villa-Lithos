@@ -50,3 +50,5 @@ nul
 # Claude temp files
 tmpclaude-*
 .claude/
+public/videos/hero2.mp4
+"public/videos/Villa Lithos.mp4"
