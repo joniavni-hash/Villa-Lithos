@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { fontVariables } from "./fonts";
 
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingContactButtonWrapper from "@/components/FloatingContactButtonWrapper";
 import {
@@ -94,6 +95,7 @@ export default function RootLayout({
         <AllJsonLd />
       </head>
       <body suppressHydrationWarning>
+        <Header />
         <main id="site-main">{children}</main>
         <Footer />
         <FloatingContactButtonWrapper />

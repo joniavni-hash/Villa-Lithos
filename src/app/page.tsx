@@ -15,7 +15,7 @@ const ConciergeSection = dynamic(
   { ssr: true }
 );
 
-const Gallery = dynamic(() => import("@/components/Gallery"), {
+const GalleryCarousel = dynamic(() => import("@/components/GalleryCarousel"), {
   ssr: true,
 });
 
@@ -36,7 +36,8 @@ export default function HomePage() {
         kicker="WELCOME TO"
         title="Villa Lithos"
         subtitle="A private villa in Greece. Quiet stays, thoughtful comfort, easy luxury."
-        videoSrc="/videos/hero.mp4"
+        videoSrcMobile="/videos/hero.mp4"
+        videoSrcDesktop="/videos/heroPC.mp4"
         poster="/img/hero.webp"
         imageUrl="/img/hero.webp"
         contactHref="/#inquiry"
@@ -59,11 +60,11 @@ export default function HomePage() {
       <RenderOnView
         id="gallery"
         className="section"
-        fallbackHeight="300px"
+        fallbackHeight="500px"
         rootMargin="400px"
       >
-        <Gallery
-          title="Villa Lithos Gallery"
+        <GalleryCarousel
+          title="Gallery"
           subtitle="Exterior, interiors, pool, and views."
         />
       </RenderOnView>

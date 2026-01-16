@@ -4,24 +4,44 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import ImageLightbox from "./ImageLightbox";
+import {
+  Bed,
+  Users,
+  Bath,
+  Home,
+  TreePine,
+  Waves,
+  Sparkles,
+  Flame,
+  Circle,
+  Dumbbell,
+  ArrowUpDown,
+  Car,
+  type LucideIcon
+} from "lucide-react";
 
 const BOOKING_URL =
   "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72";
 
-const highlights = [
-  { label: "Bedrooms", value: "9" },
-  { label: "Guests", value: "22" },
-  { label: "Bathrooms", value: "10" },
-  { label: "Floors", value: "4" },
+// Stats with professional monochrome icons from lucide-react
+const highlights: { label: string; value: string; icon: LucideIcon }[] = [
+  { label: "Bedrooms", value: "9", icon: Bed },
+  { label: "Guests", value: "22", icon: Users },
+  { label: "Bathrooms", value: "10", icon: Bath },
+  { label: "Build", value: "800m²", icon: Home },
+  { label: "Plot", value: "5000m²", icon: TreePine },
 ];
 
-const amenities = [
-  "Private Pool",
-  "Outdoor Sauna",
-  "Padel Court",
-  "Modern Gym",
-  "Elevator",
-  "Private Parking",
+// Amenities with monochrome lucide-react icons
+const amenities: { name: string; icon: LucideIcon; image: string }[] = [
+  { name: "Private Pool", icon: Waves, image: "/img/gallery/03.webp" },
+  { name: "Jacuzzi", icon: Sparkles, image: "/img/gallery/05.jpg" },
+  { name: "Outdoor Sauna", icon: Flame, image: "/img/gallery/06.jpg" },
+  { name: "Padel Court", icon: Circle, image: "/img/gallery/01.jpg" },
+  { name: "Modern Gym", icon: Dumbbell, image: "/img/gallery/04.jpg" },
+  { name: "Elevator", icon: ArrowUpDown, image: "/img/gallery/10.jpg" },
+  { name: "Private Parking", icon: Car, image: "/img/gallery/12.jpg" },
 ];
 
 const galleryImages = [
@@ -64,7 +84,6 @@ export default function VillaIntroSection() {
   const imageRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const amenitiesRef = useRef<HTMLDivElement>(null);
-  const infoRef = useRef<HTMLDivElement>(null);
   const ctaRef = useRef<HTMLDivElement>(null);
 
   // Changed to once: true to prevent continuous re-renders on scroll (reduces TBT)
@@ -74,7 +93,6 @@ export default function VillaIntroSection() {
   const imageInView = useInView(imageRef, { once: true, amount: 0.3 });
   const contentInView = useInView(contentRef, { once: true, amount: 0.2 });
   const amenitiesInView = useInView(amenitiesRef, { once: true, amount: 0.3 });
-  const infoInView = useInView(infoRef, { once: true, amount: 0.3 });
   const ctaInView = useInView(ctaRef, { once: true, amount: 0.5 });
 
   return (
@@ -119,22 +137,28 @@ export default function VillaIntroSection() {
         {/* Stats Row - fade up with stagger */}
         <motion.div
           ref={statsRef}
-          className="villa-intro__stats"
+          className="villa-intro__stats villa-intro__stats--five-col"
           initial="hidden"
           animate={statsInView ? "visible" : "hidden"}
           variants={staggerContainer}
         >
-          {highlights.map((item) => (
-            <motion.div
-              key={item.label}
-              className="villa-intro__stat"
-              variants={staggerItem}
-              transition={{ duration: 0.5 }}
-            >
-              <span className="villa-intro__stat-value">{item.value}</span>
-              <span className="villa-intro__stat-label">{item.label}</span>
-            </motion.div>
-          ))}
+          {highlights.map((item) => {
+            const IconComponent = item.icon;
+            return (
+              <motion.div
+                key={item.label}
+                className="villa-intro__stat"
+                variants={staggerItem}
+                transition={{ duration: 0.5 }}
+              >
+                <span className="villa-intro__stat-icon" aria-hidden="true">
+                  <IconComponent size={28} strokeWidth={1.5} />
+                </span>
+                <span className="villa-intro__stat-value">{item.value}</span>
+                <span className="villa-intro__stat-label">{item.label}</span>
+              </motion.div>
+            );
+          })}
         </motion.div>
 
         {/* Image Gallery - fade up with stagger */}
@@ -195,14 +219,14 @@ export default function VillaIntroSection() {
           >
             <motion.div className="villa-intro__lead" variants={staggerItem} transition={{ duration: 0.6 }}>
               <p>
-                Villa Lithos is a four-storey home built for up to 22 guests.
-                Nine bedrooms, ten bathrooms, and enough space for large families,
-                friend groups, or work retreats.
+                Villa Lithos is a stunning 800m² home built on a 5000m² plot, designed
+                for up to 22 guests. Nine bedrooms, ten bathrooms, and enough space
+                for large families, friend groups, or work retreats.
               </p>
               <p>
-                Swim in the pool, warm up in the outdoor sauna, or play padel
-                in the sun. There's a gym, an elevator, lounges on two floors,
-                and private parking.
+                Swim in the pool, relax in the jacuzzi, warm up in the outdoor sauna,
+                or play padel in the sun. There&apos;s a gym, an elevator, lounges on
+                two floors, and private parking.
               </p>
             </motion.div>
 
@@ -221,7 +245,7 @@ export default function VillaIntroSection() {
           </motion.div>
         </div>
 
-        {/* Amenities - fade up */}
+        {/* Amenities - fade up with centered title */}
         <motion.div
           ref={amenitiesRef}
           className="villa-intro__amenities"
@@ -230,58 +254,37 @@ export default function VillaIntroSection() {
           variants={fadeUp}
           transition={{ duration: 0.6 }}
         >
-          <h3 className="villa-intro__section-title">Amenities</h3>
+          <h3 className="villa-intro__section-title villa-intro__section-title--centered">
+            Amenities
+          </h3>
           <motion.ul
-            className="villa-intro__amenities-list"
+            className="villa-intro__amenities-list villa-intro__amenities-list--with-images"
             variants={staggerContainer}
             initial="hidden"
             animate={amenitiesInView ? "visible" : "hidden"}
           >
-            {amenities.map((amenity) => (
-              <motion.li
-                key={amenity}
-                variants={staggerItem}
-                transition={{ duration: 0.4 }}
-              >
-                {amenity}
-              </motion.li>
-            ))}
+            {amenities.map((amenity) => {
+              const AmenityIcon = amenity.icon;
+              return (
+                <motion.li
+                  key={amenity.name}
+                  variants={staggerItem}
+                  transition={{ duration: 0.4 }}
+                >
+                  <ImageLightbox
+                    src={amenity.image}
+                    alt={amenity.name}
+                    className="villa-intro__amenity-item"
+                  >
+                    <span className="villa-intro__amenity-icon" aria-hidden="true">
+                      <AmenityIcon size={20} strokeWidth={1.5} />
+                    </span>
+                    <span className="villa-intro__amenity-name">{amenity.name}</span>
+                  </ImageLightbox>
+                </motion.li>
+              );
+            })}
           </motion.ul>
-        </motion.div>
-
-        {/* Guest Info Cards - fade up */}
-        <motion.div
-          ref={infoRef}
-          className="villa-intro__info-grid"
-          initial="hidden"
-          animate={infoInView ? "visible" : "hidden"}
-          variants={staggerContainer}
-        >
-          <motion.div
-            className="villa-intro__info-card"
-            variants={staggerItem}
-            transition={{ duration: 0.6 }}
-          >
-            <h4>Guest Access</h4>
-            <p>
-              Full access to the pool, sauna, gym, padel court, garden, and
-              all indoor spaces. The fireplace is not available for guest use.
-            </p>
-          </motion.div>
-          <motion.div
-            className="villa-intro__info-card"
-            variants={staggerItem}
-            transition={{ duration: 0.6 }}
-          >
-            <h4>Check-in &amp; Check-out</h4>
-            <p>
-              <strong>Check-in:</strong> 4:00 PM
-              <br />
-              <strong>Check-out:</strong> 10:00 AM
-              <br />
-              <strong>Quiet hours:</strong> 10 PM to 8 AM
-            </p>
-          </motion.div>
         </motion.div>
 
         {/* CTA - fade up */}

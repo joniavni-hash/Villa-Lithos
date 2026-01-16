@@ -1,7 +1,6 @@
 "use client";
 
 import { useRef } from "react";
-import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 
 const services = [
@@ -15,11 +14,6 @@ const services = [
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0 },
-};
-
-const slideFromRight = {
-  hidden: { opacity: 0, x: 60 },
-  visible: { opacity: 1, x: 0 },
 };
 
 const staggerContainer = {
@@ -39,14 +33,12 @@ const staggerItem = {
 
 export default function ConciergeSection() {
   const sectionRef = useRef<HTMLElement>(null);
-  const imageRef = useRef<HTMLDivElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const servicesRef = useRef<HTMLUListElement>(null);
 
   // Changed to once: true to prevent continuous re-renders on scroll (reduces TBT)
   const sectionInView = useInView(sectionRef, { once: true, amount: 0.15 });
-  const imageInView = useInView(imageRef, { once: true, amount: 0.3 });
   const headerInView = useInView(headerRef, { once: true, amount: 0.4 });
   const contentInView = useInView(contentRef, { once: true, amount: 0.3 });
   const servicesInView = useInView(servicesRef, { once: true, amount: 0.5 });
@@ -54,140 +46,117 @@ export default function ConciergeSection() {
   return (
     <section
       id="services"
-      className="concierge"
+      className="concierge concierge--no-image"
       aria-labelledby="concierge-title"
       ref={sectionRef}
     >
       <div className="concierge__container">
-        {/* Main Grid with Image */}
-        <div className="concierge__main-grid">
-          {/* Image - slides from right */}
-          <motion.div
-            ref={imageRef}
-            className="concierge__image-wrapper"
-            initial="hidden"
-            animate={imageInView ? "visible" : "hidden"}
-            variants={slideFromRight}
-            transition={{ duration: 0.8, ease: [0.22, 0.8, 0.22, 1] }}
-          >
-            <div className="concierge__image">
-              <Image
-                src="/img/services/IMG_0206.webp"
-                alt="Villa Lithos concierge service"
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className="concierge__img"
+        {/* Content - centered layout without image */}
+        <motion.div
+          className="concierge__content-wrapper concierge__content-wrapper--centered"
+          initial="hidden"
+          animate={sectionInView ? "visible" : "hidden"}
+          variants={fadeUp}
+          transition={{ duration: 0.6, delay: 0.1 }}
+        >
+          <div className="concierge__grid concierge__grid--centered">
+            {/* Header */}
+            <motion.header
+              ref={headerRef}
+              className="concierge__header"
+              initial="hidden"
+              animate={headerInView ? "visible" : "hidden"}
+              variants={staggerContainer}
+            >
+              <motion.span
+                className="concierge__kicker"
+                variants={fadeUp}
+                transition={{ duration: 0.5 }}
+              >
+                What We Offer
+              </motion.span>
+              <motion.h2
+                id="concierge-title"
+                className="concierge__title"
+                variants={fadeUp}
+                transition={{ duration: 0.6, delay: 0.1 }}
+              >
+                Concierge Services
+              </motion.h2>
+              <motion.p
+                className="concierge__intro"
+                variants={fadeUp}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                Hospitality that fits your stay.
+              </motion.p>
+            </motion.header>
+
+            {/* Content */}
+            <motion.div
+              ref={contentRef}
+              className="concierge__content"
+              initial="hidden"
+              animate={contentInView ? "visible" : "hidden"}
+              variants={staggerContainer}
+            >
+              <motion.p
+                variants={fadeUp}
+                transition={{ duration: 0.5 }}
+              >
+                Our concierge handles the details so you don&apos;t have to,
+                whether you&apos;re here with family or for work.
+              </motion.p>
+              <motion.p
+                variants={fadeUp}
+                transition={{ duration: 0.5, delay: 0.1 }}
+              >
+                We arrange private chefs, stock the house before you arrive,
+                keep it clean while you&apos;re here, and point you to the best
+                local experiences.
+              </motion.p>
+              <motion.p
+                variants={fadeUp}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                Private guests and corporate groups both get the same attention.
+                Every stay runs smoothly.
+              </motion.p>
+              <motion.p
+                className="concierge__closing"
+                variants={fadeUp}
+                transition={{ duration: 0.6, delay: 0.3 }}
+              >
+                Small requests, big ones. We&apos;re here to help.
+              </motion.p>
+
+              <motion.hr
+                className="concierge__divider"
+                variants={fadeUp}
+                transition={{ duration: 0.4, delay: 0.35 }}
               />
-            </div>
-          </motion.div>
 
-          {/* Content - fades up */}
-          <motion.div
-            className="concierge__content-wrapper"
-            initial="hidden"
-            animate={sectionInView ? "visible" : "hidden"}
-            variants={fadeUp}
-            transition={{ duration: 0.6, delay: 0.1 }}
-          >
-            <div className="concierge__grid">
-              {/* Header */}
-              <motion.header
-                ref={headerRef}
-                className="concierge__header"
+              <motion.ul
+                ref={servicesRef}
+                className="concierge__services concierge__services--centered"
+                aria-label="Key services"
                 initial="hidden"
-                animate={headerInView ? "visible" : "hidden"}
+                animate={servicesInView ? "visible" : "hidden"}
                 variants={staggerContainer}
               >
-                <motion.span
-                  className="concierge__kicker"
-                  variants={fadeUp}
-                  transition={{ duration: 0.5 }}
-                >
-                  What We Offer
-                </motion.span>
-                <motion.h2
-                  id="concierge-title"
-                  className="concierge__title"
-                  variants={fadeUp}
-                  transition={{ duration: 0.6, delay: 0.1 }}
-                >
-                  Concierge Services
-                </motion.h2>
-                <motion.p
-                  className="concierge__intro"
-                  variants={fadeUp}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                >
-                  Hospitality that fits your stay.
-                </motion.p>
-              </motion.header>
-
-              {/* Content */}
-              <motion.div
-                ref={contentRef}
-                className="concierge__content"
-                initial="hidden"
-                animate={contentInView ? "visible" : "hidden"}
-                variants={staggerContainer}
-              >
-                <motion.p
-                  variants={fadeUp}
-                  transition={{ duration: 0.5 }}
-                >
-                  Our concierge handles the details so you don't have to,
-                  whether you're here with family or for work.
-                </motion.p>
-                <motion.p
-                  variants={fadeUp}
-                  transition={{ duration: 0.5, delay: 0.1 }}
-                >
-                  We arrange private chefs, stock the house before you arrive,
-                  keep it clean while you're here, and point you to the best
-                  local experiences.
-                </motion.p>
-                <motion.p
-                  variants={fadeUp}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                >
-                  Private guests and corporate groups both get the same attention.
-                  Every stay runs smoothly.
-                </motion.p>
-                <motion.p
-                  className="concierge__closing"
-                  variants={fadeUp}
-                  transition={{ duration: 0.6, delay: 0.3 }}
-                >
-                  Small requests, big ones. We're here to help.
-                </motion.p>
-
-                <motion.hr
-                  className="concierge__divider"
-                  variants={fadeUp}
-                  transition={{ duration: 0.4, delay: 0.35 }}
-                />
-
-                <motion.ul
-                  ref={servicesRef}
-                  className="concierge__services"
-                  aria-label="Key services"
-                  initial="hidden"
-                  animate={servicesInView ? "visible" : "hidden"}
-                  variants={staggerContainer}
-                >
-                  {services.map((service, index) => (
-                    <motion.li
-                      key={service}
-                      variants={staggerItem}
-                      transition={{ duration: 0.4, delay: index * 0.1 }}
-                    >
-                      {service}
-                    </motion.li>
-                  ))}
-                </motion.ul>
-              </motion.div>
-            </div>
-          </motion.div>
-        </div>
+                {services.map((service, index) => (
+                  <motion.li
+                    key={service}
+                    variants={staggerItem}
+                    transition={{ duration: 0.4, delay: index * 0.1 }}
+                  >
+                    {service}
+                  </motion.li>
+                ))}
+              </motion.ul>
+            </motion.div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

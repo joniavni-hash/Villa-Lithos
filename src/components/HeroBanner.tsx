@@ -8,17 +8,24 @@ type Props = {
   kicker?: string;
   title?: string;
   subtitle?: string;
-  videoSrc?: string;
+  videoSrcMobile?: string;
+  videoSrcDesktop?: string;
+  videoSrc?: string; // fallback for backward compatibility
   poster?: string;
   imageUrl?: string;
   contactHref?: string;
   galleryHref?: string;
 };
 
+// Desktop breakpoint matches CSS (1024px)
+const DESKTOP_BREAKPOINT = 1024;
+
 export default function HeroBanner({
   kicker = "WELCOME TO",
   title = "Villa Lithos",
   subtitle = "A private villa in Greece. Quiet stays, thoughtful comfort, easy luxury.",
+  videoSrcMobile,
+  videoSrcDesktop,
   videoSrc,
   poster = "/img/hero.webp",
   imageUrl = "/img/hero.webp",
@@ -29,6 +36,20 @@ export default function HeroBanner({
   const [videoReady, setVideoReady] = useState(false);
   const [videoError, setVideoError] = useState(false);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  // Check screen size after mount
+  useEffect(() => {
+    setMounted(true);
+    const checkDesktop = () => {
+      setIsDesktop(window.innerWidth >= DESKTOP_BREAKPOINT);
+    };
+
+    checkDesktop();
+    window.addEventListener("resize", checkDesktop);
+    return () => window.removeEventListener("resize", checkDesktop);
+  }, []);
 
   // Check reduced motion preference after mount
   useEffect(() => {
@@ -40,10 +61,19 @@ export default function HeroBanner({
     return () => mq.removeEventListener("change", handler);
   }, []);
 
+  // Determine video source based on screen size
+  const currentVideoSrc = mounted
+    ? (isDesktop ? (videoSrcDesktop || videoSrc) : (videoSrcMobile || videoSrc))
+    : videoSrc;
+
   // Handle video load/error
   useEffect(() => {
     const video = videoRef.current;
-    if (!video || !videoSrc || prefersReducedMotion) return;
+    if (!video || !currentVideoSrc || prefersReducedMotion) return;
+
+    // Reset states when video source changes
+    setVideoReady(false);
+    setVideoError(false);
 
     const onCanPlay = () => setVideoReady(true);
     const onError = () => setVideoError(true);
@@ -51,13 +81,16 @@ export default function HeroBanner({
     video.addEventListener("canplaythrough", onCanPlay);
     video.addEventListener("error", onError);
 
+    // Load the new source
+    video.load();
+
     return () => {
       video.removeEventListener("canplaythrough", onCanPlay);
       video.removeEventListener("error", onError);
     };
-  }, [videoSrc, prefersReducedMotion]);
+  }, [currentVideoSrc, prefersReducedMotion]);
 
-  const showVideo = videoSrc && !videoError && !prefersReducedMotion;
+  const showVideo = currentVideoSrc && !videoError && !prefersReducedMotion;
   const fallbackImage = poster || imageUrl;
 
   return (
@@ -84,6 +117,7 @@ export default function HeroBanner({
           {showVideo && (
             <video
               ref={videoRef}
+              key={currentVideoSrc} // Force remount when source changes
               className={`hv-video ${videoReady ? "hv-video--loaded" : ""}`}
               autoPlay
               muted
@@ -91,7 +125,7 @@ export default function HeroBanner({
               playsInline
               preload="none"
             >
-              <source src={videoSrc} type="video/mp4" />
+              <source src={currentVideoSrc} type="video/mp4" />
             </video>
           )}
 
