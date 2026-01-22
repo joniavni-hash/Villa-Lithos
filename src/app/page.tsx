@@ -2,6 +2,7 @@ import dynamic from "next/dynamic";
 import HeroBanner from "@/components/HeroBanner";
 import MarqueeLine from "@/components/MarqueeLine";
 import RenderOnView from "@/components/RenderOnView";
+import UltraLuxuryGallery from "@/components/UltraLuxuryGallery";
 
 // Dynamic imports for below-fold heavy components
 // These reduce initial JS bundle and main thread work
@@ -14,10 +15,6 @@ const ConciergeSection = dynamic(
   () => import("@/components/ConciergeSection"),
   { ssr: true }
 );
-
-const GalleryCarousel = dynamic(() => import("@/components/GalleryCarousel"), {
-  ssr: true,
-});
 
 const VillaMapSection = dynamic(
   () => import("@/components/VillaMapSection"),
@@ -35,7 +32,7 @@ export default function HomePage() {
       <HeroBanner
         kicker="WELCOME TO"
         title="Villa Lithos"
-        subtitle="A private villa in Greece. Quiet stays, thoughtful comfort, easy luxury."
+        subtitle="A private villa in Greece. Quiet stays, thoughtful comfort."
         videoSrcMobile="/videos/hero.mp4"
         videoSrcDesktop="/videos/heroPC.mp4"
         poster="/img/hero.webp"
@@ -57,17 +54,12 @@ export default function HomePage() {
       </RenderOnView>
 
       {/* Gallery section - preserve id for anchor */}
-      <RenderOnView
-        id="gallery"
-        className="section"
-        fallbackHeight="500px"
-        rootMargin="400px"
-      >
-        <GalleryCarousel
+      <div id="gallery">
+        <UltraLuxuryGallery
           title="Gallery"
-          subtitle="Exterior, interiors, pool, and views."
+          subtitle="A Visual Journey"
         />
-      </RenderOnView>
+      </div>
 
       {/* Map section - preserve id for anchor */}
       <RenderOnView

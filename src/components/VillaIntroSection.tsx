@@ -17,7 +17,8 @@ import {
   Circle,
   Dumbbell,
   ArrowUpDown,
-  Car,
+  ChefHat,
+  Monitor,
   type LucideIcon
 } from "lucide-react";
 
@@ -35,13 +36,13 @@ const highlights: { label: string; value: string; icon: LucideIcon }[] = [
 
 // Amenities with monochrome lucide-react icons
 const amenities: { name: string; icon: LucideIcon; image: string }[] = [
-  { name: "Private Pool", icon: Waves, image: "/img/gallery/03.webp" },
-  { name: "Jacuzzi", icon: Sparkles, image: "/img/gallery/05.jpg" },
+  { name: "Private Pool & Jacuzzi", icon: Waves, image: "/img/gallery/12.jpg" },
   { name: "Outdoor Sauna", icon: Flame, image: "/img/gallery/06.jpg" },
   { name: "Padel Court", icon: Circle, image: "/img/gallery/01.jpg" },
-  { name: "Modern Gym", icon: Dumbbell, image: "/img/gallery/04.jpg" },
+  { name: "Gym", icon: Dumbbell, image: "/img/gallery/04.jpg" },
   { name: "Elevator", icon: ArrowUpDown, image: "/img/gallery/10.jpg" },
-  { name: "Private Parking", icon: Car, image: "/img/gallery/12.jpg" },
+  { name: "Design Kitchen", icon: ChefHat, image: "/img/gallery/1S4A11341134-Edit.jpg" },
+  { name: "Workspace", icon: Monitor, image: "/img/gallery/25.jpg" },
 ];
 
 const galleryImages = [

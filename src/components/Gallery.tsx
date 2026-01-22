@@ -1,8 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import dynamic from "next/dynamic";
-const TourGallery = dynamic(() => import("@/components/TourGallery"), { ssr: false });
+import TourGallery from "@/components/TourGallery";
 type TourGalleryItem = {
   src: string;
   alt?: string;

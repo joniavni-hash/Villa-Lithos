@@ -73,7 +73,7 @@ export default function ConciergeSection() {
                 variants={fadeUp}
                 transition={{ duration: 0.5 }}
               >
-                What We Offer
+                Hospitality that fits your stay.
               </motion.span>
               <motion.h2
                 id="concierge-title"
@@ -83,13 +83,6 @@ export default function ConciergeSection() {
               >
                 Concierge Services
               </motion.h2>
-              <motion.p
-                className="concierge__intro"
-                variants={fadeUp}
-                transition={{ duration: 0.5, delay: 0.2 }}
-              >
-                Hospitality that fits your stay.
-              </motion.p>
             </motion.header>
 
             {/* Content */}

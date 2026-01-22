@@ -4,7 +4,6 @@ import { fontVariables } from "./fonts";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import FloatingContactButtonWrapper from "@/components/FloatingContactButtonWrapper";
 import {
   SITE,
   siteUrl,
@@ -98,7 +97,6 @@ export default function RootLayout({
         <Header />
         <main id="site-main">{children}</main>
         <Footer />
-        <FloatingContactButtonWrapper />
       </body>
     </html>
   );
