@@ -45,13 +45,10 @@ export default function HomePage() {
       <MarqueeLine />
 
       {/* Below-fold sections wrapped with RenderOnView for lazy mounting */}
-      <RenderOnView fallbackHeight="800px" rootMargin="400px">
-        <VillaIntroSection />
-      </RenderOnView>
+      {/* Under-fold sections - static render for anchor fix */}
+      <VillaIntroSection />
 
-      <RenderOnView fallbackHeight="600px" rootMargin="400px">
-        <ConciergeSection />
-      </RenderOnView>
+      <ConciergeSection />
 
       {/* Gallery section - preserve id for anchor */}
       <div id="gallery">
@@ -62,25 +59,18 @@ export default function HomePage() {
       </div>
 
       {/* Map section - preserve id for anchor */}
-      <RenderOnView
-        id="location"
-        fallbackHeight="500px"
-        rootMargin="400px"
-      >
+      {/* Map section - preserve id for anchor */}
+      <div id="location">
         <VillaMapSection />
-      </RenderOnView>
+      </div>
 
       {/* Contact/Inquiry section - preserve ids for anchor */}
-      <RenderOnView
-        id="contact"
-        className="section"
-        fallbackHeight="700px"
-        rootMargin="400px"
-      >
+      {/* Contact/Inquiry section - preserve ids for anchor */}
+      <div id="contact" className="section">
         <div id="inquiry">
           <ContactForm />
         </div>
-      </RenderOnView>
+      </div>
     </main>
   );
 }
