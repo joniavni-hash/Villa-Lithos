@@ -216,25 +216,46 @@ export default function PremiumGallery({
         </div>
 
         {/* Categories */}
-        <div className="mb-14 overflow-x-auto pb-6 scrollbar-hide">
-          <div className="flex justify-start md:justify-center gap-4 min-w-max px-4">
+        <div className="mb-16 overflow-x-auto pb-6 scrollbar-hide">
+          <div className="flex justify-start md:justify-center gap-3 min-w-max px-4">
             {categories.map((cat) => (
               <button
                 key={cat.id}
                 onClick={() => setActiveCategory(cat.id)}
                 className={`
-                  relative group flex items-center gap-2 px-6 py-3 rounded-xl text-xs uppercase tracking-widest font-bold transition-all duration-150 ease-[cubic-bezier(0.25,1,0.5,1)]
-                  border-2 active:translate-y-1 active:shadow-none
+                  relative group flex items-center gap-2.5 px-7 py-3.5 rounded-2xl text-[11px] uppercase tracking-[0.15em] font-semibold 
+                  transition-all duration-500 ease-out overflow-hidden
                   ${activeCategory === cat.id
-                    ? "bg-[#1F1E1C] border-[#1F1E1C] text-[#FAFAF8] shadow-[0_6px_0_#4A4A48]"
-                    : "bg-[#FAFAF8] border-[#E5E2DC] text-[#8B7E6A] shadow-[0_6px_0_#E5E2DC] hover:border-[#8B7E6A] hover:text-[#1F1E1C] hover:shadow-[0_6px_0_#8B7E6A] hover:-translate-y-1"
+                    ? "bg-gradient-to-br from-[#2D2D2D] via-[#1F1E1C] to-[#0F0F0F] text-white shadow-[0_8px_30px_rgba(0,0,0,0.12)] scale-105"
+                    : "bg-white/80 backdrop-blur-sm text-[#8B7E6A] border border-[#E5E2DC]/50 shadow-[0_2px_8px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_24px_rgba(139,126,106,0.15)] hover:scale-105 hover:border-[#8B7E6A]/30"
                   }
                 `}
               >
-                <span className={`opacity-80 group-hover:opacity-100 transition-opacity`}>
+                {/* Gradient overlay on hover (inactive buttons) */}
+                {activeCategory !== cat.id && (
+                  <div className="absolute inset-0 bg-gradient-to-br from-[#8B7E6A]/0 via-[#8B7E6A]/0 to-[#8B7E6A]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                )}
+
+                {/* Active button shimmer effect */}
+                {activeCategory === cat.id && (
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
+                )}
+
+                {/* Icon */}
+                <span className={`relative z-10 transition-all duration-300 ${activeCategory === cat.id
+                    ? "opacity-100 scale-110"
+                    : "opacity-70 group-hover:opacity-100 group-hover:scale-110"
+                  }`}>
                   {CATEGORY_ICONS[cat.id] || CATEGORY_ICONS["all"]}
                 </span>
-                {cat.label}
+
+                {/* Label */}
+                <span className="relative z-10">{cat.label}</span>
+
+                {/* Active indicator dot */}
+                {activeCategory === cat.id && (
+                  <span className="absolute top-1.5 right-1.5 w-1.5 h-1.5 bg-gradient-to-br from-white to-white/60 rounded-full animate-pulse" />
+                )}
               </button>
             ))}
           </div>
