@@ -152,21 +152,6 @@ export default function ConciergeSection() {
                 ))}
               </motion.ul>
             </motion.div>
-
-            {/* Image from Gallery */}
-            <motion.div
-              className="concierge__image"
-              initial="hidden"
-              animate={sectionInView ? "visible" : "hidden"}
-              variants={fadeUp}
-              transition={{ duration: 0.8, delay: 0.3 }}
-            >
-              <img
-                src="/img/gallery/Exterior & Pool (3).webp"
-                alt="Villa Lithos exterior view"
-                loading="lazy"
-              />
-            </motion.div>
           </div>
         </motion.div>
       </div>

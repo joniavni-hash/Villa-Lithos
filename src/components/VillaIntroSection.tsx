@@ -201,8 +201,8 @@ export default function VillaIntroSection() {
           >
             <div className="villa-intro__featured-img-wrapper">
               <Image
-                src="/img/gallery/01.webp"
-                alt="Villa Lithos exterior view"
+                src="/img/gallery/insidevilla.jpg"
+                alt="Villa Lithos luxury interior view"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="villa-intro__featured-img"
