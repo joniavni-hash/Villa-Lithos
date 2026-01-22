@@ -8,11 +8,12 @@ export default function Footer() {
       <div className="site-footer__container">
         {/* Top Section */}
         {/* Top Section - 3 Column Layout for Desktop */}
-        <div className="flex flex-col lg:grid lg:grid-cols-3 gap-12 lg:gap-8 items-start justify-between py-12">
+        {/* Top Section - 3 Column Layout for Desktop */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-8 items-start w-full py-12">
 
-          {/* LEFT: Contact (Moved from center) */}
-          <div className="flex flex-col items-center lg:items-start w-full order-3 lg:order-1">
-            <h3 className="site-footer__heading mb-6">Contact</h3>
+          {/* LEFT: Contact */}
+          <div className="flex flex-col items-center lg:items-start w-full order-last lg:order-first">
+            <h3 className="site-footer__heading mb-6 mt-0">Contact</h3>
             <div className="flex flex-col gap-4 items-center lg:items-start text-[15px]">
               <a href="tel:+306932757142" className="site-footer__contact-link flex items-center gap-3 hover:text-[#8B9A7D] transition-colors">
                 <Phone size={18} strokeWidth={1.5} className="text-[#8B9A7D]" />
@@ -29,18 +30,18 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* CENTER: Brand (With Socials) */}
-          <div className="site-footer__brand flex flex-col items-center text-center w-full order-1 lg:order-2">
-            <span className="site-footer__brand-name text-3xl mb-4 block">Villa Lithos</span>
+          {/* CENTER: Brand */}
+          <div className="site-footer__brand flex flex-col items-center text-center w-full">
+            <span className="site-footer__brand-name text-3xl mb-4 block mt-0">Villa Lithos</span>
             <p className="site-footer__tagline max-w-xs mx-auto mb-6 text-[#6B7280]">
               A private villa in Porto Rafti, Greece. Quiet stays, thoughtful comfort.
             </p>
             <FooterSocialLinks />
           </div>
 
-          {/* RIGHT: Explore (Links) */}
-          <div className="flex flex-col items-center lg:items-end w-full order-2 lg:order-3">
-            <h3 className="site-footer__heading mb-6">Explore</h3>
+          {/* RIGHT: Explore */}
+          <div className="flex flex-col items-center lg:items-end w-full">
+            <h3 className="site-footer__heading mb-6 mt-0">Explore</h3>
             <nav className="flex flex-col gap-3 items-center lg:items-end text-[15px]">
               <Link href="/#about" className="hover:text-[#8B9A7D] transition-colors">The Villa</Link>
               <Link href="/#services" className="hover:text-[#8B9A7D] transition-colors">Concierge</Link>
