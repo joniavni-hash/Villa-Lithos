@@ -23,7 +23,7 @@ const DESKTOP_BREAKPOINT = 1024;
 export default function HeroBanner({
   kicker = "WELCOME TO",
   title = "Villa Lithos",
-  subtitle = "A private villa in Greece. Quiet stays, thoughtful comfort, easy luxury.",
+  subtitle = "A private villa in Greece. Quiet stays, thoughtful comfort.",
   videoSrcMobile,
   videoSrcDesktop,
   videoSrc,

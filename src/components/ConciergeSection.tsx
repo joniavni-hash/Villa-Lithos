@@ -5,9 +5,13 @@ import { motion, useInView } from "framer-motion";
 
 const services = [
   "Private Chefs",
-  "Home Provisioning",
   "Housekeeping",
   "Local Experiences",
+  "Private Yachts",
+  "Local Musicians",
+  "VIP Service",
+  "Workshops",
+  "Themed Events",
 ];
 
 // Animation variants
@@ -63,7 +67,7 @@ export default function ConciergeSection() {
             {/* Header */}
             <motion.header
               ref={headerRef}
-              className="concierge__header"
+              className="concierge__header text-center"
               initial="hidden"
               animate={headerInView ? "visible" : "hidden"}
               variants={staggerContainer}
@@ -116,7 +120,7 @@ export default function ConciergeSection() {
                 Every stay runs smoothly.
               </motion.p>
               <motion.p
-                className="concierge__closing"
+                className="concierge__closing text-center"
                 variants={fadeUp}
                 transition={{ duration: 0.6, delay: 0.3 }}
               >

@@ -36,13 +36,13 @@ const highlights: { label: string; value: string; icon: LucideIcon }[] = [
 
 // Amenities with monochrome lucide-react icons
 const amenities: { name: string; icon: LucideIcon; image: string }[] = [
-  { name: "Private Pool & Jacuzzi", icon: Waves, image: "/img/gallery/12.jpg" },
-  { name: "Outdoor Sauna", icon: Flame, image: "/img/gallery/06.jpg" },
-  { name: "Padel Court", icon: Circle, image: "/img/gallery/01.jpg" },
-  { name: "Gym", icon: Dumbbell, image: "/img/gallery/04.jpg" },
+  { name: "Private Pool & Jacuzzi", icon: Waves, image: "/img/gallery/Exterior & Pool.jpg" },
+  { name: "Outdoor Sauna", icon: Flame, image: "/img/gallery/Wellness & Spa (2).jpg" },
+  { name: "Padel Court", icon: Circle, image: "/img/gallery/Sports & Activities (2).jpg" },
+  { name: "Gym", icon: Dumbbell, image: "/img/gallery/Sports & Activities (4).jpg" },
   { name: "Elevator", icon: ArrowUpDown, image: "/img/gallery/10.jpg" },
-  { name: "Design Kitchen", icon: ChefHat, image: "/img/gallery/1S4A11341134-Edit.jpg" },
-  { name: "Workspace", icon: Monitor, image: "/img/gallery/25.jpg" },
+  { name: "Design Kitchen", icon: ChefHat, image: "/img/gallery/Kitchen.jpg" },
+  { name: "Workspace", icon: Monitor, image: "/img/gallery/Living & Dining (3).jpg" },
 ];
 
 const galleryImages = [
