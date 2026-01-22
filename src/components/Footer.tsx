@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FooterSocialLinks from "./FooterSocialLinks";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -14,13 +15,16 @@ export default function Footer() {
             <h3 className="site-footer__heading mb-6">Contact</h3>
             <div className="flex flex-col gap-4 items-center lg:items-start text-[15px]">
               <a href="tel:+306932757142" className="site-footer__contact-link flex items-center gap-3 hover:text-[#8B9A7D] transition-colors">
-                <span className="text-xl">📞</span> +30 693 275 7142
+                <Phone size={18} strokeWidth={1.5} className="text-[#8B9A7D]" />
+                <span>+30 693 275 7142</span>
               </a>
               <a href="mailto:info@villalithos.com" className="site-footer__contact-link flex items-center gap-3 hover:text-[#8B9A7D] transition-colors">
-                <span className="text-xl">📧</span> info@villalithos.com
+                <Mail size={18} strokeWidth={1.5} className="text-[#8B9A7D]" />
+                <span>info@villalithos.com</span>
               </a>
               <span className="site-footer__address flex items-center gap-3 text-[#6B7280]">
-                <span className="text-xl">📍</span> Porto Rafti, Attica, Greece
+                <MapPin size={18} strokeWidth={1.5} className="text-[#8B9A7D]" />
+                <span>Porto Rafti, Attica, Greece</span>
               </span>
             </div>
           </div>
