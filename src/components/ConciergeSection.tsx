@@ -153,7 +153,7 @@ export default function ConciergeSection() {
               </motion.ul>
             </motion.div>
 
-            {/* Image */}
+            {/* Image from Gallery */}
             <motion.div
               className="concierge__image"
               initial="hidden"
@@ -162,8 +162,8 @@ export default function ConciergeSection() {
               transition={{ duration: 0.8, delay: 0.3 }}
             >
               <img
-                src="/img/concierge-interior.png"
-                alt="Villa Lithos luxury interior"
+                src="/img/gallery/Exterior & Pool (3).webp"
+                alt="Villa Lithos exterior view"
                 loading="lazy"
               />
             </motion.div>
