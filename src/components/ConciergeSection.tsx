@@ -50,20 +50,20 @@ export default function ConciergeSection() {
   return (
     <section
       id="services"
-      className="concierge concierge--no-image"
+      className="concierge"
       aria-labelledby="concierge-title"
       ref={sectionRef}
     >
       <div className="concierge__container">
-        {/* Content - centered layout without image */}
+        {/* Content with image */}
         <motion.div
-          className="concierge__content-wrapper concierge__content-wrapper--centered"
+          className="concierge__content-wrapper"
           initial="hidden"
           animate={sectionInView ? "visible" : "hidden"}
           variants={fadeUp}
           transition={{ duration: 0.6, delay: 0.1 }}
         >
-          <div className="concierge__grid concierge__grid--centered">
+          <div className="concierge__grid">
             {/* Header */}
             <motion.header
               ref={headerRef}
@@ -135,7 +135,7 @@ export default function ConciergeSection() {
 
               <motion.ul
                 ref={servicesRef}
-                className="concierge__services concierge__services--centered"
+                className="concierge__services"
                 aria-label="Key services"
                 initial="hidden"
                 animate={servicesInView ? "visible" : "hidden"}
@@ -151,6 +151,21 @@ export default function ConciergeSection() {
                   </motion.li>
                 ))}
               </motion.ul>
+            </motion.div>
+
+            {/* Image */}
+            <motion.div
+              className="concierge__image"
+              initial="hidden"
+              animate={sectionInView ? "visible" : "hidden"}
+              variants={fadeUp}
+              transition={{ duration: 0.8, delay: 0.3 }}
+            >
+              <img
+                src="/img/concierge-interior.png"
+                alt="Villa Lithos luxury interior"
+                loading="lazy"
+              />
             </motion.div>
           </div>
         </motion.div>
