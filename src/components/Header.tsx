@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 const navLinks = [
   { href: "/#about", label: "The Villa" },
@@ -12,24 +11,16 @@ const navLinks = [
 ];
 
 export default function Header() {
-  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  // Close menu when clicking a nav link
   const handleNavClick = () => {
     setMenuOpen(false);
   };
 
-  // Prevent body scroll when menu is open
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   useEffect(() => {
     if (menuOpen) {
       document.body.style.overflow = "hidden";
@@ -42,19 +33,17 @@ export default function Header() {
   }, [menuOpen]);
 
   return (
-    <header className={`site-header ${scrolled ? "site-header--scrolled" : ""}`}>
+    <header className="site-header site-header--scrolled">
       <div className="site-header__container">
-        {/* Logo */}
-        <Link href="/" className="site-header__logo" aria-label="Villa Lithos Home">
-          <Image
-            src="/img/logo.webp"
-            alt="Villa Lithos"
-            width={44}
-            height={44}
-            className="site-header__logo-img"
-          />
-          <span className="site-header__logo-text">Villa Lithos</span>
-        </Link>
+        {/* Brand Name */}
+        <button
+          type="button"
+          className="site-header__brand"
+          aria-label="Villa Lithos - Scroll to top"
+          onClick={scrollToTop}
+        >
+          Villa Lithos
+        </button>
 
         {/* Desktop Navigation */}
         <nav className="site-header__nav" aria-label="Main navigation">
@@ -79,7 +68,6 @@ export default function Header() {
           <span className={`site-header__menu-icon ${menuOpen ? "is-open" : ""}`}>
             <span></span>
             <span></span>
-            <span></span>
           </span>
         </button>
       </div>
@@ -90,18 +78,22 @@ export default function Header() {
         aria-hidden={!menuOpen}
       >
         <div className="site-header__mobile-content">
-          {/* Close button */}
-          <button
-            type="button"
-            className="site-header__mobile-close"
-            onClick={() => setMenuOpen(false)}
-            aria-label="Close menu"
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-              <path d="M18 6L6 18M6 6l12 12" />
-            </svg>
-          </button>
+          {/* Mobile Header */}
+          <div className="site-header__mobile-header">
+            <span className="site-header__mobile-brand">Villa Lithos</span>
+            <button
+              type="button"
+              className="site-header__mobile-close"
+              onClick={() => setMenuOpen(false)}
+              aria-label="Close menu"
+            >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M18 6L6 18M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
 
+          {/* Mobile Links */}
           <nav className="site-header__mobile-links">
             {navLinks.map((link, index) => (
               <Link
@@ -109,24 +101,28 @@ export default function Header() {
                 href={link.href}
                 className="site-header__mobile-link"
                 onClick={handleNavClick}
-                style={{ animationDelay: `${index * 0.1}s` }}
+                style={{ animationDelay: `${index * 0.08}s` }}
               >
                 {link.label}
               </Link>
             ))}
           </nav>
 
-          <Link
-            href="/#inquiry"
-            className="site-header__mobile-cta"
-            onClick={handleNavClick}
-          >
-            Book Your Stay
-          </Link>
+          {/* Mobile CTA */}
+          <div className="site-header__mobile-cta-wrapper">
+            <Link
+              href="/#inquiry"
+              className="site-header__mobile-cta"
+              onClick={handleNavClick}
+            >
+              Book Your Stay
+            </Link>
+          </div>
 
+          {/* Mobile Footer */}
           <div className="site-header__mobile-footer">
-            <p>Porto Rafti, Greece</p>
             <a href="tel:+306932757142">+30 693 275 7142</a>
+            <span>Porto Rafti, Greece</span>
           </div>
         </div>
       </div>
