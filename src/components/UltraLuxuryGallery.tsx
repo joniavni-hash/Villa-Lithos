@@ -27,7 +27,7 @@ interface Props {
 }
 
 // --- Icons Mapping ---
-const CATEGORY_ICONS: Record<string, JSX.Element> = {
+const CATEGORY_ICONS: Record<string, React.ReactElement> = {
   all: (
     <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
       <rect x="3" y="3" width="7" height="7" rx="1" />
@@ -253,8 +253,8 @@ export default function PremiumGallery({
                   setIsImageLoading(true);
                 }}
                 className={`group cursor-pointer block transition-all duration-700 ease-out ${isVisible
-                    ? 'opacity-100 translate-y-0'
-                    : 'opacity-0 translate-y-8'
+                  ? 'opacity-100 translate-y-0'
+                  : 'opacity-0 translate-y-8'
                   }`}
                 style={{ transitionDelay: `${(index % 3) * 100}ms` }}
               >
