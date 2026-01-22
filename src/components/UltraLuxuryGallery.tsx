@@ -216,50 +216,62 @@ export default function PremiumGallery({
         </div>
 
         {/* Categories */}
-        <div className="mb-16 overflow-x-auto pb-6 scrollbar-hide">
-          <div className="flex justify-start md:justify-center gap-3 min-w-max px-4">
-            {categories.map((cat) => (
+        <div className="flex flex-col items-center gap-6 w-full px-4">
+
+          {/* Main 'View All' Button */}
+          {categories.filter(c => c.id === 'all').map(cat => (
+            <button
+              key={cat.id}
+              onClick={() => setActiveCategory(cat.id)}
+              className={`
+                  relative group flex items-center justify-center gap-3 px-8 py-3.5 rounded-full text-[12px] uppercase tracking-[0.2em] font-bold 
+                  transition-all duration-300 ease-out min-w-[180px]
+                  ${activeCategory === cat.id
+                  ? "bg-[#B8956A] text-white shadow-[0_8px_25px_rgba(184,149,106,0.25)] scale-105"
+                  : "bg-white text-[#8B7E6A] border border-[#E5E2DC] shadow-sm hover:border-[#B8956A] hover:text-[#B8956A] hover:shadow-md"
+                }
+                `}
+            >
+              <span className={`transition-transform duration-300 ${activeCategory === cat.id ? "scale-110" : "group-hover:scale-110"}`}>
+                {CATEGORY_ICONS[cat.id]}
+              </span>
+              {cat.label}
+            </button>
+          ))}
+
+          {/* Separator Line */}
+          <div className="w-px h-8 bg-[#E5E2DC]" />
+
+          {/* Sub Categories */}
+          <div className="flex flex-wrap justify-center gap-3">
+            {categories.filter(c => c.id !== 'all').map((cat) => (
               <button
                 key={cat.id}
                 onClick={() => setActiveCategory(cat.id)}
                 className={`
-                  relative group flex items-center gap-2.5 px-7 py-3.5 rounded-2xl text-[11px] uppercase tracking-[0.15em] font-semibold 
-                  transition-all duration-500 ease-out overflow-hidden
+                  relative group flex items-center gap-2 px-5 py-2.5 rounded-full text-[11px] uppercase tracking-[0.15em] font-medium 
+                  transition-all duration-300 ease-out whitespace-nowrap
                   ${activeCategory === cat.id
-                    ? "bg-gradient-to-br from-[#2D2D2D] via-[#1F1E1C] to-[#0F0F0F] text-white shadow-[0_8px_30px_rgba(0,0,0,0.12)] scale-105"
-                    : "bg-white/80 backdrop-blur-sm text-[#8B7E6A] border border-[#E5E2DC]/50 shadow-[0_2px_8px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_24px_rgba(139,126,106,0.15)] hover:scale-105 hover:border-[#8B7E6A]/30"
+                    ? "bg-[#B8956A] text-white shadow-[0_4px_15px_rgba(184,149,106,0.2)] scale-105"
+                    : "bg-white text-[#666] border border-[#E5E2DC] hover:border-[#B8956A] hover:text-[#B8956A]"
                   }
                 `}
               >
-                {/* Gradient overlay on hover (inactive buttons) */}
-                {activeCategory !== cat.id && (
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#8B7E6A]/0 via-[#8B7E6A]/0 to-[#8B7E6A]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                )}
-
-                {/* Active button shimmer effect */}
-                {activeCategory === cat.id && (
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
-                )}
-
                 {/* Icon */}
-                <span className={`relative z-10 transition-all duration-300 ${activeCategory === cat.id
-                    ? "opacity-100 scale-110"
-                    : "opacity-70 group-hover:opacity-100 group-hover:scale-110"
+                <span className={`transition-transform duration-300 ${activeCategory === cat.id ? "scale-100" : "group-hover:scale-110"
                   }`}>
-                  {CATEGORY_ICONS[cat.id] || CATEGORY_ICONS["all"]}
+                  {CATEGORY_ICONS[cat.id]}
                 </span>
 
                 {/* Label */}
-                <span className="relative z-10">{cat.label}</span>
-
-                {/* Active indicator dot */}
-                {activeCategory === cat.id && (
-                  <span className="absolute top-1.5 right-1.5 w-1.5 h-1.5 bg-gradient-to-br from-white to-white/60 rounded-full animate-pulse" />
-                )}
+                <span>{cat.label}</span>
               </button>
             ))}
           </div>
         </div>
+
+        {/* Layout Spacer */}
+        <div className="h-32 w-full" />
 
         {/* Grid (No Text) */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
