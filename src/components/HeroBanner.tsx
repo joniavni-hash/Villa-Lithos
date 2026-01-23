@@ -123,7 +123,7 @@ export default function HeroBanner({
               muted
               loop
               playsInline
-              preload="none"
+              preload="auto"
             >
               <source src={currentVideoSrc} type="video/mp4" />
             </video>
