@@ -423,11 +423,13 @@ export default function UltraLuxuryGallery({
           <>
             {/* Header */}
             <div className="flex flex-col mb-10 md:mb-24 gap-6 md:gap-8 px-4 md:px-0">
-              {/* Centered Title & Description */}
-              <div className="flex flex-col items-center justify-center text-center w-full">
-                <span className="concierge__kicker mb-4 text-center">
-                  A Visual Journey
-                </span>
+              {/* Centered Title & Description with Left Kicker */}
+              <div className="flex flex-col items-center justify-center w-full">
+                <div className="w-full text-left">
+                  <span className="concierge__kicker mb-4 block">
+                    A Visual Journey
+                  </span>
+                </div>
                 <h2 className="concierge__title mb-4 text-center">
                   Gallery
                 </h2>
