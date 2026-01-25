@@ -1,439 +1,912 @@
-"use client";
+"use client"
 
-import { useState, useEffect, useCallback } from "react";
-import Image from "next/image";
+import { useCallback, useEffect, useState } from "react"
+import { createPortal } from "react-dom"
+import Image from "next/image"
 
-// --- Types ---
-type CategoryId = "all" | "rooms" | "interior" | "pool" | "exterior" | "wellness" | "sports";
-
-interface GalleryImage {
-  id: string;
-  src: string;
-  alt: string;
-  category: CategoryId;
-  // Κρατάμε τα πεδία για να μην χτυπάει το TypeScript, αλλά τα αγνοούμε στο UI
-  title?: string;
-  description?: string;
+// Helper function to get category title based on filename
+const getCategoryTitle = (filename: string): string => {
+  if (filename.includes('Living & Dining')) return 'Main Salon & Dining'
+  if (filename.includes('Wellness & Spa')) return 'Luxury Spa & Wellness'
+  if (filename.includes('Exterior & Pool')) return 'Infinity Pool & Exterior'
+  if (filename.includes('Bedrooms')) return 'Master Suites'
+  if (filename.includes('Sports & Activities')) return 'Private Gym & Padel'
+  if (filename.includes('Kitchen')) return 'Gourmet Kitchen'
+  return 'Villa Lithos'
 }
 
-interface CategoryData {
-  id: CategoryId;
-  label: string;
+// Helper function to get alt text based on filename
+const getCategoryAlt = (filename: string): string => {
+  if (filename.includes('Living & Dining')) return 'Elegant living and dining interior at Villa Lithos'
+  if (filename.includes('Wellness & Spa')) return 'Luxury spa and wellness facilities'
+  if (filename.includes('Exterior & Pool')) return 'Stunning infinity pool and villa exterior'
+  if (filename.includes('Bedrooms')) return 'Luxurious master suite bedroom'
+  if (filename.includes('Sports & Activities')) return 'Private gym and padel court'
+  if (filename.includes('Kitchen')) return 'Fully equipped gourmet kitchen'
+  return 'Villa Lithos luxury accommodation'
 }
+
+// --- FIX: Helper function to encode URL correctly ---
+// Αυτό φτιάχνει τα σύμβολα &, (), κενά
+const getEncodedPath = (filename: string) => `/img/gallery/${encodeURIComponent(filename)}`
+
+// Generate image array from folder structure
+const generateImageArray = () => {
+  const images: { src: string; alt: string; title: string; category: string }[] = []
+
+  // Exterior & Pool: 1 base + 14 numbered (2-14) = 14 total
+  images.push({
+    src: getEncodedPath('Exterior & Pool.jpg'),
+    alt: getCategoryAlt('Exterior & Pool'),
+    title: getCategoryTitle('Exterior & Pool'),
+    category: 'exterior'
+  })
+  for (let i = 2; i <= 14; i++) {
+    images.push({
+      src: getEncodedPath(`Exterior & Pool (${i}).jpg`),
+      alt: getCategoryAlt('Exterior & Pool'),
+      title: getCategoryTitle('Exterior & Pool'),
+      category: 'exterior'
+    })
+  }
+
+  // Living & Dining: 1 base + 10 numbered (2-10) = 10 total
+  images.push({
+    src: getEncodedPath('Living & Dining.jpg'),
+    alt: getCategoryAlt('Living & Dining'),
+    title: getCategoryTitle('Living & Dining'),
+    category: 'living'
+  })
+  for (let i = 2; i <= 10; i++) {
+    images.push({
+      src: getEncodedPath(`Living & Dining (${i}).jpg`),
+      alt: getCategoryAlt('Living & Dining'),
+      title: getCategoryTitle('Living & Dining'),
+      category: 'living'
+    })
+  }
+
+  // Bedrooms: 1 base + 5 numbered (2-5) = 5 total
+  images.push({
+    src: getEncodedPath('Bedrooms.jpg'),
+    alt: getCategoryAlt('Bedrooms'),
+    title: getCategoryTitle('Bedrooms'),
+    category: 'bedrooms'
+  })
+  for (let i = 2; i <= 5; i++) {
+    images.push({
+      src: getEncodedPath(`Bedrooms (${i}).jpg`),
+      alt: getCategoryAlt('Bedrooms'),
+      title: getCategoryTitle('Bedrooms'),
+      category: 'bedrooms'
+    })
+  }
+
+  // Wellness & Spa: 1 base + 6 numbered (2-6) = 6 total
+  images.push({
+    src: getEncodedPath('Wellness & Spa.jpg'),
+    alt: getCategoryAlt('Wellness & Spa'),
+    title: getCategoryTitle('Wellness & Spa'),
+    category: 'wellness'
+  })
+  for (let i = 2; i <= 6; i++) {
+    images.push({
+      src: getEncodedPath(`Wellness & Spa (${i}).jpg`),
+      alt: getCategoryAlt('Wellness & Spa'),
+      title: getCategoryTitle('Wellness & Spa'),
+      category: 'wellness'
+    })
+  }
+
+  // Sports & Activities: 1 base + 4 numbered (2-4) = 4 total
+  images.push({
+    src: getEncodedPath('Sports & Activities.jpg'),
+    alt: getCategoryAlt('Sports & Activities'),
+    title: getCategoryTitle('Sports & Activities'),
+    category: 'sports'
+  })
+  for (let i = 2; i <= 4; i++) {
+    images.push({
+      src: getEncodedPath(`Sports & Activities (${i}).jpg`),
+      alt: getCategoryAlt('Sports & Activities'),
+      title: getCategoryTitle('Sports & Activities'),
+      category: 'sports'
+    })
+  }
+
+  // Kitchen: 1 only
+  images.push({
+    src: getEncodedPath('Kitchen.jpg'),
+    alt: getCategoryAlt('Kitchen'),
+    title: getCategoryTitle('Kitchen'),
+    category: 'kitchen'
+  })
+
+  return images
+}
+
+const villaImages = generateImageArray()
 
 interface Props {
   title?: string;
   subtitle?: string;
 }
 
-// --- Icons Mapping ---
-const CATEGORY_ICONS: Record<string, React.ReactElement> = {
-  all: (
-    <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <rect x="3" y="3" width="7" height="7" rx="1" />
-      <rect x="14" y="3" width="7" height="7" rx="1" />
-      <rect x="3" y="14" width="7" height="7" rx="1" />
-      <rect x="14" y="14" width="7" height="7" rx="1" />
-    </svg>
-  ),
-  rooms: (
-    <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <path d="M2 20v-8a2 2 0 012-2h16a2 2 0 012 2v8M4 10V6a2 2 0 012-2h12a2 2 0 012 2v4" />
-      <path d="M12 4v6" />
-    </svg>
-  ),
-  interior: (
-    <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
-      <path d="M9 22V12h6v10" />
-    </svg>
-  ),
-  pool: (
-    <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <path d="M2 12h20" />
-      <path d="M2 16c5 3 15-3 20 0" />
-      <path d="M12 3v5" />
-      <path d="M8 5l4-2 4 2" />
-    </svg>
-  ),
-  exterior: (
-    <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <path d="M17 18a5 5 0 0 0-10 0" />
-      <line x1="12" y1="2" x2="12" y2="9" />
-      <line x1="4.22" y1="10.22" x2="5.64" y2="11.64" />
-      <line x1="1" y1="18" x2="3" y2="18" />
-      <line x1="21" y1="18" x2="23" y2="18" />
-      <line x1="18.36" y1="11.64" x2="19.78" y2="10.22" />
-      <line x1="23" y1="22" x2="1" y2="22" />
-      <polyline points="8 6 12 2 16 6" />
-    </svg>
-  ),
-  wellness: (
-    <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <path d="M12 2.69l5.74 5.74a8 8 0 1 1-11.31 0z" />
-    </svg>
-  ),
-  sports: (
-    <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <circle cx="12" cy="12" r="10" />
-      <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
-      <path d="M2 12h20" />
-    </svg>
-  ),
-};
-
-export default function PremiumGallery({
-  title = "Visual Narrative",
-  subtitle = "DISCOVER THE ESTATE",
+export default function UltraLuxuryGallery({
+  title = "The Gallery",
+  subtitle = "EXPLORE",
 }: Props) {
-  const [images, setImages] = useState<GalleryImage[]>([]);
-  const [categories, setCategories] = useState<CategoryData[]>([]);
-  const [activeCategory, setActiveCategory] = useState<CategoryId>("all");
-  const [loading, setLoading] = useState(true);
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [slidesPerView, setSlidesPerView] = useState(2)
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
+  const [mounted, setMounted] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
+  const [touchStart, setTouchStart] = useState<number | null>(null)
+  const [touchEnd, setTouchEnd] = useState<number | null>(null)
+  const [showFullGallery, setShowFullGallery] = useState(false)
 
-  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
-  const [isImageLoading, setIsImageLoading] = useState(false);
+  /* ========== ANIMATION STATE ========== */
+  const [slideDirection, setSlideDirection] = useState<'next' | 'prev' | null>(null)
 
-  // Touch swipe state
-  const [touchStart, setTouchStart] = useState<number | null>(null);
-  const [touchEnd, setTouchEnd] = useState<number | null>(null);
+  // Reset direction when closing
+  useEffect(() => {
+    if (lightboxIndex === null) setSlideDirection(null)
+  }, [lightboxIndex])
 
-  // Scroll animation state
-  const [visibleImages, setVisibleImages] = useState<Set<string>>(new Set());
+  // Mobile centered slider config
+  const mobileSlideWidth = 82 // percentage of container width
+  const mobileSpaceBetween = 15 // pixels
+
+  // Minimum swipe distance
+  const minSwipeDistance = 50
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await fetch("/api/gallery");
-        if (!res.ok) throw new Error("Failed to fetch gallery");
-        const data = await res.json();
-        setImages(data.items);
-        setCategories(data.categories);
-      } catch (error) {
-        console.error("Gallery Error:", error);
-      } finally {
-        setLoading(false);
+    setMounted(true)
+  }, [])
+
+  useEffect(() => {
+    const handleResize = () => {
+      const mobile = window.innerWidth < 768
+      setIsMobile(mobile)
+      if (mobile) {
+        setSlidesPerView(1) // Centered mode uses 1 slide
+      } else {
+        setSlidesPerView(2)
       }
-    };
-    fetchData();
-  }, []);
+    }
 
-  const filteredImages = activeCategory === "all"
-    ? images
-    : images.filter((img) => img.category === activeCategory);
-
-  // Intersection Observer for scroll animations
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const imageId = entry.target.getAttribute('data-image-id');
-            if (imageId) {
-              setVisibleImages(prev => new Set([...prev, imageId]));
-            }
-          }
-        });
-      },
-      { threshold: 0.1, rootMargin: '50px' }
-    );
-
-    const imageElements = document.querySelectorAll('[data-image-id]');
-    imageElements.forEach(el => observer.observe(el));
-
-    return () => observer.disconnect();
-  }, [filteredImages]);
-
-  const showNext = useCallback(() => {
-    setIsImageLoading(true);
-    setLightboxIndex((prev) =>
-      prev === null || prev === filteredImages.length - 1 ? 0 : prev + 1
-    );
-  }, [filteredImages.length]);
-
-  const showPrev = useCallback(() => {
-    setIsImageLoading(true);
-    setLightboxIndex((prev) =>
-      prev === null || prev === 0 ? filteredImages.length - 1 : prev - 1
-    );
-  }, [filteredImages.length]);
+    handleResize()
+    window.addEventListener("resize", handleResize)
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
 
   // Touch handlers for swipe
-  const minSwipeDistance = 50;
-
   const onTouchStart = (e: React.TouchEvent) => {
-    setTouchEnd(null);
-    setTouchStart(e.targetTouches[0].clientX);
-  };
+    setTouchEnd(null)
+    setTouchStart(e.targetTouches[0].clientX)
+  }
 
   const onTouchMove = (e: React.TouchEvent) => {
-    setTouchEnd(e.targetTouches[0].clientX);
-  };
+    setTouchEnd(e.targetTouches[0].clientX)
+  }
 
   const onTouchEnd = () => {
-    if (!touchStart || !touchEnd) return;
-    const distance = touchStart - touchEnd;
-    const isLeftSwipe = distance > minSwipeDistance;
-    const isRightSwipe = distance < -minSwipeDistance;
+    if (!touchStart || !touchEnd) return
+    const distance = touchStart - touchEnd
+    const isLeftSwipe = distance > minSwipeDistance
+    const isRightSwipe = distance < -minSwipeDistance
     if (isLeftSwipe) {
-      showNext();
+      goToNext()
     }
     if (isRightSwipe) {
-      showPrev();
+      goToPrevious()
     }
-  };
+  }
 
+  // Keyboard navigation for lightbox
   useEffect(() => {
-    if (lightboxIndex === null) return;
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setLightboxIndex(null);
-      if (e.key === "ArrowRight") showNext();
-      if (e.key === "ArrowLeft") showPrev();
-    };
-    document.body.style.overflow = "hidden";
-    window.addEventListener("keydown", handleKeyDown);
-    return () => {
-      document.body.style.overflow = "";
-      window.removeEventListener("keydown", handleKeyDown);
-    };
-  }, [lightboxIndex, showNext, showPrev]);
+    if (lightboxIndex === null) return
 
-  if (loading) return <GallerySkeleton />;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setLightboxIndex(null)
+      if (e.key === "ArrowRight") {
+        setLightboxIndex((prev) => prev === null ? 0 : (prev + 1) % villaImages.length)
+      }
+      if (e.key === "ArrowLeft") {
+        setLightboxIndex((prev) => prev === null ? 0 : (prev - 1 + villaImages.length) % villaImages.length)
+      }
+    }
+
+    // Hide header when lightbox is open
+    const header = document.querySelector('.site-header') as HTMLElement
+    const originalDisplay = header ? header.style.display : ''
+    if (header) {
+      header.style.display = 'none'
+    }
+
+    document.body.style.overflow = "hidden"
+    window.addEventListener("keydown", handleKeyDown)
+
+    return () => {
+      // Restore header
+      if (header) {
+        header.style.display = originalDisplay
+      }
+      document.body.style.overflow = ""
+      window.removeEventListener("keydown", handleKeyDown)
+    }
+  }, [lightboxIndex])
+
+  // For mobile centered mode, max is last image index
+  // For desktop, it's length - slidesPerView
+  const maxIndex = isMobile
+    ? villaImages.length - 1
+    : Math.max(0, Math.ceil(villaImages.length - slidesPerView))
+
+  const goToPrevious = useCallback(() => {
+    setCurrentIndex((prev) => Math.max(0, prev - 1))
+  }, [])
+
+  const goToNext = useCallback(() => {
+    setCurrentIndex((prev) => Math.min(maxIndex, prev + 1))
+  }, [maxIndex])
+
+  // Get desktop transform
+  const getDesktopTransform = () => {
+    return `translateX(-${currentIndex * (100 / slidesPerView)}%)`
+  }
 
   return (
-    <section className="py-20 md:py-32 bg-[#FAFAF8] text-[#1F1E1C]">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+    <section className={`bg-background overflow-hidden ${showFullGallery ? 'py-12 md:pt-24 md:pb-32' : 'py-12 md:py-32'}`}>
+      <div className="max-w-[1400px] mx-auto px-0 md:px-6 lg:px-8">
 
-        {/* Header */}
-        <div className="flex flex-col items-center text-center mb-16 space-y-4">
-          <span className="text-[11px] md:text-xs font-bold tracking-[0.25em] text-[#8B7E6A] uppercase">
-            {subtitle}
-          </span>
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal tracking-tight text-[#111]">
-            {title}
-          </h2>
-          <div className="w-16 h-[1px] bg-[#8B7E6A]/30 mt-6" />
-        </div>
-
-        {/* Categories */}
-        <div className="flex flex-col items-center gap-6 w-full px-4">
-
-          {/* Main 'View All' Button */}
-          {categories.filter(c => c.id === 'all').map(cat => (
-            <button
-              key={cat.id}
-              onClick={() => setActiveCategory(cat.id)}
-              className={`
-                  relative group flex items-center justify-center gap-3 px-8 py-3.5 rounded-full text-[12px] uppercase tracking-[0.2em] font-bold 
-                  transition-all duration-300 ease-out min-w-[180px]
-                  ${activeCategory === cat.id
-                  ? "bg-[#B8956A] text-white shadow-[0_8px_25px_rgba(184,149,106,0.25)] scale-105"
-                  : "bg-white text-[#8B7E6A] border border-[#E5E2DC] shadow-sm hover:border-[#B8956A] hover:text-[#B8956A] hover:shadow-md"
-                }
-                `}
-            >
-              <span className={`transition-transform duration-300 ${activeCategory === cat.id ? "scale-110" : "group-hover:scale-110"}`}>
-                {CATEGORY_ICONS[cat.id]}
-              </span>
-              {cat.label}
-            </button>
-          ))}
-
-          {/* Separator Line */}
-          <div className="w-px h-8 bg-[#E5E2DC]" />
-
-          {/* Sub Categories */}
-          <div className="flex flex-wrap justify-center gap-3">
-            {categories.filter(c => c.id !== 'all').map((cat) => (
+        {showFullGallery ? (
+          /* ========== FULL GALLERY GRID VIEW ========== */
+          <div
+            className="opacity-0"
+            style={{
+              animation: 'galleryFadeSlideIn 0.6s ease-out forwards',
+            }}
+          >
+            {/* Back Button - Sticky */}
+            <div className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm py-3 px-4 md:px-0 border-b border-[#E8E0D8]/50">
               <button
-                key={cat.id}
-                onClick={() => setActiveCategory(cat.id)}
-                className={`
-                  relative group flex items-center gap-2 px-5 py-2.5 rounded-full text-[11px] uppercase tracking-[0.15em] font-medium 
-                  transition-all duration-300 ease-out whitespace-nowrap
-                  ${activeCategory === cat.id
-                    ? "bg-[#B8956A] text-white shadow-[0_4px_15px_rgba(184,149,106,0.2)] scale-105"
-                    : "bg-white text-[#666] border border-[#E5E2DC] hover:border-[#B8956A] hover:text-[#B8956A]"
-                  }
-                `}
+                onClick={() => setShowFullGallery(false)}
+                className="group inline-flex items-center gap-3 transition-all duration-300 hover:gap-4"
+                style={{ color: '#8B7355' }}
               >
-                {/* Icon */}
-                <span className={`transition-transform duration-300 ${activeCategory === cat.id ? "scale-100" : "group-hover:scale-110"
-                  }`}>
-                  {CATEGORY_ICONS[cat.id]}
+                <span
+                  className="flex items-center justify-center w-10 h-10 rounded-full transition-all duration-300 group-hover:bg-[#8B7355]/10"
+                  style={{ border: '1.5px solid #8B7355' }}
+                >
+                  <svg
+                    className="w-5 h-5 transition-transform duration-300 group-hover:-translate-x-0.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+                  </svg>
                 </span>
-
-                {/* Label */}
-                <span>{cat.label}</span>
+                <span className="relative text-sm font-medium tracking-widest uppercase">
+                  Back to Gallery
+                  <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-[#8B7355] transition-all duration-300 group-hover:w-full" />
+                </span>
               </button>
-            ))}
-          </div>
-        </div>
+            </div>
 
-        {/* Layout Spacer */}
-        <div className="h-32 w-full" />
+            {/* Full Gallery Header - More breathing room */}
+            <div className="text-center mt-6 md:mt-12 mb-20 md:mb-32 px-4 md:px-0">
+              <span className="concierge__kicker mb-6 text-center block">Complete Collection</span>
+              <h2 className="concierge__title mb-6 text-center">All {villaImages.length} Photos</h2>
+              <p className="text-muted-foreground text-center max-w-lg mx-auto">
+                Explore every detail of Villa Lithos through our curated collection
+              </p>
+            </div>
 
-        {/* Grid (No Text) */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {filteredImages.map((image, index) => {
-            const isVisible = visibleImages.has(image.id);
-            return (
-              <div
-                key={image.id}
-                data-image-id={image.id}
-                onClick={() => {
-                  setLightboxIndex(index);
-                  setIsImageLoading(true);
-                }}
-                className={`group cursor-pointer block transition-all duration-700 ease-out ${isVisible
-                  ? 'opacity-100 translate-y-0'
-                  : 'opacity-0 translate-y-8'
-                  }`}
-                style={{ transitionDelay: `${(index % 3) * 100}ms` }}
-              >
-                <div className="relative aspect-[4/5] overflow-hidden rounded-[2px] bg-[#E8E5DF]">
+            {/* Grid Layout - Increased gaps for luxury spacing */}
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 px-4 md:px-0 mb-20 md:mb-40">
+              {villaImages.map((image, index) => (
+                <div
+                  key={image.src}
+                  className="group relative aspect-[4/3] overflow-hidden rounded-xl bg-muted cursor-pointer opacity-0 shadow-sm hover:shadow-xl transition-shadow duration-500"
+                  style={{
+                    animation: `gridItemFadeIn 0.5s ease-out ${0.1 + index * 0.04}s forwards`,
+                  }}
+                  onClick={() => setLightboxIndex(index)}
+                >
+                  <div className="absolute inset-0 flex items-center justify-center bg-[#F7F6F4] z-0">
+                    <div className="w-8 h-8 border-2 border-[#8B7355]/30 border-t-[#8B7355] rounded-full animate-spin" />
+                  </div>
                   <Image
-                    src={image.src}
+                    src={image.src || "/placeholder.svg"}
                     alt={image.alt}
                     fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110"
-                    placeholder="blur"
-                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8fvx4PQAIrwM4y5UN+QAAAABJRU5ErkJggg=="
+                    sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-110 relative z-10"
+                    loading={index < 8 ? "eager" : "lazy"}
                   />
-                  <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                  {/* Icon on Hover (Optional - remove if you want 100% clean grid too) */}
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    <div className="w-12 h-12 bg-white/95 backdrop-blur rounded-full shadow-lg flex items-center justify-center transform scale-90 group-hover:scale-100 transition-transform duration-500">
-                      <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-                        <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                      </svg>
-                    </div>
+                  {/* Permanent strong gradient at bottom for text readability */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                  {/* Hover Overlay - even stronger */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/10 opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
+                  {/* Title - Pure white with strong shadow */}
+                  <div className="absolute bottom-0 left-0 right-0 p-5 md:p-6 z-10 transition-all duration-400">
+                    <span
+                      className="font-serif text-sm md:text-lg font-semibold block transition-all duration-400 group-hover:translate-y-0 translate-y-1"
+                      style={{
+                        color: '#FFFFFF',
+                        textShadow: '0 2px 4px rgba(0,0,0,0.8), 0 4px 12px rgba(0,0,0,0.6)',
+                        letterSpacing: '0.02em'
+                      }}
+                    >
+                      {image.title}
+                    </span>
+                  </div>
+                  {/* Zoom icon on hover */}
+                  <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-black/30 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 transform scale-75 group-hover:scale-100 border border-white/20">
+                    <svg className="w-5 h-5" style={{ color: '#FFFFFF' }} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                    </svg>
                   </div>
                 </div>
+              ))}
+            </div>
+
+            {/* Back to Slider Button - More prominent */}
+            <div className="relative z-10 flex justify-center pt-20 pb-20 px-4 md:px-0">
+              <button
+                onClick={() => {
+                  setShowFullGallery(false)
+                  window.scrollTo({ top: 0, behavior: 'smooth' })
+                }}
+                className="group inline-flex items-center gap-3 px-10 py-5 transition-all duration-400"
+                style={{
+                  border: '2px solid #8B7355',
+                  borderRadius: '4px',
+                  backgroundColor: 'transparent',
+                  color: '#8B7355',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = '#8B7355'
+                  e.currentTarget.style.color = '#FFFFFF'
+                  e.currentTarget.style.transform = 'translateY(-2px)'
+                  e.currentTarget.style.boxShadow = '0 10px 30px rgba(139, 115, 85, 0.3)'
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = 'transparent'
+                  e.currentTarget.style.color = '#8B7355'
+                  e.currentTarget.style.transform = 'translateY(0)'
+                  e.currentTarget.style.boxShadow = 'none'
+                }}
+              >
+                <svg
+                  className="w-5 h-5 transition-transform duration-300 group-hover:-translate-x-1"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+                </svg>
+                <span className="text-sm font-semibold tracking-[0.2em] uppercase">Return to Slider View</span>
+              </button>
+            </div>
+
+            {/* CSS Keyframes for animations */}
+            <style jsx global>{`
+              @keyframes galleryFadeSlideIn {
+                from {
+                  opacity: 0;
+                  transform: translateY(30px);
+                }
+                to {
+                  opacity: 1;
+                  transform: translateY(0);
+                }
+              }
+              @keyframes gridItemFadeIn {
+                from {
+                  opacity: 0;
+                  transform: translateY(25px) scale(0.95);
+                }
+                to {
+                  opacity: 1;
+                  transform: translateY(0) scale(1);
+                }
+              }
+            `}</style>
+          </div>
+        ) : (
+          /* ========== SLIDER VIEW ========== */
+          <>
+            {/* Header */}
+            <div className="flex flex-col mb-10 md:mb-24 gap-6 md:gap-8 px-4 md:px-0">
+              {/* Centered Title & Description */}
+              <div className="flex flex-col items-center justify-center text-center w-full">
+                <span className="concierge__kicker mb-4 text-center">
+                  A Visual Journey
+                </span>
+                <h2 className="concierge__title mb-4 text-center">
+                  Gallery
+                </h2>
+                <div className="concierge__content pt-2 flex flex-col items-center">
+                  <p className="text-muted-foreground text-center">
+                    Every corner tells a story of craftsmanship and natural beauty.
+                  </p>
+                </div>
               </div>
-            );
-          })}
-        </div>
-      </div>
 
-      {/* --- PREMIUM LIGHTBOX (NO CAPTIONS) --- */}
-      {lightboxIndex !== null && filteredImages[lightboxIndex] && (
-        <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-[#0a0a0a]/95 backdrop-blur-[20px] animate-in fade-in duration-500"
-          onClick={() => setLightboxIndex(null)}
-        >
-          {/* --- Controls --- */}
+              {/* Navigation Arrows - Right Aligned or centered based on preference, here kept clean */}
+              <div className="hidden md:flex justify-center md:justify-end gap-2 md:gap-3">
+                <button
+                  onClick={goToPrevious}
+                  disabled={currentIndex === 0}
+                  className="group flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-full transition-all duration-300 disabled:opacity-40 disabled:cursor-not-allowed"
+                  style={{
+                    background: currentIndex === 0
+                      ? 'linear-gradient(135deg, #E8E0D8 0%, #D5CCC1 100%)'
+                      : 'linear-gradient(135deg, #FFFFFF 0%, #F5F1ED 100%)',
+                    boxShadow: currentIndex === 0
+                      ? 'inset 0 2px 4px rgba(0,0,0,0.1)'
+                      : '0 4px 12px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(139, 115, 85, 0.12), inset 0 -2px 4px rgba(0,0,0,0.03)',
+                    border: '1px solid rgba(139, 115, 85, 0.15)',
+                  }}
+                  onMouseEnter={(e) => {
+                    if (currentIndex !== 0) {
+                      e.currentTarget.style.boxShadow = '0 6px 20px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(139, 115, 85, 0.2), inset 0 -2px 4px rgba(0,0,0,0.05)'
+                      e.currentTarget.style.transform = 'translateY(-2px)'
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (currentIndex !== 0) {
+                      e.currentTarget.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(139, 115, 85, 0.12), inset 0 -2px 4px rgba(0,0,0,0.03)'
+                      e.currentTarget.style.transform = 'translateY(0)'
+                    }
+                  }}
+                  aria-label="Previous slide"
+                >
+                  <svg
+                    className="h-5 w-5 md:h-6 md:w-6 text-foreground transition-transform group-hover:-translate-x-0.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2.5"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>
+                <button
+                  onClick={goToNext}
+                  disabled={currentIndex >= maxIndex}
+                  className="group flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-full transition-all duration-300 disabled:opacity-40 disabled:cursor-not-allowed"
+                  style={{
+                    background: currentIndex >= maxIndex
+                      ? 'linear-gradient(135deg, #E8E0D8 0%, #D5CCC1 100%)'
+                      : 'linear-gradient(135deg, #FFFFFF 0%, #F5F1ED 100%)',
+                    boxShadow: currentIndex >= maxIndex
+                      ? 'inset 0 2px 4px rgba(0,0,0,0.1)'
+                      : '0 4px 12px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(139, 115, 85, 0.12), inset 0 -2px 4px rgba(0,0,0,0.03)',
+                    border: '1px solid rgba(139, 115, 85, 0.15)',
+                  }}
+                  onMouseEnter={(e) => {
+                    if (currentIndex < maxIndex) {
+                      e.currentTarget.style.boxShadow = '0 6px 20px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(139, 115, 85, 0.2), inset 0 -2px 4px rgba(0,0,0,0.05)'
+                      e.currentTarget.style.transform = 'translateY(-2px)'
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (currentIndex < maxIndex) {
+                      e.currentTarget.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(139, 115, 85, 0.12), inset 0 -2px 4px rgba(0,0,0,0.03)'
+                      e.currentTarget.style.transform = 'translateY(0)'
+                    }
+                  }}
+                  aria-label="Next slide"
+                >
+                  <svg
+                    className="h-5 w-5 md:h-6 md:w-6 text-foreground transition-transform group-hover:translate-x-0.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2.5"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </div>
 
-          {/* Close Button (Desktop Only) */}
-          <button
-            onClick={() => setLightboxIndex(null)}
-            className="hidden md:flex absolute top-6 right-6 z-[120] items-center justify-center w-12 h-12 rounded-full bg-black/30 text-white/70 backdrop-blur-sm border border-white/20 hover:bg-white/10 hover:text-white transition-all duration-300"
-          >
-            <span className="sr-only">Close</span>
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-
-          {/* Prev/Next Buttons (Desktop) */}
-          <button
-            onClick={(e) => { e.stopPropagation(); showPrev(); }}
-            className="hidden md:flex absolute left-6 top-1/2 -translate-y-1/2 z-[110] items-center justify-center w-14 h-14 rounded-full bg-black/30 text-white/70 backdrop-blur-sm border border-white/20 hover:bg-white/10 hover:text-white transition-all duration-300"
-          >
-            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-          <button
-            onClick={(e) => { e.stopPropagation(); showNext(); }}
-            className="hidden md:flex absolute right-6 top-1/2 -translate-y-1/2 z-[110] items-center justify-center w-14 h-14 rounded-full bg-black/30 text-white/70 backdrop-blur-sm border border-white/20 hover:bg-white/10 hover:text-white transition-all duration-300"
-          >
-            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-
-          {/* Main Image Container */}
-          <div
-            className="relative w-full h-full flex items-center justify-center p-4 md:p-16 lg:p-20"
-            onClick={(e) => e.stopPropagation()}
-          >
+            {/* Slider Container */}
             <div
-              className="relative w-full h-full max-w-[100vw] max-h-[100vh] flex items-center justify-center"
+              className="pt-4 md:pt-8"
+              style={{
+                overflow: 'hidden',
+                width: '100%',
+                position: 'relative',
+              }}
               onTouchStart={onTouchStart}
               onTouchMove={onTouchMove}
               onTouchEnd={onTouchEnd}
             >
-              {isImageLoading && (
-                <div className="absolute inset-0 flex items-center justify-center z-10">
-                  <div className="w-10 h-10 border-2 border-white/20 border-t-white/80 rounded-full animate-spin" />
+              {isMobile ? (
+                /* Mobile: Centered Peek Layout */
+                <div
+                  className="transition-transform duration-500 ease-out"
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    flexWrap: 'nowrap',
+                    gap: `${mobileSpaceBetween}px`,
+                    transform: `translateX(calc(${(100 - mobileSlideWidth) / 2}% - ${currentIndex * (mobileSlideWidth)}% - ${currentIndex * mobileSpaceBetween}px))`,
+                  }}
+                >
+                  {villaImages.map((image, index) => {
+                    const isActive = index === currentIndex
+                    return (
+                      <div
+                        key={image.src}
+                        style={{
+                          width: `${mobileSlideWidth}%`,
+                          flexShrink: 0,
+                          flexGrow: 0,
+                          transition: 'transform 0.4s ease, opacity 0.4s ease',
+                          transform: isActive ? 'scale(1)' : 'scale(0.92)',
+                          opacity: isActive ? 1 : 0.5,
+                        }}
+                      >
+                        <div
+                          className="group relative aspect-[16/9] overflow-hidden rounded-xl bg-muted cursor-pointer"
+                          style={{
+                            boxShadow: isActive
+                              ? '0 20px 40px rgba(0,0,0,0.15), 0 10px 20px rgba(139,115,85,0.1)'
+                              : '0 5px 15px rgba(0,0,0,0.08)',
+                          }}
+                          onClick={() => setLightboxIndex(index)}
+                        >
+                          <Image
+                            src={image.src || "/placeholder.svg"}
+                            alt={image.alt}
+                            fill
+                            sizes="85vw"
+                            className="object-cover"
+                            loading={index <= 2 ? "eager" : "lazy"}
+                            priority={index === 0}
+                          />
+                          {/* Gradient Overlay - Strong for text readability */}
+                          <div
+                            className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent transition-opacity duration-300"
+                            style={{ opacity: isActive ? 1 : 0.4 }}
+                          />
+                          {/* Title - Pure white, only on active slide */}
+                          <div
+                            className="absolute bottom-0 left-0 right-0 p-5 z-10 transition-all duration-300"
+                            style={{
+                              opacity: isActive ? 1 : 0,
+                              transform: isActive ? 'translateY(0)' : 'translateY(10px)',
+                            }}
+                          >
+                            <span
+                              className="font-serif text-lg font-semibold tracking-wide"
+                              style={{
+                                color: '#FFFFFF',
+                                textShadow: '0 2px 4px rgba(0,0,0,0.8), 0 4px 12px rgba(0,0,0,0.5)'
+                              }}
+                            >
+                              {image.title}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    )
+                  })}
+                </div>
+              ) : (
+                /* Desktop: Standard Horizontal Slider */
+                <div
+                  className="transition-transform duration-700 ease-out"
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    flexWrap: 'nowrap',
+                    transform: getDesktopTransform(),
+                  }}
+                >
+                  {villaImages.map((image, index) => (
+                    <div
+                      key={image.src}
+                      className="px-3"
+                      style={{
+                        width: `${100 / slidesPerView}%`,
+                        flexShrink: 0,
+                        flexGrow: 0,
+                      }}
+                    >
+                      <div
+                        className="group relative aspect-[4/3] overflow-hidden rounded-lg bg-muted cursor-pointer"
+                        onClick={() => setLightboxIndex(index)}
+                      >
+                        <Image
+                          src={image.src || "/placeholder.svg"}
+                          alt={image.alt}
+                          fill
+                          sizes="50vw"
+                          className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                          loading={index === 0 ? "eager" : "lazy"}
+                          priority={index === 0}
+                        />
+                        {/* Permanent subtle gradient */}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+                        {/* Hover Overlay - Strong for readability */}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                        {/* Title - Pure white */}
+                        <div className="absolute bottom-0 left-0 right-0 p-6 z-10 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                          <span
+                            className="font-serif text-2xl font-semibold tracking-wide"
+                            style={{
+                              color: '#FFFFFF',
+                              textShadow: '0 2px 4px rgba(0,0,0,0.8), 0 4px 12px rgba(0,0,0,0.5)'
+                            }}
+                          >
+                            {image.title}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               )}
-
-              <Image
-                src={filteredImages[lightboxIndex].src}
-                alt={filteredImages[lightboxIndex].alt}
-                fill
-                className={`object-contain transition-all duration-500 ease-out ${isImageLoading ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}
-                sizes="100vw"
-                priority
-                onLoad={() => setIsImageLoading(false)}
-              />
             </div>
+
+            {/* Progress Indicator */}
+            <div className="flex justify-center items-center mt-6 md:mt-12 py-4 md:pb-8 px-4 md:px-0">
+              {isMobile ? (
+                /* Mobile: Premium counter with progress */
+                <div className="flex flex-col items-center gap-3">
+                  <div className="flex items-center gap-4">
+                    <span
+                      className="font-serif text-2xl font-light"
+                      style={{ color: '#8B7355' }}
+                    >
+                      {String(currentIndex + 1).padStart(2, '0')}
+                    </span>
+                    <div className="w-20 h-0.5 bg-[#E8E0D8] rounded-full overflow-hidden">
+                      <div
+                        className="h-full bg-[#8B7355] rounded-full transition-all duration-500 ease-out"
+                        style={{ width: `${((currentIndex + 1) / villaImages.length) * 100}%` }}
+                      />
+                    </div>
+                    <span
+                      className="font-serif text-sm font-light"
+                      style={{ color: '#B5A898' }}
+                    >
+                      {String(villaImages.length).padStart(2, '0')}
+                    </span>
+                  </div>
+                  <span className="text-xs tracking-widest uppercase" style={{ color: '#A69882' }}>
+                    Swipe to explore
+                  </span>
+                </div>
+              ) : (
+                /* Desktop: Show dots in horizontal row */
+                <div className="flex flex-row flex-wrap justify-center items-center gap-2">
+                  {Array.from({ length: maxIndex + 1 }).map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => setCurrentIndex(index)}
+                      className="flex-shrink-0"
+                      style={{
+                        width: index === currentIndex ? '40px' : '12px',
+                        height: '12px',
+                        backgroundColor: index === currentIndex ? '#8B7355' : '#D1C4B8',
+                        borderRadius: '6px',
+                        border: 'none',
+                        cursor: 'pointer',
+                        transition: 'all 0.3s ease',
+                      }}
+                      onMouseEnter={(e) => {
+                        if (index !== currentIndex) {
+                          e.currentTarget.style.backgroundColor = '#B49A7D'
+                        }
+                      }}
+                      onMouseLeave={(e) => {
+                        if (index !== currentIndex) {
+                          e.currentTarget.style.backgroundColor = '#D1C4B8'
+                        }
+                      }}
+                      aria-label={`Go to slide ${index + 1}`}
+                    />
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* View All Gallery CTA */}
+            <div className="flex justify-center mt-8 md:mt-12 px-4 md:px-0">
+              <button
+                onClick={() => setShowFullGallery(true)}
+                className="group relative inline-flex items-center justify-center overflow-hidden"
+                style={{
+                  padding: '16px 40px',
+                  border: '1.5px solid #8B7355',
+                  borderRadius: '2px',
+                  backgroundColor: 'transparent',
+                  transition: 'all 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
+                  cursor: 'pointer',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = '#8B7355'
+                  e.currentTarget.style.borderColor = '#8B7355'
+                  const text = e.currentTarget.querySelector('span')
+                  if (text) (text as HTMLElement).style.color = '#FFFFFF'
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = 'transparent'
+                  e.currentTarget.style.borderColor = '#8B7355'
+                  const text = e.currentTarget.querySelector('span')
+                  if (text) (text as HTMLElement).style.color = '#8B7355'
+                }}
+              >
+                <span
+                  className="font-sans text-sm font-medium tracking-[0.2em] uppercase transition-colors duration-400"
+                  style={{ color: '#8B7355' }}
+                >
+                  View All Gallery
+                </span>
+              </button>
+            </div>
+          </>
+        )}
+      </div>
+
+      {/* Lightbox Rendering via Portal */}
+      {mounted && lightboxIndex !== null && typeof document !== 'undefined' && createPortal(
+        <div
+          className="fixed inset-0 flex flex-col items-center justify-center w-screen h-screen"
+          style={{
+            backgroundColor: 'rgba(50, 40, 30, 0.95)',
+            zIndex: 999999,
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            width: '100vw',
+            height: '100vh'
+          }}
+          onClick={() => setLightboxIndex(null)}
+        >
+          {/* Close Button */}
+          <button
+            onClick={() => setLightboxIndex(null)}
+            className="absolute top-4 right-4 md:top-8 md:right-8 z-[120] flex items-center justify-center w-12 h-12 md:w-16 md:h-16 rounded-full transition-all hover:scale-110"
+            style={{
+              backgroundColor: 'rgba(255, 255, 255, 0.12)',
+              borderWidth: '2px',
+              borderColor: 'rgba(255, 255, 255, 0.25)'
+            }}
+            aria-label="Close"
+          >
+            <svg className="w-6 h-6 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth="2.5">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+
+
+
+          {/* Previous Button */}
+          <button
+            onClick={(e) => {
+              e.stopPropagation()
+              setSlideDirection('prev')
+              setLightboxIndex((prev) => prev === null ? 0 : (prev - 1 + villaImages.length) % villaImages.length)
+            }}
+            className="absolute left-2 md:left-6 top-1/2 -translate-y-1/2 z-[110] flex items-center justify-center w-10 h-10 md:w-14 md:h-14 rounded-full transition-all hover:scale-110"
+            style={{ backgroundColor: 'rgba(255, 255, 255, 0.12)', borderWidth: '2px', borderColor: 'rgba(255, 255, 255, 0.25)' }}
+            aria-label="Previous image"
+          >
+            <svg className="w-5 h-5 md:w-7 md:h-7" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth="2.5">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          {/* Next Button */}
+          <button
+            onClick={(e) => {
+              e.stopPropagation()
+              setSlideDirection('next')
+              setLightboxIndex((prev) => prev === null ? 0 : (prev + 1) % villaImages.length)
+            }}
+            className="absolute right-2 md:right-6 top-1/2 -translate-y-1/2 z-[110] flex items-center justify-center w-10 h-10 md:w-14 md:h-14 rounded-full transition-all hover:scale-110"
+            style={{ backgroundColor: 'rgba(255, 255, 255, 0.12)', borderWidth: '2px', borderColor: 'rgba(255, 255, 255, 0.25)' }}
+            aria-label="Next image"
+          >
+            <svg className="w-5 h-5 md:w-7 md:h-7" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth="2.5">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+
+          {/* Image Container with Animation */}
+          <div
+            key={lightboxIndex} // Forces re-render for animation
+            className={`relative w-full h-full max-w-[90vw] md:max-w-[85vw] max-h-[70vh] md:max-h-[75vh] flex items-center justify-center ${slideDirection === 'next' ? 'animate-slide-left' :
+              slideDirection === 'prev' ? 'animate-slide-right' : 'animate-fade-in'
+              }`}
+            style={{
+              animation: slideDirection === 'next'
+                ? 'slideInRight 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards'
+                : slideDirection === 'prev'
+                  ? 'slideInLeft 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards'
+                  : 'fadeIn 0.4s ease-out forwards'
+            }}
+            onClick={(e) => e.stopPropagation()}
+            onTouchStart={(e) => setTouchStart(e.targetTouches[0].clientX)}
+            onTouchMove={(e) => setTouchEnd(e.targetTouches[0].clientX)}
+            onTouchEnd={() => {
+              if (!touchStart || !touchEnd) return
+              const distance = touchStart - touchEnd
+              if (distance > minSwipeDistance) {
+                setSlideDirection('next')
+                setLightboxIndex((prev) => prev === null ? 0 : (prev + 1) % villaImages.length)
+              }
+              if (distance < -minSwipeDistance) {
+                setSlideDirection('prev')
+                setLightboxIndex((prev) => prev === null ? 0 : (prev - 1 + villaImages.length) % villaImages.length)
+              }
+            }}
+          >
+            <Image
+              src={villaImages[lightboxIndex].src}
+              alt={villaImages[lightboxIndex].alt}
+              fill
+              className="object-contain"
+              sizes="90vw"
+              priority
+              quality={90}
+            />
           </div>
 
-          {/* Controls - Mobile Only (Floating Bar) */}
-          <div className="md:hidden fixed bottom-5 left-1/2 -translate-x-1/2 z-[120] inline-flex flex-row items-center gap-2 p-1.5 rounded-full bg-black/50 backdrop-blur-lg border border-white/10 shadow-2xl">
-            {/* Prev */}
-            <button
-              onClick={(e) => { e.stopPropagation(); showPrev(); }}
-              className="inline-flex items-center justify-center w-11 h-11 rounded-full text-white/80 active:bg-white/10 transition-colors shrink-0"
-            >
-              <span className="sr-only">Previous</span>
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-              </svg>
-            </button>
-
-            {/* Close */}
-            <button
-              onClick={(e) => { e.stopPropagation(); setLightboxIndex(null); }}
-              className="inline-flex items-center justify-center w-11 h-11 rounded-full text-white/80 active:bg-white/10 transition-colors shrink-0"
-            >
-              <span className="sr-only">Close</span>
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-
-            {/* Next */}
-            <button
-              onClick={(e) => { e.stopPropagation(); showNext(); }}
-              className="inline-flex items-center justify-center w-11 h-11 rounded-full text-white/80 active:bg-white/10 transition-colors shrink-0"
-            >
-              <span className="sr-only">Next</span>
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
+          {/* Preload Next/Prev Images */}
+          <div className="hidden">
+            <Image
+              src={villaImages[(lightboxIndex + 1) % villaImages.length].src}
+              alt="preload"
+              width={100} height={100}
+              priority
+            />
+            <Image
+              src={villaImages[(lightboxIndex - 1 + villaImages.length) % villaImages.length].src}
+              alt="preload"
+              width={100} height={100}
+              priority
+            />
           </div>
-        </div>
+
+          {/* Image Title */}
+          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-[110] px-8 py-4 bg-black/60 backdrop-blur-md rounded-full border border-white/20 text-center">
+            <span className="font-serif text-lg md:text-xl font-semibold block" style={{ color: '#FFFFFF' }}>
+              {villaImages[lightboxIndex].title}
+            </span>
+            <p className="mt-1 text-sm" style={{ color: 'rgba(255,255,255,0.7)' }}>
+              {lightboxIndex + 1} / {villaImages.length}
+            </p>
+          </div>
+
+          <style jsx>{`
+            @keyframes slideInRight {
+              from { opacity: 0; transform: translateX(40px); }
+              to { opacity: 1; transform: translateX(0); }
+            }
+            @keyframes slideInLeft {
+              from { opacity: 0; transform: translateX(-40px); }
+              to { opacity: 1; transform: translateX(0); }
+            }
+            @keyframes fadeIn {
+              from { opacity: 0; transform: scale(0.96); }
+              to { opacity: 1; transform: scale(1); }
+            }
+          `}</style>
+        </div>,
+        document.body
       )}
     </section>
-  );
-}
-
-function GallerySkeleton() {
-  return (
-    <div className="py-24 max-w-[1400px] mx-auto px-6">
-      <div className="w-48 h-4 bg-gray-200 rounded mx-auto mb-6 animate-pulse" />
-      <div className="w-96 h-12 bg-gray-200 rounded mx-auto mb-16 animate-pulse" />
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {[1, 2, 3, 4, 5, 6].map((i) => (
-          <div key={i} className="aspect-[4/5] bg-gray-100 rounded animate-pulse" />
-        ))}
-      </div>
-    </div>
-  );
+  )
 }
