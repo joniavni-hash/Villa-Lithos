@@ -688,36 +688,8 @@ export default function UltraLuxuryGallery({
                   </span>
                 </div>
               ) : (
-                /* Desktop: Show dots in horizontal row */
-                <div className="flex flex-row flex-wrap justify-center items-center gap-2">
-                  {Array.from({ length: maxIndex + 1 }).map((_, index) => (
-                    <button
-                      key={index}
-                      onClick={() => setCurrentIndex(index)}
-                      className="flex-shrink-0"
-                      style={{
-                        width: index === currentIndex ? '40px' : '12px',
-                        height: '12px',
-                        backgroundColor: index === currentIndex ? '#8B7355' : '#D1C4B8',
-                        borderRadius: '6px',
-                        border: 'none',
-                        cursor: 'pointer',
-                        transition: 'all 0.3s ease',
-                      }}
-                      onMouseEnter={(e) => {
-                        if (index !== currentIndex) {
-                          e.currentTarget.style.backgroundColor = '#B49A7D'
-                        }
-                      }}
-                      onMouseLeave={(e) => {
-                        if (index !== currentIndex) {
-                          e.currentTarget.style.backgroundColor = '#D1C4B8'
-                        }
-                      }}
-                      aria-label={`Go to slide ${index + 1}`}
-                    />
-                  ))}
-                </div>
+                /* Desktop: Hide dots as requested */
+                null
               )}
             </div>
 
