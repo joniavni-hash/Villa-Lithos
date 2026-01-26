@@ -122,7 +122,7 @@ export default function VillaIntroSection() {
         {/* Stats Row */}
         <motion.div
           ref={statsRef}
-          className="stats-grid py-4 mb-6 border-y border-border/30 md:py-8 md:mb-10"
+          className="stats-grid py-4 mb-6 border-y border-stone-200/40 md:py-8 md:mb-10 md:border-stone-300/30"
           initial="hidden"
           animate={statsInView ? "visible" : "hidden"}
           variants={staggerContainer}
