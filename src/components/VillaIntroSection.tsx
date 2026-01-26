@@ -38,10 +38,10 @@ const highlights: { label: string; value: string; icon: LucideIcon }[] = [
 
 // Amenities with monochrome lucide-react icons
 const amenities: { name: string; icon: LucideIcon; image: string }[] = [
-  { name: "Private Pool", icon: Waves, image: "/img/gallery/Exterior & Pool.jpg" },
+  { name: "Private Pool", icon: Waves, image: "/img/gallery/Exterior & Pool (9).jpg" },
   { name: "Jacuzzi", icon: Sparkles, image: "/img/gallery/Exterior & Pool.jpg" },
-  { name: "Sea View", icon: Sunrise, image: "/img/gallery/Exterior & Pool.jpg" },
-  { name: "Mountain View", icon: Mountain, image: "/img/gallery/Exterior & Pool.jpg" },
+  { name: "Sea View", icon: Sunrise, image: "/img/gallery/Exterior & Pool (6).jpg" },
+  { name: "Mountain View", icon: Mountain, image: "/img/gallery/Exterior & Pool (14).jpg" },
   { name: "Outdoor Sauna", icon: Flame, image: "/img/gallery/Wellness & Spa (2).jpg" },
   { name: "Padel Court", icon: Circle, image: "/img/gallery/Sports & Activities (2).jpg" },
   { name: "Gym", icon: Dumbbell, image: "/img/gallery/Sports & Activities (4).jpg" },
