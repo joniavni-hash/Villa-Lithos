@@ -257,7 +257,7 @@ export default function UltraLuxuryGallery({
   }
 
   return (
-    <section className={`bg-background overflow-hidden ${showFullGallery ? 'py-12 md:pt-24 md:pb-32' : 'py-12 md:py-32'}`}>
+    <section className={`bg-background overflow-hidden ${showFullGallery ? 'py-8 md:pt-24 md:pb-32' : 'py-8 md:py-32'}`}>
       <div className="max-w-[1400px] mx-auto px-0 md:px-6 lg:px-8">
 
         {showFullGallery ? (
@@ -297,16 +297,16 @@ export default function UltraLuxuryGallery({
             </div>
 
             {/* Full Gallery Header - More breathing room */}
-            <div className="text-center mt-6 md:mt-12 mb-20 md:mb-32 px-4 md:px-0">
-              <span className="concierge__kicker mb-6 text-center block">Complete Collection</span>
-              <h2 className="concierge__title mb-6 text-center">All {villaImages.length} Photos</h2>
+            <div className="text-center mt-4 md:mt-12 mb-8 md:mb-32 px-4 md:px-0">
+              <span className="concierge__kicker mb-3 md:mb-6 text-center block">Complete Collection</span>
+              <h2 className="concierge__title mb-3 md:mb-6 text-center">All {villaImages.length} Photos</h2>
               <p className="text-muted-foreground text-center max-w-lg mx-auto">
                 Explore every detail of Villa Lithos through our curated collection
               </p>
             </div>
 
             {/* Grid Layout - Increased gaps for luxury spacing */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 px-4 md:px-0 mb-20 md:mb-40">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-6 lg:gap-8 px-4 md:px-0 mb-10 md:mb-40">
               {villaImages.map((image, index) => (
                 <div
                   key={image.src}
@@ -422,7 +422,7 @@ export default function UltraLuxuryGallery({
           /* ========== SLIDER VIEW ========== */
           <>
             {/* Header */}
-            <div className="flex flex-col mb-10 md:mb-24 gap-6 md:gap-8 px-4 md:px-0">
+            <div className="flex flex-col mb-6 md:mb-24 gap-3 md:gap-8 px-4 md:px-0">
               {/* Centered Title & Description with Left Kicker */}
               <div className="flex flex-col items-center justify-center w-full">
                 <div className="w-full text-left">
@@ -661,7 +661,7 @@ export default function UltraLuxuryGallery({
             </div>
 
             {/* Progress Indicator */}
-            <div className="flex justify-center items-center mt-6 md:mt-12 py-4 md:pb-8 px-4 md:px-0">
+            <div className="flex justify-center items-center mt-4 md:mt-12 py-2 md:pb-8 px-4 md:px-0">
               {isMobile ? (
                 /* Mobile: Premium counter with progress */
                 <div className="flex flex-col items-center gap-3">
@@ -696,12 +696,11 @@ export default function UltraLuxuryGallery({
             </div>
 
             {/* View All Gallery CTA */}
-            <div className="flex justify-center mt-8 md:mt-12 px-4 md:px-0">
+            <div className="flex justify-center mt-5 md:mt-12 px-4 md:px-0">
               <button
                 onClick={() => setShowFullGallery(true)}
-                className="group relative inline-flex items-center justify-center overflow-hidden"
+                className="group relative inline-flex items-center justify-center overflow-hidden px-8 py-3 md:px-10 md:py-4"
                 style={{
-                  padding: '16px 40px',
                   border: '1.5px solid #8B7355',
                   borderRadius: '2px',
                   backgroundColor: 'transparent',
@@ -723,7 +722,7 @@ export default function UltraLuxuryGallery({
               >
                 <span
                   className="font-sans text-sm font-medium tracking-[0.2em] uppercase transition-colors duration-400"
-                  style={{ color: '#8B7355' }}
+                  style={{ color: '#1a1714ff' }}
                 >
                   View All Gallery
                 </span>

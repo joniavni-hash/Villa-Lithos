@@ -5,22 +5,13 @@ import Image from "next/image";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import ImageLightbox from "./ImageLightbox";
+import Amenities from "./Amenities";
 import {
   Bed,
   Users,
   Bath,
   Home,
   TreePine,
-  Waves,
-  Sparkles,
-  Flame,
-  Circle,
-  Dumbbell,
-  ArrowUpDown,
-  ChefHat,
-  Monitor,
-  Mountain,
-  Sunrise,
   type LucideIcon
 } from "lucide-react";
 
@@ -36,19 +27,7 @@ const highlights: { label: string; value: string; icon: LucideIcon }[] = [
   { label: "Plot", value: "5000m²", icon: TreePine },
 ];
 
-// Amenities with monochrome lucide-react icons
-const amenities: { name: string; icon: LucideIcon; image: string }[] = [
-  { name: "Private Pool", icon: Waves, image: "/img/gallery/Exterior & Pool (9).jpg" },
-  { name: "Jacuzzi", icon: Sparkles, image: "/img/gallery/Exterior & Pool.jpg" },
-  { name: "Sea View", icon: Sunrise, image: "/img/gallery/Exterior & Pool (6).jpg" },
-  { name: "Mountain View", icon: Mountain, image: "/img/gallery/Exterior & Pool (14).jpg" },
-  { name: "Outdoor Sauna", icon: Flame, image: "/img/gallery/Wellness & Spa (2).jpg" },
-  { name: "Padel Court", icon: Circle, image: "/img/gallery/Sports & Activities (2).jpg" },
-  { name: "Gym", icon: Dumbbell, image: "/img/gallery/Sports & Activities (4).jpg" },
-  { name: "Elevator", icon: ArrowUpDown, image: "/img/gallery/10.jpg" },
-  { name: "Design Kitchen", icon: ChefHat, image: "/img/gallery/Kitchen.jpg" },
-  { name: "Workspace", icon: Monitor, image: "/img/gallery/Living & Dining (3).jpg" },
-];
+
 
 const galleryImages = [
   { src: "/img/gallery/01.webp", alt: "Villa Lithos exterior view" },
@@ -140,10 +119,10 @@ export default function VillaIntroSection() {
           </motion.p>
         </motion.header>
 
-        {/* Stats Row - fade up with stagger */}
+        {/* Stats Row */}
         <motion.div
           ref={statsRef}
-          className="villa-intro__stats villa-intro__stats--five-col"
+          className="stats-grid py-4 mb-6 border-y border-border/30 md:py-8 md:mb-10"
           initial="hidden"
           animate={statsInView ? "visible" : "hidden"}
           variants={staggerContainer}
@@ -153,15 +132,15 @@ export default function VillaIntroSection() {
             return (
               <motion.div
                 key={item.label}
-                className="villa-intro__stat"
+                className="stats-grid__item flex flex-col items-center text-center"
                 variants={staggerItem}
                 transition={{ duration: 0.5 }}
               >
-                <span className="villa-intro__stat-icon" aria-hidden="true">
-                  <IconComponent size={28} strokeWidth={1.5} />
+                <span className="flex items-center justify-center w-10 h-10 mb-2 rounded-lg bg-gradient-to-br from-white to-stone-100 shadow-sm md:w-14 md:h-14 md:mb-3 md:rounded-xl md:shadow-md">
+                  <IconComponent className="w-5 h-5 text-stone-700 md:w-7 md:h-7" strokeWidth={1.5} />
                 </span>
-                <span className="villa-intro__stat-value">{item.value}</span>
-                <span className="villa-intro__stat-label">{item.label}</span>
+                <span className="text-xl font-semibold leading-none text-stone-800 md:text-3xl md:font-normal md:font-serif">{item.value}</span>
+                <span className="text-[10px] font-medium uppercase tracking-wider text-stone-500 mt-1 md:text-xs">{item.label}</span>
               </motion.div>
             );
           })}
@@ -251,46 +230,16 @@ export default function VillaIntroSection() {
           </motion.div>
         </div>
 
-        {/* Amenities - fade up with centered title */}
+        {/* Amenities - Replaced with new component */}
         <motion.div
           ref={amenitiesRef}
-          className="villa-intro__amenities"
+          className="relative mb-10 -mx-4 px-4 md:mx-0 md:px-0"
           initial="hidden"
           animate={amenitiesInView ? "visible" : "hidden"}
           variants={fadeUp}
           transition={{ duration: 0.6 }}
         >
-          <h3 className="villa-intro__section-title villa-intro__section-title--centered">
-            Amenities
-          </h3>
-          <motion.ul
-            className="villa-intro__amenities-list villa-intro__amenities-list--with-images"
-            variants={staggerContainer}
-            initial="hidden"
-            animate={amenitiesInView ? "visible" : "hidden"}
-          >
-            {amenities.map((amenity) => {
-              const AmenityIcon = amenity.icon;
-              return (
-                <motion.li
-                  key={amenity.name}
-                  variants={staggerItem}
-                  transition={{ duration: 0.4 }}
-                >
-                  <ImageLightbox
-                    src={amenity.image}
-                    alt={amenity.name}
-                    className="villa-intro__amenity-item"
-                  >
-                    <span className="villa-intro__amenity-icon" aria-hidden="true">
-                      <AmenityIcon size={20} strokeWidth={1.5} />
-                    </span>
-                    <span className="villa-intro__amenity-name">{amenity.name}</span>
-                  </ImageLightbox>
-                </motion.li>
-              );
-            })}
-          </motion.ul>
+          <Amenities />
         </motion.div>
 
         {/* CTA - fade up */}
