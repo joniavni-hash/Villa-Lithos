@@ -141,7 +141,7 @@ export function FAQJsonLd() {
         name: "How many bedrooms does Villa Lithos have?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Villa Lithos has 9 bedrooms and 10 bathrooms. It sleeps up to 22 guests.",
+          text: "Villa Lithos has 9 bedrooms and 8.5 bathrooms. It sleeps up to 22 guests.",
         },
       },
       {

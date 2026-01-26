@@ -19,6 +19,8 @@ import {
   ArrowUpDown,
   ChefHat,
   Monitor,
+  Mountain,
+  Sunrise,
   type LucideIcon
 } from "lucide-react";
 
@@ -29,14 +31,17 @@ const BOOKING_URL =
 const highlights: { label: string; value: string; icon: LucideIcon }[] = [
   { label: "Bedrooms", value: "9", icon: Bed },
   { label: "Guests", value: "22", icon: Users },
-  { label: "Bathrooms", value: "10", icon: Bath },
+  { label: "Bathrooms", value: "8.5", icon: Bath },
   { label: "Build", value: "800m²", icon: Home },
   { label: "Plot", value: "5000m²", icon: TreePine },
 ];
 
 // Amenities with monochrome lucide-react icons
 const amenities: { name: string; icon: LucideIcon; image: string }[] = [
-  { name: "Private Pool & Jacuzzi", icon: Waves, image: "/img/gallery/Exterior & Pool.jpg" },
+  { name: "Private Pool", icon: Waves, image: "/img/gallery/Exterior & Pool.jpg" },
+  { name: "Jacuzzi", icon: Sparkles, image: "/img/gallery/Exterior & Pool.jpg" },
+  { name: "Sea View", icon: Sunrise, image: "/img/gallery/Exterior & Pool.jpg" },
+  { name: "Mountain View", icon: Mountain, image: "/img/gallery/Exterior & Pool.jpg" },
   { name: "Outdoor Sauna", icon: Flame, image: "/img/gallery/Wellness & Spa (2).jpg" },
   { name: "Padel Court", icon: Circle, image: "/img/gallery/Sports & Activities (2).jpg" },
   { name: "Gym", icon: Dumbbell, image: "/img/gallery/Sports & Activities (4).jpg" },
