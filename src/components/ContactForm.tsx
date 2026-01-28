@@ -13,12 +13,7 @@ type FormData = {
   fullName: string;
   email: string;
   phone: string;
-  arrival: string;
-  departure: string;
-  guests: string;
-  villa: string;
   message: string;
-  consent: boolean;
 };
 
 type FormErrors = Partial<Record<keyof FormData, string>>;
@@ -31,18 +26,8 @@ const INITIAL_DATA: FormData = {
   fullName: "",
   email: "",
   phone: "",
-  arrival: "",
-  departure: "",
-  guests: "",
-  villa: "Villa Lithos",
   message: "",
-  consent: false,
 };
-
-const VILLA_OPTIONS = [
-  { value: "Villa Lithos", label: "Villa Lithos" },
-  { value: "Other", label: "Other / Not sure" },
-];
 
 // ============================================================================
 // Validation
@@ -70,55 +55,7 @@ function validateForm(data: FormData): FormErrors {
     errors.phone = "Please enter a valid phone number";
   }
 
-  // Arrival date
-  if (!data.arrival) {
-    errors.arrival = "Please select an arrival date";
-  } else {
-    const arrivalDate = new Date(data.arrival);
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    if (arrivalDate < today) {
-      errors.arrival = "Arrival date cannot be in the past";
-    }
-  }
-
-  // Departure date
-  if (!data.departure) {
-    errors.departure = "Please select a departure date";
-  } else if (data.arrival) {
-    const arrivalDate = new Date(data.arrival);
-    const departureDate = new Date(data.departure);
-    if (departureDate <= arrivalDate) {
-      errors.departure = "Departure must be after arrival";
-    }
-  }
-
-  // Guests
-  if (!data.guests) {
-    errors.guests = "Please enter the number of guests";
-  } else {
-    const guestsNum = parseInt(data.guests, 10);
-    if (isNaN(guestsNum) || guestsNum < 1) {
-      errors.guests = "Please enter at least 1 guest";
-    } else if (guestsNum > 30) {
-      errors.guests = "Maximum 30 guests allowed";
-    }
-  }
-
-  // Consent
-  if (!data.consent) {
-    errors.consent = "Please agree to be contacted";
-  }
-
   return errors;
-}
-
-function calculateNights(arrival: string, departure: string): number {
-  if (!arrival || !departure) return 0;
-  const a = new Date(arrival);
-  const d = new Date(departure);
-  const diff = d.getTime() - a.getTime();
-  return Math.max(0, Math.round(diff / (1000 * 60 * 60 * 24)));
 }
 
 // ============================================================================
@@ -204,18 +141,11 @@ export default function ContactForm() {
     setStatus("submitting");
     setServerError("");
 
-    const nights = calculateNights(data.arrival, data.departure);
-
     const payload = {
       fullName: data.fullName.trim(),
       email: data.email.trim(),
       phone: data.phone.trim() || undefined,
-      arrival: data.arrival,
-      departure: data.departure,
-      guests: parseInt(data.guests, 10),
-      nights,
-      villa: data.villa,
-      message: data.message.trim() || `Booking request for ${nights} night${nights !== 1 ? "s" : ""} with ${data.guests} guest${parseInt(data.guests, 10) !== 1 ? "s" : ""}.`,
+      message: data.message.trim() || "Booking inquiry from website",
       pageUrl: typeof window !== "undefined" ? window.location.href : "",
       createdAt: new Date().toISOString(),
     };
@@ -248,16 +178,6 @@ export default function ContactForm() {
     setStatus("idle");
     setServerError("");
   };
-
-  const nights = calculateNights(data.arrival, data.departure);
-
-  // Get min date for arrival (today)
-  const today = new Date().toISOString().split("T")[0];
-
-  // Get min date for departure (day after arrival or today)
-  const minDeparture = data.arrival
-    ? new Date(new Date(data.arrival).getTime() + 86400000).toISOString().split("T")[0]
-    : today;
 
   return (
     <motion.section
@@ -296,10 +216,10 @@ export default function ContactForm() {
             </div>
             <h3 className="bf-success__title">Request Received</h3>
             <p className="bf-success__text">
-              Thank you. We&apos;ll check your dates and reply within 24 hours.
+              Thank you. We&apos;ll get back to you within 24 hours.
             </p>
             <button type="button" className="bf-btn bf-btn--secondary" onClick={handleReset}>
-              Send Another Request
+              Send Another Message
             </button>
           </motion.div>
         ) : (
@@ -313,10 +233,10 @@ export default function ContactForm() {
               variants={fadeUp}
               transition={{ duration: 0.6 }}
             >
-              <span className="bf-badge">Booking Request</span>
-              <h2 className="bf-title">Reserve Your Stay</h2>
+              <span className="bf-badge">Contact</span>
+              <h2 className="bf-title">Get in Touch</h2>
               <p className="bf-subtitle">
-                Send us your dates. We&apos;ll confirm availability within 24 hours.
+                Send us a message. We&apos;ll get back to you within 24 hours.
               </p>
             </motion.div>
 
@@ -399,9 +319,8 @@ export default function ContactForm() {
                 </div>
               </div>
 
-              {/* Row: Phone + Guests */}
-              <div className="bf-row">
-                <div className="bf-field">
+              {/* Phone - Full Width */}
+              <div className="bf-field bf-field--full">
                   <label htmlFor="bf-phone" className="bf-label">
                     Phone <span className="bf-optional">(optional)</span>
                   </label>
@@ -423,116 +342,6 @@ export default function ContactForm() {
                       {errors.phone}
                     </span>
                   )}
-                </div>
-
-                <div className="bf-field">
-                  <label htmlFor="bf-guests" className="bf-label">
-                    Guests <span className="bf-required">*</span>
-                  </label>
-                  <input
-                    id="bf-guests"
-                    name="guests"
-                    type="number"
-                    min="1"
-                    max="30"
-                    autoComplete="off"
-                    required
-                    placeholder="4"
-                    value={data.guests}
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    aria-invalid={!!errors.guests}
-                    aria-describedby={errors.guests ? "bf-guests-error" : undefined}
-                    className={`bf-input ${errors.guests ? "bf-input--error" : ""}`}
-                  />
-                  {errors.guests && (
-                    <span id="bf-guests-error" className="bf-error" role="alert">
-                      {errors.guests}
-                    </span>
-                  )}
-                </div>
-              </div>
-
-              {/* Row: Arrival + Departure */}
-              <div className="bf-row">
-                <div className="bf-field">
-                  <label htmlFor="bf-arrival" className="bf-label">
-                    Arrival <span className="bf-required">*</span>
-                  </label>
-                  <input
-                    id="bf-arrival"
-                    name="arrival"
-                    type="date"
-                    min={today}
-                    autoComplete="off"
-                    required
-                    value={data.arrival}
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    aria-invalid={!!errors.arrival}
-                    aria-describedby={errors.arrival ? "bf-arrival-error" : undefined}
-                    className={`bf-input ${errors.arrival ? "bf-input--error" : ""}`}
-                  />
-                  {errors.arrival && (
-                    <span id="bf-arrival-error" className="bf-error" role="alert">
-                      {errors.arrival}
-                    </span>
-                  )}
-                </div>
-
-                <div className="bf-field">
-                  <label htmlFor="bf-departure" className="bf-label">
-                    Departure <span className="bf-required">*</span>
-                  </label>
-                  <input
-                    id="bf-departure"
-                    name="departure"
-                    type="date"
-                    min={minDeparture}
-                    autoComplete="off"
-                    required
-                    value={data.departure}
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    aria-invalid={!!errors.departure}
-                    aria-describedby={errors.departure ? "bf-departure-error" : undefined}
-                    className={`bf-input ${errors.departure ? "bf-input--error" : ""}`}
-                  />
-                  {errors.departure && (
-                    <span id="bf-departure-error" className="bf-error" role="alert">
-                      {errors.departure}
-                    </span>
-                  )}
-                </div>
-              </div>
-
-              {/* Nights summary */}
-              {nights > 0 && (
-                <div className="bf-nights">
-                  <span className="bf-nights__value">{nights}</span>
-                  <span className="bf-nights__label">night{nights !== 1 ? "s" : ""}</span>
-                </div>
-              )}
-
-              {/* Villa Select */}
-              <div className="bf-field bf-field--full">
-                <label htmlFor="bf-villa" className="bf-label">
-                  Property
-                </label>
-                <select
-                  id="bf-villa"
-                  name="villa"
-                  value={data.villa}
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  className="bf-input bf-select"
-                >
-                  {VILLA_OPTIONS.map((opt) => (
-                    <option key={opt.value} value={opt.value}>
-                      {opt.label}
-                    </option>
-                  ))}
-                </select>
               </div>
 
               {/* Message */}
@@ -553,32 +362,6 @@ export default function ContactForm() {
                 />
               </div>
 
-              {/* Consent Checkbox */}
-              <div className="bf-field bf-field--full bf-checkbox-field">
-                <label className="bf-checkbox-label">
-                  <input
-                    id="bf-consent"
-                    name="consent"
-                    type="checkbox"
-                    checked={data.consent}
-                    onChange={handleChange}
-                    onBlur={handleBlur}
-                    aria-invalid={!!errors.consent}
-                    aria-describedby={errors.consent ? "bf-consent-error" : undefined}
-                    className="bf-checkbox"
-                  />
-                  <span className="bf-checkbox-custom" />
-                  <span className="bf-checkbox-text">
-                    I agree to be contacted regarding this booking request <span className="bf-required">*</span>
-                  </span>
-                </label>
-                {errors.consent && (
-                  <span id="bf-consent-error" className="bf-error" role="alert">
-                    {errors.consent}
-                  </span>
-                )}
-              </div>
-
               {/* Submit */}
               <div className="bf-actions">
                 <button
@@ -593,7 +376,7 @@ export default function ContactForm() {
                       <span>Sending...</span>
                     </>
                   ) : (
-                    "Send Booking Request"
+                    "Send Message"
                   )}
                 </button>
               </div>

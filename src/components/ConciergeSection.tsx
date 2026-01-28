@@ -67,18 +67,11 @@ export default function ConciergeSection() {
             {/* Header */}
             <motion.header
               ref={headerRef}
-              className="concierge__header text-center"
+              className="concierge__header text-center items-center"
               initial="hidden"
               animate={headerInView ? "visible" : "hidden"}
               variants={staggerContainer}
             >
-              <motion.span
-                className="concierge__kicker"
-                variants={fadeUp}
-                transition={{ duration: 0.5 }}
-              >
-                Hospitality that fits your stay.
-              </motion.span>
               <motion.h2
                 id="concierge-title"
                 className="concierge__title"
@@ -87,6 +80,13 @@ export default function ConciergeSection() {
               >
                 Concierge Services
               </motion.h2>
+              <motion.span
+                className="concierge__kicker"
+                variants={fadeUp}
+                transition={{ duration: 0.5 }}
+              >
+                Hospitality that fits your stay.
+              </motion.span>
             </motion.header>
 
             {/* Content */}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -20,6 +20,10 @@ type Props = {
 // Desktop breakpoint matches CSS (1024px)
 const DESKTOP_BREAKPOINT = 1024;
 
+// Check if we're on the client
+const getIsDesktop = () =>
+  typeof window !== "undefined" && window.innerWidth >= DESKTOP_BREAKPOINT;
+
 export default function HeroBanner({
   kicker = "WELCOME TO",
   title = "Villa Lithos",
@@ -35,53 +39,50 @@ export default function HeroBanner({
   const videoRef = useRef<HTMLVideoElement>(null);
   const [videoReady, setVideoReady] = useState(false);
   const [videoError, setVideoError] = useState(false);
-  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
-  const [isDesktop, setIsDesktop] = useState(false);
-  const [mounted, setMounted] = useState(false);
 
-  // Check screen size after mount
-  useEffect(() => {
-    setMounted(true);
-    const checkDesktop = () => {
-      setIsDesktop(window.innerWidth >= DESKTOP_BREAKPOINT);
-    };
+  // Use useSyncExternalStore for isDesktop to avoid hydration mismatch
+  const isDesktop = useSyncExternalStore(
+    (callback) => {
+      window.addEventListener("resize", callback);
+      return () => window.removeEventListener("resize", callback);
+    },
+    getIsDesktop,
+    () => false // Server snapshot
+  );
 
-    checkDesktop();
-    window.addEventListener("resize", checkDesktop);
-    return () => window.removeEventListener("resize", checkDesktop);
-  }, []);
-
-  // Check reduced motion preference after mount
-  useEffect(() => {
-    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setPrefersReducedMotion(mq.matches);
-
-    const handler = (e: MediaQueryListEvent) => setPrefersReducedMotion(e.matches);
-    mq.addEventListener("change", handler);
-    return () => mq.removeEventListener("change", handler);
-  }, []);
+  const prefersReducedMotion = useSyncExternalStore(
+    (callback) => {
+      const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+      mq.addEventListener("change", callback);
+      return () => mq.removeEventListener("change", callback);
+    },
+    () => window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+    () => false
+  );
 
   // Determine video source based on screen size
-  const currentVideoSrc = mounted
-    ? (isDesktop ? (videoSrcDesktop || videoSrc) : (videoSrcMobile || videoSrc))
-    : videoSrc;
+  const currentVideoSrc = isDesktop
+    ? (videoSrcDesktop || videoSrc)
+    : (videoSrcMobile || videoSrc);
 
-  // Handle video load/error
+  // Handle video load/error - only subscribe to events, no sync setState
   useEffect(() => {
     const video = videoRef.current;
     if (!video || !currentVideoSrc || prefersReducedMotion) return;
 
-    // Reset states when video source changes
-    setVideoReady(false);
-    setVideoError(false);
-
-    const onCanPlay = () => setVideoReady(true);
+    const onCanPlay = () => {
+      setVideoReady(true);
+      // Try to play manually for Safari compatibility
+      video.play().catch(() => {
+        // Autoplay was prevented
+      });
+    };
     const onError = () => setVideoError(true);
 
     video.addEventListener("canplaythrough", onCanPlay);
     video.addEventListener("error", onError);
 
-    // Load the new source
+    // Load the video
     video.load();
 
     return () => {
@@ -89,6 +90,9 @@ export default function HeroBanner({
       video.removeEventListener("error", onError);
     };
   }, [currentVideoSrc, prefersReducedMotion]);
+
+  // Reset video states when source changes using key prop instead of setState in effect
+  const videoKey = currentVideoSrc || "no-video";
 
   const showVideo = currentVideoSrc && !videoError && !prefersReducedMotion;
   const fallbackImage = poster || imageUrl;
@@ -115,18 +119,13 @@ export default function HeroBanner({
 
           {/* Video overlays on top, fades in when ready */}
           {showVideo && (
-            <video
+            <Video
+              key={videoKey}
               ref={videoRef}
-              key={currentVideoSrc} // Force remount when source changes
-              className={`hv-video ${videoReady ? "hv-video--loaded" : ""}`}
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="auto"
-            >
-              <source src={currentVideoSrc} type="video/mp4" />
-            </video>
+              src={currentVideoSrc!}
+              poster={fallbackImage}
+              isReady={videoReady}
+            />
           )}
 
           {/* Gradient overlay */}
@@ -146,7 +145,7 @@ export default function HeroBanner({
 
           <div className="hv-cta">
             <Link href={contactHref} className="hv-btn hv-btn--primary">
-              Booking Request
+              More Information
             </Link>
             <Link href={galleryHref} className="hv-btn hv-btn--secondary">
               View Gallery
@@ -157,3 +156,35 @@ export default function HeroBanner({
     </section>
   );
 }
+
+// Separate Video component to isolate state resets via key prop
+import { forwardRef } from "react";
+
+interface VideoProps {
+  src: string;
+  poster: string;
+  isReady: boolean;
+}
+
+const Video = forwardRef<HTMLVideoElement, VideoProps>(
+  ({ src, poster, isReady }, ref) => {
+    return (
+      <video
+        ref={ref}
+        className={`hv-video ${isReady ? "hv-video--loaded" : ""}`}
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        poster={poster}
+        disablePictureInPicture
+        disableRemotePlayback
+      >
+        <source src={src} type="video/mp4; codecs=avc1.42E01E" />
+      </video>
+    );
+  }
+);
+
+Video.displayName = "Video";

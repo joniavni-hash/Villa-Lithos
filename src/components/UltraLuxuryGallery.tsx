@@ -4,26 +4,64 @@ import { useCallback, useEffect, useState } from "react"
 import { createPortal } from "react-dom"
 import Image from "next/image"
 
-// Helper function to get category title based on filename
-const getCategoryTitle = (filename: string): string => {
-  if (filename.includes('Living & Dining')) return 'Main Salon & Dining'
-  if (filename.includes('Wellness & Spa')) return 'Luxury Spa & Wellness'
-  if (filename.includes('Exterior & Pool')) return 'Infinity Pool & Exterior'
-  if (filename.includes('Bedrooms')) return 'Master Suites'
-  if (filename.includes('Sports & Activities')) return 'Private Gym & Padel'
-  if (filename.includes('Kitchen')) return 'Gourmet Kitchen'
-  return 'Villa Lithos'
+// Image descriptions for each photo
+const imageDescriptions: Record<string, { title: string; alt: string }> = {
+  // Exterior & Pool
+  'Exterior & Pool.jpg': { title: 'Illuminated Pool at Twilight', alt: 'Aerial view of the infinity pool beautifully lit at night' },
+  'Exterior & Pool (2).jpg': { title: 'Morning Yoga by the Pool', alt: 'Yoga session beside the pool with mountain views' },
+  'Exterior & Pool (3).jpg': { title: 'Poolside Relaxation', alt: 'Comfortable sun loungers by the infinity pool' },
+  'Exterior & Pool (4).jpg': { title: 'Alfresco Dining Terrace', alt: 'Outdoor dining area overlooking the pool and mountains' },
+  'Exterior & Pool (5).jpg': { title: 'Estate Aerial View', alt: 'Aerial view of the entire property with pool and padel court at dusk' },
+  'Exterior & Pool (6).jpg': { title: 'Villa at Golden Hour', alt: 'The villa illuminated at sunset with sea and city views' },
+  'Exterior & Pool (7).jpg': { title: 'Refreshing Pool Moments', alt: 'Guest relaxing in the crystal-clear pool water' },
+  'Exterior & Pool (8).jpg': { title: 'Shaded Pool Lounge', alt: 'Friends enjoying the pool area under the pergola' },
+  'Exterior & Pool (9).jpg': { title: 'Evening Pool Ambiance', alt: 'Pool area with loungers beautifully lit at night' },
+  'Exterior & Pool (10).jpg': { title: 'Outdoor Shower with Views', alt: 'Pool shower surrounded by natural landscape' },
+  'Exterior & Pool (11).jpg': { title: 'Poolside Fresh Fruits', alt: 'Sun lounger with fresh seasonal fruits by the pool' },
+  'Exterior & Pool (12).jpg': { title: 'Villa Night Scene', alt: 'The villa and pool area under the evening sky' },
+  'Exterior & Pool (13).jpg': { title: 'Pool Waterfall Feature', alt: 'Villa exterior with the stunning pool waterfall' },
+  'Exterior & Pool (14).jpg': { title: 'Sunset Over the Estate', alt: 'Aerial view of villa at sunset with rocky landscape' },
+
+  // Living & Dining
+  'Living & Dining.jpg': { title: 'Stone Wall Living Room', alt: 'Elegant living room with natural stone accent wall' },
+  'Living & Dining (2).jpg': { title: 'Cozy Seating Area', alt: 'Comfortable seating area with wooden furniture' },
+  'Living & Dining (3).jpg': { title: 'Work from Paradise', alt: 'Guest working remotely in the bright living room' },
+  'Living & Dining (4).jpg': { title: 'Modern Kitchen Island', alt: 'Fully equipped kitchen with island and dining space' },
+  'Living & Dining (5).jpg': { title: 'Main Living Room', alt: 'Spacious living room with comfortable sofas' },
+  'Living & Dining (6).jpg': { title: 'Fireplace Lounge', alt: 'Living room with wooden beamed ceiling and fireplace' },
+  'Living & Dining (7).jpg': { title: 'Panoramic Living Space', alt: 'Open-plan living area with stunning natural light' },
+  'Living & Dining (8).jpg': { title: 'Elegant Dining Corner', alt: 'Dining table set near the staircase' },
+  'Living & Dining (9).jpg': { title: 'Dining with Pool View', alt: 'Dining area connected to living room with pool views' },
+  'Living & Dining (10).jpg': { title: 'Grand Dining Table', alt: 'Large dining table perfect for family gatherings' },
+
+  // Bedrooms
+  'Bedrooms.jpg': { title: 'Loft Relaxation Area', alt: 'Cozy loft space with sofas and bean bags' },
+  'Bedrooms (2).jpg': { title: 'Entertainment Loft', alt: 'Loft area with large TV and wooden ceiling' },
+  'Bedrooms (3).jpg': { title: 'Serene Master Bedroom', alt: 'Bedroom with elegant pendant lights and garden view' },
+  'Bedrooms (4).jpg': { title: 'Warm & Inviting Suite', alt: 'Comfortable bedroom with soft lighting' },
+  'Bedrooms (5).jpg': { title: 'Bedroom with Court View', alt: 'Bedroom overlooking the private padel court' },
+
+  // Wellness & Spa
+  'Wellness & Spa.jpg': { title: 'Finnish Barrel Sauna', alt: 'Interior of the authentic wooden sauna' },
+  'Wellness & Spa (2).jpg': { title: 'Garden Sauna Retreat', alt: 'Outdoor barrel sauna surrounded by olive trees' },
+  'Wellness & Spa (3).jpg': { title: 'Bathtub with Sea Views', alt: 'Luxurious bathtub overlooking the coastline' },
+  'Wellness & Spa (4).jpeg': { title: 'Spa Treatment Area', alt: 'Relaxing spa and wellness space' },
+  'Wellness & Spa (5).jpeg': { title: 'Wellness Corner', alt: 'Tranquil wellness amenities' },
+  'Wellness & Spa (6).jpg': { title: 'Modern Designer Bathroom', alt: 'Contemporary bathroom with bathtub and rain shower' },
+
+  // Sports & Activities
+  'Sports & Activities.jpg': { title: 'Private Padel Court', alt: 'Professional padel court with mountain backdrop' },
+  'Sports & Activities (2).jpg': { title: 'Night Padel Session', alt: 'Floodlit padel court for evening games' },
+  'Sports & Activities (3).jpg': { title: 'Fitness with a View', alt: 'Treadmill workout with panoramic views' },
+  'Sports & Activities (4).jpg': { title: 'Fully Equipped Gym', alt: 'Home gym with weight training equipment' },
+
+  // Kitchen
+  'Kitchen.jpg': { title: 'Bespoke Wooden Kitchen', alt: 'Custom-designed kitchen with premium cabinetry' },
 }
 
-// Helper function to get alt text based on filename
-const getCategoryAlt = (filename: string): string => {
-  if (filename.includes('Living & Dining')) return 'Elegant living and dining interior at Villa Lithos'
-  if (filename.includes('Wellness & Spa')) return 'Luxury spa and wellness facilities'
-  if (filename.includes('Exterior & Pool')) return 'Stunning infinity pool and villa exterior'
-  if (filename.includes('Bedrooms')) return 'Luxurious master suite bedroom'
-  if (filename.includes('Sports & Activities')) return 'Private gym and padel court'
-  if (filename.includes('Kitchen')) return 'Fully equipped gourmet kitchen'
-  return 'Villa Lithos luxury accommodation'
+// Helper function to get title and alt for each image
+const getImageInfo = (filename: string): { title: string; alt: string } => {
+  return imageDescriptions[filename] || { title: 'Villa Lithos', alt: 'Luxury accommodation at Villa Lithos' }
 }
 
 // --- FIX: Helper function to encode URL correctly ---
@@ -35,92 +73,114 @@ const generateImageArray = () => {
   const images: { src: string; alt: string; title: string; category: string }[] = []
 
   // Exterior & Pool: 1 base + 14 numbered (2-14) = 14 total
+  const extBase = 'Exterior & Pool.jpg'
   images.push({
-    src: getEncodedPath('Exterior & Pool.jpg'),
-    alt: getCategoryAlt('Exterior & Pool'),
-    title: getCategoryTitle('Exterior & Pool'),
+    src: getEncodedPath(extBase),
+    alt: getImageInfo(extBase).alt,
+    title: getImageInfo(extBase).title,
     category: 'exterior'
   })
   for (let i = 2; i <= 14; i++) {
+    const filename = `Exterior & Pool (${i}).jpg`
     images.push({
-      src: getEncodedPath(`Exterior & Pool (${i}).jpg`),
-      alt: getCategoryAlt('Exterior & Pool'),
-      title: getCategoryTitle('Exterior & Pool'),
+      src: getEncodedPath(filename),
+      alt: getImageInfo(filename).alt,
+      title: getImageInfo(filename).title,
       category: 'exterior'
     })
   }
 
   // Living & Dining: 1 base + 10 numbered (2-10) = 10 total
+  const livBase = 'Living & Dining.jpg'
   images.push({
-    src: getEncodedPath('Living & Dining.jpg'),
-    alt: getCategoryAlt('Living & Dining'),
-    title: getCategoryTitle('Living & Dining'),
+    src: getEncodedPath(livBase),
+    alt: getImageInfo(livBase).alt,
+    title: getImageInfo(livBase).title,
     category: 'living'
   })
   for (let i = 2; i <= 10; i++) {
+    if (i === 3) continue
+    const filename = `Living & Dining (${i}).jpg`
     images.push({
-      src: getEncodedPath(`Living & Dining (${i}).jpg`),
-      alt: getCategoryAlt('Living & Dining'),
-      title: getCategoryTitle('Living & Dining'),
+      src: getEncodedPath(filename),
+      alt: getImageInfo(filename).alt,
+      title: getImageInfo(filename).title,
       category: 'living'
     })
   }
 
   // Bedrooms: 1 base + 5 numbered (2-5) = 5 total
+  const bedBase = 'Bedrooms.jpg'
   images.push({
-    src: getEncodedPath('Bedrooms.jpg'),
-    alt: getCategoryAlt('Bedrooms'),
-    title: getCategoryTitle('Bedrooms'),
+    src: getEncodedPath(bedBase),
+    alt: getImageInfo(bedBase).alt,
+    title: getImageInfo(bedBase).title,
     category: 'bedrooms'
   })
   for (let i = 2; i <= 5; i++) {
+    const filename = `Bedrooms (${i}).jpg`
     images.push({
-      src: getEncodedPath(`Bedrooms (${i}).jpg`),
-      alt: getCategoryAlt('Bedrooms'),
-      title: getCategoryTitle('Bedrooms'),
+      src: getEncodedPath(filename),
+      alt: getImageInfo(filename).alt,
+      title: getImageInfo(filename).title,
       category: 'bedrooms'
     })
   }
 
-  // Wellness & Spa: 1 base + 6 numbered (2-6) = 6 total
+  // Wellness & Spa: 1 base + numbered (2-3 jpg, 4-5 jpeg, 6 jpg)
+  const wellBase = 'Wellness & Spa.jpg'
   images.push({
-    src: getEncodedPath('Wellness & Spa.jpg'),
-    alt: getCategoryAlt('Wellness & Spa'),
-    title: getCategoryTitle('Wellness & Spa'),
+    src: getEncodedPath(wellBase),
+    alt: getImageInfo(wellBase).alt,
+    title: getImageInfo(wellBase).title,
     category: 'wellness'
   })
-  for (let i = 2; i <= 6; i++) {
+  // 2-3 are .jpg
+  for (let i = 2; i <= 3; i++) {
+    const filename = `Wellness & Spa (${i}).jpg`
     images.push({
-      src: getEncodedPath(`Wellness & Spa (${i}).jpg`),
-      alt: getCategoryAlt('Wellness & Spa'),
-      title: getCategoryTitle('Wellness & Spa'),
+      src: getEncodedPath(filename),
+      alt: getImageInfo(filename).alt,
+      title: getImageInfo(filename).title,
       category: 'wellness'
     })
   }
+  // 4-5 are .jpeg
+  for (let i = 4; i <= 5; i++) {
+    const filename = `Wellness & Spa (${i}).jpeg`
+    images.push({
+      src: getEncodedPath(filename),
+      alt: getImageInfo(filename).alt,
+      title: getImageInfo(filename).title,
+      category: 'wellness'
+    })
+  }
+  // 6 is .jpg
+  const well6 = 'Wellness & Spa (6).jpg'
+  images.push({
+    src: getEncodedPath(well6),
+    alt: getImageInfo(well6).alt,
+    title: getImageInfo(well6).title,
+    category: 'wellness'
+  })
 
   // Sports & Activities: 1 base + 4 numbered (2-4) = 4 total
+  const sportBase = 'Sports & Activities.jpg'
   images.push({
-    src: getEncodedPath('Sports & Activities.jpg'),
-    alt: getCategoryAlt('Sports & Activities'),
-    title: getCategoryTitle('Sports & Activities'),
+    src: getEncodedPath(sportBase),
+    alt: getImageInfo(sportBase).alt,
+    title: getImageInfo(sportBase).title,
     category: 'sports'
   })
   for (let i = 2; i <= 4; i++) {
+    const filename = `Sports & Activities (${i}).jpg`
     images.push({
-      src: getEncodedPath(`Sports & Activities (${i}).jpg`),
-      alt: getCategoryAlt('Sports & Activities'),
-      title: getCategoryTitle('Sports & Activities'),
+      src: getEncodedPath(filename),
+      alt: getImageInfo(filename).alt,
+      title: getImageInfo(filename).title,
       category: 'sports'
     })
   }
-
-  // Kitchen: 1 only
-  images.push({
-    src: getEncodedPath('Kitchen.jpg'),
-    alt: getCategoryAlt('Kitchen'),
-    title: getCategoryTitle('Kitchen'),
-    category: 'kitchen'
-  })
 
   return images
 }
@@ -148,11 +208,6 @@ export default function UltraLuxuryGallery({
   /* ========== ANIMATION STATE ========== */
   const [slideDirection, setSlideDirection] = useState<'next' | 'prev' | null>(null)
 
-  // Reset direction when closing
-  useEffect(() => {
-    if (lightboxIndex === null) setSlideDirection(null)
-  }, [lightboxIndex])
-
   // Mobile centered slider config
   const mobileSlideWidth = 82 // percentage of container width
   const mobileSpaceBetween = 15 // pixels
@@ -161,7 +216,8 @@ export default function UltraLuxuryGallery({
   const minSwipeDistance = 50
 
   useEffect(() => {
-    setMounted(true)
+    const timer = setTimeout(() => setMounted(true), 0)
+    return () => clearTimeout(timer)
   }, [])
 
   useEffect(() => {
@@ -298,8 +354,8 @@ export default function UltraLuxuryGallery({
 
             {/* Full Gallery Header - More breathing room */}
             <div className="text-center mt-4 md:mt-12 mb-8 md:mb-32 px-4 md:px-0">
+              <h2 className="concierge__title mb-3 md:mb-6 text-center">Full Gallery</h2>
               <span className="concierge__kicker mb-3 md:mb-6 text-center block">Complete Collection</span>
-              <h2 className="concierge__title mb-3 md:mb-6 text-center">All {villaImages.length} Photos</h2>
               <p className="text-muted-foreground text-center max-w-lg mx-auto">
                 Explore every detail of Villa Lithos through our curated collection
               </p>
@@ -425,14 +481,14 @@ export default function UltraLuxuryGallery({
             <div className="flex flex-col mb-6 md:mb-24 gap-3 md:gap-8 px-4 md:px-0">
               {/* Centered Title & Description with Left Kicker */}
               <div className="flex flex-col items-center justify-center w-full">
-                <div className="w-full text-left">
+                <h2 className="concierge__title mb-4 text-center">
+                  Gallery
+                </h2>
+                <div className="w-full text-center">
                   <span className="concierge__kicker mb-4 block">
                     A Visual Journey
                   </span>
                 </div>
-                <h2 className="concierge__title mb-4 text-center">
-                  Gallery
-                </h2>
                 <div className="concierge__content pt-2 flex flex-col items-center">
                   <p className="text-muted-foreground text-center">
                     Every corner tells a story of craftsmanship and natural beauty.

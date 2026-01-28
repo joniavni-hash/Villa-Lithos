@@ -63,7 +63,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="site-footer__managed"
           >
-            Managed by Goldenberg
+            Managed by Goldenberg Luxe
           </a>
         </div>
       </div>

@@ -18,43 +18,18 @@ export async function GET() {
 
 export async function POST(req: Request) {
   try {
-    const {
-      fullName,
-      email,
-      phone,
-      service,
-      message,
+    const { fullName, email, phone, message, pageUrl, createdAt } = await req.json();
 
-      guests,
-      arrival,
-      departure,
-      nights,
-      villa,
-      pageUrl,
-      createdAt,
-    } = await req.json();
-
-    if (!fullName || !email || !message) return bad("Missing required fields.");
+    if (!fullName || !email) return bad("Missing required fields.");
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return bad("Invalid email.");
-
-    // ✅ σωστό sanity check: ή και τα δύο ή κανένα
-    if ((arrival && !departure) || (!arrival && departure)) {
-      return bad("Both arrival and departure are required.");
-    }
 
     await sendContactMail({
       fullName,
       email,
       phone,
-      service,
       message,
-      guests,
-      arrival,
-      departure,
-      nights,
-      villa,
       pageUrl,
-      createdAt, // ✅ no ts-expect-error needed
+      createdAt,
     });
 
     return NextResponse.json({ ok: true });

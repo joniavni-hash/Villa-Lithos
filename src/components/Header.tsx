@@ -3,6 +3,9 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
+const BOOKING_URL =
+  "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72";
+
 const navLinks = [
   { href: "/#about", label: "The Villa" },
   { href: "/#services", label: "Concierge" },
@@ -52,7 +55,12 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
-          <Link href="/#inquiry" className="site-header__cta">
+          <Link
+            href={BOOKING_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="site-header__cta"
+          >
             Book Now
           </Link>
         </nav>
@@ -111,7 +119,9 @@ export default function Header() {
           {/* Mobile CTA */}
           <div className="site-header__mobile-cta-wrapper">
             <Link
-              href="/#inquiry"
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="site-header__mobile-cta"
               onClick={handleNavClick}
             >

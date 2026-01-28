@@ -56,9 +56,9 @@ export function VacationRentalJsonLd() {
     url: siteUrl(),
     image: [
       siteUrl("/img/hero.webp"),
-      siteUrl("/img/gallery/01.webp"),
-      siteUrl("/img/gallery/02.webp"),
-      siteUrl("/img/gallery/03.webp"),
+      siteUrl("/img/gallery/Exterior%20%26%20Pool.jpg"),
+      siteUrl("/img/gallery/Living%20%26%20Dining%20(6).jpg"),
+      siteUrl("/img/gallery/Exterior%20%26%20Pool%20(14).jpg"),
     ],
     logo: siteUrl("/img/logo.webp"),
     priceRange: "$$$$",

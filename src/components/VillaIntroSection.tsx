@@ -30,10 +30,10 @@ const highlights: { label: string; value: string; icon: LucideIcon }[] = [
 
 
 const galleryImages = [
-  { src: "/img/gallery/01.webp", alt: "Villa Lithos exterior view" },
-  { src: "/img/gallery/03.webp", alt: "Villa Lithos pool area" },
-  { src: "/img/gallery/05.webp", alt: "Villa Lithos interior" },
-  { src: "/img/gallery/06.webp", alt: "Villa Lithos living space" },
+  { src: "/img/gallery/Exterior%20%26%20Pool.jpg", alt: "Illuminated pool at twilight" },
+  { src: "/img/gallery/Exterior%20%26%20Pool%20(5).jpg", alt: "Estate aerial view" },
+  { src: "/img/gallery/Living%20%26%20Dining%20(6).jpg", alt: "Fireplace lounge with wooden ceiling" },
+  { src: "/img/gallery/Wellness%20%26%20Spa%20(3).jpg", alt: "Bathtub with sea views" },
 ];
 
 // Animation variants - simplified
@@ -185,8 +185,8 @@ export default function VillaIntroSection() {
           >
             <div className="villa-intro__featured-img-wrapper">
               <Image
-                src="/img/gallery/insidevilla.jpg"
-                alt="Villa Lithos luxury interior view"
+                src="/img/gallery/Exterior%20%26%20Pool%20(14).jpg"
+                alt="Villa Lithos luxury exterior view"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="villa-intro__featured-img"
@@ -263,7 +263,7 @@ export default function VillaIntroSection() {
             href="/#inquiry"
             className="villa-intro__btn villa-intro__btn--secondary"
           >
-            Send Inquiry
+            More Information
           </Link>
         </motion.div>
       </div>
