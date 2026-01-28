@@ -136,6 +136,46 @@ export default function VillaMapSection({
           )}
         </div>
 
+        {/* Location Distances */}
+        <div className="vms-distances">
+          <h3 className="vms-distances__title">Getting Here</h3>
+          <p className="vms-distances__intro">
+            Villa Lithos enjoys a privileged location in Porto Rafti, Attica —
+            offering the perfect balance between peaceful seclusion and easy access
+            to Athens, the airport, and the beautiful beaches of the Athenian Riviera.
+          </p>
+          <ul className="vms-distances__list">
+            <li>
+              <span className="vms-distances__icon">✈</span>
+              <div>
+                <strong>Athens Int. Airport (El. Venizelos)</strong>
+                <span>16 km — approx. 15 min drive</span>
+              </div>
+            </li>
+            <li>
+              <span className="vms-distances__icon">🏛</span>
+              <div>
+                <strong>Athens City Center</strong>
+                <span>37 km via Attiki Odos — approx. 40 min drive</span>
+              </div>
+            </li>
+            <li>
+              <span className="vms-distances__icon">🏖</span>
+              <div>
+                <strong>Nearest Beach (Avlaki/Erotospilia)</strong>
+                <span>1.5 km — approx. 3 min drive</span>
+              </div>
+            </li>
+            <li>
+              <span className="vms-distances__icon">⛴</span>
+              <div>
+                <strong>Rafina Port (Islands Ferry)</strong>
+                <span>20 min drive — gateway to Cyclades & Evia</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
         {/* Actions */}
         <div className="vms-actions">
           <a

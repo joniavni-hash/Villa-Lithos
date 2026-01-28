@@ -4767,6 +4767,79 @@ main [class*="text-white/"] {
   background: white;
 }
 
+/* Location Distances */
+.vms-distances {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #fafaf8;
+  border-radius: 12px;
+  border: 1px solid rgba(139, 115, 85, 0.1);
+}
+
+.vms-distances__title {
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #1a1714;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+.vms-distances__intro {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #5a5550;
+  margin-bottom: 1.25rem;
+}
+
+.vms-distances__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.vms-distances__list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid rgba(139, 115, 85, 0.08);
+  transition: border-color 0.2s ease;
+}
+
+.vms-distances__list li:hover {
+  border-color: rgba(139, 115, 85, 0.2);
+}
+
+.vms-distances__icon {
+  font-size: 1.25rem;
+  line-height: 1;
+  flex-shrink: 0;
+  width: 2rem;
+  text-align: center;
+}
+
+.vms-distances__list li div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.vms-distances__list li strong {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1a1714;
+}
+
+.vms-distances__list li span {
+  font-size: 0.8rem;
+  color: #7a7570;
+}
+
 /* Actions */
 .vms-actions {
   display: flex;
@@ -4823,6 +4896,24 @@ main [class*="text-white/"] {
 
   .vms-address {
     font-size: 1rem;
+  }
+
+  .vms-distances {
+    margin-top: 2.5rem;
+    padding: 2rem;
+  }
+
+  .vms-distances__title {
+    font-size: 1.4rem;
+  }
+
+  .vms-distances__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .vms-distances__list li {
+    padding: 1rem;
   }
 }
 

@@ -18,16 +18,16 @@ import ImageLightbox from "./ImageLightbox";
 
 // Amenities data with monochrome lucide-react icons
 const amenities: { name: string; icon: LucideIcon; image: string }[] = [
-    { name: "Private Pool", icon: Waves, image: "/img/gallery/Exterior & Pool (9).jpg" },
+    { name: "Heated Pool", icon: Waves, image: "/img/gallery/Exterior & Pool (9).jpg" },
     { name: "Jacuzzi", icon: Sparkles, image: "/img/gallery/Exterior & Pool.jpg" },
     { name: "Sea View", icon: Sunrise, image: "/img/gallery/Exterior & Pool (6).jpg" },
     { name: "Mountain View", icon: Mountain, image: "/img/gallery/Exterior & Pool (14).jpg" },
     { name: "Outdoor Sauna", icon: Flame, image: "/img/gallery/Wellness & Spa (2).jpg" },
     { name: "Padel Court", icon: Circle, image: "/img/gallery/Sports & Activities (2).jpg" },
     { name: "Gym", icon: Dumbbell, image: "/img/gallery/Sports & Activities (4).jpg" },
-    { name: "Elevator", icon: ArrowUpDown, image: "/img/gallery/10.jpg" },
-    { name: "Design Kitchen", icon: ChefHat, image: "/img/gallery/Kitchen.jpg" },
-    { name: "Workspace", icon: Monitor, image: "/img/gallery/Living & Dining (3).jpg" },
+    { name: "Elevator", icon: ArrowUpDown, image: "/img/gallery/Living & Dining (8).jpg" },
+    { name: "Design Kitchen", icon: ChefHat, image: "/img/gallery/Living & Dining (4).jpg" },
+    { name: "Workspace", icon: Monitor, image: "/img/gallery/Living & Dining (7).jpg" },
 ];
 
 const container = {
