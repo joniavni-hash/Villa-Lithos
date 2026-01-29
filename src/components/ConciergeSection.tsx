@@ -92,7 +92,7 @@ export default function ConciergeSection() {
             {/* Content */}
             <motion.div
               ref={contentRef}
-              className="concierge__content"
+              className="concierge__content text-center flex flex-col items-center"
               initial="hidden"
               animate={contentInView ? "visible" : "hidden"}
               variants={staggerContainer}
@@ -128,14 +128,14 @@ export default function ConciergeSection() {
               </motion.p>
 
               <motion.hr
-                className="concierge__divider"
+                className="concierge__divider mx-auto"
                 variants={fadeUp}
                 transition={{ duration: 0.4, delay: 0.35 }}
               />
 
               <motion.ul
                 ref={servicesRef}
-                className="concierge__services"
+                className="concierge__services mx-auto grid w-fit grid-cols-2 gap-x-12 gap-y-2 text-left"
                 aria-label="Key services"
                 initial="hidden"
                 animate={servicesInView ? "visible" : "hidden"}

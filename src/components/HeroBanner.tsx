@@ -181,7 +181,7 @@ const Video = forwardRef<HTMLVideoElement, VideoProps>(
         disablePictureInPicture
         disableRemotePlayback
       >
-        <source src={src} type="video/mp4; codecs=avc1.42E01E" />
+        <source src={src} type="video/mp4" />
       </video>
     );
   }

@@ -311,7 +311,7 @@ export default function UltraLuxuryGallery({
   }
 
   return (
-    <section className={`bg-background overflow-hidden ${showFullGallery ? 'py-8 md:pt-24 md:pb-32' : 'py-8 md:py-32'}`}>
+    <section className={`bg-background overflow-hidden ${showFullGallery ? 'py-1 md:pt-4 md:pb-8' : 'py-2 md:py-6'}`}>
       <div className="max-w-[1400px] mx-auto px-0 md:px-6 lg:px-8">
 
         {showFullGallery ? (
@@ -323,7 +323,7 @@ export default function UltraLuxuryGallery({
             }}
           >
             {/* Back Button - Sticky */}
-            <div className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm py-3 px-4 md:px-0 border-b border-[#E8E0D8]/50">
+            <div className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm py-3 px-4 md:px-0 border-b border-[#E8E0D8]/50 flex justify-center">
               <button
                 onClick={() => setShowFullGallery(false)}
                 className="group inline-flex items-center gap-3 transition-all duration-300 hover:gap-4"
@@ -351,16 +351,16 @@ export default function UltraLuxuryGallery({
             </div>
 
             {/* Full Gallery Header - More breathing room */}
-            <div className="text-center mt-4 md:mt-12 mb-8 md:mb-32 px-4 md:px-0">
-              <h2 className="concierge__title mb-3 md:mb-6 text-center">Full Gallery</h2>
-              <span className="concierge__kicker mb-3 md:mb-6 text-center block">Complete Collection</span>
+            <div className="flex flex-col items-center text-center mt-4 md:mt-6 mb-6 md:mb-10 px-4 md:px-0">
+              <h2 className="concierge__title mb-3 md:mb-4 text-center">Full Gallery</h2>
+              <span className="concierge__kicker mb-3 md:mb-4 text-center block">Complete Collection</span>
               <p className="text-muted-foreground text-center max-w-lg mx-auto">
                 Explore every detail of Villa Lithos through our curated collection
               </p>
             </div>
 
             {/* Grid Layout - Increased gaps for luxury spacing */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-6 lg:gap-8 px-4 md:px-0 mb-10 md:mb-40">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-6 lg:gap-8 px-4 md:px-0 mb-8 md:mb-12">
               {villaImages.map((image, index) => (
                 <div
                   key={image.src}
@@ -409,7 +409,7 @@ export default function UltraLuxuryGallery({
             </div>
 
             {/* Back to Slider Button - More prominent */}
-            <div className="relative z-10 flex justify-center pt-20 pb-20 px-4 md:px-0">
+            <div className="relative z-10 flex justify-center pt-2 pb-2 px-4 md:px-0">
               <button
                 onClick={() => {
                   setShowFullGallery(false)
@@ -476,7 +476,7 @@ export default function UltraLuxuryGallery({
           /* ========== SLIDER VIEW ========== */
           <>
             {/* Header */}
-            <div className="flex flex-col mb-6 md:mb-24 gap-3 md:gap-8 px-4 md:px-0">
+            <div className="flex flex-col mb-4 md:mb-8 gap-3 md:gap-6 px-4 md:px-0">
               {/* Centered Title & Description with Left Kicker */}
               <div className="flex flex-col items-center justify-center w-full">
                 <h2 className="concierge__title mb-4 text-center">
@@ -715,7 +715,7 @@ export default function UltraLuxuryGallery({
             </div>
 
             {/* Progress Indicator */}
-            <div className="flex justify-center items-center mt-4 md:mt-12 py-2 md:pb-8 px-4 md:px-0">
+            <div className="flex justify-center items-center mt-4 md:mt-8 py-2 md:pb-6 px-4 md:px-0">
               {isMobile ? (
                 /* Mobile: Premium counter with progress */
                 <div className="flex flex-col items-center gap-3">
@@ -750,7 +750,7 @@ export default function UltraLuxuryGallery({
             </div>
 
             {/* View All Gallery CTA */}
-            <div className="flex justify-center mt-5 md:mt-12 px-4 md:px-0">
+            <div className="flex justify-center mt-5 md:mt-8 px-4 md:px-0">
               <button
                 onClick={() => setShowFullGallery(true)}
                 className="group relative inline-flex items-center justify-center overflow-hidden px-8 py-3 md:px-10 md:py-4"

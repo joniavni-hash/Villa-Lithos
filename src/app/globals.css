@@ -1320,7 +1320,7 @@ body.menu-open #site-menu {
 
 .villa-intro {
   position: relative;
-  padding: 5rem 0;
+  padding: 0.5rem 0 0;
   background: var(--page);
 }
 
@@ -1959,7 +1959,7 @@ body.menu-open #site-menu {
 
 .concierge {
   position: relative;
-  padding: 5rem 0;
+  padding: 1rem 0 0.5rem;
   background: linear-gradient(180deg, var(--page) 0%, var(--page-2) 100%);
   overflow: hidden;
 }
@@ -1972,7 +1972,7 @@ body.menu-open #site-menu {
   left: 50%;
   transform: translateX(-50%);
   width: 1px;
-  height: 60px;
+  height: 20px;
   background: linear-gradient(180deg, transparent 0%, var(--accent) 100%);
   opacity: 0.4;
 }
@@ -2160,11 +2160,11 @@ body.menu-open #site-menu {
    ========================================================= */
 @media (min-width: 768px) {
   .concierge {
-    padding: 6rem 0;
+    padding: 1.5rem 0;
   }
 
   .concierge::before {
-    height: 80px;
+    height: 30px;
   }
 
   .concierge__main-grid {
@@ -4939,7 +4939,7 @@ main [class*="text-white/"] {
    ============================================ */
 
 .site-footer {
-  margin-top: var(--space-2xl);
+  margin-top: 0;
   background: #1a1a1a;
   color: #fff;
 }

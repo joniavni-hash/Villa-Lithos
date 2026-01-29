@@ -66,7 +66,7 @@ export default function HomePage() {
 
       {/* Contact/Inquiry section - preserve ids for anchor */}
       {/* Contact/Inquiry section - preserve ids for anchor */}
-      <div id="contact" className="section">
+      <div id="contact" className="">
         <div id="inquiry">
           <ContactForm />
         </div>

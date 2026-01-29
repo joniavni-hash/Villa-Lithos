@@ -37,8 +37,9 @@ export default function VillaMapSection({
 
     // Fallback: if IntersectionObserver isn't available, load immediately
     if (typeof IntersectionObserver === "undefined") {
-      setIsVisible(true);
-      return;
+      // Use setTimeout to avoid synchronous state update warning
+      const timer = setTimeout(() => setIsVisible(true), 0);
+      return () => clearTimeout(timer);
     }
 
     const observer = new IntersectionObserver(
@@ -69,10 +70,10 @@ export default function VillaMapSection({
 
   return (
     <section
-      ref={(node) => {
+      ref={(node: HTMLElement | null) => {
         containerRef.current = node;
       }}
-      className={`vms ${className}`}
+      className={`vms py-2 md:py-4 ${className}`}
       aria-label="Villa location map"
     >
       <div className="vms-container">
@@ -137,14 +138,14 @@ export default function VillaMapSection({
         </div>
 
         {/* Location Distances */}
-        <div className="vms-distances">
+        <div className="vms-distances text-center flex flex-col items-center">
           <h3 className="vms-distances__title">Getting Here</h3>
-          <p className="vms-distances__intro">
+          <p className="vms-distances__intro mx-auto text-center" style={{ maxWidth: "600px" }}>
             Villa Lithos enjoys a privileged location in Porto Rafti, Attica,
             offering the perfect balance between peaceful seclusion and easy access
             to Athens, the airport, and the beautiful beaches of the Athenian Riviera.
           </p>
-          <ul className="vms-distances__list">
+          <ul className="vms-distances__list w-full max-w-[800px] mx-auto text-left">
             <li>
               <span className="vms-distances__icon">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -202,7 +203,7 @@ export default function VillaMapSection({
         </div>
 
         {/* Actions */}
-        <div className="vms-actions">
+        <div className="vms-actions flex justify-center">
           <a
             href={googleMapsLink}
             target="_blank"

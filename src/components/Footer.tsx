@@ -9,7 +9,7 @@ export default function Footer() {
         {/* Top Section */}
         {/* Top Section - 3 Column Layout for Desktop */}
         {/* Top Section - 3 Column Layout for Desktop */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 items-start w-full py-8 lg:py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 items-start w-full py-8 lg:py-10">
 
           {/* LEFT: Contact */}
           <div className="flex flex-col items-center lg:items-start w-full order-last lg:order-first">

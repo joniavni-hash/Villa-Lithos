@@ -122,7 +122,7 @@ export default function VillaIntroSection() {
         {/* Stats Row */}
         <motion.div
           ref={statsRef}
-          className="stats-grid py-4 mb-6 border-y border-stone-200/40 md:py-8 md:mb-10 md:border-stone-300/30"
+          className="stats-grid py-4 mb-6 border-y border-stone-200/40 md:py-6 md:mb-8 md:border-stone-300/30"
           initial="hidden"
           animate={statsInView ? "visible" : "hidden"}
           variants={staggerContainer}
@@ -233,7 +233,7 @@ export default function VillaIntroSection() {
         {/* Amenities - Replaced with new component */}
         <motion.div
           ref={amenitiesRef}
-          className="relative mb-10 -mx-4 px-4 md:mx-0 md:px-0"
+          className="relative mb-4 -mx-4 px-4 md:mx-0 md:px-0"
           initial="hidden"
           animate={amenitiesInView ? "visible" : "hidden"}
           variants={fadeUp}
@@ -245,7 +245,7 @@ export default function VillaIntroSection() {
         {/* CTA - fade up */}
         <motion.div
           ref={ctaRef}
-          className="villa-intro__cta"
+          className="villa-intro__cta mt-0"
           initial="hidden"
           animate={ctaInView ? "visible" : "hidden"}
           variants={fadeUp}

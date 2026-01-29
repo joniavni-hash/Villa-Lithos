@@ -48,7 +48,7 @@ const itemAnim = {
 export default function Amenities() {
     return (
         <div className="w-full">
-            <h3 className="text-center text-sm font-medium uppercase tracking-widest text-stone-500 mb-6 md:text-base md:mb-10">
+            <h3 className="text-center text-sm font-medium uppercase tracking-widest text-stone-500 mb-4 md:text-base md:mb-6">
                  Amenities
             </h3>
 
