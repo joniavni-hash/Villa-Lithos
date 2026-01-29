@@ -27,7 +27,7 @@ const amenities: { name: string; icon: LucideIcon; image: string }[] = [
     { name: "Gym", icon: Dumbbell, image: "/img/gallery/Sports & Activities (4).jpg" },
     { name: "Elevator", icon: ArrowUpDown, image: "/img/gallery/Living & Dining (8).jpg" },
     { name: "Design Kitchen", icon: ChefHat, image: "/img/gallery/Living & Dining (4).jpg" },
-    { name: "Workspace", icon: Monitor, image: "/img/gallery/Living & Dining (7).jpg" },
+    { name: "Workspace", icon: Monitor, image: "/img/gallery/Living & Dining (3).jpeg" },
 ];
 
 const container = {

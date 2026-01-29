@@ -24,12 +24,10 @@ const imageDescriptions: Record<string, { title: string; alt: string }> = {
 
   // Living & Dining
   'Living & Dining.jpg': { title: 'Stone Wall Living Room', alt: 'Elegant living room with natural stone accent wall' },
-  'Living & Dining (2).jpg': { title: 'Cozy Seating Area', alt: 'Comfortable seating area with wooden furniture' },
   'Living & Dining (3).jpg': { title: 'Work from Paradise', alt: 'Guest working remotely in the bright living room' },
   'Living & Dining (4).jpg': { title: 'Modern Kitchen Island', alt: 'Fully equipped kitchen with island and dining space' },
   'Living & Dining (5).jpg': { title: 'Main Living Room', alt: 'Spacious living room with comfortable sofas' },
   'Living & Dining (6).jpg': { title: 'Fireplace Lounge', alt: 'Living room with wooden beamed ceiling and fireplace' },
-  'Living & Dining (7).jpg': { title: 'Panoramic Living Space', alt: 'Open-plan living area with stunning natural light' },
   'Living & Dining (8).jpg': { title: 'Elegant Dining Corner', alt: 'Dining table set near the staircase' },
   'Living & Dining (9).jpg': { title: 'Dining with Pool View', alt: 'Dining area connected to living room with pool views' },
   'Living & Dining (10).jpg': { title: 'Grand Dining Table', alt: 'Large dining table perfect for family gatherings' },
@@ -90,7 +88,7 @@ const generateImageArray = () => {
     })
   }
 
-  // Living & Dining: 1 base + 10 numbered (2-10) = 10 total
+  // Living & Dining: 1 base + numbered (excluding 2, 3, 7) = 7 total
   const livBase = 'Living & Dining.jpg'
   images.push({
     src: getEncodedPath(livBase),
@@ -98,8 +96,8 @@ const generateImageArray = () => {
     title: getImageInfo(livBase).title,
     category: 'living'
   })
-  for (let i = 2; i <= 10; i++) {
-    if (i === 3) continue
+  for (let i = 4; i <= 10; i++) {
+    if (i === 7) continue
     const filename = `Living & Dining (${i}).jpg`
     images.push({
       src: getEncodedPath(filename),
