@@ -146,28 +146,53 @@ export default function VillaMapSection({
           </p>
           <ul className="vms-distances__list">
             <li>
-              <span className="vms-distances__icon">✈</span>
+              <span className="vms-distances__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+                </svg>
+              </span>
               <div>
                 <strong>Athens Int. Airport (El. Venizelos)</strong>
                 <span>16 km — approx. 15 min drive</span>
               </div>
             </li>
             <li>
-              <span className="vms-distances__icon">🏛</span>
+              <span className="vms-distances__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M3 21h18"/>
+                  <path d="M5 21V7l8-4 8 4v14"/>
+                  <path d="M9 21v-6h6v6"/>
+                  <path d="M10 9h4"/>
+                  <path d="M10 13h4"/>
+                </svg>
+              </span>
               <div>
                 <strong>Athens City Center</strong>
                 <span>37 km via Attiki Odos — approx. 40 min drive</span>
               </div>
             </li>
             <li>
-              <span className="vms-distances__icon">🏖</span>
+              <span className="vms-distances__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                  <path d="M22 10a3 3 0 0 0-3-3h-2.207a5.502 5.502 0 0 0-10.702.5"/>
+                </svg>
+              </span>
               <div>
                 <strong>Nearest Beach (Avlaki/Erotospilia)</strong>
                 <span>1.5 km — approx. 3 min drive</span>
               </div>
             </li>
             <li>
-              <span className="vms-distances__icon">⛴</span>
+              <span className="vms-distances__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
+                  <path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76"/>
+                  <path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6"/>
+                  <path d="M12 10v4"/>
+                  <path d="M12 2v3"/>
+                </svg>
+              </span>
               <div>
                 <strong>Rafina Port (Islands Ferry)</strong>
                 <span>20 min drive — gateway to Cyclades & Evia</span>

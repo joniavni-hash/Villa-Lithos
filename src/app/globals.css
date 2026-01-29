@@ -4816,11 +4816,13 @@ main [class*="text-white/"] {
 }
 
 .vms-distances__icon {
-  font-size: 1.25rem;
-  line-height: 1;
   flex-shrink: 0;
   width: 2rem;
-  text-align: center;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8b7355;
 }
 
 .vms-distances__list li div {
