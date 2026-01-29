@@ -25,9 +25,9 @@ const getIsDesktop = () =>
   typeof window !== "undefined" && window.innerWidth >= DESKTOP_BREAKPOINT;
 
 export default function HeroBanner({
-  kicker = "WELCOME TO",
+  kicker = "LUXURY VILLA IN PORTO RAFTI",
   title = "Villa Lithos",
-  subtitle = "A private villa in Greece. Quiet stays, thoughtful comfort.",
+  subtitle = "A 9-bedroom private retreat near Athens with heated pool, sea views, and exclusive amenities for up to 22 guests.",
   videoSrcMobile,
   videoSrcDesktop,
   videoSrc,
@@ -70,6 +70,10 @@ export default function HeroBanner({
     const video = videoRef.current;
     if (!video || !currentVideoSrc || prefersReducedMotion) return;
 
+    // Safari requires the muted property to be set on the element for autoplay to work reliably
+    video.muted = true;
+    video.defaultMuted = true;
+
     const onCanPlay = () => {
       setVideoReady(true);
       // Try to play manually for Safari compatibility
@@ -79,14 +83,20 @@ export default function HeroBanner({
     };
     const onError = () => setVideoError(true);
 
-    video.addEventListener("canplaythrough", onCanPlay);
+    // Check if video is already ready (e.g. cached)
+    if (video.readyState >= 3) {
+      onCanPlay();
+    }
+
+    // Use 'canplay' instead of 'canplaythrough' for faster/more reliable start on Safari
+    video.addEventListener("canplay", onCanPlay);
     video.addEventListener("error", onError);
 
     // Load the video
     video.load();
 
     return () => {
-      video.removeEventListener("canplaythrough", onCanPlay);
+      video.removeEventListener("canplay", onCanPlay);
       video.removeEventListener("error", onError);
     };
   }, [currentVideoSrc, prefersReducedMotion]);

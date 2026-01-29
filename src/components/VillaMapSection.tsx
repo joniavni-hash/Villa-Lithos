@@ -141,9 +141,10 @@ export default function VillaMapSection({
         <div className="vms-distances text-center flex flex-col items-center">
           <h3 className="vms-distances__title">Getting Here</h3>
           <p className="vms-distances__intro mx-auto text-center" style={{ maxWidth: "600px" }}>
-            Villa Lithos enjoys a privileged location in Porto Rafti, Attica,
-            offering the perfect balance between peaceful seclusion and easy access
-            to Athens, the airport, and the beautiful beaches of the Athenian Riviera.
+            Villa Lithos is ideally situated in Porto Rafti, one of Attica&apos;s most
+            sought-after coastal destinations. Enjoy the perfect balance of serene
+            privacy and convenient access to Athens International Airport, the city
+            center, and the pristine beaches of the Athenian Riviera.
           </p>
           <ul className="vms-distances__list w-full max-w-[800px] mx-auto text-left">
             <li>

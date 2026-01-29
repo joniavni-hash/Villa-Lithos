@@ -100,7 +100,7 @@ export default function VillaIntroSection() {
             variants={staggerItem}
             transition={{ duration: 0.6 }}
           >
-            Welcome to
+            Luxury accommodation near Athens
           </motion.span>
           <motion.h2
             id="villa-intro-title"
@@ -115,7 +115,7 @@ export default function VillaIntroSection() {
             variants={staggerItem}
             transition={{ duration: 0.6 }}
           >
-            A 9-bedroom villa with space to breathe and room to gather
+            A 9-bedroom luxury retreat with space to unwind and room for memorable gatherings
           </motion.p>
         </motion.header>
 
@@ -204,27 +204,31 @@ export default function VillaIntroSection() {
           >
             <motion.div className="villa-intro__lead" variants={staggerItem} transition={{ duration: 0.6 }}>
               <p>
-                Villa Lithos is a stunning 800m² home built on a 5000m² plot, designed
-                for up to 22 guests. Nine bedrooms, ten bathrooms, and enough space
-                for large families, friend groups, or work retreats.
+                Villa Lithos is a stunning 800m² luxury villa set on a 5000m² private
+                estate in Porto Rafti, Attica. Designed for up to 22 guests, this
+                exclusive property features nine bedrooms, ten bathrooms, and generous
+                spaces for families, groups of friends, or corporate retreats.
               </p>
               <p>
-                Swim in the pool, relax in the jacuzzi, warm up in the outdoor sauna,
-                or play padel in the sun. There&apos;s a gym, an elevator, lounges on
-                two floors, and private parking.
+                Enjoy the heated infinity pool with panoramic sea views, unwind in the
+                jacuzzi, rejuvenate in the outdoor sauna, or challenge friends on the
+                padel court. The villa also offers a fully equipped gym, private elevator,
+                dual lounges, and secure parking.
               </p>
             </motion.div>
 
             <motion.div className="villa-intro__details" variants={staggerItem} transition={{ duration: 0.6 }}>
               <h3 className="villa-intro__section-title">The Space</h3>
               <p>
-                Inside, the living spaces are open and modern. Two living rooms,
-                one on the ground floor and one below, give everyone a place
-                to sit, talk, or be alone.
+                Inside, the contemporary interiors blend modern design with warm
+                Mediterranean touches. Two spacious living rooms, on the ground
+                floor and lower level, provide versatile spaces for relaxation,
+                conversation, or quiet moments.
               </p>
               <p>
-                The kitchen is fully equipped with a pantry and everything
-                you need to cook for a crowd.
+                The designer kitchen is fully equipped with premium appliances
+                and a walk-in pantry, perfect for preparing memorable meals
+                during your stay near Athens.
               </p>
             </motion.div>
           </motion.div>

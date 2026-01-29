@@ -50,7 +50,7 @@ export default function ConciergeSection() {
   return (
     <section
       id="services"
-      className="concierge"
+      className="concierge py-2 md:py-4"
       aria-labelledby="concierge-title"
       ref={sectionRef}
     >
@@ -85,7 +85,7 @@ export default function ConciergeSection() {
                 variants={fadeUp}
                 transition={{ duration: 0.5 }}
               >
-                Hospitality that fits your stay.
+                Personalized hospitality tailored to your stay.
               </motion.span>
             </motion.header>
 
@@ -101,30 +101,31 @@ export default function ConciergeSection() {
                 variants={fadeUp}
                 transition={{ duration: 0.5 }}
               >
-                Our concierge handles the details so you don&apos;t have to,
-                whether you&apos;re here with family or for work.
+                At Villa Lithos, our dedicated concierge team manages every detail
+                of your stay, whether you&apos;re visiting with family or hosting
+                a corporate retreat in Porto Rafti.
               </motion.p>
               <motion.p
                 variants={fadeUp}
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
-                We arrange private chefs, stock the house before you arrive,
-                keep it clean while you&apos;re here, and point you to the best
-                local experiences.
+                From arranging private chefs and pre-stocking the villa to daily
+                housekeeping and curating authentic Greek experiences, we ensure
+                your time near Athens is effortless and memorable.
               </motion.p>
               <motion.p
                 variants={fadeUp}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                Private guests and corporate groups both get the same attention.
-                Every stay runs smoothly.
+                Private guests and corporate groups receive the same meticulous
+                attention. Every stay at our luxury villa runs seamlessly.
               </motion.p>
               <motion.p
                 className="concierge__closing text-center"
                 variants={fadeUp}
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
-                Small requests, big ones. We&apos;re here to help.
+                From small requests to grand arrangements, we&apos;re here to help.
               </motion.p>
 
               <motion.hr
