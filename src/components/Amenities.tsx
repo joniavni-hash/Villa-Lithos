@@ -25,7 +25,7 @@ const amenities: { name: string; icon: LucideIcon; image: string }[] = [
     { name: "Outdoor Sauna", icon: Flame, image: "/img/gallery/Wellness & Spa (2).jpg" },
     { name: "Padel Court", icon: Circle, image: "/img/gallery/Sports & Activities (2).jpg" },
     { name: "Gym", icon: Dumbbell, image: "/img/gallery/Sports & Activities (4).jpg" },
-    { name: "Elevator", icon: ArrowUpDown, image: "/img/gallery/Living & Dining (10).jpg" },
+    { name: "Elevator", icon: ArrowUpDown, image: "/img/gallery/10.jpg" },
     { name: "Design Kitchen", icon: ChefHat, image: "/img/gallery/Living & Dining (11).jpg" },
     { name: "Workspace", icon: Monitor, image: "/img/gallery/Living & Dining (12).jpg" },
 ];

@@ -1513,6 +1513,7 @@ body.menu-open #site-menu {
   color: var(--text-secondary);
   margin: 0;
   text-wrap: pretty;
+  text-align: center;
 }
 
 .villa-intro__lead p:first-child {
@@ -1529,6 +1530,7 @@ body.menu-open #site-menu {
   letter-spacing: -0.02em;
   color: var(--text);
   margin: 0 0 0.75rem;
+  text-align: center;
 }
 
 /* ---- Image Gallery ---- */
@@ -1781,6 +1783,11 @@ body.menu-open #site-menu {
   .villa-intro__lead p,
   .villa-intro__details p {
     font-size: 1.0625rem;
+    text-align: left;
+  }
+
+  .villa-intro__section-title {
+    text-align: left;
   }
 
   .villa-intro__lead p:first-child {
@@ -2036,12 +2043,14 @@ body.menu-open #site-menu {
 .concierge__header {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1.25rem;
 }
 
 .concierge__kicker {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.75rem;
   font-family: var(--font-sans);
   font-size: 0.6875rem;
@@ -2051,7 +2060,8 @@ body.menu-open #site-menu {
   color: var(--accent);
 }
 
-.concierge__kicker::before {
+.concierge__kicker::before,
+.concierge__kicker::after {
   content: "";
   width: 24px;
   height: 1px;
@@ -2276,7 +2286,8 @@ body.menu-open #site-menu {
     font-size: 0.75rem;
   }
 
-  .concierge__kicker::before {
+  .concierge__kicker::before,
+  .concierge__kicker::after {
     width: 32px;
   }
 
@@ -6533,10 +6544,6 @@ body {
   margin-bottom: var(--space-lg);
 }
 
-.concierge__grid--centered .concierge__kicker::before {
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 .concierge__grid--centered .concierge__content {
   text-align: left;
@@ -7064,6 +7071,7 @@ body {
   .villa-intro__section-title {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    text-align: center;
   }
 
   /* ---- CTA BUTTONS: Compact ---- */
