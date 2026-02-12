@@ -36,8 +36,8 @@ const imageDescriptions: Record<string, { title: string; alt: string }> = {
   'Bedrooms.jpg': { title: 'Loft Relaxation Area', alt: 'Cozy loft space with sofas and bean bags' },
   'Bedrooms (2).jpg': { title: 'Entertainment Loft', alt: 'Loft area with large TV and wooden ceiling' },
   'Bedrooms (3).jpg': { title: 'Serene Master Bedroom', alt: 'Bedroom with elegant pendant lights and garden view' },
-  'Bedrooms (4).jpg': { title: 'Warm & Inviting Suite', alt: 'Comfortable bedroom with soft lighting' },
   'Bedrooms (5).jpg': { title: 'Bedroom with Court View', alt: 'Bedroom overlooking the private padel court' },
+  'Bedrooms (6).jpg': { title: 'Warm & Inviting Suite', alt: 'Comfortable bedroom with soft lighting' },
 
   // Wellness & Spa
   'Wellness & Spa.jpg': { title: 'Finnish Barrel Sauna', alt: 'Interior of the authentic wooden sauna' },
@@ -49,7 +49,7 @@ const imageDescriptions: Record<string, { title: string; alt: string }> = {
 
   // Sports & Activities
   'Sports & Activities.jpg': { title: 'Private Padel Court', alt: 'Professional padel court with mountain backdrop' },
-  'Sports & Activities (2).jpg': { title: 'Night Padel Session', alt: 'Floodlit padel court for evening games' },
+  'Sports & Activities (6).jpg': { title: 'Night Padel Session', alt: 'Floodlit padel court for evening games' },
   'Sports & Activities (3).jpg': { title: 'Fitness with a View', alt: 'Treadmill workout with panoramic views' },
   'Sports & Activities (4).jpg': { title: 'Fully Equipped Gym', alt: 'Home gym with weight training equipment' },
 
@@ -107,7 +107,7 @@ const generateImageArray = () => {
     })
   }
 
-  // Bedrooms: 1 base + 5 numbered (2-5) = 5 total
+  // Bedrooms: 1 base + numbered [2,3,5,6] = 5 total
   const bedBase = 'Bedrooms.jpg'
   images.push({
     src: getEncodedPath(bedBase),
@@ -115,7 +115,7 @@ const generateImageArray = () => {
     title: getImageInfo(bedBase).title,
     category: 'bedrooms'
   })
-  for (let i = 2; i <= 5; i++) {
+  for (const i of [2, 3, 5, 6]) {
     const filename = `Bedrooms (${i}).jpg`
     images.push({
       src: getEncodedPath(filename),
@@ -162,7 +162,7 @@ const generateImageArray = () => {
     category: 'wellness'
   })
 
-  // Sports & Activities: 1 base + 4 numbered (2-4) = 4 total
+  // Sports & Activities: 1 base + numbered [3,4,6] = 4 total
   const sportBase = 'Sports & Activities.jpg'
   images.push({
     src: getEncodedPath(sportBase),
@@ -170,7 +170,7 @@ const generateImageArray = () => {
     title: getImageInfo(sportBase).title,
     category: 'sports'
   })
-  for (let i = 2; i <= 4; i++) {
+  for (const i of [3, 4, 6]) {
     const filename = `Sports & Activities (${i}).jpg`
     images.push({
       src: getEncodedPath(filename),
