@@ -494,8 +494,8 @@ export default function UltraLuxuryGallery({
                 </div>
               </div>
 
-              {/* Navigation Arrows - Right Aligned or centered based on preference, here kept clean */}
-              <div className="hidden md:flex justify-center md:justify-end gap-2 md:gap-3">
+              {/* Navigation Arrows - Centered */}
+              <div className="hidden md:flex justify-center gap-2 md:gap-3">
                 <button
                   onClick={goToPrevious}
                   disabled={currentIndex === 0}
