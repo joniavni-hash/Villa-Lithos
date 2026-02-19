@@ -1,23 +1,18 @@
+import { readFileSync } from "fs";
+import { join } from "path";
 import type { GlobalData, PageData } from "./tina-types";
 
-async function getClient() {
-  try {
-    // @ts-expect-error — generated at build time by tinacms build
-    const mod = await import("../../../tina/__generated__/client");
-    return mod.default;
-  } catch {
-    return null;
-  }
-}
+/**
+ * Read content JSON files directly from the filesystem.
+ * TinaCMS admin edits these files (committed to git via TinaCloud),
+ * and the site reads them at build/request time — no tinacms build needed.
+ */
 
 export async function getGlobalData(): Promise<GlobalData | null> {
   try {
-    const client = await getClient();
-    if (!client) return null;
-    const { data } = await client.queries.global({
-      relativePath: "index.json",
-    });
-    return data.global as GlobalData;
+    const filePath = join(process.cwd(), "content/global/index.json");
+    const raw = readFileSync(filePath, "utf8");
+    return JSON.parse(raw) as GlobalData;
   } catch {
     return null;
   }
@@ -25,12 +20,9 @@ export async function getGlobalData(): Promise<GlobalData | null> {
 
 export async function getPageData(): Promise<PageData | null> {
   try {
-    const client = await getClient();
-    if (!client) return null;
-    const { data } = await client.queries.page({
-      relativePath: "home.json",
-    });
-    return data.page as PageData;
+    const filePath = join(process.cwd(), "content/page/home.json");
+    const raw = readFileSync(filePath, "utf8");
+    return JSON.parse(raw) as PageData;
   } catch {
     return null;
   }
