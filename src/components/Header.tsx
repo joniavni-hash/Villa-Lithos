@@ -3,18 +3,27 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-const BOOKING_URL =
+type HeaderData = {
+  brandName: string;
+  bookingUrl?: string | null;
+  navLinks?: { href: string; label: string }[] | null;
+};
+
+const DEFAULT_BOOKING_URL =
   "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72";
 
-const navLinks = [
+const DEFAULT_NAV_LINKS = [
   { href: "/#about", label: "The Villa" },
   { href: "/#services", label: "Concierge" },
   { href: "/#gallery", label: "Gallery" },
   { href: "/#location", label: "Location" },
 ];
 
-export default function Header() {
+export default function Header({ data }: { data?: HeaderData }) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const brandName = data?.brandName || "Villa Lithos";
+  const bookingUrl = data?.bookingUrl || DEFAULT_BOOKING_URL;
+  const navLinks = data?.navLinks || DEFAULT_NAV_LINKS;
 
   const handleNavClick = () => {
     setMenuOpen(false);
@@ -42,10 +51,10 @@ export default function Header() {
         <button
           type="button"
           className="site-header__brand"
-          aria-label="Villa Lithos - Scroll to top"
+          aria-label={`${brandName} - Scroll to top`}
           onClick={scrollToTop}
         >
-          Villa Lithos
+          {brandName}
         </button>
 
         {/* Desktop Navigation */}
@@ -56,7 +65,7 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href={BOOKING_URL}
+            href={bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="site-header__cta"
@@ -88,7 +97,7 @@ export default function Header() {
         <div className="site-header__mobile-content">
           {/* Mobile Header */}
           <div className="site-header__mobile-header">
-            <span className="site-header__mobile-brand">Villa Lithos</span>
+            <span className="site-header__mobile-brand">{brandName}</span>
             <button
               type="button"
               className="site-header__mobile-close"
@@ -119,7 +128,7 @@ export default function Header() {
           {/* Mobile CTA */}
           <div className="site-header__mobile-cta-wrapper">
             <Link
-              href={BOOKING_URL}
+              href={bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="site-header__mobile-cta"

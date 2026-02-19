@@ -16,18 +16,29 @@ import {
 } from "lucide-react";
 import ImageLightbox from "./ImageLightbox";
 
-// Amenities data with monochrome lucide-react icons
-const amenities: { name: string; icon: LucideIcon; image: string }[] = [
-    { name: "Heated Pool", icon: Waves, image: "/img/gallery/Exterior & Pool (9).jpg" },
-    { name: "Jacuzzi", icon: Sparkles, image: "/img/gallery/Exterior & Pool.jpg" },
-    { name: "Sea View", icon: Sunrise, image: "/img/gallery/Exterior & Pool (6).jpg" },
-    { name: "Mountain View", icon: Mountain, image: "/img/gallery/Exterior & Pool (14).jpg" },
-    { name: "Outdoor Sauna", icon: Flame, image: "/img/gallery/Wellness & Spa (2).jpg" },
-    { name: "Padel Court", icon: Circle, image: "/img/gallery/Sports & Activities (6).jpg" },
-    { name: "Gym", icon: Dumbbell, image: "/img/gallery/Sports & Activities (4).jpg" },
-    { name: "Elevator", icon: ArrowUpDown, image: "/img/gallery/10.jpg" },
-    { name: "Design Kitchen", icon: ChefHat, image: "/img/gallery/Living & Dining (11).jpg" },
-    { name: "Workspace", icon: Monitor, image: "/img/gallery/Living & Dining (12).jpg" },
+type AmenitiesData = {
+    sectionTitle?: string | null;
+    items?: (string | null)[] | null;
+};
+
+// Icons and images mapped by position (order matters!)
+const AMENITY_ICONS: LucideIcon[] = [Waves, Sparkles, Sunrise, Mountain, Flame, Circle, Dumbbell, ArrowUpDown, ChefHat, Monitor];
+const AMENITY_IMAGES: string[] = [
+    "/img/gallery/Exterior & Pool (9).jpg",
+    "/img/gallery/Exterior & Pool.jpg",
+    "/img/gallery/Exterior & Pool (6).jpg",
+    "/img/gallery/Exterior & Pool (14).jpg",
+    "/img/gallery/Wellness & Spa (2).jpg",
+    "/img/gallery/Sports & Activities (6).jpg",
+    "/img/gallery/Sports & Activities (4).jpg",
+    "/img/gallery/10.jpg",
+    "/img/gallery/Living & Dining (11).jpg",
+    "/img/gallery/Living & Dining (12).jpg",
+];
+
+const DEFAULT_NAMES = [
+    "Heated Pool", "Jacuzzi", "Sea View", "Mountain View", "Outdoor Sauna",
+    "Padel Court", "Gym", "Elevator", "Design Kitchen", "Workspace",
 ];
 
 const container = {
@@ -45,11 +56,14 @@ const itemAnim = {
     visible: { opacity: 1, y: 0 },
 };
 
-export default function Amenities() {
+export default function Amenities({ data }: { data?: AmenitiesData }) {
+    const sectionTitle = data?.sectionTitle || "Amenities";
+    const names = data?.items?.filter(Boolean) as string[] || DEFAULT_NAMES;
+
     return (
         <div className="w-full">
             <h3 className="text-center text-sm font-medium uppercase tracking-widest text-stone-500 mb-4 md:text-base md:mb-6">
-                 Amenities
+                 {sectionTitle}
             </h3>
 
             <motion.ul
@@ -59,17 +73,18 @@ export default function Amenities() {
                 whileInView="visible"
                 viewport={{ once: true, margin: "-50px" }}
             >
-                {amenities.map((amenity) => {
-                    const AmenityIcon = amenity.icon;
+                {names.map((name, index) => {
+                    const AmenityIcon = AMENITY_ICONS[index] || Monitor;
+                    const image = AMENITY_IMAGES[index] || "";
                     return (
                         <motion.li
-                            key={amenity.name}
+                            key={name}
                             variants={itemAnim}
                             className="h-full"
                         >
                             <ImageLightbox
-                                src={amenity.image}
-                                alt={amenity.name}
+                                src={image}
+                                alt={name}
                                 className="group flex flex-col items-center justify-center p-4 h-full min-h-[110px] bg-white border border-stone-200/60 rounded-xl transition-all duration-300 hover:border-stone-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer"
                             >
                                 <div className="mb-3 p-2.5 rounded-full bg-stone-50 text-stone-600 transition-colors duration-300 group-hover:bg-stone-100 group-hover:text-stone-800">
@@ -79,7 +94,7 @@ export default function Amenities() {
                                     />
                                 </div>
                                 <span className="text-xs font-medium text-stone-600 text-center uppercase tracking-wide transition-colors duration-300 group-hover:text-stone-900">
-                                    {amenity.name}
+                                    {name}
                                 </span>
                             </ImageLightbox>
                         </motion.li>

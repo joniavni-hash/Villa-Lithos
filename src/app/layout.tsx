@@ -13,6 +13,7 @@ import {
   canonicalOf,
 } from "@/app/lib/seo";
 import { AllJsonLd } from "@/app/lib/jsonld";
+import { getGlobalData } from "@/app/lib/tina";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -83,20 +84,22 @@ export const metadata: Metadata = {
   classification: "Vacation Rental",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const global = await getGlobalData();
+
   return (
     <html lang="en" className={fontVariables} suppressHydrationWarning>
       <head>
         <AllJsonLd />
       </head>
       <body suppressHydrationWarning>
-        <Header />
+        <Header data={global?.header || undefined} />
         <main id="site-main">{children}</main>
-        <Footer />
+        <Footer data={global?.footer || undefined} headerData={global?.header || undefined} />
       </body>
     </html>
   );

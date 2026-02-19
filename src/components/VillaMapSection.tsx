@@ -2,9 +2,16 @@
 
 import { useEffect, useRef, useState } from "react";
 
+type MapData = {
+  title?: string | null;
+  address?: string | null;
+  gettingHereTitle?: string | null;
+  gettingHereIntro?: string | null;
+  distances?: { name: string; detail: string }[] | null;
+};
+
 type Props = {
-  title?: string;
-  address?: string;
+  data?: MapData;
   lat?: number;
   lng?: number;
   placeId?: string;
@@ -19,14 +26,37 @@ const DEFAULT_ADDRESS = "Villa Lithos, Vravronos 70, Porto Rafti 190 03, Greece"
  * VillaMapSection - Google Maps iframe implementation (no API key required)
  * Uses IntersectionObserver for lazy loading
  */
+// SVG icons for distance items (mapped by index)
+const DISTANCE_ICONS = [
+  // Airport
+  <svg key="airport" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>,
+  // City
+  <svg key="city" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V7l8-4 8 4v14"/><path d="M9 21v-6h6v6"/><path d="M10 9h4"/><path d="M10 13h4"/></svg>,
+  // Beach
+  <svg key="beach" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/><path d="M22 10a3 3 0 0 0-3-3h-2.207a5.502 5.502 0 0 0-10.702.5"/></svg>,
+  // Port
+  <svg key="port" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76"/><path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6"/><path d="M12 10v4"/><path d="M12 2v3"/></svg>,
+];
+
+const DEFAULT_DISTANCES = [
+  { name: "Athens Int. Airport (El. Venizelos)", detail: "16 km \u2014 approx. 15 min drive" },
+  { name: "Athens City Center", detail: "37 km via Attiki Odos \u2014 approx. 40 min drive" },
+  { name: "Nearest Beach (Avlaki/Erotospilia)", detail: "1.5 km \u2014 approx. 3 min drive" },
+  { name: "Rafina Port (Islands Ferry)", detail: "20 min drive \u2014 gateway to Cyclades & Evia" },
+];
+
 export default function VillaMapSection({
-  title = "Location",
-  address = DEFAULT_ADDRESS,
+  data,
   lat = DEFAULT_LAT,
   lng = DEFAULT_LNG,
   placeId,
   className = "",
 }: Props) {
+  const title = data?.title || "Location";
+  const address = data?.address || DEFAULT_ADDRESS;
+  const gettingHereTitle = data?.gettingHereTitle || "Getting Here";
+  const gettingHereIntro = data?.gettingHereIntro || "Villa Lithos is ideally situated in Porto Rafti, one of Attica\u2019s most sought-after coastal destinations. Enjoy the perfect balance of serene privacy and convenient access to Athens International Airport, the city center, and the pristine beaches of the Athenian Riviera.";
+  const distances = data?.distances || DEFAULT_DISTANCES;
   const containerRef = useRef<HTMLElement | null>(null);
   const [isVisible, setIsVisible] = useState(false);
   const [hasLoaded, setHasLoaded] = useState(false);
@@ -139,67 +169,22 @@ export default function VillaMapSection({
 
         {/* Location Distances */}
         <div className="vms-distances text-center flex flex-col items-center">
-          <h3 className="vms-distances__title">Getting Here</h3>
+          <h3 className="vms-distances__title">{gettingHereTitle}</h3>
           <p className="vms-distances__intro mx-auto text-center" style={{ maxWidth: "600px" }}>
-            Villa Lithos is ideally situated in Porto Rafti, one of Attica&apos;s most
-            sought-after coastal destinations. Enjoy the perfect balance of serene
-            privacy and convenient access to Athens International Airport, the city
-            center, and the pristine beaches of the Athenian Riviera.
+            {gettingHereIntro}
           </p>
           <ul className="vms-distances__list w-full max-w-[800px] mx-auto text-left">
-            <li>
-              <span className="vms-distances__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
-                </svg>
-              </span>
-              <div>
-                <strong>Athens Int. Airport (El. Venizelos)</strong>
-                <span>16 km — approx. 15 min drive</span>
-              </div>
-            </li>
-            <li>
-              <span className="vms-distances__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M3 21h18"/>
-                  <path d="M5 21V7l8-4 8 4v14"/>
-                  <path d="M9 21v-6h6v6"/>
-                  <path d="M10 9h4"/>
-                  <path d="M10 13h4"/>
-                </svg>
-              </span>
-              <div>
-                <strong>Athens City Center</strong>
-                <span>37 km via Attiki Odos — approx. 40 min drive</span>
-              </div>
-            </li>
-            <li>
-              <span className="vms-distances__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
-                  <path d="M22 10a3 3 0 0 0-3-3h-2.207a5.502 5.502 0 0 0-10.702.5"/>
-                </svg>
-              </span>
-              <div>
-                <strong>Nearest Beach (Avlaki/Erotospilia)</strong>
-                <span>1.5 km — approx. 3 min drive</span>
-              </div>
-            </li>
-            <li>
-              <span className="vms-distances__icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>
-                  <path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76"/>
-                  <path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6"/>
-                  <path d="M12 10v4"/>
-                  <path d="M12 2v3"/>
-                </svg>
-              </span>
-              <div>
-                <strong>Rafina Port (Islands Ferry)</strong>
-                <span>20 min drive — gateway to Cyclades & Evia</span>
-              </div>
-            </li>
+            {distances.map((d, i) => (
+              <li key={i}>
+                <span className="vms-distances__icon">
+                  {DISTANCE_ICONS[i] || DISTANCE_ICONS[0]}
+                </span>
+                <div>
+                  <strong>{d.name}</strong>
+                  <span>{d.detail}</span>
+                </div>
+              </li>
+            ))}
           </ul>
         </div>
 

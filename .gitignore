@@ -47,6 +47,9 @@ out
 tmpclaude-*
 nul
 
+# TinaCMS generated
+tina/__generated__
+
 # Claude temp files
 tmpclaude-*
 .claude/

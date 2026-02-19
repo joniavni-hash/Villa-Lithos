@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "siteName": "Villa Lithos",
+    "slogan": "A private villa in Greece",
+    "description": "Villa Lithos is a 9-bedroom private villa in Porto Rafti, Greece. Pool, sauna, sea views, and space for up to 22 guests.",
+    "keywords": [
+      "villa lithos",
+      "luxury villa greece",
+      "private villa rental",
+      "greece vacation rental",
+      "villa with pool greece",
+      "luxury retreat greece",
+      "9 bedroom villa",
+      "group accommodation greece",
+      "family villa greece",
+      "panoramic sea views villa",
+      "wellness retreat greece",
+      "private pool villa",
+      "greek villa rental",
+      "luxury holiday home greece"
+    ]
+  },
+  "header": {
+    "brandName": "Villa Lithos",
+    "bookingUrl": "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72",
+    "navLinks": [
+      { "href": "/#about", "label": "The Villa" },
+      { "href": "/#services", "label": "Concierge" },
+      { "href": "/#gallery", "label": "Gallery" },
+      { "href": "/#location", "label": "Location" }
+    ]
+  },
+  "footer": {
+    "brandName": "Villa Lithos",
+    "tagline": "A private villa in Porto Rafti, Greece. Quiet stays, thoughtful comfort.",
+    "phone": "+30 693 275 7142",
+    "email": "info@villalithos.com",
+    "address": "Porto Rafti, Attica, Greece",
+    "copyright": "Villa Lithos",
+    "managedBy": "Managed by Goldenberg Luxe",
+    "managedByUrl": "https://goldenberg-luxe.guestybookings.com/en"
+  }
+}

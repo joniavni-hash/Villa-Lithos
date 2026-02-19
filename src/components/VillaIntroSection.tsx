@@ -15,16 +15,33 @@ import {
   type LucideIcon
 } from "lucide-react";
 
-const BOOKING_URL =
+type VillaIntroData = {
+  kicker?: string | null;
+  title?: string | null;
+  tagline?: string | null;
+  bodyParagraphs?: (string | null)[] | null;
+  stats?: { label: string; value: string }[] | null;
+  spaceTitle?: string | null;
+  spaceParagraphs?: (string | null)[] | null;
+};
+
+type AmenitiesData = {
+  sectionTitle?: string | null;
+  items?: (string | null)[] | null;
+};
+
+const DEFAULT_BOOKING_URL =
   "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72";
 
-// Stats with professional monochrome icons from lucide-react
-const highlights: { label: string; value: string; icon: LucideIcon }[] = [
-  { label: "Bedrooms", value: "9", icon: Bed },
-  { label: "Guests", value: "22", icon: Users },
-  { label: "Bathrooms", value: "8.5", icon: Bath },
-  { label: "Build", value: "800m²", icon: Home },
-  { label: "Plot", value: "5000m²", icon: TreePine },
+// Icon mapping by index position
+const STAT_ICONS: LucideIcon[] = [Bed, Users, Bath, Home, TreePine];
+
+const DEFAULT_STATS = [
+  { label: "Bedrooms", value: "9" },
+  { label: "Guests", value: "22" },
+  { label: "Bathrooms", value: "8.5" },
+  { label: "Build", value: "800m²" },
+  { label: "Plot", value: "5000m²" },
 ];
 
 
@@ -62,7 +79,21 @@ const staggerItem = {
   visible: { opacity: 1, y: 0 },
 };
 
-export default function VillaIntroSection() {
+export default function VillaIntroSection({ data, amenitiesData, bookingUrl }: { data?: VillaIntroData; amenitiesData?: AmenitiesData; bookingUrl?: string }) {
+  const kicker = data?.kicker || "Luxury accommodation near Athens";
+  const title = data?.title || "Villa Lithos";
+  const tagline = data?.tagline || "A 9-bedroom luxury retreat with space to unwind and room for memorable gatherings";
+  const bodyParagraphs = data?.bodyParagraphs?.filter(Boolean) as string[] || [
+    "Villa Lithos is a stunning 800m\u00b2 luxury villa set on a 5000m\u00b2 private estate in Porto Rafti, Attica. Designed for up to 22 guests, this exclusive property features nine bedrooms, ten bathrooms, and generous spaces for families, groups of friends, or corporate retreats.",
+    "Enjoy the heated infinity pool with panoramic sea views, unwind in the jacuzzi, rejuvenate in the outdoor sauna, or challenge friends on the padel court. The villa also offers a fully equipped gym, private elevator, dual lounges, and secure parking.",
+  ];
+  const stats = data?.stats || DEFAULT_STATS;
+  const spaceTitle = data?.spaceTitle || "The Space";
+  const spaceParagraphs = data?.spaceParagraphs?.filter(Boolean) as string[] || [
+    "Inside, the contemporary interiors blend modern design with warm Mediterranean touches. Two spacious living rooms, on the ground floor and lower level, provide versatile spaces for relaxation, conversation, or quiet moments.",
+    "The designer kitchen is fully equipped with premium appliances and a walk-in pantry, perfect for preparing memorable meals during your stay near Athens.",
+  ];
+  const BOOKING_URL = bookingUrl || DEFAULT_BOOKING_URL;
   const headerRef = useRef<HTMLDivElement>(null);
   const statsRef = useRef<HTMLDivElement>(null);
   const galleryRef = useRef<HTMLDivElement>(null);
@@ -100,7 +131,7 @@ export default function VillaIntroSection() {
             variants={staggerItem}
             transition={{ duration: 0.6 }}
           >
-            Luxury accommodation near Athens
+            {kicker}
           </motion.span>
           <motion.h2
             id="villa-intro-title"
@@ -108,14 +139,14 @@ export default function VillaIntroSection() {
             variants={staggerItem}
             transition={{ duration: 0.6 }}
           >
-            Villa Lithos
+            {title}
           </motion.h2>
           <motion.p
             className="villa-intro__tagline"
             variants={staggerItem}
             transition={{ duration: 0.6 }}
           >
-            A 9-bedroom luxury retreat with space to unwind and room for memorable gatherings
+            {tagline}
           </motion.p>
         </motion.header>
 
@@ -127,8 +158,8 @@ export default function VillaIntroSection() {
           animate={statsInView ? "visible" : "hidden"}
           variants={staggerContainer}
         >
-          {highlights.map((item) => {
-            const IconComponent = item.icon;
+          {stats.map((item, index) => {
+            const IconComponent = STAT_ICONS[index] || Home;
             return (
               <motion.div
                 key={item.label}
@@ -203,33 +234,16 @@ export default function VillaIntroSection() {
             variants={staggerContainer}
           >
             <motion.div className="villa-intro__lead" variants={staggerItem} transition={{ duration: 0.6 }}>
-              <p>
-                Villa Lithos is a stunning 800m² luxury villa set on a 5000m² private
-                estate in Porto Rafti, Attica. Designed for up to 22 guests, this
-                exclusive property features nine bedrooms, ten bathrooms, and generous
-                spaces for families, groups of friends, or corporate retreats.
-              </p>
-              <p>
-                Enjoy the heated infinity pool with panoramic sea views, unwind in the
-                jacuzzi, rejuvenate in the outdoor sauna, or challenge friends on the
-                padel court. The villa also offers a fully equipped gym, private elevator,
-                dual lounges, and secure parking.
-              </p>
+              {bodyParagraphs.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
             </motion.div>
 
             <motion.div className="villa-intro__details" variants={staggerItem} transition={{ duration: 0.6 }}>
-              <h3 className="villa-intro__section-title">The Space</h3>
-              <p>
-                Inside, the contemporary interiors blend modern design with warm
-                Mediterranean touches. Two spacious living rooms, on the ground
-                floor and lower level, provide versatile spaces for relaxation,
-                conversation, or quiet moments.
-              </p>
-              <p>
-                The designer kitchen is fully equipped with premium appliances
-                and a walk-in pantry, perfect for preparing memorable meals
-                during your stay near Athens.
-              </p>
+              <h3 className="villa-intro__section-title">{spaceTitle}</h3>
+              {spaceParagraphs.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
             </motion.div>
           </motion.div>
         </div>
@@ -243,7 +257,7 @@ export default function VillaIntroSection() {
           variants={fadeUp}
           transition={{ duration: 0.6 }}
         >
-          <Amenities />
+          <Amenities data={amenitiesData} />
         </motion.div>
 
         {/* CTA - fade up */}

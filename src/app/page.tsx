@@ -1,11 +1,10 @@
 import dynamic from "next/dynamic";
 import HeroBanner from "@/components/HeroBanner";
 import MarqueeLine from "@/components/MarqueeLine";
-import RenderOnView from "@/components/RenderOnView";
 import UltraLuxuryGallery from "@/components/UltraLuxuryGallery";
+import { getPageData, getGlobalData } from "@/app/lib/tina";
 
 // Dynamic imports for below-fold heavy components
-// These reduce initial JS bundle and main thread work
 const VillaIntroSection = dynamic(
   () => import("@/components/VillaIntroSection"),
   { ssr: true }
@@ -25,14 +24,16 @@ const ContactForm = dynamic(() => import("@/components/ContactForm"), {
   ssr: true,
 });
 
-export default function HomePage() {
+export default async function HomePage() {
+  const [page, global] = await Promise.all([getPageData(), getGlobalData()]);
+
   return (
     <main>
       {/* Above-fold: HeroBanner loaded eagerly with priority image */}
       <HeroBanner
-        kicker="WELCOME TO"
-        title="Villa Lithos"
-        subtitle="A private villa in Greece. Quiet stays, thoughtful comfort."
+        kicker={page?.hero?.kicker || "WELCOME TO"}
+        title={page?.hero?.title || "Villa Lithos"}
+        subtitle={page?.hero?.subtitle || "A private villa in Greece. Quiet stays, thoughtful comfort."}
         videoSrcMobile="/videos/hero.mp4"
         videoSrcDesktop="/videos/heroPC.mp4"
         poster="/img/hero.webp"
@@ -42,33 +43,35 @@ export default function HomePage() {
       />
 
       {/* MarqueeLine is lightweight, keep above fold */}
-      <MarqueeLine />
+      <MarqueeLine text={page?.marquee?.text || undefined} />
 
-      {/* Below-fold sections wrapped with RenderOnView for lazy mounting */}
-      {/* Under-fold sections - static render for anchor fix */}
-      <VillaIntroSection />
+      {/* Under-fold sections */}
+      <VillaIntroSection
+        data={page?.villaIntro || undefined}
+        amenitiesData={page?.amenities || undefined}
+        bookingUrl={global?.header?.bookingUrl || undefined}
+      />
 
-      <ConciergeSection />
+      <ConciergeSection data={page?.concierge || undefined} />
 
       {/* Gallery section - preserve id for anchor */}
       <div id="gallery">
         <UltraLuxuryGallery
-          title="Gallery"
-          subtitle="A Visual Journey"
+          title={page?.gallery?.title || "Gallery"}
+          subtitle={page?.gallery?.subtitle || "A Visual Journey"}
+          description={page?.gallery?.description || undefined}
         />
       </div>
 
       {/* Map section - preserve id for anchor */}
-      {/* Map section - preserve id for anchor */}
       <div id="location">
-        <VillaMapSection />
+        <VillaMapSection data={page?.map || undefined} />
       </div>
 
       {/* Contact/Inquiry section - preserve ids for anchor */}
-      {/* Contact/Inquiry section - preserve ids for anchor */}
       <div id="contact" className="">
         <div id="inquiry">
-          <ContactForm />
+          <ContactForm cmsData={page?.contact || undefined} />
         </div>
       </div>
     </main>

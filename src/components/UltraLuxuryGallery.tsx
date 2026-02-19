@@ -188,11 +188,13 @@ const villaImages = generateImageArray()
 interface Props {
   title?: string;
   subtitle?: string;
+  description?: string;
 }
 
 export default function UltraLuxuryGallery({
   title = "The Gallery",
   subtitle = "EXPLORE",
+  description = "Every corner tells a story of craftsmanship and natural beauty.",
 }: Props) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [slidesPerView, setSlidesPerView] = useState(2)
@@ -489,7 +491,7 @@ export default function UltraLuxuryGallery({
                 </div>
                 <div className="concierge__content pt-2 flex flex-col items-center">
                   <p className="text-muted-foreground text-center">
-                    Every corner tells a story of craftsmanship and natural beauty.
+                    {description}
                   </p>
                 </div>
               </div>

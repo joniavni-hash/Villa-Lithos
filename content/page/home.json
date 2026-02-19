@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "kicker": "WELCOME TO",
+    "title": "Villa Lithos",
+    "subtitle": "A private villa in Greece. Quiet stays, thoughtful comfort."
+  },
+  "marquee": {
+    "text": "VILLA LITHOS \u2022 PRIVATE VILLA \u2022 SEA VIEWS \u2022 INFINITY POOL \u2022 SAUNA \u2022 JACUZZI \u2022 PADEL COURT \u2022 LOCAL EXPERIENCES \u2022 CONCIERGE \u2022 "
+  },
+  "villaIntro": {
+    "kicker": "Luxury accommodation near Athens",
+    "title": "Villa Lithos",
+    "tagline": "A 9-bedroom luxury retreat with space to unwind and room for memorable gatherings",
+    "bodyParagraphs": [
+      "Villa Lithos is a stunning 800m\u00b2 luxury villa set on a 5000m\u00b2 private estate in Porto Rafti, Attica. Designed for up to 22 guests, this exclusive property features nine bedrooms, ten bathrooms, and generous spaces for families, groups of friends, or corporate retreats.",
+      "Enjoy the heated infinity pool with panoramic sea views, unwind in the jacuzzi, rejuvenate in the outdoor sauna, or challenge friends on the padel court. The villa also offers a fully equipped gym, private elevator, dual lounges, and secure parking."
+    ],
+    "stats": [
+      { "label": "Bedrooms", "value": "9" },
+      { "label": "Guests", "value": "22" },
+      { "label": "Bathrooms", "value": "8.5" },
+      { "label": "Build", "value": "800m\u00b2" },
+      { "label": "Plot", "value": "5000m\u00b2" }
+    ],
+    "spaceTitle": "The Space",
+    "spaceParagraphs": [
+      "Inside, the contemporary interiors blend modern design with warm Mediterranean touches. Two spacious living rooms, on the ground floor and lower level, provide versatile spaces for relaxation, conversation, or quiet moments.",
+      "The designer kitchen is fully equipped with premium appliances and a walk-in pantry, perfect for preparing memorable meals during your stay near Athens."
+    ]
+  },
+  "amenities": {
+    "sectionTitle": "Amenities",
+    "items": [
+      "Heated Pool",
+      "Jacuzzi",
+      "Sea View",
+      "Mountain View",
+      "Outdoor Sauna",
+      "Padel Court",
+      "Gym",
+      "Elevator",
+      "Design Kitchen",
+      "Workspace"
+    ]
+  },
+  "concierge": {
+    "title": "Concierge Services",
+    "kicker": "Personalized hospitality tailored to your stay.",
+    "paragraphs": [
+      "At Villa Lithos, our dedicated concierge team manages every detail of your stay, whether you're visiting with family or hosting a corporate retreat in Porto Rafti.",
+      "From arranging private chefs and pre-stocking the villa to daily housekeeping and curating authentic Greek experiences, we ensure your time near Athens is effortless and memorable.",
+      "Private guests and corporate groups receive the same meticulous attention. Every stay at our luxury villa runs seamlessly."
+    ],
+    "closingText": "From small requests to grand arrangements, we're here to help.",
+    "services": [
+      "Private Chefs",
+      "Housekeeping",
+      "Local Experiences",
+      "Private Yachts",
+      "Local Musicians",
+      "VIP Service",
+      "Workshops",
+      "Themed Events"
+    ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "A Visual Journey",
+    "description": "Every corner tells a story of craftsmanship and natural beauty."
+  },
+  "map": {
+    "title": "Location",
+    "address": "Villa Lithos, Vravronos 70, Porto Rafti 190 03, Greece",
+    "gettingHereTitle": "Getting Here",
+    "gettingHereIntro": "Villa Lithos is ideally situated in Porto Rafti, one of Attica's most sought-after coastal destinations. Enjoy the perfect balance of serene privacy and convenient access to Athens International Airport, the city center, and the pristine beaches of the Athenian Riviera.",
+    "distances": [
+      { "name": "Athens Int. Airport (El. Venizelos)", "detail": "16 km \u2014 approx. 15 min drive" },
+      { "name": "Athens City Center", "detail": "37 km via Attiki Odos \u2014 approx. 40 min drive" },
+      { "name": "Nearest Beach (Avlaki/Erotospilia)", "detail": "1.5 km \u2014 approx. 3 min drive" },
+      { "name": "Rafina Port (Islands Ferry)", "detail": "20 min drive \u2014 gateway to Cyclades & Evia" }
+    ]
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Get in Touch",
+    "subtitle": "Send us a message. We'll get back to you within 24 hours."
+  }
+}

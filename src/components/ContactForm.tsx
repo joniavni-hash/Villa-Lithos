@@ -68,7 +68,17 @@ const fadeUp = {
   visible: { opacity: 1, y: 0 },
 };
 
-export default function ContactForm() {
+type ContactData = {
+  badge?: string | null;
+  title?: string | null;
+  subtitle?: string | null;
+};
+
+export default function ContactForm({ cmsData }: { cmsData?: ContactData }) {
+  const badge = cmsData?.badge || "Contact";
+  const formTitle = cmsData?.title || "Get in Touch";
+  const formSubtitle = cmsData?.subtitle || "Send us a message. We\u2019ll get back to you within 24 hours.";
+
   const [data, setData] = useState<FormData>(INITIAL_DATA);
   const [errors, setErrors] = useState<FormErrors>({});
   const [touched, setTouched] = useState<Set<keyof FormData>>(new Set());
@@ -233,10 +243,10 @@ export default function ContactForm() {
               variants={fadeUp}
               transition={{ duration: 0.6 }}
             >
-              <span className="bf-badge">Contact</span>
-              <h2 className="bf-title">Get in Touch</h2>
+              <span className="bf-badge">{badge}</span>
+              <h2 className="bf-title">{formTitle}</h2>
               <p className="bf-subtitle">
-                Send us a message. We&apos;ll get back to you within 24 hours.
+                {formSubtitle}
               </p>
             </motion.div>
 
