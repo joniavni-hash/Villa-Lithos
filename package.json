@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "tinacms dev -c \"next dev\"",
-    "build": "tinacms build && next build || next build",
+    "build": "tinacms build && next build || (node -e \"fs=require('fs');try{fs.rmSync('tina/__generated__',{recursive:true,force:true})}catch(e){}\" && next build)",
     "start": "next start",
     "lint": "eslint",
     "gallery:generate": "node scripts/generate-gallery.mjs"
