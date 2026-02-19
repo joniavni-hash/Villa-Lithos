@@ -2,6 +2,7 @@ import type { GlobalData, PageData } from "./tina-types";
 
 async function getClient() {
   try {
+    // @ts-expect-error — generated at build time by tinacms build
     const mod = await import("../../../tina/__generated__/client");
     return mod.default;
   } catch {
