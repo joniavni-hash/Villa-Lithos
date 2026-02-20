@@ -116,12 +116,12 @@
   "Bedrooms (2).jpg": {
     "title": "Entertainment Loft",
     "alt": "Loft area with large TV and wooden ceiling",
-    "order": 3
+    "order": 2
   },
   "Bedrooms (3).jpg": {
     "title": "Serene Master Bedroom",
     "alt": "Bedroom with elegant pendant lights and garden view",
-    "order": 4
+    "order": 3
   },
   "Bedrooms (5).jpg": {
     "title": "Bedroom with Court View",
@@ -188,10 +188,10 @@
     "alt": "Custom-designed kitchen with premium cabinetry"
   },
   "5Z5A05870587.jpg": {
-    "order": 5
+    "order": 4
   },
   "10.jpg": {
-    "order": 2
+    "order": 5
   },
   "Bedrooms (7).jpg": {
     "order": 8
