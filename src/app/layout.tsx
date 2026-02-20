@@ -4,6 +4,7 @@ import { fontVariables } from "./fonts";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import AdminHide from "@/components/AdminHide";
 import {
   SITE,
   siteUrl,
@@ -99,7 +100,9 @@ export default async function RootLayout({
       <body suppressHydrationWarning>
         <Header data={global?.header || undefined} />
         <main id="site-main">{children}</main>
-        <Footer data={global?.footer || undefined} headerData={global?.header || undefined} />
+        <AdminHide>
+          <Footer data={global?.footer || undefined} headerData={global?.header || undefined} />
+        </AdminHide>
       </body>
     </html>
   );

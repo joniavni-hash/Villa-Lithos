@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 type HeaderData = {
@@ -20,7 +21,11 @@ const DEFAULT_NAV_LINKS = [
 ];
 
 export default function Header({ data }: { data?: HeaderData }) {
+  const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+
+  if (pathname.startsWith("/admin")) return null;
+
   const brandName = data?.brandName || "Villa Lithos";
   const bookingUrl = data?.bookingUrl || DEFAULT_BOOKING_URL;
   const navLinks = data?.navLinks || DEFAULT_NAV_LINKS;
