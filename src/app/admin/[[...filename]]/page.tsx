@@ -1046,7 +1046,7 @@ function PageEditor({
               type: "text",
               placeholder: "e.g., 🏊 or 🌊",
             },
-            { key: "image", label: "Background Image", type: "image", folder: "img/amenities" },
+            { key: "image", label: "Background Image", type: "image", folder: "img/gallery" },
           ]}
           onChange={(v) => set("amenities", "items", v)}
           help="Each amenity shows as a card on the website."
@@ -1171,7 +1171,6 @@ type ImageItem = {
 
 const IMAGE_FOLDERS = [
   { key: "img/gallery", label: "Gallery Images", icon: Icons.images },
-  { key: "img/amenities", label: "Amenities Images", icon: Icons.gallery },
   { key: "img", label: "General Images", icon: Icons.photo },
 ];
 

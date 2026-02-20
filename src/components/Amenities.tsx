@@ -24,16 +24,16 @@ type AmenitiesData = {
 // Icons and images mapped by position (order matters!)
 const AMENITY_ICONS: LucideIcon[] = [Waves, Sparkles, Sunrise, Mountain, Flame, Circle, Dumbbell, ArrowUpDown, ChefHat, Monitor];
 const AMENITY_IMAGES: string[] = [
-    "/img/amenities/Exterior & Pool (9).jpg",
-    "/img/amenities/Exterior & Pool.jpg",
-    "/img/amenities/Exterior & Pool (6).jpg",
-    "/img/amenities/Exterior & Pool (14).jpg",
-    "/img/amenities/Wellness & Spa (2).jpg",
-    "/img/amenities/Sports & Activities (6).jpg",
-    "/img/amenities/Sports & Activities (4).jpg",
-    "/img/amenities/10.jpg",
-    "/img/amenities/Living & Dining (11).jpg",
-    "/img/amenities/Living & Dining (12).jpg",
+    "/img/gallery/Exterior & Pool (9).jpg",
+    "/img/gallery/Exterior & Pool.jpg",
+    "/img/gallery/Exterior & Pool (6).jpg",
+    "/img/gallery/Exterior & Pool (14).jpg",
+    "/img/gallery/Wellness & Spa (2).jpg",
+    "/img/gallery/Sports & Activities (6).jpg",
+    "/img/gallery/Sports & Activities (4).jpg",
+    "/img/gallery/10.jpg",
+    "/img/gallery/Living & Dining (11).jpg",
+    "/img/gallery/Living & Dining (12).jpg",
 ];
 
 const DEFAULT_NAMES = [
