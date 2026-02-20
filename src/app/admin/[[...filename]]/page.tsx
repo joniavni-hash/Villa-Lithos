@@ -2038,8 +2038,8 @@ export default function AdminPage() {
         <div className="w-full max-w-sm mx-auto">
           {/* Logo / Branding */}
           <div className="text-center mb-10">
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-stone-800 rounded-3xl mb-6 shadow-lg shadow-stone-300">
-              <span className="text-white text-3xl font-light tracking-wider">VL</span>
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-[#c83d49] rounded-3xl mb-6 shadow-lg shadow-[#c83d49]/25">
+              <span className="text-white text-3xl font-black tracking-tight" style={{ fontFamily: "system-ui, sans-serif" }}>VL</span>
             </div>
             <h1 className="text-3xl font-light tracking-[0.2em] uppercase text-stone-800">
               Villa Lithos
