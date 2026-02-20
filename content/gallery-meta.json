@@ -52,7 +52,7 @@
   "Exterior & Pool (11).jpg": {
     "title": "Poolside Fresh Fruits",
     "alt": "Sun lounger with fresh seasonal fruits by the pool",
-    "order": 10
+    "order": 9
   },
   "Exterior & Pool (12).jpg": {
     "title": "Villa Night Scene",
@@ -111,7 +111,7 @@
   "Bedrooms.jpg": {
     "title": "Loft Relaxation Area",
     "alt": "Cozy loft space with sofas and bean bags",
-    "order": 9
+    "order": 14
   },
   "Bedrooms (2).jpg": {
     "title": "Entertainment Loft",
@@ -197,16 +197,16 @@
     "order": 9
   },
   "Bedrooms.jpeg": {
-    "order": 14
+    "order": 13
   },
   "Exterior & Pool (15).jpg": {
-    "order": 11
+    "order": 10
   },
   "Exterior & Pool (16).jpg": {
-    "order": 12
+    "order": 11
   },
   "Exterior & Pool (17).jpg": {
-    "order": 13
+    "order": 12
   },
   "Exterior & Pool (2).jpeg": {
     "order": 15
