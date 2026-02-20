@@ -1608,6 +1608,30 @@ function GalleryMetaEditor({
     setHasChanges(true);
   };
 
+  const moveToPosition = (fromIndex: number, toPosition: number) => {
+    if (searchQuery) {
+      addToast("Please clear search to reorder images.", "info");
+      return;
+    }
+    const targetIndex = Math.max(0, Math.min(toPosition - 1, filtered.length - 1));
+    if (targetIndex === fromIndex) return;
+
+    const currentFilenames = filtered.map(img => img.filename);
+    const [moved] = currentFilenames.splice(fromIndex, 1);
+    currentFilenames.splice(targetIndex, 0, moved);
+
+    const nextMeta = { ...meta };
+    currentFilenames.forEach((filename, i) => {
+      nextMeta[filename] = {
+        ...(nextMeta[filename] || {}),
+        order: i,
+      };
+    });
+
+    setMeta(nextMeta);
+    setHasChanges(true);
+  };
+
   return (
     <div className="space-y-6 animate-in fade-in duration-500">
       {/* Info */}
@@ -1682,9 +1706,18 @@ function GalleryMetaEditor({
                     >
                       {Icons.arrowUp}
                     </button>
-                    <span className="text-[10px] font-bold text-stone-300">
-                      #{index + 1}
-                    </span>
+                    <input
+                      type="number"
+                      min={1}
+                      max={filtered.length}
+                      value={index + 1}
+                      onChange={(e) => {
+                        const val = parseInt(e.target.value, 10);
+                        if (!isNaN(val)) moveToPosition(index, val);
+                      }}
+                      className="w-9 text-center text-[11px] font-bold text-stone-500 bg-white border border-stone-200 rounded-md py-0.5 focus:outline-none focus:ring-1 focus:ring-[#c83d49]/30 focus:border-[#c83d49]/40"
+                      title="Type position number"
+                    />
                     <button
                       onClick={() => moveImage(index, "down")}
                       disabled={index === filtered.length - 1}
