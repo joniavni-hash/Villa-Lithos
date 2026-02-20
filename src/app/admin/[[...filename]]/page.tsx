@@ -1954,29 +1954,36 @@ function AdminDashboard({ password }: { password: string }) {
         </div>
       </div>
 
-      {/* Sticky Save Bar - Mobile only when there are changes */}
+      {/* Sticky Save Bar - always visible at bottom when there are unsaved changes */}
       {showSaveBar && (
-        <div className="fixed bottom-0 left-0 right-0 sm:hidden bg-white/95 backdrop-blur-md border-t border-stone-200 p-4 z-50 shadow-[0_-4px_12px_-1px_rgb(0,0,0,0.08)]">
-          <button
-            onClick={handleSave}
-            disabled={saving}
-            className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-2xl text-sm font-semibold text-white bg-[#c83d49] hover:bg-[#a72d37] disabled:opacity-50 transition-all shadow-lg shadow-[#c83d49]/20"
-          >
-            {saving ? (
-              <>
-                <svg className="animate-spin h-4 w-4" fill="none" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                </svg>
-                Saving Changes...
-              </>
-            ) : (
-              <>
-                {Icons.save}
-                Save & Publish Changes
-              </>
-            )}
-          </button>
+        <div className="fixed bottom-0 right-0 left-0 lg:left-72 bg-white/95 backdrop-blur-md border-t border-stone-200 p-4 z-50 shadow-[0_-4px_12px_-1px_rgb(0,0,0,0.08)]">
+          <div className="max-w-5xl mx-auto flex items-center justify-between gap-4 px-2">
+            <div className="flex items-center gap-2 text-amber-600">
+              {Icons.warning}
+              <span className="text-sm font-medium hidden sm:inline">You have unsaved changes</span>
+              <span className="text-sm font-medium sm:hidden">Unsaved changes</span>
+            </div>
+            <button
+              onClick={handleSave}
+              disabled={saving}
+              className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold text-white bg-[#c83d49] hover:bg-[#a72d37] disabled:opacity-50 transition-all shadow-lg shadow-[#c83d49]/20"
+            >
+              {saving ? (
+                <>
+                  <svg className="animate-spin h-4 w-4" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                  </svg>
+                  Saving...
+                </>
+              ) : (
+                <>
+                  {Icons.save}
+                  Save & Publish
+                </>
+              )}
+            </button>
+          </div>
         </div>
       )}
     </div>
