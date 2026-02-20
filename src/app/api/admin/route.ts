@@ -25,6 +25,16 @@ export async function GET(req: NextRequest) {
   }
 }
 
+/** POST /api/admin { password } → verify password */
+export async function POST(req: NextRequest) {
+  const { password } = await req.json();
+  const adminPass = process.env.ADMIN_PASSWORD;
+  if (!adminPass) {
+    return NextResponse.json({ valid: true });
+  }
+  return NextResponse.json({ valid: password === adminPass });
+}
+
 /** PUT /api/admin { file, content, password } → saves content */
 export async function PUT(req: NextRequest) {
   const body = await req.json();

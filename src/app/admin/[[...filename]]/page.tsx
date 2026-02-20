@@ -937,6 +937,114 @@ function fileToBase64(file: File): Promise<string> {
 type Tab = "global" | "page" | "images";
 
 export default function AdminPage() {
+  const [authed, setAuthed] = useState(false);
+  const [password, setPassword] = useState("");
+  const [loginError, setLoginError] = useState("");
+  const [loggingIn, setLoggingIn] = useState(false);
+
+  // Check sessionStorage for existing session
+  useEffect(() => {
+    const saved = sessionStorage.getItem("admin_pw");
+    if (saved) {
+      setPassword(saved);
+      setAuthed(true);
+    }
+  }, []);
+
+  const handleLogin = async () => {
+    setLoggingIn(true);
+    setLoginError("");
+    try {
+      const res = await fetch("/api/admin", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+      });
+      const { valid } = await res.json();
+      if (valid) {
+        sessionStorage.setItem("admin_pw", password);
+        setAuthed(true);
+      } else {
+        setLoginError("Wrong password");
+      }
+    } catch {
+      setLoginError("Connection error");
+    }
+    setLoggingIn(false);
+  };
+
+  if (!authed) {
+    return (
+      <div
+        style={{
+          maxWidth: 360,
+          margin: "80px auto",
+          padding: 30,
+          fontFamily: "system-ui, sans-serif",
+          textAlign: "center",
+        }}
+      >
+        <h1 style={{ fontSize: 22, fontWeight: 800, marginBottom: 8 }}>
+          Admin Login
+        </h1>
+        <p style={{ color: "#6b7280", fontSize: 14, marginBottom: 24 }}>
+          Enter the admin password to manage content.
+        </p>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            handleLogin();
+          }}
+        >
+          <input
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            autoFocus
+            style={{
+              ...inputStyle,
+              marginBottom: 12,
+              textAlign: "center",
+              fontSize: 16,
+            }}
+          />
+          <button
+            type="submit"
+            disabled={loggingIn || !password}
+            style={{
+              width: "100%",
+              padding: "12px 0",
+              background: loggingIn ? "#9ca3af" : "#111827",
+              color: "#fff",
+              border: "none",
+              borderRadius: 8,
+              cursor: loggingIn ? "default" : "pointer",
+              fontWeight: 600,
+              fontSize: 15,
+              fontFamily: "inherit",
+            }}
+          >
+            {loggingIn ? "Checking..." : "Login"}
+          </button>
+        </form>
+        {loginError && (
+          <p style={{ color: "#dc2626", marginTop: 12, fontSize: 14 }}>
+            {loginError}
+          </p>
+        )}
+      </div>
+    );
+  }
+
+  return <AdminDashboard password={password} />;
+}
+
+/* ═══════════════════════════════════════════════════════
+   Admin Dashboard (shown after login)
+   ═══════════════════════════════════════════════════════ */
+
+function AdminDashboard({ password }: { password: string }) {
   const [globalData, setGlobalData] = useState<AnyContent | null>(null);
   const [pageData, setPageData] = useState<AnyContent | null>(null);
   const [activeTab, setActiveTab] = useState<Tab>("global");
@@ -945,7 +1053,6 @@ export default function AdminPage() {
     text: string;
     type: "success" | "error";
   } | null>(null);
-  const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(true);
 
   // Load content on mount
@@ -969,11 +1076,12 @@ export default function AdminPage() {
     setSaving(true);
     setMessage(null);
     try {
+      const file = activeTab === "global" ? "global" : "page";
       const content = activeTab === "global" ? globalData : pageData;
       const res = await fetch("/api/admin", {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ file: activeTab, content, password }),
+        body: JSON.stringify({ file, content, password }),
       });
       const result = await res.json();
       if (res.ok) {
@@ -1097,16 +1205,6 @@ export default function AdminPage() {
           zIndex: 100,
         }}
       >
-        <input
-          type="password"
-          placeholder="Admin password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          style={{
-            ...inputStyle,
-            width: 180,
-          }}
-        />
         {activeTab !== "images" && (
           <button
             onClick={handleSave}
@@ -1139,6 +1237,24 @@ export default function AdminPage() {
             {message.text}
           </span>
         )}
+        <button
+          onClick={() => {
+            sessionStorage.removeItem("admin_pw");
+            window.location.reload();
+          }}
+          style={{
+            padding: "8px 16px",
+            background: "none",
+            border: "1px solid #d1d5db",
+            borderRadius: 6,
+            cursor: "pointer",
+            fontSize: 12,
+            color: "#6b7280",
+            fontFamily: "inherit",
+          }}
+        >
+          Logout
+        </button>
       </div>
     </div>
   );
