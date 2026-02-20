@@ -1177,9 +1177,11 @@ const IMAGE_FOLDERS = [
 function ImagesEditor({
   password,
   addToast,
+  amenityImages,
 }: {
   password: string;
   addToast: (text: string, type: Toast["type"]) => void;
+  amenityImages?: string[];
 }) {
   const [folder, setFolder] = useState<string>("img/gallery");
   const [images, setImages] = useState<ImageItem[]>([]);
@@ -1428,11 +1430,16 @@ function ImagesEditor({
                 </div>
               </div>
               <div className="p-3">
-                <div
-                  className="text-xs font-medium text-stone-700 truncate"
-                  title={img.name}
-                >
-                  {img.name}
+                <div className="flex items-center gap-1.5">
+                  <span
+                    className="text-xs font-medium text-stone-700 truncate"
+                    title={img.name}
+                  >
+                    {img.name}
+                  </span>
+                  {amenityImages?.some((p) => p.includes(img.name)) && (
+                    <span className="flex-shrink-0 w-2 h-2 bg-amber-400 rounded-full" title="Used in Amenities" />
+                  )}
                 </div>
                 <span className="text-[10px] font-medium text-stone-400 mt-1 block">
                   {(img.size / 1024).toFixed(0)} KB
@@ -1467,9 +1474,11 @@ type GalleryMeta = Record<string, { title?: string; alt?: string; description?: 
 function GalleryMetaEditor({
   password,
   addToast,
+  amenityImages,
 }: {
   password: string;
   addToast: (text: string, type: Toast["type"]) => void;
+  amenityImages?: string[];
 }) {
   const [meta, setMeta] = useState<GalleryMeta>({});
   const [galleryImages, setGalleryImages] = useState<
@@ -1698,8 +1707,15 @@ function GalleryMetaEditor({
                 </div>
                 {/* Fields */}
                 <div className="flex-1 p-4 sm:p-5 space-y-3">
-                  <div className="text-xs text-stone-400 font-mono truncate mb-2">
-                    {img.filename}
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-xs text-stone-400 font-mono truncate">
+                      {img.filename}
+                    </span>
+                    {amenityImages?.some((p) => p.includes(img.filename)) && (
+                      <span className="flex-shrink-0 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-100 text-amber-700 border border-amber-200 rounded-full">
+                        Amenity
+                      </span>
+                    )}
                   </div>
                   <div>
                     <label className="block text-xs font-medium text-stone-500 mb-1">
@@ -2262,10 +2278,18 @@ function AdminDashboard({ password }: { password: string }) {
             <PageEditor data={pageData} onChange={handlePageChange} />
           )}
           {activeTab === "gallery" && (
-            <GalleryMetaEditor password={password} addToast={addToast} />
+            <GalleryMetaEditor
+              password={password}
+              addToast={addToast}
+              amenityImages={((pageData?.amenities as AnyContent)?.items as { image?: string }[] | undefined)?.map((i) => i.image || "").filter(Boolean)}
+            />
           )}
           {activeTab === "images" && (
-            <ImagesEditor password={password} addToast={addToast} />
+            <ImagesEditor
+              password={password}
+              addToast={addToast}
+              amenityImages={((pageData?.amenities as AnyContent)?.items as { image?: string }[] | undefined)?.map((i) => i.image || "").filter(Boolean)}
+            />
           )}
         </div>
       </div>
