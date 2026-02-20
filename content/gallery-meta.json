@@ -47,22 +47,22 @@
   "Exterior & Pool (10).jpg": {
     "title": "Outdoor Shower with Views",
     "alt": "Pool shower surrounded by natural landscape",
-    "order": 9
+    "order": 0
   },
   "Exterior & Pool (11).jpg": {
     "title": "Poolside Fresh Fruits",
     "alt": "Sun lounger with fresh seasonal fruits by the pool",
-    "order": 10
+    "order": 11
   },
   "Exterior & Pool (12).jpg": {
     "title": "Villa Night Scene",
     "alt": "The villa and pool area under the evening sky",
-    "order": 11
+    "order": 12
   },
   "Exterior & Pool (13).jpg": {
     "title": "Pool Waterfall Feature",
     "alt": "Villa exterior with the stunning pool waterfall",
-    "order": 12
+    "order": 1
   },
   "Exterior & Pool (14).jpg": {
     "title": "Sunset Over the Estate",
@@ -111,27 +111,27 @@
   "Bedrooms.jpg": {
     "title": "Loft Relaxation Area",
     "alt": "Cozy loft space with sofas and bean bags",
-    "order": 8
+    "order": 10
   },
   "Bedrooms (2).jpg": {
     "title": "Entertainment Loft",
     "alt": "Loft area with large TV and wooden ceiling",
-    "order": 1
+    "order": 3
   },
   "Bedrooms (3).jpg": {
     "title": "Serene Master Bedroom",
     "alt": "Bedroom with elegant pendant lights and garden view",
-    "order": 2
+    "order": 4
   },
   "Bedrooms (5).jpg": {
     "title": "Bedroom with Court View",
     "alt": "Bedroom overlooking the private padel court",
-    "order": 4
+    "order": 6
   },
   "Bedrooms (6).jpg": {
     "title": "Warm & Inviting Suite",
     "alt": "Comfortable bedroom with soft lighting",
-    "order": 5
+    "order": 7
   },
   "Wellness & Spa.jpg": {
     "title": "Finnish Barrel Sauna",
@@ -188,16 +188,16 @@
     "alt": "Custom-designed kitchen with premium cabinetry"
   },
   "5Z5A05870587.jpg": {
-    "order": 3
+    "order": 5
   },
   "10.jpg": {
-    "order": 0
+    "order": 2
   },
   "Bedrooms (7).jpg": {
-    "order": 6
+    "order": 8
   },
   "Bedrooms.jpeg": {
-    "order": 7
+    "order": 9
   },
   "Exterior & Pool (15).jpg": {
     "order": 14
