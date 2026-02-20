@@ -24,10 +24,22 @@
     "brandName": "Villa Lithos",
     "bookingUrl": "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72",
     "navLinks": [
-      { "href": "/#about", "label": "The Villa" },
-      { "href": "/#services", "label": "Concierge" },
-      { "href": "/#gallery", "label": "Gallery" },
-      { "href": "/#location", "label": "Location" }
+      {
+        "href": "/#about",
+        "label": "The Villa"
+      },
+      {
+        "href": "/#services",
+        "label": "Concierge"
+      },
+      {
+        "href": "/#gallery",
+        "label": "Gallery"
+      },
+      {
+        "href": "/#location",
+        "label": "Location"
+      }
     ]
   },
   "footer": {
