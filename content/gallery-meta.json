@@ -1,63 +1,78 @@
 {
   "Exterior & Pool.jpg": {
     "title": "Illuminated Pool at Twilight",
-    "alt": "Aerial view of the infinity pool beautifully lit at night"
+    "alt": "Aerial view of the infinity pool beautifully lit at night",
+    "order": 32
   },
   "Exterior & Pool (2).jpg": {
     "title": "Morning Yoga by the Pool",
-    "alt": "Yoga session beside the pool with mountain views"
+    "alt": "Yoga session beside the pool with mountain views",
+    "order": 18
   },
   "Exterior & Pool (3).jpg": {
     "title": "Poolside Relaxation",
-    "alt": "Comfortable sun loungers by the infinity pool"
+    "alt": "Comfortable sun loungers by the infinity pool",
+    "order": 20
   },
   "Exterior & Pool (4).jpg": {
     "title": "Alfresco Dining Terrace",
-    "alt": "Outdoor dining area overlooking the pool and mountains"
+    "alt": "Outdoor dining area overlooking the pool and mountains",
+    "order": 22
   },
   "Exterior & Pool (5).jpg": {
     "title": "Estate Aerial View",
-    "alt": "Aerial view of the entire property with pool and padel court at dusk"
+    "alt": "Aerial view of the entire property with pool and padel court at dusk",
+    "order": 25
   },
   "Exterior & Pool (6).jpg": {
     "title": "Villa at Golden Hour",
-    "alt": "The villa illuminated at sunset with sea and city views"
+    "alt": "The villa illuminated at sunset with sea and city views",
+    "order": 27
   },
   "Exterior & Pool (7).jpg": {
     "title": "Refreshing Pool Moments",
-    "alt": "Guest relaxing in the crystal-clear pool water"
+    "alt": "Guest relaxing in the crystal-clear pool water",
+    "order": 28
   },
   "Exterior & Pool (8).jpg": {
     "title": "Shaded Pool Lounge",
-    "alt": "Friends enjoying the pool area under the pergola"
+    "alt": "Friends enjoying the pool area under the pergola",
+    "order": 29
   },
   "Exterior & Pool (9).jpg": {
     "title": "Evening Pool Ambiance",
-    "alt": "Pool area with loungers beautifully lit at night"
+    "alt": "Pool area with loungers beautifully lit at night",
+    "order": 30
   },
   "Exterior & Pool (10).jpg": {
     "title": "Outdoor Shower with Views",
-    "alt": "Pool shower surrounded by natural landscape"
+    "alt": "Pool shower surrounded by natural landscape",
+    "order": 9
   },
   "Exterior & Pool (11).jpg": {
     "title": "Poolside Fresh Fruits",
-    "alt": "Sun lounger with fresh seasonal fruits by the pool"
+    "alt": "Sun lounger with fresh seasonal fruits by the pool",
+    "order": 10
   },
   "Exterior & Pool (12).jpg": {
     "title": "Villa Night Scene",
-    "alt": "The villa and pool area under the evening sky"
+    "alt": "The villa and pool area under the evening sky",
+    "order": 11
   },
   "Exterior & Pool (13).jpg": {
     "title": "Pool Waterfall Feature",
-    "alt": "Villa exterior with the stunning pool waterfall"
+    "alt": "Villa exterior with the stunning pool waterfall",
+    "order": 12
   },
   "Exterior & Pool (14).jpg": {
     "title": "Sunset Over the Estate",
-    "alt": "Aerial view of villa at sunset with rocky landscape"
+    "alt": "Aerial view of villa at sunset with rocky landscape",
+    "order": 13
   },
   "Living & Dining.jpg": {
     "title": "Stone Wall Living Room",
-    "alt": "Elegant living room with natural stone accent wall"
+    "alt": "Elegant living room with natural stone accent wall",
+    "order": 45
   },
   "Living & Dining (3).jpg": {
     "title": "Work from Paradise",
@@ -65,90 +80,183 @@
   },
   "Living & Dining (4).jpg": {
     "title": "Modern Kitchen Island",
-    "alt": "Fully equipped kitchen with island and dining space"
+    "alt": "Fully equipped kitchen with island and dining space",
+    "order": 39
   },
   "Living & Dining (5).jpg": {
     "title": "Main Living Room",
-    "alt": "Spacious living room with comfortable sofas"
+    "alt": "Spacious living room with comfortable sofas",
+    "order": 40
   },
   "Living & Dining (6).jpg": {
     "title": "Fireplace Lounge",
-    "alt": "Living room with wooden beamed ceiling and fireplace"
+    "alt": "Living room with wooden beamed ceiling and fireplace",
+    "order": 41
   },
   "Living & Dining (8).jpg": {
     "title": "Elegant Dining Corner",
-    "alt": "Dining table set near the staircase"
+    "alt": "Dining table set near the staircase",
+    "order": 42
   },
   "Living & Dining (9).jpg": {
     "title": "Dining with Pool View",
-    "alt": "Dining area connected to living room with pool views"
+    "alt": "Dining area connected to living room with pool views",
+    "order": 43
   },
   "Living & Dining (10).jpg": {
     "title": "Grand Dining Table",
-    "alt": "Large dining table perfect for family gatherings"
+    "alt": "Large dining table perfect for family gatherings",
+    "order": 35
   },
   "Bedrooms.jpg": {
     "title": "Loft Relaxation Area",
-    "alt": "Cozy loft space with sofas and bean bags"
+    "alt": "Cozy loft space with sofas and bean bags",
+    "order": 8
   },
   "Bedrooms (2).jpg": {
     "title": "Entertainment Loft",
-    "alt": "Loft area with large TV and wooden ceiling"
+    "alt": "Loft area with large TV and wooden ceiling",
+    "order": 1
   },
   "Bedrooms (3).jpg": {
     "title": "Serene Master Bedroom",
-    "alt": "Bedroom with elegant pendant lights and garden view"
+    "alt": "Bedroom with elegant pendant lights and garden view",
+    "order": 2
   },
   "Bedrooms (5).jpg": {
     "title": "Bedroom with Court View",
-    "alt": "Bedroom overlooking the private padel court"
+    "alt": "Bedroom overlooking the private padel court",
+    "order": 4
   },
   "Bedrooms (6).jpg": {
     "title": "Warm & Inviting Suite",
-    "alt": "Comfortable bedroom with soft lighting"
+    "alt": "Comfortable bedroom with soft lighting",
+    "order": 5
   },
   "Wellness & Spa.jpg": {
     "title": "Finnish Barrel Sauna",
-    "alt": "Interior of the authentic wooden sauna"
+    "alt": "Interior of the authentic wooden sauna",
+    "order": 59
   },
   "Wellness & Spa (2).jpg": {
     "title": "Garden Sauna Retreat",
-    "alt": "Outdoor barrel sauna surrounded by olive trees"
+    "alt": "Outdoor barrel sauna surrounded by olive trees",
+    "order": 51
   },
   "Wellness & Spa (3).jpg": {
     "title": "Bathtub with Sea Views",
-    "alt": "Luxurious bathtub overlooking the coastline"
+    "alt": "Luxurious bathtub overlooking the coastline",
+    "order": 53
   },
   "Wellness & Spa (4).jpeg": {
     "title": "Spa Treatment Area",
-    "alt": "Relaxing spa and wellness space"
+    "alt": "Relaxing spa and wellness space",
+    "order": 54
   },
   "Wellness & Spa (5).jpeg": {
     "title": "Wellness Corner",
-    "alt": "Tranquil wellness amenities"
+    "alt": "Tranquil wellness amenities",
+    "order": 55
   },
   "Wellness & Spa (6).jpg": {
     "title": "Modern Designer Bathroom",
-    "alt": "Contemporary bathroom with bathtub and rain shower"
+    "alt": "Contemporary bathroom with bathtub and rain shower",
+    "order": 57
   },
   "Sports & Activities.jpg": {
     "title": "Private Padel Court",
-    "alt": "Professional padel court with mountain backdrop"
+    "alt": "Professional padel court with mountain backdrop",
+    "order": 49
   },
   "Sports & Activities (3).jpg": {
     "title": "Fitness with a View",
-    "alt": "Treadmill workout with panoramic views"
+    "alt": "Treadmill workout with panoramic views",
+    "order": 46
   },
   "Sports & Activities (4).jpg": {
     "title": "Fully Equipped Gym",
-    "alt": "Home gym with weight training equipment"
+    "alt": "Home gym with weight training equipment",
+    "order": 47
   },
   "Sports & Activities (6).jpg": {
     "title": "Night Padel Session",
-    "alt": "Floodlit padel court for evening games"
+    "alt": "Floodlit padel court for evening games",
+    "order": 48
   },
   "Kitchen.jpg": {
     "title": "Bespoke Wooden Kitchen",
     "alt": "Custom-designed kitchen with premium cabinetry"
+  },
+  "5Z5A05870587.jpg": {
+    "order": 3
+  },
+  "10.jpg": {
+    "order": 0
+  },
+  "Bedrooms (7).jpg": {
+    "order": 6
+  },
+  "Bedrooms.jpeg": {
+    "order": 7
+  },
+  "Exterior & Pool (15).jpg": {
+    "order": 14
+  },
+  "Exterior & Pool (16).jpg": {
+    "order": 15
+  },
+  "Exterior & Pool (17).jpg": {
+    "order": 16
+  },
+  "Exterior & Pool (2).jpeg": {
+    "order": 17
+  },
+  "Exterior & Pool (3).jpeg": {
+    "order": 19
+  },
+  "Exterior & Pool (4).jpeg": {
+    "order": 21
+  },
+  "Exterior & Pool (4).webp": {
+    "order": 23
+  },
+  "Exterior & Pool (5).jpeg": {
+    "order": 24
+  },
+  "Exterior & Pool (5).webp": {
+    "order": 26
+  },
+  "Exterior & Pool.jpeg": {
+    "order": 31
+  },
+  "Exterior & Pool.webp": {
+    "order": 33
+  },
+  "insidevilla.jpg": {
+    "order": 34
+  },
+  "Living & Dining (11).jpg": {
+    "order": 36
+  },
+  "Living & Dining (12).jpg": {
+    "order": 37
+  },
+  "Living & Dining (3).jpeg": {
+    "order": 38
+  },
+  "Living & Dining.jpeg": {
+    "order": 44
+  },
+  "Sports & Activities.webp": {
+    "order": 50
+  },
+  "Wellness & Spa (3).jpeg": {
+    "order": 52
+  },
+  "Wellness & Spa (6).jpeg": {
+    "order": 56
+  },
+  "Wellness & Spa.jpeg": {
+    "order": 58
   }
 }
