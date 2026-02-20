@@ -111,7 +111,7 @@
   "Bedrooms.jpg": {
     "title": "Loft Relaxation Area",
     "alt": "Cozy loft space with sofas and bean bags",
-    "order": 9
+    "order": 8
   },
   "Bedrooms (2).jpg": {
     "title": "Entertainment Loft",
@@ -126,17 +126,17 @@
   "Bedrooms (5).jpg": {
     "title": "Bedroom with Court View",
     "alt": "Bedroom overlooking the private padel court",
-    "order": 7
+    "order": 6
   },
   "Bedrooms (6).jpg": {
     "title": "Warm & Inviting Suite",
     "alt": "Comfortable bedroom with soft lighting",
-    "order": 8
+    "order": 7
   },
   "Wellness & Spa.jpg": {
     "title": "Finnish Barrel Sauna",
     "alt": "Interior of the authentic wooden sauna",
-    "order": 45
+    "order": 44
   },
   "Wellness & Spa (2).jpg": {
     "title": "Garden Sauna Retreat",
@@ -146,12 +146,12 @@
   "Wellness & Spa (3).jpg": {
     "title": "Bathtub with Sea Views",
     "alt": "Luxurious bathtub overlooking the coastline",
-    "order": 43
+    "order": 9
   },
   "Wellness & Spa (4).jpeg": {
     "title": "Spa Treatment Area",
     "alt": "Relaxing spa and wellness space",
-    "order": 44
+    "order": 43
   },
   "Wellness & Spa (5).jpeg": {
     "title": "Wellness Corner",
@@ -191,7 +191,7 @@
     "order": 4
   },
   "10.jpg": {
-    "order": 6
+    "order": 45
   },
   "Bedrooms (7).jpg": {
     "order": 9
