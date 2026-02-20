@@ -634,10 +634,307 @@ function PageEditor({
 }
 
 /* ═══════════════════════════════════════════════════════
+   Images Manager
+   ═══════════════════════════════════════════════════════ */
+
+interface ImageItem {
+  name: string;
+  type: string;
+  size: number;
+  sha: string;
+  path: string;
+}
+
+const IMAGE_FOLDERS = [
+  { key: "img/gallery", label: "Gallery" },
+  { key: "img", label: "General (hero, logo, etc.)" },
+];
+
+const IMAGE_EXTS = [".jpg", ".jpeg", ".png", ".webp", ".svg", ".gif"];
+
+function ImagesEditor({ password }: { password: string }) {
+  const [folder, setFolder] = useState(IMAGE_FOLDERS[0].key);
+  const [images, setImages] = useState<ImageItem[]>([]);
+  const [loadingImages, setLoadingImages] = useState(false);
+  const [uploading, setUploading] = useState(false);
+  const [imgMessage, setImgMessage] = useState<{
+    text: string;
+    type: "success" | "error";
+  } | null>(null);
+
+  const loadImages = useCallback(async (path: string) => {
+    setLoadingImages(true);
+    setImgMessage(null);
+    try {
+      const res = await fetch(`/api/admin/images?path=${encodeURIComponent(path)}`);
+      if (res.ok) {
+        const items: ImageItem[] = await res.json();
+        // Filter to only image files
+        setImages(
+          items.filter(
+            (i) =>
+              i.type === "file" &&
+              IMAGE_EXTS.some((ext) => i.name.toLowerCase().endsWith(ext))
+          )
+        );
+      } else {
+        setImgMessage({ text: "Failed to load images", type: "error" });
+      }
+    } catch {
+      setImgMessage({ text: "Network error loading images", type: "error" });
+    }
+    setLoadingImages(false);
+  }, []);
+
+  useEffect(() => {
+    loadImages(folder);
+  }, [folder, loadImages]);
+
+  const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const files = e.target.files;
+    if (!files || files.length === 0) return;
+
+    setUploading(true);
+    setImgMessage(null);
+
+    let successCount = 0;
+    for (const file of Array.from(files)) {
+      try {
+        const base64 = await fileToBase64(file);
+        const res = await fetch("/api/admin/images", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            path: folder,
+            filename: file.name,
+            content: base64,
+            password,
+          }),
+        });
+        if (res.ok) successCount++;
+      } catch {
+        /* skip failed */
+      }
+    }
+
+    setImgMessage({
+      text: `Uploaded ${successCount}/${files.length} images. Site will redeploy.`,
+      type: successCount > 0 ? "success" : "error",
+    });
+    setUploading(false);
+    e.target.value = "";
+    loadImages(folder);
+  };
+
+  const handleDelete = async (img: ImageItem) => {
+    if (!confirm(`Delete ${img.name}?`)) return;
+    setImgMessage(null);
+
+    try {
+      const res = await fetch("/api/admin/images", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ filePath: img.path, password }),
+      });
+      const result = await res.json();
+      if (res.ok) {
+        setImgMessage({ text: result.message, type: "success" });
+        setImages((prev) => prev.filter((i) => i.sha !== img.sha));
+      } else {
+        setImgMessage({ text: result.error, type: "error" });
+      }
+    } catch {
+      setImgMessage({ text: "Delete failed", type: "error" });
+    }
+  };
+
+  return (
+    <>
+      {/* Folder selector */}
+      <div style={{ marginBottom: 20, display: "flex", gap: 8 }}>
+        {IMAGE_FOLDERS.map((f) => (
+          <button
+            key={f.key}
+            onClick={() => setFolder(f.key)}
+            style={{
+              padding: "8px 16px",
+              borderRadius: 6,
+              border: folder === f.key ? "2px solid #111827" : "1px solid #d1d5db",
+              background: folder === f.key ? "#111827" : "#fff",
+              color: folder === f.key ? "#fff" : "#374151",
+              cursor: "pointer",
+              fontSize: 13,
+              fontWeight: folder === f.key ? 600 : 400,
+              fontFamily: "inherit",
+            }}
+          >
+            {f.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Upload */}
+      <div
+        style={{
+          marginBottom: 20,
+          padding: 20,
+          border: "2px dashed #d1d5db",
+          borderRadius: 10,
+          textAlign: "center",
+          background: "#f9fafb",
+        }}
+      >
+        <label
+          style={{
+            cursor: "pointer",
+            display: "block",
+          }}
+        >
+          <input
+            type="file"
+            accept="image/*"
+            multiple
+            onChange={handleUpload}
+            disabled={uploading}
+            style={{ display: "none" }}
+          />
+          <div
+            style={{
+              fontSize: 14,
+              color: uploading ? "#9ca3af" : "#374151",
+              fontWeight: 500,
+            }}
+          >
+            {uploading
+              ? "Uploading..."
+              : "Click to upload images (or drag & drop)"}
+          </div>
+          <div style={{ fontSize: 12, color: "#9ca3af", marginTop: 4 }}>
+            JPG, PNG, WebP, SVG supported
+          </div>
+        </label>
+      </div>
+
+      {/* Message */}
+      {imgMessage && (
+        <div
+          style={{
+            marginBottom: 16,
+            padding: "10px 16px",
+            borderRadius: 6,
+            background:
+              imgMessage.type === "success" ? "#ecfdf5" : "#fef2f2",
+            color: imgMessage.type === "success" ? "#059669" : "#dc2626",
+            fontSize: 13,
+          }}
+        >
+          {imgMessage.text}
+        </div>
+      )}
+
+      {/* Image grid */}
+      {loadingImages ? (
+        <div style={{ textAlign: "center", padding: 40, color: "#9ca3af" }}>
+          Loading images...
+        </div>
+      ) : images.length === 0 ? (
+        <div style={{ textAlign: "center", padding: 40, color: "#9ca3af" }}>
+          No images in this folder
+        </div>
+      ) : (
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))",
+            gap: 12,
+          }}
+        >
+          {images.map((img) => (
+            <div
+              key={img.sha}
+              style={{
+                border: "1px solid #e5e7eb",
+                borderRadius: 8,
+                overflow: "hidden",
+                background: "#fff",
+              }}
+            >
+              <div
+                style={{
+                  width: "100%",
+                  height: 120,
+                  backgroundImage: `url(${encodeURI(img.path)})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundColor: "#f3f4f6",
+                }}
+              />
+              <div style={{ padding: "8px 10px" }}>
+                <div
+                  style={{
+                    fontSize: 11,
+                    color: "#374151",
+                    wordBreak: "break-all",
+                    marginBottom: 4,
+                  }}
+                  title={img.name}
+                >
+                  {img.name.length > 25
+                    ? img.name.slice(0, 22) + "..."
+                    : img.name}
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                  }}
+                >
+                  <span style={{ fontSize: 10, color: "#9ca3af" }}>
+                    {(img.size / 1024).toFixed(0)} KB
+                  </span>
+                  <button
+                    onClick={() => handleDelete(img)}
+                    style={{
+                      padding: "2px 8px",
+                      background: "#fee2e2",
+                      color: "#dc2626",
+                      border: "none",
+                      borderRadius: 4,
+                      cursor: "pointer",
+                      fontSize: 11,
+                    }}
+                  >
+                    Delete
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </>
+  );
+}
+
+function fileToBase64(file: File): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      const result = reader.result as string;
+      // Remove data:image/...;base64, prefix
+      resolve(result.split(",")[1]);
+    };
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
+/* ═══════════════════════════════════════════════════════
    Main Admin Page
    ═══════════════════════════════════════════════════════ */
 
-type Tab = "global" | "page";
+type Tab = "global" | "page" | "images";
 
 export default function AdminPage() {
   const [globalData, setGlobalData] = useState<AnyContent | null>(null);
@@ -747,6 +1044,7 @@ export default function AdminPage() {
           [
             { key: "global", label: "Site Settings" },
             { key: "page", label: "Home Page" },
+            { key: "images", label: "Images" },
           ] as const
         ).map((tab) => (
           <button
@@ -780,6 +1078,7 @@ export default function AdminPage() {
       {activeTab === "page" && pageData && (
         <PageEditor data={pageData} onChange={setPageData} />
       )}
+      {activeTab === "images" && <ImagesEditor password={password} />}
 
       {/* Save bar */}
       <div
@@ -808,25 +1107,27 @@ export default function AdminPage() {
             width: 180,
           }}
         />
-        <button
-          onClick={handleSave}
-          disabled={saving}
-          style={{
-            padding: "10px 32px",
-            background: saving ? "#9ca3af" : "#111827",
-            color: "#fff",
-            border: "none",
-            borderRadius: 8,
-            cursor: saving ? "default" : "pointer",
-            fontWeight: 600,
-            fontSize: 14,
-            fontFamily: "inherit",
-          }}
-        >
-          {saving
-            ? "Saving..."
-            : `Save ${activeTab === "global" ? "Site Settings" : "Home Page"}`}
-        </button>
+        {activeTab !== "images" && (
+          <button
+            onClick={handleSave}
+            disabled={saving}
+            style={{
+              padding: "10px 32px",
+              background: saving ? "#9ca3af" : "#111827",
+              color: "#fff",
+              border: "none",
+              borderRadius: 8,
+              cursor: saving ? "default" : "pointer",
+              fontWeight: 600,
+              fontSize: 14,
+              fontFamily: "inherit",
+            }}
+          >
+            {saving
+              ? "Saving..."
+              : `Save ${activeTab === "global" ? "Site Settings" : "Home Page"}`}
+          </button>
+        )}
         {message && (
           <span
             style={{
