@@ -1405,7 +1405,7 @@ function ImagesEditor({
               <div
                 className="w-full aspect-square bg-stone-100 bg-cover bg-center relative"
                 style={{
-                  backgroundImage: `url("/${img.path.split("/").map((s) => s.replace(/%/g, "%25").replace(/ /g, "%20").replace(/#/g, "%23")).join("/")}")`,
+                  backgroundImage: `url("${img.path.split("/").map((s) => s.replace(/%/g, "%25").replace(/ /g, "%20").replace(/#/g, "%23")).join("/")}")`,
                 }}
               >
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
