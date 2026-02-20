@@ -863,7 +863,7 @@ function ImagesEditor({ password }: { password: string }) {
                 style={{
                   width: "100%",
                   height: 120,
-                  backgroundImage: `url(${encodeURI(img.path)})`,
+                  backgroundImage: `url(${img.path.split("/").map(s => encodeURIComponent(s)).join("/")})`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundColor: "#f3f4f6",
