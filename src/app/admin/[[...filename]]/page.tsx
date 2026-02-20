@@ -1632,6 +1632,34 @@ function GalleryMetaEditor({
     setHasChanges(true);
   };
 
+  function OrderInput({ index, total }: { index: number; total: number }) {
+    const [val, setVal] = useState(String(index + 1));
+    useEffect(() => { setVal(String(index + 1)); }, [index]);
+
+    const apply = () => {
+      const num = parseInt(val, 10);
+      if (!isNaN(num) && num >= 1 && num <= total && num !== index + 1) {
+        moveToPosition(index, num);
+      } else {
+        setVal(String(index + 1));
+      }
+    };
+
+    return (
+      <input
+        type="number"
+        min={1}
+        max={total}
+        value={val}
+        onChange={(e) => setVal(e.target.value)}
+        onBlur={apply}
+        onKeyDown={(e) => { if (e.key === "Enter") { e.currentTarget.blur(); } }}
+        className="w-10 text-center text-[11px] font-bold text-stone-500 bg-white border border-stone-200 rounded-md py-0.5 focus:outline-none focus:ring-1 focus:ring-[#c83d49]/30 focus:border-[#c83d49]/40"
+        title="Type position number and press Enter"
+      />
+    );
+  }
+
   return (
     <div className="space-y-6 animate-in fade-in duration-500">
       {/* Info */}
@@ -1706,18 +1734,7 @@ function GalleryMetaEditor({
                     >
                       {Icons.arrowUp}
                     </button>
-                    <input
-                      type="number"
-                      min={1}
-                      max={filtered.length}
-                      value={index + 1}
-                      onChange={(e) => {
-                        const val = parseInt(e.target.value, 10);
-                        if (!isNaN(val)) moveToPosition(index, val);
-                      }}
-                      className="w-9 text-center text-[11px] font-bold text-stone-500 bg-white border border-stone-200 rounded-md py-0.5 focus:outline-none focus:ring-1 focus:ring-[#c83d49]/30 focus:border-[#c83d49]/40"
-                      title="Type position number"
-                    />
+                    <OrderInput index={index} total={filtered.length} />
                     <button
                       onClick={() => moveImage(index, "down")}
                       disabled={index === filtered.length - 1}
