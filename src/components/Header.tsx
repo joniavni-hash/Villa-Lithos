@@ -59,8 +59,8 @@ export default function Header({ data }: { data?: HeaderData }) {
 
         {/* Desktop Navigation */}
         <nav className="site-header__nav" aria-label="Main navigation">
-          {navLinks.map((link) => (
-            <Link key={link.href} href={link.href} className="site-header__link">
+          {navLinks.map((link, index) => (
+            <Link key={`${link.href}-${index}`} href={link.href} className="site-header__link">
               {link.label}
             </Link>
           ))}
@@ -114,7 +114,7 @@ export default function Header({ data }: { data?: HeaderData }) {
           <nav className="site-header__mobile-links">
             {navLinks.map((link, index) => (
               <Link
-                key={link.href}
+                key={`${link.href}-${index}`}
                 href={link.href}
                 className="site-header__mobile-link"
                 onClick={handleNavClick}

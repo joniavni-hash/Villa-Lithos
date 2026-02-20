@@ -2,7 +2,8 @@
   "hero": {
     "kicker": "WELCOME TO",
     "title": "Villa Lithos",
-    "subtitle": "A private villa in Greece. Quiet stays, thoughtful comfort."
+    "subtitle": "A private villa in Greece. Quiet stays, thoughtful comfort.",
+    "image": "/img/hero.webp"
   },
   "marquee": {
     "text": "VILLA LITHOS \u2022 PRIVATE VILLA \u2022 SEA VIEWS \u2022 INFINITY POOL \u2022 SAUNA \u2022 JACUZZI \u2022 PADEL COURT \u2022 LOCAL EXPERIENCES \u2022 CONCIERGE \u2022 "
@@ -16,31 +17,95 @@
       "Enjoy the heated infinity pool with panoramic sea views, unwind in the jacuzzi, rejuvenate in the outdoor sauna, or challenge friends on the padel court. The villa also offers a fully equipped gym, private elevator, dual lounges, and secure parking."
     ],
     "stats": [
-      { "label": "Bedrooms", "value": "9" },
-      { "label": "Guests", "value": "22" },
-      { "label": "Bathrooms", "value": "8.5" },
-      { "label": "Build", "value": "800m\u00b2" },
-      { "label": "Plot", "value": "5000m\u00b2" }
+      {
+        "label": "Bedrooms",
+        "value": "9"
+      },
+      {
+        "label": "Guests",
+        "value": "22"
+      },
+      {
+        "label": "Bathrooms",
+        "value": "8.5"
+      },
+      {
+        "label": "Build",
+        "value": "800m\u00b2"
+      },
+      {
+        "label": "Plot",
+        "value": "5000m\u00b2"
+      }
     ],
     "spaceTitle": "The Space",
     "spaceParagraphs": [
       "Inside, the contemporary interiors blend modern design with warm Mediterranean touches. Two spacious living rooms, on the ground floor and lower level, provide versatile spaces for relaxation, conversation, or quiet moments.",
       "The designer kitchen is fully equipped with premium appliances and a walk-in pantry, perfect for preparing memorable meals during your stay near Athens."
+    ],
+    "featuredImage": "/img/gallery/Exterior %26 Pool (14).jpg",
+    "galleryImages": [
+      {
+        "src": "/img/gallery/Exterior %26 Pool.jpg",
+        "alt": "Illuminated pool at twilight"
+      },
+      {
+        "src": "/img/gallery/Exterior %26 Pool (5).jpg",
+        "alt": "Estate aerial view"
+      },
+      {
+        "src": "/img/gallery/Living %26 Dining (6).jpg",
+        "alt": "Fireplace lounge with wooden ceiling"
+      },
+      {
+        "src": "/img/gallery/Wellness %26 Spa (3).jpg",
+        "alt": "Bathtub with sea views"
+      }
     ]
   },
   "amenities": {
     "sectionTitle": "Amenities",
     "items": [
-      "Heated Pool",
-      "Jacuzzi",
-      "Sea View",
-      "Mountain View",
-      "Outdoor Sauna",
-      "Padel Court",
-      "Gym",
-      "Elevator",
-      "Design Kitchen",
-      "Workspace"
+      {
+        "name": "Heated Pool",
+        "image": "/img/gallery/Exterior & Pool (9).jpg"
+      },
+      {
+        "name": "Jacuzzi",
+        "image": "/img/gallery/Exterior & Pool.jpg"
+      },
+      {
+        "name": "Sea View",
+        "image": "/img/gallery/Exterior & Pool (6).jpg"
+      },
+      {
+        "name": "Mountain View",
+        "image": "/img/gallery/Exterior & Pool (14).jpg"
+      },
+      {
+        "name": "Outdoor Sauna",
+        "image": "/img/gallery/Wellness & Spa (2).jpg"
+      },
+      {
+        "name": "Padel Court",
+        "image": "/img/gallery/Sports & Activities (6).jpg"
+      },
+      {
+        "name": "Gym",
+        "image": "/img/gallery/Sports & Activities (4).jpg"
+      },
+      {
+        "name": "Elevator",
+        "image": "/img/gallery/10.jpg"
+      },
+      {
+        "name": "Design Kitchen",
+        "image": "/img/gallery/Living & Dining (11).jpg"
+      },
+      {
+        "name": "Workspace",
+        "image": "/img/gallery/Living & Dining (12).jpg"
+      }
     ]
   },
   "concierge": {
@@ -74,10 +139,22 @@
     "gettingHereTitle": "Getting Here",
     "gettingHereIntro": "Villa Lithos is ideally situated in Porto Rafti, one of Attica's most sought-after coastal destinations. Enjoy the perfect balance of serene privacy and convenient access to Athens International Airport, the city center, and the pristine beaches of the Athenian Riviera.",
     "distances": [
-      { "name": "Athens Int. Airport (El. Venizelos)", "detail": "16 km \u2014 approx. 15 min drive" },
-      { "name": "Athens City Center", "detail": "37 km via Attiki Odos \u2014 approx. 40 min drive" },
-      { "name": "Nearest Beach (Avlaki/Erotospilia)", "detail": "1.5 km \u2014 approx. 3 min drive" },
-      { "name": "Rafina Port (Islands Ferry)", "detail": "20 min drive \u2014 gateway to Cyclades & Evia" }
+      {
+        "name": "Athens Int. Airport (El. Venizelos)",
+        "detail": "16 km \u2014 approx. 15 min drive"
+      },
+      {
+        "name": "Athens City Center",
+        "detail": "37 km via Attiki Odos \u2014 approx. 40 min drive"
+      },
+      {
+        "name": "Nearest Beach (Avlaki/Erotospilia)",
+        "detail": "1.5 km \u2014 approx. 3 min drive"
+      },
+      {
+        "name": "Rafina Port (Islands Ferry)",
+        "detail": "20 min drive \u2014 gateway to Cyclades & Evia"
+      }
     ]
   },
   "contact": {

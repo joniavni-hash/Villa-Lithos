@@ -30,6 +30,7 @@ export type PageData = {
     kicker?: string | null;
     title?: string | null;
     subtitle?: string | null;
+    image?: string | null;
   };
   marquee: {
     text?: string | null;
@@ -42,10 +43,12 @@ export type PageData = {
     stats?: { label: string; value: string }[] | null;
     spaceTitle?: string | null;
     spaceParagraphs?: (string | null)[] | null;
+    featuredImage?: string | null;
+    galleryImages?: { src: string; alt: string }[] | null;
   };
   amenities: {
     sectionTitle?: string | null;
-    items?: (string | null)[] | null;
+    items?: { name: string; image: string; icon?: string | null }[] | null;
   };
   concierge: {
     title?: string | null;

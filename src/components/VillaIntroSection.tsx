@@ -23,11 +23,13 @@ type VillaIntroData = {
   stats?: { label: string; value: string }[] | null;
   spaceTitle?: string | null;
   spaceParagraphs?: (string | null)[] | null;
+  featuredImage?: string | null;
+  galleryImages?: { src: string; alt: string }[] | null;
 };
 
 type AmenitiesData = {
   sectionTitle?: string | null;
-  items?: (string | null)[] | null;
+  items?: { name: string; image: string }[] | null;
 };
 
 const DEFAULT_BOOKING_URL =
@@ -93,6 +95,8 @@ export default function VillaIntroSection({ data, amenitiesData, bookingUrl }: {
     "Inside, the contemporary interiors blend modern design with warm Mediterranean touches. Two spacious living rooms, on the ground floor and lower level, provide versatile spaces for relaxation, conversation, or quiet moments.",
     "The designer kitchen is fully equipped with premium appliances and a walk-in pantry, perfect for preparing memorable meals during your stay near Athens.",
   ];
+  const finalFeaturedImage = data?.featuredImage || "/img/gallery/Exterior%20%26%20Pool%20(14).jpg";
+  const finalGalleryImages = data?.galleryImages?.length ? data.galleryImages : galleryImages;
   const BOOKING_URL = bookingUrl || DEFAULT_BOOKING_URL;
   const headerRef = useRef<HTMLDivElement>(null);
   const statsRef = useRef<HTMLDivElement>(null);
@@ -185,7 +189,7 @@ export default function VillaIntroSection({ data, amenitiesData, bookingUrl }: {
           animate={galleryInView ? "visible" : "hidden"}
           variants={staggerContainer}
         >
-          {galleryImages.map((image) => (
+          {finalGalleryImages.map((image) => (
             <motion.div
               key={image.src}
               className="villa-intro__gallery-item"
@@ -216,7 +220,7 @@ export default function VillaIntroSection({ data, amenitiesData, bookingUrl }: {
           >
             <div className="villa-intro__featured-img-wrapper">
               <Image
-                src="/img/gallery/Exterior%20%26%20Pool%20(14).jpg"
+                src={finalFeaturedImage}
                 alt="Villa Lithos luxury exterior view"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

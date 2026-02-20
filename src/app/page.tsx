@@ -36,8 +36,8 @@ export default async function HomePage() {
         subtitle={page?.hero?.subtitle || "A private villa in Greece. Quiet stays, thoughtful comfort."}
         videoSrcMobile="/videos/hero.mp4"
         videoSrcDesktop="/videos/heroPC.mp4"
-        poster="/img/hero.webp"
-        imageUrl="/img/hero.webp"
+        poster={page?.hero?.image || "/img/hero.webp"}
+        imageUrl={page?.hero?.image || "/img/hero.webp"}
         contactHref="/#inquiry"
         galleryHref="/#gallery"
       />

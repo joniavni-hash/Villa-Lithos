@@ -2670,6 +2670,13 @@ main [class*="text-white/"] {
   color: var(--text) !important;
 }
 
+/* Admin panel: undo the safety override above */
+main [data-admin] .text-white { color: #fff !important; }
+main [data-admin] .text-white\/90 { color: rgb(255 255 255 / 0.9) !important; }
+main [data-admin] .text-white\/10 { color: rgb(255 255 255 / 0.1) !important; }
+main [data-admin] .text-white\/15 { color: rgb(255 255 255 / 0.15) !important; }
+
+
 /* =========================================================
    MOBILE-FIRST RESPONSIVE DESIGN
    Base styles = Mobile (320-430px)
