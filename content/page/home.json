@@ -6,14 +6,14 @@
     "image": "/img/hero.webp"
   },
   "marquee": {
-    "text": "VILLA LITHOS \u2022 PRIVATE VILLA \u2022 SEA VIEWS \u2022 INFINITY POOL \u2022 SAUNA \u2022 JACUZZI \u2022 PADEL COURT \u2022 LOCAL EXPERIENCES \u2022 CONCIERGE \u2022 "
+    "text": "VILLA LITHOS • PRIVATE VILLA • SEA VIEWS • INFINITY POOL • SAUNA • JACUZZI • PADEL COURT • LOCAL EXPERIENCES • CONCIERGE • "
   },
   "villaIntro": {
     "kicker": "Luxury accommodation near Athens",
     "title": "Villa Lithos",
     "tagline": "A 9-bedroom luxury retreat with space to unwind and room for memorable gatherings",
     "bodyParagraphs": [
-      "Villa Lithos is a stunning 800m\u00b2 luxury villa set on a 5000m\u00b2 private estate in Porto Rafti, Attica. Designed for up to 22 guests, this exclusive property features nine bedrooms, ten bathrooms, and generous spaces for families, groups of friends, or corporate retreats.",
+      "Villa Lithos is a stunning 800m² luxury villa set on a 5000m² private estate in Porto Rafti, Attica. Designed for up to 22 guests, this exclusive property features nine bedrooms, ten bathrooms, and generous spaces for families, groups of friends, or corporate retreats.",
       "Enjoy the heated infinity pool with panoramic sea views, unwind in the jacuzzi, rejuvenate in the outdoor sauna, or challenge friends on the padel court. The villa also offers a fully equipped gym, private elevator, dual lounges, and secure parking."
     ],
     "stats": [
@@ -31,11 +31,11 @@
       },
       {
         "label": "Build",
-        "value": "800m\u00b2"
+        "value": "800m²"
       },
       {
         "label": "Plot",
-        "value": "5000m\u00b2"
+        "value": "5000m²"
       }
     ],
     "spaceTitle": "The Space",
@@ -141,19 +141,19 @@
     "distances": [
       {
         "name": "Athens Int. Airport (El. Venizelos)",
-        "detail": "16 km \u2014 approx. 15 min drive"
+        "detail": "16 km — approx. 15 min drive"
       },
       {
         "name": "Athens City Center",
-        "detail": "37 km via Attiki Odos \u2014 approx. 40 min drive"
+        "detail": "37 km via Attiki Odos — approx. 40 min drive"
       },
       {
         "name": "Nearest Beach (Avlaki/Erotospilia)",
-        "detail": "1.5 km \u2014 approx. 3 min drive"
+        "detail": "1.5 km — approx. 3 min drive"
       },
       {
         "name": "Rafina Port (Islands Ferry)",
-        "detail": "20 min drive \u2014 gateway to Cyclades & Evia"
+        "detail": "20 min drive — gateway to Cyclades & Evia"
       }
     ]
   },
