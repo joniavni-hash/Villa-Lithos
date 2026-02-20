@@ -2034,28 +2034,25 @@ export default function AdminPage() {
 
   if (!authed) {
     return (
-      <div className="min-h-screen bg-stone-900 flex flex-col justify-center py-12 px-4 relative overflow-hidden">
-        {/* Background texture */}
-        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")" }} />
-
-        <div className="sm:mx-auto sm:w-full sm:max-w-sm relative z-10">
+      <div className="min-h-screen bg-gradient-to-b from-stone-100 to-stone-200 flex items-center justify-center py-12 px-4">
+        <div className="w-full max-w-sm mx-auto">
           {/* Logo / Branding */}
           <div className="text-center mb-10">
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-white/10 backdrop-blur-sm rounded-3xl mb-6 border border-white/10">
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-stone-800 rounded-3xl mb-6 shadow-lg shadow-stone-300">
               <span className="text-white text-3xl font-light tracking-wider">VL</span>
             </div>
-            <h1 className="text-3xl font-light tracking-[0.2em] uppercase text-white">
+            <h1 className="text-3xl font-light tracking-[0.2em] uppercase text-stone-800">
               Villa Lithos
             </h1>
             <div className="mt-3 flex items-center justify-center gap-3">
-              <span className="h-px w-8 bg-white/20" />
+              <span className="h-px w-8 bg-stone-300" />
               <p className="text-[11px] uppercase tracking-[0.25em] text-stone-400">Admin Panel</p>
-              <span className="h-px w-8 bg-white/20" />
+              <span className="h-px w-8 bg-stone-300" />
             </div>
           </div>
 
           {/* Login Card */}
-          <div className="bg-white/[0.07] backdrop-blur-md py-10 px-8 rounded-3xl border border-white/10">
+          <div className="bg-white py-10 px-8 rounded-3xl shadow-xl shadow-stone-200/80 border border-stone-200/60">
             <form
               className="space-y-6"
               onSubmit={(e) => {
@@ -2064,11 +2061,11 @@ export default function AdminPage() {
               }}
             >
               <div>
-                <label className="block text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 mb-3">
+                <label className="block text-[11px] uppercase tracking-[0.2em] font-medium text-stone-500 mb-3">
                   Password
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-stone-500">
+                  <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-stone-400">
                     <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                     </svg>
@@ -2079,14 +2076,14 @@ export default function AdminPage() {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     autoFocus
-                    className="block w-full pl-11 pr-4 py-3.5 bg-white/[0.06] border border-white/10 rounded-xl focus:outline-none focus:ring-1 focus:ring-white/30 focus:border-white/20 text-sm text-white transition-all placeholder:text-stone-600"
+                    className="block w-full pl-11 pr-4 py-3.5 bg-stone-50 border border-stone-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-stone-800/20 focus:border-stone-400 text-sm text-stone-900 transition-all placeholder:text-stone-400"
                     placeholder="Enter password..."
                   />
                 </div>
               </div>
 
               {loginError && (
-                <div className="flex items-center gap-2 p-3.5 rounded-xl bg-red-500/10 text-red-300 text-sm font-medium border border-red-500/20">
+                <div className="flex items-center gap-2 p-3.5 rounded-xl bg-red-50 text-red-600 text-sm font-medium border border-red-100">
                   {Icons.error}
                   {loginError}
                 </div>
@@ -2095,11 +2092,11 @@ export default function AdminPage() {
               <button
                 type="submit"
                 disabled={loggingIn || !password}
-                className="w-full flex justify-center py-3.5 px-4 rounded-xl text-sm font-semibold uppercase tracking-[0.15em] text-stone-900 bg-white hover:bg-stone-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-stone-900 focus:ring-white disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+                className="w-full flex justify-center py-3.5 px-4 rounded-xl text-sm font-semibold uppercase tracking-[0.15em] text-white bg-stone-800 hover:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-stone-800 disabled:opacity-30 disabled:cursor-not-allowed transition-all shadow-md shadow-stone-300"
               >
                 {loggingIn ? (
                   <span className="flex items-center gap-2">
-                    <svg className="animate-spin h-4 w-4 text-stone-900" fill="none" viewBox="0 0 24 24">
+                    <svg className="animate-spin h-4 w-4 text-white" fill="none" viewBox="0 0 24 24">
                       <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                       <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
                     </svg>
@@ -2112,7 +2109,7 @@ export default function AdminPage() {
             </form>
           </div>
 
-          <p className="mt-8 text-center text-[10px] uppercase tracking-[0.2em] text-stone-600">
+          <p className="mt-8 text-center text-[10px] uppercase tracking-[0.2em] text-stone-400">
             Secure access only
           </p>
         </div>
