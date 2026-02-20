@@ -124,7 +124,13 @@ export async function GET() {
           order,
         };
       })
-      .sort((a, b) => a.order - b.order);
+      .sort((a, b) => {
+        if (a.order !== b.order) return a.order - b.order;
+        // Secondary sort by filename (matches CMS order)
+        const filenameA = decodeURIComponent(a.src.split("/").pop() || "");
+        const filenameB = decodeURIComponent(b.src.split("/").pop() || "");
+        return filenameA.localeCompare(filenameB);
+      });
 
     return NextResponse.json(
       {
