@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useRef, useMemo } from "react";
 
 /* ═══════════════════════════════════════════════════════
    Types
@@ -109,13 +109,12 @@ function ToastContainer({ toasts, onDismiss }: { toasts: Toast[]; onDismiss: (id
       {toasts.map((toast) => (
         <div
           key={toast.id}
-          className={`pointer-events-auto flex items-center gap-3 px-5 py-3.5 rounded-2xl shadow-lg border backdrop-blur-sm transition-all animate-in slide-in-from-right duration-300 ${
-            toast.type === "success"
-              ? "bg-emerald-50/95 border-emerald-200 text-emerald-800"
-              : toast.type === "error"
+          className={`pointer-events-auto flex items-center gap-3 px-5 py-3.5 rounded-2xl shadow-lg border backdrop-blur-sm transition-all animate-in slide-in-from-right duration-300 ${toast.type === "success"
+            ? "bg-emerald-50/95 border-emerald-200 text-emerald-800"
+            : toast.type === "error"
               ? "bg-red-50/95 border-red-200 text-red-800"
               : "bg-blue-50/95 border-blue-200 text-blue-800"
-          }`}
+            }`}
         >
           <span className="flex-shrink-0">
             {toast.type === "success" ? Icons.check : toast.type === "error" ? Icons.error : Icons.info}
@@ -272,7 +271,7 @@ function ImagePickerField({
             );
           }
         }
-      } catch {}
+      } catch { }
     };
     loadImages();
     return () => { mounted = false; };
@@ -580,17 +579,15 @@ function Section({
           </div>
         </div>
         <div
-          className={`p-1.5 rounded-lg bg-stone-100 text-stone-400 group-hover:bg-stone-200 transform transition-all duration-300 ${
-            open ? "rotate-180" : "rotate-0"
-          }`}
+          className={`p-1.5 rounded-lg bg-stone-100 text-stone-400 group-hover:bg-stone-200 transform transition-all duration-300 ${open ? "rotate-180" : "rotate-0"
+            }`}
         >
           {Icons.chevronDown}
         </div>
       </button>
       <div
-        className={`transition-all duration-300 ease-in-out overflow-hidden ${
-          open ? "max-h-[5000px] opacity-100" : "max-h-0 opacity-0"
-        }`}
+        className={`transition-all duration-300 ease-in-out overflow-hidden ${open ? "max-h-[5000px] opacity-100" : "max-h-0 opacity-0"
+          }`}
       >
         <div className="p-6 border-t border-stone-100 bg-white">{children}</div>
       </div>
@@ -1049,7 +1046,7 @@ function PageEditor({
               type: "text",
               placeholder: "e.g., 🏊 or 🌊",
             },
-            { key: "image", label: "Background Image", type: "image", folder: "img/gallery" },
+            { key: "image", label: "Background Image", type: "image", folder: "img/amenities" },
           ]}
           onChange={(v) => set("amenities", "items", v)}
           help="Each amenity shows as a card on the website."
@@ -1174,6 +1171,7 @@ type ImageItem = {
 
 const IMAGE_FOLDERS = [
   { key: "img/gallery", label: "Gallery Images", icon: Icons.images },
+  { key: "img/amenities", label: "Amenities Images", icon: Icons.gallery },
   { key: "img", label: "General Images", icon: Icons.photo },
 ];
 
@@ -1231,7 +1229,7 @@ function ImagesEditor({
           }),
         });
         if (res.ok) successCount++;
-      } catch {}
+      } catch { }
     }
 
     addToast(
@@ -1286,8 +1284,8 @@ function ImagesEditor({
 
   const filteredImages = searchQuery
     ? images.filter((img) =>
-        img.name.toLowerCase().includes(searchQuery.toLowerCase())
-      )
+      img.name.toLowerCase().includes(searchQuery.toLowerCase())
+    )
     : images;
 
   return (
@@ -1299,11 +1297,10 @@ function ImagesEditor({
             <button
               key={f.key}
               onClick={() => { setFolder(f.key); setSearchQuery(""); }}
-              className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-medium text-sm transition-all ${
-                folder === f.key
-                  ? "bg-stone-900 text-white shadow-lg shadow-stone-900/20"
-                  : "bg-white text-stone-600 border border-stone-200 hover:border-stone-300 hover:bg-stone-50"
-              }`}
+              className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-medium text-sm transition-all ${folder === f.key
+                ? "bg-stone-900 text-white shadow-lg shadow-stone-900/20"
+                : "bg-white text-stone-600 border border-stone-200 hover:border-stone-300 hover:bg-stone-50"
+                }`}
             >
               {f.icon}
               {f.label}
@@ -1332,21 +1329,19 @@ function ImagesEditor({
         onDrop={handleDrop}
       >
         <label
-          className={`flex flex-col items-center justify-center w-full min-h-[180px] border-2 border-dashed rounded-2xl cursor-pointer transition-all ${
-            dragOver
-              ? "border-[#c83d49] bg-[#c83d49]/5"
-              : "border-stone-200 bg-stone-50/30 hover:bg-stone-50 hover:border-stone-300"
-          }`}
+          className={`flex flex-col items-center justify-center w-full min-h-[180px] border-2 border-dashed rounded-2xl cursor-pointer transition-all ${dragOver
+            ? "border-[#c83d49] bg-[#c83d49]/5"
+            : "border-stone-200 bg-stone-50/30 hover:bg-stone-50 hover:border-stone-300"
+            }`}
         >
           <div className="flex flex-col items-center justify-center py-6">
             <span
-              className={`mb-3 transition-colors ${
-                uploading
-                  ? "text-stone-300 animate-bounce"
-                  : dragOver
+              className={`mb-3 transition-colors ${uploading
+                ? "text-stone-300 animate-bounce"
+                : dragOver
                   ? "text-[#c83d49]"
                   : "text-stone-300 group-hover:text-stone-400"
-              }`}
+                }`}
             >
               {Icons.upload}
             </span>
@@ -1468,7 +1463,7 @@ function fileToBase64(file: File): Promise<string> {
    Gallery Descriptions Editor
    ═══════════════════════════════════════════════════════ */
 
-type GalleryMeta = Record<string, { title?: string; alt?: string }>;
+type GalleryMeta = Record<string, { title?: string; alt?: string; description?: string; order?: number }>;
 
 function GalleryMetaEditor({
   password,
@@ -1510,7 +1505,7 @@ function GalleryMetaEditor({
       .catch(() => setLoading(false));
   }, []);
 
-  const updateMeta = (filename: string, field: "title" | "alt", value: string) => {
+  const updateMeta = (filename: string, field: "title" | "alt" | "description", value: string) => {
     setMeta((prev) => ({
       ...prev,
       [filename]: {
@@ -1542,6 +1537,15 @@ function GalleryMetaEditor({
     setSaving(false);
   };
 
+  const sortedImages = useMemo(() => {
+    return [...galleryImages].sort((a, b) => {
+      const orderA = meta[a.filename]?.order ?? 9999;
+      const orderB = meta[b.filename]?.order ?? 9999;
+      if (orderA !== orderB) return orderA - orderB;
+      return a.filename.localeCompare(b.filename);
+    });
+  }, [galleryImages, meta]);
+
   if (loading) {
     return (
       <div className="flex items-center justify-center py-20">
@@ -1551,14 +1555,50 @@ function GalleryMetaEditor({
   }
 
   const filtered = searchQuery
-    ? galleryImages.filter(
-        (img) =>
-          img.filename.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          (meta[img.filename]?.title || img.title)
-            .toLowerCase()
-            .includes(searchQuery.toLowerCase())
-      )
-    : galleryImages;
+    ? sortedImages.filter(
+      (img) =>
+        img.filename.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (meta[img.filename]?.title || img.title)
+          .toLowerCase()
+          .includes(searchQuery.toLowerCase())
+    )
+    : sortedImages;
+
+  const moveImage = (index: number, direction: "up" | "down") => {
+    if (searchQuery) {
+      addToast("Please clear search to reorder images.", "info");
+      return;
+    }
+
+    if (
+      (direction === "up" && index === 0) ||
+      (direction === "down" && index === filtered.length - 1)
+    ) {
+      return;
+    }
+
+    const swapIndex = direction === "up" ? index - 1 : index + 1;
+
+    // Create an ordered version of all filenames
+    const currentFilenames = filtered.map(img => img.filename);
+
+    // Swap
+    const temp = currentFilenames[index];
+    currentFilenames[index] = currentFilenames[swapIndex];
+    currentFilenames[swapIndex] = temp;
+
+    // Build new meta with updated orders
+    const nextMeta = { ...meta };
+    currentFilenames.forEach((filename, i) => {
+      nextMeta[filename] = {
+        ...(nextMeta[filename] || {}),
+        order: i,
+      };
+    });
+
+    setMeta(nextMeta);
+    setHasChanges(true);
+  };
 
   return (
     <div className="space-y-6 animate-in fade-in duration-500">
@@ -1615,7 +1655,7 @@ function GalleryMetaEditor({
 
       {/* Image cards */}
       <div className="space-y-4">
-        {filtered.map((img) => {
+        {filtered.map((img, index) => {
           const imgMeta = meta[img.filename] || {};
           return (
             <div
@@ -1623,6 +1663,31 @@ function GalleryMetaEditor({
               className="bg-white border border-stone-200 rounded-2xl overflow-hidden hover:border-stone-300 transition-all"
             >
               <div className="flex flex-col sm:flex-row">
+                {/* Controls */}
+                {!searchQuery && (
+                  <div className="flex sm:flex-col items-center justify-center p-2 bg-stone-50 border-b sm:border-b-0 sm:border-r border-stone-100 gap-1 min-w-[48px]">
+                    <button
+                      onClick={() => moveImage(index, "up")}
+                      disabled={index === 0}
+                      className="p-1.5 text-stone-400 hover:text-stone-700 hover:bg-stone-200 rounded-lg disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+                      title="Move Up"
+                    >
+                      {Icons.arrowUp}
+                    </button>
+                    <span className="text-[10px] font-bold text-stone-300">
+                      #{index + 1}
+                    </span>
+                    <button
+                      onClick={() => moveImage(index, "down")}
+                      disabled={index === filtered.length - 1}
+                      className="p-1.5 text-stone-400 hover:text-stone-700 hover:bg-stone-200 rounded-lg disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+                      title="Move Down"
+                    >
+                      {Icons.arrowDown}
+                    </button>
+                  </div>
+                )}
+
                 {/* Thumbnail */}
                 <div className="sm:w-48 sm:h-36 h-40 flex-shrink-0 bg-stone-100 relative overflow-hidden">
                   <img
@@ -1663,6 +1728,20 @@ function GalleryMetaEditor({
                       }
                       placeholder="e.g., Aerial view of the infinity pool at night"
                       className="w-full px-3.5 py-2 border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#c83d49]/20 focus:border-[#c83d49]/40 transition-all"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-xs font-medium text-stone-500 mb-1">
+                      Description
+                    </label>
+                    <textarea
+                      value={imgMeta.description ?? ""}
+                      onChange={(e) =>
+                        updateMeta(img.filename, "description", e.target.value)
+                      }
+                      placeholder="Custom description for this image (leave empty for auto-generated)"
+                      rows={2}
+                      className="w-full px-3.5 py-2 border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#c83d49]/20 focus:border-[#c83d49]/40 transition-all resize-y"
                     />
                   </div>
                 </div>
@@ -1758,9 +1837,8 @@ function Sidebar({
 
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 h-full w-72 bg-white border-r border-stone-200 z-50 flex flex-col transition-transform duration-300 lg:translate-x-0 ${
-          mobileOpen ? "translate-x-0" : "-translate-x-full"
-        }`}
+        className={`fixed top-0 left-0 h-full w-72 bg-white border-r border-stone-200 z-50 flex flex-col transition-transform duration-300 lg:translate-x-0 ${mobileOpen ? "translate-x-0" : "-translate-x-full"
+          }`}
       >
         {/* Logo */}
         <div className="px-6 py-5 border-b border-stone-100">
@@ -1789,24 +1867,21 @@ function Sidebar({
                 onTabChange(tab.key);
                 onMobileClose();
               }}
-              className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left transition-all ${
-                activeTab === tab.key
-                  ? "bg-[#c83d49]/10 text-[#c83d49]"
-                  : "text-stone-600 hover:bg-stone-50 hover:text-stone-800"
-              }`}
+              className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl text-left transition-all ${activeTab === tab.key
+                ? "bg-[#c83d49]/10 text-[#c83d49]"
+                : "text-stone-600 hover:bg-stone-50 hover:text-stone-800"
+                }`}
             >
               <span
-                className={`flex-shrink-0 ${
-                  activeTab === tab.key ? "text-[#c83d49]" : "text-stone-400"
-                }`}
+                className={`flex-shrink-0 ${activeTab === tab.key ? "text-[#c83d49]" : "text-stone-400"
+                  }`}
               >
                 {tab.icon}
               </span>
               <div className="min-w-0">
                 <div
-                  className={`text-sm font-medium ${
-                    activeTab === tab.key ? "text-[#c83d49]" : ""
-                  }`}
+                  className={`text-sm font-medium ${activeTab === tab.key ? "text-[#c83d49]" : ""
+                    }`}
                 >
                   {tab.label}
                 </div>
@@ -2148,11 +2223,10 @@ function AdminDashboard({ password }: { password: string }) {
               <button
                 onClick={handleSave}
                 disabled={saving || !hasUnsavedChanges}
-                className={`hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all shadow-sm ${
-                  hasUnsavedChanges
-                    ? "bg-[#c83d49] text-white hover:bg-[#a72d37] shadow-[#c83d49]/20"
-                    : "bg-stone-100 text-stone-400 cursor-not-allowed"
-                }`}
+                className={`hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-semibold transition-all shadow-sm ${hasUnsavedChanges
+                  ? "bg-[#c83d49] text-white hover:bg-[#a72d37] shadow-[#c83d49]/20"
+                  : "bg-stone-100 text-stone-400 cursor-not-allowed"
+                  }`}
               >
                 {saving ? (
                   <>

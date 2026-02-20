@@ -18,6 +18,7 @@ interface GalleryImage {
   category: GalleryCategory;
   title: string;
   description: string;
+  order: number;
 }
 
 // --- Categories Configuration ---
@@ -79,7 +80,7 @@ const getLuxuryDescription = (category: GalleryCategory): string => {
 };
 
 // --- Helper: Διαβάζει τα custom metadata από το JSON αρχείο ---
-const loadGalleryMeta = (): Record<string, { title?: string; alt?: string }> => {
+const loadGalleryMeta = (): Record<string, { title?: string; alt?: string; description?: string; order?: number }> => {
   try {
     const metaPath = path.join(process.cwd(), "content/gallery-meta.json");
     const raw = fs.readFileSync(metaPath, "utf-8");
@@ -110,6 +111,8 @@ export async function GET() {
         const autoTitle = titleRaw.length > 3 ? titleRaw : category === "rooms" ? "The Suite" : "Villa View";
         const title = customMeta?.title || autoTitle;
         const alt = customMeta?.alt || `${title} at Villa Lithos`;
+        const order = customMeta?.order ?? 9999;
+        const description = customMeta?.description || getLuxuryDescription(category);
 
         return {
           id: `auto-${index}`,
@@ -117,9 +120,11 @@ export async function GET() {
           alt,
           category: category,
           title,
-          description: getLuxuryDescription(category),
+          description,
+          order,
         };
-      });
+      })
+      .sort((a, b) => a.order - b.order);
 
     return NextResponse.json(
       {
