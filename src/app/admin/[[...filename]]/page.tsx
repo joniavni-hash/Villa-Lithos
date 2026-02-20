@@ -7,7 +7,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
    ═══════════════════════════════════════════════════════ */
 
 type AnyContent = Record<string, unknown>;
-type Tab = "dashboard" | "global" | "page" | "images";
+type Tab = "dashboard" | "global" | "page" | "gallery" | "images";
 
 type Toast = {
   id: number;
@@ -88,6 +88,12 @@ const Icons = {
   ),
   warning: (
     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4.5c-.77-.833-2.694-.833-3.464 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z" /></svg>
+  ),
+  gallery: (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+  ),
+  edit: (
+    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg>
   ),
 };
 
@@ -1459,6 +1465,236 @@ function fileToBase64(file: File): Promise<string> {
 }
 
 /* ═══════════════════════════════════════════════════════
+   Gallery Descriptions Editor
+   ═══════════════════════════════════════════════════════ */
+
+type GalleryMeta = Record<string, { title?: string; alt?: string }>;
+
+function GalleryMetaEditor({
+  password,
+  addToast,
+}: {
+  password: string;
+  addToast: (text: string, type: Toast["type"]) => void;
+}) {
+  const [meta, setMeta] = useState<GalleryMeta>({});
+  const [galleryImages, setGalleryImages] = useState<
+    { src: string; title: string; alt: string; filename: string }[]
+  >([]);
+  const [loading, setLoading] = useState(true);
+  const [saving, setSaving] = useState(false);
+  const [hasChanges, setHasChanges] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  // Load gallery images and metadata
+  useEffect(() => {
+    Promise.all([
+      fetch("/api/gallery").then((r) => r.json()),
+      fetch("/api/admin/gallery-meta").then((r) => r.json()),
+    ])
+      .then(([galleryData, metaData]) => {
+        setGalleryImages(
+          (galleryData.items || []).map(
+            (item: { src: string; title: string; alt: string }) => {
+              // Extract filename from src: /img/gallery/filename.jpg
+              const filename = decodeURIComponent(
+                item.src.split("/").pop() || ""
+              );
+              return { ...item, filename };
+            }
+          )
+        );
+        setMeta(metaData || {});
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, []);
+
+  const updateMeta = (filename: string, field: "title" | "alt", value: string) => {
+    setMeta((prev) => ({
+      ...prev,
+      [filename]: {
+        ...prev[filename],
+        [field]: value,
+      },
+    }));
+    setHasChanges(true);
+  };
+
+  const handleSave = async () => {
+    setSaving(true);
+    try {
+      const res = await fetch("/api/admin/gallery-meta", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ meta, password }),
+      });
+      const result = await res.json();
+      if (res.ok) {
+        addToast("Gallery descriptions saved!", "success");
+        setHasChanges(false);
+      } else {
+        addToast(result.error || "Save failed", "error");
+      }
+    } catch {
+      addToast("Save failed", "error");
+    }
+    setSaving(false);
+  };
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center py-20">
+        <div className="animate-spin h-8 w-8 border-2 border-stone-300 border-t-[#c83d49] rounded-full" />
+      </div>
+    );
+  }
+
+  const filtered = searchQuery
+    ? galleryImages.filter(
+        (img) =>
+          img.filename.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          (meta[img.filename]?.title || img.title)
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase())
+      )
+    : galleryImages;
+
+  return (
+    <div className="space-y-6 animate-in fade-in duration-500">
+      {/* Info */}
+      <div className="bg-blue-50/50 border border-blue-200/50 rounded-2xl p-5">
+        <div className="flex gap-3">
+          <span className="text-blue-500 flex-shrink-0 mt-0.5">{Icons.info}</span>
+          <div>
+            <h3 className="text-sm font-semibold text-blue-800 mb-1">How it works</h3>
+            <p className="text-sm text-blue-700/80">
+              Each image in the gallery can have a custom title and description. New images uploaded via Media Library will get automatic titles based on their filename, which you can customize here.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Search + Save */}
+      <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center justify-between">
+        <div className="relative flex-1 max-w-sm">
+          <span className="absolute left-3.5 top-1/2 -translate-y-1/2 text-stone-400">
+            {Icons.search}
+          </span>
+          <input
+            type="text"
+            placeholder="Search images..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full pl-10 pr-4 py-2.5 border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#c83d49]/20 focus:border-[#c83d49]/40 transition-all"
+          />
+        </div>
+        {hasChanges && (
+          <button
+            onClick={handleSave}
+            disabled={saving}
+            className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold text-white bg-[#c83d49] hover:bg-[#a72d37] disabled:opacity-50 transition-all shadow-lg shadow-[#c83d49]/20"
+          >
+            {saving ? (
+              <>
+                <svg className="animate-spin h-4 w-4" fill="none" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                </svg>
+                Saving...
+              </>
+            ) : (
+              <>
+                {Icons.save}
+                Save Descriptions
+              </>
+            )}
+          </button>
+        )}
+      </div>
+
+      {/* Image cards */}
+      <div className="space-y-4">
+        {filtered.map((img) => {
+          const imgMeta = meta[img.filename] || {};
+          return (
+            <div
+              key={img.src}
+              className="bg-white border border-stone-200 rounded-2xl overflow-hidden hover:border-stone-300 transition-all"
+            >
+              <div className="flex flex-col sm:flex-row">
+                {/* Thumbnail */}
+                <div className="sm:w-48 sm:h-36 h-40 flex-shrink-0 bg-stone-100 relative overflow-hidden">
+                  <img
+                    src={img.src}
+                    alt={img.alt}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+                {/* Fields */}
+                <div className="flex-1 p-4 sm:p-5 space-y-3">
+                  <div className="text-xs text-stone-400 font-mono truncate mb-2">
+                    {img.filename}
+                  </div>
+                  <div>
+                    <label className="block text-xs font-medium text-stone-500 mb-1">
+                      Title
+                    </label>
+                    <input
+                      type="text"
+                      value={imgMeta.title ?? img.title}
+                      onChange={(e) =>
+                        updateMeta(img.filename, "title", e.target.value)
+                      }
+                      placeholder="e.g., Illuminated Pool at Twilight"
+                      className="w-full px-3.5 py-2 border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#c83d49]/20 focus:border-[#c83d49]/40 transition-all"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-xs font-medium text-stone-500 mb-1">
+                      Alt text (for SEO & accessibility)
+                    </label>
+                    <input
+                      type="text"
+                      value={imgMeta.alt ?? img.alt}
+                      onChange={(e) =>
+                        updateMeta(img.filename, "alt", e.target.value)
+                      }
+                      placeholder="e.g., Aerial view of the infinity pool at night"
+                      className="w-full px-3.5 py-2 border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#c83d49]/20 focus:border-[#c83d49]/40 transition-all"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Sticky save bar */}
+      {hasChanges && (
+        <div className="fixed bottom-0 right-0 left-0 lg:left-72 bg-white/95 backdrop-blur-md border-t border-stone-200 p-4 z-50 shadow-[0_-4px_12px_-1px_rgb(0,0,0,0.08)]">
+          <div className="max-w-5xl mx-auto flex items-center justify-between gap-4 px-2">
+            <div className="flex items-center gap-2 text-amber-600">
+              {Icons.warning}
+              <span className="text-sm font-medium">Unsaved gallery descriptions</span>
+            </div>
+            <button
+              onClick={handleSave}
+              disabled={saving}
+              className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold text-white bg-[#c83d49] hover:bg-[#a72d37] disabled:opacity-50 transition-all shadow-lg shadow-[#c83d49]/20"
+            >
+              {saving ? "Saving..." : <>{Icons.save} Save Descriptions</>}
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════
    Sidebar Navigation
    ═══════════════════════════════════════════════════════ */
 
@@ -1480,6 +1716,12 @@ const TABS = [
     label: "Home Page",
     icon: Icons.home,
     description: "Sections & content",
+  },
+  {
+    key: "gallery" as Tab,
+    label: "Gallery Descriptions",
+    icon: Icons.gallery,
+    description: "Image titles & captions",
   },
   {
     key: "images" as Tab,
@@ -1897,6 +2139,7 @@ function AdminDashboard({ password }: { password: string }) {
                 {activeTab === "dashboard" && "Overview of your website content."}
                 {activeTab === "global" && "Site-wide settings, SEO, and navigation."}
                 {activeTab === "page" && "Edit the content of the main landing page."}
+                {activeTab === "gallery" && "Edit titles and descriptions for gallery images."}
                 {activeTab === "images" && "Upload, manage, and organize your images."}
               </p>
             </div>
@@ -1944,6 +2187,9 @@ function AdminDashboard({ password }: { password: string }) {
           )}
           {activeTab === "page" && pageData && (
             <PageEditor data={pageData} onChange={handlePageChange} />
+          )}
+          {activeTab === "gallery" && (
+            <GalleryMetaEditor password={password} addToast={addToast} />
           )}
           {activeTab === "images" && (
             <ImagesEditor password={password} addToast={addToast} />

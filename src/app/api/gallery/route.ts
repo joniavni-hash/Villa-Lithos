@@ -78,30 +78,45 @@ const getLuxuryDescription = (category: GalleryCategory): string => {
   }
 };
 
+// --- Helper: Διαβάζει τα custom metadata από το JSON αρχείο ---
+const loadGalleryMeta = (): Record<string, { title?: string; alt?: string }> => {
+  try {
+    const metaPath = path.join(process.cwd(), "content/gallery-meta.json");
+    const raw = fs.readFileSync(metaPath, "utf-8");
+    return JSON.parse(raw);
+  } catch {
+    return {};
+  }
+};
+
 export async function GET() {
   try {
     // 1. Βρίσκουμε τον φάκελο public/img/gallery
     const galleryDirectory = path.join(process.cwd(), "public/img/gallery");
 
-    // 2. Διαβάζουμε τα αρχεία
+    // 2. Διαβάζουμε τα αρχεία + metadata
     const fileNames = fs.readdirSync(galleryDirectory);
+    const meta = loadGalleryMeta();
 
     // 3. Φιλτράρουμε μόνο εικόνες και φτιάχνουμε τα αντικείμενα
     const galleryImages: GalleryImage[] = fileNames
       .filter((file) => /\.(jpg|jpeg|png|webp|avif)$/i.test(file)) // Μόνο εικόνες
       .map((file, index) => {
         const category = getCategoryFromFilename(file);
+        const customMeta = meta[file];
+
+        // Αν υπάρχει custom τίτλος χρησιμοποιούμε αυτόν, αλλιώς auto-generate
         const titleRaw = cleanTitle(file);
-        
-        // Φτιάχνουμε έναν πιο ωραίο τίτλο αν είναι πολύ generic
-        const title = titleRaw.length > 3 ? titleRaw : category === "rooms" ? "The Suite" : "Villa View";
+        const autoTitle = titleRaw.length > 3 ? titleRaw : category === "rooms" ? "The Suite" : "Villa View";
+        const title = customMeta?.title || autoTitle;
+        const alt = customMeta?.alt || `${title} at Villa Lithos`;
 
         return {
           id: `auto-${index}`,
-          src: `/img/gallery/${file}`, // Path για το frontend
-          alt: `${title} at Villa Lithos`,
+          src: `/img/gallery/${encodeURIComponent(file)}`,
+          alt,
           category: category,
-          title: title,
+          title,
           description: getLuxuryDescription(category),
         };
       });

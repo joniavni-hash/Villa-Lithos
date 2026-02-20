@@ -4,186 +4,12 @@ import { useCallback, useEffect, useState } from "react"
 import { createPortal } from "react-dom"
 import Image from "next/image"
 
-// Image descriptions for each photo
-const imageDescriptions: Record<string, { title: string; alt: string }> = {
-  // Exterior & Pool
-  'Exterior & Pool.jpg': { title: 'Illuminated Pool at Twilight', alt: 'Aerial view of the infinity pool beautifully lit at night' },
-  'Exterior & Pool (2).jpg': { title: 'Morning Yoga by the Pool', alt: 'Yoga session beside the pool with mountain views' },
-  'Exterior & Pool (3).jpg': { title: 'Poolside Relaxation', alt: 'Comfortable sun loungers by the infinity pool' },
-  'Exterior & Pool (4).jpg': { title: 'Alfresco Dining Terrace', alt: 'Outdoor dining area overlooking the pool and mountains' },
-  'Exterior & Pool (5).jpg': { title: 'Estate Aerial View', alt: 'Aerial view of the entire property with pool and padel court at dusk' },
-  'Exterior & Pool (6).jpg': { title: 'Villa at Golden Hour', alt: 'The villa illuminated at sunset with sea and city views' },
-  'Exterior & Pool (7).jpg': { title: 'Refreshing Pool Moments', alt: 'Guest relaxing in the crystal-clear pool water' },
-  'Exterior & Pool (8).jpg': { title: 'Shaded Pool Lounge', alt: 'Friends enjoying the pool area under the pergola' },
-  'Exterior & Pool (9).jpg': { title: 'Evening Pool Ambiance', alt: 'Pool area with loungers beautifully lit at night' },
-  'Exterior & Pool (10).jpg': { title: 'Outdoor Shower with Views', alt: 'Pool shower surrounded by natural landscape' },
-  'Exterior & Pool (11).jpg': { title: 'Poolside Fresh Fruits', alt: 'Sun lounger with fresh seasonal fruits by the pool' },
-  'Exterior & Pool (12).jpg': { title: 'Villa Night Scene', alt: 'The villa and pool area under the evening sky' },
-  'Exterior & Pool (13).jpg': { title: 'Pool Waterfall Feature', alt: 'Villa exterior with the stunning pool waterfall' },
-  'Exterior & Pool (14).jpg': { title: 'Sunset Over the Estate', alt: 'Aerial view of villa at sunset with rocky landscape' },
-
-  // Living & Dining
-  'Living & Dining.jpg': { title: 'Stone Wall Living Room', alt: 'Elegant living room with natural stone accent wall' },
-  'Living & Dining (3).jpg': { title: 'Work from Paradise', alt: 'Guest working remotely in the bright living room' },
-  'Living & Dining (4).jpg': { title: 'Modern Kitchen Island', alt: 'Fully equipped kitchen with island and dining space' },
-  'Living & Dining (5).jpg': { title: 'Main Living Room', alt: 'Spacious living room with comfortable sofas' },
-  'Living & Dining (6).jpg': { title: 'Fireplace Lounge', alt: 'Living room with wooden beamed ceiling and fireplace' },
-  'Living & Dining (8).jpg': { title: 'Elegant Dining Corner', alt: 'Dining table set near the staircase' },
-  'Living & Dining (9).jpg': { title: 'Dining with Pool View', alt: 'Dining area connected to living room with pool views' },
-  'Living & Dining (10).jpg': { title: 'Grand Dining Table', alt: 'Large dining table perfect for family gatherings' },
-
-  // Bedrooms
-  'Bedrooms.jpg': { title: 'Loft Relaxation Area', alt: 'Cozy loft space with sofas and bean bags' },
-  'Bedrooms (2).jpg': { title: 'Entertainment Loft', alt: 'Loft area with large TV and wooden ceiling' },
-  'Bedrooms (3).jpg': { title: 'Serene Master Bedroom', alt: 'Bedroom with elegant pendant lights and garden view' },
-  'Bedrooms (5).jpg': { title: 'Bedroom with Court View', alt: 'Bedroom overlooking the private padel court' },
-  'Bedrooms (6).jpg': { title: 'Warm & Inviting Suite', alt: 'Comfortable bedroom with soft lighting' },
-
-  // Wellness & Spa
-  'Wellness & Spa.jpg': { title: 'Finnish Barrel Sauna', alt: 'Interior of the authentic wooden sauna' },
-  'Wellness & Spa (2).jpg': { title: 'Garden Sauna Retreat', alt: 'Outdoor barrel sauna surrounded by olive trees' },
-  'Wellness & Spa (3).jpg': { title: 'Bathtub with Sea Views', alt: 'Luxurious bathtub overlooking the coastline' },
-  'Wellness & Spa (4).jpeg': { title: 'Spa Treatment Area', alt: 'Relaxing spa and wellness space' },
-  'Wellness & Spa (5).jpeg': { title: 'Wellness Corner', alt: 'Tranquil wellness amenities' },
-  'Wellness & Spa (6).jpg': { title: 'Modern Designer Bathroom', alt: 'Contemporary bathroom with bathtub and rain shower' },
-
-  // Sports & Activities
-  'Sports & Activities.jpg': { title: 'Private Padel Court', alt: 'Professional padel court with mountain backdrop' },
-  'Sports & Activities (6).jpg': { title: 'Night Padel Session', alt: 'Floodlit padel court for evening games' },
-  'Sports & Activities (3).jpg': { title: 'Fitness with a View', alt: 'Treadmill workout with panoramic views' },
-  'Sports & Activities (4).jpg': { title: 'Fully Equipped Gym', alt: 'Home gym with weight training equipment' },
-
-  // Kitchen
-  'Kitchen.jpg': { title: 'Bespoke Wooden Kitchen', alt: 'Custom-designed kitchen with premium cabinetry' },
+interface GalleryImage {
+  src: string
+  alt: string
+  title: string
+  category: string
 }
-
-// Helper function to get title and alt for each image
-const getImageInfo = (filename: string): { title: string; alt: string } => {
-  return imageDescriptions[filename] || { title: 'Villa Lithos', alt: 'Luxury accommodation at Villa Lithos' }
-}
-
-// --- FIX: Helper function to encode URL correctly ---
-// Αυτό φτιάχνει τα σύμβολα &, (), κενά
-const getEncodedPath = (filename: string) => `/img/gallery/${encodeURIComponent(filename)}`
-
-// Generate image array from folder structure
-const generateImageArray = () => {
-  const images: { src: string; alt: string; title: string; category: string }[] = []
-
-  // Exterior & Pool: 1 base + 14 numbered (2-14) = 14 total
-  const extBase = 'Exterior & Pool.jpg'
-  images.push({
-    src: getEncodedPath(extBase),
-    alt: getImageInfo(extBase).alt,
-    title: getImageInfo(extBase).title,
-    category: 'exterior'
-  })
-  for (let i = 2; i <= 14; i++) {
-    const filename = `Exterior & Pool (${i}).jpg`
-    images.push({
-      src: getEncodedPath(filename),
-      alt: getImageInfo(filename).alt,
-      title: getImageInfo(filename).title,
-      category: 'exterior'
-    })
-  }
-
-  // Living & Dining: 1 base + numbered (excluding 2, 3, 7) = 7 total
-  const livBase = 'Living & Dining.jpg'
-  images.push({
-    src: getEncodedPath(livBase),
-    alt: getImageInfo(livBase).alt,
-    title: getImageInfo(livBase).title,
-    category: 'living'
-  })
-  for (let i = 4; i <= 10; i++) {
-    if (i === 7) continue
-    const filename = `Living & Dining (${i}).jpg`
-    images.push({
-      src: getEncodedPath(filename),
-      alt: getImageInfo(filename).alt,
-      title: getImageInfo(filename).title,
-      category: 'living'
-    })
-  }
-
-  // Bedrooms: 1 base + numbered [2,3,5,6] = 5 total
-  const bedBase = 'Bedrooms.jpg'
-  images.push({
-    src: getEncodedPath(bedBase),
-    alt: getImageInfo(bedBase).alt,
-    title: getImageInfo(bedBase).title,
-    category: 'bedrooms'
-  })
-  for (const i of [2, 3, 5, 6]) {
-    const filename = `Bedrooms (${i}).jpg`
-    images.push({
-      src: getEncodedPath(filename),
-      alt: getImageInfo(filename).alt,
-      title: getImageInfo(filename).title,
-      category: 'bedrooms'
-    })
-  }
-
-  // Wellness & Spa: 1 base + numbered (2-3 jpg, 4-5 jpeg, 6 jpg)
-  const wellBase = 'Wellness & Spa.jpg'
-  images.push({
-    src: getEncodedPath(wellBase),
-    alt: getImageInfo(wellBase).alt,
-    title: getImageInfo(wellBase).title,
-    category: 'wellness'
-  })
-  // 2-3 are .jpg
-  for (let i = 2; i <= 3; i++) {
-    const filename = `Wellness & Spa (${i}).jpg`
-    images.push({
-      src: getEncodedPath(filename),
-      alt: getImageInfo(filename).alt,
-      title: getImageInfo(filename).title,
-      category: 'wellness'
-    })
-  }
-  // 4-5 are .jpeg
-  for (let i = 4; i <= 5; i++) {
-    const filename = `Wellness & Spa (${i}).jpeg`
-    images.push({
-      src: getEncodedPath(filename),
-      alt: getImageInfo(filename).alt,
-      title: getImageInfo(filename).title,
-      category: 'wellness'
-    })
-  }
-  // 6 is .jpg
-  const well6 = 'Wellness & Spa (6).jpg'
-  images.push({
-    src: getEncodedPath(well6),
-    alt: getImageInfo(well6).alt,
-    title: getImageInfo(well6).title,
-    category: 'wellness'
-  })
-
-  // Sports & Activities: 1 base + numbered [3,4,6] = 4 total
-  const sportBase = 'Sports & Activities.jpg'
-  images.push({
-    src: getEncodedPath(sportBase),
-    alt: getImageInfo(sportBase).alt,
-    title: getImageInfo(sportBase).title,
-    category: 'sports'
-  })
-  for (const i of [3, 4, 6]) {
-    const filename = `Sports & Activities (${i}).jpg`
-    images.push({
-      src: getEncodedPath(filename),
-      alt: getImageInfo(filename).alt,
-      title: getImageInfo(filename).title,
-      category: 'sports'
-    })
-  }
-
-  return images
-}
-
-const villaImages = generateImageArray()
 
 interface Props {
   title?: string;
@@ -196,6 +22,8 @@ export default function UltraLuxuryGallery({
   subtitle = "EXPLORE",
   description = "Every corner tells a story of craftsmanship and natural beauty.",
 }: Props) {
+  const [villaImages, setVillaImages] = useState<GalleryImage[]>([])
+  const [loading, setLoading] = useState(true)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [slidesPerView, setSlidesPerView] = useState(2)
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
@@ -214,6 +42,25 @@ export default function UltraLuxuryGallery({
 
   // Minimum swipe distance
   const minSwipeDistance = 50
+
+  // Fetch images from API
+  useEffect(() => {
+    fetch('/api/gallery')
+      .then((res) => res.json())
+      .then((data) => {
+        const images: GalleryImage[] = (data.items || []).map(
+          (item: { src: string; alt: string; title: string; category: string }) => ({
+            src: item.src,
+            alt: item.alt,
+            title: item.title,
+            category: item.category,
+          })
+        )
+        setVillaImages(images)
+        setLoading(false)
+      })
+      .catch(() => setLoading(false))
+  }, [])
 
   useEffect(() => {
     const timer = setTimeout(() => setMounted(true), 0)
@@ -310,6 +157,16 @@ export default function UltraLuxuryGallery({
   // Get desktop transform
   const getDesktopTransform = () => {
     return `translateX(-${currentIndex * (100 / slidesPerView)}%)`
+  }
+
+  if (loading || villaImages.length === 0) {
+    return (
+      <section className="bg-background overflow-hidden py-2 md:py-6">
+        <div className="max-w-[1400px] mx-auto px-4 md:px-6 lg:px-8 flex flex-col items-center justify-center min-h-[300px]">
+          <div className="w-10 h-10 border-2 border-[#8B7355]/30 border-t-[#8B7355] rounded-full animate-spin" />
+        </div>
+      </section>
+    )
   }
 
   return (

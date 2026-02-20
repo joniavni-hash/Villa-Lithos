@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Τιμολόγηση — Villa Lithos</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      color: #1a1a1a;
+      background: #fff;
+      font-size: 14px;
+      line-height: 1.6;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    @media print {
+      body { padding: 20px; }
+      .no-print { display: none; }
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 3px solid #1a1a1a;
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+
+    .header-left h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 28px;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+    }
+
+    .header-left p {
+      color: #666;
+      font-size: 13px;
+    }
+
+    .header-right {
+      text-align: right;
+      font-size: 13px;
+      color: #555;
+    }
+
+    .header-right .date {
+      font-weight: 600;
+      color: #1a1a1a;
+      font-size: 14px;
+    }
+
+    /* Section titles */
+    .section-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 18px;
+      margin-bottom: 16px;
+      margin-top: 36px;
+      color: #1a1a1a;
+      border-left: 4px solid #1a1a1a;
+      padding-left: 12px;
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 8px;
+    }
+
+    thead th {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    thead th:last-child {
+      text-align: right;
+      width: 100px;
+    }
+
+    thead th:first-child {
+      width: 36px;
+      text-align: center;
+    }
+
+    tbody td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #e5e5e5;
+      vertical-align: top;
+    }
+
+    tbody td:last-child {
+      text-align: right;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    tbody td:first-child {
+      text-align: center;
+      color: #999;
+      font-weight: 500;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: 2px solid #1a1a1a;
+    }
+
+    .desc {
+      display: block;
+      font-size: 12px;
+      color: #777;
+      margin-top: 2px;
+    }
+
+    /* Total row */
+    .total-row {
+      display: flex;
+      justify-content: flex-end;
+      padding: 12px 14px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .total-row span:last-child {
+      min-width: 100px;
+      text-align: right;
+    }
+
+    /* Free section */
+    .free-table thead th {
+      background: #f5f5f5;
+      color: #1a1a1a;
+    }
+
+    .free-table tbody td:last-child {
+      color: #2a9d2a;
+      font-weight: 600;
+    }
+
+    /* Summary box */
+    .summary-box {
+      background: #fafafa;
+      border: 2px solid #1a1a1a;
+      padding: 24px;
+      margin-top: 36px;
+    }
+
+    .summary-box h3 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+
+    .summary-line {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      font-size: 14px;
+    }
+
+    .summary-line.total {
+      border-top: 2px solid #1a1a1a;
+      margin-top: 8px;
+      padding-top: 12px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .summary-line .free {
+      color: #2a9d2a;
+      font-weight: 600;
+    }
+
+    /* Terms */
+    .terms {
+      margin-top: 36px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .terms-block h4 {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+      color: #1a1a1a;
+      font-weight: 700;
+    }
+
+    .terms-block p, .terms-block li {
+      font-size: 13px;
+      color: #555;
+      line-height: 1.7;
+    }
+
+    .terms-block ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .terms-block ul li::before {
+      content: "\2022";
+      margin-right: 8px;
+      color: #1a1a1a;
+      font-weight: 700;
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid #e5e5e5;
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+    }
+
+    /* Print button */
+    .print-btn {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #1a1a1a;
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: opacity 0.2s;
+    }
+
+    .print-btn:hover { opacity: 0.8; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <h1>ΤΙΜΟΛΟΓΗΣΗ</h1>
+      <p>Κατασκευή Website — Villa Lithos</p>
+      <p>villalithos.com</p>
+    </div>
+    <div class="header-right">
+      <p class="date">10 Φεβρουαρίου 2026</p>
+      <p style="margin-top: 12px; font-weight: 600; color: #1a1a1a;">Ζωή Μανικάκη</p>
+      <p>zoemanikake@gmail.com</p>
+    </div>
+  </div>
+
+  <!-- Charged Items -->
+  <h2 class="section-title">Αναλυτική Χρέωση</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Ενότητα</th>
+        <th>Κόστος</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>
+          Main Section (Hero)
+          <span class="desc">Κεντρική εικόνα/video με τίτλο και κείμενο</span>
+        </td>
+        <td>€100,00</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>
+          About Section
+          <span class="desc">Παρουσίαση επιχείρησης και χώρου</span>
+        </td>
+        <td>€65,00</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>
+          Services / Amenities
+          <span class="desc">Λίστα υπηρεσιών και παροχών</span>
+        </td>
+        <td>€75,00</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>
+          Photo Gallery
+          <span class="desc">Φωτογραφική γκαλερί με κατηγορίες και lightbox</span>
+        </td>
+        <td>€125,00</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>
+          Dynamic Gallery
+          <span class="desc">Αυτόματη κατηγοριοποίηση και φιλτράρισμα φωτογραφιών</span>
+        </td>
+        <td>€85,00</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>
+          Contact / Inquiry Form
+          <span class="desc">Φόρμα επικοινωνίας με αποστολή email</span>
+        </td>
+        <td>€140,00</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>
+          Contact Details
+          <span class="desc">Στοιχεία επικοινωνίας και social media</span>
+        </td>
+        <td>€60,00</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>
+          Mobile & Tablet Optimization
+          <span class="desc">Προσαρμογή σε όλες τις συσκευές</span>
+        </td>
+        <td>Περιλαμβάνεται</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="total-row">
+    <span>Υποσύνολο:&nbsp;&nbsp;&nbsp;</span>
+    <span>€650,00</span>
+  </div>
+
+  <!-- Free Items -->
+  <h2 class="section-title">Δωρεάν Παροχές</h2>
+  <p style="font-size: 13px; color: #555; margin-bottom: 14px;">
+    Τα παρακάτω προσφέρονται <strong>δωρεάν</strong> ως δώρο και επιπλέον αξία για το project σας.
+  </p>
+  <table class="free-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Παροχή</th>
+        <th>Κόστος</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>
+          Google Maps
+          <span class="desc">Ενσωματωμένος χάρτης με τοποθεσία και οδηγίες</span>
+        </td>
+        <td>Δωρεάν</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>
+          Booking Link
+          <span class="desc">Σύνδεση με πλατφόρμα online κρατήσεων</span>
+        </td>
+        <td>Δωρεάν</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>
+          Video Hero
+          <span class="desc">Video background σε mobile και desktop</span>
+        </td>
+        <td>Δωρεάν</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>
+          SEO Optimization
+          <span class="desc">Βελτιστοποίηση για μηχανές αναζήτησης (Google)</span>
+        </td>
+        <td>Δωρεάν</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>
+          Animations
+          <span class="desc">Επαγγελματικά εφέ κίνησης και μεταβάσεων</span>
+        </td>
+        <td>Δωρεάν</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>
+          Email Backend
+          <span class="desc">Αυτόματη αποστολή email από τη φόρμα επικοινωνίας</span>
+        </td>
+        <td>Δωρεάν</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>
+          Floating Contact Button
+          <span class="desc">Μόνιμο κουμπί επικοινωνίας</span>
+        </td>
+        <td>Δωρεάν</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>
+          Loading Optimization
+          <span class="desc">Γρήγορη φόρτωση και βελτιστοποίηση απόδοσης</span>
+        </td>
+        <td>Δωρεάν</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Summary Box -->
+  <div class="summary-box">
+    <h3>Σύνοψη</h3>
+    <div class="summary-line">
+      <span>Βασικές ενότητες</span>
+      <span>€650,00</span>
+    </div>
+    <div class="summary-line">
+      <span>Δωρεάν παροχές (8 επιπλέον features)</span>
+      <span class="free">€0,00 — Δώρο</span>
+    </div>
+    <div class="summary-line">
+      <span>Καθαρή αξία</span>
+      <span>€650,00</span>
+    </div>
+    <div class="summary-line">
+      <span>ΦΠΑ 24%</span>
+      <span>€156,00</span>
+    </div>
+    <div class="summary-line total">
+      <span>Τελικό Σύνολο (με ΦΠΑ)</span>
+      <span>€806,00</span>
+    </div>
+  </div>
+
+  <!-- Terms -->
+  <div class="terms">
+    <div class="terms-block">
+      <h4>Όροι Πληρωμής</h4>
+      <ul>
+        <li>50% κατά την έναρξη: <strong>€403,00</strong></li>
+        <li>50% κατά την παράδοση: <strong>€403,00</strong></li>
+      </ul>
+    </div>
+    <div class="terms-block">
+      <h4>Χρόνος Παράδοσης</h4>
+      <p>10–14 εργάσιμες ημέρες μετά την τελική έγκριση του περιεχομένου.</p>
+    </div>
+    <div class="terms-block" style="grid-column: 1 / -1;">
+      <h4>Συντήρηση Website</h4>
+      <p>
+        Η συντήρηση δεν είναι υποχρεωτική, αλλά συνιστάται για ενημερώσεις
+        περιεχομένου, ασφάλεια και τυχόν διορθώσεις. Εάν δεν επιθυμείτε μηνιαία
+        συντήρηση, μπορείτε να ζητήσετε μεμονωμένες υπηρεσίες συντήρησης.
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>Ευχαριστούμε για την εμπιστοσύνη σας.</p>
+  </div>
+
+  <!-- Print Button -->
+  <button class="print-btn no-print" onclick="window.print()">
+    Εκτύπωση / Αποθήκευση PDF
+  </button>
+
+</body>
+</html>
