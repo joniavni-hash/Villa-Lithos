@@ -7,7 +7,7 @@ export default defineConfig({
     process.env.VERCEL_GIT_COMMIT_REF ||
     process.env.HEAD ||
     "main",
-  token: process.env.TINA_TOKEN || "",
+  token: process.env.NEXT_PUBLIC_TINA_TOKEN || "",
 
   build: {
     outputFolder: "admin",
