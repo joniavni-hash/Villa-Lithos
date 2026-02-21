@@ -39,6 +39,10 @@
       {
         "href": "/#location",
         "label": "Location"
+      },
+      {
+        "label": "Articles",
+        "href": "/#Articles"
       }
     ]
   },
