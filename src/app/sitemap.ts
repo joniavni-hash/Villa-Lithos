@@ -1,7 +1,9 @@
 import { MetadataRoute } from "next";
 
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://villalithos.com";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.villalithosgreece.com";
+
 
   return [
     {
@@ -30,3 +32,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 }
+
