@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { fontVariables } from "./fonts";
+import Script from "next/script";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -96,12 +97,27 @@ export default async function RootLayout({
     <html lang="en" className={fontVariables} suppressHydrationWarning>
       <head>
         <AllJsonLd />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-VEH0DVGRJ7"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-VEH0DVGRJ7');
+          `}
+        </Script>
       </head>
       <body suppressHydrationWarning>
         <Header data={global?.header || undefined} />
         <main id="site-main">{children}</main>
         <AdminHide>
-          <Footer data={global?.footer || undefined} headerData={global?.header || undefined} />
+          <Footer
+            data={global?.footer || undefined}
+            headerData={global?.header || undefined}
+          />
         </AdminHide>
       </body>
     </html>
