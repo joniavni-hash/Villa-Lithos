@@ -11,12 +11,14 @@ export const SITE = {
   placeName: "Villa Lithos, Greece",
 };
 
+
 export function siteUrl(path: string = ""): string {
   const base = (
-    process.env.NEXT_PUBLIC_SITE_URL || "https://villalithos.com"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.villalithosgreece.com"
   ).replace(/\/+$/, "");
   return `${base}${path.startsWith("/") ? path : `/${path}`}`;
 }
+
 
 export const defaultOpenGraph = {
   type: "website",
@@ -34,37 +36,3 @@ export const defaultOpenGraph = {
     },
   ],
 };
-
-export const defaultTwitter = {
-  card: "summary_large_image" as const,
-  site: SITE.twitter,
-  creator: SITE.twitter,
-  title: SITE.name,
-  description: SITE.description,
-  images: [siteUrl("/img/hero.webp")],
-};
-
-export function canonicalOf(pathname?: string) {
-  return siteUrl(pathname || "/");
-}
-
-export function titleTemplate(title?: string) {
-  return title ? `${title} | ${SITE.name}` : SITE.name;
-}
-
-export const defaultKeywords = [
-  "villa lithos",
-  "luxury villa greece",
-  "private villa rental",
-  "greece vacation rental",
-  "villa with pool greece",
-  "luxury retreat greece",
-  "9 bedroom villa",
-  "group accommodation greece",
-  "family villa greece",
-  "panoramic sea views villa",
-  "wellness retreat greece",
-  "private pool villa",
-  "greek villa rental",
-  "luxury holiday home greece",
-];
