@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Articles | Villa Lithos",
+    title: "Articles",
   description:
     "Travel guides, family vacation tips, and insider knowledge about Porto Rafti, Athens Riviera, and luxury villa holidays in Greece.",
   keywords: [
@@ -13,6 +13,13 @@ export const metadata: Metadata = {
     "things to do near athens",
     "multi-generational travel greece",
   ],
+    alternates: {
+          canonical: "https://www.villalithosgreece.com/articles",
+    },
+      openGraph: {
+            title: "Articles",
+                url: "https://www.villalithosgreece.com/articles",
+      }
 };
 
 const articles = [
