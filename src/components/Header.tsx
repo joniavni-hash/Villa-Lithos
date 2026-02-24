@@ -18,7 +18,7 @@ const DEFAULT_NAV_LINKS = [
   { href: "/#services", label: "Concierge" },
   { href: "/#gallery", label: "Gallery" },
   { href: "/#location", label: "Location" },
-  { href: "/articles", label: "Articles" },
+  { href: "https://blog.villalithosgreece.com", label: "Articles" },
 ];
 
 export default function Header({ data }: { data?: HeaderData }) {
