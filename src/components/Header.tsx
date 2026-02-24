@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-type HeaderData = 
+type HeaderData = {
   brandName: string;
   bookingUrl?: string | null;
   navLinks?: { href: string; label: string }[] | null;
