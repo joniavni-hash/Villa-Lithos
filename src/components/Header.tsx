@@ -13,11 +13,13 @@ type HeaderData = {
 const DEFAULT_BOOKING_URL =
   "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72";
 
+const MAIN_SITE = "https://www.villalithosgreece.com";
+
 const DEFAULT_NAV_LINKS = [
-  { href: "/#about", label: "The Villa" },
-  { href: "/#services", label: "Concierge" },
-  { href: "/#gallery", label: "Gallery" },
-  { href: "/#location", label: "Location" },
+  { href: MAIN_SITE + "/#about", label: "The Villa" },
+  { href: MAIN_SITE + "/#services", label: "Concierge" },
+  { href: MAIN_SITE + "/#gallery", label: "Gallery" },
+  { href: MAIN_SITE + "/#location", label: "Location" },
   { href: "https://blog.villalithosgreece.com/articles", label: "Articles" },
 ];
 
@@ -29,14 +31,18 @@ export default function Header({ data }: { data?: HeaderData }) {
 
   const brandName = data?.brandName || "Villa Lithos";
   const bookingUrl = data?.bookingUrl || DEFAULT_BOOKING_URL;
-  const navLinks = data?.navLinks || DEFAULT_NAV_LINKS;
+  const rawNavLinks = data?.navLinks || DEFAULT_NAV_LINKS;
+
+  // Ensure anchor-only links always point to the main site
+  const navLinks = rawNavLinks.map((link) => {
+    if (link.href.startsWith("/#")) {
+      return { ...link, href: MAIN_SITE + link.href };
+    }
+    return link;
+  });
 
   const handleNavClick = () => {
     setMenuOpen(false);
-  };
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   useEffect(() => {
@@ -54,30 +60,32 @@ export default function Header({ data }: { data?: HeaderData }) {
     <header className="site-header site-header--scrolled">
       <div className="site-header__container">
         {/* Brand Name */}
-        <button
-          type="button"
+        <a
+          href={MAIN_SITE}
           className="site-header__brand"
-          aria-label={`${brandName} - Scroll to top`}
-          onClick={scrollToTop}
+          aria-label={`${brandName} - Go to homepage`}
         >
           {brandName}
-        </button>
+        </a>
 
         {/* Desktop Navigation */}
         <nav className="site-header__nav" aria-label="Main navigation">
           {navLinks.map((link, index) => (
-            <Link key={`${link.href}-${index}`} href={link.href} className="site-header__link">
+            <a
+              key={`${link.href}-${index}`}
+              href={link.href}
+              className="site-header__link">
               {link.label}
-            </Link>
+            </a>
           ))}
-          <Link
+          <a
             href={bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="site-header__cta"
           >
             Book Now
-          </Link>
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -88,7 +96,9 @@ export default function Header({ data }: { data?: HeaderData }) {
           aria-expanded={menuOpen}
           aria-label={menuOpen ? "Close menu" : "Open menu"}
         >
-          <span className={`site-header__menu-icon ${menuOpen ? "is-open" : ""}`}>
+          <span
+            className={`site-header__menu-icon ${menuOpen ? "is-open" : ""}`}
+          >
             <span></span>
             <span></span>
           </span>
@@ -110,7 +120,14 @@ export default function Header({ data }: { data?: HeaderData }) {
               onClick={() => setMenuOpen(false)}
               aria-label="Close menu"
             >
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
                 <path d="M18 6L6 18M6 6l12 12" />
               </svg>
             </button>
@@ -119,7 +136,7 @@ export default function Header({ data }: { data?: HeaderData }) {
           {/* Mobile Links */}
           <nav className="site-header__mobile-links">
             {navLinks.map((link, index) => (
-              <Link
+              <a
                 key={`${link.href}-${index}`}
                 href={link.href}
                 className="site-header__mobile-link"
@@ -127,13 +144,13 @@ export default function Header({ data }: { data?: HeaderData }) {
                 style={{ animationDelay: `${index * 0.08}s` }}
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
           </nav>
 
           {/* Mobile CTA */}
           <div className="site-header__mobile-cta-wrapper">
-            <Link
+            <a
               href={bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -141,7 +158,7 @@ export default function Header({ data }: { data?: HeaderData }) {
               onClick={handleNavClick}
             >
               Book Your Stay
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Footer */}
