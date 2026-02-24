@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-type HeaderData = {
+type HeaderData = 
   brandName: string;
   bookingUrl?: string | null;
   navLinks?: { href: string; label: string }[] | null;
@@ -18,6 +18,7 @@ const DEFAULT_NAV_LINKS = [
   { href: "/#services", label: "Concierge" },
   { href: "/#gallery", label: "Gallery" },
   { href: "/#location", label: "Location" },
+  { href: "/articles", label: "Articles" },
 ];
 
 export default function Header({ data }: { data?: HeaderData }) {
