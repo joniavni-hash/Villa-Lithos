@@ -4,7 +4,7 @@
     "slogan": "A private villa in Greece",
     "description": "Villa Lithos is a 9-bedroom private villa in Porto Rafti, Greece. Pool, sauna, sea views, and space for up to 22 guests.",
     "keywords": [
-      "villa lithos",
+      "villa lithos"
       "luxury villa greece",
       "private villa rental",
       "greece vacation rental",
@@ -42,7 +42,7 @@
       },
       {
         "label": "Articles",
-        "href": "https://blog.villalithosgreece.com"
+        "href": "/articles"
       }
     ]
   },
