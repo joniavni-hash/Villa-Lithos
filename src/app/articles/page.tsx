@@ -11,20 +11,19 @@ export const metadata: Metadata = {
     "athens riviera family vacation",
     "greece villa holiday tips",
     "things to do near athens",
-    "porto rafti family activities",
+    "multi-generational travel greece",
   ],
 };
 
 const articles = [
   {
     slug: "porto-rafti-family-holiday-greece",
-    title:
-      "Porto Rafti Family Holiday: Why This Hidden Gem Beats the Greek Islands",
+    title: "Why Porto Rafti Is the Best Kept Secret for a Family Holiday in Greece",
     excerpt:
-      "Skip the crowded islands. Porto Rafti near Athens offers stunning beaches, ancient sites, and easy access to everything families love about Greece.",
+      "Forget the overcrowded islands. Porto Rafti offers the perfect blend of crystal-clear waters, authentic Greek culture, and easy access to Athens.",
     date: "2026-02-24",
-    readTime: "7 min read",
-    category: "Family Travel",
+    readTime: "6 min read",
+    category: "Destination Guide",
   },
   {
     slug: "things-to-do-near-athens-with-kids",
@@ -37,30 +36,48 @@ const articles = [
   },
   {
     slug: "luxury-villa-lithos-family-retreat",
-    title:
-      "Luxury Villa Near Athens: The Ultimate Family Retreat at Villa Lithos",
+    title: "Inside Villa Lithos: A Luxury Family Retreat on the Athens Riviera",
     excerpt:
-      "With 9 bedrooms, a heated infinity pool, padel court, and full concierge service, Villa Lithos offers the perfect setting for a multi-family Greek summer holiday.",
+      "9 bedrooms, a private pool, and 800 square metres of living space just 30 minutes from Athens airport. Discover what makes Villa Lithos special.",
     date: "2026-02-24",
-    readTime: "6 min read",
-    category: "Villa Experience",
+    readTime: "5 min read",
+    category: "Villa Feature",
+  },
+  {
+    slug: "porto-rafti-alternative-greek-islands",
+    title: "Porto Rafti: The Perfect Alternative to the Greek Islands",
+    excerpt:
+      "Skip the ferries and the crowds. Porto Rafti delivers the same turquoise waters and laid-back atmosphere without the hassle of island-hopping.",
+    date: "2026-02-24",
+    readTime: "7 min read",
+    category: "Destination Guide",
+  },
+  {
+    slug: "multi-generational-trip-greece",
+    title: "Planning a Multi-Generational Family Trip to Greece",
+    excerpt:
+      "From toddlers to grandparents, Greece is one of the best destinations for bringing the whole family together. Here is how to plan it right.",
+    date: "2026-02-24",
+    readTime: "7 min read",
+    category: "Family Travel",
   },
 ];
 
 export default function ArticlesPage() {
   return (
-    <section
+    <main
       style={{
         maxWidth: 900,
         margin: "0 auto",
-        padding: "60px 24px 80px",
-        fontFamily: "var(--font-sans), sans-serif",
+        padding: "60px 24px",
+        fontFamily: "'DM Sans', sans-serif",
+        color: "#333",
       }}
     >
       <h1
         style={{
-          fontFamily: "var(--font-serif), serif",
-          fontSize: "2.4rem",
+          fontFamily: "'DM Serif Display', serif",
+          fontSize: "2.5rem",
           color: "#2c2c2c",
           marginBottom: 8,
         }}
@@ -69,8 +86,8 @@ export default function ArticlesPage() {
       </h1>
       <p
         style={{
+          fontSize: 16,
           color: "#666",
-          fontSize: "1.1rem",
           marginBottom: 48,
           lineHeight: 1.6,
         }}
@@ -88,28 +105,31 @@ export default function ArticlesPage() {
           >
             <article
               style={{
-                borderBottom: "1px solid #e5e5e5",
-                paddingBottom: 40,
-                transition: "transform 0.2s",
+                background: "#f8f7f4",
+                borderRadius: 12,
+                padding: "32px 36px",
+                transition: "box-shadow 0.2s",
               }}
             >
-              <span
+              <div
                 style={{
-                  fontSize: "0.75rem",
-                  textTransform: "uppercase",
-                  letterSpacing: "0.1em",
+                  display: "flex",
+                  gap: 12,
+                  fontSize: 13,
                   color: "#7a8c6e",
-                  fontWeight: 600,
+                  marginBottom: 12,
                 }}
               >
-                {article.category}
-              </span>
+                <span>{article.category}</span>
+                <span>|</span>
+                <span>{article.readTime}</span>
+              </div>
               <h2
                 style={{
-                  fontFamily: "var(--font-serif), serif",
-                  fontSize: "1.5rem",
+                  fontFamily: "'DM Serif Display', serif",
+                  fontSize: "1.4rem",
                   color: "#2c2c2c",
-                  margin: "8px 0 12px",
+                  marginBottom: 10,
                   lineHeight: 1.3,
                 }}
               >
@@ -117,22 +137,18 @@ export default function ArticlesPage() {
               </h2>
               <p
                 style={{
+                  fontSize: 15,
                   color: "#555",
-                  lineHeight: 1.7,
-                  fontSize: "1rem",
-                  marginBottom: 12,
+                  lineHeight: 1.6,
+                  margin: 0,
                 }}
               >
                 {article.excerpt}
               </p>
-              <span style={{ fontSize: "0.85rem", color: "#999" }}>
-                {article.readTime}
-              </span>
             </article>
           </Link>
         ))}
       </div>
-    </section>
+    </main>
   );
 }
-
