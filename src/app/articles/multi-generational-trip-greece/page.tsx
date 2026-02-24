@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Planning a Multi-Generational Family Trip to Greece | Villa Lithos",
-  description: "A practical guide to planning a multi-generational family holiday in Greece. Tips on accommodation, activities for all ages, logistics, and why large villas near Athens are ideal for extended family groups.",
+  title: "Planning a Multi-Generational Family Trip to Greece",
+  description: "A practical guide to planning a multi-generational family holiday in Greece. Tips on accommodation, activities, and why large villas near Athens are ideal.",
   keywords: "multi-generational trip Greece, large family holiday Greece, extended family villa Greece, grandparents grandchildren Greece trip, big group accommodation Athens, family reunion Greece, Porto Rafti large villa",
   openGraph: {
     title: "Planning a Multi-Generational Family Trip to Greece",
@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     url: "https://blog.villalithosgreece.com/articles/multi-generational-trip-greece",
     type: "article",
   },
+    alternates: {
+          canonical: "https://www.villalithosgreece.com/articles/multi-generational-trip-greece",
+            },
 };
 
 export default function MultiGenerationalTripGreece() {
