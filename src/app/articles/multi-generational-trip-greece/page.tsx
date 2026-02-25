@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Planning a Multi-Generational Family Trip to Greece",
+    title: { absolute: "Planning a Multi-Generational Family Trip to Greece" },
   description: "A practical guide to planning a multi-generational family holiday in Greece. Tips on accommodation, activities, and why large villas near Athens are ideal.",
   keywords: "multi-generational trip Greece, large family holiday Greece, extended family villa Greece, grandparents grandchildren Greece trip, big group accommodation Athens, family reunion Greece, Porto Rafti large villa",
   openGraph: {
