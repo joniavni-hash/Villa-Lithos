@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Porto Rafti Family Holiday: Why This Hidden Gem Beats the Greek Islands",
+    title: { absolute: "Porto Rafti Family Holiday: Why This Hidden Gem Beats the Greek Islands" },
   description: "Skip the crowded islands. Porto Rafti near Athens offers stunning beaches, ancient sites, and easy access to everything families love about Greece. Plan your 2026 summer holiday.",
   keywords: ["porto rafti family holiday","porto rafti greece summer","family beach holiday near athens","porto rafti vs greek islands","best family destination athens riviera","porto rafti beaches kids","summer holiday attica greece 2026","porto rafti accommodation families","athens coast family vacation","alternative to greek islands families","porto rafti travel guide","family friendly greece mainland"],
   openGraph: { type: "article", title: "Porto Rafti Family Holiday: Why This Hidden Gem Beats the Greek Islands", description: "Discover why Porto Rafti is the smartest family holiday choice near Athens." },
