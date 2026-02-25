@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Luxury Villa Near Athens: The Ultimate Family Retreat at Villa Lithos",
+    title: { absolute: "Luxury Villa Near Athens: The Ultimate Family Retreat at Villa Lithos" },
   description: "Villa Lithos in Porto Rafti offers 9 bedrooms, a heated infinity pool, and space for 22 guests. The perfect luxury base for families exploring the Athens Riviera.",
   keywords: ["luxury villa near athens","villa lithos porto rafti","large family villa greece","villa with pool athens riviera","9 bedroom villa greece","porto rafti luxury accommodation","group villa rental athens","heated infinity pool villa greece","family reunion villa greece","luxury holiday home attica","villa near athens airport","exclusive villa rental greece summer 2026"],
   openGraph: { type: "article", title: "Luxury Villa Near Athens: The Ultimate Family Retreat at Villa Lithos", description: "9 bedrooms, heated infinity pool, and space for 22 guests in Porto Rafti." },
