@@ -7248,3 +7248,62 @@ body {
     font-size: 1.375rem;
   }
 }
+
+/* ===== Book Now Dropdown ===== */
+.book-now-dropdown { position: relative; display: inline-block; }
+.book-now-trigger {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: rgb(139, 154, 125); color: white; border: none;
+  border-radius: 50px; padding: 16px 32px; font-size: 13px;
+  font-weight: 600; letter-spacing: 0.65px; text-transform: uppercase;
+  cursor: pointer; font-family: var(--font-sans); transition: background 0.2s;
+  text-decoration: none;
+}
+.book-now-trigger:hover { background: rgb(122, 138, 109); }
+.book-now-trigger svg { width: 14px; height: 14px; transition: transform 0.2s; }
+.book-now-dropdown:hover .book-now-trigger svg { transform: rotate(180deg); }
+.dropdown-menu {
+  position: absolute; top: calc(100% + 8px); right: 0;
+  background: white; border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12); padding: 8px;
+  min-width: 260px; opacity: 0; visibility: hidden;
+  transform: translateY(-8px); transition: all 0.25s ease; z-index: 100;
+}
+.book-now-dropdown:hover .dropdown-menu {
+  opacity: 1; visibility: visible; transform: translateY(0);
+}
+.dropdown-item {
+  display: flex; align-items: center; gap: 12px; padding: 12px 16px;
+  border-radius: 12px; text-decoration: none; transition: background 0.15s; color: #333;
+}
+.dropdown-item:hover { background: #f5f5f5; }
+.dropdown-item .platform-icon {
+  width: 36px; height: 36px; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.dropdown-item .platform-info { display: flex; flex-direction: column; }
+.dropdown-item .platform-name { font-weight: 600; font-size: 14px; color: #333; }
+.dropdown-item .platform-sub { font-size: 12px; color: #888; margin-top: 2px; }
+.icon-booking { background: #003580; }
+.icon-airbnb { background: #FF385C; }
+.icon-direct { background: rgb(139, 154, 125); }
+
+/* Mobile booking options */
+.mobile-booking-options { display: flex; flex-direction: column; gap: 8px; padding: 8px 0; }
+.mobile-booking-btn {
+  display: flex; align-items: center; gap: 12px; padding: 14px 20px;
+  border-radius: 12px; text-decoration: none; font-family: var(--font-sans);
+  transition: opacity 0.2s; color: white;
+}
+.mobile-booking-btn:hover { opacity: 0.9; }
+.mobile-booking-btn .mobile-btn-icon {
+  width: 32px; height: 32px; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(255,255,255,0.2); flex-shrink: 0;
+}
+.mobile-booking-btn .mobile-btn-text { display: flex; flex-direction: column; }
+.mobile-booking-btn .mobile-btn-title { font-size: 14px; font-weight: 600; }
+.mobile-booking-btn .mobile-btn-sub { font-size: 12px; opacity: 0.8; }
+.mobile-btn-booking { background: #003580; }
+.mobile-btn-airbnb { background: #FF385C; }
+.mobile-btn-direct { background: rgb(139, 154, 125); }
