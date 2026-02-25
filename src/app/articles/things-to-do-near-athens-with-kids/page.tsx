@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Best Things to Do Near Athens with Kids: Summer 2026 Guide",
+    title: { absolute: "Best Things to Do Near Athens with Kids: Summer 2026 Guide" },
   description: "From ancient ruins to island day trips and hidden beaches, discover the best family-friendly activities near Athens for summer 2026. Porto Rafti is your perfect base.",
   keywords: ["things to do near athens with kids","athens family activities summer","day trips from athens families","cape sounion with children","schinias beach families","attica zoo park","porto rafti activities","brauron archaeological site","family holidays near athens 2026","athens riviera kids activities","island hopping from rafina","greek cooking class family","summer activities attica greece"],
   openGraph: { type: "article", title: "Best Things to Do Near Athens with Kids: Summer 2026 Guide", description: "The ultimate family activity guide for the Athens Riviera and Attica region." },
