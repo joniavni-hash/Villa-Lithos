@@ -7307,3 +7307,122 @@ body {
 .mobile-btn-booking { background: #003580; }
 .mobile-btn-airbnb { background: #FF385C; }
 .mobile-btn-direct { background: rgb(139, 154, 125); }
+
+
+/* ============================================
+   Villa Intro Section - Booking Buttons
+   ============================================ */
+
+.villa-intro-booking-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.villa-intro-booking-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--font-sans);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.villa-intro-booking-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  opacity: 0.95;
+}
+
+.villa-intro-btn-booking {
+  background: #003580;
+}
+
+.villa-intro-btn-airbnb {
+  background: #FF385C;
+}
+
+.villa-intro-btn-direct {
+  background: rgb(139, 154, 125);
+}
+
+.villa-intro-booking-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.villa-intro-booking-icon.icon-booking::after {
+  content: "B";
+}
+
+.villa-intro-booking-icon.icon-airbnb::after {
+  content: "A";
+}
+
+.villa-intro-booking-icon.icon-direct::after {
+  content: "D";
+}
+
+.villa-intro-booking-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+.villa-intro-booking-info strong {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.villa-intro-booking-info small {
+  font-size: 12px;
+  opacity: 0.85;
+  font-weight: 400;
+}
+
+/* Responsive adjustments for villa intro booking buttons */
+@media (min-width: 768px) {
+  .villa-intro-booking-options {
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+  }
+  
+  .villa-intro-booking-btn {
+    flex: 1;
+    max-width: 200px;
+    padding: 12px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .villa-intro-booking-btn {
+    padding: 12px 16px;
+  }
+  
+  .villa-intro-booking-icon {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+  
+  .villa-intro-booking-info strong {
+    font-size: 14px;
+  }
+}
