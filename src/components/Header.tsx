@@ -181,15 +181,15 @@ const AIRBNB_URL = "https://airbnb.com/h/lithoss";
           <div className="site-header__mobile-cta-wrapper">
             {/* Mobile Booking Options */}
             <div className="mobile-booking-options">
-              <a href={BOOKING_COM_URL} target="_blank" rel="noopener noreferrer" className="mobile-booking-btn mobile-btn-booking" onClick={handleMenuToggle}>
+              <a href={BOOKING_COM_URL} target="_blank" rel="noopener noreferrer" className="mobile-booking-btn mobile-btn-booking" onClick={() => setMenuOpen(false)}>
                 <span className="mobile-btn-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M2 7h8v10H2V7zm0-4h20v4H2V3zm10 4h10v10H12V7z"/></svg></span>
                 <span className="mobile-btn-text"><span className="mobile-btn-title">Booking.com</span><span className="mobile-btn-sub">Book Via Booking</span></span>
               </a>
-              <a href={AIRBNB_URL} target="_blank" rel="noopener noreferrer" className="mobile-booking-btn mobile-btn-airbnb" onClick={handleMenuToggle}>
+              <a href={AIRBNB_URL} target="_blank" rel="noopener noreferrer" className="mobile-booking-btn mobile-btn-airbnb" onClick={() => setMenuOpen(false)}>
                 <span className="mobile-btn-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M12 2C8 2 6 5.5 6 8c0 4 6 11 6 11s6-7 6-11c0-2.5-2-6-6-6zm0 8.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 5.5 12 5.5s2.5 1.1 2.5 2.5S13.4 10.5 12 10.5z"/></svg></span>
                 <span className="mobile-btn-text"><span className="mobile-btn-title">Airbnb</span><span className="mobile-btn-sub">Book Via Airbnb</span></span>
               </a>
-              <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="mobile-booking-btn mobile-btn-direct" onClick={handleMenuToggle}>
+              <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="mobile-booking-btn mobile-btn-direct" onClick={() => setMenuOpen(false)}>
                 <span className="mobile-btn-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/></svg></span>
                 <span className="mobile-btn-text"><span className="mobile-btn-title">Direct</span><span className="mobile-btn-sub">Book Directly</span></span>
               </a>
