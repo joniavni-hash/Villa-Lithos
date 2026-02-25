@@ -98,6 +98,8 @@ export default function VillaIntroSection({ data, amenitiesData, bookingUrl }: {
   const finalFeaturedImage = data?.featuredImage || "/img/gallery/Exterior%20%26%20Pool%20(14).jpg";
   const finalGalleryImages = data?.galleryImages?.length ? data.galleryImages : galleryImages;
   const BOOKING_URL = bookingUrl || DEFAULT_BOOKING_URL;
+  const BOOKING_COM_URL = "https://www.booking.com/hotel/gr/villa-lithos-porto-rafti";
+  const AIRBNB_URL = "https://airbnb.com/h/lithoss";
   const headerRef = useRef<HTMLDivElement>(null);
   const statsRef = useRef<HTMLDivElement>(null);
   const galleryRef = useRef<HTMLDivElement>(null);
@@ -273,14 +275,44 @@ export default function VillaIntroSection({ data, amenitiesData, bookingUrl }: {
           variants={fadeUp}
           transition={{ duration: 0.6 }}
         >
-          <Link
-            href={BOOKING_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="villa-intro__btn villa-intro__btn--primary"
-          >
-            Book Your Stay
-          </Link>
+          <div className="villa-intro-booking-options">
+            <a
+              href={BOOKING_COM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="villa-intro-booking-btn villa-intro-btn-booking"
+            >
+              <span className="villa-intro-booking-icon icon-booking"></span>
+              <span className="villa-intro-booking-info">
+                <strong>Booking.com</strong>
+                <small>Book Via Booking</small>
+              </span>
+            </a>
+            <a
+              href={AIRBNB_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="villa-intro-booking-btn villa-intro-btn-airbnb"
+            >
+              <span className="villa-intro-booking-icon icon-airbnb"></span>
+              <span className="villa-intro-booking-info">
+                <strong>Airbnb</strong>
+                <small>Book Via Airbnb</small>
+              </span>
+            </a>
+            <a
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="villa-intro-booking-btn villa-intro-btn-direct"
+            >
+              <span className="villa-intro-booking-icon icon-direct"></span>
+              <span className="villa-intro-booking-info">
+                <strong>Direct</strong>
+                <small>Book Directly</small>
+              </span>
+            </a>
+          </div>
           <Link
             href="/#inquiry"
             className="villa-intro__btn villa-intro__btn--secondary"
