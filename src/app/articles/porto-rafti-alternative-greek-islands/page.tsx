@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Porto Rafti: The Perfect Alternative to the Greek Islands",
+  title: { absolute: "Porto Rafti: The Perfect Alternative to the Greek Islands" },
   description:
     "Discover why Porto Rafti on the Athens Riviera offers families everything the Greek islands do without ferry hassles. Beaches, culture, and convenience.",
   keywords:
