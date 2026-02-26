@@ -96,6 +96,7 @@ export default async function RootLayout({
   return (
     <html lang="en" className={fontVariables} suppressHydrationWarning>
       <head>
+        <meta name="p:domain_verify" content="51a3c5f2b6fbc6b9d8a43099faf933e4"/>
         <AllJsonLd />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-EM5FB4QF8R"
