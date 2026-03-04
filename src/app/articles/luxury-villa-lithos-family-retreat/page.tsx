@@ -18,6 +18,9 @@ const s = {
   h2: { fontFamily: "var(--font-serif), serif", fontSize: "1.6rem", color: "#2c2c2c", marginTop: 48, marginBottom: 12 } as React.CSSProperties,
   p: { marginBottom: 20, fontSize: "1.07rem" } as React.CSSProperties,
   cta: { display: "inline-block", background: "#7a8c6e", color: "#fff", padding: "14px 36px", borderRadius: 6, textDecoration: "none", fontWeight: 600, fontSize: "1.05rem", marginTop: 12 } as React.CSSProperties,
+    ctaBox: { marginTop: 48, padding: "40px 32px", background: "#f8f6f1", borderRadius: 12, textAlign: "center" } as React.CSSProperties,
+    ctaHeading: { fontFamily: "var(--font-serif), serif", fontSize: "1.5rem", color: "#2c2c2c", marginBottom: 12, marginTop: 0 } as React.CSSProperties,
+    ctaText: { fontSize: "1.05rem", color: "#555", marginBottom: 24 } as React.CSSProperties,
   back: { display: "inline-block", marginTop: 32, color: "#7a8c6e", textDecoration: "none", fontSize: "0.97rem" } as React.CSSProperties,
 };
 
@@ -57,9 +60,12 @@ export default function Article() {
       <h2 style={s.h2}>Book Your Stay at Villa Lithos</h2>
       <p style={s.p}>Villa Lithos is ideal for family reunions, milestone celebrations, or simply a generous summer holiday with the people you love most. With nine bedrooms, world-class facilities, and a location that combines privacy with easy access to Athens and the coast, it is one of the finest large villas available in the Athens Riviera.</p>
 
-      <Link href="/#contact" style={s.cta}>Request Availability</Link>
-      <br />
-      <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
+      <div style={s.ctaBox}>
+            <h2 style={s.ctaHeading}>Interested in Villa Lithos?</h2>
+            <p style={s.ctaText}>Villa Lithos offers a luxurious family retreat just 30 minutes from Athens. Reach out to check availability for summer 2026.</p>
+            <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+          </div>
+          <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     </article>
   );
 }
