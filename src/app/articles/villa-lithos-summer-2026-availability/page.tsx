@@ -82,6 +82,9 @@ const s = {
     fontSize: "1.05rem",
     marginTop: 12,
   } as React.CSSProperties,
+  ctaBox: { marginTop: 48, padding: "40px 32px", background: "#f8f6f1", borderRadius: 12, textAlign: "center" } as React.CSSProperties,
+  ctaHeading: { fontFamily: "var(--font-serif), serif", fontSize: "1.5rem", color: "#2c2c2c", marginBottom: 12, marginTop: 0 } as React.CSSProperties,
+  ctaText: { fontSize: "1.05rem", color: "#555", marginBottom: 24 } as React.CSSProperties,
   back: {
     display: "inline-block",
     marginTop: 32,
@@ -127,13 +130,12 @@ export default function Article() {
       <h2 style={s.h2}>One Villa. One Family at a Time.</h2>
       <p style={s.p}>Villa Lithos does not operate like a hotel. There is no front desk, no rotation of strangers through communal spaces, and no compromises on privacy. When you book, you are booking the entire property for your family. That exclusivity is part of what makes a week here feel genuinely restorative rather than merely comfortable. Summer 2026 is closer than it seems. If Porto Rafti is where you want to spend it, the time to enquire is now.</p>
 
-      <Link href="/#contact" style={s.cta}>
-        Book Your Stay at Villa Lithos
-      </Link>
-      <br />
-      <Link href="/articles" style={s.back}>
-        &larr; Back to Articles
-      </Link>
+      <div style={s.ctaBox}>
+          <h2 style={s.ctaHeading}>Book Villa Lithos for Summer 2026</h2>
+          <p style={s.ctaText}>Limited availability for peak summer dates. Secure your family getaway near Athens before the best weeks are taken.</p>
+          <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+        </div>
+        <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     </article>
   );
 }
