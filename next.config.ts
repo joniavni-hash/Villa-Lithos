@@ -10,6 +10,11 @@ const nextConfig: NextConfig = {
                       destination: '/articles/porto-rafti-family-holiday-greece',
                       permanent: true,
             },
+            {
+                          source: '/contact',
+                          destination: '/#inquiry',
+                          permanent: true,
+            },
                 ];
     },
 };
