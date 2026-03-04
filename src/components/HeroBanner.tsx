@@ -179,7 +179,7 @@ interface VideoProps {
 const Video = forwardRef<HTMLVideoElement, VideoProps>(
   ({ src, poster, isReady }, ref) => {
     return (
-      <vide
+      <video
         ref={ref}
         className={`hv-video ${isReady ? "hv-video--loaded" : ""}`}
         autoPlay
