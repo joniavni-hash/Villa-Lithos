@@ -155,10 +155,10 @@ export default function HeroBanner({
 
           <div className="hv-cta">
             <Link href={contactHref} className="hv-btn hv-btn--primary">
-              More Information
+                            Inquire Now
             </Link>
             <Link href={galleryHref} className="hv-btn hv-btn--secondary">
-              View Gallery
+                            Explore the Villa
             </Link>
           </div>
         </div>
@@ -179,7 +179,7 @@ interface VideoProps {
 const Video = forwardRef<HTMLVideoElement, VideoProps>(
   ({ src, poster, isReady }, ref) => {
     return (
-      <video
+      <vide
         ref={ref}
         className={`hv-video ${isReady ? "hv-video--loaded" : ""}`}
         autoPlay
