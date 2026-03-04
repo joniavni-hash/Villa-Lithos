@@ -82,6 +82,9 @@ const s = {
     fontSize: "1.05rem",
     marginTop: 12,
   } as React.CSSProperties,
+  ctaBox: { marginTop: 48, padding: "40px 32px", background: "#f8f6f1", borderRadius: 12, textAlign: "center" } as React.CSSProperties,
+  ctaHeading: { fontFamily: "var(--font-serif), serif", fontSize: "1.5rem", color: "#2c2c2c", marginBottom: 12, marginTop: 0 } as React.CSSProperties,
+  ctaText: { fontSize: "1.05rem", color: "#555", marginBottom: 24 } as React.CSSProperties,
   back: {
     display: "inline-block",
     marginTop: 32,
@@ -127,13 +130,12 @@ export default function Article() {
       <h2 style={s.h2}>Booking for Passover 2026</h2>
       <p style={s.p}>Passover 2026 begins on the evening of April 1st and the school holiday window extends through mid-April. If you are planning to travel during this period, the time to enquire is now. Villa Lithos receives interest from multiple families for the holiday window each year, and availability for the prime Passover weeks is limited to whoever reaches out first. A deposit secures your dates. Everything else can be arranged closer to the time. Get in touch through the contact form and we will confirm availability and answer any questions you have about the villa, the area, and how to make the most of a Passover holiday in Porto Rafti.</p>
 
-      <Link href="/#contact" style={s.cta}>
-        Book Your Stay at Villa Lithos
-      </Link>
-      <br />
-      <Link href="/articles" style={s.back}>
-        &larr; Back to Articles
-      </Link>
+      <div style={s.ctaBox}>
+          <h2 style={s.ctaHeading}>Celebrate Passover at Villa Lithos</h2>
+          <p style={s.ctaText}>A private luxury villa near Athens, perfect for your family Pesach getaway. Reach out to check availability for spring 2026.</p>
+          <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+        </div>
+        <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     </article>
   );
 }
