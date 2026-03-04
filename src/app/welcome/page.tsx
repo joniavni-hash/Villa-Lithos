@@ -45,7 +45,7 @@ export default function WelcomePage() {
           <span style={s.badge}>Summer 2026 Now Booking</span>
           <h1 style={s.h1}>Your Private Luxury Villa in Greece</h1>
           <p style={s.subtitle}>Villa Lithos in Porto Rafti: a stunning private retreat with pool, sea views, and space for the whole family, just 30 minutes from Athens.</p>
-          <Link href="/#inquiry" style={s.cta}>Check Availability</Link>
+          <Link href="/#contact" style={s.cta}>Check Availability</Link>
         </div>
       </section>
 
@@ -61,7 +61,7 @@ export default function WelcomePage() {
           <div style={s.card}>
             <div style={s.cardIcon}>👨‍👩‍👧‍👦</div>
             <h3 style={s.cardTitle}>Perfect for Families</h3>
-            <p style={s.cardText}>5 bedrooms, spacious living areas, fully equipped kitchen, and a safe garden for children.</p>
+            <p style={s.cardText}>9 bedrooms, spacious living areas, fully equipped kitchen, and a safe garden for children.</p>
           </div>
           <div style={s.card}>
             <div style={s.cardIcon}>🏛</div>
@@ -73,8 +73,8 @@ export default function WelcomePage() {
 
       {/* Quick Stats */}
       <div style={s.details}>
-        <div style={s.detailItem}><div style={s.detailValue}>5</div><div style={s.detailLabel}>Bedrooms</div></div>
-        <div style={s.detailItem}><div style={s.detailValue}>12</div><div style={s.detailLabel}>Guests</div></div>
+        <div style={s.detailItem}><div style={s.detailValue}>9</div><div style={s.detailLabel}>Bedrooms</div></div>
+        <div style={s.detailItem}><div style={s.detailValue}>22</div><div style={s.detailLabel}>Guests</div></div>
         <div style={s.detailItem}><div style={s.detailValue}>30 min</div><div style={s.detailLabel}>From Athens</div></div>
         <div style={s.detailItem}><div style={s.detailValue}>Private</div><div style={s.detailLabel}>Pool &amp; Garden</div></div>
       </div>
@@ -91,7 +91,7 @@ export default function WelcomePage() {
       <section style={s.finalCta}>
         <h2 style={s.finalTitle}>Ready to Book Your Greek Getaway?</h2>
         <p style={s.finalText}>Summer 2026 dates are filling up. Send us an inquiry and we will get back to you within 24 hours.</p>
-        <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+        <Link href="/#contact" style={s.cta}>Inquire Now</Link>
       </section>
 
       {/* Minimal Footer */}
