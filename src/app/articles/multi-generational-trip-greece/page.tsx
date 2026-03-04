@@ -92,7 +92,7 @@ export default function MultiGenerationalTripGreece() {
         <p style={{ fontSize: 15, color: "#555", marginBottom: 20 }}>
           9 bedrooms, space for 22 guests, private pool, and just 30 minutes from Athens airport. Built for families who want to be together.
         </p>
-        <Link href="https://www.villalithosgreece.com" style={{ display: "inline-block", background: "#7a8c6e", color: "#fff", padding: "12px 32px", borderRadius: 8, textDecoration: "none", fontWeight: 600, fontSize: 15 }}>
+        <Link href="/#inquiry" style={{ display: "inline-block", background: "#7a8c6e", color: "#fff", padding: "12px 32px", borderRadius: 8, textDecoration: "none", fontWeight: 600, fontSize: 15 }}>
           Explore Villa Lithos
         </Link>
       </div>
