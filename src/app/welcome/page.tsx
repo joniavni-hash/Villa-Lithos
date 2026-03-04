@@ -54,17 +54,17 @@ export default function WelcomePage() {
         <h2 style={s.sectionTitle}>Why Choose Villa Lithos</h2>
         <div style={s.grid}>
           <div style={s.card}>
-            <div style={s.cardIcon}>\u{1F3D6}</div>
+            <div style={s.cardIcon}>🏖</div>
             <h3 style={s.cardTitle}>Private Pool &amp; Sea Views</h3>
             <p style={s.cardText}>Enjoy your own pool with panoramic views of the Aegean Sea. Complete privacy for your family.</p>
           </div>
           <div style={s.card}>
-            <div style={s.cardIcon}>\u{1F468}\u{200D}\u{1F469}\u{200D}\u{1F467}\u{200D}\u{1F466}</div>
+            <div style={s.cardIcon}>👨‍👩‍👧‍👦</div>
             <h3 style={s.cardTitle}>Perfect for Families</h3>
             <p style={s.cardText}>5 bedrooms, spacious living areas, fully equipped kitchen, and a safe garden for children.</p>
           </div>
           <div style={s.card}>
-            <div style={s.cardIcon}>\u{1F3DB}</div>
+            <div style={s.cardIcon}>🏛</div>
             <h3 style={s.cardTitle}>Near Athens &amp; History</h3>
             <p style={s.cardText}>30 minutes from Athens airport. Easy access to the Acropolis, Sounion, and Greek islands.</p>
           </div>
