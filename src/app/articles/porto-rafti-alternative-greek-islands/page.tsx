@@ -250,7 +250,7 @@ export default function PortoRaftiAlternativeGreekIslands() {
           beach and 30 minutes from Athens airport.
         </p>
         <Link
-          href="https://www.villalithosgreece.com"
+          href="/#inquiry"
           style={{
             display: "inline-block",
             background: "#7a8c6e",
