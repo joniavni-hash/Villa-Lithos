@@ -174,6 +174,14 @@ export default function ContactForm({ cmsData }: { cmsData?: ContactData }) {
       }
 
       setStatus("success");
+        // Fire GA4 form_submit event for tracking
+        if (typeof window !== "undefined" && typeof window.gtag === "function") {
+          window.gtag("event", "form_submit", {
+            form_id: "contact_form",
+            form_name: "Villa Lithos Contact",
+            form_destination: "/api/contact",
+          });
+        }
     } catch (err) {
       console.error("Booking request error:", err);
       setStatus("error");
