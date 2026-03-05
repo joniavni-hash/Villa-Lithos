@@ -39,7 +39,7 @@ const socialLinks: SocialLink[] = [
   {
     icon: <Facebook size={18} strokeWidth={1.5} />,
     label: "Facebook",
-    href: "https://www.facebook.com/profile.php?id=61577079999587",
+    href: "https://www.facebook.com/profile.php?id=61583462218227",
   },
 ];
 
