@@ -107,7 +107,7 @@ export default async function RootLayout({
                                                                         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                                                                                     })(window,document,'script','dataLayer','GTM-W679GNPL');
                                                                                               `}
-                      </Script>Script>
+                      </Script>
                 {/* End Google Tag Manager */}
                       <Script
                                   src="https://www.googletagmanager.com/gtag/js?id=G-EM5FB4QF8R"
@@ -120,8 +120,8 @@ export default async function RootLayout({
                                                             gtag('js', new Date());
                                                                         gtag('config', 'G-EM5FB4QF8R');
                                                                                   `}
-                      </Script>Script>
-              </head>head>
+                      </Script>
+              </head>
               <body suppressHydrationWarning>
                 {/* Google Tag Manager (noscript) */}
                       <noscript>
@@ -131,17 +131,17 @@ export default async function RootLayout({
                                               width="0"
                                               style={{ display: "none", visibility: "hidden" }}
                                             />
-                      </noscript>noscript>
+                      </noscript>
                 {/* End Google Tag Manager (noscript) */}
                       <Header data={global?.header || undefined} />
-                      <main id="site-main">{children}</main>main>
+                      <main id="site-main">{children}</main>
                       <AdminHide>
                                 <Footer
                                               data={global?.footer || undefined}
                                               headerData={global?.header || undefined}
                                             />
-                      </AdminHide>AdminHide>
-              </body>body>
-        </html>html>
+                      </AdminHide>
+              </body>
+        </html>
       );
-}</html>
+}
