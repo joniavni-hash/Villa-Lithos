@@ -1,20 +1,20 @@
 {
   "hero": {
-    "kicker": "WELCOME TO",
-    "title": "Villa Lithos",
-    "subtitle": "A private villa in Greece. Quiet stays, thoughtful comfort.",
+    "kicker": "9 BEDROOMS · 22 GUESTS · 20 MINUTES FROM ATHENS AIRPORT",
+    "title": "Villa Lithos Porto Rafti",
+    "subtitle": "A 9-bedroom, 800 m² luxury villa on a 5,000 m² private estate in Porto Rafti, Greece, with a heated infinity pool, padel court, sauna, and elevator, 16 km from Athens International Airport.",
     "image": "/img/hero.webp"
   },
   "marquee": {
-    "text": "VILLA LITHOS • PRIVATE VILLA • SEA VIEWS • INFINITY POOL • SAUNA • JACUZZI • PADEL COURT • LOCAL EXPERIENCES • CONCIERGE • "
+    "text": "VILLA LITHOS PORTO RAFTI • 9 BEDROOMS • 22 GUESTS • INFINITY POOL • PADEL COURT • OUTDOOR SAUNA • PRIVATE ELEVATOR • 20 MINUTES FROM ATHENS AIRPORT • CONCIERGE • "
   },
   "villaIntro": {
-    "kicker": "Luxury accommodation near Athens",
-    "title": "Villa Lithos",
-    "tagline": "A 9-bedroom luxury retreat with space to unwind and room for memorable gatherings",
+    "kicker": "Luxury villa, 20 minutes from Athens International Airport",
+    "title": "Villa Lithos Porto Rafti",
+    "tagline": "A 9-bedroom luxury retreat on the Athenian Riviera with room for 22 guests and amenities rare in Greece, padel court, outdoor sauna, and a private elevator across four floors.",
     "bodyParagraphs": [
-      "Villa Lithos is a stunning 800m² luxury villa set on a 5000m² private estate in Porto Rafti, Attica. Designed for up to 22 guests, this exclusive property features nine bedrooms, ten bathrooms, and generous spaces for families, groups of friends, or corporate retreats.",
-      "Enjoy the heated infinity pool with panoramic sea views, unwind in the jacuzzi, rejuvenate in the outdoor sauna, or challenge friends on the padel court. The villa also offers a fully equipped gym, private elevator, dual lounges, and secure parking."
+      "Villa Lithos Porto Rafti is a 9-bedroom, 800 m² luxury villa set on a 5,000 m² private estate in Porto Rafti, Attica, Greece, 16 km from Athens International Airport. The villa sleeps up to 22 guests across nine bedrooms and 8.5 bathrooms, with two living rooms and generous outdoor space designed for families, multi-generational groups, and corporate retreats.",
+      "Inside the gates, guests have exclusive use of a heated infinity pool with panoramic sea views, an outdoor sauna, a jacuzzi, a private padel court, a fully equipped gym, two living rooms, and a private elevator that connects all four floors. Goldenberg Luxe manages the property and the concierge team is on call throughout the stay."
     ],
     "stats": [
       {
@@ -41,7 +41,7 @@
     "spaceTitle": "The Space",
     "spaceParagraphs": [
       "Inside, the contemporary interiors blend modern design with warm Mediterranean touches. Two spacious living rooms, on the ground floor and lower level, provide versatile spaces for relaxation, conversation, or quiet moments.",
-      "The designer kitchen is fully equipped with premium appliances and a walk-in pantry, perfect for preparing memorable meals during your stay near Athens."
+      "The designer kitchen is fully equipped with premium appliances and a walk-in pantry, perfect for preparing memorable meals during your stay near Athens. A private chef can be arranged on request through the Villa Lithos concierge team."
     ],
     "featuredImage": "/img/gallery/Exterior %26 Pool (14).jpg",
     "galleryImages": [
@@ -141,19 +141,19 @@
     "distances": [
       {
         "name": "Athens Int. Airport (El. Venizelos)",
-        "detail": "16 km — approx. 15 min drive"
+        "detail": "16 km, approximately 20 min drive"
       },
       {
         "name": "Athens City Center",
-        "detail": "37 km via Attiki Odos — approx. 40 min drive"
+        "detail": "37 km via Attiki Odos, approximately 40 min drive"
       },
       {
         "name": "Nearest Beach (Avlaki/Erotospilia)",
-        "detail": "1.5 km — approx. 3 min drive"
+        "detail": "1.5 km, approximately 3 min drive"
       },
       {
         "name": "Rafina Port (Islands Ferry)",
-        "detail": "20 min drive — gateway to Cyclades & Evia"
+        "detail": "20 min drive, gateway to Cyclades & Evia"
       }
     ]
   },

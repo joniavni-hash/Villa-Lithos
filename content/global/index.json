@@ -1,27 +1,31 @@
 {
   "seo": {
-    "siteName": "Villa Lithos",
-    "slogan": "A private villa in Greece",
-    "description": "Villa Lithos is a 9-bedroom private villa in Porto Rafti, Greece. Pool, sauna, sea views, and space for up to 22 guests.",
+    "siteName": "Villa Lithos Porto Rafti",
+    "slogan": "A 9-bedroom luxury villa, 20 minutes from Athens airport",
+    "description": "Villa Lithos Porto Rafti is a 9-bedroom, 800 m² luxury villa in Porto Rafti, Attica, Greece, 16 km from Athens International Airport. Sleeps 22 guests across nine bedrooms and 8.5 bathrooms on a 5,000 m² private estate, with heated infinity pool, outdoor sauna, padel court, gym, and elevator. Managed by Goldenberg Luxe.",
     "keywords": [
+      "villa lithos porto rafti",
       "villa lithos",
-      "luxury villa greece",
-      "private villa rental",
-      "greece vacation rental",
-      "villa with pool greece",
-      "luxury retreat greece"
-      "9 bedroom villa",
-      "group accommodation greece",
-      "family villa greece",
+      "luxury villa porto rafti",
+      "luxury villa near athens airport",
+      "9 bedroom villa greece",
+      "large family villa greece",
+      "private villa rental athens riviera",
+      "athens airport villa rental",
+      "villa with padel court greece",
+      "villa with elevator greece",
+      "luxury retreat greece",
+      "private pool villa greece",
       "panoramic sea views villa",
       "wellness retreat greece",
-      "private pool villa",
-      "greek villa rental",
-      "luxury holiday home greece"
+      "porto rafti accommodation",
+      "porto rafti family villa",
+      "corporate retreat villa greece",
+      "multi generational villa greece"
     ]
   },
   "header": {
-    "brandName": "Villa Lithos",
+    "brandName": "Villa Lithos Porto Rafti",
     "bookingUrl": "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72",
     "navLinks": [
       {
@@ -47,12 +51,12 @@
     ]
   },
   "footer": {
-    "brandName": "Villa Lithos",
-    "tagline": "A private villa in Porto Rafti, Greece. Quiet stays, thoughtful comfort.",
+    "brandName": "Villa Lithos Porto Rafti",
+    "tagline": "A 9-bedroom luxury villa in Porto Rafti, Greece, 16 km from Athens airport.",
     "phone": "+30 693 275 7142",
     "email": "info@villalithos.com",
-    "address": "Porto Rafti, Attica, Greece",
-    "copyright": "Villa Lithos",
+    "address": "Vravronos 70, Porto Rafti 190 03, Attica, Greece",
+    "copyright": "Villa Lithos Porto Rafti",
     "managedBy": "Managed by Goldenberg Luxe",
     "managedByUrl": "https://goldenberg-luxe.guestybookings.com/en"
   }
