@@ -92,6 +92,9 @@ const s = {
     textDecoration: "none",
     fontSize: "0.97rem",
   } as React.CSSProperties,
+  ul: { marginBottom: 18, paddingLeft: 22 } as React.CSSProperties,
+  li: { marginBottom: 8, fontSize: "1.05rem" } as React.CSSProperties,
+  updated: { fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" } as React.CSSProperties,
 };
 
 export default function Article() {
@@ -132,6 +135,17 @@ export default function Article() {
 
       <h2 style={s.h2}>One Week at Villa Lithos</h2>
       <p style={s.p}>A week at Villa Lithos looks like this: you arrive, unload directly into a private property with a pool view of the sea, and within an hour the children are in the water and you have opened something cold from the fridge. Each morning you decide what the day holds. Some days it is the beach. Some days it is a day trip to Athens or Sounion. Some days it is nothing except the pool and a long lunch in the shade. Every evening you eat well, either at home or at one of the tavernas a short walk from the villa. By the time you leave, the holiday has actually happened. You have rested. The children have had freedom. The adults have had quiet. That is what a villa delivers that a hotel rarely can.</p>
+
+            <h2 style={s.h2}>Sources and Further Reading</h2>
+      <ul style={s.ul}>
+        <li style={s.li}><a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener">Phocuswright</a>: Hotel vs vacation rental research</li>
+        <li style={s.li}><a href="https://skift.com/" target="_blank" rel="nofollow noopener">Skift</a>: Industry trends on alternative accommodation</li>
+        <li style={s.li}><a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller: Greece</a>: Luxury villa context</li>
+        <li style={s.li}><a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond: Greece</a>: Curated villa marketplace</li>
+        <li style={s.li}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>: Greek National Tourism Organisation</li>
+      </ul>
+
+      <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
 
       <div style={s.ctaBox}>
           <h2 style={s.ctaHeading}>Villa vs Hotel? Experience the Difference</h2>

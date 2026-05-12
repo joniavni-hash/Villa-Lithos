@@ -265,6 +265,19 @@ export default function PortoRaftiAlternativeGreekIslands() {
           Explore Villa Lithos
         </Link>
       </div>
+    
+      <h2 style={s.h2}>Sources and Further Reading</h2>
+      <ul style={s.ul}>
+        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Cyclades" target="_blank" rel="nofollow noopener">Wikipedia: Cyclades</a>: Greek island group context</li>
+        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Mykonos" target="_blank" rel="nofollow noopener">Wikipedia: Mykonos</a>: Tourism patterns and population</li>
+        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Santorini" target="_blank" rel="nofollow noopener">Wikipedia: Santorini</a>: Tourism patterns and cruise traffic</li>
+        <li style={s.li}><a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener">Hellenic Statistical Authority</a>: Greek tourism statistics</li>
+        <li style={s.li}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>: Greek National Tourism Organisation</li>
+        <li style={s.li}><a href="https://skift.com/" target="_blank" rel="nofollow noopener">Skift</a>: Travel industry trends</li>
+      </ul>
+
+      <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+
     </article>
   );
 }

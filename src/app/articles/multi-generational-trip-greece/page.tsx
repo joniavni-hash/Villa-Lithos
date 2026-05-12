@@ -97,6 +97,18 @@ export default function MultiGenerationalTripGreece() {
         </Link>
       </div>
 
+    
+      <h2 style={s.h2}>Sources and Further Reading</h2>
+      <ul style={s.ul}>
+        <li style={s.li}><a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener">Phocuswright</a>: Multi-generational travel research</li>
+        <li style={s.li}><a href="https://skift.com/" target="_blank" rel="nofollow noopener">Skift</a>: Travel trends including multi-gen and slow travel</li>
+        <li style={s.li}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>: Greek National Tourism Organisation</li>
+        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia: Athens International Airport</a>: Airport reference</li>
+        <li style={s.li}><a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener">Hellenic Statistical Authority</a>: Greek tourism statistics</li>
+      </ul>
+
+      <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+
     </article>
   );
 }
