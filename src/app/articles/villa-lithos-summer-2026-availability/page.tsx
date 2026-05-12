@@ -92,9 +92,6 @@ const s = {
     textDecoration: "none",
     fontSize: "0.97rem",
   } as React.CSSProperties,
-  ul: { marginBottom: 18, paddingLeft: 22 } as React.CSSProperties,
-  li: { marginBottom: 8, fontSize: "1.05rem" } as React.CSSProperties,
-  updated: { fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" } as React.CSSProperties,
 };
 
 export default function Article() {
@@ -133,22 +130,23 @@ export default function Article() {
       <h2 style={s.h2}>One Villa. One Family at a Time.</h2>
       <p style={s.p}>Villa Lithos does not operate like a hotel. There is no front desk, no rotation of strangers through communal spaces, and no compromises on privacy. When you book, you are booking the entire property for your family. That exclusivity is part of what makes a week here feel genuinely restorative rather than merely comfortable. Summer 2026 is closer than it seems. If Porto Rafti is where you want to spend it, the time to enquire is now.</p>
 
-            <h2 style={s.h2}>Sources and Further Reading</h2>
-      <ul style={s.ul}>
-        <li style={s.li}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>: Greek National Tourism Organisation</li>
-        <li style={s.li}><a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener">Hellenic Statistical Authority</a>: Greek tourism statistics</li>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia: Athens International Airport</a>: Airport reference</li>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener">Wikipedia: Porto Rafti</a>: Location reference</li>
-      </ul>
-
-      <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
-
       <div style={s.ctaBox}>
           <h2 style={s.ctaHeading}>Book Villa Lithos for Summer 2026</h2>
           <p style={s.ctaText}>Limited availability for peak summer dates. Secure your family getaway near Athens before the best weeks are taken.</p>
           <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
         </div>
         <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
+    
+      <h2 style={{ fontFamily: "var(--font-serif), 'DM Serif Display', serif", fontSize: "1.6rem", color: "#2c2c2c", marginTop: 48, marginBottom: 12 }}>Sources and Further Reading</h2>
+      <ul style={{ marginBottom: 18, paddingLeft: 22 }}>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Visit Greece</a>: Greek National Tourism Organisation</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Statistical Authority</a>: Greek tourism statistics</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Athens International Airport</a>: Airport reference</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Porto Rafti</a>: Location reference</li>
+      </ul>
+
+      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+
     </article>
   );
 }

@@ -22,9 +22,6 @@ const s = {
   ctaHeading: { fontFamily: "var(--font-serif), serif", fontSize: "1.5rem", color: "#2c2c2c", marginBottom: 12, marginTop: 0 } as React.CSSProperties,
   ctaText: { fontSize: "1.05rem", color: "#555", marginBottom: 24 } as React.CSSProperties,
   back: { display: "inline-block", marginTop: 32, color: "#7a8c6e", textDecoration: "none", fontSize: "0.97rem" } as React.CSSProperties,
-  ul: { marginBottom: 18, paddingLeft: 22 } as React.CSSProperties,
-  li: { marginBottom: 8, fontSize: "1.05rem" } as React.CSSProperties,
-  updated: { fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" } as React.CSSProperties,
 };
 
 export default function Article() {
@@ -69,23 +66,24 @@ export default function Article() {
       <h2 style={s.h2}>Make Porto Rafti Your Family Base</h2>
       <p style={s.p}>With so many activities within easy reach, Porto Rafti is the ideal base for a family summer holiday near Athens. Whether your children are toddlers or teenagers, the mix of beaches, history, nature, and island access ensures that every day offers something new.</p>
 
-            <h2 style={s.h2}>Sources and Further Reading</h2>
-      <ul style={s.ul}>
-        <li style={s.li}><a href="https://whc.unesco.org/en/list/404/" target="_blank" rel="nofollow noopener">UNESCO: Acropolis of Athens</a>: World Heritage site information</li>
-        <li style={s.li}><a href="https://www.theacropolismuseum.gr/en" target="_blank" rel="nofollow noopener">Acropolis Museum</a>: Visiting info, exhibits</li>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Cape_Sounion" target="_blank" rel="nofollow noopener">Wikipedia: Cape Sounion</a>: Temple of Poseidon</li>
-        <li style={s.li}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>: Greek National Tourism Organisation</li>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Marathon,_Greece" target="_blank" rel="nofollow noopener">Wikipedia: Marathon</a>: Battlefield and museum</li>
-      </ul>
-
-      <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
-
       <div style={s.ctaBox}>
           <h2 style={s.ctaHeading}>Planning a Family Trip Near Athens?</h2>
           <p style={s.ctaText}>Villa Lithos is the perfect base for exploring Porto Rafti and the Athens Riviera with kids. Inquire about summer 2026 availability.</p>
           <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
         </div>
         <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
+    
+      <h2 style={{ fontFamily: "var(--font-serif), 'DM Serif Display', serif", fontSize: "1.6rem", color: "#2c2c2c", marginTop: 48, marginBottom: 12 }}>Sources and Further Reading</h2>
+      <ul style={{ marginBottom: 18, paddingLeft: 22 }}>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://whc.unesco.org/en/list/404/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>UNESCO: Acropolis of Athens</a>: World Heritage site information</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.theacropolismuseum.gr/en" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Acropolis Museum</a>: Visiting info, exhibits</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Cape_Sounion" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Cape Sounion</a>: Temple of Poseidon</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Visit Greece</a>: Greek National Tourism Organisation</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Marathon,_Greece" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Marathon</a>: Battlefield and museum</li>
+      </ul>
+
+      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+
     </article>
   );
 }

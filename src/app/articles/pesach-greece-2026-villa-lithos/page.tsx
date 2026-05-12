@@ -92,9 +92,6 @@ const s = {
     textDecoration: "none",
     fontSize: "0.97rem",
   } as React.CSSProperties,
-  ul: { marginBottom: 18, paddingLeft: 22 } as React.CSSProperties,
-  li: { marginBottom: 8, fontSize: "1.05rem" } as React.CSSProperties,
-  updated: { fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" } as React.CSSProperties,
 };
 
 export default function Article() {
@@ -133,23 +130,24 @@ export default function Article() {
       <h2 style={s.h2}>Booking for Passover 2026</h2>
       <p style={s.p}>Passover 2026 begins on the evening of April 1st and the school holiday window extends through mid-April. If you are planning to travel during this period, the time to enquire is now. Villa Lithos receives interest from multiple families for the holiday window each year, and availability for the prime Passover weeks is limited to whoever reaches out first. A deposit secures your dates. Everything else can be arranged closer to the time. Get in touch through the contact form and we will confirm availability and answer any questions you have about the villa, the area, and how to make the most of a Passover holiday in Porto Rafti.</p>
 
-            <h2 style={s.h2}>Sources and Further Reading</h2>
-      <ul style={s.ul}>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Passover" target="_blank" rel="nofollow noopener">Wikipedia: Passover</a>: Holiday background</li>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia: Athens International Airport</a>: Airport reference</li>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener">Wikipedia: Porto Rafti</a>: Location reference</li>
-        <li style={s.li}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>: Greek National Tourism Organisation</li>
-        <li style={s.li}><a href="https://www.elal.com/en/PassengerInformation" target="_blank" rel="nofollow noopener">El Al Passenger Information</a>: Flight information from Tel Aviv to Athens</li>
-      </ul>
-
-      <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
-
       <div style={s.ctaBox}>
           <h2 style={s.ctaHeading}>Celebrate Passover at Villa Lithos</h2>
           <p style={s.ctaText}>A private luxury villa near Athens, perfect for your family Pesach getaway. Reach out to check availability for spring 2026.</p>
           <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
         </div>
         <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
+    
+      <h2 style={{ fontFamily: "var(--font-serif), 'DM Serif Display', serif", fontSize: "1.6rem", color: "#2c2c2c", marginTop: 48, marginBottom: 12 }}>Sources and Further Reading</h2>
+      <ul style={{ marginBottom: 18, paddingLeft: 22 }}>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Passover" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Passover</a>: Holiday background</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Athens International Airport</a>: Airport reference</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Porto Rafti</a>: Location reference</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Visit Greece</a>: Greek National Tourism Organisation</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.elal.com/en/PassengerInformation" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>El Al Passenger Information</a>: Flight information from Tel Aviv to Athens</li>
+      </ul>
+
+      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+
     </article>
   );
 }

@@ -22,9 +22,6 @@ const s = {
     ctaHeading: { fontFamily: "var(--font-serif), serif", fontSize: "1.5rem", color: "#2c2c2c", marginBottom: 12, marginTop: 0 } as React.CSSProperties,
     ctaText: { fontSize: "1.05rem", color: "#555", marginBottom: 24 } as React.CSSProperties,
   back: { display: "inline-block", marginTop: 32, color: "#7a8c6e", textDecoration: "none", fontSize: "0.97rem" } as React.CSSProperties,
-  ul: { marginBottom: 18, paddingLeft: 22 } as React.CSSProperties,
-  li: { marginBottom: 8, fontSize: "1.05rem" } as React.CSSProperties,
-  updated: { fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" } as React.CSSProperties,
 };
 
 export default function Article() {
@@ -63,23 +60,24 @@ export default function Article() {
       <h2 style={s.h2}>Book Your Stay at Villa Lithos</h2>
       <p style={s.p}>Villa Lithos is ideal for family reunions, milestone celebrations, or simply a generous summer holiday with the people you love most. With nine bedrooms, world-class facilities, and a location that combines privacy with easy access to Athens and the coast, it is one of the finest large villas available in the Athens Riviera.</p>
 
-            <h2 style={s.h2}>Sources and Further Reading</h2>
-      <ul style={s.ul}>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia: Athens International Airport</a>: Airport reference</li>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener">Wikipedia: Porto Rafti</a>: Location reference</li>
-        <li style={s.li}><a href="https://www.visitgreece.gr/mainland/attica/" target="_blank" rel="nofollow noopener">Visit Greece: Attica</a>: Regional tourism information</li>
-        <li style={s.li}><a href="https://skift.com/" target="_blank" rel="nofollow noopener">Skift</a>: Luxury travel trends</li>
-        <li style={s.li}><a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener">Phocuswright</a>: Travel industry research</li>
-      </ul>
-
-      <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
-
       <div style={s.ctaBox}>
             <h2 style={s.ctaHeading}>Interested in Villa Lithos?</h2>
             <p style={s.ctaText}>Villa Lithos offers a luxurious family retreat just 30 minutes from Athens. Reach out to check availability for summer 2026.</p>
             <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
           </div>
           <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
+    
+      <h2 style={{ fontFamily: "var(--font-serif), 'DM Serif Display', serif", fontSize: "1.6rem", color: "#2c2c2c", marginTop: 48, marginBottom: 12 }}>Sources and Further Reading</h2>
+      <ul style={{ marginBottom: 18, paddingLeft: 22 }}>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Athens International Airport</a>: Airport reference</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Porto Rafti</a>: Location reference</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.visitgreece.gr/mainland/attica/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Visit Greece: Attica</a>: Regional tourism information</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://skift.com/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Skift</a>: Luxury travel trends</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Phocuswright</a>: Travel industry research</li>
+      </ul>
+
+      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+
     </article>
   );
 }

@@ -98,16 +98,16 @@ export default function MultiGenerationalTripGreece() {
       </div>
 
     
-      <h2 style={s.h2}>Sources and Further Reading</h2>
-      <ul style={s.ul}>
-        <li style={s.li}><a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener">Phocuswright</a>: Multi-generational travel research</li>
-        <li style={s.li}><a href="https://skift.com/" target="_blank" rel="nofollow noopener">Skift</a>: Travel trends including multi-gen and slow travel</li>
-        <li style={s.li}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>: Greek National Tourism Organisation</li>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia: Athens International Airport</a>: Airport reference</li>
-        <li style={s.li}><a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener">Hellenic Statistical Authority</a>: Greek tourism statistics</li>
+      <h2 style={{ fontFamily: "var(--font-serif), 'DM Serif Display', serif", fontSize: "1.6rem", color: "#2c2c2c", marginTop: 48, marginBottom: 12 }}>Sources and Further Reading</h2>
+      <ul style={{ marginBottom: 18, paddingLeft: 22 }}>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Phocuswright</a>: Multi-generational travel research</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://skift.com/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Skift</a>: Travel trends including multi-gen and slow travel</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Visit Greece</a>: Greek National Tourism Organisation</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Athens International Airport</a>: Airport reference</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Statistical Authority</a>: Greek tourism statistics</li>
       </ul>
 
-      <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
 
     </article>
   );

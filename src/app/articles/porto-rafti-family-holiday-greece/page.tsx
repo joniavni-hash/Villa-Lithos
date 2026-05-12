@@ -22,9 +22,6 @@ const s = {
     ctaHeading: { fontFamily: "var(--font-serif), serif", fontSize: "1.5rem", color: "#2c2c2c", marginBottom: 12, marginTop: 0 } as React.CSSProperties,
     ctaText: { fontSize: "1.05rem", color: "#555", marginBottom: 24 } as React.CSSProperties,
   back: { display: "inline-block", marginTop: 32, color: "#7a8c6e", textDecoration: "none", fontSize: "0.97rem" } as React.CSSProperties,
-  ul: { marginBottom: 18, paddingLeft: 22 } as React.CSSProperties,
-  li: { marginBottom: 8, fontSize: "1.05rem" } as React.CSSProperties,
-  updated: { fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" } as React.CSSProperties,
 };
 
 export default function Article() {
@@ -66,24 +63,25 @@ export default function Article() {
       <h2 style={s.h2}>Is Porto Rafti Right for Your Family?</h2>
       <p style={s.p}>Porto Rafti is the right choice if you want a relaxed, authentic Greek holiday with easy access to beaches, history, and Athens. It is perfect for families who value space, convenience, and value for money over the Instagram appeal of a famous island. And with direct flights to Athens from most European cities and Tel Aviv, getting there could not be easier.</p>
 
-            <h2 style={s.h2}>Sources and Further Reading</h2>
-      <ul style={s.ul}>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener">Wikipedia: Porto Rafti</a>: Town overview and geography</li>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Brauron" target="_blank" rel="nofollow noopener">Wikipedia: Brauron</a>: Ancient sanctuary of Artemis near Porto Rafti</li>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Marathon,_Greece" target="_blank" rel="nofollow noopener">Wikipedia: Marathon</a>: Battle of Marathon archaeological site</li>
-        <li style={s.li}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>: Greek National Tourism Organisation</li>
-        <li style={s.li}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia: Athens International Airport</a>: Distance reference</li>
-        <li style={s.li}><a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener">Hellenic Statistical Authority</a>: Greek tourism data</li>
-      </ul>
-
-      <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
-
       <div style={s.ctaBox}>
             <h2 style={s.ctaHeading}>Ready to Experience Porto Rafti?</h2>
             <p style={s.ctaText}>Villa Lithos offers a luxurious family retreat just 30 minutes from Athens. Reach out to check availability for summer 2026.</p>
             <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
           </div>
           <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
+    
+      <h2 style={{ fontFamily: "var(--font-serif), 'DM Serif Display', serif", fontSize: "1.6rem", color: "#2c2c2c", marginTop: 48, marginBottom: 12 }}>Sources and Further Reading</h2>
+      <ul style={{ marginBottom: 18, paddingLeft: 22 }}>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Porto Rafti</a>: Town overview and geography</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Brauron" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Brauron</a>: Ancient sanctuary of Artemis near Porto Rafti</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Marathon,_Greece" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Marathon</a>: Battle of Marathon archaeological site</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Visit Greece</a>: Greek National Tourism Organisation</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Athens International Airport</a>: Distance reference</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Statistical Authority</a>: Greek tourism data</li>
+      </ul>
+
+      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+
     </article>
   );
 }
