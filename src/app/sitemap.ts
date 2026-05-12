@@ -6,6 +6,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const now = new Date();
 
+  const landingSlugs = [
+    "luxury-villa-porto-rafti",
+    "villas-near-athens-airport",
+    "large-family-villa-greece",
+    "porto-rafti-vs-mykonos-vs-santorini",
+  ];
+
   const articleSlugs = [
     "porto-rafti-family-holiday-greece",
     "things-to-do-near-athens-with-kids",
@@ -42,6 +49,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.9,
     },
+    ...landingSlugs.map((slug) => ({
+      url: `${baseUrl}/${slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    })),
     {
       url: `${baseUrl}/articles`,
       lastModified: now,
