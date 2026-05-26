@@ -82,7 +82,7 @@ export default function MultiGenerationalTripGreece() {
         Why Greece Gets It Right
       </h2>
       <p>
-        Greek culture is inherently multi-generational. Taverna tables naturally accommodate groups of all sizes. Children are welcomed everywhere, even at 10 PM, because Greek families dine late together as a matter of course. Grandparents are respected and included. The pace of life, particularly outside the major cities, encourages exactly the kind of slow, connected living that makes these trips meaningful. When you bring your extended family to Greece, you are not imposing a foreign holiday format onto the destination. You are stepping into a culture that already operates the way your family wants to live for a week.
+        Greek culture is inherently multi-generational. According to <a href="https://ec.europa.eu/eurostat" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Eurostat household composition data</a>, Greece has one of the highest rates of multi-generational household living in the European Union. This shows up in everyday life. Taverna tables naturally accommodate groups of all sizes. Children are welcomed everywhere, even at 10 PM, because Greek families dine late together as a matter of course. Grandparents are respected and included. The pace of life, particularly outside the major cities, encourages exactly the kind of slow, connected living that makes these trips meaningful. When you bring your extended family to Greece, per the <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Greek National Tourism Organisation</a>, you are not imposing a foreign holiday format onto the destination. You are stepping into a culture that already operates the way your family wants to live for a week.
       </p>
 
       <div style={{ marginTop: 48, padding: "32px", background: "#f8f7f4", borderRadius: 12, textAlign: "center" as const }}>
@@ -90,7 +90,7 @@ export default function MultiGenerationalTripGreece() {
           Bring Your Whole Family to Villa Lithos
         </p>
         <p style={{ fontSize: 15, color: "#555", marginBottom: 20 }}>
-          9 bedrooms, space for 22 guests, private pool, and just 30 minutes from Athens airport. Built for families who want to be together.
+          9 bedrooms, space for 22 guests, private pool, and just 20 minutes from Athens International Airport. Built for families who want to be together.
         </p>
         <Link href="/#inquiry" style={{ display: "inline-block", background: "#7a8c6e", color: "#fff", padding: "12px 32px", borderRadius: 8, textDecoration: "none", fontWeight: 600, fontSize: 15 }}>
           Explore Villa Lithos

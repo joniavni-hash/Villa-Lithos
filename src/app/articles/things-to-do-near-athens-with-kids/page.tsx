@@ -34,13 +34,13 @@ export default function Article() {
       <p style={s.p}>Athens is famous for the Acropolis and Plaka, but the real magic for families lies just outside the city. The eastern coast of Attica, stretching from Rafina down to Lavrio, is packed with beaches, archaeological sites, nature parks, and experiences that children of all ages will love. If you are staying in Porto Rafti, you are perfectly positioned to explore all of them.</p>
 
       <h2 style={s.h2}>1. Watch the Sunset at Cape Sounion</h2>
-      <p style={s.p}>The Temple of Poseidon at Cape Sounion is one of the most dramatic ancient sites in Greece. Perched on a cliff 60 metres above the sea, it offers panoramic views of the Aegean. For families, the combination of easy walking paths, open space, and a spectacular sunset makes it an unforgettable outing. Cape Sounion is about 35 minutes south of Porto Rafti.</p>
+      <p style={s.p}>The Temple of Poseidon at Cape Sounion is registered by the <a href="https://www.culture.gov.gr/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Ministry of Culture</a> as one of the most significant archaeological sites in the country, perched on a cliff 60 metres above the sea with panoramic views of the Aegean. For families, the combination of easy walking paths, open space, and a spectacular sunset makes it an unforgettable outing. Cape Sounion is about 35 minutes south of Porto Rafti.</p>
 
       <h2 style={s.h2}>2. Explore the Ancient Site of Brauron</h2>
-      <p style={s.p}>Just 10 minutes from Porto Rafti, the archaeological site of Brauron (Vravrona) is dedicated to Artemis, goddess of the hunt. The small museum is child-friendly and the surrounding wetlands are home to birds and turtles. It is a peaceful, uncrowded spot perfect for a morning visit with kids who enjoy nature and history.</p>
+      <p style={s.p}>Just 10 minutes from Porto Rafti, the archaeological site of Brauron (Vravrona), per the <a href="https://www.odysseus.culture.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Ministry of Culture Odysseus database</a>, is dedicated to Artemis, goddess of the hunt. The small museum is child-friendly and the surrounding wetlands are home to birds and turtles. It is a peaceful, uncrowded spot perfect for a morning visit with kids who enjoy nature and history.</p>
 
       <h2 style={s.h2}>3. Swim at Schinias Beach</h2>
-      <p style={s.p}>Schinias, near Marathon, is one of the finest sandy beaches in Attica. The shallow, calm waters are ideal for young children, and the pine forest behind the beach provides natural shade. There are tavernas and sunbed rentals, making it easy to spend a full day here. It is about 30 minutes north of Porto Rafti.</p>
+      <p style={s.p}>Schinias, near Marathon, is classified by the <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Greek National Tourism Organisation</a> as one of the finest sandy beaches in Attica. The shallow, calm waters are ideal for young children, and the pine forest behind the beach provides natural shade. There are tavernas and sunbed rentals, making it easy to spend a full day here. It is about 30 minutes north of Porto Rafti.</p>
 
       <h2 style={s.h2}>4. Take a Ferry from Rafina to a Nearby Island</h2>
       <p style={s.p}>Rafina port is only 15 minutes from Porto Rafti, and from there you can catch a ferry to islands like Andros, Tinos, or Mykonos. A day trip to Andros is particularly family-friendly: the crossing takes about two hours, and the island offers quiet beaches, hiking trails, and charming villages. It is a Greek island experience without the logistical complexity of overnight stays.</p>
@@ -52,7 +52,7 @@ export default function Article() {
       <p style={s.p}>Lavrio, 25 minutes south of Porto Rafti, is a working port town with a fascinating mining history. The Mineralogical Museum is surprisingly engaging for older children, and the waterfront has excellent seafood tavernas. From Lavrio you can also catch ferries to Kea and Kythnos for island day trips.</p>
 
       <h2 style={s.h2}>7. Explore Athens with a Family Walking Tour</h2>
-      <p style={s.p}>Athens itself is just 40 minutes away via the Attiki Odos highway. For families, we recommend focusing on the Plaka neighborhood, which sits at the foot of the Acropolis. The narrow streets are largely pedestrianised, full of small shops, and lead naturally up toward the ancient sites. The Acropolis Museum is excellent for children aged seven and above, with interactive exhibits and a glass floor revealing excavations below.</p>
+      <p style={s.p}>Athens itself is just 40 minutes away via the Attiki Odos highway. For families, we recommend focusing on the Plaka neighborhood, which sits at the foot of the Acropolis (listed by <a href="https://whc.unesco.org/en/list/404/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>UNESCO World Heritage</a>). The narrow streets are largely pedestrianised, full of small shops, and lead naturally up toward the ancient sites. The Acropolis Museum is excellent for children aged seven and above, with interactive exhibits and a glass floor revealing excavations below.</p>
 
       <h2 style={s.h2}>8. Try Water Sports at Porto Rafti Bay</h2>
       <p style={s.p}>The calm waters of Porto Rafti Bay are ideal for stand-up paddleboarding, kayaking, and snorkeling. Several local operators offer equipment rental and lessons suitable for beginners and children. It is a wonderful way to spend a morning without needing to travel anywhere at all.</p>
@@ -77,12 +77,12 @@ export default function Article() {
       <ul style={{ marginBottom: 18, paddingLeft: 22 }}>
         <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://whc.unesco.org/en/list/404/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>UNESCO: Acropolis of Athens</a>: World Heritage site information</li>
         <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.theacropolismuseum.gr/en" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Acropolis Museum</a>: Visiting info, exhibits</li>
-        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Cape_Sounion" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Cape Sounion</a>: Temple of Poseidon</li>
-        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Visit Greece</a>: Greek National Tourism Organisation</li>
-        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Marathon,_Greece" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Marathon</a>: Battlefield and museum</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.culture.gov.gr/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Ministry of Culture and Sports</a>: Official register of archaeological sites including Cape Sounion, Brauron, Marathon</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.odysseus.culture.gov.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Odysseus, Hellenic Ministry of Culture monuments database</a>: Full catalogue of archaeological sites in Attica</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Greek National Tourism Organisation (EOT / Visit Greece)</a>: Official tourism information for Greece</li>
       </ul>
 
-      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 26 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
 
     </article>
   );

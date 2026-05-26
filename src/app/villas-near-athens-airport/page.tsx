@@ -68,7 +68,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <h1 style={s.h1}>{TITLE}</h1>
-      <span style={s.meta}>Last updated: May 2026 · 9 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: 26 May 2026 · 9 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
         Most luxury villa rentals near Athens advertise themselves as "close to the airport". The actual drive times vary widely. <strong>Villa Lithos Porto Rafti</strong> sits 16 km from Athens International Airport and the typical drive is 20 minutes. This page compares the realistic options for travellers who want to land, drive a short distance, and be at the beach the same hour.
@@ -76,10 +76,10 @@ export default function Page() {
 
       <h2 style={s.h2}>Why Airport Proximity Matters for a Greek Holiday</h2>
       <p style={s.p}>
-        Most international visitors to Greece arrive at Athens International Airport, known by its IATA code ATH and named after Eleftherios Venizelos. According to the <a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia entry on Athens International Airport</a>, ATH handled more than 31 million passengers in 2024, with continued growth into 2025. The airport sits 35 km east of central Athens, in the Mesogaia plain, much closer to the eastern coast than to the city itself.
+        Most international visitors to Greece arrive at Athens International Airport, known by its IATA code ATH and named after Eleftherios Venizelos. According to <a href="https://www.aia.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Athens International Airport official traffic data</a>, ATH handled more than 31 million passengers in 2024, with continued growth into 2025. The airport sits 35 km east of central Athens, in the Mesogaia plain, much closer to the eastern coast than to the city itself.
       </p>
       <p style={s.p}>
-        That geographic detail is the heart of this comparison. A villa "near Athens" might be on the western Athens Riviera, 35 to 50 minutes from the airport. A villa "near the airport" is more likely on the eastern coast, in towns like Porto Rafti, Avlaki, Loutsa, or Schinias. For families with small children, for couples on short trips, and for any guest arriving late at night, the difference between a 20-minute transfer and a 50-minute transfer is significant.
+        That geographic detail is the heart of this comparison. Per <a href="https://www.aia.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>AIA route data</a>, a villa "near Athens" might be on the western Athens Riviera, 35 to 50 minutes from the airport. A villa "near the airport" is more likely on the eastern coast, in towns like Porto Rafti, Avlaki, Loutsa, or Schinias. For families with small children, for couples on short trips, and for any guest arriving late at night, the difference between a 20-minute transfer and a 50-minute transfer is significant.
       </p>
 
       <h2 style={s.h2}>Realistic Drive Times From Athens Airport</h2>

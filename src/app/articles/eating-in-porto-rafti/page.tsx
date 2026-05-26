@@ -68,7 +68,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <h1 style={s.h1}>{TITLE}</h1>
-      <span style={s.meta}>Last updated: May 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: 26 May 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
         One of the main reasons to choose Porto Rafti over a Greek island is the food economy. The local market is built around Greek families, not tourists, which means the fish is fresh, the prices are reasonable, and the kitchen traditions are still close to the regional Attic cuisine. This is a practical guide to eating here, the tavernas worth your evening, the bakeries and markets for villa-cooked meals, and the regional specialities that don't appear in the tourist menus on Mykonos.
@@ -76,7 +76,7 @@ export default function Page() {
 
       <h2 style={s.h2}>How Porto Rafti Eats</h2>
       <p style={s.p}>
-        Porto Rafti is a working coastal town with a fishing harbour at one end and small farms in the surrounding hills. The waterfront promenade has perhaps a dozen tavernas, mostly fish-focused. The inland streets have bakeries (fourno), butchers, fruit and vegetable shops, and a couple of supermarkets. The food culture is the Mediterranean diet at its source. As described in the <a href="https://en.wikipedia.org/wiki/Mediterranean_diet" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia entry on the Mediterranean diet</a>, the pattern centres on olive oil, fresh vegetables, fish, legumes, modest dairy, and seasonal fruit, with meat as an occasional protein rather than a staple.
+        Porto Rafti is a working coastal town with a fishing harbour at one end and small farms in the surrounding hills. The waterfront promenade has perhaps a dozen tavernas, mostly fish-focused. The inland streets have bakeries (fourno), butchers, fruit and vegetable shops, and a couple of supermarkets. The food culture is the Mediterranean diet at its source, listed by <a href="https://ich.unesco.org/en/RL/mediterranean-diet-00884" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>UNESCO on the Representative List of Intangible Cultural Heritage of Humanity</a>. The pattern centres on olive oil, fresh vegetables, fish, legumes, modest dairy, and seasonal fruit, with meat as an occasional protein rather than a staple.
       </p>
       <p style={s.p}>
         Greek meals run later than most northern European or American visitors expect. Lunch is typically served from 13:30 to 16:00. Dinner starts at 21:00 and runs to midnight on summer weekends. The villa concierge can advise on adjusted hours if you are travelling with young children who need an earlier dinner schedule.
@@ -121,10 +121,10 @@ export default function Page() {
 
       <h2 style={s.h2}>Regional Attic Specialities to Try</h2>
       <p style={s.p}>
-        The Greek mainland has regional cuisines that vary meaningfully across the country. Attica's cuisine has its own character, distinct from the more famous Cretan or Macedonian traditions. Specialities worth trying:
+        According to the <a href="https://www.visitgreece.gr/experiences/gastronomy/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Greek National Tourism Organisation gastronomy guide</a>, the Greek mainland has regional cuisines that vary meaningfully across the country. Attica's cuisine has its own character, distinct from the more famous Cretan or Macedonian traditions. Specialities worth trying:
       </p>
       <ul style={s.ul}>
-        <li style={s.li}><strong>Mesogeia wine.</strong> The Mesogeia plain just inland from Porto Rafti is one of the oldest wine-producing regions in Greece. The white Savatiano grape is the regional workhorse. Local producers include Papagiannakos and Markou estates. Both run cellar visits with advance booking.</li>
+        <li style={s.li}><strong>Mesogeia wine.</strong> According to <a href="https://www.winesofgreece.org/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wines of Greece</a>, the official body of the Greek National Inter-Professional Organization of Vine and Wine, the Mesogeia plain just inland from Porto Rafti is one of the oldest wine-producing regions in Greece. The white Savatiano grape is the regional workhorse. Local producers include Papagiannakos and Markou estates. Both run cellar visits with advance booking.</li>
         <li style={s.li}><strong>Kourabiedes.</strong> Almond-and-butter shortbread cookies dusted in powdered sugar, a traditional Attic and broader Greek confection. Available year round in the local bakeries.</li>
         <li style={s.li}><strong>Spanakopita and tyropita.</strong> Phyllo pastries with spinach or cheese. The Porto Rafti bakeries make both excellently. A wedge with a Greek coffee is the standard morning routine.</li>
         <li style={s.li}><strong>Mountain greens (horta).</strong> Wild boiled greens, dressed with olive oil and lemon, are a classic Greek side. Spring varieties include stamnagathi and chicory.</li>

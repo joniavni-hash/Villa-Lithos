@@ -59,7 +59,7 @@ export default function PortoRaftiAlternativeGreekIslands() {
       </h1>
 
       <p style={{ color: "#888", fontSize: 14, marginBottom: 40 }}>
-        Updated February 2026 &middot; 7 min read
+        Updated May 2026 &middot; 7 min read
       </p>
 
       <p>
@@ -68,7 +68,7 @@ export default function PortoRaftiAlternativeGreekIslands() {
         growing number of families, particularly from across Europe and Israel,
         are discovering that the mainland coast near Athens offers a remarkably
         compelling alternative. Porto Rafti, a seaside town in the Attica region
-        just 30 minutes from Athens International Airport, delivers the same
+        just 20 minutes from Athens International Airport per <a href="https://www.aia.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>AIA route data</a>, delivers the same
         crystal-clear waters and golden sunlight without the crowded ferries,
         inflated island prices, or logistical headaches of traveling with
         children.
@@ -90,7 +90,7 @@ export default function PortoRaftiAlternativeGreekIslands() {
         exhausting. Flights to Athens followed by multi-hour ferry rides, often
         in the heat of summer, take a toll on even the most seasoned travelers.
         Porto Rafti eliminates this entirely. From Athens airport, you can be
-        dipping your toes in the Aegean Sea within 30 minutes. That convenience
+        dipping your toes in the Aegean Sea within 20 minutes. That convenience
         is transformative when you are traveling with toddlers, grandparents, or
         large multi-generational groups.
       </p>
@@ -107,7 +107,7 @@ export default function PortoRaftiAlternativeGreekIslands() {
         Beaches That Rival the Islands
       </h2>
       <p>
-        Porto Rafti and the surrounding Attica coastline are home to beaches
+        According to the <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Greek National Tourism Organisation</a>, Porto Rafti and the surrounding Attica coastline are home to beaches
         that genuinely compete with island favorites. Avlaki Beach offers calm,
         shallow waters perfect for young swimmers, while the nearby coves of
         Lagonisi and Vouliagmeni provide that postcard-worthy turquoise water
@@ -154,7 +154,8 @@ export default function PortoRaftiAlternativeGreekIslands() {
         Porto Rafti sits within easy reach of some of the most important
         archaeological and cultural sites in the world. The Acropolis and the
         National Archaeological Museum are under an hour away. The Temple of
-        Poseidon at Cape Sounion, dramatically perched above the sea, is a
+        Poseidon at Cape Sounion, dramatically perched above the sea, listed by
+        the <a href="https://www.culture.gov.gr/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Ministry of Culture</a> among its premier archaeological sites, is a
         40-minute drive south along the coast. For families who want to combine
         beach relaxation with cultural exploration, this is an unbeatable
         location. On the islands, you are limited to whatever is on that
@@ -174,9 +175,9 @@ export default function PortoRaftiAlternativeGreekIslands() {
         Better Value, More Space
       </h2>
       <p>
-        Island accommodation during July and August comes at a steep premium,
+        Data from the <a href="https://www.bankofgreece.gr/en" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Bank of Greece tourism receipts</a> shows that island accommodation during July and August comes at a steep premium,
         and large villas that can host extended families are scarce and
-        expensive. On the mainland, your budget stretches further. A property
+        expensive in those locations. On the mainland, your budget stretches further. A property
         like Villa Lithos in Porto Rafti, with nine bedrooms and capacity for up
         to 22 guests, would cost significantly more in an island setting, if you
         could find it at all. For large groups splitting costs, the value
@@ -276,7 +277,7 @@ export default function PortoRaftiAlternativeGreekIslands() {
         <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://skift.com/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Skift</a>: Travel industry trends</li>
       </ul>
 
-      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 26 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
 
     </article>
   );

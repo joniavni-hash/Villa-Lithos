@@ -1,14 +1,15 @@
 export const SITE = {
-  name: "Villa Lithos",
-  slogan: "A private villa in Greece",
+  name: "Villa Lithos Porto Rafti",
+  alternateName: "Villa Lithos",
+  slogan: "A 9-bedroom luxury villa, 20 minutes from Athens airport",
   description:
-    "Villa Lithos is a 9-bedroom private villa in Porto Rafti, Greece. Pool, sauna, sea views, and space for up to 22 guests.",
-  locale: "en_US",
+    "Villa Lithos Porto Rafti is a 9-bedroom, 800 m² luxury villa in Porto Rafti, Attica, Greece, 16 km from Athens International Airport. Sleeps 22 guests across nine bedrooms and 8.5 bathrooms on a 5,000 m² private estate, with heated infinity pool, outdoor sauna, padel court, gym, and elevator. Managed by Goldenberg Luxe.",
+  locale: "en_GB",
   alternateLocale: "el_GR",
   twitter: "@villalithos",
-  creator: "Villa Lithos",
-  region: "Greece",
-  placeName: "Villa Lithos, Greece",
+  creator: "Villa Lithos Porto Rafti",
+  region: "Attica, Greece",
+  placeName: "Villa Lithos Porto Rafti, Attica, Greece",
 };
 
 export function siteUrl(path: string = ""): string {
@@ -53,18 +54,22 @@ export function titleTemplate(title?: string) {
 }
 
 export const defaultKeywords = [
+  "villa lithos porto rafti",
   "villa lithos",
-  "luxury villa greece",
-  "private villa rental",
-  "greece vacation rental",
-  "villa with pool greece",
+  "luxury villa porto rafti",
+  "luxury villa near athens airport",
+  "9 bedroom villa greece",
+  "large family villa greece",
+  "private villa rental athens riviera",
+  "athens airport villa rental",
+  "villa with padel court greece",
+  "villa with elevator greece",
   "luxury retreat greece",
-  "9 bedroom villa",
-  "group accommodation greece",
-  "family villa greece",
+  "private pool villa greece",
   "panoramic sea views villa",
   "wellness retreat greece",
-  "private pool villa",
-  "greek villa rental",
-  "luxury holiday home greece",
+  "porto rafti accommodation",
+  "porto rafti family villa",
+  "corporate retreat villa greece",
+  "multi generational villa greece",
 ];

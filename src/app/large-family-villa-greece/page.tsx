@@ -68,10 +68,10 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <h1 style={s.h1}>{TITLE}</h1>
-      <span style={s.meta}>Last updated: May 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: 26 May 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
-        Large family villas, accommodating 18 to 22 guests in a single party, are uncommon in Greece. Most of the stock is concentrated on Mykonos and Santorini, with a smaller cluster on the Athens Riviera and an emerging set of properties in East Attica. This page is a practical map of the category, with capacity, location, and price-band detail for travellers planning a multi-generational trip, a milestone celebration, or a corporate retreat for 20.
+        According to data published by major luxury villa operators, large family villas accommodating 18 to 22 guests in a single party are uncommon in Greece. Most of the stock is concentrated on Mykonos and Santorini, with a smaller cluster on the Athens Riviera and an emerging set of properties in East Attica. This page is a practical map of the category, with capacity, location, and price-band detail for travellers planning a multi-generational trip, a milestone celebration, or a corporate retreat for 20.
       </p>
 
       <h2 style={s.h2}>What Counts as a "Large Family Villa"</h2>
@@ -85,7 +85,7 @@ export default function Page() {
       <h2 style={s.h2}>Regional Map of Large Villas in Greece</h2>
       <h3 style={s.h3}>Mykonos</h3>
       <p style={s.p}>
-        Mykonos hosts the largest concentration of trophy villas in Greece. Properties in the 18-to-22 guest tier are typically architectural showcases on hillsides above Mykonos Town or in the southern peninsula. Weekly rental rates during the July to August peak typically run between 30,000 and 80,000 euros. The trade-off is well known, peak-season crowding, premium pricing on food and beach clubs, and limited airport proximity (the Mykonos airport is small with limited international connections).
+        Per <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>The Thinking Traveller</a> and <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Welcome Beyond</a> inventory, Mykonos hosts the largest concentration of trophy villas in Greece. Properties in the 18-to-22 guest tier are typically architectural showcases on hillsides above Mykonos Town or in the southern peninsula. Weekly rental rates during the July to August peak typically run between 30,000 and 80,000 euros. The trade-off is well known, peak-season crowding, premium pricing on food and beach clubs, and limited airport proximity (the Mykonos airport is small with limited international connections).
       </p>
       <h3 style={s.h3}>Santorini</h3>
       <p style={s.p}>
@@ -97,7 +97,7 @@ export default function Page() {
       </p>
       <h3 style={s.h3}>Athens Riviera and East Attica</h3>
       <p style={s.p}>
-        The Athens Riviera, the coastline running from Glyfada to Sounion, has a small but growing portfolio of large villas. East Attica, including Porto Rafti, has historically been overlooked by international platforms but is now the location of the largest privately rentable villa in the immediate Athens metropolitan area, <strong>Villa Lithos Porto Rafti</strong>. The proposition here is fundamentally different from the islands, airport proximity, lower per-guest cost, day-trip access to Athens, and a Greek-town setting without the resort overlay.
+        According to <a href="https://www.bankofgreece.gr/en" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Bank of Greece tourism receipts data</a>, the Athens Riviera (running from Glyfada to Sounion) has a small but growing portfolio of large villas. East Attica, including Porto Rafti, has historically been overlooked by international platforms but is now the location of the largest privately rentable villa in the immediate Athens metropolitan area, <strong>Villa Lithos Porto Rafti</strong>. The proposition here is fundamentally different from the islands, airport proximity, lower per-guest cost, day-trip access to Athens, and a Greek-town setting without the resort overlay.
       </p>
       <h3 style={s.h3}>Peloponnese</h3>
       <p style={s.p}>

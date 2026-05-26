@@ -52,7 +52,7 @@ Video.displayName = "Video";
 
 export default function HeroBanner({
   kicker = "LUXURY VILLA IN PORTO RAFTI",
-  title = "Villa Lithos",
+  title = "Villa Lithos Porto Rafti",
   subtitle = "A 9-bedroom private retreat near Athens with heated pool, sea views, and exclusive amenities for up to 22 guests.",
   videoSrcMobile,
   videoSrcDesktop,
@@ -129,7 +129,7 @@ export default function HeroBanner({
         <div className="hv-media__inner">
           <Image
             src={fallbackImage}
-            alt="Villa Lithos exterior"
+            alt="Villa Lithos Porto Rafti, 9-bedroom luxury villa exterior with infinity pool"
             fill
             priority
             sizes="100vw"

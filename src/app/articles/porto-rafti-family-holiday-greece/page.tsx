@@ -34,22 +34,22 @@ export default function Article() {
       <p style={s.p}>When families plan a summer holiday in Greece, they almost always think of the islands first: Santorini, Mykonos, Crete, Corfu. But there is a quieter, more convenient, and surprisingly beautiful alternative on the mainland that most international travellers overlook. Porto Rafti, a coastal town on the eastern shore of Attica, offers everything families want from a Greek holiday without the ferry queues, the inflated island prices, or the crowds.</p>
 
       <h2 style={s.h2}>Where Is Porto Rafti?</h2>
-      <p style={s.p}>Porto Rafti sits on a wide, sheltered bay about 37 kilometres southeast of central Athens and just 16 kilometres from Athens International Airport. The drive from the airport takes roughly 20 minutes, making it one of the most accessible coastal destinations in Greece. Unlike island destinations that require a domestic flight or a multi-hour ferry crossing, you can be on the beach within half an hour of landing.</p>
+      <p style={s.p}>According to <a href="https://www.aia.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Athens International Airport</a> route data, Porto Rafti sits on a wide, sheltered bay about 37 kilometres southeast of central Athens and just 16 kilometres from the airport. The drive takes roughly 20 minutes, making it one of the most accessible coastal destinations in Greece. Unlike island destinations that require a domestic flight or a multi-hour ferry crossing, you can be on the beach within half an hour of landing.</p>
 
       <h2 style={s.h2}>Beaches That Families Actually Enjoy</h2>
       <p style={s.p}>Porto Rafti Bay is naturally protected from strong winds, which means the water is typically calm and shallow near the shore. This is a significant advantage for families with young children who want to swim safely without battling waves. The main beach at Avlaki is sandy and gently sloping, with tavernas and shade nearby. For something more secluded, the small coves around the headland offer crystal-clear water and rocky snorkelling spots that older children love.</p>
 
       <h2 style={s.h2}>A Base for Exploring Ancient History</h2>
-      <p style={s.p}>The Attica region surrounding Porto Rafti is one of the most historically rich areas in Europe. Within a short drive you can visit the Temple of Poseidon at Cape Sounion, the ancient site of Brauron (dedicated to the goddess Artemis), and the battlefield of Marathon. These are not crowded tourist traps but genuine archaeological sites where your family can explore at their own pace, often with very few other visitors around.</p>
+      <p style={s.p}>The Attica region surrounding Porto Rafti is one of the most historically rich areas in Europe. The <a href="https://www.culture.gov.gr/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Ministry of Culture</a> lists multiple major sites within a short drive: the Temple of Poseidon at Cape Sounion, the ancient site of Brauron (dedicated to the goddess Artemis), and the battlefield of Marathon. These are not crowded tourist traps but genuine archaeological sites where your family can explore at their own pace, often with very few other visitors around.</p>
 
       <h2 style={s.h2}>Easy Day Trips to Athens and the Islands</h2>
-      <p style={s.p}>One of the strongest arguments for choosing Porto Rafti over an island is its central location. Athens is 40 minutes away by car, so you can spend a day at the Acropolis, explore the Plaka neighbourhood, or visit the National Archaeological Museum without the commitment of staying in the city. Meanwhile, the port of Rafina is just 15 minutes north, offering daily ferries to popular Cycladic islands like Andros, Tinos, and Mykonos. You get island access without being stuck on one.</p>
+      <p style={s.p}>One of the strongest arguments for choosing Porto Rafti over an island is its central location. Athens is 40 minutes away by car, so you can spend a day at the Acropolis, explore the Plaka neighbourhood, or visit the National Archaeological Museum without the commitment of staying in the city. Meanwhile, per the <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Greek National Tourism Organisation</a>, the port of Rafina is just 15 minutes north, offering daily ferries to popular Cycladic islands like Andros, Tinos, and Mykonos. You get island access without being stuck on one.</p>
 
       <h2 style={s.h2}>Authentic Greek Life Without the Tourist Markup</h2>
       <p style={s.p}>Porto Rafti is primarily a Greek town, not a tourist resort. The waterfront tavernas serve fresh fish caught that morning at prices that would be unthinkable on Mykonos. The bakeries, butchers, and small supermarkets cater to locals, which means better quality and lower prices. On summer evenings, Greek families promenade along the harbour while children play in the square. It is the kind of authentic experience that many travellers go to Greece hoping to find but rarely do in the popular tourist spots.</p>
 
       <h2 style={s.h2}>The Climate Advantage</h2>
-      <p style={s.p}>The eastern coast of Attica enjoys a particularly favourable microclimate. It is one of the driest and sunniest parts of mainland Greece, with summer temperatures that are warm but often moderated by a gentle sea breeze. The swimming season runs from May through October, with sea temperatures peaking in August at around 26 degrees Celsius. For families who want reliable sunshine without extreme heat, the May to June and September windows are especially appealing.</p>
+      <p style={s.p}>The eastern coast of Attica enjoys a particularly favourable microclimate. According to the <a href="https://www.hnms.gr/emy/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic National Meteorological Service (HNMS)</a>, it is one of the driest and sunniest parts of mainland Greece, with summer temperatures that are warm but often moderated by a gentle sea breeze. The swimming season runs from May through October, with sea temperatures peaking in August at around 26 degrees Celsius. For families who want reliable sunshine without extreme heat, the May to June and September windows are especially appealing.</p>
 
       <h2 style={s.h2}>Accommodation: Villas Over Hotels</h2>
       <p style={s.p}>Unlike the islands, where accommodation often means small hotel rooms or basic apartments, the Porto Rafti area offers spacious private villas with gardens, pools, and sea views. For families or groups travelling together, a villa provides the space and privacy that hotels simply cannot match. Children can play freely, meals can be cooked at home with fresh local ingredients, and everyone has room to spread out after a day of exploring.</p>
@@ -65,22 +65,21 @@ export default function Article() {
 
       <div style={s.ctaBox}>
             <h2 style={s.ctaHeading}>Ready to Experience Porto Rafti?</h2>
-            <p style={s.ctaText}>Villa Lithos offers a luxurious family retreat just 30 minutes from Athens. Reach out to check availability for summer 2026.</p>
+            <p style={s.ctaText}>Villa Lithos offers a luxurious family retreat just 20 minutes from Athens International Airport. Reach out to check availability for summer 2026.</p>
             <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
           </div>
           <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     
       <h2 style={{ fontFamily: "var(--font-serif), 'DM Serif Display', serif", fontSize: "1.6rem", color: "#2c2c2c", marginTop: 48, marginBottom: 12 }}>Sources and Further Reading</h2>
       <ul style={{ marginBottom: 18, paddingLeft: 22 }}>
-        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Porto Rafti</a>: Town overview and geography</li>
-        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Brauron" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Brauron</a>: Ancient sanctuary of Artemis near Porto Rafti</li>
-        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Marathon,_Greece" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Marathon</a>: Battle of Marathon archaeological site</li>
-        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Visit Greece</a>: Greek National Tourism Organisation</li>
-        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Athens International Airport</a>: Distance reference</li>
-        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Statistical Authority</a>: Greek tourism data</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.aia.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Athens International Airport (AIA)</a>: Official airport route and distance data</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.culture.gov.gr/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Ministry of Culture and Sports</a>: Official archaeological site register</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.hnms.gr/emy/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic National Meteorological Service (HNMS)</a>: Official climate data for Attica</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Greek National Tourism Organisation (EOT)</a>: Official tourism information</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.statistics.gr/en/home/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Statistical Authority (ELSTAT)</a>: Official Greek tourism statistics</li>
       </ul>
 
-      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 26 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
 
     </article>
   );

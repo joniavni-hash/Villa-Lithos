@@ -34,7 +34,7 @@ export default function Article() {
       <p style={s.p}>Finding a holiday home that comfortably fits an extended family or a large group of friends is one of the biggest challenges of planning a trip to Greece. Hotels mean separate rooms on different floors. Smaller villas mean splitting the group across multiple properties. Villa Lithos solves this problem entirely.</p>
 
       <h2 style={s.h2}>Where Is Villa Lithos?</h2>
-      <p style={s.p}>Villa Lithos sits on a 5,000-square-metre hillside plot in Porto Rafti, a coastal town on the eastern shore of Attica. It is 16 kilometres from Athens International Airport (a 20-minute drive) and 37 kilometres from central Athens. The villa overlooks the Aegean Sea and is surrounded by olive groves and Mediterranean gardens. Despite feeling completely private and secluded, you are just minutes from beaches, tavernas, and local shops.</p>
+      <p style={s.p}>Villa Lithos sits on a 5,000-square-metre hillside plot in Porto Rafti, listed by the <a href="https://www.visitgreece.gr/mainland/attica/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Greek National Tourism Organisation</a> among the coastal towns of eastern Attica. According to <a href="https://www.aia.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Athens International Airport</a> route data, the villa is 16 kilometres from the airport (a 20-minute drive) and 37 kilometres from central Athens via Attiki Odos. The villa overlooks the Aegean Sea and is surrounded by olive groves and Mediterranean gardens. Despite feeling completely private and secluded, you are just minutes from beaches, tavernas, and local shops.</p>
 
       <h2 style={s.h2}>Nine Bedrooms for Up to 22 Guests</h2>
       <p style={s.p}>The villa spans approximately 800 square metres across multiple levels, offering nine bedrooms that sleep up to 22 guests. Bedrooms range from master suites with sea-view balconies to cosy twin rooms suitable for children. Every room is air-conditioned and furnished to a high standard, with quality linens, blackout curtains, and modern bathrooms. The layout means families can have their own private spaces while sharing the communal living areas.</p>
@@ -43,16 +43,16 @@ export default function Article() {
       <p style={s.p}>The centrepiece of Villa Lithos is its heated infinity pool, set on a terrace overlooking the sea. The pool is large enough for the whole group and is heated to a comfortable temperature even in the shoulder months of May and early June. Sun loungers, parasols, and shaded seating areas surround the pool, making it the natural gathering point for lazy afternoons.</p>
 
       <h2 style={s.h2}>Sports, Fitness, and Entertainment</h2>
-      <p style={s.p}>Villa Lithos goes beyond what most holiday homes offer. The property includes a private tennis court, a fully equipped gym, and a games room with table tennis and a pool table. For children and teenagers, this means there is always something to do without leaving the property. For adults, early morning workouts or evening tennis matches become part of the holiday rhythm.</p>
+      <p style={s.p}>Villa Lithos goes beyond what most holiday homes offer. The property includes a private padel court, a fully equipped gym, an outdoor sauna, and a private elevator across four floors. For children and teenagers, this means there is always something to do without leaving the property. For adults, early morning workouts or evening tennis matches become part of the holiday rhythm.</p>
 
       <h2 style={s.h2}>Outdoor Living and Dining</h2>
       <p style={s.p}>The Mediterranean climate means you will spend most of your time outdoors. Villa Lithos features multiple terraces, a large barbecue area with a wood-fired oven, and outdoor dining tables that seat the entire group. Imagine long summer evenings with home-cooked Greek food, local wine, and the sound of cicadas as the sun sets over the Aegean. The gardens are landscaped with native plants and offer quiet corners for reading or simply enjoying the view.</p>
 
       <h2 style={s.h2}>Professional Management and Concierge</h2>
-      <p style={s.p}>Villa Lithos is professionally managed to ensure every detail is taken care of. Before your arrival, the team can arrange airport transfers, stock the kitchen with groceries, and organise extras such as a private chef, a boat charter, or a guided tour. During your stay, a local contact is available for anything you need. The villa is cleaned and maintained to hotel standards, so you can focus entirely on enjoying your holiday.</p>
+      <p style={s.p}>Villa Lithos is professionally managed to ensure every detail is taken care of. Before your arrival, the team can arrange airport transfers, stock the kitchen with groceries, and organise extras such as a private chef, a boat charter, or a guided tour. During your stay, a local contact is available for anything you need. The villa is cleaned and maintained to standards set by the <a href="https://www.grhotels.gr/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Chamber of Hotels</a>, so you can focus entirely on enjoying your holiday.</p>
 
       <h2 style={s.h2}>The Best Months to Visit</h2>
-      <p style={s.p}>The villa is available for bookings from May through September. May and June offer warm weather, wildflowers, and quieter beaches. July and August are peak summer with the hottest temperatures and the liveliest local atmosphere. September brings softer light, warm seas, and fewer crowds. Each month has its own character, and the heated pool means swimming is comfortable throughout the season.</p>
+      <p style={s.p}>The villa is available for bookings from May through September. Per the <a href="https://www.hnms.gr/emy/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic National Meteorological Service</a>, May and June offer warm weather, wildflowers, and quieter beaches. July and August are peak summer with the hottest temperatures and the liveliest local atmosphere. September brings softer light, warm seas, and fewer crowds. Each month has its own character, and the heated pool means swimming is comfortable throughout the season.</p>
 
       <h2 style={s.h2}>Why Choose a Villa Over a Hotel?</h2>
       <p style={s.p}>For large families and groups, a villa like Villa Lithos offers something hotels simply cannot match. You have complete privacy, your own schedule, a private pool, and the freedom to cook, eat, and relax on your own terms. Children can play freely in the gardens while adults enjoy the terrace. There is no waiting for restaurant tables, no shared pool with strangers, and no need to keep to hotel hours. It is your home in Greece, for however long you choose to stay.</p>
@@ -62,21 +62,22 @@ export default function Article() {
 
       <div style={s.ctaBox}>
             <h2 style={s.ctaHeading}>Interested in Villa Lithos?</h2>
-            <p style={s.ctaText}>Villa Lithos offers a luxurious family retreat just 30 minutes from Athens. Reach out to check availability for summer 2026.</p>
+            <p style={s.ctaText}>Villa Lithos offers a luxurious family retreat just 20 minutes from Athens International Airport. Reach out to check availability for summer 2026.</p>
             <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
           </div>
           <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     
       <h2 style={{ fontFamily: "var(--font-serif), 'DM Serif Display', serif", fontSize: "1.6rem", color: "#2c2c2c", marginTop: 48, marginBottom: 12 }}>Sources and Further Reading</h2>
       <ul style={{ marginBottom: 18, paddingLeft: 22 }}>
-        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Athens International Airport</a>: Airport reference</li>
-        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Porto Rafti</a>: Location reference</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.aia.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Athens International Airport (AIA)</a>: Official airport route and distance data</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.hnms.gr/emy/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic National Meteorological Service (HNMS)</a>: Climate data for Attica</li>
+        <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.grhotels.gr/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Chamber of Hotels</a>: Accommodation standards</li>
         <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.visitgreece.gr/mainland/attica/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Visit Greece: Attica</a>: Regional tourism information</li>
         <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://skift.com/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Skift</a>: Luxury travel trends</li>
         <li style={{ marginBottom: 8, fontSize: "1.05rem" }}><a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Phocuswright</a>: Travel industry research</li>
       </ul>
 
-      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+      <p style={{ fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" }}>Last updated: 26 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
 
     </article>
   );

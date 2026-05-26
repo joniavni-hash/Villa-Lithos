@@ -236,8 +236,8 @@ export default async function HomePage() {
       {/* Above-fold: HeroBanner loaded eagerly with priority image */}
       <HeroBanner
         kicker={page?.hero?.kicker || "WELCOME TO"}
-        title={page?.hero?.title || "Villa Lithos"}
-        subtitle={page?.hero?.subtitle || "A private villa in Greece. Quiet stays, thoughtful comfort."}
+        title={page?.hero?.title || "Villa Lithos Porto Rafti"}
+        subtitle={page?.hero?.subtitle || "A 9-bedroom luxury villa in Porto Rafti, 20 minutes from Athens International Airport."}
         videoSrcMobile="/videos/hero.mp4"
         videoSrcDesktop="/videos/heroPC.mp4"
         poster={page?.hero?.image || "/img/hero.webp"}

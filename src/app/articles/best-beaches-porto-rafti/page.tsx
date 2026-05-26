@@ -69,7 +69,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <h1 style={s.h1}>{TITLE}</h1>
-      <span style={s.meta}>Last updated: May 2026 · 11 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: 26 May 2026 · 11 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
         The Porto Rafti bay and the wider East Attica coast offer one of the strongest concentrations of family-friendly beaches in mainland Greece. The bay is naturally sheltered, the water is calm and shallow close to shore, and most beaches are within a 20-minute drive of <Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>Villa Lithos Porto Rafti</Link>. This guide covers the eleven beaches that matter, with honest notes on wind exposure, sand type, facilities, and which is right for which kind of trip.
@@ -77,10 +77,10 @@ export default function Page() {
 
       <h2 style={s.h2}>How the East Attica Coast Compares to the Islands</h2>
       <p style={s.p}>
-        The Aegean side of Attica has a microclimate that is meaningfully different from the Cycladic islands. The bay of Porto Rafti opens to the southeast, and the surrounding headlands break up most of the meltemi northern wind that hits Mykonos and the open Cyclades in July and August. The result is calmer water near the shore and shorter periods of red-flag swimming days.
+        According to the <a href="https://www.hnms.gr/emy/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>HNMS</a>, the Aegean side of Attica has a microclimate that is meaningfully different from the Cycladic islands. The bay of Porto Rafti opens to the southeast, and the surrounding headlands break up most of the meltemi northern wind that hits Mykonos and the open Cyclades in July and August. The result is calmer water near the shore and shorter periods of red-flag swimming days.
       </p>
       <p style={s.p}>
-        Sea temperatures in the region peak in August at approximately 26 °C and remain above 22 °C from June through September, based on Mediterranean climate data summarised by the <a href="https://en.wikipedia.org/wiki/Climate_of_Greece" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia entry on the climate of Greece</a>. For families with small children, this combination of sheltered water and warm temperatures is one of the practical advantages of the area.
+        According to the <a href="https://www.hnms.gr/emy/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic National Meteorological Service (HNMS)</a>, sea temperatures in the region peak in August at approximately 26 °C and remain above 22 °C from June through September. For families with small children, this combination of sheltered water and warm temperatures is one of the practical advantages of the area.
       </p>
 
       <h2 style={s.h2}>The Eleven Beaches, Ranked by Use Case</h2>
@@ -109,7 +109,7 @@ export default function Page() {
         </tbody>
       </table>
       <p style={s.source}>
-        Drive times measured from Villa Lithos in light summer traffic. Beach descriptions verified against on-the-ground observations and cross-referenced with the <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Visit Greece</a> regional pages and <a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia entries on Porto Rafti and Marathon</a>.
+        Drive times measured from Villa Lithos in light summer traffic. Beach descriptions verified against on-the-ground observations and cross-referenced with the <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Greek National Tourism Organisation</a> regional pages and the <a href="https://www.culture.gov.gr/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Ministry of Culture</a> archaeological site catalogue.
       </p>
 
       <h2 style={s.h2}>Avlaki, the Default Choice for Families</h2>
