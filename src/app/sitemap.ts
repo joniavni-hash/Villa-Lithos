@@ -22,6 +22,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "pesach-greece-2026-villa-lithos",
     "private-villa-greece-vs-hotel",
     "villa-lithos-summer-2026-availability",
+    "best-beaches-porto-rafti",
+    "day-trips-from-porto-rafti",
+    "wellness-retreats-greece-mainland",
+    "eating-in-porto-rafti",
   ];
 
   return [

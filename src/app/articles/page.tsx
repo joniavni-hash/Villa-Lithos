@@ -12,6 +12,10 @@ export const metadata: Metadata = {
     "greece villa holiday tips",
     "things to do near athens",
     "multi-generational travel greece",
+    "wellness retreat greece",
+    "porto rafti beaches",
+    "day trips from porto rafti",
+    "eating in porto rafti",
   ],
   alternates: {
     canonical: "https://www.villalithosgreece.com/articles",
@@ -23,6 +27,38 @@ export const metadata: Metadata = {
 };
 
 const articles = [
+  {
+    slug: "wellness-retreats-greece-mainland",
+    title: "Wellness Retreats in Greece: A Practical Guide to Mainland Options",
+    excerpt: "The Greek mainland wellness retreat market in 2026, with a practical look at the difference between dedicated wellness resorts and luxury villas with full wellness amenities.",
+    date: "2026-05-11",
+    readTime: "11 min read",
+    category: "Wellness",
+  },
+  {
+    slug: "best-beaches-porto-rafti",
+    title: "The Best Beaches in Porto Rafti and Around: A 2026 Family Guide",
+    excerpt: "A practical guide to the eleven beaches of the East Attica coast, with sand vs pebble, wind exposure, family suitability, and drive times from Villa Lithos.",
+    date: "2026-05-11",
+    readTime: "11 min read",
+    category: "Beaches Guide",
+  },
+  {
+    slug: "day-trips-from-porto-rafti",
+    title: "Day Trips from Porto Rafti: A Practical Guide to Attica's Heritage",
+    excerpt: "Five practical day trips from Porto Rafti to Athens, Cape Sounion, Brauron, Marathon, and the Cycladic islands, with drive times, ticket prices, and crowd-avoidance strategies.",
+    date: "2026-05-11",
+    readTime: "12 min read",
+    category: "Destination Guide",
+  },
+  {
+    slug: "eating-in-porto-rafti",
+    title: "Eating Like a Local in Porto Rafti: A Guide to Tavernas, Markets, and Greek Food",
+    excerpt: "A practical food guide to Porto Rafti, including the best fish tavernas, traditional bakeries, local markets, regional Attic specialities, and in-villa chef options.",
+    date: "2026-05-11",
+    readTime: "10 min read",
+    category: "Food and Wine",
+  },
   {
     slug: "villa-lithos-summer-2026-availability",
     title: "Book Villa Lithos for Summer 2026: Available Weeks and What You Need to Know",
@@ -42,7 +78,7 @@ const articles = [
   {
     slug: "private-villa-greece-vs-hotel",
     title: "Private Villa in Greece vs. Island Hotel: An Honest Comparison for Families",
-    excerpt: "Hotels or villa? We break down the real differences in space, cost, privacy, and flexibility â and why families who try a villa once rarely go back.",
+    excerpt: "Hotels or villa? We break down the real differences in space, cost, privacy, and flexibility for families who try a villa once rarely go back.",
     date: "2026-03-02",
     readTime: "8 min read",
     category: "Travel Planning",
@@ -172,14 +208,13 @@ export default function ArticlesPage() {
             </article>
           </Link>
         ))}
-      
-        {/* CTA Section */}
+
         <div style={{ marginTop: 56, padding: "44px 32px", background: "#f8f6f1", borderRadius: 12, textAlign: "center" as const, maxWidth: 720, marginLeft: "auto", marginRight: "auto" }}>
           <h2 style={{ fontFamily: "var(--font-serif, Georgia, serif)", fontSize: "1.5rem", color: "#2c2c2c", marginBottom: 12, marginTop: 0 }}>Interested in Villa Lithos?</h2>
           <p style={{ fontSize: "1.05rem", color: "#555", marginBottom: 24, maxWidth: 540, marginLeft: "auto", marginRight: "auto" }}>A private luxury villa in Porto Rafti, Greece with pool, sea views, and space for the whole family. Inquire about availability for summer 2026.</p>
           <Link href="/#inquiry" style={{ display: "inline-block", padding: "14px 36px", background: "#8B9A6B", color: "#fff", borderRadius: 8, fontWeight: 600, fontSize: "1.08rem", textDecoration: "none", letterSpacing: 0.5 }}>Inquire Now</Link>
         </div>
-</div>
+      </div>
     </main>
   );
 }
