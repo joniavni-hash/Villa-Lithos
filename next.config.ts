@@ -3,6 +3,9 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
     /* config options here */
     reactCompiler: true,
+        async rewrites() {
+                  return [{ source: '/planner', destination: '/planner/index.html' }];
+        },
     async redirects() {
           return [
             {
