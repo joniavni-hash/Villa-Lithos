@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Plan where everyone sleeps at Villa Lithos, Porto Rafti: 9 bedrooms, attic lofts and a separate apartment for up to 22 guests. Build your group, drag guests into rooms, and share the plan.">
+<link rel="canonical" href="https://www.villalithosgreece.com/planner">
+<link rel="icon" href="/favicon.ico">
+<meta property="og:title" content="Villa Lithos Sleeping Planner">
+<meta property="og:description" content="Nine bedrooms, two attic lofts and a separate apartment. See where your group sleeps at Villa Lithos, Porto Rafti.">
+<meta property="og:image" content="https://www.villalithosgreece.com/planner/img/hero.webp">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.villalithosgreece.com/planner">
+<meta name="theme-color" content="#F2EFE8">
+<style>[hidden]{display:none!important}img{max-width:100%}html{color-scheme:light dark}</style>
+<title>Sleeping Planner | Villa Lithos Porto Rafti</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana&family=Jura:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#F2EFE8; --surface:#FBFAF7; --surface-2:#E9E4DA; --surface-3:#DED7C9;
+  --ink:#1F252C; --ink-2:#464C55; --ink-3:#6B727B; --line:#D8D2C6; --line-2:#C4BCAD;
+  --accent:#1F7F8C; --accent-ink:#0F5C66; --accent-soft:#D6ECEF;
+  --oak:#A97A3F; --oak-soft:#F1E4CF;
+  --good:#3B7D4F; --good-soft:#DCEBDF; --warn:#B8651B; --warn-soft:#F6E4D2; --bad:#B3402F; --bad-soft:#F3DCD6;
+  --c-couple:#A97A3F; --c-couple-soft:#F1E4CF;
+  --c-adult:#1F7F8C; --c-adult-soft:#D6ECEF;
+  --c-teen:#6E5A93; --c-teen-soft:#E5DEF1;
+  --c-child:#C2603F; --c-child-soft:#F6DED3;
+  --c-infant:#5F8A64; --c-infant-soft:#DDEBDD;
+  --shadow:0 10px 30px rgba(31,37,44,.10);
+  --radius:14px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121920; --surface:#1A232C; --surface-2:#232E39; --surface-3:#2C3945;
+    --ink:#ECE7DD; --ink-2:#C4CAD1; --ink-3:#98A0A8; --line:#33404D; --line-2:#425060;
+    --accent:#5CC3CF; --accent-ink:#8ADCE5; --accent-soft:#1D3A41;
+    --oak:#D3A264; --oak-soft:#3A2E1E;
+    --good:#7CC28F; --good-soft:#1F3426; --warn:#E0A15C; --warn-soft:#3D2C18; --bad:#E07A68; --bad-soft:#40221D;
+    --c-couple:#D3A264; --c-couple-soft:#3A2E1E;
+    --c-adult:#5CC3CF; --c-adult-soft:#1D3A41;
+    --c-teen:#B79EDC; --c-teen-soft:#2E2640;
+    --c-child:#E8906E; --c-child-soft:#42281E;
+    --c-infant:#9CC49F; --c-infant-soft:#213526;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121920; --surface:#1A232C; --surface-2:#232E39; --surface-3:#2C3945;
+  --ink:#ECE7DD; --ink-2:#C4CAD1; --ink-3:#98A0A8; --line:#33404D; --line-2:#425060;
+  --accent:#5CC3CF; --accent-ink:#8ADCE5; --accent-soft:#1D3A41;
+  --oak:#D3A264; --oak-soft:#3A2E1E;
+  --good:#7CC28F; --good-soft:#1F3426; --warn:#E0A15C; --warn-soft:#3D2C18; --bad:#E07A68; --bad-soft:#40221D;
+  --c-couple:#D3A264; --c-couple-soft:#3A2E1E;
+  --c-adult:#5CC3CF; --c-adult-soft:#1D3A41;
+  --c-teen:#B79EDC; --c-teen-soft:#2E2640;
+  --c-child:#E8906E; --c-child-soft:#42281E;
+  --c-infant:#9CC49F; --c-infant-soft:#213526;
+  --shadow:0 10px 30px rgba(0,0,0,.35);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Jura",system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:500;font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:clamp(16px,3vw,32px);padding-block:0 64px}
+h1,h2,h3{font-family:"Italiana","Cormorant Garamond",Georgia,serif;font-weight:400;letter-spacing:.01em;text-wrap:balance;margin:0}
+h2{font-size:clamp(32px,4vw,44px);line-height:1.08}
+h3{font-size:24px}
+p{margin:0}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,[tabindex]:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.eyebrow{font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2);font-weight:600}
+.muted{color:var(--ink-2)}
+.small{font-size:15px}
+svg.i{width:1em;height:1em;vertical-align:-.15em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+/* ---------- hero ---------- */
+.hero{position:relative;margin-top:16px;border-radius:var(--radius);overflow:hidden;min-height:300px;display:flex;align-items:flex-end;color:#F7F3EA;isolation:isolate}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,20,26,.05) 20%,rgba(14,20,26,.78) 100%);z-index:-1}
+.hero-in{padding:clamp(24px,4vw,44px);display:flex;flex-direction:column;gap:10px;width:100%}
+.hero .brand{font-family:"Italiana",Georgia,serif;font-size:clamp(34px,6vw,64px);line-height:.95;letter-spacing:.06em;text-transform:uppercase}
+.hero .sub{font-size:clamp(17px,1.8vw,21px);max-width:52ch;color:#EFEAE0;font-weight:600}
+.hero .facts{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:#DDD5C4}
+.hero .facts span{display:inline-flex;align-items:center;gap:6px}
+
+/* ---------- section headers ---------- */
+section{margin-top:44px}
+.sec-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;margin-bottom:18px}
+.sec-head p{max-width:60ch}
+
+/* ---------- deck: group builder ---------- */
+.deck{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}
+@media (max-width:820px){.deck{grid-template-columns:1fr}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+.panel h3{margin-bottom:4px}
+.addrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.add{display:inline-flex;align-items:center;gap:8px;padding:9px 13px;border-radius:999px;border:1px solid var(--line-2);background:var(--surface);font-weight:600;font-size:14px;transition:transform .12s ease,background .12s ease}
+.add:hover{background:var(--surface-2)}
+.add:active{transform:scale(.97)}
+.add .dot{width:10px;height:10px;border-radius:50%;background:var(--c)}
+.add .plus{font-size:16px;line-height:1;color:var(--ink-2)}
+.add[disabled]{opacity:.45;cursor:not-allowed}
+.types{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin-top:14px}
+.tcard{border:1.5px solid var(--line);border-radius:12px;padding:10px 10px 8px;display:flex;flex-direction:column;gap:8px;background:var(--bg)}
+.tcard.has{border-color:var(--c)}
+.tlab{display:flex;align-items:center;gap:7px;flex-wrap:wrap;line-height:1.2}
+.tlab .dot{width:10px;height:10px;border-radius:50%;background:var(--c);flex:none}
+.tlab b{font-weight:700;font-size:16.5px}
+.tlab small{width:100%;padding-left:17px;font-size:13.5px;color:var(--ink-2)}
+.step{display:flex;align-items:center;justify-content:space-between;gap:6px}
+.stp{width:40px;height:40px;border-radius:50%;border:1.5px solid var(--line-2);background:var(--surface);font-size:22px;line-height:1;display:inline-flex;align-items:center;justify-content:center;transition:background .12s,transform .12s,border-color .12s;flex:none}
+.stp:hover{background:var(--surface-2);border-color:var(--c)}
+.stp:active{transform:scale(.94)}
+.stp[disabled]{opacity:.35;cursor:not-allowed}
+.cnt{font-size:28px;font-weight:600;font-variant-numeric:tabular-nums;min-width:2ch;text-align:center}
+.tray{margin-top:14px;min-height:74px;border:1.5px dashed var(--line-2);border-radius:12px;padding:10px;display:flex;flex-wrap:wrap;gap:8px;align-content:flex-start;transition:background .15s,border-color .15s}
+.tray.over{background:var(--accent-soft);border-color:var(--accent)}
+.tray:empty::before{content:"Everyone has a bed. Drag a guest here to unassign them.";color:var(--ink-3);font-size:15px;align-self:center;padding:8px 4px}
+.tray-label{display:flex;justify-content:space-between;align-items:baseline;margin-top:16px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:10px;border:1px solid transparent;font-weight:700;font-size:16px;letter-spacing:.02em;transition:transform .12s ease,filter .12s ease}
+.btn:active{transform:scale(.98)}
+.btn-primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn-primary:hover{filter:brightness(1.06)}
+.btn-ghost{background:transparent;border-color:var(--line-2)}
+.btn-ghost:hover{background:var(--surface-2)}
+.btn-sm{padding:8px 12px;font-size:15px;border-radius:8px}
+.toggle{display:inline-flex;align-items:center;gap:10px;font-size:16px;font-weight:600;cursor:pointer;user-select:none;margin-inline-start:auto}
+.toggle input{appearance:none;width:40px;height:22px;border-radius:999px;background:var(--line-2);position:relative;transition:background .15s;flex:none;margin:0;cursor:pointer}
+.toggle input::after{content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;transition:transform .15s;box-shadow:0 1px 2px rgba(0,0,0,.3)}
+.toggle input:checked{background:var(--accent)}
+.toggle input:checked::after{transform:translateX(18px)}
+
+/* ---------- guest chips ---------- */
+.guest{--c:var(--c-adult);--cs:var(--c-adult-soft);display:inline-flex;align-items:center;gap:7px;padding:6px 10px 6px 8px;border-radius:999px;background:var(--cs);border:1.5px solid var(--c);color:var(--ink);font-size:15px;font-weight:700;cursor:grab;user-select:none;touch-action:none;position:relative;line-height:1.2;transition:box-shadow .12s,transform .12s;max-width:100%}
+.guest .ico{width:22px;height:22px;border-radius:50%;background:var(--c);color:#fff;display:inline-flex;align-items:center;justify-content:center;flex:none}
+.guest .ico svg{width:12px;height:12px;stroke-width:2.2}
+.guest .lbl{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:175px}
+.guest .lbl small{font-weight:500;color:var(--ink-2)}
+.guest[data-type="couple"]{--c:var(--c-couple);--cs:var(--c-couple-soft)}
+.guest[data-type="adult"]{--c:var(--c-adult);--cs:var(--c-adult-soft)}
+.guest[data-type="teen"]{--c:var(--c-teen);--cs:var(--c-teen-soft)}
+.guest[data-type="child"]{--c:var(--c-child);--cs:var(--c-child-soft)}
+.guest[data-type="infant"]{--c:var(--c-infant);--cs:var(--c-infant-soft)}
+.guest.selected{box-shadow:0 0 0 3px var(--accent-soft),0 0 0 5px var(--accent)}
+.guest.dragging{opacity:.35}
+.guest.flag::after{content:"";position:absolute;top:-4px;right:-4px;width:10px;height:10px;border-radius:50%;background:var(--warn);border:2px solid var(--surface)}
+.ghost{position:fixed;z-index:1000;pointer-events:none;transform:translate(-50%,-50%) rotate(-3deg);box-shadow:var(--shadow);opacity:.95}
+
+/* ---------- capacity ---------- */
+.cap-num{display:flex;align-items:baseline;gap:10px;margin-top:6px}
+.cap-num b{font-family:"Italiana",Georgia,serif;font-weight:400;font-size:64px;line-height:1;font-variant-numeric:tabular-nums}
+.cap-num span{color:var(--ink-2);font-size:16px;font-weight:600}
+.meter{margin-top:14px;position:relative;padding-bottom:50px}
+.segs{display:grid;grid-template-columns:repeat(22,1fr);gap:3px;height:16px}
+.segs i{display:block;border-radius:3px;background:var(--surface-3);transition:background .2s}
+.segs i.bed.on{background:var(--accent)}
+.segs i.flex{background:repeating-linear-gradient(135deg,var(--surface-3) 0 3px,var(--line) 3px 5px)}
+.segs i.flex.on{background:var(--oak)}
+.tick{position:absolute;top:20px;}
+.tick.t2{top:42px}
+.tick{font-size:11.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap;transform:translateX(-50%)}
+.tick::before{content:"";display:block;width:1px;height:6px;background:var(--line-2);margin:0 auto 2px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:14px;color:var(--ink-2);margin-top:6px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:12px;height:12px;border-radius:3px;display:inline-block;background:var(--accent)}
+.legend i.o{background:var(--oak)}
+.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.stat{background:var(--surface-2);border-radius:10px;padding:10px 12px}
+.stat b{display:block;font-size:26px;font-weight:600;font-variant-numeric:tabular-nums;line-height:1.1}
+.stat span{font-size:12.5px;letter-spacing:.1em;font-weight:600;text-transform:uppercase;color:var(--ink-2)}
+.note{margin-top:12px;padding:12px 14px;border-radius:10px;background:var(--surface-2);font-size:15px;color:var(--ink-2);display:flex;gap:8px;align-items:flex-start}
+.note.warn{background:var(--warn-soft);color:var(--ink)}
+.note.bad{background:var(--bad-soft);color:var(--ink)}
+.note svg{margin-top:2px;flex:none}
+
+/* ---------- hint strip ---------- */
+.hint{display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:12px;background:var(--accent-soft);border:1.5px dashed var(--accent);color:var(--ink);font-size:16px;font-weight:600;margin-bottom:14px;line-height:1.4}
+.hint .hi{width:38px;height:38px;border-radius:50%;background:var(--accent);color:#fff;display:inline-flex;align-items:center;justify-content:center;flex:none}
+.hint .hi svg{width:20px;height:20px;stroke-width:2}
+.hint b{font-weight:700}
+
+/* ---------- the house ---------- */
+.estate{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:18px;align-items:end}
+@media (max-width:980px){.estate{grid-template-columns:1fr}}
+.house{display:grid;grid-template-columns:44px minmax(0,1fr);gap:10px}
+@media (max-width:640px){.house{grid-template-columns:1fr}.shaft{display:none}}
+.shaft{border-radius:12px;background:linear-gradient(180deg,var(--surface-2),var(--surface-3));border:1px solid var(--line);position:relative;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:14px 0}
+.shaft .lab{writing-mode:vertical-rl;transform:rotate(180deg);font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-2);font-weight:700}
+.shaft .rail{flex:1;width:2px;margin:12px 0;background:repeating-linear-gradient(180deg,var(--line-2) 0 6px,transparent 6px 12px)}
+.shaft .cab{width:18px;height:22px;border-radius:4px;border:2px solid var(--accent);background:var(--accent-soft)}
+.levels{display:flex;flex-direction:column;gap:10px}
+.level{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);display:grid;grid-template-columns:190px minmax(0,1fr);overflow:hidden}
+@media (max-width:640px){.level{grid-template-columns:1fr}}
+.level.attic{border-top:3px solid var(--oak)}
+.lvl-lab{padding:16px;background:var(--surface-2);display:flex;flex-direction:column;gap:6px;border-right:1px solid var(--line)}
+@media (max-width:640px){.lvl-lab{border-right:0;border-bottom:1px solid var(--line);padding:12px 16px}}
+.lvl-lab h3{font-size:27px}
+.lvl-lab .eyebrow{color:var(--oak)}
+.lvl-lab p{font-size:14.5px;color:var(--ink-2);line-height:1.45}
+.rooms{padding:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:10px;align-content:start}
+.annex{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.annex .lvl-lab{border-right:0;border-bottom:1px solid var(--line)}
+.annex .rooms{grid-template-columns:1fr}
+@media (max-width:980px){.annex .rooms{grid-template-columns:repeat(auto-fill,minmax(235px,1fr))}}
+
+.room{position:relative;border:1.5px solid var(--line);border-radius:12px;background:var(--bg);padding:10px 10px 10px;display:flex;flex-direction:column;gap:8px;min-height:118px;transition:border-color .15s,background .15s,box-shadow .15s}
+.room.over{border-color:var(--accent);background:var(--accent-soft);box-shadow:0 0 0 3px var(--accent-soft)}
+.room.reject{border-color:var(--bad);background:var(--bad-soft)}
+.room.target{border-style:dashed;border-color:var(--accent)}
+.room.flex{background:repeating-linear-gradient(135deg,var(--bg) 0 8px,var(--surface-2) 8px 9px)}
+.room-head{display:flex;align-items:flex-start;justify-content:space-between;gap:6px}
+.room-name{font-family:"Italiana",Georgia,serif;font-size:23px;line-height:1.1}
+.room-meta{display:flex;flex-wrap:wrap;gap:4px 8px;font-size:13.5px;color:var(--ink-2);font-weight:600}
+.room-meta span{display:inline-flex;align-items:flex-start;gap:4px}
+.room-meta span svg{margin-top:3px}
+.room-meta .b-ens{color:var(--good)}
+.room-meta .b-priv{color:var(--accent-ink)}
+.room-meta .b-shr{color:var(--warn)}
+.slots{display:flex;gap:4px}
+.slots i{width:16px;height:10px;border-radius:2px;border:1.5px solid var(--line-2);display:block}
+.slots i.on{background:var(--accent);border-color:var(--accent)}
+.slots i.on.flexs{background:var(--oak);border-color:var(--oak)}
+.occ{display:flex;flex-wrap:wrap;gap:6px;min-height:30px;flex:1;align-content:flex-start}
+.occ:empty::before{content:"Drop a guest here";font-size:14px;color:var(--ink-3);align-self:center;padding-left:2px}
+.room.full .occ:empty::before{content:""}
+.info{width:36px;height:36px;border-radius:50%;border:1px solid var(--line-2);background:var(--surface);display:inline-flex;align-items:center;justify-content:center;color:var(--ink-2);flex:none;overflow:hidden;padding:0}
+.info img{width:100%;height:100%;object-fit:cover;display:block}
+.info:hover{border-color:var(--accent)}
+.room .warnline{font-size:13.5px;color:var(--warn);font-weight:600}
+
+/* ---------- plan summary ---------- */
+.plan{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}
+@media (max-width:820px){.plan{grid-template-columns:1fr}}
+.plan-list{display:flex;flex-direction:column;gap:0}
+.plan-row{display:grid;grid-template-columns:190px minmax(0,1fr);gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-size:16px}
+.plan-row:last-child{border-bottom:0}
+.plan-row .rn{font-weight:700}
+.plan-row .rn small{display:block;font-weight:500;color:var(--ink-2);font-size:13.5px}
+.plan-row .who{display:flex;flex-wrap:wrap;gap:6px 10px}
+.plan-row .who span{display:inline-flex;align-items:center;gap:5px}
+.plan-row .who .d{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.plan-row.empty .who{color:var(--ink-3)}
+.why{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+.why div{display:flex;gap:10px;align-items:flex-start;font-size:15.5px;color:var(--ink-2)}
+.why div::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);margin-top:8px;flex:none}
+textarea.sum{width:100%;min-height:150px;margin-top:10px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--ink);font:14px/1.5 ui-monospace,Menlo,Consolas,monospace;padding:10px;resize:vertical}
+
+/* ---------- gallery ---------- */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+@media (max-width:820px){.gal{grid-template-columns:repeat(2,1fr)}}
+.gal figure{margin:0;position:relative;border-radius:12px;overflow:hidden;aspect-ratio:4/3;max-width:100%;background:var(--surface-2)}
+.gal img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.gal figure:hover img{transform:scale(1.04)}
+.gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:24px 12px 10px;color:#F7F3EA;font-size:14.5px;font-weight:600;letter-spacing:.04em;background:linear-gradient(180deg,transparent,rgba(14,20,26,.75))}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+
+/* ---------- footer ---------- */
+footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;font-size:15px;color:var(--ink-2)}
+footer a{color:var(--accent-ink);text-decoration:none}
+footer .fb{font-family:"Italiana",Georgia,serif;font-size:22px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
+
+/* ---------- select bar & toast ---------- */
+.selbar{position:fixed;left:50%;bottom:0;transform:translateX(-50%) translateY(120%);padding:10px 12px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));margin-bottom:14px;background:var(--ink);color:var(--bg);border-radius:14px;box-shadow:var(--shadow);display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:15px;z-index:900;transition:transform .2s ease;max-width:calc(100vw - 32px)}
+.selbar.show{transform:translateX(-50%) translateY(0)}
+.selbar .btn{padding:8px 12px;font-size:15px;border-radius:8px;background:transparent;color:inherit;border:1px solid rgba(255,255,255,.35)}
+.selbar .btn:hover{background:rgba(255,255,255,.12)}
+.selbar input{font:inherit;padding:6px 8px;border-radius:8px;border:1px solid rgba(255,255,255,.35);background:transparent;color:inherit;width:150px}
+.toast{position:fixed;left:50%;top:18px;transform:translateX(-50%) translateY(-140%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;font-size:15px;font-weight:600;z-index:950;transition:transform .2s;box-shadow:var(--shadow);max-width:calc(100vw - 32px)}
+.toast.show{transform:translateX(-50%) translateY(0)}
+
+/* ---------- detail sheet ---------- */
+.sheet-bg{position:fixed;inset:0;background:rgba(10,14,18,.55);z-index:800;display:flex;align-items:center;justify-content:center;padding:16px;backdrop-filter:blur(4px)}
+.sheet{background:var(--surface);color:var(--ink);border-radius:16px;max-width:820px;width:100%;max-height:calc(100vh - 32px);overflow:auto;box-shadow:var(--shadow);display:grid;grid-template-columns:1.1fr .9fr}
+@media (max-width:700px){.sheet{grid-template-columns:1fr}}
+.sheet img{width:100%;height:100%;min-height:240px;object-fit:cover;display:block}
+.sheet .pics{display:flex;flex-direction:column;min-height:100%}
+.sheet .pics img{flex:1;min-height:220px}
+.sheet .pics figure{margin:0;position:relative;flex:1;display:flex;max-height:360px;overflow:hidden}
+.sheet .pics figcaption{position:absolute;left:10px;bottom:8px;padding:4px 9px;border-radius:999px;background:rgba(14,20,26,.6);color:#F7F3EA;font-size:12.5px;font-weight:600;letter-spacing:.04em}
+.sheet-body{padding:22px;display:flex;flex-direction:column;gap:10px;position:relative}
+.sheet-body h3{font-size:36px}
+.sheet .close{position:absolute;top:12px;right:12px;width:38px;height:38px;border-radius:50%;border:1px solid var(--line-2);background:var(--surface);font-size:20px;line-height:1}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:8px 14px;font-size:16px;margin-top:6px}
+.kv dt{color:var(--ink-2);font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;padding-top:2px}
+.kv dd{margin:0}
+.sheet .who{display:flex;flex-wrap:wrap;gap:6px}
+.photo-note{font-size:13.5px;color:var(--ink-3)}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="hero">
+    <img src="/planner/img/hero.webp" alt="Villa Lithos at dusk, infinity pool and terraces">
+    <div class="hero-in">
+      <div class="brand">Villa Lithos</div>
+      <p class="sub">Sleeping Planner. Build your group, drop each guest into a room, and see exactly where everyone sleeps across the four levels and the apartment.</p>
+      <div class="facts">
+        <span>9 bedrooms</span><span>8.5 bathrooms</span><span>Sleeps up to 22</span><span>Elevator to all levels</span><span>Porto Rafti · Attica</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= GROUP ================= -->
+  <section id="group">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Step 1</div>
+        <h2>Who is coming?</h2>
+      </div>
+      <p class="muted small">Set how many couples, adults, teens, children and infants are coming. Drag a guest onto a room, or tap a guest and then tap a room. "Arrange for me" places everyone using the house's natural logic; you can adjust anything afterwards.</p>
+    </div>
+    <div class="deck">
+      <div class="panel">
+        <h3>Your group</h3>
+        <p class="muted small" id="groupHint">Loaded with an example group so you can see how it works. Set the counts to match your own group.</p>
+        <div class="types" id="types">
+          <div class="tcard" data-tcard="couple" style="--c:var(--c-couple)"><div class="tlab"><span class="dot"></span><b>Couples</b><small>share one bed</small></div><div class="step"><button class="stp" data-dec="couple" aria-label="Remove a couple">−</button><span class="cnt" data-cnt="couple">0</span><button class="stp" data-add="couple" aria-label="Add a couple">+</button></div></div>
+          <div class="tcard" data-tcard="adult" style="--c:var(--c-adult)"><div class="tlab"><span class="dot"></span><b>Adults</b><small>own bed each</small></div><div class="step"><button class="stp" data-dec="adult" aria-label="Remove an adult">−</button><span class="cnt" data-cnt="adult">0</span><button class="stp" data-add="adult" aria-label="Add an adult">+</button></div></div>
+          <div class="tcard" data-tcard="teen" style="--c:var(--c-teen)"><div class="tlab"><span class="dot"></span><b>Teens</b><small>13 to 17</small></div><div class="step"><button class="stp" data-dec="teen" aria-label="Remove a teen">−</button><span class="cnt" data-cnt="teen">0</span><button class="stp" data-add="teen" aria-label="Add a teen">+</button></div></div>
+          <div class="tcard" data-tcard="child" style="--c:var(--c-child)"><div class="tlab"><span class="dot"></span><b>Children</b><small>2 to 12</small></div><div class="step"><button class="stp" data-dec="child" aria-label="Remove a child">−</button><span class="cnt" data-cnt="child">0</span><button class="stp" data-add="child" aria-label="Add a child">+</button></div></div>
+          <div class="tcard" data-tcard="infant" style="--c:var(--c-infant)"><div class="tlab"><span class="dot"></span><b>Infants</b><small>travel cot, not counted</small></div><div class="step"><button class="stp" data-dec="infant" aria-label="Remove an infant">−</button><span class="cnt" data-cnt="infant">0</span><button class="stp" data-add="infant" aria-label="Add an infant">+</button></div></div>
+        </div>
+        <div class="tray-label">
+          <span class="eyebrow">Waiting for a room</span>
+          <span class="small muted" id="trayCount"></span>
+        </div>
+        <div class="tray" id="tray" data-drop="tray"></div>
+        <p class="small muted" style="margin-top:8px">Nothing is final: after arranging, drag any guest from room to room until it suits your group.</p>
+        <div class="actions">
+          <button class="btn btn-primary" id="autoBtn">
+            <svg class="i" viewBox="0 0 24 24"><path d="M4 20 20 4M14 4h6v6M4 14v6h6"/></svg>Arrange for me
+          </button>
+          <button class="btn btn-ghost" id="clearBtn">Unassign all</button>
+          <button class="btn btn-ghost" id="resetBtn">Start over</button>
+          <label class="toggle" title="When on, teens and children take the attic lofts first">
+            <input type="checkbox" id="atticMode" checked>
+            <span>Kids &amp; teens sleep in the attic lofts</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Capacity</h3>
+        <div class="cap-num"><b id="capNum">0</b><span id="capWord">guests in your group</span></div>
+        <div class="meter">
+          <div class="segs" id="segs"></div>
+          <div class="tick" style="left:calc(16/22*100%)">16 · standard</div>
+          <div class="tick t2" style="left:calc(18/22*100%)">18 · proper beds</div>
+          <div class="tick" style="left:100%;transform:translateX(-100%)">22 · max</div>
+        </div>
+        <div class="legend"><span><i></i>Proper beds, 18 places</span><span><i class="o"></i>Attic lofts &amp; apartment lounge</span></div>
+        <div class="stat-grid">
+          <div class="stat"><b id="stPlaced">0</b><span>Placed</span></div>
+          <div class="stat"><b id="stRooms">0</b><span>Rooms used</span></div>
+          <div class="stat"><b id="stInfants">0</b><span>Infants</span></div>
+        </div>
+        <div id="capNote" class="note"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg><span>The villa hosts up to 22 guests. Infants under 2 sleep in a travel cot and do not count toward the total.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HOUSE ================= -->
+  <section id="house">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Step 2</div>
+        <h2>The house, level by level</h2>
+      </div>
+      <p class="muted small">The main house has four levels served by an elevator and stairs. The apartment is a separate building on the estate with its own kitchen, living room and bathroom. Tap the photo on any room for details.</p>
+    </div>
+    <div class="hint" role="note">
+      <span class="hi"><svg class="i" viewBox="0 0 24 24"><path d="M9 3v4M15 3v4M5 8h14M7 12h2M11 12h2M15 12h2M7 16h2M11 16h2M15 16h2M5 8v13h14V8"/></svg></span>
+      <span><b>You can move anyone.</b> Drag a guest from one room to another, or tap a guest and then tap the room you want. Rooms that can take them light up; a full room says so. Drag a guest back to "Waiting for a room" to unassign them.</span>
+    </div>
+    <div class="estate">
+      <div class="house">
+        <div class="shaft" aria-hidden="true"><span class="lab">Elevator · all levels</span><span class="rail"></span><span class="cab"></span></div>
+        <div class="levels" id="levels"></div>
+      </div>
+      <div class="annex" id="annex"></div>
+    </div>
+  </section>
+
+  <!-- ================= PLAN ================= -->
+  <section id="planSec">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Step 3</div>
+        <h2>Your sleeping plan</h2>
+      </div>
+      <p class="muted small">Share it with your group, or send it to us with your enquiry so the beds are made up exactly this way before you arrive.</p>
+    </div>
+    <div class="plan">
+      <div class="panel">
+        <h3>Room by room</h3>
+        <div class="plan-list" id="planList"></div>
+      </div>
+      <div class="panel">
+        <h3>Why this arrangement</h3>
+        <div class="why" id="why"></div>
+        <div class="actions" style="margin-top:16px">
+          <button class="btn btn-primary btn-sm" id="copyBtn"><svg class="i" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a1 1 0 0 1 1-1h10"/></svg>Copy summary</button>
+          <span class="small muted">Paste it into your enquiry or group chat.</span>
+        </div>
+        <textarea class="sum" id="sumText" readonly aria-label="Plain-text summary of the plan"></textarea>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GALLERY ================= -->
+  <section id="tour">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">A look around</div>
+        <h2>Beyond the bedrooms</h2>
+      </div>
+      <p class="muted small">Two living rooms on separate levels, a design kitchen, bathrooms with a view, gym, outdoor sauna, heated infinity pool and a private padel court, all on a 5,000 m² estate 20 minutes from Athens airport.</p>
+    </div>
+    <div class="gal" id="gal"></div>
+  </section>
+
+  <footer>
+    <div class="fb">Villa Lithos · Porto Rafti</div>
+    <div><a href="https://www.villalithosgreece.com" target="_blank" rel="noopener">villalithosgreece.com</a> · <a href="mailto:info@villalithos.com">info@villalithos.com</a> · +30 693 275 7142 · <a href="https://www.instagram.com/villa.lithos/" target="_blank" rel="noopener">@villa.lithos</a></div>
+  </footer>
+</div>
+
+<div class="selbar" id="selbar" role="region" aria-label="Selected guest">
+  <span id="selText">Tap a room to place</span>
+  <input id="selName" type="text" placeholder="Name (optional)" maxlength="24" aria-label="Guest name">
+  <button class="btn" id="selRemove">Remove</button>
+  <button class="btn" id="selCancel">Done</button>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div id="sheetHost"></div>
+
+<script>
+/* ======================================================================
+   VILLA LITHOS · SLEEPING PLANNER
+   Inventory below is the single source of truth. Edit here to change
+   bed sizes, names, capacities or notes.
+   ====================================================================== */
+const IMG = {
+  hero:"/planner/img/hero.webp", attic1:"/planner/img/attic1.webp", attic2:"/planner/img/attic2.webp", bed3:"/planner/img/bed3.webp", bed5:"/planner/img/bed5.webp", bed6:"/planner/img/bed6.webp",
+  aerial:"/planner/img/aerial.webp", aerial2:"/planner/img/aerial2.webp", pool:"/planner/img/pool.webp", living:"/planner/img/living.webp", kitchen:"/planner/img/kitchen.webp", gym:"/planner/img/gym.webp", living2:"/planner/img/living2.webp", dining:"/planner/img/dining.webp", kitchen2:"/planner/img/kitchen2.webp", bath:"/planner/img/bath.webp", bath2:"/planner/img/bath2.webp", room_grand:"/planner/img/room_grand.webp", room_lms:"/planner/img/room_lms.webp", room_la:"/planner/img/room_la.webp", room_lb:"/planner/img/room_lb.webp", bath_lower:"/planner/img/bath_lower.webp", room_lm3:"/planner/img/room_lm3.webp", room_lm2:"/planner/img/room_lm2.webp", room_lm1:"/planner/img/room_lm1.webp", room_apb:"/planner/img/room_apb.webp", room_lpb:"/planner/img/room_lpb.webp", sauna:"/planner/img/sauna.webp", stairs:"/planner/img/stairs.webp"
+};
+const VILLA_MAX = 22;          // published maximum
+const STANDARD_OCC = 16;       // standard occupancy before per-guest supplement
+const BED_PLACES = 18;         // 9 bedrooms x 2
+
+const LEVELS = [
+  {id:"attic", name:"Attic", tag:"Level 3", cls:"attic",
+   blurb:"Two open lofts under the timber roof, screened by blackout curtains. Beanbags and daybeds by day, a sleepover by night."},
+  {id:"living", name:"Living Floor", tag:"Level 2",
+   blurb:"The main living spaces and four bedrooms, three of them en-suite master suites."},
+  {id:"ground", name:"Ground Floor", tag:"Level 1",
+   blurb:"Step-free entrance level and a large master suite."},
+  {id:"lower", name:"Lower Level", tag:"Level 0",
+   blurb:"Three quiet bedrooms: one suite, and two that share a bathroom across the corridor."}
+];
+const ANNEX = {id:"annex", name:"The Apartment", tag:"Separate building",
+   blurb:"An independent apartment on the estate with its own kitchen, living room and bathroom."};
+
+const ROOMS = [
+  {id:"grand", level:"ground", name:"Grand Master Suite", bed:"King bed", bath:"En-suite", bathType:"ens", cap:2, kind:"bedroom", photo:"room_grand", real:true, rank:1, kidRank:8,
+   notes:"A large, wide master bedroom on the step-free entrance level. Bathroom inside the suite.", features:["King bed","En-suite bathroom","Step-free access","Entrance level"]},
+  {id:"lm1", level:"living", name:"Master Suite I", bed:"King bed", bath:"En-suite", bathType:"ens", cap:2, kind:"bedroom", photo:"room_lm1", real:true, rank:2, kidRank:7,
+   notes:"The largest of the living-floor suites, with a sitting corner, a terrace door and a private bathroom inside the room.", features:["King bed","En-suite bathroom","Terrace door","Living floor"]},
+  {id:"lm2", level:"living", name:"Master Suite II", bed:"Queen bed", bath:"En-suite", bathType:"ens", cap:2, kind:"bedroom", photo:"room_lm2", real:true, rank:3, kidRank:5,
+   notes:"Master suite on the living floor with a private bathroom inside the room.", features:["Queen bed","En-suite bathroom","Living floor"]},
+  {id:"lm3", level:"living", name:"Master Suite III", bed:"Queen bed", bath:"En-suite", bathType:"ens", cap:2, kind:"bedroom", photo:"room_lm3", real:true, rank:4, kidRank:4,
+   notes:"Master suite on the living floor with a private bathroom inside the room.", features:["Queen bed","En-suite bathroom","Living floor"]},
+  {id:"lpb", level:"living", name:"Bedroom IV", bed:"Queen bed", bath:"Private bathroom, next door", bathType:"priv", cap:2, kind:"bedroom", photo:"room_lpb", real:true, rank:6, kidRank:3,
+   notes:"A bedroom on the living floor with its own private bathroom adjoining the room rather than inside it.", features:["Queen bed","Private bathroom beside the room","Living floor"]},
+  {id:"lms", level:"lower", name:"Lower Suite", bed:"Queen bed", bath:"En-suite", bathType:"ens", cap:2, kind:"bedroom", photo:"room_lms", real:true, rank:5, kidRank:6,
+   notes:"The lower level's suite, with a bathroom inside the room.", features:["Queen bed","En-suite bathroom","Lower level"]},
+  {id:"la", level:"lower", name:"Bedroom A", bed:"Queen bed", bath:"Shared bathroom with Bedroom B", bathType:"shr", cap:2, kind:"bedroom", photo:"room_la", real:true, bathPhoto:"bath_lower", rank:8, kidRank:1,
+   notes:"A lower-level bedroom sharing a bathroom in the corridor with Bedroom B. Natural pairing for siblings, teens or friends travelling together.", features:["Queen bed","Bathroom in the corridor, shared with Bedroom B","Lower level"]},
+  {id:"lb", level:"lower", name:"Bedroom B", bed:"Queen bed", bath:"Shared bathroom with Bedroom A", bathType:"shr", cap:2, kind:"bedroom", photo:"room_lb", real:true, bathPhoto:"bath_lower", rank:9, kidRank:2,
+   notes:"A lower-level bedroom sharing a bathroom in the corridor with Bedroom A.", features:["Queen bed","Bathroom in the corridor, shared with Bedroom A","Lower level"]},
+  {id:"at1", level:"attic", name:"Loft I", bed:"Floor mattresses × 2", bath:"Bathrooms in the main house", bathType:"none", cap:2, kind:"flex", photo:"attic1", rank:20, kidRank:10,
+   notes:"An open loft under the roof beams, closed off with a blackout curtain rather than a door. Thick floor mattresses are laid out for sleeping. Loved by kids and teens; also fine for easy-going adults.", features:["Thick floor mattresses","Blackout curtain, no door","Beanbags and daybeds","Skylight windows"]},
+  {id:"at2", level:"attic", name:"Loft II", bed:"Floor mattresses × 2", bath:"Bathrooms in the main house", bathType:"none", cap:2, kind:"flex", photo:"attic2", rank:21, kidRank:11,
+   notes:"The second attic loft, mirror of Loft I, with its own blackout curtain. Both lofts double as a workshop or play space by day.", features:["Thick floor mattresses","Blackout curtain, no door","TV lounge corner","Under the timber roof"]},
+  {id:"apb", level:"annex", name:"Apartment Bedroom", bed:"Queen bed", bath:"Apartment bathroom", bathType:"priv", cap:2, kind:"bedroom", photo:"room_apb", real:true, rank:7, kidRank:12,
+   notes:"The apartment's bedroom. The apartment has its own kitchen, living room and bathroom with shower, shared only with guests in the apartment lounge.", features:["Queen bed","Bathroom inside the apartment","Own kitchen and living room","Own entrance","Separate building"]},
+  {id:"apl", level:"annex", name:"Apartment Lounge", bed:"Temporary beds or mattresses × 2", bath:"Apartment bathroom", bathType:"priv", cap:2, kind:"flex", photo:"living", rank:22, kidRank:9,
+   notes:"The apartment's living room can be set up with two temporary beds or mattresses, making the apartment a self-contained unit for four with its own kitchen and bathroom.", features:["Two temporary beds or mattresses","Shares the apartment bathroom","Own kitchen","Separate building"]}
+];
+
+const TYPES = {
+  couple:{label:"Couple", size:2, icon:"couple"},
+  adult:{label:"Adult", size:1, icon:"adult"},
+  teen:{label:"Teen", size:1, icon:"teen"},
+  child:{label:"Child", size:1, icon:"child"},
+  infant:{label:"Infant", size:0, icon:"infant"}
+};
+const ICONS = {
+  couple:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="8" cy="7" r="3"/><circle cx="16" cy="7" r="3"/><path d="M2 20c0-3.5 2.5-6 6-6s6 2.5 6 6M10 20c0-3.5 2.5-6 6-6s6 2.5 6 6"/></svg>',
+  adult:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="7" r="3.5"/><path d="M4 21c0-4.5 3.5-8 8-8s8 3.5 8 8"/></svg>',
+  teen:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="8" r="3"/><path d="M6 21c0-4 2.7-7 6-7s6 3 6 7"/></svg>',
+  child:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="9" r="2.6"/><path d="M7 21c0-3.3 2.2-6 5-6s5 2.7 5 6"/></svg>',
+  infant:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 12h16v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M6 12V9a3 3 0 0 1 3-3h1"/><circle cx="16" cy="7" r="2.5"/></svg>',
+  bed:'<svg class="i" viewBox="0 0 24 24"><path d="M3 18v-7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7M3 15h18M6 9V6h5v3M13 9V6h5v3"/></svg>',
+  bath:'<svg class="i" viewBox="0 0 24 24"><path d="M4 12h16v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM6 12V6a2 2 0 0 1 4 0"/></svg>',
+  mat:'<svg class="i" viewBox="0 0 24 24"><rect x="3" y="10" width="18" height="8" rx="2"/><path d="M3 14h18"/></svg>',
+  pin:'<svg class="i" viewBox="0 0 24 24"><path d="M12 21s-6-5.3-6-10a6 6 0 0 1 12 0c0 4.7-6 10-6 10z"/><circle cx="12" cy="11" r="2"/></svg>',
+  warn:'<svg class="i" viewBox="0 0 24 24"><path d="M12 3 2 21h20L12 3z"/><path d="M12 10v5M12 18h.01"/></svg>',
+  ok:'<svg class="i" viewBox="0 0 24 24"><path d="M5 12l4 4L19 6"/></svg>'
+};
+const roomById = Object.fromEntries(ROOMS.map(r=>[r.id,r]));
+
+/* ---------------- state ---------------- */
+let guests = [];   // {id,type,name,room}
+let nextId = 1;
+let selectedId = null;
+let lastWhy = [];
+let lastUnplaced = 0;
+
+const EXAMPLE = [
+  ["couple","Maria & Nikos"],["couple","Anna & David"],["couple","The grandparents"],["adult","Uncle Yannis"],["adult","Sofia"],
+  ["teen","Alex, 15"],["teen","Lena, 14"],["child","Petros, 9"],["child","Elena, 7"],["infant","Baby Theo"]
+];
+
+function newGuest(type,name){
+  const g={id:nextId++,type,name:name||"",room:null};
+  guests.push(g); return g;
+}
+function autoName(g){
+  const same=guests.filter(x=>x.type===g.type);
+  const idx=same.indexOf(g)+1;
+  return TYPES[g.type].label+" "+idx;
+}
+function labelOf(g){ return g.name||autoName(g); }
+function sizeOf(g){ return TYPES[g.type].size; }
+function counted(){ return guests.reduce((n,g)=>n+sizeOf(g),0); }
+function occupants(roomId){ return guests.filter(g=>g.room===roomId); }
+function used(roomId){ return occupants(roomId).reduce((n,g)=>n+sizeOf(g),0); }
+function free(roomId){ return roomById[roomId].cap-used(roomId); }
+function canPlace(g,roomId){
+  const r=roomById[roomId];
+  if(g.type==="infant") return r.kind==="bedroom" || r.id==="apl";
+  return free(roomId)>=sizeOf(g);
+}
+function whyNot(g,roomId){
+  const r=roomById[roomId];
+  if(g.type==="infant") return "Infants sleep in a travel cot in a bedroom, not in the attic.";
+  if(sizeOf(g)===2 && free(roomId)===1) return r.name+" has one place left; a couple needs two.";
+  return r.name+" is full.";
+}
+
+/* ---------------- auto arrange ---------------- */
+function arrange(quiet){
+  guests.forEach(g=>g.room=null);
+  const why=[]; const atticFirst=document.getElementById("atticMode").checked;
+  const bedrooms=ROOMS.filter(r=>r.kind==="bedroom");
+  const byRank=[...bedrooms].sort((a,b)=>a.rank-b.rank);
+  const byKid=[...ROOMS].sort((a,b)=>a.kidRank-b.kidRank);
+  const lofts=ROOMS.filter(r=>r.level==="attic");
+  const place=(g,r)=>{ g.room=r.id; };
+  const emptyOf=list=>list.find(r=>used(r.id)===0);
+  const withFree=(list,n)=>list.find(r=>free(r.id)>=n);
+
+  const couples=guests.filter(g=>g.type==="couple");
+  const adults=guests.filter(g=>g.type==="adult");
+  const teens=guests.filter(g=>g.type==="teen");
+  const kids=guests.filter(g=>g.type==="child");
+  const infants=guests.filter(g=>g.type==="infant");
+
+  // 1. couples -> best empty bedrooms
+  couples.forEach(c=>{ const r=emptyOf(byRank); if(r) place(c,r); });
+  couples.filter(c=>!c.room).forEach(c=>{ const r=withFree([roomById.apl],2)||withFree(lofts,2); if(r) place(c,r); });
+  if(couples.length) why.push(couples.length===1?"The couple takes the Grand Master Suite on the step-free ground floor, a large en-suite room.":"Couples get the en-suite suites first, starting with the Grand Master Suite on the ground floor, then the master suites on the living floor.");
+
+  // 2. teens & kids
+  const young=[...teens,...kids];
+  if(young.length){
+    if(atticFirst && young.length>=2){
+      young.forEach(y=>{ if(!y.room){ const r=withFree(lofts,1); if(r) place(y,r); } });
+      const inAttic=young.filter(y=>y.room && roomById[y.room].level==="attic").length;
+      if(inAttic) why.push(inAttic+" of the kids and teens camp in the attic lofts on thick mattresses behind blackout curtains: a sleepover they will talk about for years. Switch the toggle off to give them bedrooms instead.");
+    }
+    // pair remaining young into bedrooms, least premium first
+    const rest=young.filter(y=>!y.room);
+    for(let i=0;i<rest.length;i++){
+      const y=rest[i]; if(y.room) continue;
+      const r=emptyOf(byKid.filter(x=>x.kind==="bedroom" && x.level!=="annex"))||emptyOf(byKid.filter(x=>x.kind==="bedroom"));
+      if(r){ place(y,r); const mate=rest.slice(i+1).find(z=>!z.room); if(mate) place(mate,r); }
+    }
+    const paired=ROOMS.filter(r=>r.kind==="bedroom" && occupants(r.id).length===2 && occupants(r.id).every(o=>o.type==="child"||o.type==="teen"));
+    if(paired.length) why.push("Children and teens share a queen bed two to a room ("+paired.map(r=>r.name).join(", ")+"), leaving the suites for the adults.");
+    // overflow young -> lofts, then lounge
+    young.filter(y=>!y.room).forEach(y=>{ const r=withFree(lofts,1)||withFree([roomById.apl],1); if(r) place(y,r); });
+  }
+
+  // 3. single adults -> own bedroom, then loft, then lounge, then share
+  adults.forEach(a=>{ const r=emptyOf(byRank); if(r) place(a,r); });
+  const solo=adults.filter(a=>a.room).length;
+  if(solo) why.push(solo===1?"The solo adult gets a bedroom of their own.":"Each solo adult gets a bedroom of their own, in order of comfort.");
+  adults.filter(a=>!a.room).forEach(a=>{ const r=withFree([roomById.apl],1)||withFree(lofts,1); if(r) place(a,r); });
+  adults.filter(a=>!a.room).forEach(a=>{ const r=byRank.slice().reverse().find(x=>free(x.id)>=1 && occupants(x.id).length && occupants(x.id).every(o=>o.type==="adult")); if(r) place(a,r); });
+  const sharing=ROOMS.filter(r=>r.kind==="bedroom" && occupants(r.id).filter(o=>o.type==="adult").length===2);
+  if(sharing.length) why.push("With every room taken, two solo adults share a queen bed in "+sharing.map(r=>r.name).join(" and ")+". Move them if that does not suit.");
+
+
+  // 5. infants -> with couples first
+  const hosts=[...couples.filter(c=>c.room), ...adults.filter(a=>a.room && roomById[a.room].kind==="bedroom")];
+  infants.forEach((inf,i)=>{
+    const h=hosts[i%Math.max(hosts.length,1)];
+    if(h && h.room && canPlace(inf,h.room)) inf.room=h.room;
+    else { const r=byRank.find(x=>canPlace(inf,x.id)); if(r) inf.room=r.id; }
+  });
+  if(infants.length) why.push((infants.length===1?"The infant stays":"Infants stay")+" in the parents' room in a travel cot, available on request.");
+
+  const apt=occupants("apb").concat(occupants("apl"));
+  if(apt.length) why.push("The apartment is a separate building with its own bathroom and front door, so the guests placed there get real privacy and the main house stays a little quieter.");
+  const unplaced=guests.filter(g=>!g.room);
+  lastUnplaced=unplaced.length;
+  if(unplaced.length) why.push(unplaced.length+" guest"+(unplaced.length>1?"s":"")+" could not be placed: the villa's sleeping places are all taken. Contact us about larger groups.");
+  lastWhy=why;
+  render(); if(!quiet) toast("Arranged "+(guests.length-unplaced.length)+" of "+guests.length+" guests");
+}
+
+/* ---------------- rendering ---------------- */
+function guestEl(g){
+  const el=document.createElement("div");
+  el.className="guest"+(g.id===selectedId?" selected":"");
+  el.dataset.type=g.type; el.dataset.id=g.id; el.tabIndex=0;
+  el.setAttribute("role","button");
+  el.setAttribute("aria-label",labelOf(g)+", "+TYPES[g.type].label+(g.room?", in "+roomById[g.room].name:", unassigned"));
+  el.innerHTML='<span class="ico">'+ICONS[TYPES[g.type].icon]+'</span><span class="lbl">'+esc(labelOf(g))+(g.name?' <small>· '+TYPES[g.type].label+'</small>':'')+'</span>';
+  if(g.room){
+    const r=roomById[g.room];
+    if(g.type==="couple" && r.kind==="flex") el.classList.add("flag");
+    if(g.type==="adult" && r.kind==="bedroom" && occupants(r.id).filter(o=>o.type==="adult").length===2) el.classList.add("flag");
+  }
+  return el;
+}
+function bathBadge(r){
+  const cls={ens:"b-ens",priv:"b-priv",shr:"b-shr",none:""}[r.bathType];
+  return '<span class="'+cls+'">'+ICONS.bath+esc(r.bath)+'</span>';
+}
+function roomEl(r){
+  const el=document.createElement("div");
+  el.className="room "+(r.kind==="flex"?"flex":"")+(free(r.id)<=0?" full":"");
+  el.dataset.drop=r.id;
+  const occ=occupants(r.id); const u=used(r.id);
+  let slots=""; for(let i=0;i<r.cap;i++) slots+='<i class="'+(i<u?"on":"")+(r.kind==="flex"?" flexs":"")+'"></i>';
+  const warn=(r.kind==="flex" && occ.some(o=>o.type==="couple"))?'<div class="warnline">A couple on two mattresses; a bedroom may suit them better.</div>':
+             (r.kind==="bedroom" && occ.filter(o=>o.type==="adult").length===2)?'<div class="warnline">Two solo adults sharing one bed.</div>':"";
+  el.innerHTML='<div class="room-head"><div><div class="room-name">'+esc(r.name)+'</div>'
+    +'<div class="room-meta"><span>'+(r.kind==="flex"?ICONS.mat:ICONS.bed)+esc(r.bed)+'</span>'+bathBadge(r)+'</div></div>'
+    +'<button class="info" data-info="'+r.id+'" aria-label="Details and photo of '+esc(r.name)+'"><img src="'+IMG[r.photo]+'" alt=""></button></div>'
+    +'<div class="slots" aria-label="'+u+' of '+r.cap+' places used">'+slots+'</div>'
+    +'<div class="occ"></div>'+warn;
+  const occEl=el.querySelector(".occ");
+  occ.forEach(g=>occEl.appendChild(guestEl(g)));
+  return el;
+}
+function render(){
+  // tray
+  const tray=document.getElementById("tray"); tray.innerHTML="";
+  const waiting=guests.filter(g=>!g.room);
+  waiting.forEach(g=>tray.appendChild(guestEl(g)));
+  document.getElementById("trayCount").textContent=waiting.length?waiting.length+" waiting":"";
+  Object.keys(TYPES).forEach(t=>{ const n=guests.filter(g=>g.type===t).length; const c=document.querySelector('[data-cnt="'+t+'"]'); if(c) c.textContent=n; const card=document.querySelector('[data-tcard="'+t+'"]'); if(card) card.classList.toggle("has",n>0); const d=document.querySelector('[data-dec="'+t+'"]'); if(d) d.disabled=n===0; });
+  // levels
+  const lv=document.getElementById("levels"); lv.innerHTML="";
+  LEVELS.forEach(L=>{
+    const d=document.createElement("div"); d.className="level "+(L.cls||"");
+    d.innerHTML='<div class="lvl-lab"><span class="eyebrow">'+esc(L.tag)+'</span><h3>'+esc(L.name)+'</h3><p>'+esc(L.blurb)+'</p></div><div class="rooms"></div>';
+    const rs=d.querySelector(".rooms");
+    ROOMS.filter(r=>r.level===L.id).forEach(r=>rs.appendChild(roomEl(r)));
+    lv.appendChild(d);
+  });
+  const an=document.getElementById("annex");
+  an.innerHTML='<div class="lvl-lab"><span class="eyebrow">'+esc(ANNEX.tag)+'</span><h3>'+esc(ANNEX.name)+'</h3><p>'+esc(ANNEX.blurb)+'</p></div><div class="rooms"></div>';
+  const ars=an.querySelector(".rooms");
+  ROOMS.filter(r=>r.level==="annex").forEach(r=>ars.appendChild(roomEl(r)));
+  renderCapacity(); renderPlan(); renderSelbar(); save();
+}
+function renderCapacity(){
+  const n=counted(); const inf=guests.filter(g=>g.type==="infant").length;
+  document.getElementById("capNum").textContent=n;
+  document.getElementById("capWord").textContent=(n===1?"guest":"guests")+" in your group"+(inf?" + "+inf+" infant"+(inf>1?"s":""):"");
+  const segs=document.getElementById("segs"); segs.innerHTML="";
+  for(let i=1;i<=VILLA_MAX;i++){ const s=document.createElement("i"); s.className=(i<=BED_PLACES?"bed":"flex")+(i<=n?" on":""); segs.appendChild(s); }
+  const placed=guests.filter(g=>g.room).reduce((a,g)=>a+sizeOf(g),0);
+  document.getElementById("stPlaced").textContent=placed+" / "+n;
+  document.getElementById("stRooms").textContent=ROOMS.filter(r=>occupants(r.id).length).length+" / "+ROOMS.length;
+  document.getElementById("stInfants").textContent=inf;
+  const note=document.getElementById("capNote"); note.className="note";
+  let msg="The villa hosts up to "+VILLA_MAX+" guests. Infants under 2 sleep in a travel cot and do not count toward the total.";
+  if(n>STANDARD_OCC && n<=VILLA_MAX){ note.classList.add("warn"); msg="Groups above "+STANDARD_OCC+" guests are welcome up to "+VILLA_MAX+"; guests beyond "+STANDARD_OCC+" carry a small per-person supplement and use the attic lofts or apartment lounge."; }
+  if(n>=VILLA_MAX){ note.classList.add("warn"); msg="You have reached the villa's maximum of "+VILLA_MAX+" guests (infants excluded). For larger groups, get in touch and we will suggest options nearby."; }
+  note.querySelector("span").textContent=msg;
+  document.querySelectorAll("[data-add]").forEach(b=>{ const t=b.dataset.add; b.disabled=(n+TYPES[t].size>VILLA_MAX) && t!=="infant"; });
+}
+function renderPlan(){
+  const list=document.getElementById("planList"); list.innerHTML="";
+  const PO=["ground","living","lower","attic","annex"];
+  const order=[...ROOMS].sort((a,b)=>PO.indexOf(a.level)-PO.indexOf(b.level)||a.rank-b.rank);
+  const lines=[]; lines.push("VILLA LITHOS · SLEEPING PLAN"); lines.push(counted()+" guests"+(guests.some(g=>g.type==="infant")?" + "+guests.filter(g=>g.type==="infant").length+" infant(s)":"")); lines.push("");
+  let curLevel=null;
+  order.forEach(r=>{
+    const occ=occupants(r.id);
+    const row=document.createElement("div"); row.className="plan-row"+(occ.length?"":" empty");
+    const lvName=r.level==="annex"?ANNEX.name:LEVELS.find(L=>L.id===r.level).name;
+    row.innerHTML='<div class="rn">'+esc(r.name)+'<small>'+esc(lvName)+' · '+esc(r.bed)+'</small></div><div class="who">'+(occ.length?occ.map(g=>'<span style="--c:var(--c-'+g.type+')"><i class="d"></i>'+esc(labelOf(g))+(g.name?'':'')+'</span>').join(""):'<span>Not used</span>')+'</div>';
+    list.appendChild(row);
+    if(lvName!==curLevel){ lines.push("— "+lvName.toUpperCase()+" —"); curLevel=lvName; }
+    lines.push(r.name+" ("+r.bed+", "+r.bath.toLowerCase()+"): "+(occ.length?occ.map(g=>labelOf(g)+(g.name?" ("+TYPES[g.type].label+")":"")).join(", "):"not used"));
+  });
+  const w=guests.filter(g=>!g.room);
+  if(w.length){ lines.push(""); lines.push("Still to place: "+w.map(labelOf).join(", ")); }
+  lines.push(""); lines.push("Made with the Villa Lithos Sleeping Planner · villalithosgreece.com");
+  document.getElementById("sumText").value=lines.join("\n");
+  const why=document.getElementById("why"); why.innerHTML="";
+  const items=lastWhy.length?lastWhy:["Press \"Arrange for me\" for a suggested plan with the reasoning behind it, or drag guests into rooms yourself."];
+  items.forEach(t=>{ const d=document.createElement("div"); d.textContent=t; why.appendChild(d); });
+}
+function renderSelbar(){
+  const bar=document.getElementById("selbar"); const g=guests.find(x=>x.id===selectedId);
+  if(!g){ bar.classList.remove("show"); return; }
+  document.getElementById("selText").textContent=labelOf(g)+" · tap a room to place";
+  const inp=document.getElementById("selName"); if(document.activeElement!==inp) inp.value=g.name;
+  bar.classList.add("show");
+  document.querySelectorAll(".room").forEach(el=>el.classList.toggle("target",canPlace(g,el.dataset.drop)));
+}
+function esc(s){ return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+let toastT; function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove("show"),2200); }
+
+/* ---------------- persistence ---------------- */
+function save(){ try{ localStorage.setItem("lithos-plan",JSON.stringify({guests,nextId,lastWhy})); }catch(e){} }
+function load(){ try{ const s=JSON.parse(localStorage.getItem("lithos-plan")); if(s && Array.isArray(s.guests) && s.guests.length){ guests=s.guests; nextId=s.nextId||guests.length+1; lastWhy=s.lastWhy||[]; return true; } }catch(e){} return false; }
+function loadExample(){ guests=[]; nextId=1; EXAMPLE.forEach(([t,n])=>newGuest(t,n)); lastWhy=[]; arrange(true); document.getElementById("groupHint").hidden=false; }
+
+/* ---------------- interactions ---------------- */
+document.querySelectorAll("[data-add]").forEach(b=>b.addEventListener("click",()=>{
+  const t=b.dataset.add; if(t!=="infant" && counted()+TYPES[t].size>VILLA_MAX){ toast("The villa's maximum is "+VILLA_MAX+" guests"); return; }
+  const g=newGuest(t); selectedId=g.id; document.getElementById("groupHint").hidden=true; render(); toast(labelOf(g)+" added. Tap a room or drag them in.");
+}));
+document.querySelectorAll("[data-dec]").forEach(b=>b.addEventListener("click",()=>{
+  const t=b.dataset.dec; const same=guests.filter(g=>g.type===t); if(!same.length) return;
+  const g=[...same].reverse().find(x=>!x.room)||same[same.length-1];
+  guests=guests.filter(x=>x.id!==g.id); if(selectedId===g.id) selectedId=null; if(!guests.length) lastWhy=[];
+  document.getElementById("groupHint").hidden=true; render(); toast(labelOf(g)+" removed");
+}));
+document.getElementById("autoBtn").addEventListener("click",()=>{ selectedId=null; if(!guests.length){ toast("Add your guests first"); return; } arrange(); document.getElementById("house").scrollIntoView({behavior:"smooth",block:"start"}); });
+document.getElementById("clearBtn").addEventListener("click",()=>{ guests.forEach(g=>g.room=null); lastWhy=[]; selectedId=null; render(); });
+document.getElementById("resetBtn").addEventListener("click",()=>{ guests=[]; nextId=1; lastWhy=[]; selectedId=null; document.getElementById("groupHint").hidden=true; render(); toast("Cleared. Add your group."); });
+document.getElementById("atticMode").addEventListener("change",()=>{ if(lastWhy.length) arrange(); });
+document.getElementById("copyBtn").addEventListener("click",async()=>{
+  const ta=document.getElementById("sumText");
+  try{ await navigator.clipboard.writeText(ta.value); toast("Summary copied"); }
+  catch(e){ ta.focus(); ta.select(); try{ document.execCommand("copy"); toast("Summary copied"); }catch(e2){ toast("Select the text and copy it"); } }
+});
+document.getElementById("selCancel").addEventListener("click",()=>{ selectedId=null; render(); });
+document.getElementById("selRemove").addEventListener("click",()=>{ guests=guests.filter(g=>g.id!==selectedId); selectedId=null; render(); toast("Guest removed"); });
+document.getElementById("selName").addEventListener("input",e=>{ const g=guests.find(x=>x.id===selectedId); if(g){ g.name=e.target.value.trim(); render(); } });
+document.getElementById("selName").addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.target.blur(); } });
+
+// tap-to-select / tap-to-place
+document.addEventListener("click",e=>{
+  if(suppressClick){ suppressClick=false; return; }
+  const info=e.target.closest("[data-info]"); if(info){ openSheet(info.dataset.info); return; }
+  const chip=e.target.closest(".guest[data-id]");
+  if(chip){ selectedId=(selectedId===+chip.dataset.id)?null:+chip.dataset.id; render(); return; }
+  const drop=e.target.closest("[data-drop]");
+  if(drop && selectedId){ const g=guests.find(x=>x.id===selectedId); moveGuest(g,drop.dataset.drop); }
+});
+document.addEventListener("keydown",e=>{
+  if(e.key==="Escape"){ if(document.querySelector(".sheet-bg")) closeSheet(); else if(selectedId){ selectedId=null; render(); } }
+  if((e.key==="Enter"||e.key===" ") && e.target.classList && e.target.classList.contains("guest")){ e.preventDefault(); e.target.click(); }
+});
+function moveGuest(g,target){
+  if(!g) return;
+  if(target==="tray"){ g.room=null; selectedId=null; lastWhy=[]; render(); return; }
+  if(!canPlace(g,target)){ toast(whyNot(g,target)); const el=document.querySelector('[data-drop="'+target+'"]'); if(el){ el.classList.add("reject"); setTimeout(()=>el.classList.remove("reject"),500);} return; }
+  g.room=target; selectedId=null; lastWhy=[]; render(); toast(labelOf(g)+" → "+roomById[target].name);
+}
+
+// pointer drag & drop (mouse + touch)
+let drag=null, suppressClick=false;
+document.addEventListener("pointerdown",e=>{
+  const chip=e.target.closest(".guest[data-id]"); if(!chip || e.button>0) return;
+  drag={id:+chip.dataset.id, chip, x:e.clientX, y:e.clientY, ghost:null, over:null, pid:e.pointerId};
+});
+document.addEventListener("pointermove",e=>{
+  if(!drag) return;
+  if(!drag.ghost){
+    if(Math.hypot(e.clientX-drag.x,e.clientY-drag.y)<7) return;
+    drag.ghost=drag.chip.cloneNode(true); drag.ghost.classList.add("ghost"); drag.ghost.classList.remove("selected"); document.body.appendChild(drag.ghost);
+    drag.chip.classList.add("dragging"); try{ drag.chip.setPointerCapture(drag.pid); }catch(err){}
+    const g=guests.find(x=>x.id===drag.id); document.querySelectorAll(".room").forEach(el=>el.classList.toggle("target",canPlace(g,el.dataset.drop)));
+  }
+  e.preventDefault();
+  drag.ghost.style.left=e.clientX+"px"; drag.ghost.style.top=e.clientY+"px";
+  const under=document.elementFromPoint(e.clientX,e.clientY);
+  const t=under && under.closest("[data-drop]");
+  if(drag.over && drag.over!==t) drag.over.classList.remove("over","reject");
+  if(t){ const g=guests.find(x=>x.id===drag.id); const ok=t.dataset.drop==="tray"||canPlace(g,t.dataset.drop); t.classList.toggle("over",ok); t.classList.toggle("reject",!ok); }
+  drag.over=t;
+  // auto-scroll near edges
+  const m=70; if(e.clientY<m) window.scrollBy(0,-12); else if(e.clientY>innerHeight-m) window.scrollBy(0,12);
+},{passive:false});
+function endDrag(e){
+  if(!drag) return;
+  if(drag.ghost){
+    suppressClick=true;
+    const g=guests.find(x=>x.id===drag.id);
+    if(drag.over){ drag.over.classList.remove("over","reject"); moveGuest(g,drag.over.dataset.drop); }
+    else render();
+    drag.ghost.remove();
+    setTimeout(()=>{ suppressClick=false; },50);
+  }
+  drag=null;
+  document.querySelectorAll(".room.target").forEach(el=>{ if(!selectedId) el.classList.remove("target"); });
+}
+document.addEventListener("pointerup",endDrag); document.addEventListener("pointercancel",endDrag);
+
+/* ---------------- detail sheet ---------------- */
+function openSheet(id){
+  const r=roomById[id]; const occ=occupants(id);
+  const lvName=r.level==="annex"?ANNEX.name+" · separate building":LEVELS.find(L=>L.id===r.level).name+" · "+LEVELS.find(L=>L.id===r.level).tag;
+  const host=document.getElementById("sheetHost");
+  host.innerHTML='<div class="sheet-bg" id="sheetBg"><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">'
+   +(r.bathPhoto?'<div class="pics"><figure><img src="'+IMG[r.photo]+'" alt="'+esc(r.name)+'"><figcaption>Bedroom</figcaption></figure><figure><img src="'+IMG[r.bathPhoto]+'" alt="Bathroom of '+esc(r.name)+'"><figcaption>'+esc(r.bath)+'</figcaption></figure></div>':'<img src="'+IMG[r.photo]+'" alt="'+esc(r.name)+'">')
+   +'<div class="sheet-body"><button class="close" id="sheetClose" aria-label="Close">×</button>'
+   +'<span class="eyebrow">'+esc(lvName)+'</span><h3 id="sheetTitle">'+esc(r.name)+'</h3>'
+   +'<p class="muted">'+esc(r.notes)+'</p>'
+   +'<dl class="kv"><dt>Sleeps</dt><dd>'+r.cap+(r.kind==="bedroom"?" in the bed":" on mattresses or temporary beds")+(r.kind==="bedroom"?", plus a travel cot on request":"")+'</dd>'
+   +'<dt>Bed</dt><dd>'+esc(r.bed)+'</dd><dt>Bathroom</dt><dd>'+esc(r.bath)+'</dd>'
+   +'<dt>Features</dt><dd>'+r.features.map(esc).join(" · ")+'</dd></dl>'
+   +'<span class="eyebrow" style="margin-top:8px">Who sleeps here</span><div class="who">'+(occ.length?occ.map(g=>'<span class="guest" data-type="'+g.type+'" style="cursor:default"><span class="ico">'+ICONS[TYPES[g.type].icon]+'</span><span class="lbl">'+esc(labelOf(g))+'</span></span>').join(""):'<span class="muted small">Nobody yet</span>')+'</div>'
+   +((r.level!=="attic" && !r.real)?'<p class="photo-note">Representative photo; rooms vary in size, view and finish.</p>':'')
+   +'</div></div></div>';
+  document.getElementById("sheetClose").addEventListener("click",closeSheet);
+  document.getElementById("sheetBg").addEventListener("click",e=>{ if(e.target.id==="sheetBg") closeSheet(); });
+  document.getElementById("sheetClose").focus();
+}
+function closeSheet(){ document.getElementById("sheetHost").innerHTML=""; }
+
+/* ---------------- gallery ---------------- */
+const GAL=[["pool","Heated infinity pool at dusk"],["living","Living room with fireplace"],["living2","Lounge"],["dining","Dining and living room, opening to the pool terrace"],["kitchen2","Design kitchen"],["bath","Bathtub with a view"],["bath2","En-suite bathroom"],["attic1","Attic loft, Loft I"],["gym","Gym"],["sauna","Outdoor barrel sauna"],["aerial","The estate from above"],["bath_lower","Shared bathroom, lower level"]];
+document.getElementById("gal").innerHTML=GAL.map(([k,c])=>'<figure><img src="'+IMG[k]+'" alt="'+esc(c)+'" loading="lazy"><figcaption>'+esc(c)+'</figcaption></figure>').join("");
+
+/* ---------------- boot ---------------- */
+function start(hot){
+  if(hot && hot.guests){ guests=hot.guests; nextId=hot.nextId||guests.length+1; lastWhy=hot.lastWhy||[]; document.getElementById("groupHint").hidden=true; render(); }
+  else if(load()){ document.getElementById("groupHint").hidden=true; render(); }
+  else loadExample();
+  try{ window.claude?.hot?.snapshot?.(()=>({guests,nextId,lastWhy})); }catch(e){}
+}
+(window.claude?.hot?.ready) ? window.claude.hot.ready(start) : start(window.claude?.hot?.data ?? null);
+</script>
+
+</body>
+</html>
