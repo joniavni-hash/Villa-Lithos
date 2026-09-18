@@ -4,7 +4,10 @@ const nextConfig: NextConfig = {
     /* config options here */
     reactCompiler: true,
         async rewrites() {
-                  return [{ source: '/planner', destination: '/planner/index.html' }];
+                  return [
+                    { source: '/planner', destination: '/planner/index.html' },
+                    { source: '/checkin', destination: '/checkin/index.html' },
+                  ];
         },
     async redirects() {
           return [
