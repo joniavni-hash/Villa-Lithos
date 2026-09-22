@@ -15,6 +15,8 @@ import {
     canonicalOf,
 } from "@/app/lib/seo";
 import { AllJsonLd } from "@/app/lib/jsonld";
+import CookieConsent from "@/components/CookieConsent";
+import GtmLoader from "@/components/GtmLoader";
 import { getGlobalData } from "@/app/lib/tina";
 
 export const viewport: Viewport = {
@@ -98,17 +100,13 @@ export default async function RootLayout({
               <head>
                       <meta name="p:domain_verify" content="51a3c5f2b6fbc6b9d8a43099faf933e4"/>
                       <AllJsonLd />
-                {/* Google Tag Manager */}
-                      <Script id="gtm-script" strategy="afterInteractive">
-                        {`
-                                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                                                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                                                            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                                                                        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                                                                                    })(window,document,'script','dataLayer','GTM-W679GNPL');
-                                                                                              `}
+                {/* Google Consent Mode v2: everything denied until the visitor chooses. Runs before any Google tag. */}
+                      <Script id="consent-default" strategy="beforeInteractive">
+                        {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+(function(){var m=document.cookie.match(/(?:^|; )vl_consent=([^;]*)/);var c=m?decodeURIComponent(m[1]):null;
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:c==='all'?'granted':'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});})();`}
                       </Script>
-                {/* End Google Tag Manager */}
+                {/* Google Tag Manager is loaded by <GtmLoader /> only after the visitor accepts analytics and marketing cookies */}
                       <Script
                                   src="https://www.googletagmanager.com/gtag/js?id=G-EM5FB4QF8R"
                                   strategy="afterInteractive"
@@ -123,18 +121,11 @@ export default async function RootLayout({
                       </Script>
               </head>
               <body suppressHydrationWarning>
-                {/* Google Tag Manager (noscript) */}
-                      <noscript>
-                                <iframe
-                                              src="https://www.googletagmanager.com/ns.html?id=GTM-W679GNPL"
-                                              height="0"
-                                              width="0"
-                                              style={{ display: "none", visibility: "hidden" }}
-                                            />
-                      </noscript>
-                {/* End Google Tag Manager (noscript) */}
+
                       <Header data={global?.header || undefined} />
                       <main id="site-main">{children}</main>
+                      <CookieConsent />
+                      <GtmLoader />
                       <AdminHide>
                                 <Footer
                                               data={global?.footer || undefined}
