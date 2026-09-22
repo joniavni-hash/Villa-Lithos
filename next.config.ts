@@ -38,8 +38,83 @@ const nextConfig: NextConfig = {
             },
             {
                       source: '/about',
-                      destination: '/',
+                      destination: '/#estate',
                       permanent: true,
+            },
+            {
+                      source: '/estate',
+                      destination: '/#estate',
+                      permanent: true,
+            },
+            {
+                      source: '/our-story',
+                      destination: '/#estate',
+                      permanent: true,
+            },
+            {
+                      source: '/amenities',
+                      destination: '/#about',
+                      permanent: true,
+            },
+            {
+                      source: '/facilities',
+                      destination: '/#about',
+                      permanent: true,
+            },
+            {
+                      source: '/pricing',
+                      destination: '/#inquiry',
+                      permanent: true,
+            },
+            {
+                      source: '/prices',
+                      destination: '/#inquiry',
+                      permanent: true,
+            },
+            {
+                      source: '/rates',
+                      destination: '/#inquiry',
+                      permanent: true,
+            },
+            {
+                      source: '/availability',
+                      destination: '/#inquiry',
+                      permanent: true,
+            },
+            {
+                      source: '/book',
+                      destination: 'https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72',
+                      permanent: false,
+            },
+            {
+                      source: '/book-now',
+                      destination: 'https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72',
+                      permanent: false,
+            },
+            {
+                      source: '/experiences',
+                      destination: '/articles',
+                      permanent: true,
+            },
+            {
+                      source: '/blog',
+                      destination: '/articles',
+                      permanent: true,
+            },
+            {
+                      source: '/guides',
+                      destination: '/articles',
+                      permanent: true,
+            },
+            {
+                      source: '/retreats',
+                      destination: '/#inquiry',
+                      permanent: false,
+            },
+            {
+                      source: '/corporate-retreats',
+                      destination: '/#inquiry',
+                      permanent: false,
             },
             {
                       source: '/location',

@@ -36,7 +36,8 @@ This file is the machine-readable summary of https://www.villalithosgreece.com f
 - Check-out: 11:00
 - Pets allowed: No
 - Smoking allowed: No
-- Managed by: Goldenberg Luxe
+- Ownership: privately owned (not a hotel group or developer); the owners use the house themselves and open it to guests the rest of the year
+- Managed by: Goldenberg Luxe (day-to-day operations, check-in, housekeeping, concierge)
 - Languages spoken: English, Greek, Hebrew
 
 ## Amenities
@@ -76,7 +77,7 @@ Porto Rafti is a coastal town on the eastern shore of Attica, Greece, on the Aeg
 
 ## Home page
 
-- [Villa Lithos Porto Rafti](https://www.villalithosgreece.com/): Overview of the property, with sections for services (#services), photo gallery (#gallery), and the inquiry form (#inquiry).
+- [Villa Lithos Porto Rafti](https://www.villalithosgreece.com/): Overview of the property, with sections for the villa and amenities (#about), the estate and its owners (#estate), concierge services (#services), photo gallery (#gallery), location (#location), and the inquiry form (#inquiry). Short paths /about, /amenities, /pricing, /book, /experiences redirect to the matching section or page.
 
 ## Guides
 

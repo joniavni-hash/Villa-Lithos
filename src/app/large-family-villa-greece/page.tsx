@@ -5,7 +5,7 @@ const TITLE = "The Best Large Family Villas in Greece for Groups of 20";
 const DESC = "A practical comparison of large luxury villas in Greece that comfortably host 18 to 22 guests. Capacity, price band, location, and amenity highlights for multi-generational trips, milestone celebrations, and corporate retreats.";
 const URL = "https://www.villalithosgreece.com/large-family-villa-greece";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-05-11";
+const MODIFIED = "2026-09-22";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -68,7 +68,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <h1 style={s.h1}>{TITLE}</h1>
-      <span style={s.meta}>Last updated: 26 May 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: September 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
         According to data published by major luxury villa operators, large family villas accommodating 18 to 22 guests in a single party are uncommon in Greece. Most of the stock is concentrated on Mykonos and Santorini, with a smaller cluster on the Athens Riviera and an emerging set of properties in East Attica. This page is a practical map of the category, with capacity, location, and price-band detail for travellers planning a multi-generational trip, a milestone celebration, or a corporate retreat for 20.
@@ -114,12 +114,12 @@ export default function Page() {
           <tr><td style={s.td}>Santorini</td><td style={s.td}>10 to 22</td><td style={s.td}>40,000 plus</td><td style={s.td}>Internal flight required</td></tr>
           <tr><td style={s.td}>Crete</td><td style={s.td}>12 to 22</td><td style={s.td}>15,000 to 40,000</td><td style={s.td}>Internal flight or 8 to 10 hour ferry</td></tr>
           <tr><td style={s.td}>Athens Riviera</td><td style={s.td}>12 to 18</td><td style={s.td}>20,000 to 50,000</td><td style={s.td}>30 to 45 minutes</td></tr>
-          <tr><td style={s.td}>East Attica (Porto Rafti)</td><td style={s.td}>up to 22 (Villa Lithos)</td><td style={s.td}>15,000 to 35,000</td><td style={s.td}>~20 minutes</td></tr>
+          <tr><td style={s.td}>East Attica (Porto Rafti)</td><td style={s.td}>up to 22 (Villa Lithos)</td><td style={s.td}>Quoted directly, by week and season</td><td style={s.td}>~20 minutes</td></tr>
           <tr><td style={s.td}>Peloponnese (Mani, Costa Navarino)</td><td style={s.td}>10 to 22</td><td style={s.td}>20,000 to 50,000</td><td style={s.td}>3.5 to 5 hours</td></tr>
         </tbody>
       </table>
       <p style={s.source}>
-        Rates are indicative ranges for peak-season July to August 2026, derived from publicly available rental listings on Booking.com, Airbnb, The Thinking Traveller, Oliver&apos;s Travels, and Welcome Beyond. Actual rates vary by villa, week, and party size. Not a guaranteed quote.
+        Regional rates are indicative ranges for peak-season July to August 2026, derived from publicly available rental listings on Booking.com, Airbnb, The Thinking Traveller, Oliver&apos;s Travels, and Welcome Beyond. Actual rates vary by villa, week, and party size. Villa Lithos rates are not published here: <Link href="/#inquiry" style={{ color: "#7a8c6e" }}>request a quote</Link> for your dates.
       </p>
 
       <h2 style={s.h2}>Decision Factors for Large Family Groups</h2>
@@ -137,7 +137,7 @@ export default function Page() {
       </p>
       <h3 style={s.h3}>Cost per guest</h3>
       <p style={s.p}>
-        At 22 guests, the per-guest cost is often the most useful metric. A 60,000 euro week on Mykonos becomes about 2,700 euros per guest, plus the cost of Mykonos meals, transfers, and beach clubs. A 25,000 euro week in Porto Rafti becomes about 1,130 euros per guest, with mainland restaurant prices and the option of in-villa private chef catering at materially lower rates.
+        At 22 guests, the per-guest cost is often the most useful metric. A 60,000 euro week on Mykonos becomes about 2,700 euros per guest, plus the cost of Mykonos meals, transfers, and beach clubs. A peak week at Villa Lithos Porto Rafti, quoted directly by week and season, lands materially below the Cycladic equivalents on a per-guest basis, before adding mainland restaurant prices and the option of in-villa private chef catering at materially lower rates.
       </p>
 
       <h2 style={s.h2}>The Use Cases for Large Family Villas</h2>
@@ -170,7 +170,7 @@ export default function Page() {
         <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
       </div>
 
-      <p style={s.updated}>Last updated: 11 May 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>
+      <p style={s.updated}>Last updated: 22 September 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>
 
       <Link href="/" style={s.back}>&larr; Back to Villa Lithos home</Link>
     </article>

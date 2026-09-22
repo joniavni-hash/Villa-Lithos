@@ -1974,6 +1974,175 @@ body.menu-open #site-menu {
 }
 
 /* =========================================================
+   Estate Section - who is behind the villa (/#estate)
+   ========================================================= */
+
+.estate {
+  position: relative;
+  scroll-margin-top: 96px;
+  padding: 4rem 0 3.5rem;
+  background: var(--page-2);
+  border-top: 1px solid var(--border-soft);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.estate__container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.estate__header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.estate__kicker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.estate__kicker::before,
+.estate__kicker::after {
+  content: "";
+  width: 24px;
+  height: 1px;
+  background: var(--accent);
+}
+
+.estate__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin: 0 auto;
+  max-width: 720px;
+}
+
+.estate__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.estate__image-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.estate__image {
+  object-fit: cover;
+}
+
+.estate__text {
+  font-family: var(--font-sans);
+  color: var(--text-secondary);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+
+.estate__text p {
+  margin: 0 0 1.125rem;
+}
+
+.estate__lead {
+  font-size: 1.1875rem;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+.estate__facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.75rem 0 1.5rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.estate__fact dt {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+
+.estate__fact dd {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--text);
+}
+
+.estate__closing {
+  font-style: italic;
+  color: var(--muted);
+}
+
+.estate__link {
+  font-style: normal;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.estate__link:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+@media (max-width: 560px) {
+  .estate__facts {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .estate {
+    padding: 6rem 0 5rem;
+  }
+
+  .estate__grid {
+    grid-template-columns: 46fr 54fr;
+    gap: 3.5rem;
+    align-items: center;
+  }
+
+  .estate__image-wrap {
+    aspect-ratio: 4 / 5;
+    position: sticky;
+    top: 6rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .estate__container {
+    max-width: 1240px;
+  }
+}
+
+/* =========================================================
    Concierge Section - Luxury Editorial Layout
    ========================================================= */
 
