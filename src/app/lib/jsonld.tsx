@@ -18,6 +18,19 @@ function JsonLd<T extends object>({ data }: JsonLdProps<T>) {
 const DEFINITION_LEAD =
   "Villa Lithos Porto Rafti is a 9-bedroom, 800 m² luxury villa in Porto Rafti, Attica, Greece, located 16 km (a 20-minute drive) from Athens International Airport. The property sleeps 22 guests across nine bedrooms and 8.5 bathrooms on a 5,000 m² private estate, with a heated infinity pool, outdoor sauna, jacuzzi, padel court, private gym, and elevator. It is managed by Goldenberg Luxe and is bookable on Booking.com, Airbnb, and direct.";
 
+// Google Business Profile (Maps place) for "Villa Lithos", Vravronos 70, Porto Rafti
+const GOOGLE_MAPS_PLACE = "https://www.google.com/maps?cid=13572198104547090834";
+
+// Shared postal address, used by Organization and LodgingBusiness
+const ADDRESS = {
+  "@type": "PostalAddress",
+  streetAddress: "Vravronos 70",
+  addressLocality: "Porto Rafti",
+  addressRegion: "Attica",
+  postalCode: "19003",
+  addressCountry: "GR",
+};
+
 // Shared external references used in sameAs
 const SAME_AS = [
   "https://www.instagram.com/villa.lithos/",
@@ -25,6 +38,7 @@ const SAME_AS = [
   "https://www.booking.com/hotel/gr/villa-lithos-porto-rafti.html",
   "https://airbnb.com/h/lithoss",
   "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72",
+  GOOGLE_MAPS_PLACE,
 ];
 
 // Organization Schema
@@ -32,12 +46,17 @@ export function OrganizationJsonLd() {
   const data = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": siteUrl("/#org"),
     name: "Villa Lithos Porto Rafti",
     alternateName: SITE.name,
     url: siteUrl(),
     logo: siteUrl("/img/logo.webp"),
     description: DEFINITION_LEAD,
     sameAs: SAME_AS,
+    address: ADDRESS,
+    telephone: "+30-693-275-7142",
+    email: "info@villalithos.com",
+    owns: { "@id": siteUrl("/#villa") },
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "reservations",
@@ -86,14 +105,8 @@ export function VacationRentalJsonLd() {
     logo: siteUrl("/img/logo.webp"),
     priceRange: "$$$$",
     currenciesAccepted: "EUR, USD",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Vravronos 70",
-      addressLocality: "Porto Rafti",
-      addressRegion: "Attica",
-      postalCode: "19003",
-      addressCountry: "GR",
-    },
+    address: ADDRESS,
+    parentOrganization: { "@id": siteUrl("/#org") },
     geo: {
       "@type": "GeoCoordinates",
       latitude: "37.9022",
@@ -129,7 +142,42 @@ export function VacationRentalJsonLd() {
     knowsLanguage: ["en", "el", "he"],
     isAccessibleForFree: false,
     publicAccess: false,
-    hasMap: "https://www.google.com/maps/dir/?api=1&destination=37.9022327,24.0224142",
+    hasMap: GOOGLE_MAPS_PLACE,
+  };
+  return <JsonLd data={data} />;
+}
+
+// Service Schema - the two productised offerings, both provided by the Organization node
+export function ServicesJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Service",
+        "@id": siteUrl("/corporate-retreats#service"),
+        name: "Corporate retreats and leadership offsites at Villa Lithos Porto Rafti",
+        serviceType: "Corporate retreat venue",
+        description:
+          "Private-estate venue for company retreats, leadership offsites and working weeks for teams of 10 to 22, on weekday blocks from October to May. Nine bedrooms, two living rooms, attic workshop spaces, heated infinity pool, padel court, gym and sauna, 16 km from Athens International Airport. Private chef, transfers and presentation equipment arranged by the concierge team. Proposals on request.",
+        url: siteUrl("/corporate-retreats"),
+        provider: { "@id": siteUrl("/#org") },
+        areaServed: { "@type": "AdministrativeArea", name: "Attica, Greece" },
+        audience: { "@type": "BusinessAudience", audienceType: "Companies and leadership teams of 10 to 22 people" },
+        availableLanguage: ["English", "Greek", "Hebrew"],
+      },
+      {
+        "@type": "Service",
+        "@id": siteUrl("/#concierge-service"),
+        name: "Concierge services at Villa Lithos Porto Rafti",
+        serviceType: "Villa concierge",
+        description:
+          "Private chef, airport and group transfers, boat trips from Rafina, day trips to Athens, Cape Sounion and Brauron, in-villa wellness and activities, arranged by the Goldenberg Luxe concierge team for guests of Villa Lithos Porto Rafti.",
+        url: siteUrl("/#services"),
+        provider: { "@id": siteUrl("/#org") },
+        areaServed: { "@type": "AdministrativeArea", name: "Attica, Greece" },
+        availableLanguage: ["English", "Greek", "Hebrew"],
+      },
+    ],
   };
   return <JsonLd data={data} />;
 }
@@ -347,6 +395,7 @@ export function AllJsonLd() {
       <OrganizationJsonLd />
       <WebSiteJsonLd />
       <VacationRentalJsonLd />
+      <ServicesJsonLd />
       <BreadcrumbJsonLd />
       <FAQJsonLd />
     </>
