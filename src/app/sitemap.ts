@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "villas-near-athens-airport",
     "large-family-villa-greece",
     "porto-rafti-vs-mykonos-vs-santorini",
+    "corporate-retreats",
   ];
 
   const articleSlugs = [

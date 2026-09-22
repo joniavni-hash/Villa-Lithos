@@ -53,6 +53,12 @@ const guides = [
     title: "Porto Rafti vs Mykonos vs Santorini",
     excerpt: "Honest 2026 comparison by airport access, beach safety, crowding, cost, and day-trip range.",
   },
+  {
+    href: "/corporate-retreats",
+    label: "Corporate Retreats",
+    title: "Company Offsites 20 Minutes From ATH",
+    excerpt: "A private estate for teams of 10 to 22: rooming plans, working spaces, sample agenda, and weekday availability.",
+  },
 ];
 
 const featuredArticles = [
