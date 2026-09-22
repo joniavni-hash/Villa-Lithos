@@ -26,6 +26,42 @@ export const metadata: Metadata = {
   }
 };
 
+// Long-form guides (landing pages outside /articles/). Listed here so the
+// Articles hub is the one place for all editorial content; they no longer
+// have their own buttons in the main navigation.
+const guides = [
+  {
+    href: "/luxury-villa-porto-rafti",
+    title: "Luxury Villa in Porto Rafti, Greece: A 9-Bedroom Estate Near Athens",
+    excerpt: "The full detail on Villa Lithos Porto Rafti: layout, amenities, distances, and the wider Porto Rafti context.",
+    category: "Villa Guide",
+  },
+  {
+    href: "/villas-near-athens-airport",
+    title: "Closest Luxury Villa to Athens International Airport: A 20-Minute Drive to Porto Rafti",
+    excerpt: "Drive-time comparison of the leading large villas near Eleftherios Venizelos, and why proximity matters for groups.",
+    category: "Near Athens",
+  },
+  {
+    href: "/large-family-villa-greece",
+    title: "The Best Large Family Villas in Greece for Groups of 20",
+    excerpt: "Where the 18-to-22 guest villas actually are, with regional capacity, location, and amenity comparisons.",
+    category: "Large Groups",
+  },
+  {
+    href: "/porto-rafti-vs-mykonos-vs-santorini",
+    title: "Porto Rafti vs Mykonos vs Santorini: A 2026 Comparison for Families",
+    excerpt: "An honest comparison by airport access, beach safety, peak-season crowding, cost, and day-trip range.",
+    category: "vs Islands",
+  },
+  {
+    href: "/corporate-retreats",
+    title: "Corporate Retreats in Greece, 20 Minutes from Athens Airport",
+    excerpt: "A private estate for teams of 10 to 22: retreat formats, rooming plans, working spaces, sample agenda, and weekday availability.",
+    category: "Retreats & Offsites",
+  },
+];
+
 const articles = [
   {
     slug: "wellness-retreats-greece-mainland",
@@ -127,7 +163,7 @@ const articles = [
 
 export default function ArticlesPage() {
   return (
-    <main
+    <div
       style={{
         maxWidth: 900,
         margin: "0 auto",
@@ -156,6 +192,55 @@ export default function ArticlesPage() {
       >
         Travel guides, family vacation tips, and insider knowledge about Porto Rafti and the Athens Riviera.
       </p>
+
+      <h2
+        style={{
+          fontFamily: "'DM Serif Display', serif",
+          fontSize: "1.6rem",
+          color: "#2c2c2c",
+          marginBottom: 6,
+        }}
+      >
+        Guides
+      </h2>
+      <p style={{ fontSize: 15, color: "#666", marginBottom: 24, lineHeight: 1.6 }}>
+        Long-form reference pages on the villa, the location, and how it compares.
+      </p>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 20, marginBottom: 56 }}>
+        {guides.map((g) => (
+          <Link
+            key={g.href}
+            href={g.href}
+            style={{
+              textDecoration: "none",
+              color: "inherit",
+              background: "#fff",
+              border: "1px solid #ece7d8",
+              borderRadius: 12,
+              padding: "24px 24px",
+              display: "flex",
+              flexDirection: "column",
+              boxShadow: "0 1px 3px rgba(0,0,0,0.04)",
+            }}
+          >
+            <span style={{ fontSize: 12, fontWeight: 600, letterSpacing: 1.2, textTransform: "uppercase", color: "#7a8c6e", marginBottom: 10 }}>{g.category}</span>
+            <h3 style={{ fontFamily: "'DM Serif Display', serif", fontSize: "1.15rem", color: "#2c2c2c", margin: "0 0 10px 0", lineHeight: 1.3 }}>{g.title}</h3>
+            <p style={{ fontSize: 14, color: "#5e5e5e", lineHeight: 1.6, margin: "0 0 12px 0", flex: 1 }}>{g.excerpt}</p>
+            <span style={{ color: "#7a8c6e", fontSize: 14, fontWeight: 600 }}>Read the guide &rarr;</span>
+          </Link>
+        ))}
+      </div>
+
+      <h2
+        style={{
+          fontFamily: "'DM Serif Display', serif",
+          fontSize: "1.6rem",
+          color: "#2c2c2c",
+          marginBottom: 24,
+        }}
+      >
+        Articles
+      </h2>
       <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
         {articles.map((article) => (
           <Link
@@ -215,6 +300,6 @@ export default function ArticlesPage() {
           <Link href="/#inquiry" style={{ display: "inline-block", padding: "14px 36px", background: "#8B9A6B", color: "#fff", borderRadius: 8, fontWeight: 600, fontSize: "1.08rem", textDecoration: "none", letterSpacing: 0.5 }}>Inquire Now</Link>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

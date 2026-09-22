@@ -1974,6 +1974,23 @@ body.menu-open #site-menu {
 }
 
 /* =========================================================
+   Fixed-header offset for pages without a full-bleed hero
+   (the homepage and /corporate-retreats render their own <main>
+   with a hero that sits under the header; every other page
+   starts below it)
+   ========================================================= */
+
+#site-main:not(:has(> main)) {
+  padding-top: 72px;
+}
+
+@media (min-width: 768px) {
+  #site-main:not(:has(> main)) {
+    padding-top: 84px;
+  }
+}
+
+/* =========================================================
    Estate Section - who is behind the villa (/#estate)
    ========================================================= */
 
