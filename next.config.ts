@@ -111,6 +111,11 @@ const nextConfig: NextConfig = {
                       destination: '/corporate-retreats',
                       permanent: true,
             },
+            { source: '/privacy-policy', destination: '/privacy', permanent: true },
+            { source: '/cookies', destination: '/privacy#cookies', permanent: true },
+            { source: '/cookie-policy', destination: '/privacy#cookies', permanent: true },
+            { source: '/terms-of-use', destination: '/terms', permanent: true },
+            { source: '/terms-and-conditions', destination: '/terms', permanent: true },
             {
                       source: '/location',
                       destination: '/#location',
