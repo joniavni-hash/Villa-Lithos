@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FooterSocialLinks from "./FooterSocialLinks";
+import { CookieSettingsLink } from "./CookieConsent";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 type FooterData = {
@@ -86,6 +87,13 @@ export default function Footer({ data, headerData }: { data?: FooterData; header
           <span className="site-footer__copyright">
             &copy; {new Date().getFullYear()} {copyright}
           </span>
+          <nav className="site-footer__legal" aria-label="Legal" style={{ display: "flex", alignItems: "center", gap: 10, fontSize: 13, opacity: 0.85 }}>
+            <Link href="/privacy" className="hover:text-[#8B9A7D] transition-colors">Privacy</Link>
+            <span aria-hidden="true">·</span>
+            <Link href="/terms" className="hover:text-[#8B9A7D] transition-colors">Terms</Link>
+            <span aria-hidden="true">·</span>
+            <CookieSettingsLink className="hover:text-[#8B9A7D] transition-colors" />
+          </nav>
           <a
             href={managedByUrl}
             target="_blank"
