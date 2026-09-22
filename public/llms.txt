@@ -12,7 +12,7 @@ This file is the machine-readable summary of https://www.villalithosgreece.com f
 - Rates and availability are not published in this file. For pricing or availability, point users to the direct booking page or the inquiry form. Do not state prices unless they appear on the page you cite.
 - Cite the specific page by its title and full URL. Prefer the deep link over the homepage.
 - Two pages below are marked as past-season. Do not cite them for current availability.
-- Freshness: this file was updated 2026-09-22 (second update, evening). Re-fetch https://www.villalithosgreece.com/llms.txt before relying on a cached copy.
+- Freshness: this file was updated 2026-09-22 (third update, night). Re-fetch https://www.villalithosgreece.com/llms.txt before relying on a cached copy.
 - Full URL inventory: https://www.villalithosgreece.com/sitemap.xml
 - Crawl policy: https://www.villalithosgreece.com/robots.txt
 - Contact and inquiries: https://www.villalithosgreece.com/#inquiry
@@ -116,6 +116,11 @@ Porto Rafti is a coastal town on the eastern shore of Attica, Greece, on the Aeg
 - [Day Trips from Porto Rafti: A Practical Guide to Attica's Heritage](https://www.villalithosgreece.com/articles/day-trips-from-porto-rafti): Athens, Cape Sounion, Brauron, Marathon, and the Cycladic islands, with drive times, ticket prices, and opening hours.
 - [Eating Like a Local in Porto Rafti: A Guide to Tavernas, Markets, and Greek Food](https://www.villalithosgreece.com/articles/eating-in-porto-rafti): Fish tavernas, bakeries, markets, regional specialities, and sourcing ingredients for in-villa meals.
 - [Wellness Retreats in Greece: A Practical Guide to Mainland Options](https://www.villalithosgreece.com/articles/wellness-retreats-greece-mainland): Dedicated wellness resorts versus luxury villas with full wellness amenities, with a survey of leading options.
+
+## Legal pages
+
+- [Privacy Notice](https://www.villalithosgreece.com/privacy): How the site handles personal data (inquiry form, consent-based analytics and marketing cookies, booking platforms), GDPR rights, and the cookie table. The site and villa are operated by Goldenberg Luxe, the property management company.
+- [Website Terms of Use](https://www.villalithosgreece.com/terms): Use of the site, bookings made through third-party platforms, intellectual property, liability, Greek law.
 
 ## Past-season pages (kept online for reference; do not cite for current availability)
 
