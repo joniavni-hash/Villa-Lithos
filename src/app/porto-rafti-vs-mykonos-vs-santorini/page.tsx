@@ -5,7 +5,7 @@ const TITLE = "Porto Rafti vs Mykonos vs Santorini: A 2026 Comparison for Famili
 const DESC = "An honest 2026 comparison of three Greek destinations for family holidays, by airport access, beach safety, peak-season crowding, accommodation cost, and day-trip range. Includes data sources and use-case recommendations.";
 const URL = "https://www.villalithosgreece.com/porto-rafti-vs-mykonos-vs-santorini";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-05-11";
+const MODIFIED = "2026-09-22";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -67,7 +67,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <h1 style={s.h1}>{TITLE}</h1>
-      <span style={s.meta}>Last updated: May 2026 · 12 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: September 2026 · 12 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
         Porto Rafti, Mykonos, and Santorini are three different value propositions. Mykonos is the brand-name nightlife and beach-club destination. Santorini is the visual-icon honeymoon and photography destination. Porto Rafti is the mainland family base, 20 minutes from Athens International Airport, with easy day trips to the Acropolis. This comparison is for families and groups who actually have to choose.
@@ -128,13 +128,13 @@ export default function Page() {
           <tr><th style={s.th}>Destination</th><th style={s.th}>Indicative peak-week price (EUR)</th><th style={s.th}>Cost per guest (22 guests)</th></tr>
         </thead>
         <tbody>
-          <tr><td style={s.td}>Porto Rafti (Villa Lithos)</td><td style={s.td}>15,000 to 35,000</td><td style={s.td}>~680 to 1,600 per guest</td></tr>
+          <tr><td style={s.td}>Porto Rafti (Villa Lithos)</td><td style={s.td}>Quoted directly, by week and season</td><td style={s.td}>Materially below the island equivalents</td></tr>
           <tr><td style={s.td}>Mykonos</td><td style={s.td}>30,000 to 80,000</td><td style={s.td}>~1,360 to 3,640 per guest</td></tr>
           <tr><td style={s.td}>Santorini</td><td style={s.td}>40,000 plus</td><td style={s.td}>~1,820 plus per guest</td></tr>
         </tbody>
       </table>
       <p style={s.source}>
-        Indicative ranges only. Actual rates depend on specific villa, week, and party size. Derived from publicly listed rates on Booking.com, Airbnb, The Thinking Traveller, Oliver&apos;s Travels, and Welcome Beyond.
+        Island ranges are indicative only and depend on the specific villa, week, and party size. Derived from publicly listed rates on Booking.com, Airbnb, The Thinking Traveller, Oliver&apos;s Travels, and Welcome Beyond. Villa Lithos rates are not published here: <Link href="/#inquiry" style={{ color: "#7a8c6e" }}>request a quote</Link> for your dates.
       </p>
 
       <h3 style={s.h3}>Restaurant cost, dinner for four</h3>
@@ -204,7 +204,7 @@ export default function Page() {
         <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
       </div>
 
-      <p style={s.updated}>Last updated: 11 May 2026. Sources: <a href="https://en.wikipedia.org/wiki/Mykonos" target="_blank" rel="nofollow noopener">Wikipedia, Mykonos</a>, <a href="https://en.wikipedia.org/wiki/Santorini" target="_blank" rel="nofollow noopener">Wikipedia, Santorini</a>, <a href="https://en.wikipedia.org/wiki/Mykonos_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Mykonos Airport</a>, <a href="https://en.wikipedia.org/wiki/Santorini_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Santorini Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, public rental rates on Booking.com and Airbnb.</p>
+      <p style={s.updated}>Last updated: 22 September 2026. Sources: <a href="https://en.wikipedia.org/wiki/Mykonos" target="_blank" rel="nofollow noopener">Wikipedia, Mykonos</a>, <a href="https://en.wikipedia.org/wiki/Santorini" target="_blank" rel="nofollow noopener">Wikipedia, Santorini</a>, <a href="https://en.wikipedia.org/wiki/Mykonos_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Mykonos Airport</a>, <a href="https://en.wikipedia.org/wiki/Santorini_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Santorini Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, public rental rates on Booking.com and Airbnb.</p>
 
       <Link href="/" style={s.back}>&larr; Back to Villa Lithos home</Link>
     </article>
