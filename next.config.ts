@@ -108,13 +108,8 @@ const nextConfig: NextConfig = {
             },
             {
                       source: '/retreats',
-                      destination: '/#inquiry',
-                      permanent: false,
-            },
-            {
-                      source: '/corporate-retreats',
-                      destination: '/#inquiry',
-                      permanent: false,
+                      destination: '/corporate-retreats',
+                      permanent: true,
             },
             {
                       source: '/location',
