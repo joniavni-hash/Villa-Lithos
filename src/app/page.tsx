@@ -3,6 +3,7 @@ import Link from "next/link";
 import HeroBanner from "@/components/HeroBanner";
 import MarqueeLine from "@/components/MarqueeLine";
 import UltraLuxuryGallery from "@/components/UltraLuxuryGallery";
+import EstateSection from "@/components/EstateSection";
 import { getPageData, getGlobalData } from "@/app/lib/tina";
 
 // Dynamic imports for below-fold heavy components
@@ -255,6 +256,9 @@ export default async function HomePage() {
         amenitiesData={page?.amenities || undefined}
         bookingUrl={global?.header?.bookingUrl || undefined}
       />
+
+      {/* Who is behind the villa, anchor /#estate (also /about) */}
+      <EstateSection />
 
       <ConciergeSection data={page?.concierge || undefined} />
 
