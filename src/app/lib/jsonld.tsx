@@ -397,7 +397,7 @@ export function AllJsonLd() {
       <VacationRentalJsonLd />
       <ServicesJsonLd />
       <BreadcrumbJsonLd />
-      <FAQJsonLd />
+      {/* FAQJsonLd is rendered on the homepage only, so pages with their own FAQPage (e.g. /corporate-retreats) do not carry two. */}
     </>
   );
 }
