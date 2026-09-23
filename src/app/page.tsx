@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import HeroBanner from "@/components/HeroBanner";
@@ -5,6 +6,18 @@ import MarqueeLine from "@/components/MarqueeLine";
 import UltraLuxuryGallery from "@/components/UltraLuxuryGallery";
 import EstateSection from "@/components/EstateSection";
 import { getPageData, getGlobalData } from "@/app/lib/tina";
+import { defaultOpenGraph, defaultTwitter } from "@/app/lib/seo";
+import { FAQJsonLd } from "@/app/lib/jsonld";
+
+const HOME_TITLE = "Villa Lithos Porto Rafti | Luxury Villa for 22 Near Athens";
+const HOME_DESC = "Villa Lithos Porto Rafti: a private 9-bedroom luxury villa for up to 22 guests, 20 minutes from Athens Airport, with heated pool, padel, gym and sauna.";
+
+export const metadata: Metadata = {
+  title: { absolute: HOME_TITLE },
+  description: HOME_DESC,
+  openGraph: { ...defaultOpenGraph, type: "website", title: HOME_TITLE, description: HOME_DESC },
+  twitter: { ...defaultTwitter, title: HOME_TITLE, description: HOME_DESC },
+};
 
 // Dynamic imports for below-fold heavy components
 const VillaIntroSection = dynamic(
@@ -240,10 +253,12 @@ export default async function HomePage() {
 
   return (
     <main>
+      <FAQJsonLd />
       {/* Above-fold: HeroBanner loaded eagerly with priority image */}
       <HeroBanner
         kicker={page?.hero?.kicker || "WELCOME TO"}
         title={page?.hero?.title || "Villa Lithos Porto Rafti"}
+        titleTagline="Large private luxury villa near Athens"
         subtitle={page?.hero?.subtitle || "A 9-bedroom luxury villa in Porto Rafti, 20 minutes from Athens International Airport."}
         videoSrcMobile="/videos/hero.mp4"
         videoSrcDesktop="/videos/heroPC.mp4"
