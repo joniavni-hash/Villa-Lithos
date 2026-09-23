@@ -8,6 +8,7 @@ import { forwardRef } from "react";
 type Props = {
   kicker?: string;
   title?: string;
+  titleTagline?: string;
   subtitle?: string;
   videoSrcMobile?: string;
   videoSrcDesktop?: string;
@@ -53,6 +54,7 @@ Video.displayName = "Video";
 export default function HeroBanner({
   kicker = "LUXURY VILLA IN PORTO RAFTI",
   title = "Villa Lithos Porto Rafti",
+  titleTagline,
   subtitle = "A 9-bedroom private retreat near Athens with heated pool, sea views, and exclusive amenities for up to 22 guests.",
   videoSrcMobile,
   videoSrcDesktop,
@@ -157,7 +159,10 @@ export default function HeroBanner({
       <div className="hv-content">
         <div className="hv-content__inner">
           <p className="hv-kicker">{kicker}</p>
-          <h1 className="hv-title">{title}</h1>
+          <h1 className="hv-title">
+            {title}
+            {titleTagline ? <span className="hv-title__tagline">{titleTagline}</span> : null}
+          </h1>
           <p className="hv-subtitle">{subtitle}</p>
           <div className="hv-cta">
             <Link href={contactHref} className="hv-btn hv-btn--primary">

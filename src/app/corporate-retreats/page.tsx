@@ -29,18 +29,24 @@ import {
   Lock,
   User,
   Building2,
+  Music,
+  Sparkles,
 } from "lucide-react";
 
-const TITLE = "Corporate Retreats in Greece, 20 Minutes from Athens Airport: A Private Estate for Teams of 10 to 22";
-const DESC = "Villa Lithos Porto Rafti hosts leadership offsites, founding-team retreats and working weeks for teams of 10 to 22, on a private 5,000 m² estate 16 km from Athens International Airport. Nine bedrooms, two living rooms, workshop spaces, heated infinity pool, padel court, gym and sauna, with private chef and transfers arranged by the concierge team.";
+const TITLE = "Corporate Retreat Venue Near Athens | Villa Lithos";
+const H1 = "A corporate retreat venue near Athens, 20 minutes from the airport.";
+const DESC = "Private corporate retreat venue near Athens for offsites of 10 to 22. A 5,000 m² estate 20 minutes from the airport, Starlink internet, pool, padel, gym, sauna.";
 const URL = "https://www.villalithosgreece.com/corporate-retreats";
 const PUBLISHED = "2026-09-22";
-const MODIFIED = "2026-09-22";
+const MODIFIED = "2026-09-23";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESC,
   keywords: [
+    "corporate retreat venue near athens",
+    "company offsite villa greece",
+    "executive team retreat athens airport",
     "corporate retreat greece",
     "corporate retreat villa greece",
     "company offsite greece",
@@ -61,7 +67,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: TITLE,
+  headline: H1,
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
@@ -71,6 +77,22 @@ const jsonLd = {
   mainEntityOfPage: { "@type": "WebPage", "@id": URL },
   url: URL,
   about: { "@type": "Thing", name: "Corporate retreats and company offsites in Greece" },
+};
+
+const faqs = [
+  { q: "What team size works best?", a: "Eight to nine if everyone needs a private bedroom, up to 22 with shared rooms. Most retreats fall between 10 and 16." },
+  { q: "Can we run working sessions on site?", a: "Yes. Two living rooms, the attic workshop floor with a large screen, a dedicated workspace, WiFi and air conditioning throughout, plus the outdoor areas. Presentation equipment and facilitation are arranged through the concierge team." },
+  { q: "Is the internet reliable enough for remote work?", a: "Yes. The estate runs on fast, stable Starlink internet, with WiFi throughout the house." },
+  { q: "Is catering included?", a: "Private chefs, from a single dinner to full board, are arranged by the concierge team and quoted separately by team size and menu." },
+  { q: "What can the team do after the sessions?", a: "Padel with a coach or a team tournament on the private court, wellness workshops, live bouzouki musicians for a Greek evening, boat days from Rafina and visits to Sounion, Brauron or the Acropolis, all arranged by the concierge team." },
+  { q: "When is the estate available for retreats?", a: "Weekday blocks from October to May are the natural fit, and the Attica coast stays mild for most of that period. Summer dates compete with holiday bookings. Rates and availability are quoted on request." },
+  { q: "How far is the venue from Athens?", a: "The estate is 16 km from Athens International Airport, about 20 minutes by car, and about 40 minutes from central Athens. Transfers are arranged on request in the vehicle you prefer, from executive cars to a coach." },
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map(({ q, a }) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })),
 };
 
 // Gallery files are referenced exactly as the gallery API does (encodeURIComponent on the filename).
@@ -95,7 +117,7 @@ const stats = [
 const spaces = [
   { icon: Sofa, title: "Two living rooms", text: "On separate levels. A plenary in one, a breakout in the other." },
   { icon: MonitorPlay, title: "Attic workshop floor", text: "Wide, wooden, with a large screen and blackout curtains for daytime presentations." },
-  { icon: Wifi, title: "Workspace and WiFi", text: "A dedicated work area, WiFi and air conditioning throughout the house." },
+  { icon: Wifi, title: "Starlink internet", text: "Fast, stable Starlink internet, WiFi and air conditioning throughout the house, and a dedicated work area." },
   { icon: UtensilsCrossed, title: "One table for everyone", text: "A dining table for the whole team and a kitchen built for a private chef." },
 ];
 
@@ -105,8 +127,19 @@ const rooming = [
   { icon: Building2, title: "Whole company", size: "16 to 22 people", text: "Shared rooms across the main house and the apartment. The attic floor becomes the big room." },
 ];
 
+const specs = [
+  { k: "Internet", v: "Starlink, WiFi throughout the house" },
+  { k: "Presenting", v: "Large screen on the attic workshop floor, blackout curtains" },
+  { k: "Plenary", v: "Two living rooms on separate levels" },
+  { k: "Breakouts", v: "Second living room, attic floor, terraces and garden" },
+  { k: "Dining", v: "One table for the whole team, private chef on request" },
+  { k: "Climate", v: "Air conditioning throughout" },
+];
+
 const offHours = [
-  { icon: Trophy, label: "Padel tournament, first evening" },
+  { icon: Trophy, label: "Padel coach or a team tournament" },
+  { icon: Sparkles, label: "Wellness workshops" },
+  { icon: Music, label: "Live bouzouki evening" },
   { icon: Waves, label: "Heated infinity pool and jacuzzi" },
   { icon: Flame, label: "Outdoor sauna" },
   { icon: Dumbbell, label: "Private gym" },
@@ -167,6 +200,7 @@ export default function Page() {
         .cr details>summary::-webkit-details-marker{display:none}
       `}</style>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       {/* HERO */}
       <section className="relative overflow-hidden" style={{ minHeight: "82vh" }}>
@@ -181,9 +215,9 @@ export default function Page() {
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, rgba(10,16,24,0.10) 0%, rgba(10,16,24,0.35) 55%, rgba(10,16,24,0.82) 100%)" }} />
         <div className="relative mx-auto flex max-w-6xl flex-col justify-end px-6 pb-16 pt-40 md:pb-24 md:pt-48" style={{ minHeight: "82vh" }}>
-          <span className="mb-4 text-xs font-semibold uppercase tracking-[0.25em]" style={{ color: "#D8E0CF" }}>Corporate retreats</span>
+          <span className="mb-4 text-xs font-semibold uppercase tracking-[0.25em]" style={{ color: "#D8E0CF" }}>Corporate retreats and company offsites</span>
           <h1 className="max-w-3xl text-4xl leading-tight cr-white md:text-6xl" style={{ fontFamily: "var(--font-serif), serif" }}>
-            Take the team somewhere 20 minutes from the airport.
+            {H1}
           </h1>
           <p className="mt-5 max-w-2xl text-lg cr-white85 md:text-xl">
             A private 9-bedroom estate on the coast of Attica, Greece. Leadership offsites and company retreats for 10 to 22 people, weekday blocks from October to May.
@@ -304,8 +338,8 @@ export default function Page() {
             <Image src={img("Bedrooms (2).jpg")} alt="Attic-level workshop space at Villa Lithos with wooden beams and a large screen" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
           </div>
           <div>
-            <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: SAGE }}>The working setup</span>
-            <h2 className="mt-3 text-3xl md:text-4xl" style={{ fontFamily: "var(--font-serif), serif" }}>One house. Not a conference hotel.</h2>
+            <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: SAGE }}>One house. Not a conference hotel.</span>
+            <h2 className="mt-3 text-3xl md:text-4xl" style={{ fontFamily: "var(--font-serif), serif" }}>Dedicated working spaces for company offsites.</h2>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
               {spaces.map(({ icon: Icon, title, text }) => (
                 <div key={title} className="rounded-xl bg-white p-5 shadow-sm" style={{ border: "1px solid rgba(26,35,50,0.06)" }}>
@@ -315,7 +349,16 @@ export default function Page() {
                 </div>
               ))}
             </div>
-            <p className="mt-6 text-sm" style={{ color: "#6B7280" }}>Screens, whiteboards, printing, a facilitator: tell the concierge team what the sessions need and it is set up before you land.</p>
+            <dl className="mt-6 rounded-xl bg-white p-5 text-sm shadow-sm" style={{ border: "1px solid rgba(26,35,50,0.06)" }}>
+              <div className="text-xs font-semibold uppercase tracking-[0.15em]" style={{ color: SAGE }}>Technical spec</div>
+              {specs.map(({ k, v }) => (
+                <div key={k} className="mt-2" style={{ display: "grid", gridTemplateColumns: "6.5rem 1fr", gap: "0.75rem" }}>
+                  <dt className="font-semibold">{k}</dt>
+                  <dd style={{ color: "#3D4A5C" }}>{v}</dd>
+                </div>
+              ))}
+            </dl>
+            <p className="mt-4 text-sm" style={{ color: "#6B7280" }}>Extra screens, whiteboards, printing, a facilitator: tell the concierge team what the sessions need and it is set up before you land.</p>
           </div>
         </div>
       </section>
@@ -345,7 +388,7 @@ export default function Page() {
             { f: "Sports & Activities.jpg", a: "Private padel court at Villa Lithos with the mountains behind", c: "Private padel court" },
             { f: "Exterior & Pool (5).jpg", a: "Aerial view of the estate at dusk with the pool and the padel court lit", c: "The estate at dusk" },
             { f: "Exterior & Pool (4).jpg", a: "Outdoor dining terrace overlooking the pool", c: "Alfresco dining terrace" },
-            { f: "Wellness & Spa (2).jpg", a: "Outdoor barrel sauna among olive trees", c: "Garden sauna" },
+            { f: "Wellness & Spa (2).jpg", a: "Outdoor sauna among olive trees", c: "Garden sauna" },
           ].map(({ f, a, c }) => (
             <figure key={f} className="group relative aspect-[4/5] overflow-hidden rounded-xl md:aspect-[3/4]">
               <Image src={img(f)} alt={a} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover transition-transform duration-700 group-hover:scale-105" />
@@ -371,8 +414,8 @@ export default function Page() {
       {/* LOGISTICS */}
       <section style={{ background: INK, color: "#fff" }}>
         <div className="mx-auto max-w-6xl px-6 py-20">
-          <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#B9C7AE" }}>Getting there</span>
-          <h2 className="mt-3 text-3xl md:text-4xl" style={{ fontFamily: "var(--font-serif), serif" }}>Land before lunch. Work before dinner.</h2>
+          <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: "#B9C7AE" }}>Land before lunch. Work before dinner.</span>
+          <h2 className="mt-3 text-3xl md:text-4xl" style={{ fontFamily: "var(--font-serif), serif" }}>Executive team retreats 20 minutes from Athens Airport.</h2>
           <div className="mt-10 grid items-center gap-4 md:grid-cols-[1fr_auto_1fr_auto_1fr]">
             <div className="rounded-xl p-6" style={{ background: "rgba(255,255,255,0.06)" }}>
               <Plane size={24} style={{ color: "#B9C7AE" }} />
@@ -383,7 +426,7 @@ export default function Page() {
             <div className="rounded-xl p-6" style={{ background: "rgba(255,255,255,0.06)" }}>
               <Clock size={24} style={{ color: "#B9C7AE" }} />
               <div className="mt-3 text-xl font-semibold">16 km, 20 minutes</div>
-              <div className="mt-1 text-sm cr-white70">One coach or a few cars. No ferry, no connecting flight, no lost afternoon.</div>
+              <div className="mt-1 text-sm cr-white70">Executive cars, minivans or a coach, as you prefer. No ferry, no connecting flight, no lost afternoon.</div>
             </div>
             <ArrowRight className="hidden md:block" size={28} style={{ color: "#B9C7AE" }} />
             <div className="rounded-xl p-6" style={{ background: "rgba(255,255,255,0.06)" }}>
@@ -450,13 +493,7 @@ export default function Page() {
       <section className="mx-auto max-w-3xl px-6 py-20">
         <h2 className="text-3xl md:text-4xl" style={{ fontFamily: "var(--font-serif), serif" }}>Questions planners ask</h2>
         <div className="mt-6 divide-y" style={{ borderTop: "1px solid rgba(26,35,50,0.1)", borderBottom: "1px solid rgba(26,35,50,0.1)" }}>
-          {[
-            { q: "What team size works best?", a: "Eight to nine if everyone needs a private bedroom, up to 22 with shared rooms. Most retreats fall between 10 and 16." },
-            { q: "Can we run working sessions on site?", a: "Yes. Two living rooms, the attic workshop floor with a large screen, a dedicated workspace, WiFi and air conditioning throughout, plus the outdoor areas. Presentation equipment and facilitation are arranged through the concierge team." },
-            { q: "Is catering included?", a: "Private chefs, from a single dinner to full board, are arranged by the concierge team and quoted separately by team size and menu." },
-            { q: "When is the estate available for retreats?", a: "Weekday blocks from October to May are the natural fit, and the Attica coast stays mild for most of that period. Summer dates compete with holiday bookings. Rates and availability are quoted on request." },
-            { q: "How do we get there?", a: "Fly into Athens International Airport. The estate is 16 km away, about 20 minutes by car. Group transfers are arranged on request." },
-          ].map(({ q, a }) => (
+          {faqs.map(({ q, a }) => (
             <details key={q} className="group py-4">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-base font-semibold">
                 {q}
@@ -484,7 +521,7 @@ export default function Page() {
       {/* FOOT NOTE */}
       <section className="mx-auto max-w-6xl px-6 py-10 text-xs" style={{ color: "#9CA3AF" }}>
         <p>
-          Last updated 22 September 2026. Property facts as published on <Link href="/luxury-villa-porto-rafti" style={{ color: SAGE }}>the Villa Lithos property guide</Link>. Distances are approximate driving times. Research cited: Atlassian, Intentional Team Gatherings; Gallup, Hybrid Work in Retreat? Barely (2025).
+          Last updated 23 September 2026. Property facts as published on <Link href="/luxury-villa-porto-rafti" style={{ color: SAGE }}>the Villa Lithos property guide</Link>. Distances are approximate driving times. Research cited: Atlassian, Intentional Team Gatherings; Gallup, Hybrid Work in Retreat? Barely (2025).
           {" "}Related: <Link href="/villas-near-athens-airport" style={{ color: SAGE }}>Closest luxury villa to Athens airport</Link> · <Link href="/large-family-villa-greece" style={{ color: SAGE }}>Villas in Greece for groups of 20</Link> · <Link href="/articles/wellness-retreats-greece-mainland" style={{ color: SAGE }}>Wellness retreats on the mainland</Link>
         </p>
       </section>
