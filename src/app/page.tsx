@@ -78,8 +78,8 @@ const featuredArticles = [
   {
     href: "/articles/wellness-retreats-greece-mainland",
     label: "Wellness",
-    title: "Wellness Retreats in Greece",
-    excerpt: "Practical guide to mainland options for private villa retreats with full wellness amenities.",
+    title: "Fitness and Wellness Retreats in Greece",
+    excerpt: "Mainland retreat venues compared, with the fitness facilities and equipment inventory at Villa Lithos for facilitators.",
   },
   {
     href: "/articles/day-trips-from-porto-rafti",
