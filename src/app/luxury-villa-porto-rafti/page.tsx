@@ -1,16 +1,19 @@
 import { Metadata } from "next";
 import Link from "next/link";
 
-const TITLE = "Luxury Villa in Porto Rafti, Greece: A 9-Bedroom Estate Near Athens";
-const DESC = "Villa Lithos Porto Rafti is a 9-bedroom luxury villa on a 5,000 m² estate in Porto Rafti, Attica, 16 km from Athens International Airport. Sleeps 22 guests across nine bedrooms with an infinity pool, padel court, sauna, and elevator.";
+const TITLE = "Luxury Villa Rental Porto Rafti | Large Private Estate Near Athens";
+const H1 = "Luxury Villa Rental in Porto Rafti, Greece: A 9-Bedroom Private Estate Near Athens";
+const DESC = "Luxury villa rental in Porto Rafti, Attica: a 9-bedroom private estate for 22 guests, 16 km from Athens airport, with heated infinity pool, padel court, sauna and elevator.";
 const URL = "https://www.villalithosgreece.com/luxury-villa-porto-rafti";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-05-11";
+const MODIFIED = "2026-09-29";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESC,
   keywords: [
+    "luxury villa rental porto rafti",
+    "large private villa near athens",
     "luxury villa porto rafti",
     "villa lithos porto rafti",
     "9 bedroom villa greece",
@@ -30,7 +33,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: TITLE,
+  headline: H1,
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
@@ -68,11 +71,11 @@ export default function Page() {
     <article style={s.article}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <h1 style={s.h1}>{TITLE}</h1>
-      <span style={s.meta}>Last updated: May 2026 · 11 minute read · Villa Lithos Porto Rafti</span>
+      <h1 style={s.h1}>{H1}</h1>
+      <span style={s.meta}>Last updated: September 2026 · 12 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
-        <strong>Villa Lithos Porto Rafti</strong> is a 9-bedroom, 800 m² luxury villa on a 5,000 m² private estate in Porto Rafti, Attica, Greece, located 16 km from Athens International Airport (a 20-minute drive). The property sleeps 22 guests across nine bedrooms and 8.5 bathrooms, with a heated infinity pool, outdoor sauna, jacuzzi, padel court, private gym, and elevator. It is the largest privately rentable luxury villa in the Porto Rafti area and is bookable on Booking.com, Airbnb, and direct.
+        <strong>Villa Lithos Porto Rafti</strong> is a 9-bedroom, 800 m² luxury villa rental on a 5,000 m² private estate in Porto Rafti, Attica, Greece, located 16 km from Athens International Airport (a 20-minute drive). The property sleeps 22 guests across nine bedrooms and 8.5 bathrooms, with a heated infinity pool, outdoor sauna, jacuzzi, padel court, private gym, and elevator. It is the largest private villa near Athens available for whole-estate rental in the Porto Rafti area, bookable on Booking.com, Airbnb, and direct, and it doubles as a <Link href="/articles/wellness-retreats-greece-mainland" style={{ color: "#7a8c6e" }}>fitness and wellness retreat venue</Link> and a <Link href="/corporate-retreats" style={{ color: "#7a8c6e" }}>corporate retreat venue near Athens</Link>.
       </p>
 
       <h2 style={s.h2}>Where Is Porto Rafti?</h2>
@@ -114,9 +117,29 @@ export default function Page() {
         Distances measured along Attiki Odos and local roads. Drive times reflect typical off-peak summer conditions. Athens airport coordinates per the <a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia entry on Athens International Airport</a>.
       </p>
 
+      <h3 style={s.h3}>Getting to Porto Rafti: East Attica road and port access</h3>
+      <p style={s.p}>
+        Porto Rafti belongs to the municipality of <a href="https://en.wikipedia.org/wiki/Markopoulo_Mesogaias" target="_blank" rel="nofollow noopener">Markopoulo Mesogaias</a> in the East Attica regional unit. From the airport or from Athens, the route is the Attiki Odos motorway (A6) to the Markopoulo junction (Junction 20), then the Markopoulou-Porto Rafti road through the town of Markopoulo down to the bay, a drive of about 10 km from the junction. Two ferry ports serve the area: Rafina, to the north, for the Cyclades (Andros, Tinos, Mykonos), and Lavrio, to the south, for Kea, Kythnos and the eastern Cyclades. Both are reachable without crossing Athens.
+      </p>
+      <table style={s.table}>
+        <thead>
+          <tr><th style={s.th}>Route</th><th style={s.th}>Road</th><th style={s.th}>Distance</th><th style={s.th}>Drive time</th></tr>
+        </thead>
+        <tbody>
+          <tr><td style={s.td}>Athens International Airport to the villa</td><td style={s.td}>Attiki Odos to Junction 20 (Markopoulo), then the Markopoulou-Porto Rafti road</td><td style={s.td}>16 km</td><td style={s.td}>~20 min</td></tr>
+          <tr><td style={s.td}>Markopoulo town centre</td><td style={s.td}>Markopoulou-Porto Rafti road</td><td style={s.td}>~10 km</td><td style={s.td}>~15 min</td></tr>
+          <tr><td style={s.td}>Rafina port (Cyclades ferries)</td><td style={s.td}>Coastal road via Artemida and Nea Makri turn-off</td><td style={s.td}>15 km</td><td style={s.td}>~20 min</td></tr>
+          <tr><td style={s.td}>Lavrio port (Kea, Kythnos, eastern Cyclades)</td><td style={s.td}>Via Keratea on the Lavriou road</td><td style={s.td}>~35 km</td><td style={s.td}>~40 min</td></tr>
+          <tr><td style={s.td}>Central Athens</td><td style={s.td}>Attiki Odos, then Katehaki or Mesogeion avenue</td><td style={s.td}>37 km</td><td style={s.td}>~40 min</td></tr>
+        </tbody>
+      </table>
+      <p style={s.source}>
+        Junction numbering per Attiki Odos signage (Markopoulo is Junction 20). Port distances are approximate road distances; ferry schedules from Rafina and Lavrio change by season and should be checked with the operators before planning an island day trip.
+      </p>
+
       <h2 style={s.h2}>The Estate and Its Spaces</h2>
       <p style={s.p}>
-        The villa is organised across four floors connected by a private elevator. The ground floor houses the main living and dining areas, the designer kitchen with walk-in pantry, and direct access to the pool terrace. The upper floors hold the bedroom suites, with the master suite occupying the seaward corner of the top floor. The lower level contains the second living room, the wellness suite with sauna and gym, and access to the padel court and outdoor entertainment area.
+        The villa is organised across four floors connected by a private elevator. The ground floor houses the main living and dining areas, the designer kitchen with walk-in pantry, and direct access to the pool terrace. The upper floors hold the bedroom suites, with the master suite occupying the seaward corner of the top floor. The lower level contains the second living room and opens onto the garden, where the gym pavilion, the outdoor sauna, the padel court and the outdoor entertainment area sit.
       </p>
       <p style={s.p}>
         Inside, the contemporary design draws on Mediterranean materials. Limestone, oak, and brushed brass appear throughout the public rooms. The window placements are deliberate, framing specific views of the bay, the gardens, or the mountains inland toward Mount Hymettus. Two living rooms allow groups to split into smaller conversations without losing the shared sense of place.
@@ -172,7 +195,7 @@ export default function Page() {
         <li style={s.li}><Link href="/articles/porto-rafti-family-holiday-greece" style={{ color: "#7a8c6e" }}>Porto Rafti Family Holiday: Why This Hidden Gem Beats the Greek Islands</Link></li>
         <li style={s.li}><Link href="/articles/things-to-do-near-athens-with-kids" style={{ color: "#7a8c6e" }}>Best Things to Do Near Athens with Kids: Summer 2026 Guide</Link></li>
         <li style={s.li}><Link href="/articles/multi-generational-trip-greece" style={{ color: "#7a8c6e" }}>Planning a Multi-Generational Family Trip to Greece</Link></li>
-        <li style={s.li}><Link href="/villas-near-athens-airport" style={{ color: "#7a8c6e" }}>Closest Luxury Villa to Athens International Airport</Link></li>
+        <li style={s.li}><Link href="/villas-near-athens-airport" style={{ color: "#7a8c6e" }}>Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto Rafti</Link></li>
         <li style={s.li}><Link href="/porto-rafti-vs-mykonos-vs-santorini" style={{ color: "#7a8c6e" }}>Porto Rafti vs Mykonos vs Santorini, A 2026 Comparison</Link></li>
       </ul>
 
@@ -182,7 +205,7 @@ export default function Page() {
         <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
       </div>
 
-      <p style={s.updated}>Last updated: 11 May 2026. Sources: <a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener">Wikipedia, Porto Rafti</a>, <a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Athens International Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, <a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener">Hellenic Statistical Authority</a>, <a href="https://skift.com/" target="_blank" rel="nofollow noopener">Skift</a>, <a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener">Phocuswright</a>.</p>
+      <p style={s.updated}>Last updated: 29 September 2026. Sources: <a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener">Wikipedia, Porto Rafti</a>, <a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Athens International Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, <a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener">Hellenic Statistical Authority</a>, <a href="https://skift.com/" target="_blank" rel="nofollow noopener">Skift</a>, <a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener">Phocuswright</a>.</p>
 
       <Link href="/" style={s.back}>&larr; Back to Villa Lithos home</Link>
     </article>
