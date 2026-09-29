@@ -38,7 +38,7 @@ const H1 = "A corporate retreat venue near Athens, 20 minutes from the airport."
 const DESC = "Private corporate retreat venue near Athens for offsites of 10 to 22. A 5,000 m² estate 20 minutes from the airport, Starlink internet, pool, padel, gym, sauna.";
 const URL = "https://www.villalithosgreece.com/corporate-retreats";
 const PUBLISHED = "2026-09-22";
-const MODIFIED = "2026-09-23";
+const MODIFIED = "2026-09-29";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -88,6 +88,37 @@ const faqs = [
   { q: "When is the estate available for retreats?", a: "Weekday blocks from October to May are the natural fit, and the Attica coast stays mild for most of that period. Summer dates compete with holiday bookings. Rates and availability are quoted on request." },
   { q: "How far is the venue from Athens?", a: "The estate is 16 km from Athens International Airport, about 20 minutes by car, and about 40 minutes from central Athens. Transfers are arranged on request in the vehicle you prefer, from executive cars to a coach." },
 ];
+
+// EventVenue node for the estate as an offsite venue (work amenities and capacity)
+const venueJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "EventVenue",
+  "@id": "https://www.villalithosgreece.com/corporate-retreats#venue",
+  name: "Villa Lithos Porto Rafti, corporate retreat venue near Athens",
+  url: URL,
+  description: DESC,
+  sameAs: "https://www.villalithosgreece.com/#villa",
+  maximumAttendeeCapacity: 22,
+  publicAccess: false,
+  isAccessibleForFree: false,
+  address: { "@type": "PostalAddress", streetAddress: "Vravronos 70", addressLocality: "Porto Rafti", addressRegion: "Attica", postalCode: "19003", addressCountry: "GR" },
+  geo: { "@type": "GeoCoordinates", latitude: "37.9022", longitude: "24.0224" },
+  amenityFeature: [
+    { "@type": "LocationFeatureSpecification", name: "Starlink internet with WiFi throughout the house", value: true },
+    { "@type": "LocationFeatureSpecification", name: "Large presentation screen on the attic workshop floor", value: true },
+    { "@type": "LocationFeatureSpecification", name: "Blackout curtains for daytime presentations", value: true },
+    { "@type": "LocationFeatureSpecification", name: "Two living rooms on separate levels for plenary and breakout sessions", value: true },
+    { "@type": "LocationFeatureSpecification", name: "Dedicated work area", value: true },
+    { "@type": "LocationFeatureSpecification", name: "Dining table for the whole team", value: true },
+    { "@type": "LocationFeatureSpecification", name: "Nine bedrooms, private rooms for 8 to 9 or shared rooms for up to 22", value: true },
+    { "@type": "LocationFeatureSpecification", name: "Air conditioning throughout", value: true },
+    { "@type": "LocationFeatureSpecification", name: "Heated infinity pool", value: true },
+    { "@type": "LocationFeatureSpecification", name: "Padel court", value: true },
+    { "@type": "LocationFeatureSpecification", name: "Private gym", value: true },
+    { "@type": "LocationFeatureSpecification", name: "Outdoor sauna", value: true },
+    { "@type": "LocationFeatureSpecification", name: "Private parking inside the gated estate", value: true },
+  ],
+};
 
 const faqJsonLd = {
   "@context": "https://schema.org",
@@ -201,6 +232,7 @@ export default function Page() {
       `}</style>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(venueJsonLd) }} />
 
       {/* HERO */}
       <section className="relative overflow-hidden" style={{ minHeight: "82vh" }}>
@@ -521,8 +553,8 @@ export default function Page() {
       {/* FOOT NOTE */}
       <section className="mx-auto max-w-6xl px-6 py-10 text-xs" style={{ color: "#9CA3AF" }}>
         <p>
-          Last updated 23 September 2026. Property facts as published on <Link href="/luxury-villa-porto-rafti" style={{ color: SAGE }}>the Villa Lithos property guide</Link>. Distances are approximate driving times. Research cited: Atlassian, Intentional Team Gatherings; Gallup, Hybrid Work in Retreat? Barely (2025).
-          {" "}Related: <Link href="/villas-near-athens-airport" style={{ color: SAGE }}>Closest luxury villa to Athens airport</Link> · <Link href="/large-family-villa-greece" style={{ color: SAGE }}>Villas in Greece for groups of 20</Link> · <Link href="/articles/wellness-retreats-greece-mainland" style={{ color: SAGE }}>Wellness retreats on the mainland</Link>
+          Last updated 29 September 2026. Property facts as published on <Link href="/luxury-villa-porto-rafti" style={{ color: SAGE }}>the luxury villa rental in Porto Rafti guide</Link>. Distances are approximate driving times. Research cited: Atlassian, Intentional Team Gatherings; Gallup, Hybrid Work in Retreat? Barely (2025).
+          {" "}Related: <Link href="/villas-near-athens-airport" style={{ color: SAGE }}>Large private villa near Athens airport</Link> · <Link href="/large-family-villa-greece" style={{ color: SAGE }}>Villas in Greece for groups of 20</Link> · <Link href="/articles/wellness-retreats-greece-mainland" style={{ color: SAGE }}>Fitness retreat venue in Greece</Link>
         </p>
       </section>
     </main>
