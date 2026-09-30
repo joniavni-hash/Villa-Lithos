@@ -19,7 +19,7 @@ type HeaderData = {
 };
 
 export default function Footer({ data, headerData }: { data?: FooterData; headerData?: HeaderData }) {
-  const brandName = data?.brandName || "Villa Lithos";
+  const brandName = "Villa Lithos";
   const tagline = data?.tagline || "A private villa in Porto Rafti, Greece. Quiet stays, thoughtful comfort.";
   const phone = data?.phone || "+30 693 275 7142";
   const email = data?.email || "info@villalithos.com";

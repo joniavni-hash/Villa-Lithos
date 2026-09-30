@@ -9,10 +9,6 @@ import {
 } from "@/app/lib/testimonials";
 import styles from "./Testimonials.module.css";
 
-const WHATSAPP_URL = `https://wa.me/306932757142?text=${encodeURIComponent(
-  "Hi, I'd like to check availability at Villa Lithos."
-)}`;
-
 function Stars() {
   return (
     <span className={styles.stars} aria-label="5 out of 5 stars" role="img">
@@ -90,7 +86,7 @@ export default function Testimonials() {
         <figure className={styles.featured} style={{ margin: 0 }}>
           <div className={styles.featuredImg}>
             <Image
-              src="/img/gallery/Exterior & Pool (14).jpg"
+              src="/img/gallery/Exterior%20%26%20Pool%20(12).jpg"
               alt="Pool terrace at Villa Lithos"
               fill
               sizes="(max-width: 960px) 100vw, 420px"
@@ -117,15 +113,6 @@ export default function Testimonials() {
           ))}
         </div>
 
-        <div className={styles.cta}>
-          <p className={styles.ctaText}>Your dates could be next.</p>
-          <div className={styles.ctaBtns}>
-            <a className={styles.btnPrimary} href="/#inquiry">Check availability</a>
-            <a className={styles.btnGhost} href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-              Ask on WhatsApp
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );

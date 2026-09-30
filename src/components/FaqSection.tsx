@@ -28,7 +28,7 @@ export default function FaqSection() {
           </p>
           <div className={styles.photo}>
             <Image
-              src="/img/gallery/Living & Dining (6).jpg"
+              src="/img/gallery/Living%20%26%20Dining%20(6).jpg"
               alt="Living and dining area at Villa Lithos"
               fill
               sizes="360px"
