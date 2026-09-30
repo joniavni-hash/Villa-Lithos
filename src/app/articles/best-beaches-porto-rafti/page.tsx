@@ -72,7 +72,7 @@ export default function Page() {
       <span style={s.meta}>Last updated: 26 May 2026 · 11 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
-        The Porto Rafti bay and the wider East Attica coast offer one of the strongest concentrations of family-friendly beaches in mainland Greece. The bay is naturally sheltered, the water is calm and shallow close to shore, and most beaches are within a 20-minute drive of <Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>Villa Lithos Porto Rafti</Link>. This guide covers the eleven beaches that matter, with honest notes on wind exposure, sand type, facilities, and which is right for which kind of trip.
+        The Porto Rafti bay and the wider East Attica coast offer one of the strongest concentrations of family-friendly beaches in mainland Greece. The bay is naturally sheltered, the water is calm and shallow close to shore, and most beaches are within a 20-minute drive of <Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>Villa Lithos, a luxury villa rental in Porto Rafti</Link> that is also a <Link href="/villas-near-athens-airport" style={{ color: "#7a8c6e" }}>luxury family villa near Athens airport</Link>. This guide covers the eleven beaches that matter, with honest notes on wind exposure, sand type, facilities, and which is right for which kind of trip.
       </p>
 
       <h2 style={s.h2}>How the East Attica Coast Compares to the Islands</h2>

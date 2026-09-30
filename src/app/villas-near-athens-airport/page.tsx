@@ -1,16 +1,20 @@
 import { Metadata } from "next";
 import Link from "next/link";
 
-const TITLE = "Closest Luxury Villa to Athens International Airport: A 20-Minute Drive to Porto Rafti";
-const DESC = "Villa Lithos Porto Rafti is one of the closest large luxury villas to Athens International Airport, 16 km and a 20-minute drive away. A comparison of the leading options for travellers who want to be at the beach before the rental car cools down.";
+const TITLE = "Large Private Villa Near Athens Airport | Villa Lithos";
+const H1 = "Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto Rafti";
+const DESC = "Luxury family villa near Athens airport: Villa Lithos is a large private villa for groups of up to 22, 16 km and a 20-minute drive from Athens International Airport, with no ferry.";
 const URL = "https://www.villalithosgreece.com/villas-near-athens-airport";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-05-11";
+const MODIFIED = "2026-09-29";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESC,
   keywords: [
+    "large private villa near athens airport",
+    "luxury family villa near athens airport",
+    "large private villa near athens",
     "luxury villa near athens airport",
     "villa close to athens airport",
     "villa near eleftherios venizelos",
@@ -29,7 +33,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: TITLE,
+  headline: H1,
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
@@ -67,11 +71,11 @@ export default function Page() {
     <article style={s.article}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <h1 style={s.h1}>{TITLE}</h1>
-      <span style={s.meta}>Last updated: 26 May 2026 · 9 minute read · Villa Lithos Porto Rafti</span>
+      <h1 style={s.h1}>{H1}</h1>
+      <span style={s.meta}>Last updated: September 2026 · 9 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
-        Most luxury villa rentals near Athens advertise themselves as "close to the airport". The actual drive times vary widely. <strong>Villa Lithos Porto Rafti</strong> sits 16 km from Athens International Airport and the typical drive is 20 minutes. This page compares the realistic options for travellers who want to land, drive a short distance, and be at the beach the same hour.
+        Most luxury villa rentals near Athens advertise themselves as "close to the airport". The actual drive times vary widely. <strong>Villa Lithos Porto Rafti</strong> is a luxury family villa near Athens airport and a large private villa for groups of up to 22: it sits 16 km from Athens International Airport and the typical drive is 20 minutes, with no ferry and no domestic flight. This page compares the realistic options for travellers who want to land, drive a short distance, and be at the beach the same hour.
       </p>
 
       <h2 style={s.h2}>Why Airport Proximity Matters for a Greek Holiday</h2>
@@ -142,7 +146,7 @@ export default function Page() {
 
       <h2 style={s.h2}>Related Reading</h2>
       <ul style={s.ul}>
-        <li style={s.li}><Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>Luxury Villa in Porto Rafti, A 9-Bedroom Estate Near Athens</Link></li>
+        <li style={s.li}><Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>Luxury Villa Rental in Porto Rafti, A 9-Bedroom Private Estate Near Athens</Link></li>
         <li style={s.li}><Link href="/large-family-villa-greece" style={{ color: "#7a8c6e" }}>The Best Large Family Villas in Greece for Groups of 20</Link></li>
         <li style={s.li}><Link href="/porto-rafti-vs-mykonos-vs-santorini" style={{ color: "#7a8c6e" }}>Porto Rafti vs Mykonos vs Santorini, 2026 Comparison</Link></li>
         <li style={s.li}><Link href="/articles/pesach-greece-2026-villa-lithos" style={{ color: "#7a8c6e" }}>Passover in Greece 2026: Why Israeli Families Choose Villa Lithos</Link></li>
@@ -154,7 +158,7 @@ export default function Page() {
         <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
       </div>
 
-      <p style={s.updated}>Last updated: 11 May 2026. Sources: <a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Athens International Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.plumguide.com/d/gr-athens/villas" target="_blank" rel="nofollow noopener">Plum Guide Athens</a>.</p>
+      <p style={s.updated}>Last updated: 29 September 2026. Sources: <a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Athens International Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.plumguide.com/d/gr-athens/villas" target="_blank" rel="nofollow noopener">Plum Guide Athens</a>.</p>
 
       <Link href="/" style={s.back}>&larr; Back to Villa Lithos home</Link>
     </article>

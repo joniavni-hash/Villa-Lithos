@@ -21,6 +21,22 @@ const DEFINITION_LEAD =
 // Google Business Profile (Maps place) for "Villa Lithos", Vravronos 70, Porto Rafti
 const GOOGLE_MAPS_PLACE = "https://www.google.com/maps?cid=13572198104547090834";
 
+// Porto Rafti / East Attica place entities (Wikidata), used to anchor the villa to the mainland
+// and separate it from similarly named properties on the Cycladic islands.
+const PORTO_RAFTI_PLACE = {
+  "@type": "City",
+  name: "Porto Rafti",
+  sameAs: ["https://www.wikidata.org/wiki/Q2105234", "https://en.wikipedia.org/wiki/Porto_Rafti"],
+  containedInPlace: {
+    "@type": "AdministrativeArea",
+    name: "East Attica, Greece",
+    sameAs: ["https://www.wikidata.org/wiki/Q211934", "https://en.wikipedia.org/wiki/East_Attica"],
+  },
+};
+
+const DISAMBIGUATION =
+  "Villa Lithos Attica is a private estate in Porto Rafti on the East Attica coast of mainland Greece, 20 minutes from Athens International Airport. It is not on Milos or any other Cycladic island.";
+
 // Shared postal address, used by Organization and LodgingBusiness
 const ADDRESS = {
   "@type": "PostalAddress",
@@ -48,12 +64,15 @@ export function OrganizationJsonLd() {
     "@type": "Organization",
     "@id": siteUrl("/#org"),
     name: "Villa Lithos Porto Rafti",
-    alternateName: SITE.name,
+    alternateName: [SITE.name, "Villa Lithos Attica", "Villa Lithos Greece"],
     url: siteUrl(),
     logo: siteUrl("/img/logo.webp"),
     description: DEFINITION_LEAD,
+    disambiguatingDescription: DISAMBIGUATION,
     sameAs: SAME_AS,
     address: ADDRESS,
+    location: PORTO_RAFTI_PLACE,
+    areaServed: PORTO_RAFTI_PLACE,
     telephone: "+30-693-275-7142",
     email: "info@villalithos.com",
     owns: { "@id": siteUrl("/#villa") },
@@ -90,8 +109,9 @@ export function VacationRentalJsonLd() {
     "@type": "LodgingBusiness",
     "@id": siteUrl("/#villa"),
     name: "Villa Lithos Porto Rafti",
-    alternateName: SITE.name,
+    alternateName: [SITE.name, "Villa Lithos Attica", "Villa Lithos Greece"],
     description: DEFINITION_LEAD,
+    disambiguatingDescription: DISAMBIGUATION,
     url: siteUrl(),
     sameAs: SAME_AS,
     telephone: "+30-693-275-7142",
@@ -106,6 +126,7 @@ export function VacationRentalJsonLd() {
     priceRange: "$$$$",
     currenciesAccepted: "EUR, USD",
     address: ADDRESS,
+    containedInPlace: PORTO_RAFTI_PLACE,
     parentOrganization: { "@id": siteUrl("/#org") },
     geo: {
       "@type": "GeoCoordinates",
@@ -127,6 +148,39 @@ export function VacationRentalJsonLd() {
       { "@type": "LocationFeatureSpecification", name: "BBQ", value: true },
       { "@type": "LocationFeatureSpecification", name: "Private Parking", value: true },
       { "@type": "LocationFeatureSpecification", name: "Workspace", value: true },
+    ],
+    // On-site training facilities as SportsActivityLocation entities (fitness retreat queries)
+    containsPlace: [
+      {
+        "@type": "SportsActivityLocation",
+        "@id": siteUrl("/#padel-court"),
+        name: "Private padel court at Villa Lithos Porto Rafti",
+        description: "Full-size glass-walled padel court with artificial turf and floodlights, for the exclusive use of villa guests. Equipment provided; coaching arranged by the concierge.",
+        sport: "Padel",
+        image: siteUrl("/img/gallery/Sports%20%26%20Activities%20(6).jpg"),
+        isAccessibleForFree: false,
+        publicAccess: false,
+      },
+      {
+        "@type": "SportsActivityLocation",
+        "@id": siteUrl("/#gym"),
+        name: "Private gym pavilion at Villa Lithos Porto Rafti",
+        description: "Garden gym pavilion beside the pool with folding glass doors, wooden floor and rubber matting, multi-station cable machine, adjustable bench, adjustable dumbbells and treadmill.",
+        sport: "Strength training",
+        image: siteUrl("/img/gallery/Sports%20%26%20Activities%20(4).jpg"),
+        isAccessibleForFree: false,
+        publicAccess: false,
+      },
+      {
+        "@type": "SportsActivityLocation",
+        "@id": siteUrl("/#pool"),
+        name: "Heated infinity pool at Villa Lithos Porto Rafti",
+        description: "Heated infinity pool with sea views and a jacuzzi alongside, usable in the shoulder season, with a pergola-shaded stone terrace beside it for mat work and outdoor training.",
+        sport: "Swimming",
+        image: siteUrl("/img/gallery/Exterior%20%26%20Pool%20(15).jpg"),
+        isAccessibleForFree: false,
+        publicAccess: false,
+      },
     ],
     numberOfRooms: 9,
     numberOfBathroomsTotal: 8.5,
@@ -223,6 +277,14 @@ export function FAQJsonLd() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: [
+      {
+        "@type": "Question",
+        name: "Where is Villa Lithos located in Greece?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Villa Lithos is in Porto Rafti, a coastal town in East Attica on the Greek mainland, 16 km (about 20 minutes by car) from Athens International Airport and 40 minutes from central Athens. It is not the villa of the same name on Milos or in the Mani.",
+        },
+      },
       {
         "@type": "Question",
         name: "How many bedrooms does Villa Lithos have?",

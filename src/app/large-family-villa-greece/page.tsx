@@ -5,7 +5,7 @@ const TITLE = "The Best Large Family Villas in Greece for Groups of 20";
 const DESC = "A practical comparison of large luxury villas in Greece that comfortably host 18 to 22 guests. Capacity, price band, location, and amenity highlights for multi-generational trips, milestone celebrations, and corporate retreats.";
 const URL = "https://www.villalithosgreece.com/large-family-villa-greece";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-09-22";
+const MODIFIED = "2026-09-29";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -122,6 +122,27 @@ export default function Page() {
         Regional rates are indicative ranges for peak-season July to August 2026, derived from publicly available rental listings on Booking.com, Airbnb, The Thinking Traveller, Oliver&apos;s Travels, and Welcome Beyond. Actual rates vary by villa, week, and party size. Villa Lithos rates are not published here: <Link href="/#inquiry" style={{ color: "#7a8c6e" }}>request a quote</Link> for your dates.
       </p>
 
+      <h2 style={s.h2}>Mainland Attica or the Islands: Where a Large Private Villa Near Athens Wins</h2>
+      <p style={s.p}>
+        For a group of 18 to 22, the choice between a large private villa near Athens and an island villa is mostly a logistics decision. The table compares the two on the points that decide a group booking: how long the last leg takes, whether the group has to move as one through a ferry or a domestic flight, how private the estate actually is, and what capacity is available at the top of the range.
+      </p>
+      <table style={s.table}>
+        <thead>
+          <tr><th style={s.th}>Factor</th><th style={s.th}>Mainland Attica estate (Villa Lithos, Porto Rafti)</th><th style={s.th}>Cycladic island villa</th></tr>
+        </thead>
+        <tbody>
+          <tr><td style={s.td}>Airport to villa</td><td style={s.td}>16 km, about 20 minutes by car from Athens International Airport</td><td style={s.td}>Domestic flight plus transfer, or a 2 to 5 hour ferry from Piraeus or Rafina, then a transfer</td></tr>
+          <tr><td style={s.td}>Moving 20 people</td><td style={s.td}>Two or three vehicles from the airport; the group can arrive on different flights and still be at the villa the same hour</td><td style={s.td}>Everyone on the same ferry or flight; late arrivals wait for the next departure</td></tr>
+          <tr><td style={s.td}>Capacity at the top of the range</td><td style={s.td}>22 guests in nine bedrooms on one estate, one kitchen, one dining table</td><td style={s.td}>Usually 14 to 18 in one house; larger groups split across two properties</td></tr>
+          <tr><td style={s.td}>Estate privacy</td><td style={s.td}>5,000 m² walled and gated estate, pool, padel court, gym and sauna used by one group only</td><td style={s.td}>Varies; many large island villas share access roads or beaches with neighbours</td></tr>
+          <tr><td style={s.td}>Ferry and inter-island costs</td><td style={s.td}>None; island day trips from Rafina are optional</td><td style={s.td}>Ferry or flight tickets for the whole group each way, plus port transfers</td></tr>
+          <tr><td style={s.td}>Shoulder season (October to May)</td><td style={s.td}>Mild coast, heated pool, everything open year round, 40 minutes from Athens for rainy-day plans</td><td style={s.td}>Many restaurants, shops and services close; ferries run less often</td></tr>
+        </tbody>
+      </table>
+      <p style={s.source}>
+        Ferry durations are typical scheduled crossings from Piraeus and Rafina to the central Cyclades as published by the operators; island capacity ranges reflect the largest listings on the aggregators cited above. Details of the estate are on the <Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>luxury villa rental in Porto Rafti</Link> page.
+      </p>
+
       <h2 style={s.h2}>Decision Factors for Large Family Groups</h2>
       <h3 style={s.h3}>Airport proximity</h3>
       <p style={s.p}>
@@ -158,8 +179,8 @@ export default function Page() {
 
       <h2 style={s.h2}>Related Reading</h2>
       <ul style={s.ul}>
-        <li style={s.li}><Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>Luxury Villa in Porto Rafti, A 9-Bedroom Estate Near Athens</Link></li>
-        <li style={s.li}><Link href="/villas-near-athens-airport" style={{ color: "#7a8c6e" }}>Closest Luxury Villa to Athens International Airport</Link></li>
+        <li style={s.li}><Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>Luxury Villa Rental in Porto Rafti, A 9-Bedroom Private Estate Near Athens</Link></li>
+        <li style={s.li}><Link href="/villas-near-athens-airport" style={{ color: "#7a8c6e" }}>Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto Rafti</Link></li>
         <li style={s.li}><Link href="/porto-rafti-vs-mykonos-vs-santorini" style={{ color: "#7a8c6e" }}>Porto Rafti vs Mykonos vs Santorini, 2026 Comparison</Link></li>
         <li style={s.li}><Link href="/articles/multi-generational-trip-greece" style={{ color: "#7a8c6e" }}>Planning a Multi-Generational Family Trip to Greece</Link></li>
       </ul>
@@ -170,7 +191,7 @@ export default function Page() {
         <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
       </div>
 
-      <p style={s.updated}>Last updated: 22 September 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>
+      <p style={s.updated}>Last updated: 29 September 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>
 
       <Link href="/" style={s.back}>&larr; Back to Villa Lithos home</Link>
     </article>

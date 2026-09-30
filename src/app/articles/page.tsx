@@ -32,13 +32,13 @@ export const metadata: Metadata = {
 const guides = [
   {
     href: "/luxury-villa-porto-rafti",
-    title: "Luxury Villa in Porto Rafti, Greece: A 9-Bedroom Estate Near Athens",
-    excerpt: "The full detail on Villa Lithos Porto Rafti: layout, amenities, distances, and the wider Porto Rafti context.",
+    title: "Luxury Villa Rental in Porto Rafti, Greece: A 9-Bedroom Private Estate Near Athens",
+    excerpt: "The full detail on Villa Lithos Porto Rafti: layout, amenities, road and port access, distances, and the wider Porto Rafti context.",
     category: "Villa Guide",
   },
   {
     href: "/villas-near-athens-airport",
-    title: "Closest Luxury Villa to Athens International Airport: A 20-Minute Drive to Porto Rafti",
+    title: "Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto Rafti",
     excerpt: "Drive-time comparison of the leading large villas near Eleftherios Venizelos, and why proximity matters for groups.",
     category: "Near Athens",
   },
@@ -65,10 +65,10 @@ const guides = [
 const articles = [
   {
     slug: "wellness-retreats-greece-mainland",
-    title: "Wellness Retreats in Greece: A Practical Guide to Mainland Options",
-    excerpt: "The Greek mainland wellness retreat market in 2026, with a practical look at the difference between dedicated wellness resorts and luxury villas with full wellness amenities.",
-    date: "2026-05-11",
-    readTime: "11 min read",
+    title: "Fitness and Wellness Retreats in Greece: A Practical Guide to Mainland Venues",
+    excerpt: "Dedicated wellness resorts versus private villas with full training amenities, plus the fitness facilities and equipment inventory at Villa Lithos for retreat facilitators.",
+    date: "2026-09-29",
+    readTime: "13 min read",
     category: "Wellness",
   },
   {

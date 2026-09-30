@@ -1,16 +1,22 @@
 import { Metadata } from "next";
 import Link from "next/link";
 
-const TITLE = "Wellness Retreats in Greece: A Practical Guide to Mainland Options";
-const DESC = "The Greek mainland wellness retreat market in 2026, with a practical look at the difference between dedicated wellness resorts and luxury villas with full wellness amenities. Includes a survey of the leading options and a frame for choosing.";
+const TITLE = "Fitness & Wellness Retreat Venue in Greece | Villa Lithos";
+const H1 = "Fitness and Wellness Retreats in Greece: A Practical Guide to Mainland Venues";
+const DESC = "Fitness and wellness retreat venue 20 min from Athens airport: heated infinity pool, private gym, floodlit padel court, outdoor sauna, shaded deck for mat work.";
 const URL = "https://www.villalithosgreece.com/articles/wellness-retreats-greece-mainland";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-05-11";
+const MODIFIED = "2026-09-29";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESC,
   keywords: [
+    "fitness retreat greece",
+    "fitness retreat venue greece",
+    "fitness retreat near athens",
+    "private training villa greece",
+    "retreat venue hire greece",
     "wellness retreat greece",
     "wellness villa athens",
     "yoga retreat greece mainland",
@@ -21,23 +27,127 @@ export const metadata: Metadata = {
     "private retreat venue greece",
     "wellness tourism greece",
   ],
-  openGraph: { type: "article", title: TITLE, description: DESC, url: URL },
+  openGraph: { type: "article", title: TITLE, description: DESC, url: URL, images: [{ url: "https://www.villalithosgreece.com/img/gallery/Exterior%20%26%20Pool%20(15).jpg", width: 2048, height: 1365 }] },
   twitter: { card: "summary_large_image", title: TITLE, description: DESC },
   alternates: { canonical: URL },
+};
+
+// Measured specifications. Every field is null until the on-site team confirms it;
+// a null value hides that detail, so no placeholder number can reach the page.
+const SPEC: {
+  poolLengthM: number | null;
+  poolWidthM: number | null;
+  deckAreaM2: number | null;
+  deckMats: number | null;
+  gymAreaM2: number | null;
+  dumbbellRangeKg: string | null;
+  padelDimensions: string | null;
+  saunaSeats: number | null;
+  portableKit: string | null;
+  anchors: string | null;
+} = {
+  poolLengthM: null,
+  poolWidthM: null,
+  deckAreaM2: null,
+  deckMats: null,
+  gymAreaM2: null,
+  dumbbellRangeKg: null,
+  padelDimensions: null,
+  saunaSeats: null,
+  portableKit: null,
+  anchors: null,
+};
+
+const facilities = [
+  {
+    facility: "Private gym",
+    spec: [
+      "Garden pavilion beside the pool with folding glass doors onto the lawn, wooden floor and rubber matting",
+      SPEC.gymAreaM2 ? `${SPEC.gymAreaM2} m²` : null,
+      "Multi-station cable machine, adjustable bench, adjustable dumbbells" + (SPEC.dumbbellRangeKg ? ` (${SPEC.dumbbellRangeKg})` : "") + ", treadmill",
+    ].filter(Boolean).join(". "),
+    use: "Strength sessions for 4 to 6 at a time; doors open for indoor-outdoor circuits",
+  },
+  {
+    facility: "Heated infinity pool",
+    spec: [
+      "Sea views, jacuzzi alongside, heated for the shoulder season",
+      SPEC.poolLengthM && SPEC.poolWidthM ? `${SPEC.poolLengthM} × ${SPEC.poolWidthM} m` : null,
+    ].filter(Boolean).join(". "),
+    use: "Swim sessions, recovery, cold-to-warm contrast with the sauna",
+  },
+  {
+    facility: "Outdoor training deck",
+    spec: [
+      "Pergola-shaded stone terrace beside the pool, plus the upper terrace for sunrise sessions",
+      SPEC.deckAreaM2 ? `${SPEC.deckAreaM2} m² under shade` : null,
+      SPEC.deckMats ? `room for ${SPEC.deckMats} mats` : null,
+    ].filter(Boolean).join(". "),
+    use: "Yoga, mobility, HIIT and group mat work in the shade",
+  },
+  {
+    facility: "Padel court",
+    spec: [
+      "Full-size, glass-walled, artificial turf, floodlit for evening play",
+      SPEC.padelDimensions,
+      "Rackets and balls provided; a coach can be booked through the concierge",
+    ].filter(Boolean).join(". "),
+    use: "Tournaments, active recovery, team sessions",
+  },
+  {
+    facility: "Outdoor sauna",
+    spec: ["Barrel sauna in the garden among the olive trees", SPEC.saunaSeats ? `${SPEC.saunaSeats} seats` : null].filter(Boolean).join(". "),
+    use: "Post-training recovery, contrast sessions with the pool",
+  },
+  {
+    facility: "Indoor session space",
+    spec: "Two living rooms on separate levels and the attic workshop floor with a large screen; Starlink internet throughout",
+    use: "Briefings, workshops, breathwork and meditation when the weather turns",
+  },
+  ...(SPEC.portableKit ? [{ facility: "Portable kit", spec: SPEC.portableKit, use: "Circuit and mobility sessions anywhere on the estate" }] : []),
+  ...(SPEC.anchors ? [{ facility: "Suspension anchor points", spec: SPEC.anchors, use: "TRX and band work" }] : []),
+];
+
+const facilityPhotos = [
+  { file: "Sports & Activities (4).jpg", alt: "Private gym pavilion at Villa Lithos Porto Rafti with cable machine, bench and folding doors open to the lawn and pool" },
+  { file: "Exterior & Pool (15).jpg", alt: "Pergola-shaded training deck beside the heated infinity pool at Villa Lithos Porto Rafti at dusk" },
+  { file: "Exterior & Pool.jpg", alt: "Heated infinity pool and terraces of Villa Lithos Porto Rafti with sea views" },
+  { file: "Sports & Activities (6).jpg", alt: "Floodlit glass-walled padel court at Villa Lithos Porto Rafti in the evening" },
+];
+const img = (file: string) => `/img/gallery/${encodeURIComponent(file)}`;
+
+const faqs = [
+  { q: "Can Villa Lithos host a fitness retreat in Greece?", a: "Yes. The estate has a private gym pavilion, a heated infinity pool, a full-size floodlit padel court, an outdoor sauna and shaded terraces for mat work, all for the exclusive use of one group of up to 22. Trainers, yoga teachers and therapists are arranged and quoted by the concierge team." },
+  { q: "How far is the venue from Athens airport?", a: "16 km, about 20 minutes by car. Groups can land in the morning and train the same afternoon, with no ferry or domestic flight." },
+  { q: "How many people can a retreat host?", a: "Up to 22 guests across nine bedrooms. Eight to nine people if everyone needs a private room; most retreats run between 10 and 16." },
+  { q: "Is catering for athletic or dietary programmes available?", a: "Yes. Private chefs are arranged by the concierge, from single meals to full board, with plant-forward, high-protein, kosher and other dietary briefs on request. Catering is quoted separately by group size and menu." },
+  { q: "Are the facilities shared with other guests?", a: "No. The whole estate, including the pool, gym, padel court and sauna, is rented to one group at a time." },
+  { q: "When is the venue available for retreats?", a: "Weekday blocks from October to May are the natural fit and the coast stays mild for most of that period. Summer dates compete with holiday bookings. Rates are quoted on request." },
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map(({ q, a }) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })),
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: TITLE,
+  headline: H1,
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
   author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com" },
   publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithosgreece.com/img/logo.webp" } },
-  image: ["https://www.villalithosgreece.com/img/hero.webp"],
+  image: ["https://www.villalithosgreece.com/img/hero.webp", ...facilityPhotos.map((p) => `https://www.villalithosgreece.com${img(p.file)}`)],
   mainEntityOfPage: { "@type": "WebPage", "@id": URL },
   url: URL,
+  about: [
+    { "@type": "Thing", name: "Fitness retreats in Greece" },
+    { "@type": "Thing", name: "Wellness retreats in Greece" },
+    { "@id": "https://www.villalithosgreece.com/#villa" },
+  ],
 };
 
 const s = {
@@ -60,18 +170,25 @@ const s = {
   ctaText: { fontSize: "1.05rem", color: "#555", marginBottom: 24 } as React.CSSProperties,
   back: { display: "inline-block", marginTop: 32, color: "#7a8c6e", textDecoration: "none", fontSize: "0.97rem" } as React.CSSProperties,
   updated: { fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" } as React.CSSProperties,
+  grid: { display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 12, marginBottom: 22 } as React.CSSProperties,
+  photo: { width: "100%", height: "auto", aspectRatio: "3 / 2", objectFit: "cover" as const, borderRadius: 8, display: "block" } as React.CSSProperties,
+  note: { fontSize: "0.95rem", color: "#555", marginBottom: 18 } as React.CSSProperties,
+  faqItem: { borderBottom: "1px solid #e8e3d3", padding: "14px 0" } as React.CSSProperties,
+  faqQ: { fontWeight: 600, fontSize: "1.05rem", cursor: "pointer", listStyle: "none" } as React.CSSProperties,
+  faqA: { marginTop: 8, fontSize: "1.02rem", color: "#444" } as React.CSSProperties,
 };
 
 export default function Page() {
   return (
     <article style={s.article}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
-      <h1 style={s.h1}>{TITLE}</h1>
-      <span style={s.meta}>Last updated: May 2026 · 11 minute read · Villa Lithos Porto Rafti</span>
+      <h1 style={s.h1}>{H1}</h1>
+      <span style={s.meta}>Last updated: September 2026 · 13 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
-        The Greek wellness travel category has grown rapidly since 2022. Mainland Greece, particularly the Athens Riviera and East Attica, has emerged as an alternative to the established island spa resorts. This guide compares the two practical formats, dedicated wellness resorts and private villas with full wellness amenities, and identifies when each is the right choice for a group, a family, or a corporate retreat.
+        The Greek wellness travel category has grown rapidly since 2022, and fitness retreats have grown with it. Mainland Greece, particularly the Athens Riviera and East Attica, has emerged as an alternative to the established island spa resorts for both. This guide compares the two practical formats, dedicated wellness resorts and private villas with full training and wellness amenities, identifies when each is the right choice for a group, a family, or a corporate retreat, and sets out the <a href="#fitness-facilities" style={{ color: "#7a8c6e" }}>exact fitness facilities</a> a facilitator can plan around at Villa Lithos Porto Rafti.
       </p>
 
       <h2 style={s.h2}>The Wellness Tourism Market in Greece</h2>
@@ -213,11 +330,54 @@ export default function Page() {
 
       <h2 style={s.h2}>Villa Lithos, Specifically</h2>
       <p style={s.p}>
-        Villa Lithos Porto Rafti is one of the only mainland Greek villas that ships with the full wellness amenity stack as standard. The infinity pool is heated, sized adequately for lap swimming. The outdoor sauna is built-in. The gym is on the lower level with cardio and resistance equipment. The padel court is a full-size singles or doubles court. The kitchen pantry supports a chef catering for 22 guests. Two living rooms allow simultaneous workshop sessions and rest, important for groups where not everyone wants to be in the same activity at the same time.
+        Villa Lithos Porto Rafti is one of the only mainland Greek villas that ships with the full wellness amenity stack as standard. The infinity pool is heated. The outdoor sauna is built-in. The gym is a separate pavilion beside the pool with cardio and resistance equipment. The padel court is a full-size singles or doubles court. The kitchen pantry supports a chef catering for 22 guests. Two living rooms allow simultaneous workshop sessions and rest, important for groups where not everyone wants to be in the same activity at the same time.
       </p>
       <p style={s.p}>
         The villa concierge team has standing relationships with Athens-based yoga instructors, massage therapists, and a small panel of private chefs trained in healthy and dietary-restricted catering. Retreat planning typically begins six to eight weeks before arrival, with the lead facilitator finalised first and the supporting practitioners booked based on the group's interests.
       </p>
+
+      <h2 id="fitness-facilities" style={s.h2}>Fitness Facilities and Equipment Inventory at Villa Lithos</h2>
+      <p style={s.p}>
+        Facilitators planning a <strong>fitness retreat in Greece</strong> need specifications, not adjectives. The table below lists what is physically on the estate and what each space is used for during a training week. Every facility is for the exclusive use of the one group renting the villa. Programme staff (trainers, yoga teachers, physiotherapists) are arranged and quoted by the concierge team.
+      </p>
+      <table style={s.table}>
+        <thead>
+          <tr>
+            <th style={s.th}>Facility</th>
+            <th style={s.th}>Specification</th>
+            <th style={s.th}>Retreat use</th>
+          </tr>
+        </thead>
+        <tbody>
+          {facilities.map((f) => (
+            <tr key={f.facility}>
+              <td style={s.td}><strong>{f.facility}</strong></td>
+              <td style={s.td}>{f.spec}</td>
+              <td style={s.td}>{f.use}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <p style={s.note}>
+        Measured dimensions (pool length, shaded deck area, gym floor area) and the portable kit inventory are supplied on request for facilitators building a programme.
+      </p>
+      <div style={s.grid}>
+        {facilityPhotos.map((p) => (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img key={p.file} src={img(p.file)} alt={p.alt} loading="lazy" style={s.photo} />
+        ))}
+      </div>
+      <p style={s.p}>
+        <Link href="/#inquiry" style={s.cta}>Inquire for Retreat Facilitators &amp; Equipment Specs</Link>
+      </p>
+
+      <h2 style={s.h2}>Questions Retreat Organisers Ask</h2>
+      {faqs.map(({ q, a }) => (
+        <details key={q} style={s.faqItem}>
+          <summary style={s.faqQ}>{q}</summary>
+          <p style={s.faqA}>{a}</p>
+        </details>
+      ))}
 
       <h2 style={s.h2}>Sources and Further Reading</h2>
       <ul style={s.ul}>
@@ -231,12 +391,12 @@ export default function Page() {
       </ul>
 
       <div style={s.ctaBox}>
-        <h2 style={s.ctaHeading}>A Wellness-Ready Villa for Up to 22 Guests</h2>
-        <p style={s.ctaText}>Heated infinity pool, outdoor sauna, full gym, padel court, designer kitchen, two living rooms. Concierge arranges yoga, breathwork, massage, and chef catering tailored to your group.</p>
+        <h2 style={s.ctaHeading}>A Fitness and Wellness Retreat Venue for Up to 22 Guests</h2>
+        <p style={s.ctaText}>Heated infinity pool, outdoor sauna, private gym, floodlit padel court, designer kitchen, two living rooms, 20 minutes from Athens airport. Concierge arranges trainers, yoga, breathwork, massage, and chef catering tailored to your group. See also the <Link href="/corporate-retreats" style={{ color: "#7a8c6e" }}>corporate retreat venue</Link> page for team offsites.</p>
         <Link href="/#inquiry" style={s.cta}>Inquire About a Retreat</Link>
       </div>
 
-      <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+      <p style={s.updated}>Last updated: 29 September 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
 
       <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     </article>
