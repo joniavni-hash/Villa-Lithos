@@ -279,6 +279,14 @@ export function FAQJsonLd() {
     mainEntity: [
       {
         "@type": "Question",
+        name: "Where is Villa Lithos located in Greece?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Villa Lithos is in Porto Rafti, a coastal town in East Attica on the Greek mainland, 16 km (about 20 minutes by car) from Athens International Airport and 40 minutes from central Athens. It is not the villa of the same name on Milos or in the Mani.",
+        },
+      },
+      {
+        "@type": "Question",
         name: "How many bedrooms does Villa Lithos have?",
         acceptedAnswer: {
           "@type": "Answer",
