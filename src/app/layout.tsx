@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import "./design.css";
 import { fontVariables } from "./fonts";
 import Script from "next/script";
 
