@@ -82,8 +82,8 @@ export default function WelcomePage() {
       {/* Testimonial */}
       <section style={{ ...s.section, paddingTop: 20 }}>
         <div style={s.testimonial}>
-          <p style={s.quote}>"An unforgettable family holiday. The villa is even more beautiful than the photos. The kids loved the pool and we loved the sunsets."</p>
-          <p style={s.author}>A Recent Guest</p>
+          <p style={s.quote}>&ldquo;We came as two families to Villa Lithos and it was perfect. [&hellip;] The best part was the padel court. We&rsquo;re not padel players, but the kids played for at least two hours a day, and even we adults enjoyed it a lot.&rdquo;</p>
+          <p style={s.author}>Guy, November 2025, via Airbnb</p>
         </div>
       </section>
 

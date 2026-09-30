@@ -5,6 +5,7 @@ import HeroBanner from "@/components/HeroBanner";
 import MarqueeLine from "@/components/MarqueeLine";
 import UltraLuxuryGallery from "@/components/UltraLuxuryGallery";
 import EstateSection from "@/components/EstateSection";
+import Testimonials from "@/components/Testimonials";
 import { getPageData, getGlobalData } from "@/app/lib/tina";
 import { defaultOpenGraph, defaultTwitter } from "@/app/lib/seo";
 import { FAQJsonLd } from "@/app/lib/jsonld";
@@ -34,6 +35,10 @@ const VillaMapSection = dynamic(
   () => import("@/components/VillaMapSection"),
   { ssr: true }
 );
+
+const FaqSection = dynamic(() => import("@/components/FaqSection"), {
+  ssr: true,
+});
 
 const ContactForm = dynamic(() => import("@/components/ContactForm"), {
   ssr: true,
@@ -295,10 +300,16 @@ export default async function HomePage() {
         />
       </div>
 
+      {/* Guest reviews, anchor /#reviews. Plain content: no Review/AggregateRating schema (self-serving reviews). */}
+      <Testimonials />
+
       {/* Map section - preserve id for anchor */}
       <div id="location">
         <VillaMapSection data={page?.map || undefined} />
       </div>
+
+      {/* FAQ, anchor /#faq. Same source as FAQJsonLd above. */}
+      <FaqSection />
 
       {/* Contact/Inquiry section - preserve ids for anchor */}
       <div id="contact" className="">
