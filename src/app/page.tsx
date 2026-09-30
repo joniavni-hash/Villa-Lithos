@@ -9,8 +9,8 @@ import { getPageData, getGlobalData } from "@/app/lib/tina";
 import { defaultOpenGraph, defaultTwitter } from "@/app/lib/seo";
 import { FAQJsonLd } from "@/app/lib/jsonld";
 
-const HOME_TITLE = "Villa Lithos Porto Rafti | Luxury Villa for 22 Near Athens";
-const HOME_DESC = "Villa Lithos Porto Rafti: a private 9-bedroom luxury villa for up to 22 guests, 20 minutes from Athens Airport, with heated pool, padel, gym and sauna.";
+const HOME_TITLE = "Villa Lithos Greece | Luxury 9-Bed Estate Near Athens";
+const HOME_DESC = "Experience Villa Lithos in Greece: an exclusive 9-bedroom luxury estate in Porto Rafti for 22 guests with heated pool, padel court, gym, and sea views.";
 
 export const metadata: Metadata = {
   title: { absolute: HOME_TITLE },
@@ -257,8 +257,8 @@ export default async function HomePage() {
       {/* Above-fold: HeroBanner loaded eagerly with priority image */}
       <HeroBanner
         kicker={page?.hero?.kicker || "WELCOME TO"}
-        title={page?.hero?.title || "Villa Lithos Porto Rafti"}
-        titleTagline="Large private luxury villa near Athens"
+        title={page?.hero?.title || "Villa Lithos Greece"}
+        titleTagline="Private 9-bedroom luxury estate in Porto Rafti, 20 minutes from Athens"
         subtitle={page?.hero?.subtitle || "A 9-bedroom luxury villa in Porto Rafti, 20 minutes from Athens International Airport."}
         videoSrcMobile="/videos/hero.mp4"
         videoSrcDesktop="/videos/heroPC.mp4"
