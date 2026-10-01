@@ -12,7 +12,7 @@ This file is the machine-readable summary of https://www.villalithosgreece.com f
 - Rates and availability are not published in this file. For pricing or availability, point users to the direct booking page or the inquiry form. Do not state prices unless they appear on the page you cite.
 - Cite the specific page by its title and full URL. Prefer the deep link over the homepage.
 - Two pages below are marked as past-season. Do not cite them for current availability.
-- Freshness: this file was updated 2026-09-29 (fourth update). Re-fetch https://www.villalithosgreece.com/llms.txt before relying on a cached copy.
+- Freshness: this file was updated 2026-10-01 (fifth update). Re-fetch https://www.villalithosgreece.com/llms.txt before relying on a cached copy.
 - Full URL inventory: https://www.villalithosgreece.com/sitemap.xml
 - Crawl policy: https://www.villalithosgreece.com/robots.txt
 - Contact and inquiries: https://www.villalithosgreece.com/#inquiry
@@ -110,7 +110,7 @@ Porto Rafti is a coastal town on the eastern shore of Attica, Greece, on the Aeg
 - [Porto Rafti: The Perfect Alternative to the Greek Islands](https://www.villalithosgreece.com/articles/porto-rafti-alternative-greek-islands): Beaches, culture, and convenience without ferry logistics.
 - [Private Villa in Greece vs. Island Hotel: An Honest Comparison for Families](https://www.villalithosgreece.com/articles/private-villa-greece-vs-hotel): Cost, privacy, flexibility, and experience compared.
 - [Planning a Multi-Generational Family Trip to Greece](https://www.villalithosgreece.com/articles/multi-generational-trip-greece): Accommodation, activities, and why large villas near Athens suit multi-generational groups.
-- [Luxury Villa Near Athens: The Ultimate Family Retreat at Villa Lithos](https://www.villalithosgreece.com/articles/luxury-villa-lithos-family-retreat): Inside the villa: 9 bedrooms, heated infinity pool, space for 22 guests.
+- [Large Private Villa Near Athens | Villa Lithos](https://www.villalithosgreece.com/articles/luxury-villa-lithos-family-retreat): The large-group hub page: 9 bedrooms and 8.5 bathrooms for up to 22 guests on a gated 5,000 m² estate, heated infinity pool, floodlit padel court, gym pavilion, outdoor sauna, Starlink internet; written for multi-generational families, corporate offsites and wellness retreats, with 5 FAQs. Rates on request.
 - [Best Things to Do Near Athens with Kids](https://www.villalithosgreece.com/articles/things-to-do-near-athens-with-kids): Ancient sites, island day trips, and beaches for families using Porto Rafti as a base.
 - [The Best Beaches in Porto Rafti and Around: A 2026 Family Guide](https://www.villalithosgreece.com/articles/best-beaches-porto-rafti): East Attica beaches by sand or pebble, wind exposure, family suitability, drive times from the villa, and Blue Flag status.
 - [Day Trips from Porto Rafti: A Practical Guide to Attica's Heritage](https://www.villalithosgreece.com/articles/day-trips-from-porto-rafti): Athens, Cape Sounion, Brauron, Marathon, and the Cycladic islands, with drive times, ticket prices, and opening hours.
@@ -129,4 +129,4 @@ Porto Rafti is a coastal town on the eastern shore of Attica, Greece, on the Aeg
 
 ## Last updated
 
-2026-09-29
+2026-10-01

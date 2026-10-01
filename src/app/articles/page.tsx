@@ -64,6 +64,14 @@ const guides = [
 
 const articles = [
   {
+    slug: "luxury-villa-lithos-family-retreat",
+    title: "Large Private Villa Near Athens: Luxury Estate Rental for Groups at Villa Lithos",
+    excerpt: "A 9-bedroom private estate for up to 22 guests on 5,000 m² in Porto Rafti, 20 minutes from Athens airport: heated pool, padel court, gym and sauna for multi-generational families, offsites and retreats.",
+    date: "2026-10-01",
+    readTime: "6 min read",
+    category: "Large Groups",
+  },
+  {
     slug: "wellness-retreats-greece-mainland",
     title: "Fitness and Wellness Retreats in Greece: A Practical Guide to Mainland Venues",
     excerpt: "Dedicated wellness resorts versus private villas with full training amenities, plus the fitness facilities and equipment inventory at Villa Lithos for retreat facilitators.",
@@ -134,14 +142,6 @@ const articles = [
     date: "2026-02-24",
     readTime: "8 min read",
     category: "Family Travel",
-  },
-  {
-    slug: "luxury-villa-lithos-family-retreat",
-    title: "Inside Villa Lithos: A Luxury Family Retreat on the Athens Riviera",
-    excerpt: "9 bedrooms, a private pool, and 800 square metres of living space just 30 minutes from Athens airport. Discover what makes Villa Lithos special.",
-    date: "2026-02-24",
-    readTime: "5 min read",
-    category: "Villa Feature",
   },
   {
     slug: "porto-rafti-alternative-greek-islands",
