@@ -21,14 +21,13 @@ export default function FaqSection() {
     <section id="faq" className={styles.section} aria-labelledby="faq-title">
       <div className={styles.container}>
         <div className={styles.aside}>
-          <p className={styles.kicker}>Questions &amp; answers</p>
           <h2 id="faq-title" className={styles.title}>Before you book</h2>
           <p className={styles.intro}>
             The questions groups ask us most, answered plainly. Anything else, the team replies on WhatsApp.
           </p>
           <div className={styles.photo}>
             <Image
-              src="/img/gallery/Living & Dining (6).jpg"
+              src="/img/gallery/Living%20%26%20Dining%20(6).jpg"
               alt="Living and dining area at Villa Lithos"
               fill
               sizes="360px"
@@ -37,7 +36,6 @@ export default function FaqSection() {
           </div>
           <div className={styles.contact}>
             <h3 className={styles.contactTitle}>Still have a question?</h3>
-            <p className={styles.contactText}>English, Greek and Hebrew.</p>
             <a className={styles.btn} href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
               Message the team
             </a>

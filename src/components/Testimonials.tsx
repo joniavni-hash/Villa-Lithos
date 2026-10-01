@@ -1,3 +1,6 @@
+"use client";
+
+import { useCallback, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import {
   AIRBNB_SUMMARY,
@@ -9,9 +12,9 @@ import {
 } from "@/app/lib/testimonials";
 import styles from "./Testimonials.module.css";
 
-const WHATSAPP_URL = `https://wa.me/306932757142?text=${encodeURIComponent(
-  "Hi, I'd like to check availability at Villa Lithos."
-)}`;
+const ALL: Testimonial[] = [FEATURED_TESTIMONIAL, ...TESTIMONIALS];
+const INTERVAL = 6500;
+const GRID = 3;
 
 function Stars() {
   return (
@@ -45,13 +48,36 @@ function Byline({ t }: { t: Testimonial }) {
   );
 }
 
+/**
+ * Reviews carousel. Every INTERVAL ms the featured quote and the three cards
+ * below it advance by one; arrows and dots give manual control; hover pauses.
+ * All quotes stay in the DOM (visually hidden) so crawlers read the full set.
+ */
 export default function Testimonials() {
+  const [idx, setIdx] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const timer = useRef<number | null>(null);
+  const n = ALL.length;
+
+  const go = useCallback((d: number) => setIdx((i) => (i + d + n) % n), [n]);
+
+  useEffect(() => {
+    if (paused) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    timer.current = window.setInterval(() => go(1), INTERVAL);
+    return () => {
+      if (timer.current) window.clearInterval(timer.current);
+    };
+  }, [paused, go]);
+
+  const featured = ALL[idx];
+  const cards = Array.from({ length: GRID }, (_, k) => ALL[(idx + 1 + k) % n]);
+
   return (
     <section id="reviews" className={styles.section} aria-labelledby="reviews-title">
       <div className={styles.container}>
         <div className={styles.head}>
           <div>
-            <p className={styles.kicker}>Guest reviews</p>
             <h2 id="reviews-title" className={styles.title}>In their own words</h2>
             <p className={styles.intro}>
               Reviews from guests who stayed at Villa Lithos, quoted word for word from Airbnb and Google.
@@ -87,45 +113,72 @@ export default function Testimonials() {
           </ul>
         </div>
 
-        <figure className={styles.featured} style={{ margin: 0 }}>
-          <div className={styles.featuredImg}>
-            <Image
-              src="/img/gallery/Exterior & Pool (14).jpg"
-              alt="Pool terrace at Villa Lithos"
-              fill
-              sizes="(max-width: 960px) 100vw, 420px"
-              style={{ objectFit: "cover" }}
-            />
-          </div>
-          <div className={styles.featuredBody}>
-            <blockquote style={{ margin: 0 }}>
-              <p className={styles.featuredQuote}>{FEATURED_TESTIMONIAL.quote}</p>
-            </blockquote>
-            <Byline t={FEATURED_TESTIMONIAL} />
-          </div>
-        </figure>
-
-        <div className={styles.grid} role="list">
-          {TESTIMONIALS.map((t) => (
-            <figure key={t.name} className={styles.card} role="listitem">
+        <div
+          className={styles.carousel}
+          onMouseEnter={() => setPaused(true)}
+          onMouseLeave={() => setPaused(false)}
+          onFocusCapture={() => setPaused(true)}
+          onBlurCapture={() => setPaused(false)}
+        >
+          <figure className={styles.featured} style={{ margin: 0 }} aria-live="polite">
+            <div className={styles.featuredImg}>
+              <Image
+                src="/img/gallery/Exterior%20%26%20Pool%20(12).jpg"
+                alt="Pool terrace at Villa Lithos"
+                fill
+                sizes="(max-width: 960px) 100vw, 420px"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.featuredBody} key={idx}>
               <blockquote style={{ margin: 0 }}>
-                <QuoteMark />
-                <p className={styles.quote}>{t.quote}</p>
+                <p className={styles.featuredQuote}>{featured.quote}</p>
               </blockquote>
-              <Byline t={t} />
-            </figure>
-          ))}
-        </div>
+              <Byline t={featured} />
+            </div>
+          </figure>
 
-        <div className={styles.cta}>
-          <p className={styles.ctaText}>Your dates could be next.</p>
-          <div className={styles.ctaBtns}>
-            <a className={styles.btnPrimary} href="/#inquiry">Check availability</a>
-            <a className={styles.btnGhost} href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-              Ask on WhatsApp
-            </a>
+          <div className={styles.grid} role="list" key={`g${idx}`}>
+            {cards.map((t) => (
+              <figure key={t.name} className={styles.card} role="listitem">
+                <blockquote style={{ margin: 0 }}>
+                  <QuoteMark />
+                  <p className={styles.quote}>{t.quote}</p>
+                </blockquote>
+                <Byline t={t} />
+              </figure>
+            ))}
+          </div>
+
+          <div className={styles.controls}>
+            <button type="button" className={styles.arrow} onClick={() => go(-1)} aria-label="Previous review">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="m15 18-6-6 6-6" /></svg>
+            </button>
+            <div className={styles.dots} role="tablist" aria-label="Choose review">
+              {ALL.map((t, i) => (
+                <button
+                  key={t.name}
+                  type="button"
+                  role="tab"
+                  aria-selected={i === idx}
+                  aria-label={`Review by ${t.name}`}
+                  className={`${styles.dot} ${i === idx ? styles.dotOn : ""}`}
+                  onClick={() => setIdx(i)}
+                />
+              ))}
+            </div>
+            <button type="button" className={styles.arrow} onClick={() => go(1)} aria-label="Next review">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="m9 18 6-6-6-6" /></svg>
+            </button>
           </div>
         </div>
+
+        {/* Full set for crawlers; visually hidden */}
+        <ul className={styles.srList}>
+          {ALL.map((t) => (
+            <li key={`sr-${t.name}`}>{t.quote} ({t.name}, {t.source})</li>
+          ))}
+        </ul>
       </div>
     </section>
   );

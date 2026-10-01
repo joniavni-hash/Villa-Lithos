@@ -19,7 +19,7 @@ type HeaderData = {
 };
 
 export default function Footer({ data, headerData }: { data?: FooterData; headerData?: HeaderData }) {
-  const brandName = data?.brandName || "Villa Lithos";
+  const brandName = "Villa Lithos";
   const tagline = data?.tagline || "A private villa in Porto Rafti, Greece. Quiet stays, thoughtful comfort.";
   const phone = data?.phone || "+30 693 275 7142";
   const email = data?.email || "info@villalithos.com";
@@ -28,10 +28,10 @@ export default function Footer({ data, headerData }: { data?: FooterData; header
   const managedBy = data?.managedBy || "Managed by Goldenberg Luxe";
   const managedByUrl = data?.managedByUrl || "https://goldenberg-luxe.guestybookings.com/en";
   const navLinks = headerData?.navLinks || [
-    { href: "/#about", label: "The Villa" },
-    { href: "/#services", label: "Concierge" },
+    { href: "/#about", label: "About" },
     { href: "/#gallery", label: "Gallery" },
-    { href: "/#location", label: "Location" },
+    { href: "/#services", label: "Concierge" },
+    { href: "/#reviews", label: "Guest reviews" },
   ];
 
   return (
