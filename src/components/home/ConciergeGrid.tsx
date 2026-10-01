@@ -35,7 +35,7 @@ export default function ConciergeGrid() {
         </div>
 
         <div className="vl-conc__foot vl-reveal">
-          <p>English, Greek and Hebrew. Typical reply within minutes during business hours.</p>
+          <p>Typical reply within minutes during business hours.</p>
           <Link href="/#inquiry" className="vl-btn vl-btn--ghost">Plan your stay</Link>
         </div>
       </div>

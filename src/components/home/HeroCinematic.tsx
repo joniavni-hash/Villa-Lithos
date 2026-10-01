@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 type Props = {
-  label?: string;
   title?: string;
   primaryHref?: string;
   secondaryHref?: string;
@@ -16,7 +15,6 @@ type Props = {
 };
 
 export default function HeroCinematic({
-  label = "Porto Rafti, Attica · 20 min from Athens Airport",
   title = "A private estate above the Aegean",
   primaryHref = "/#inquiry",
   secondaryHref = "/#gallery",
@@ -87,7 +85,6 @@ export default function HeroCinematic({
       </div>
 
       <div className="vl-hero__in">
-        <span className="vl-label vl-hero__label">{label}</span>
         <h1 className="vl-hero__title">{title}</h1>
         <div className="vl-hero__cta">
           <Link href={primaryHref} className="vl-btn vl-btn--light">

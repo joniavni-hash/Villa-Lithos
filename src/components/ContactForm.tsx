@@ -46,7 +46,7 @@ const CHANNELS = [
     key: "phone",
     href: "tel:+306932757142",
     title: "+30 693 275 7142",
-    text: "English, Greek and Hebrew.",
+    text: "Call or leave a voice message.",
     external: false,
   },
   {

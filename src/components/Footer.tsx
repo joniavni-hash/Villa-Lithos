@@ -28,7 +28,7 @@ export default function Footer({ data, headerData }: { data?: FooterData; header
   const managedBy = data?.managedBy || "Managed by Goldenberg Luxe";
   const managedByUrl = data?.managedByUrl || "https://goldenberg-luxe.guestybookings.com/en";
   const navLinks = headerData?.navLinks || [
-    { href: "/#about", label: "The Villa" },
+    { href: "/#reviews", label: "Guest reviews" },
     { href: "/#services", label: "Concierge" },
     { href: "/#gallery", label: "Gallery" },
     { href: "/#location", label: "Location" },

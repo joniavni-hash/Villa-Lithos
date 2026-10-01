@@ -12,12 +12,9 @@ type HeaderData = {
 
 const DEFAULT_BOOKING_URL =
   "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72";
-const BOOKING_COM_URL = "https://www.booking.com/hotel/gr/villa-lithos-porto-rafti";
-const AIRBNB_URL = "https://airbnb.com/h/lithoss";
 
 const DEFAULT_NAV_LINKS = [
-  { href: "/#about", label: "The Villa" },
-  { href: "/#floors", label: "Rooms" },
+  { href: "/#reviews", label: "Guest reviews" },
   { href: "/#gallery", label: "Gallery" },
   { href: "/#services", label: "Concierge" },
   { href: "/corporate-retreats", label: "Retreats" },
@@ -71,29 +68,9 @@ export default function Header({ data }: { data?: HeaderData }) {
             ))}
           </nav>
 
-          <div className="vl-book">
-            <Link href="/#inquiry" className="vl-btn vl-header__cta">
-              Check availability
-            </Link>
-            <div className="vl-book__menu" role="menu" aria-label="Booking options">
-              <Link href="/#inquiry" className="vl-book__item" role="menuitem">
-                <strong>Direct request</strong>
-                <span>Best terms, concierge included</span>
-              </Link>
-              <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="vl-book__item" role="menuitem">
-                <strong>Book online</strong>
-                <span>Instant confirmation</span>
-              </a>
-              <a href={AIRBNB_URL} target="_blank" rel="noopener noreferrer" className="vl-book__item" role="menuitem">
-                <strong>Airbnb</strong>
-                <span>Guest Favourite, 5.0</span>
-              </a>
-              <a href={BOOKING_COM_URL} target="_blank" rel="noopener noreferrer" className="vl-book__item" role="menuitem">
-                <strong>Booking.com</strong>
-                <span>Free cancellation options</span>
-              </a>
-            </div>
-          </div>
+          <Link href="/#inquiry" className="vl-btn vl-header__cta">
+            Check availability
+          </Link>
 
           <button
             type="button"

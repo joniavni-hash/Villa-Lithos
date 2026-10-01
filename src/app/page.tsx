@@ -4,7 +4,6 @@ import HeroCinematic from "@/components/home/HeroCinematic";
 import StatsStrip from "@/components/home/StatsStrip";
 import Signature from "@/components/home/Signature";
 import BentoGallery from "@/components/home/BentoGallery";
-import Floors from "@/components/home/Floors";
 import Story from "@/components/home/Story";
 import EstateSection from "@/components/EstateSection";
 import ConciergeGrid from "@/components/home/ConciergeGrid";
@@ -46,7 +45,6 @@ export default async function HomePage() {
 
       {/* 1. Cinematic hero: video over poster, one headline, one primary action */}
       <HeroCinematic
-        label="Porto Rafti, Attica · 20 min from Athens Airport"
         title={page?.hero?.title && page.hero.title !== "Villa Lithos Greece" ? page.hero.title : "A private estate above the Aegean"}
       />
 
@@ -58,9 +56,6 @@ export default async function HomePage() {
 
       {/* 4. Gallery moved up: bento grid + lightbox, /#gallery anchor kept */}
       <BentoGallery />
-
-      {/* 5. Interactive floors, /#floors */}
-      <Floors />
 
       {/* 6. Condensed description with expand, /#about anchor kept (SEO copy stays in DOM) */}
       <Story paragraphs={storyParagraphs} />

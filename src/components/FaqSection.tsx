@@ -37,7 +37,6 @@ export default function FaqSection() {
           </div>
           <div className={styles.contact}>
             <h3 className={styles.contactTitle}>Still have a question?</h3>
-            <p className={styles.contactText}>English, Greek and Hebrew.</p>
             <a className={styles.btn} href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
               Message the team
             </a>

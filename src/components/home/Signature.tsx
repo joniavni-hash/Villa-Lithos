@@ -17,11 +17,11 @@ const ITEMS = [
     text: "Outdoor sauna, jacuzzi, a fully equipped gym and a red-light therapy panel.",
   },
   {
-    href: "/planner",
-    img: "/img/gallery/10.jpg",
-    alt: "Stairwell seen from above across the four levels of Villa Lithos",
-    title: "An elevator to every floor",
-    text: "Four levels, nine real bedrooms, step-free ground floor. Nobody is left behind.",
+    href: "/#gallery",
+    img: "/img/gallery/Exterior%20%26%20Pool%20(11).jpg",
+    alt: "Infinity pool edge with a sunbed and the Attica hills behind",
+    title: "The pool above the hills",
+    text: "Heated, infinity-edge and private, with a jacuzzi beside it. Most days start and end here.",
   },
 ];
 
@@ -30,9 +30,8 @@ export default function Signature() {
     <section className="vl-section" aria-labelledby="sig-title">
       <div className="vl-container">
         <header className="vl-head vl-reveal">
-          <span className="vl-label">What sets it apart</span>
           <h2 id="sig-title" className="vl-h2">
-            Three things no other villa near Athens offers
+            What we love the most in the Villa
           </h2>
         </header>
         <div className="vl-sig__grid">
