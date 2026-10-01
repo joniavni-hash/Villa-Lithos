@@ -24,7 +24,6 @@ export default function EstateSection() {
         </div>
 
         <div className="vl-estate__text">
-          <span className="vl-label">The Estate</span>
           <h2 id="estate-title" className="vl-h2">
             A private estate, opened to guests
           </h2>

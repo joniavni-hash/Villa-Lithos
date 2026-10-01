@@ -45,7 +45,7 @@ export default async function HomePage() {
 
       {/* 1. Cinematic hero: video over poster, one headline, one primary action */}
       <HeroCinematic
-        title={page?.hero?.title && page.hero.title !== "Villa Lithos Greece" ? page.hero.title : "Your private gem above the Aegean"}
+        title={page?.hero?.title && page.hero.title !== "Villa Lithos Greece" ? page.hero.title : "Your private Gem above the Aegean"}
       />
 
       {/* 2. Numbers, no icons */}

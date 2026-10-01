@@ -17,7 +17,6 @@ export default function ConciergeGrid() {
     <section id="services" className="vl-section" aria-labelledby="conc-title">
       <div className="vl-container">
         <header className="vl-head vl-reveal">
-          <span className="vl-label">Concierge</span>
           <h2 id="conc-title" className="vl-h2">One team, before and during the stay</h2>
           <p className="vl-lead">
             Pre-stocking the villa, private chefs, boats, coaches and musicians. Ask, and the team on

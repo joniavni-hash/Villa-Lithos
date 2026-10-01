@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import "./design.css";
+import "./design-overrides.css";
 import { fontVariables } from "./fonts";
 import Script from "next/script";
 

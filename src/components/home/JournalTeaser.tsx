@@ -30,7 +30,6 @@ export default function JournalTeaser() {
     <section className="vl-section" aria-labelledby="journal-title">
       <div className="vl-container">
         <header className="vl-head vl-reveal">
-          <span className="vl-label">Journal</span>
           <h2 id="journal-title" className="vl-h2">Plan the days around the villa</h2>
         </header>
         <div className="vl-journal__grid">

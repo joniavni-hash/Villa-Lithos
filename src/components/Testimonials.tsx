@@ -78,7 +78,6 @@ export default function Testimonials() {
       <div className={styles.container}>
         <div className={styles.head}>
           <div>
-            <p className={styles.kicker}>Guest reviews</p>
             <h2 id="reviews-title" className={styles.title}>In their own words</h2>
             <p className={styles.intro}>
               Reviews from guests who stayed at Villa Lithos, quoted word for word from Airbnb and Google.

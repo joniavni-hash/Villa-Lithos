@@ -1,0 +1,19 @@
+/* Header row over the hero: stronger brand mark, links and CTA (round 2b) */
+.vl-header__brand { font-size: 26px; text-shadow: 0 1px 10px rgba(0, 0, 0, 0.45); }
+.vl-header__link { font-size: 14px; font-weight: 700; opacity: 1; text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45); }
+.vl-header__cta {
+  border-width: 1.5px;
+  background: rgba(0, 0, 0, 0.22);
+  font-weight: 700;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+.vl-header--solid .vl-header__brand,
+.vl-header--inner .vl-header__brand,
+.vl-header--solid .vl-header__link,
+.vl-header--inner .vl-header__link,
+.vl-header--solid .vl-header__cta,
+.vl-header--inner .vl-header__cta { text-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; }
+.vl-header--solid .vl-header__cta,
+.vl-header--inner .vl-header__cta { background: var(--vl-charcoal); }

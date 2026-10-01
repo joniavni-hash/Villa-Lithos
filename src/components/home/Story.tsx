@@ -31,7 +31,6 @@ export default function Story({ paragraphs = DEFAULT_PARAGRAPHS }: Props) {
             />
           </div>
           <div className="vl-reveal" data-delay="1">
-            <span className="vl-label" style={{ display: "block", marginBottom: 18 }}>The Villa</span>
             <h2 id="story-title" className="vl-h2" style={{ marginBottom: 24 }}>
               Nine bedrooms on the Attica coast
             </h2>

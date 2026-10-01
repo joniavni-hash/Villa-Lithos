@@ -15,7 +15,7 @@ type Props = {
 };
 
 export default function HeroCinematic({
-  title = "Your private gem above the Aegean",
+  title = "Your private Gem above the Aegean",
   primaryHref = "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72",
   secondaryHref = "/#gallery",
   videoDesktop = "/videos/heroPC.mp4",

@@ -59,7 +59,6 @@ const CHANNELS = [
 ];
 
 export default function ContactForm({ cmsData }: { cmsData?: ContactData }) {
-  const badge = cmsData?.badge || "Direct request";
   const title = cmsData?.title || "Tell us your dates";
   const subtitle =
     cmsData?.subtitle ||
@@ -69,7 +68,6 @@ export default function ContactForm({ cmsData }: { cmsData?: ContactData }) {
     <section id="inquiry" className="vl-inquiry vl-section" aria-labelledby="inquiry-title">
       <div className="vl-container vl-inquiry__grid">
         <div className="vl-reveal">
-          <span className="vl-label" style={{ display: "block", marginBottom: 18 }}>{badge}</span>
           <h2 id="inquiry-title" className="vl-h2" style={{ marginBottom: 20 }}>{title}</h2>
           <p className="vl-lead">{subtitle}</p>
           <p className="vl-body" style={{ marginTop: 20, color: "var(--vl-mute)" }}>

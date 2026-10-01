@@ -69,7 +69,6 @@ export default function BentoGallery() {
     <section id="gallery" className="vl-section" aria-labelledby="gallery-title">
       <div className="vl-container">
         <header className="vl-head vl-reveal">
-          <span className="vl-label">Gallery</span>
           <h2 id="gallery-title" className="vl-h2">Every corner, in its own light</h2>
         </header>
 

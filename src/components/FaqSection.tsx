@@ -21,7 +21,6 @@ export default function FaqSection() {
     <section id="faq" className={styles.section} aria-labelledby="faq-title">
       <div className={styles.container}>
         <div className={styles.aside}>
-          <p className={styles.kicker}>Questions &amp; answers</p>
           <h2 id="faq-title" className={styles.title}>Before you book</h2>
           <p className={styles.intro}>
             The questions groups ask us most, answered plainly. Anything else, the team replies on WhatsApp.
