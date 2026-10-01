@@ -19,7 +19,7 @@ export default function Story({ paragraphs = DEFAULT_PARAGRAPHS }: Props) {
   const [first, ...rest] = paragraphs;
 
   return (
-    <section id="about" className="vl-section" aria-labelledby="story-title">
+    <section id="story" className="vl-section" aria-labelledby="story-title">
       <div className="vl-container">
         <div className="vl-story__grid">
           <div className="vl-story__img vl-reveal">
@@ -47,7 +47,7 @@ export default function Story({ paragraphs = DEFAULT_PARAGRAPHS }: Props) {
               {open ? "Show less" : "Read the full description"}
             </button>
             <div className="vl-story__actions">
-              <Link href="/#inquiry" className="vl-btn">Check availability</Link>
+              <a href="https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72" target="_blank" rel="noopener noreferrer" className="vl-btn">Check availability</a>
               <Link href="/luxury-villa-porto-rafti" className="vl-btn vl-btn--ghost">The full guide</Link>
             </div>
           </div>

@@ -59,7 +59,7 @@ const CHANNELS = [
 ];
 
 export default function ContactForm({ cmsData }: { cmsData?: ContactData }) {
-  const badge = cmsData?.badge || "Check availability";
+  const badge = cmsData?.badge || "Direct request";
   const title = cmsData?.title || "Tell us your dates";
   const subtitle =
     cmsData?.subtitle ||

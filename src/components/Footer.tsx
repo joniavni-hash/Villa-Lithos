@@ -28,10 +28,10 @@ export default function Footer({ data, headerData }: { data?: FooterData; header
   const managedBy = data?.managedBy || "Managed by Goldenberg Luxe";
   const managedByUrl = data?.managedByUrl || "https://goldenberg-luxe.guestybookings.com/en";
   const navLinks = headerData?.navLinks || [
-    { href: "/#reviews", label: "Guest reviews" },
-    { href: "/#services", label: "Concierge" },
+    { href: "/#about", label: "About" },
     { href: "/#gallery", label: "Gallery" },
-    { href: "/#location", label: "Location" },
+    { href: "/#services", label: "Concierge" },
+    { href: "/#reviews", label: "Guest reviews" },
   ];
 
   return (

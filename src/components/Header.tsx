@@ -14,10 +14,11 @@ const DEFAULT_BOOKING_URL =
   "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72";
 
 const DEFAULT_NAV_LINKS = [
-  { href: "/#reviews", label: "Guest reviews" },
+  { href: "/#about", label: "About" },
   { href: "/#gallery", label: "Gallery" },
   { href: "/#services", label: "Concierge" },
   { href: "/corporate-retreats", label: "Retreats" },
+  { href: "/#reviews", label: "Guest reviews" },
   { href: "/articles", label: "Journal" },
 ];
 
@@ -56,7 +57,19 @@ export default function Header({ data }: { data?: HeaderData }) {
     <>
       <header className={cls}>
         <div className="vl-header__in">
-          <Link href="/" className="vl-header__brand" aria-label={`${brandName}, home`}>
+          <Link
+            href="/"
+            className="vl-header__brand"
+            aria-label={`${brandName}, home`}
+            onClick={(e) => {
+              if (isHome) {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: "smooth" });
+                window.history.replaceState(null, "", "/");
+              }
+              setMenuOpen(false);
+            }}
+          >
             {brandName}
           </Link>
 
@@ -68,9 +81,9 @@ export default function Header({ data }: { data?: HeaderData }) {
             ))}
           </nav>
 
-          <Link href="/#inquiry" className="vl-btn vl-header__cta">
+          <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="vl-btn vl-header__cta">
             Check availability
-          </Link>
+          </a>
 
           <button
             type="button"
@@ -95,12 +108,12 @@ export default function Header({ data }: { data?: HeaderData }) {
           ))}
         </nav>
         <div className="vl-menu__book">
-          <Link href="/#inquiry" className="vl-btn vl-btn--light" onClick={() => setMenuOpen(false)}>
+          <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="vl-btn vl-btn--light" onClick={() => setMenuOpen(false)}>
             Check availability
-          </Link>
-          <a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="vl-btn vl-btn--outline-light">
-            Book online
           </a>
+          <Link href="/#inquiry" className="vl-btn vl-btn--outline-light" onClick={() => setMenuOpen(false)}>
+            Ask the team
+          </Link>
         </div>
         <div className="vl-menu__foot">
           <a href="tel:+306932757142">+30 693 275 7142</a>

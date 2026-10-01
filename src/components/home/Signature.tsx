@@ -27,7 +27,7 @@ const ITEMS = [
 
 export default function Signature() {
   return (
-    <section className="vl-section" aria-labelledby="sig-title">
+    <section id="about" className="vl-section" aria-labelledby="sig-title">
       <div className="vl-container">
         <header className="vl-head vl-reveal">
           <h2 id="sig-title" className="vl-h2">

@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 
 const WHATSAPP_URL = `https://wa.me/306932757142?text=${encodeURIComponent(
   "Hi, I'd like to check availability at Villa Lithos."
@@ -32,7 +31,7 @@ export default function StickyActions() {
         <span>WhatsApp</span>
       </a>
       <div className={`vl-sticky ${on ? "is-in" : ""}`} aria-hidden={!on}>
-        <Link href="/#inquiry" className="vl-btn">Check availability</Link>
+        <a href="https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72" target="_blank" rel="noopener noreferrer" className="vl-btn">Check availability</a>
       </div>
     </>
   );

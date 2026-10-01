@@ -15,8 +15,8 @@ type Props = {
 };
 
 export default function HeroCinematic({
-  title = "A private estate above the Aegean",
-  primaryHref = "/#inquiry",
+  title = "Your private gem above the Aegean",
+  primaryHref = "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72",
   secondaryHref = "/#gallery",
   videoDesktop = "/videos/heroPC.mp4",
   videoMobile,
@@ -87,9 +87,9 @@ export default function HeroCinematic({
       <div className="vl-hero__in">
         <h1 className="vl-hero__title">{title}</h1>
         <div className="vl-hero__cta">
-          <Link href={primaryHref} className="vl-btn vl-btn--light">
+          <a href={primaryHref} target="_blank" rel="noopener noreferrer" className="vl-btn vl-btn--light">
             Check availability
-          </Link>
+          </a>
           <Link href={secondaryHref} className="vl-btn vl-btn--outline-light">
             Explore the villa
           </Link>
