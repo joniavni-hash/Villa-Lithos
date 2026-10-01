@@ -3,10 +3,10 @@ import Link from "next/link";
 
 const POSTS = [
   {
-    href: "/articles/best-beaches-porto-rafti",
-    label: "Beaches",
-    title: "Best beaches in Porto Rafti",
-    excerpt: "Eleven beaches with sand vs pebble, wind exposure and family suitability rated.",
+    href: "/porto-rafti",
+    label: "Destination guide",
+    title: "Porto Rafti travel guide",
+    excerpt: "Getting there from Athens airport, the beaches, day trips, food and when to go.",
     img: "/img/gallery/Exterior%20%26%20Pool%20(6).jpg",
   },
   {
