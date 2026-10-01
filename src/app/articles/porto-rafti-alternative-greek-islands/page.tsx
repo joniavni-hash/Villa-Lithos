@@ -71,7 +71,9 @@ export default function PortoRaftiAlternativeGreekIslands() {
         just 20 minutes from Athens International Airport per <a href="https://www.aia.gr/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>AIA route data</a>, delivers the same
         crystal-clear waters and golden sunlight without the crowded ferries,
         inflated island prices, or logistical headaches of traveling with
-        children.
+        children. For the practical basics, getting there, beaches, day trips
+        and where to stay, see our{" "}
+        <Link href="/porto-rafti" style={{ color: "#7a8c6e" }}>Porto Rafti travel guide</Link>.
       </p>
 
       <h2
@@ -248,7 +250,7 @@ export default function PortoRaftiAlternativeGreekIslands() {
         </p>
         <p style={{ fontSize: 15, color: "#555", marginBottom: 20 }}>
           A luxury 9-bedroom villa for up to 22 guests, just minutes from the
-          beach and 30 minutes from Athens airport.
+          beach and 20 minutes from Athens airport.
         </p>
         <Link
           href="/#inquiry"

@@ -38,7 +38,7 @@ const H1 = "A corporate retreat venue near Athens, 20 minutes from the airport."
 const DESC = "Private corporate retreat venue near Athens for offsites of 10 to 22. A 5,000 m² estate 20 minutes from the airport, Starlink internet, pool, padel, gym, sauna.";
 const URL = "https://www.villalithosgreece.com/corporate-retreats";
 const PUBLISHED = "2026-09-22";
-const MODIFIED = "2026-09-29";
+const MODIFIED = "2026-10-01";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -83,7 +83,7 @@ const faqs = [
   { q: "What team size works best?", a: "Eight to nine if everyone needs a private bedroom, up to 22 with shared rooms. Most retreats fall between 10 and 16." },
   { q: "Can we run working sessions on site?", a: "Yes. Two living rooms, the attic workshop floor with a large screen, a dedicated workspace, WiFi and air conditioning throughout, plus the outdoor areas. Presentation equipment and facilitation are arranged through the concierge team." },
   { q: "Is the internet reliable enough for remote work?", a: "Yes. The estate runs on fast, stable Starlink internet, with WiFi throughout the house." },
-  { q: "Is catering included?", a: "Private chefs, from a single dinner to full board, are arranged by the concierge team and quoted separately by team size and menu." },
+  { q: "Is catering included?", a: "Catering is arranged separately. A private chef cooks on the estate, from dinners only to half board or full board, with Greek and Mediterranean menus and kosher or other dietary requirements on advance request. It is quoted with the retreat proposal by team size, board level and menu." },
   { q: "What can the team do after the sessions?", a: "Padel with a coach or a team tournament on the private court, wellness workshops, live bouzouki musicians for a Greek evening, boat days from Rafina and visits to Sounion, Brauron or the Acropolis, all arranged by the concierge team." },
   { q: "When is the estate available for retreats?", a: "Weekday blocks from October to May are the natural fit, and the Attica coast stays mild for most of that period. Summer dates compete with holiday bookings. Rates and availability are quoted on request." },
   { q: "How far is the venue from Athens?", a: "The estate is 16 km from Athens International Airport, about 20 minutes by car, and about 40 minutes from central Athens. Transfers are arranged on request in the vehicle you prefer, from executive cars to a coach." },
@@ -178,6 +178,22 @@ const offHours = [
   { icon: Ship, label: "Boat day from Rafina, 20 min" },
   { icon: Landmark, label: "Sounion, Brauron, the Acropolis" },
   { icon: ChefHat, label: "Private chef, dinner to full board" },
+];
+
+const catering = [
+  { title: "Dinners only", text: "Breakfast and lunch on your own schedule from the stocked kitchen, with a private chef cooking dinner for the whole team each evening." },
+  { title: "Half board", text: "Breakfast laid out before the first session and a chef-cooked dinner, so the working day runs without a lunch break off site." },
+  { title: "Full board", text: "Breakfast, a working lunch on the terrace and dinner, all cooked on the estate. Nobody leaves the gate unless they want to." },
+];
+
+const cateringSpecs = [
+  { k: "Kitchen", v: "Designer kitchen with walk-in pantry, equipped for catering large groups" },
+  { k: "Seating", v: "One dining table for the whole team, plus the alfresco dining terrace" },
+  { k: "Outdoor", v: "BBQ area for a grill night on the estate" },
+  { k: "Cuisine", v: "Greek and Mediterranean menus, built around the team" },
+  { k: "Dietary", v: "Kosher and other dietary requirements on advance request" },
+  { k: "Nights out", v: "Porto Rafti fish tavernas booked ahead for the group" },
+  { k: "Pricing", v: "Quoted with the retreat proposal, by team size, board level and menu" },
 ];
 
 const agenda = [
@@ -443,6 +459,42 @@ export default function Page() {
         </div>
       </section>
 
+      {/* CATERING */}
+      <section id="catering" style={{ background: CREAM }}>
+        <div className="mx-auto max-w-6xl px-6 py-20">
+          <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: SAGE }}>Private chef and catering</span>
+          <h2 className="mt-3 text-3xl md:text-4xl" style={{ fontFamily: "var(--font-serif), serif" }}>Corporate catering on the estate, from one dinner to full board.</h2>
+          <p className="mt-4 max-w-3xl text-lg" style={{ color: "#4a4a4a" }}>
+            A private chef cooks in the villa kitchen for the whole team, so meals happen around the programme rather than the other way round. Choose the board level that fits the agenda; the concierge team plans menus, shopping and service before you land.
+          </p>
+          <div className="mt-8 grid gap-5 md:grid-cols-3">
+            {catering.map(({ title, text }) => (
+              <div key={title} className="rounded-2xl bg-white p-6 shadow-sm" style={{ border: "1px solid rgba(26,35,50,0.06)" }}>
+                <ChefHat size={22} style={{ color: SAGE }} />
+                <h3 className="mt-3 text-xl" style={{ fontFamily: "var(--font-serif), serif", color: INK }}>{title}</h3>
+                <p className="mt-2 text-base" style={{ color: "#4a4a4a" }}>{text}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-10 overflow-x-auto rounded-2xl bg-white shadow-sm" style={{ border: "1px solid rgba(26,35,50,0.06)" }}>
+            <table className="w-full text-left text-base">
+              <caption className="sr-only">Catering and dining at Villa Lithos for corporate retreats</caption>
+              <tbody>
+                {cateringSpecs.map(({ k, v }) => (
+                  <tr key={k} style={{ borderBottom: "1px solid rgba(26,35,50,0.06)" }}>
+                    <th scope="row" className="w-40 px-6 py-4 font-semibold" style={{ color: INK }}>{k}</th>
+                    <td className="px-6 py-4" style={{ color: "#4a4a4a" }}>{v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-6 text-base" style={{ color: "#4a4a4a" }}>
+            For an evening out, most Porto Rafti tavernas seat 10 to 14 at one table and need 24 to 48 hours&apos; notice to set up for a larger group; the concierge team books ahead. More on the local food in our guide to <Link href="/articles/eating-in-porto-rafti" style={{ color: SAGE }}>eating in Porto Rafti</Link>.
+          </p>
+        </div>
+      </section>
+
       {/* LOGISTICS */}
       <section style={{ background: INK, color: "#fff" }}>
         <div className="mx-auto max-w-6xl px-6 py-20">
@@ -553,7 +605,7 @@ export default function Page() {
       {/* FOOT NOTE */}
       <section className="mx-auto max-w-6xl px-6 py-10 text-xs" style={{ color: "#9CA3AF" }}>
         <p>
-          Last updated 29 September 2026. Property facts as published on <Link href="/luxury-villa-porto-rafti" style={{ color: SAGE }}>the luxury villa rental in Porto Rafti guide</Link>. Distances are approximate driving times. Research cited: Atlassian, Intentional Team Gatherings; Gallup, Hybrid Work in Retreat? Barely (2025).
+          Last updated 1 October 2026. Property facts as published on <Link href="/luxury-villa-porto-rafti" style={{ color: SAGE }}>the luxury villa rental in Porto Rafti guide</Link>. Distances are approximate driving times. Research cited: Atlassian, Intentional Team Gatherings; Gallup, Hybrid Work in Retreat? Barely (2025).
           {" "}Related: <Link href="/villas-near-athens-airport" style={{ color: SAGE }}>Large private villa near Athens airport</Link> · <Link href="/large-family-villa-greece" style={{ color: SAGE }}>Villas in Greece for groups of 20</Link> · <Link href="/articles/wellness-retreats-greece-mainland" style={{ color: SAGE }}>Fitness retreat venue in Greece</Link>
         </p>
       </section>

@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "large-family-villa-greece",
     "porto-rafti-vs-mykonos-vs-santorini",
     "corporate-retreats",
+    "porto-rafti",
   ];
 
   const articleSlugs = [
