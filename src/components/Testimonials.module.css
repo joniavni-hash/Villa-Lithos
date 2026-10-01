@@ -64,3 +64,16 @@
   .cta { padding: 22px; }
   .ctaBtns, .btnPrimary, .btnGhost { display: inline-flex; align-items: center; justify-content:center; gap: 8px; min-height: 52px; padding: 0 24px; border-radius: 2px; border: 1px solid #1C1B19; color: #1C1B19; font-family: var(--font-label), "Jura", sans-serif; font-size: 11px; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; text-decoration: none; background: transparent; }
 }
+
+/* Carousel */
+.carousel { display: flex; flex-direction: column; gap: 24px; }
+.featuredBody, .grid { animation: tFade 0.7s cubic-bezier(0.22, 0.8, 0.22, 1) both; }
+@keyframes tFade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .featuredBody, .grid { animation: none; } }
+.controls { display: flex; align-items: center; justify-content: center; gap: 18px; }
+.arrow { width: 44px; height: 44px; border-radius: 999px; border: 1px solid rgba(28,27,25,.3); background: transparent; color: #1C1B19; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; transition: background .3s, color .3s; }
+.arrow:hover { background: #1C1B19; color: #F4F0E8; }
+.dots { display: flex; gap: 10px; }
+.dot { width: 8px; height: 8px; border-radius: 50%; border: 0; padding: 0; background: rgba(28,27,25,.25); cursor: pointer; transition: background .3s, transform .3s; }
+.dotOn { background: #1C1B19; transform: scale(1.3); }
+.srList { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; margin: 0; padding: 0; list-style: none; }

@@ -229,9 +229,9 @@ main {
 
 .vl-header__link {
   font-family: var(--font-label), "Jura", sans-serif;
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.22em;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   text-decoration: none;
   color: inherit;
@@ -328,37 +328,6 @@ main {
 }
 .vl-menu__foot a { color: inherit; text-decoration: none; }
 
-/* Booking dropdown (desktop, inside header) */
-.vl-book { position: relative; }
-.vl-book__menu {
-  position: absolute;
-  right: 0;
-  top: calc(100% + 12px);
-  min-width: 240px;
-  background: var(--vl-charcoal);
-  color: var(--vl-cream);
-  border: 1px solid rgba(244, 240, 232, 0.12);
-  padding: 8px;
-  display: none;
-  flex-direction: column;
-  border-radius: 2px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
-}
-.vl-book:hover .vl-book__menu,
-.vl-book:focus-within .vl-book__menu { display: flex; }
-.vl-book__item {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  padding: 12px 14px;
-  text-decoration: none;
-  color: inherit;
-  border-radius: 2px;
-}
-.vl-book__item:hover { background: rgba(244, 240, 232, 0.08); }
-.vl-book__item strong { font-family: var(--font-label), "Jura", sans-serif; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 600; }
-.vl-book__item span { font-size: 12px; opacity: 0.65; }
-
 /* =========================================================
    HERO
    ========================================================= */
@@ -419,17 +388,19 @@ main {
 
 .vl-hero__cta { display: flex; flex-wrap: wrap; gap: 14px; }
 .vl-hero__trust {
-  margin-top: 24px;
+  margin-top: 28px;
   font-family: var(--font-label), "Jura", sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.12em;
-  color: rgba(244, 240, 232, 0.8);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.45);
   display: flex;
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
 }
-.vl-hero__trust .vl-stars { color: var(--vl-sand); letter-spacing: 0.06em; font-size: 13px; }
+.vl-hero__trust .vl-stars { color: var(--vl-sand); letter-spacing: 0.08em; font-size: 18px; }
 
 .vl-hero__scroll {
   position: absolute;
@@ -641,73 +612,6 @@ main {
   letter-spacing: 0.24em;
   color: rgba(244, 240, 232, 0.7);
 }
-
-/* =========================================================
-   FLOORS (interactive plan)
-   ========================================================= */
-.vl-floors {
-  background: var(--vl-sand-bg);
-}
-.vl-floors__grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 32px;
-}
-@media (min-width: 1024px) {
-  .vl-floors__grid { grid-template-columns: 0.9fr 1.1fr; gap: 64px; align-items: start; }
-}
-.vl-floors__list { display: flex; flex-direction: column; border-top: 1px solid var(--vl-line); }
-.vl-floor {
-  display: grid;
-  grid-template-columns: 56px 1fr auto;
-  align-items: center;
-  gap: 18px;
-  padding: 22px 8px;
-  border-bottom: 1px solid var(--vl-line);
-  background: transparent;
-  border-left: 0; border-right: 0; border-top: 0;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  color: var(--vl-charcoal);
-  transition: background 0.3s var(--vl-ease);
-}
-.vl-floor:hover, .vl-floor.is-active { background: rgba(244, 240, 232, 0.7); }
-.vl-floor__num {
-  font-family: var(--font-display), "Italiana", serif;
-  font-size: 2rem;
-  line-height: 1;
-  color: var(--vl-sage-dark);
-}
-.vl-floor__name { font-family: var(--font-sans), "Inter", sans-serif; font-weight: 500; font-size: 1.05rem; }
-.vl-floor__sub { display: block; font-weight: 300; font-size: 0.9rem; color: var(--vl-mute); margin-top: 4px; }
-.vl-floor__sleeps {
-  font-family: var(--font-label), "Jura", sans-serif;
-  font-size: 11px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--vl-mute);
-  white-space: nowrap;
-}
-.vl-floor.is-active .vl-floor__sleeps { color: var(--vl-charcoal); }
-
-.vl-floors__detail {
-  position: relative;
-  border-radius: 2px;
-  overflow: hidden;
-  background: var(--vl-charcoal);
-  color: var(--vl-cream);
-  min-height: 420px;
-}
-.vl-floors__detail img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.55; transition: opacity 0.6s var(--vl-ease); }
-.vl-floors__detail::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.75)); }
-.vl-floors__detail-in { position: relative; z-index: 2; padding: clamp(28px, 4vw, 48px); display: flex; flex-direction: column; justify-content: flex-end; min-height: 420px; }
-.vl-floors__detail .vl-label { color: var(--vl-sand); margin-bottom: 14px; }
-.vl-floors__detail h3 { font-family: var(--font-display), "Italiana", serif; font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.1; margin-bottom: 18px; }
-.vl-rooms { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 10px 20px; margin: 0 0 24px; padding: 0; }
-.vl-rooms li { font-size: 0.95rem; line-height: 1.5; color: rgba(244, 240, 232, 0.88); padding-left: 14px; position: relative; }
-.vl-rooms li::before { content: ""; position: absolute; left: 0; top: 0.65em; width: 5px; height: 5px; background: var(--vl-sand); border-radius: 50%; }
-.vl-floors__actions { display: flex; flex-wrap: wrap; gap: 12px; }
 
 /* =========================================================
    STORY (condensed intro with expand)
