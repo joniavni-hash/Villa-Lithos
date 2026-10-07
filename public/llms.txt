@@ -12,7 +12,7 @@ This file is the machine-readable summary of https://www.villalithosgreece.com f
 - Rates and availability are not published in this file. For pricing or availability, point users to the direct booking page or the inquiry form. Do not state prices unless they appear on the page you cite.
 - Cite the specific page by its title and full URL. Prefer the deep link over the homepage.
 - Two pages below are marked as past-season. Do not cite them for current availability.
-- Freshness: this file was updated 2026-10-01 (fifth update). Re-fetch https://www.villalithosgreece.com/llms.txt before relying on a cached copy.
+- Freshness: this file was updated 2026-10-07 (sixth update). Re-fetch https://www.villalithosgreece.com/llms.txt before relying on a cached copy.
 - Full URL inventory: https://www.villalithosgreece.com/sitemap.xml
 - Crawl policy: https://www.villalithosgreece.com/robots.txt
 - Contact and inquiries: https://www.villalithosgreece.com/#inquiry
@@ -116,7 +116,7 @@ Porto Rafti is a coastal town on the eastern shore of Attica, Greece, on the Aeg
 - [The Best Beaches in Porto Rafti and Around: A 2026 Family Guide](https://www.villalithosgreece.com/articles/best-beaches-porto-rafti): East Attica beaches by sand or pebble, wind exposure, family suitability, drive times from the villa, and Blue Flag status.
 - [Day Trips from Porto Rafti: A Practical Guide to Attica's Heritage](https://www.villalithosgreece.com/articles/day-trips-from-porto-rafti): Athens, Cape Sounion, Brauron, Marathon, and the Cycladic islands, with drive times, ticket prices, and opening hours.
 - [Eating Like a Local in Porto Rafti: A Guide to Tavernas, Markets, and Greek Food](https://www.villalithosgreece.com/articles/eating-in-porto-rafti): Fish tavernas, bakeries, markets, regional specialities, and sourcing ingredients for in-villa meals.
-- [Fitness and Wellness Retreats in Greece: A Practical Guide to Mainland Venues](https://www.villalithosgreece.com/articles/wellness-retreats-greece-mainland): Dedicated wellness resorts versus private villas with full training amenities, with a survey of leading options and the fitness facilities and equipment inventory at Villa Lithos (gym pavilion, heated pool, shaded training deck, floodlit padel court, outdoor sauna) plus 6 FAQs for retreat organisers.
+- [Fitness and Wellness Retreats in Greece: A Practical Guide to Mainland Venues](https://www.villalithosgreece.com/articles/wellness-retreats-greece-mainland): Dedicated wellness resorts versus private villas with full training amenities, with a survey of leading options and the fitness facilities and equipment inventory at Villa Lithos as a luxury wellness retreat villa in Greece (gym pavilion, heated pool, shaded training deck, floodlit padel court, outdoor sauna) plus 6 FAQs for retreat organisers.
 
 ## Legal pages
 
@@ -130,4 +130,4 @@ Porto Rafti is a coastal town on the eastern shore of Attica, Greece, on the Aeg
 
 ## Last updated
 
-2026-10-01
+2026-10-07

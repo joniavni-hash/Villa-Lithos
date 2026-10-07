@@ -734,7 +734,7 @@ main {
 .vl-post .vl-label { display: block; margin: 18px 0 8px; }
 .vl-post__title { font-family: var(--font-sans), "Inter", sans-serif; font-weight: 500; font-size: 1.15rem; line-height: 1.35; color: var(--vl-charcoal); }
 .vl-post__ex { margin-top: 8px; color: var(--vl-mute); font-size: 0.95rem; line-height: 1.6; }
-.vl-journal__foot { display: flex; justify-content: center; margin-top: 44px; }
+.vl-journal__foot { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 44px; }
 
 /* =========================================================
    FINAL CTA

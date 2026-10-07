@@ -46,6 +46,7 @@ export default function JournalTeaser() {
         </div>
         <div className="vl-journal__foot vl-reveal">
           <Link href="/articles" className="vl-btn vl-btn--ghost">All guides and articles</Link>
+          <Link href="/articles/wellness-retreats-greece-mainland" className="vl-btn vl-btn--ghost">Luxury wellness retreat villa in Greece</Link>
         </div>
       </div>
     </section>
