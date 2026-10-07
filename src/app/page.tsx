@@ -15,6 +15,12 @@ import Reveal from "@/components/home/Reveal";
 import { getPageData } from "@/app/lib/tina";
 import { defaultOpenGraph, defaultTwitter } from "@/app/lib/seo";
 import { FAQJsonLd } from "@/app/lib/jsonld";
+import WinterBand from "@/components/home/WinterBand";
+import { isWinterSeason } from "@/app/lib/season";
+import "./winter.css";
+
+// Regenerate daily so the October-to-March winter mode switches on its own.
+export const revalidate = 86400;
 
 const HOME_TITLE = "Villa Lithos Greece | Luxury 9-Bed Estate Near Athens";
 const HOME_DESC = "Experience Villa Lithos in Greece: an exclusive 9-bedroom luxury estate in Porto Rafti for 22 guests with heated pool, padel court, gym, and sea views.";
@@ -37,16 +43,24 @@ export default async function HomePage() {
   const storyParagraphs = bodyParagraphs && bodyParagraphs.length
     ? [...bodyParagraphs, ...(spaceParagraphs || [])]
     : undefined;
+  const winter = isWinterSeason();
 
   return (
     <main>
       <FAQJsonLd />
       <Reveal />
 
-      {/* 1. Cinematic hero: video over poster, one headline, one primary action */}
+      {/* 1. Cinematic hero: video over poster, one headline, one primary action.
+          October to March: a winter kicker and the secondary action points to offsites. */}
       <HeroCinematic
         title={page?.hero?.title && page.hero.title !== "Villa Lithos Greece" ? page.hero.title : "Your private Gem above the Aegean"}
+        kicker={winter ? "October to March · Outdoor sauna, private gym and a fireplace lounge, 20 minutes from Athens airport" : undefined}
+        secondaryHref={winter ? "/corporate-retreats" : "/#gallery"}
+        secondaryLabel={winter ? "Plan a winter offsite" : "Explore the villa"}
       />
+
+      {/* 1b. Winter band: live conditions and last winter's sun, October to March only */}
+      {winter ? <WinterBand /> : null}
 
       {/* 2. Numbers, no icons */}
       <StatsStrip />

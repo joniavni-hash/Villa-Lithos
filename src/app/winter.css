@@ -1,0 +1,114 @@
+/* =========================================================
+   WINTER MODE (October to March): hero kicker + winter band
+   ========================================================= */
+.vl-hero__kicker {
+  margin: 0 0 18px;
+  font-family: var(--font-label), "Jura", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: rgba(244, 240, 232, 0.9);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.45);
+}
+
+.vl-winter {
+  background: var(--vl-cream-2);
+  border-bottom: 1px solid var(--vl-line);
+  padding: clamp(48px, 7vw, 96px) var(--vl-gutter);
+}
+.vl-winter__in {
+  max-width: var(--vl-max);
+  margin: 0 auto;
+  display: grid;
+  gap: clamp(28px, 4vw, 48px);
+}
+.vl-winter__head .vl-label { display: block; margin-bottom: 16px; }
+.vl-winter__head .vl-h2 { max-width: 22ch; }
+.vl-winter__lead {
+  margin: 18px 0 0;
+  max-width: 62ch;
+  font-size: clamp(1rem, 1.25vw, 1.15rem);
+  line-height: 1.65;
+  color: var(--vl-mute);
+}
+.vl-winter__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+.vl-winter__tile {
+  background: var(--vl-cream);
+  border: 1px solid var(--vl-line);
+  border-radius: 2px;
+  padding: clamp(22px, 3vw, 34px) clamp(20px, 3vw, 32px);
+  min-width: 0;
+}
+.vl-winter__tile--live { border-color: var(--vl-sage); }
+.vl-winter__kicker { display: block; margin-bottom: 14px; color: var(--vl-mute); }
+.vl-winter__num { font-variant-numeric: tabular-nums; display: flex; align-items: flex-start; gap: 4px; }
+.vl-winter__num sup { font-size: 0.42em; line-height: 1; margin-top: 0.3em; vertical-align: baseline; position: static; }
+.vl-winter__dots { letter-spacing: 0.1em; color: var(--faint); }
+.vl-winter__text { margin-top: 12px; color: var(--vl-ink); line-height: 1.5; }
+.vl-winter__src {
+  margin-top: 10px;
+  font-family: var(--font-label), "Jura", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+.vl-winter__sub { display: block; margin-bottom: 14px; color: var(--vl-mute); }
+
+/* Winter-fit amenities: three image cards. Stacked rows with the image on the
+   left on phones, three vertical cards from tablet up. */
+.vl-winter__amen {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+.vl-amen {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+  background: var(--vl-cream);
+  border: 1px solid var(--vl-line);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.vl-amen__img {
+  position: relative;
+  min-height: 150px;
+  overflow: hidden;
+  background: var(--vl-charcoal);
+}
+.vl-amen__img img { object-fit: cover; transition: transform 1.2s var(--vl-ease); }
+.vl-amen:hover .vl-amen__img img { transform: scale(1.04); }
+.vl-amen__body { padding: 14px 16px 16px; align-self: center; }
+.vl-amen__title {
+  margin: 0 0 6px;
+  font-family: var(--font-display), "Italiana", serif;
+  font-size: clamp(1.3rem, 1.6vw, 1.6rem);
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--vl-ink);
+}
+.vl-amen__text { margin: 0; font-size: 0.88rem; line-height: 1.5; color: var(--vl-mute); }
+@media (min-width: 760px) {
+  .vl-winter__amen { grid-template-columns: repeat(3, 1fr); }
+  .vl-amen { grid-template-columns: 1fr; }
+  .vl-amen__img { min-height: 0; aspect-ratio: 4 / 3; }
+  .vl-amen__body { padding: 16px 18px 20px; align-self: start; }
+  .vl-amen__title { margin-bottom: 8px; }
+  .vl-amen__text { font-size: 0.92rem; }
+}
+
+.vl-winter__cta { display: flex; flex-wrap: wrap; gap: 12px; }
+@media (max-width: 520px) {
+  .vl-winter__cta .vl-btn { flex: 1 1 100%; }
+}
+@media (min-width: 760px) {
+  .vl-winter__grid { grid-template-columns: repeat(3, 1fr); }
+}

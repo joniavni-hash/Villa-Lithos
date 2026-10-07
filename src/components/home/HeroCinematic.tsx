@@ -6,6 +6,8 @@ import Link from "next/link";
 
 type Props = {
   title?: string;
+  kicker?: string;
+  secondaryLabel?: string;
   primaryHref?: string;
   secondaryHref?: string;
   videoDesktop?: string;
@@ -16,6 +18,8 @@ type Props = {
 
 export default function HeroCinematic({
   title = "Your private Gem above the Aegean",
+  kicker,
+  secondaryLabel = "Explore the villa",
   primaryHref = "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72",
   secondaryHref = "/#gallery",
   videoDesktop = "/videos/heroPC.mp4",
@@ -85,13 +89,14 @@ export default function HeroCinematic({
       </div>
 
       <div className="vl-hero__in">
+        {kicker ? <p className="vl-hero__kicker">{kicker}</p> : null}
         <h1 className="vl-hero__title">{title}</h1>
         <div className="vl-hero__cta">
           <a href={primaryHref} target="_blank" rel="noopener noreferrer" className="vl-btn vl-btn--light">
             Check availability
           </a>
           <Link href={secondaryHref} className="vl-btn vl-btn--outline-light">
-            Explore the villa
+            {secondaryLabel}
           </Link>
         </div>
         <p className="vl-hero__trust">
