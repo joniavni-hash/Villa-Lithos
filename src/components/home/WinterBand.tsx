@@ -11,7 +11,7 @@ const WINTER_AMENITIES = [
     img: "/img/gallery/Wellness%20%26%20Spa%20(2).jpg",
     alt: "Outdoor barrel sauna at Villa Lithos among the olive trees in Porto Rafti",
     title: "Outdoor sauna",
-    text: "Barrel sauna in the garden among the olive trees, with a red-light therapy panel for recovery. Contrast sessions with the heated pool.",
+    text: "Barrel sauna in the garden among the olive trees, with a red-light therapy panel. Post-training recovery, or simply the end of a cold day.",
   },
   {
     href: "/articles/wellness-retreats-greece-mainland",
@@ -19,13 +19,6 @@ const WINTER_AMENITIES = [
     alt: "Private gym pavilion at Villa Lithos with cable machine, bench and glass doors open to the lawn",
     title: "Private gym",
     text: "Garden pavilion beside the pool with glass doors onto the lawn. Cable machine, adjustable bench and dumbbells, treadmill.",
-  },
-  {
-    href: "/#gallery",
-    img: "/img/gallery/Exterior%20%26%20Pool%20(9).jpg",
-    alt: "Heated infinity pool at Villa Lithos lit in the evening, with the covered terrace alongside",
-    title: "Heated pool and jacuzzi",
-    text: "Infinity-edge and private, with a jacuzzi beside it. Warm water for the short days, lit for the long evenings.",
   },
   {
     href: "/#gallery",
@@ -48,8 +41,8 @@ export default function WinterBand() {
           </h2>
           <p className="vl-winter__lead">
             Weekday offsites, wellness weeks and long stays, in an estate built for the cold months: an outdoor sauna,
-            a private gym, a heated pool with a jacuzzi, a fireplace lounge and a floodlit padel court for the early
-            evenings. Last winter the sky stayed sunny on {S.portoRafti.sunnyDays} of {S.days} days.
+            a private gym, a fireplace lounge and a floodlit padel court for the early evenings. Last winter the sky
+            stayed sunny on {S.portoRafti.sunnyDays} of {S.days} days.
           </p>
         </header>
 
@@ -59,7 +52,7 @@ export default function WinterBand() {
             {WINTER_AMENITIES.map((a) => (
               <Link key={a.title} href={a.href} className="vl-amen">
                 <div className="vl-amen__img">
-                  <Image src={a.img} alt={a.alt} fill sizes="(max-width: 899px) 50vw, 25vw" />
+                  <Image src={a.img} alt={a.alt} fill sizes="(max-width: 759px) 40vw, 33vw" />
                 </div>
                 <div className="vl-amen__body">
                   <h3 className="vl-amen__title">{a.title}</h3>
