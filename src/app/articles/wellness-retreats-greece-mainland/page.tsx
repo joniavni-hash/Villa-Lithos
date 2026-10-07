@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const TITLE = "Fitness & Wellness Retreat Venue in Greece | Villa Lithos";
 const H1 = "Fitness and Wellness Retreats in Greece: A Practical Guide to Mainland Venues";
-const DESC = "Fitness and wellness retreat venue 20 min from Athens airport: heated infinity pool, private gym, floodlit padel court, outdoor sauna, shaded deck for mat work.";
+const DESC = "Luxury wellness retreat villa in Greece, 20 min from Athens airport: 9 bedrooms for 22 guests, heated infinity pool, private gym, padel court, outdoor sauna.";
 const URL = "https://www.villalithosgreece.com/articles/wellness-retreats-greece-mainland";
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-09-29";
