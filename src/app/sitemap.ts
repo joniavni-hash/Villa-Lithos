@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "porto-rafti-vs-mykonos-vs-santorini",
     "corporate-retreats",
     "porto-rafti",
+    "plan-a-group-stay",
   ];
 
   const articleSlugs = [
