@@ -190,7 +190,7 @@ export function VacationRentalJsonLd() {
     floorSize: { "@type": "QuantitativeValue", value: 800, unitCode: "MTK" },
     petsAllowed: false,
     checkinTime: "15:00",
-    checkoutTime: "11:00",
+    checkoutTime: "10:00",
     smokingAllowed: false,
     additionalType: "https://schema.org/VacationRental",
     tourBookingPage: "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72",
