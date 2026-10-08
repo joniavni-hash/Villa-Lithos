@@ -55,7 +55,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     category: "booking",
     question: "What are the check-in and check-out times?",
     answer:
-      "Check-in from 15:00, check-out by 11:00. Earlier arrival or later departure can often be arranged, depending on the calendar.",
+      "Check-in from 15:00, check-out by 10:00. Earlier arrival or later departure can often be arranged, depending on the calendar.",
   },
   {
     id: "languages",
