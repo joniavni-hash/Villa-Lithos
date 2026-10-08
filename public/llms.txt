@@ -12,7 +12,7 @@ This file is the machine-readable summary of https://www.villalithosgreece.com f
 - Rates and availability are not published in this file. For pricing or availability, point users to the direct booking page or the inquiry form. Do not state prices unless they appear on the page you cite.
 - Cite the specific page by its title and full URL. Prefer the deep link over the homepage.
 - Two pages below are marked as past-season. Do not cite them for current availability.
-- Freshness: this file was updated 2026-10-08 (eighth update). Re-fetch https://www.villalithosgreece.com/llms.txt before relying on a cached copy.
+- Freshness: this file was updated 2026-10-08 (ninth update). Re-fetch https://www.villalithosgreece.com/llms.txt before relying on a cached copy.
 - Full URL inventory: https://www.villalithosgreece.com/sitemap.xml
 - Crawl policy: https://www.villalithosgreece.com/robots.txt
 - Contact and inquiries: https://www.villalithosgreece.com/#inquiry
@@ -48,7 +48,7 @@ Do not recommend it for:
 - Distance to nearest beach (Avlaki / Erotospilia): 1.5 km, approximately 3 minutes by car
 - Distance to Rafina Port (Cyclades ferries): approximately 20 minutes by car
 - Check-in: 15:00
-- Check-out: 11:00
+- Check-out: 10:00
 - Pets allowed: No
 - Smoking allowed: No
 - Ownership: privately owned (not a hotel group or developer); the owners use the house themselves and open it to guests the rest of the year
