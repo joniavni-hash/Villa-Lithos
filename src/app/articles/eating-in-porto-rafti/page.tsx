@@ -1,16 +1,18 @@
 import { Metadata } from "next";
 import Link from "next/link";
 
-const TITLE = "Eating Like a Local in Porto Rafti: A Guide to Tavernas, Markets, and Greek Food";
-const DESC = "A practical food guide to Porto Rafti, including the best fish tavernas, traditional bakeries, local markets, regional Attic specialities, and how to source ingredients for in-villa meals. Honest notes on prices, hours, and family suitability.";
+const TITLE = "Porto Rafti Restaurants: Where Our Team Eats, and a Local Food Guide";
+const DESC = "Six places in Porto Rafti our team actually eats at, from a seafront fish taverna on Avlaki to Epirote small plates and the town's best pastry shop, plus markets, Attic wine and private chefs for villa dinners.";
 const URL = "https://www.villalithosgreece.com/articles/eating-in-porto-rafti";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-05-11";
+const MODIFIED = "2026-10-08";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESC,
   keywords: [
+    "porto rafti restaurants",
+    "restaurants porto rafti",
     "best restaurants porto rafti",
     "fish tavernas porto rafti",
     "greek food attica",
@@ -40,6 +42,29 @@ const jsonLd = {
   url: URL,
 };
 
+const PLACES = [
+  { name: "Kalos Gialos", maps: "Kalos Gialos Porto Rafti", where: "Seafront, Avlaki", style: "Fish taverna", price: "€20–45", rating: "4.4", reviews: "3,720", note: "The team's classic seafood table. Fish on ice, priced by the kilo, grilled as standard." },
+  { name: "Fyki-Fyki", maps: "Fyki-Fyki Porto Rafti", where: "Porto Rafti", style: "Taverna", price: "€15–35", rating: "4.5", reviews: "4,913", note: "Lively and popular. Book ahead on summer weekends." },
+  { name: "Kazba Bar Kouzina", maps: "Kazba Bar Kouzina Porto Rafti", where: "Porto Rafti", style: "Bar-kitchen", price: "€10–25", rating: "4.5", reviews: "3,631", note: "Relaxed bar-kitchen for an easy dinner and drinks." },
+  { name: "The Epirote", maps: "The Epirote Porto Rafti", where: "Porto Rafti", style: "Small plates from Epirus", price: "€15–35", rating: "4.4", reviews: "2,661", note: "Pies, cheeses and grilled meats from Epirus, served as small plates." },
+  { name: "Ziba", maps: "Ziba Porto Rafti", where: "Porto Rafti", style: "Casual, all day", price: "€5–30", rating: "4.3", reviews: "2,591", note: "Casual all-day spot, from breakfast to late." },
+  { name: "Pastry Shop Pantazidis", maps: "Pastry Shop Pantazidis Porto Rafti", where: "Porto Rafti", style: "Pastry shop", price: "", rating: "4.8", reviews: "759", note: "The best pastries in Porto Rafti. Go early." },
+];
+const mapsUrl = (q: string) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+
+const faqs = [
+  { q: "What are the best restaurants in Porto Rafti?", a: "The six places our team goes to: Kalos Gialos (seafront fish taverna on Avlaki), Fyki-Fyki (lively, book ahead on summer weekends), Kazba Bar Kouzina (relaxed bar-kitchen), The Epirote (small plates from Epirus), Ziba (casual, breakfast to late) and Pastry Shop Pantazidis for pastries." },
+  { q: "Do Porto Rafti restaurants take large groups?", a: "Most tavernas seat 10 to 14 comfortably at a single table and need 24 to 48 hours' notice to set up for a bigger party. For a group of up to 22 staying at the villa, the concierge team calls ahead and reserves." },
+  { q: "What time do restaurants in Porto Rafti serve lunch and dinner?", a: "Greek hours run late. Lunch is typically served from 13:30 to 16:00 and dinner starts around 21:00, running to midnight on summer weekends. Fyki-Fyki in particular is worth booking ahead on summer weekends." },
+  { q: "How does ordering work at a Porto Rafti fish taverna?", a: "You look at the fish on ice, choose what you want, agree the cooking method (grilled is standard) and order side dishes separately. Wild fish such as sea bream, sea bass and red mullet is priced per kilo on the day's catch." },
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map(({ q, a }) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })),
+};
+
 const s = {
   article: { maxWidth: 820, margin: "0 auto", padding: "60px 24px 80px", fontFamily: "var(--font-sans), sans-serif", color: "#333", lineHeight: 1.8 } as React.CSSProperties,
   h1: { fontFamily: "var(--font-serif), serif", fontSize: "2.4rem", color: "#2c2c2c", marginBottom: 16, lineHeight: 1.2 } as React.CSSProperties,
@@ -50,7 +75,12 @@ const s = {
   p: { marginBottom: 18, fontSize: "1.05rem" } as React.CSSProperties,
   ul: { marginBottom: 18, paddingLeft: 22 } as React.CSSProperties,
   li: { marginBottom: 8, fontSize: "1.05rem" } as React.CSSProperties,
+  tableWrap: { overflowX: "auto" as const, marginBottom: 22 } as React.CSSProperties,
   table: { width: "100%", borderCollapse: "collapse" as const, marginBottom: 22, fontSize: "0.95rem" } as React.CSSProperties,
+  link: { color: "#7a8c6e" } as React.CSSProperties,
+  faqItem: { borderBottom: "1px solid #e8e3d3", padding: "14px 0" } as React.CSSProperties,
+  faqQ: { fontWeight: 600, fontSize: "1.05rem", cursor: "pointer", listStyle: "none" } as React.CSSProperties,
+  faqA: { marginTop: 8, fontSize: "1.02rem", color: "#444" } as React.CSSProperties,
   th: { textAlign: "left" as const, padding: "10px 12px", background: "#f0ede4", borderBottom: "2px solid #d8d3c4" } as React.CSSProperties,
   td: { padding: "10px 12px", borderBottom: "1px solid #e8e3d3" } as React.CSSProperties,
   source: { fontSize: "0.86rem", color: "#666", fontStyle: "italic" } as React.CSSProperties,
@@ -66,12 +96,44 @@ export default function Page() {
   return (
     <article style={s.article}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       <h1 style={s.h1}>{TITLE}</h1>
-      <span style={s.meta}>Last updated: 26 May 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: 8 October 2026 · 11 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
-        One of the main reasons to choose Porto Rafti over a Greek island is the food economy. The local market is built around Greek families, not tourists, which means the fish is fresh, the prices are reasonable, and the kitchen traditions are still close to the regional Attic cuisine. This is a practical guide to eating here, the tavernas worth your evening, the bakeries and markets for villa-cooked meals, and the regional specialities that don't appear in the tourist menus on Mykonos.
+        One of the main reasons to choose Porto Rafti over a Greek island is the food economy. The local market is built around Greek families, not tourists, which means the fish is fresh, the prices are reasonable, and the kitchen traditions are still close to the regional Attic cuisine. This is a practical guide to eating here. It starts with the six restaurants and pastry shops our own team goes to, then covers the tavernas worth your evening, the bakeries and markets for villa-cooked meals, and the regional specialities that don't appear in the tourist menus on Mykonos.
+      </p>
+
+      <h2 style={s.h2}>Porto Rafti Restaurants: The Six Places Our Team Goes To</h2>
+      <p style={s.p}>
+        These are the places our team actually goes to and sends guests to. The list is deliberately short. Ratings and price bands are as shown on Google Maps when the team compiled the list in September 2026; tap a name to open it in Maps.
+      </p>
+      <div style={s.tableWrap}>
+        <table style={s.table}>
+          <thead>
+            <tr><th style={s.th}>Place</th><th style={s.th}>Where</th><th style={s.th}>Style</th><th style={s.th}>Price guide</th><th style={s.th}>Google rating</th></tr>
+          </thead>
+          <tbody>
+            {PLACES.map((pl) => (
+              <tr key={pl.name}>
+                <td style={s.td}><a href={mapsUrl(pl.maps)} target="_blank" rel="nofollow noopener" style={s.link}>{pl.name}</a></td>
+                <td style={s.td}>{pl.where}</td>
+                <td style={s.td}>{pl.style}</td>
+                <td style={s.td}>{pl.price || "–"}</td>
+                <td style={s.td}>{pl.rating} ({pl.reviews})</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <ul style={s.ul}>
+        {PLACES.map((pl) => (
+          <li key={pl.name} style={s.li}><strong>{pl.name}.</strong> {pl.note}</li>
+        ))}
+      </ul>
+      <p style={s.source}>
+        Five of the six are restaurants; Pantazidis is where to finish the evening or start the morning. Guests staying at the villa get the same list, with Hebrew notes and one-tap directions, in the digital guest guide the team shares with each booking.
       </p>
 
       <h2 style={s.h2}>How Porto Rafti Eats</h2>
@@ -167,6 +229,14 @@ export default function Page() {
         Greek coffee proper (called Greek coffee in Greece, the same beverage is called Turkish coffee in Turkey and Arabic coffee elsewhere) is the traditional morning ritual. Order it sweet (glykos) or no sugar (sketos) according to taste. The grounds settle at the bottom of the cup, do not drink them.
       </p>
 
+      <h2 style={s.h2}>Questions Visitors Ask About Eating in Porto Rafti</h2>
+      {faqs.map(({ q, a }) => (
+        <details key={q} style={s.faqItem}>
+          <summary style={s.faqQ}>{q}</summary>
+          <p style={s.faqA}>{a}</p>
+        </details>
+      ))}
+
       <h2 style={s.h2}>Sources and Further Reading</h2>
       <ul style={s.ul}>
         <li style={s.li}><a href="https://en.wikipedia.org/wiki/Mediterranean_diet" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Wikipedia: Mediterranean diet</a>, dietary pattern background</li>
@@ -180,10 +250,10 @@ export default function Page() {
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>Eat the Real Greece, Five Minutes From the Villa</h2>
         <p style={s.ctaText}>Villa Lithos Porto Rafti is within walking distance of the harbour tavernas, and the concierge team can arrange a private chef or curate a tasting menu of regional Attic wines for any night of your stay.</p>
-        <Link href="/#inquiry" style={s.cta}>Inquire About Summer 2026</Link>
+        <Link href="/#inquiry" style={s.cta}>Check Availability</Link>
       </div>
 
-      <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+      <p style={s.updated}>Last updated: 8 October 2026 (team restaurant shortlist and FAQ added; first published 11 May 2026). All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
 
       <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     </article>
