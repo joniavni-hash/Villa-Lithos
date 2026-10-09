@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 import Link from "next/link";
 
-const TITLE = "Day Trips from Porto Rafti: A Practical Guide to Attica's Heritage";
-const DESC = "Five practical day trips from Porto Rafti to Athens, Cape Sounion, Brauron, Marathon, and the Cycladic islands, with drive times, ticket prices, opening hours, and crowd-avoidance strategies.";
+const TITLE = "Day Trips from Porto Rafti and Rafina Port: A Practical Attica Guide";
+const DESC = "Five practical day trips from Porto Rafti and Rafina port: Athens, Cape Sounion, Brauron, Marathon and the Cycladic ferries, with drive times, ticket prices, opening hours and crowd-avoidance tips.";
 const URL = "https://www.villalithosgreece.com/articles/day-trips-from-porto-rafti";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-05-11";
+const MODIFIED = "2026-10-09";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     "brauron archaeological site",
     "marathon battlefield greece",
     "rafina port ferries to cyclades",
+    "day trips from rafina port",
     "acropolis visit from porto rafti",
     "day trips attica family",
   ],
