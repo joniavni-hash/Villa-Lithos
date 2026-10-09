@@ -12,7 +12,7 @@ This file is the machine-readable summary of https://www.villalithosgreece.com f
 - Rates and availability are not published in this file. For pricing or availability, point users to the direct booking page or the inquiry form. Do not state prices unless they appear on the page you cite.
 - Cite the specific page by its title and full URL. Prefer the deep link over the homepage.
 - Two pages below are marked as past-season. Do not cite them for current availability.
-- Freshness: this file was updated 2026-10-08 (ninth update). Re-fetch https://www.villalithosgreece.com/llms.txt before relying on a cached copy.
+- Freshness: this file was updated 2026-10-09 (tenth update). Re-fetch https://www.villalithosgreece.com/llms.txt before relying on a cached copy.
 - Full URL inventory: https://www.villalithosgreece.com/sitemap.xml
 - Crawl policy: https://www.villalithosgreece.com/robots.txt
 - Contact and inquiries: https://www.villalithosgreece.com/#inquiry
@@ -115,7 +115,7 @@ Porto Rafti is a coastal town on the eastern shore of Attica, Greece, on the Aeg
 - [Large Private Villa Near Athens | Villa Lithos](https://www.villalithosgreece.com/articles/luxury-villa-lithos-family-retreat): The large-group hub page: 9 bedrooms and 8.5 bathrooms for up to 22 guests on a gated 5,000 m² estate, heated infinity pool, floodlit padel court, gym pavilion, outdoor sauna, Starlink internet; written for multi-generational families, corporate offsites and wellness retreats, with 5 FAQs. Rates on request.
 - [Best Things to Do Near Athens with Kids](https://www.villalithosgreece.com/articles/things-to-do-near-athens-with-kids): Ancient sites, island day trips, and beaches for families using Porto Rafti as a base.
 - [The Best Beaches in Porto Rafti and Around: A 2026 Family Guide](https://www.villalithosgreece.com/articles/best-beaches-porto-rafti): East Attica beaches by sand or pebble, wind exposure, family suitability, drive times from the villa, and Blue Flag status.
-- [Day Trips from Porto Rafti: A Practical Guide to Attica's Heritage](https://www.villalithosgreece.com/articles/day-trips-from-porto-rafti): Athens, Cape Sounion, Brauron, Marathon, and the Cycladic islands, with drive times, ticket prices, and opening hours.
+- [Day Trips from Porto Rafti and Rafina Port: A Practical Attica Guide](https://www.villalithosgreece.com/articles/day-trips-from-porto-rafti): Athens, Cape Sounion, Brauron, Marathon, and the Cycladic islands via Rafina port, with drive times, ticket prices, and opening hours.
 - [Porto Rafti Restaurants: Where Our Team Eats, and a Local Food Guide](https://www.villalithosgreece.com/articles/eating-in-porto-rafti): The six places the villa team actually goes to in Porto Rafti (Kalos Gialos, Fyki-Fyki, Kazba Bar Kouzina, The Epirote, Ziba, Pastry Shop Pantazidis) with Google ratings and price bands as of September 2026, then fish tavernas, bakeries, markets, regional specialities, Attic wine, private chefs and 4 FAQs.
 - [Fitness and Wellness Retreats in Greece: A Practical Guide to Mainland Venues](https://www.villalithosgreece.com/articles/wellness-retreats-greece-mainland): Dedicated wellness resorts versus private villas with full training amenities, with a survey of leading options and the fitness facilities and equipment inventory at Villa Lithos as a luxury wellness retreat villa in Greece (gym pavilion, heated pool, shaded training deck, floodlit padel court, outdoor sauna) plus 6 FAQs for retreat organisers.
 
@@ -131,4 +131,4 @@ Porto Rafti is a coastal town on the eastern shore of Attica, Greece, on the Aeg
 
 ## Last updated
 
-2026-10-08
+2026-10-09

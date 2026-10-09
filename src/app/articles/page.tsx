@@ -89,7 +89,7 @@ const articles = [
   },
   {
     slug: "day-trips-from-porto-rafti",
-    title: "Day Trips from Porto Rafti: A Practical Guide to Attica's Heritage",
+    title: "Day Trips from Porto Rafti and Rafina Port: A Practical Attica Guide",
     excerpt: "Five practical day trips from Porto Rafti to Athens, Cape Sounion, Brauron, Marathon, and the Cycladic islands, with drive times, ticket prices, and crowd-avoidance strategies.",
     date: "2026-05-11",
     readTime: "12 min read",
