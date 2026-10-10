@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "Day Trips from Porto Rafti and Rafina Port: A Practical Attica Guide";
 const DESC = "Five practical day trips from Porto Rafti and Rafina port: Athens, Cape Sounion, Brauron, Marathon and the Cycladic ferries, with drive times, ticket prices, opening hours and crowd-avoidance tips.";
@@ -73,6 +74,8 @@ export default function Page() {
       <p style={s.intro}>
         Porto Rafti sits at the geographic intersection of three of the great heritage sites of antiquity. The Acropolis is 40 minutes west, Cape Sounion is 50 minutes south, and Marathon is 35 minutes north. The Cycladic ferries leave from Rafina, 20 minutes away. This is the practical reason to consider Porto Rafti instead of an island, the day-trip range is one of the most concentrated in the Mediterranean. This guide covers the five highest-value day trips, with drive times, ticket logistics, and crowd-avoidance tactics.
       </p>
+
+      <StayWithUs source="day-trips" lead="Every trip in this guide starts well from the villa: Rafina port is about 20 minutes away and central Athens about 40." />
 
       <h2 style={s.h2}>The Five Day Trips, by Drive Time</h2>
       <table style={s.table}>

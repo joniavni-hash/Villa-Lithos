@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import StayWithUs from "@/components/StayWithUs";
 
 export const metadata: Metadata = {
     title: { absolute: "Best Things to Do Near Athens with Kids: Summer 2026 Guide" },
@@ -32,6 +33,8 @@ export default function Article() {
       <span style={s.date}>February 2026 | Family Travel</span>
 
       <p style={s.p}>Athens is famous for the Acropolis and Plaka, but the real magic for families lies just outside the city. The eastern coast of Attica, stretching from Rafina down to Lavrio, is packed with beaches, archaeological sites, nature parks, and experiences that children of all ages will love. If you are staying in Porto Rafti, at a <Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>luxury villa rental in Porto Rafti</Link> or another <Link href="/villas-near-athens-airport" style={{ color: "#7a8c6e" }}>luxury family villa near Athens airport</Link>, you are perfectly positioned to explore all of them.</p>
+
+      <StayWithUs source="kids" lead="Brauron is about 10 minutes away and Avlaki beach a 3-minute drive." />
 
       <h2 style={s.h2}>1. Watch the Sunset at Cape Sounion</h2>
       <p style={s.p}>The Temple of Poseidon at Cape Sounion is registered by the <a href="https://www.culture.gov.gr/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Ministry of Culture</a> as one of the most significant archaeological sites in the country, perched on a cliff 60 metres above the sea with panoramic views of the Aegean. For families, the combination of easy walking paths, open space, and a spectacular sunset makes it an unforgettable outing. Cape Sounion is about 35 minutes south of Porto Rafti.</p>

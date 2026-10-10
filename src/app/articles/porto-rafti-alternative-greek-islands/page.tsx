@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import StayWithUs from "@/components/StayWithUs";
 
 export const metadata: Metadata = {
   title: { absolute: "Porto Rafti: The Perfect Alternative to the Greek Islands" },
@@ -75,6 +76,8 @@ export default function PortoRaftiAlternativeGreekIslands() {
         and where to stay, see our{" "}
         <Link href="/porto-rafti" style={{ color: "#7a8c6e" }}>Porto Rafti travel guide</Link>.
       </p>
+
+      <StayWithUs source="islands-alternative" lead="No ferry needed: Avlaki beach is a 3-minute drive from the villa." />
 
       <h2
         style={{
