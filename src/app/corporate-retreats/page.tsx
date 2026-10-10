@@ -31,14 +31,16 @@ import {
   Building2,
   Music,
   Sparkles,
+  Thermometer,
 } from "lucide-react";
+import { WINTER_STATS } from "@/app/lib/season";
 
 const TITLE = "Corporate Retreat Venue Near Athens | Villa Lithos";
 const H1 = "A corporate retreat venue near Athens, 20 minutes from the airport.";
 const DESC = "Private corporate retreat venue near Athens for offsites of 10 to 22. A 5,000 m² estate 20 minutes from the airport, Starlink internet, pool, padel, gym, sauna.";
 const URL = "https://www.villalithosgreece.com/corporate-retreats";
 const PUBLISHED = "2026-09-22";
-const MODIFIED = "2026-10-01";
+const MODIFIED = "2026-10-09";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -58,6 +60,8 @@ export const metadata: Metadata = {
     "startup offsite greece",
     "executive retreat greece",
     "corporate retreat athens riviera",
+    "winter offsite greece",
+    "winter corporate retreat near athens",
   ],
   openGraph: { type: "article", title: TITLE, description: DESC, url: URL, images: [{ url: "https://www.villalithosgreece.com/img/hero.webp", width: 1920, height: 1080 }] },
   twitter: { card: "summary_large_image", title: TITLE, description: DESC },
@@ -85,6 +89,8 @@ const faqs = [
   { q: "Is the internet reliable enough for remote work?", a: "Yes. The estate runs on fast, stable Starlink internet, with WiFi throughout the house." },
   { q: "Is catering included?", a: "Catering is arranged separately. A private chef cooks on the estate, from dinners only to half board or full board, with Greek and Mediterranean menus and kosher or other dietary requirements on advance request. It is quoted with the retreat proposal by team size, board level and menu." },
   { q: "What can the team do after the sessions?", a: "Padel with a coach or a team tournament on the private court, wellness workshops, live bouzouki musicians for a Greek evening, boat days from Rafina and visits to Sounion, Brauron or the Acropolis, all arranged by the concierge team." },
+  { q: "What is the weather like for a winter offsite, October to March?", a: `Mild and mostly sunny. Last winter (${WINTER_STATS.period}) Porto Rafti had ${WINTER_STATS.portoRafti.sunnyDays} days with six or more hours of sunshine out of ${WINTER_STATS.days}, against ${WINTER_STATS.london.sunnyDays} in London and ${WINTER_STATS.berlin.sunnyDays} in Berlin, with an average daytime high of ${WINTER_STATS.portoRafti.avgHigh.toFixed(1)}°C (Open-Meteo historical data). Expect some rain and wind on individual days; the padel court is floodlit for early evenings.` },
+  { q: "Is the house set up for the cold months?", a: "Yes. A stone fireplace lounge under a wooden ceiling, two living rooms on separate levels and the attic workshop floor keep the team indoors and together when it is cold outside, and the outdoor barrel sauna and the private gym pavilion are used year round. Air conditioning throughout the house." },
   { q: "When is the estate available for retreats?", a: "Weekday blocks from October to May are the natural fit, and the Attica coast stays mild for most of that period. Summer dates compete with holiday bookings. Rates and availability are quoted on request." },
   { q: "How far is the venue from Athens?", a: "The estate is 16 km from Athens International Airport, about 20 minutes by car, and about 40 minutes from central Athens. Transfers are arranged on request in the vehicle you prefer, from executive cars to a coach." },
 ];
@@ -178,6 +184,12 @@ const offHours = [
   { icon: Ship, label: "Boat day from Rafina, 20 min" },
   { icon: Landmark, label: "Sounion, Brauron, the Acropolis" },
   { icon: ChefHat, label: "Private chef, dinner to full board" },
+];
+
+const winterAmenities = [
+  { icon: Flame, title: "Outdoor sauna", text: "Barrel sauna in the garden among the olive trees, with a red-light therapy panel. Post-training recovery, or simply the end of a cold day." },
+  { icon: Dumbbell, title: "Private gym", text: "Garden pavilion beside the pool with glass doors onto the lawn. Cable machine, adjustable bench and dumbbells, treadmill." },
+  { icon: Sofa, title: "Fireplace lounge", text: "Stone fireplace under a wooden ceiling, two living rooms on separate levels and an attic floor with a large screen. Starlink throughout." },
 ];
 
 const catering = [
@@ -459,6 +471,37 @@ export default function Page() {
         </div>
       </section>
 
+      {/* WINTER OFFSITES */}
+      <section id="winter" className="mx-auto max-w-6xl px-6 py-20">
+        <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: SAGE }}>Winter offsites, October to March</span>
+        <h2 className="mt-3 max-w-3xl text-3xl md:text-4xl" style={{ fontFamily: "var(--font-serif), serif" }}>A winter offsite venue near Athens: sun outside, a fireplace inside.</h2>
+        <p className="mt-4 max-w-3xl text-lg" style={{ color: "#4a4a4a" }}>
+          The quiet months are the natural fit for a company offsite here: weekday blocks are open, the airport is 20 minutes away and the Attica coast stays mild. Last winter the sky stayed sunny on {WINTER_STATS.portoRafti.sunnyDays} of {WINTER_STATS.days} days, and the estate has what a team needs when the day ends early: an outdoor sauna, a private gym, a fireplace lounge and a floodlit padel court.
+        </p>
+        <div className="mt-10 grid gap-5 md:grid-cols-5">
+          <figure className="rounded-2xl p-7 shadow-sm md:col-span-1" style={{ background: CREAM, border: "1px solid rgba(26,35,50,0.06)" }}>
+            <Sun size={22} style={{ color: SAGE }} />
+            <div className="mt-3 text-5xl font-semibold" style={{ fontFamily: "var(--font-serif), serif", color: CHART_GOLD }}>{WINTER_STATS.portoRafti.sunnyDays}</div>
+            <figcaption className="mt-2 text-base font-medium">sunny days out of {WINTER_STATS.days}</figcaption>
+            <p className="mt-1 text-sm" style={{ color: "#6B7280" }}>Days with 6+ hours of sunshine. London {WINTER_STATS.london.sunnyDays}, Berlin {WINTER_STATS.berlin.sunnyDays}.</p>
+          </figure>
+          <figure className="rounded-2xl p-7 shadow-sm md:col-span-1" style={{ background: CREAM, border: "1px solid rgba(26,35,50,0.06)" }}>
+            <Thermometer size={22} style={{ color: SAGE }} />
+            <div className="mt-3 text-5xl font-semibold" style={{ fontFamily: "var(--font-serif), serif", color: CHART_BLUE }}>{WINTER_STATS.portoRafti.avgHigh.toFixed(1)}°</div>
+            <figcaption className="mt-2 text-base font-medium">average daytime high</figcaption>
+            <p className="mt-1 text-sm" style={{ color: "#6B7280" }}>October to March. London {WINTER_STATS.london.avgHigh.toFixed(1)}°C, Berlin {WINTER_STATS.berlin.avgHigh.toFixed(1)}°C. {WINTER_STATS.portoRafti.sunHours.toLocaleString("en-US")} sunshine hours in the period.</p>
+          </figure>
+          {winterAmenities.map(({ icon: Icon, title, text }) => (
+            <div key={title} className="rounded-2xl bg-white p-6 shadow-sm md:col-span-1" style={{ border: "1px solid rgba(26,35,50,0.06)" }}>
+              <Icon size={22} style={{ color: SAGE }} />
+              <h3 className="mt-3 text-xl" style={{ fontFamily: "var(--font-serif), serif", color: INK }}>{title}</h3>
+              <p className="mt-2 text-sm" style={{ color: "#4a4a4a" }}>{text}</p>
+            </div>
+          ))}
+        </div>
+        <p className="mt-4 text-xs" style={{ color: "#9CA3AF" }}>Weather figures: Open-Meteo historical data, {WINTER_STATS.period}. Updated every October.</p>
+      </section>
+
       {/* CATERING */}
       <section id="catering" style={{ background: CREAM }}>
         <div className="mx-auto max-w-6xl px-6 py-20">
@@ -605,7 +648,7 @@ export default function Page() {
       {/* FOOT NOTE */}
       <section className="mx-auto max-w-6xl px-6 py-10 text-xs" style={{ color: "#9CA3AF" }}>
         <p>
-          Last updated 1 October 2026. Property facts as published on <Link href="/luxury-villa-porto-rafti" style={{ color: SAGE }}>the luxury villa rental in Porto Rafti guide</Link>. Distances are approximate driving times. Research cited: Atlassian, Intentional Team Gatherings; Gallup, Hybrid Work in Retreat? Barely (2025).
+          Last updated 9 October 2026. Property facts as published on <Link href="/luxury-villa-porto-rafti" style={{ color: SAGE }}>the luxury villa rental in Porto Rafti guide</Link>. Distances are approximate driving times. Research cited: Atlassian, Intentional Team Gatherings; Gallup, Hybrid Work in Retreat? Barely (2025). Winter weather figures: Open-Meteo historical data (ERA5), October 2025 to March 2026.
           {" "}Related: <Link href="/villas-near-athens-airport" style={{ color: SAGE }}>Large private villa near Athens airport</Link> · <Link href="/large-family-villa-greece" style={{ color: SAGE }}>Villas in Greece for groups of 20</Link> · <Link href="/articles/wellness-retreats-greece-mainland" style={{ color: SAGE }}>Fitness retreat venue in Greece</Link>
         </p>
       </section>
