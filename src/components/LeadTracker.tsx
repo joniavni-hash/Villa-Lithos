@@ -46,6 +46,14 @@ export default function LeadTracker() {
       const w = window as unknown as { gtag?: Gtag; dataLayer?: unknown[] };
       if (typeof w.gtag === "function") w.gtag("event", "generate_lead", params);
       if (Array.isArray(w.dataLayer)) w.dataLayer.push({ event: "lead_click", ...params });
+      // First-party counter (/api/lead): counts every visitor, with or without cookie consent.
+      try {
+        const payload = JSON.stringify({ channel, block, page: window.location.pathname });
+        const sent = navigator.sendBeacon?.("/api/lead", new Blob([payload], { type: "application/json" }));
+        if (!sent) fetch("/api/lead", { method: "POST", body: payload, keepalive: true }).catch(() => {});
+      } catch {
+        // ignore
+      }
     };
     document.addEventListener("click", onClick, { capture: true });
     return () => document.removeEventListener("click", onClick, { capture: true });
