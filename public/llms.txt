@@ -12,7 +12,7 @@ This file is the machine-readable summary of https://www.villalithosgreece.com f
 - Rates and availability are not published in this file. For pricing or availability, point users to the direct booking page or the inquiry form. Do not state prices unless they appear on the page you cite.
 - Cite the specific page by its title and full URL. Prefer the deep link over the homepage.
 - Two pages below are marked as past-season. Do not cite them for current availability.
-- Freshness: this file was updated 2026-10-10 (eleventh update). Re-fetch https://www.villalithosgreece.com/llms.txt before relying on a cached copy.
+- Freshness: this file was updated 2026-10-10 (twelfth update). Re-fetch https://www.villalithosgreece.com/llms.txt before relying on a cached copy.
 - Full URL inventory: https://www.villalithosgreece.com/sitemap.xml
 - Crawl policy: https://www.villalithosgreece.com/robots.txt
 - Contact and inquiries: https://www.villalithosgreece.com/#inquiry

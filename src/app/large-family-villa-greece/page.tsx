@@ -183,6 +183,7 @@ export default function Page() {
         <li style={s.li}><Link href="/villas-near-athens-airport" style={{ color: "#7a8c6e" }}>Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto Rafti</Link></li>
         <li style={s.li}><Link href="/porto-rafti-vs-mykonos-vs-santorini" style={{ color: "#7a8c6e" }}>Porto Rafti vs Mykonos vs Santorini, 2026 Comparison</Link></li>
         <li style={s.li}><Link href="/articles/multi-generational-trip-greece" style={{ color: "#7a8c6e" }}>Planning a Multi-Generational Family Trip to Greece</Link></li>
+        <li style={s.li}><Link href="/plan-a-group-stay" style={{ color: "#7a8c6e" }}>Plan a Group Stay for 10 to 22 in Greece: Rooms, Beds and a Sample Schedule</Link></li>
       </ul>
 
       <div style={s.ctaBox}>
