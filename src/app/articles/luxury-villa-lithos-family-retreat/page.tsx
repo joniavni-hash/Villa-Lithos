@@ -194,6 +194,7 @@ export default function Article() {
         <li style={s.li}><a href="https://www.aia.gr/" target="_blank" rel="nofollow noopener" style={link}>Athens International Airport (AIA)</a>: Official airport route and distance data</li>
         <li style={s.li}><a href="https://www.visitgreece.gr/mainland/attica/" target="_blank" rel="nofollow noopener" style={link}>Visit Greece: Attica</a>: Regional tourism information</li>
         <li style={s.li}><a href="https://www.hnms.gr/emy/en/" target="_blank" rel="nofollow noopener" style={link}>Hellenic National Meteorological Service (HNMS)</a>: Climate data for Attica</li>
+        <li style={s.li}><Link href="/plan-a-group-stay" style={link}>Plan a Group Stay for 10 to 22 in Greece: Rooms, Beds and a Sample Schedule</Link>: Every bedroom with its bed and bathroom, four rooming splits and a three-day sample schedule for organisers</li>
       </ul>
 
       <p style={s.updated}>Last updated: 1 October 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
