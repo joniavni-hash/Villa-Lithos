@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "Porto Rafti, Greece: 2026 Travel Guide | Villa Lithos";
 const H1 = "Porto Rafti, Greece: A Practical Travel Guide for 2026";
@@ -115,6 +116,8 @@ export default function Page() {
       <p style={s.intro}>
         <strong>Porto Rafti</strong> is a coastal town on the east coast of Attica, 16 km and about 20 minutes from Athens International Airport. Its bay is naturally sheltered, the water is calm and shallow near the shore, and the Acropolis, Cape Sounion, Marathon and the Cycladic ferries are all within a short drive. This guide brings together everything a first-time visitor needs: where it is, how to get there, the beaches, day trips, food, the best time to go and where to stay.
       </p>
+
+      <StayWithUs source="porto-rafti-guide" lead="Avlaki beach is a 3-minute drive from the villa." />
 
       <nav style={s.toc} aria-label="Contents">
         <strong>In this guide</strong>

@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "Porto Rafti Restaurants: Where Our Team Eats, and a Local Food Guide";
 const DESC = "Six places in Porto Rafti our team actually eats at, from a seafront fish taverna on Avlaki to Epirote small plates and the town's best pastry shop, plus markets, Attic wine and private chefs for villa dinners.";
@@ -104,6 +105,8 @@ export default function Page() {
       <p style={s.intro}>
         One of the main reasons to choose Porto Rafti over a Greek island is the food economy. The local market is built around Greek families, not tourists, which means the fish is fresh, the prices are reasonable, and the kitchen traditions are still close to the regional Attic cuisine. This is a practical guide to eating here. It starts with the six restaurants and pastry shops our own team goes to, then covers the tavernas worth your evening, the bakeries and markets for villa-cooked meals, and the regional specialities that don't appear in the tourist menus on Mykonos.
       </p>
+
+      <StayWithUs source="restaurants" lead="Every place on this list is a short drive from the villa, and a private chef can cook in the house on the nights you stay in." />
 
       <h2 style={s.h2}>Porto Rafti Restaurants: The Six Places Our Team Goes To</h2>
       <p style={s.p}>

@@ -14,7 +14,7 @@ const WINTER_AMENITIES = [
     text: "Barrel sauna in the garden among the olive trees, with a red-light therapy panel. Post-training recovery, or simply the end of a cold day.",
   },
   {
-    href: "/articles/wellness-retreats-greece-mainland",
+    href: "/wellness-retreat-villa-greece#facilities",
     img: "/img/gallery/Sports%20%26%20Activities%20(4).jpg",
     alt: "Private gym pavilion at Villa Lithos with cable machine, bench and glass doors open to the lawn",
     title: "Private gym",
@@ -98,7 +98,7 @@ export default function WinterBand() {
           <Link href="/corporate-retreats" className="vl-btn">
             Plan a team offsite
           </Link>
-          <Link href="/articles/wellness-retreats-greece-mainland" className="vl-btn vl-btn--ghost">
+          <Link href="/wellness-retreat-villa-greece" className="vl-btn vl-btn--ghost">
             Winter wellness retreats
           </Link>
         </div>

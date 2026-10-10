@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "corporate-retreats",
     "porto-rafti",
     "plan-a-group-stay",
+    "wellness-retreat-villa-greece",
   ];
 
   const articleSlugs = [
