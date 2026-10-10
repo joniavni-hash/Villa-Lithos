@@ -188,7 +188,7 @@ export default function Page() {
       <span style={s.meta}>Last updated: September 2026 · 13 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
-        The Greek wellness travel category has grown rapidly since 2022, and fitness retreats have grown with it. Mainland Greece, particularly the Athens Riviera and East Attica, has emerged as an alternative to the established island spa resorts for both. This guide compares the two practical formats, dedicated wellness resorts and private villas with full training and wellness amenities, identifies when each is the right choice for a group, a family, or a corporate retreat, and sets out the <a href="#fitness-facilities" style={{ color: "#7a8c6e" }}>exact fitness facilities</a> a facilitator can plan around at Villa Lithos Porto Rafti.
+        The Greek wellness travel category has grown rapidly since 2022, and fitness retreats have grown with it. Mainland Greece, particularly the Athens Riviera and East Attica, has emerged as an alternative to the established island spa resorts for both. This guide compares the two practical formats, dedicated wellness resorts and private villas with full training and wellness amenities, identifies when each is the right choice for a group, a family, or a corporate retreat, and sets out the <a href="#fitness-facilities" style={{ color: "#7a8c6e" }}>exact fitness facilities</a> a facilitator can plan around at Villa Lithos Porto Rafti. If you are looking for the venue itself, see our <Link href="/wellness-retreat-villa-greece" style={{ color: "#7a8c6e" }}>luxury wellness retreat villa in Greece</Link>.
       </p>
 
       <h2 style={s.h2}>The Wellness Tourism Market in Greece</h2>
@@ -392,7 +392,7 @@ export default function Page() {
 
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>A Fitness and Wellness Retreat Venue for Up to 22 Guests</h2>
-        <p style={s.ctaText}>Heated infinity pool, outdoor sauna, private gym, floodlit padel court, designer kitchen, two living rooms, 20 minutes from Athens airport. Concierge arranges trainers, yoga, breathwork, massage, and chef catering tailored to your group. See also the <Link href="/corporate-retreats" style={{ color: "#7a8c6e" }}>corporate retreat venue</Link> page for team offsites.</p>
+        <p style={s.ctaText}>Heated infinity pool, outdoor sauna, private gym, floodlit padel court, designer kitchen, two living rooms, 20 minutes from Athens airport. Concierge arranges trainers, yoga, breathwork, massage, and chef catering tailored to your group. See the <Link href="/wellness-retreat-villa-greece" style={{ color: "#7a8c6e" }}>wellness retreat villa</Link> page, or the <Link href="/corporate-retreats" style={{ color: "#7a8c6e" }}>corporate retreat venue</Link> page for team offsites.</p>
         <Link href="/#inquiry" style={s.cta}>Inquire About a Retreat</Link>
       </div>
 
