@@ -19,6 +19,7 @@ import {
 import { AllJsonLd } from "@/app/lib/jsonld";
 import CookieConsent from "@/components/CookieConsent";
 import GtmLoader from "@/components/GtmLoader";
+import LeadTracker from "@/components/LeadTracker";
 import { getGlobalData } from "@/app/lib/tina";
 
 export const viewport: Viewport = {
@@ -128,6 +129,7 @@ gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personali
                       <main id="site-main">{children}</main>
                       <CookieConsent />
                       <GtmLoader />
+                      <LeadTracker />
                       <AdminHide>
                                 <Footer
                                               data={global?.footer || undefined}
