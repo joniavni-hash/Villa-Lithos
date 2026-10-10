@@ -97,8 +97,8 @@ const articles = [
   },
   {
     slug: "eating-in-porto-rafti",
-    title: "Eating Like a Local in Porto Rafti: A Guide to Tavernas, Markets, and Greek Food",
-    excerpt: "A practical food guide to Porto Rafti, including the best fish tavernas, traditional bakeries, local markets, regional Attic specialities, and in-villa chef options.",
+    title: "Porto Rafti Restaurants: Where Our Team Eats, and a Local Food Guide",
+    excerpt: "Six places in Porto Rafti our team actually eats at, from a seafront fish taverna on Avlaki to Epirote small plates and the town's best pastry shop, plus markets, Attic wine and private chefs for villa dinners.",
     date: "2026-05-11",
     readTime: "10 min read",
     category: "Food and Wine",
