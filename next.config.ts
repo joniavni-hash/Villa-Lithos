@@ -11,6 +11,14 @@ const nextConfig: NextConfig = {
         },
     async redirects() {
           return [
+            // Domain move (2026-10-11): every URL on the old host goes to the same path on villalithos.com.
+            // Kept at the top so it runs before the path redirects below.
+            {
+                      source: '/:path*',
+                      has: [{ type: 'host', value: 'www.villalithosgreece.com' }],
+                      destination: 'https://www.villalithos.com/:path*',
+                      statusCode: 301,
+            },
             {
                       source: '/articles/porto-rafti-family-holiday',
                       destination: '/articles/porto-rafti-family-holiday-greece',
