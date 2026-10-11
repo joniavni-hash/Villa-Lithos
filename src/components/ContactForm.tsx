@@ -10,7 +10,7 @@ const WHATSAPP_MESSAGE = encodeURIComponent(
 );
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`;
 const MESSENGER_URL = "https://m.me/61583462218227";
-const EMAIL = "info@villalithos.com";
+const EMAIL = "info@villalithosgreece.com";
 
 type ContactData = {
   badge?: string | null;

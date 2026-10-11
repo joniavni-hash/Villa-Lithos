@@ -8,7 +8,7 @@ import Link from "next/link";
 // Values starting with "[" render with a yellow highlight (none remain).
 // ---------------------------------------------------------------------------
 const OPERATOR = "Goldenberg Luxe";
-const PRIVACY_EMAIL = "info@villalithos.com";
+const PRIVACY_EMAIL = "info@villalithosgreece.com";
 const RETENTION = "24 months";
 const EFFECTIVE_DATE = "22 September 2026";
 

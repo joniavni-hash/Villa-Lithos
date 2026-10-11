@@ -22,7 +22,7 @@ export default function Footer({ data, headerData }: { data?: FooterData; header
   const brandName = "Villa Lithos";
   const tagline = data?.tagline || "A private villa in Porto Rafti, Greece. Quiet stays, thoughtful comfort.";
   const phone = data?.phone || "+30 693 275 7142";
-  const email = data?.email || "info@villalithos.com";
+  const email = data?.email || "info@villalithosgreece.com";
   const address = data?.address || "Porto Rafti, Attica, Greece";
   const copyright = data?.copyright || "Villa Lithos";
   const managedBy = data?.managedBy || "Managed by Goldenberg Luxe";

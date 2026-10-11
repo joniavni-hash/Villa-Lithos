@@ -6,7 +6,7 @@ import Link from "next/link";
 // Booking conditions are linked once the 2027 booking terms are final; until
 // then bookings follow the platform terms.
 const OPERATOR = "Goldenberg Luxe";
-const CONTACT_EMAIL = "info@villalithos.com";
+const CONTACT_EMAIL = "info@villalithosgreece.com";
 const EFFECTIVE_DATE = "22 September 2026";
 
 const TITLE = "Website Terms of Use";
