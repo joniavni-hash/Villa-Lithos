@@ -96,7 +96,7 @@ export default function WelcomePage() {
 
       {/* Minimal Footer */}
       <footer style={s.footer}>
-        <p>Villa Lithos, Porto Rafti, Greece | info@villalithos.com | +30 693 275 7142</p>
+        <p>Villa Lithos, Porto Rafti, Greece | info@villalithosgreece.com | +30 693 275 7142</p>
         <p style={{ marginTop: 8 }}><Link href="/" style={{ color: "#8B9A6B", textDecoration: "none" }}>Visit Full Website</Link></p>
       </footer>
     </div>

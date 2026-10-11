@@ -33,7 +33,7 @@ export async function GET() {
     const res = await fetch(
       `https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=${LAT}&lon=${LON}`,
       {
-        headers: { "User-Agent": "villalithos.com/1.0 (info@villalithos.com)" },
+        headers: { "User-Agent": "villalithos.com/1.0 (info@villalithosgreece.com)" },
         next: { revalidate: 900 },
       },
     );

@@ -75,13 +75,13 @@ export function OrganizationJsonLd() {
     location: PORTO_RAFTI_PLACE,
     areaServed: PORTO_RAFTI_PLACE,
     telephone: "+30-693-275-7142",
-    email: "info@villalithos.com",
+    email: "info@villalithosgreece.com",
     owns: { "@id": siteUrl("/#villa") },
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "reservations",
       telephone: "+30-693-275-7142",
-      email: "info@villalithos.com",
+      email: "info@villalithosgreece.com",
       availableLanguage: ["English", "Greek", "Hebrew"],
     },
   };
@@ -116,7 +116,7 @@ export function VacationRentalJsonLd() {
     url: siteUrl(),
     sameAs: SAME_AS,
     telephone: "+30-693-275-7142",
-    email: "info@villalithos.com",
+    email: "info@villalithosgreece.com",
     image: [
       siteUrl("/img/hero.webp"),
       siteUrl("/img/gallery/Exterior%20%26%20Pool.jpg"),
