@@ -11,7 +11,7 @@ import { WINTER_STATS } from "@/app/lib/season";
 const TITLE = "Luxury Wellness Retreat Villa in Greece | Villa Lithos";
 const H1 = "A Private Wellness Retreat Villa in Greece, 20 Minutes from Athens Airport";
 const DESC = "The whole estate for your group: 9 bedrooms for up to 22, heated infinity pool, barrel sauna, private gym, padel court and shaded yoga deck, 20 min from Athens airport.";
-const URL = "https://www.villalithosgreece.com/wellness-retreat-villa-greece";
+const URL = "https://www.villalithos.com/wellness-retreat-villa-greece";
 const PUBLISHED = "2026-10-10";
 const MODIFIED = "2026-10-10";
 
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: TITLE,
     description: DESC,
     url: URL,
-    images: [{ url: "https://www.villalithosgreece.com/img/gallery/Exterior%20%26%20Pool%20(15).jpg", width: 2048, height: 1365 }],
+    images: [{ url: "https://www.villalithos.com/img/gallery/Exterior%20%26%20Pool%20(15).jpg", width: 2048, height: 1365 }],
   },
   twitter: { card: "summary_large_image", title: TITLE, description: DESC },
   alternates: { canonical: URL },
@@ -157,12 +157,12 @@ const jsonLd = {
       datePublished: PUBLISHED,
       dateModified: MODIFIED,
       inLanguage: "en",
-      about: { "@id": "https://www.villalithosgreece.com/#villa" },
-      primaryImageOfPage: { "@type": "ImageObject", url: `https://www.villalithosgreece.com${img("Exterior & Pool (15).jpg")}` },
+      about: { "@id": "https://www.villalithos.com/#villa" },
+      primaryImageOfPage: { "@type": "ImageObject", url: `https://www.villalithos.com${img("Exterior & Pool (15).jpg")}` },
       breadcrumb: {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Villa Lithos", item: "https://www.villalithosgreece.com/" },
+          { "@type": "ListItem", position: 1, name: "Villa Lithos", item: "https://www.villalithos.com/" },
           { "@type": "ListItem", position: 2, name: "Wellness retreat villa", item: URL },
         ],
       },

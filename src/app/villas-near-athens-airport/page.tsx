@@ -4,7 +4,7 @@ import Link from "next/link";
 const TITLE = "Large Private Villa Near Athens Airport | Villa Lithos";
 const H1 = "Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto Rafti";
 const DESC = "Luxury family villa near Athens airport: Villa Lithos is a large private villa for groups of up to 22, 16 km and a 20-minute drive from Athens International Airport, with no ferry.";
-const URL = "https://www.villalithosgreece.com/villas-near-athens-airport";
+const URL = "https://www.villalithos.com/villas-near-athens-airport";
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-09-29";
 
@@ -37,9 +37,9 @@ const jsonLd = {
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com" },
-  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithosgreece.com/img/logo.webp" } },
-  image: ["https://www.villalithosgreece.com/img/hero.webp"],
+  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithos.com" },
+  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithos.com/img/logo.webp" } },
+  image: ["https://www.villalithos.com/img/hero.webp"],
   mainEntityOfPage: { "@type": "WebPage", "@id": URL },
   url: URL,
 };
@@ -141,7 +141,7 @@ export default function Page() {
 
       <h2 style={s.h2}>Booking Practicalities</h2>
       <p style={s.p}>
-        Villa Lithos is bookable direct through <a href="https://www.villalithosgreece.com/#inquiry">villalithosgreece.com</a>, via Guesty at <a href="https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72" target="_blank" rel="noopener">Goldenberg Luxe</a>, on <a href="https://www.booking.com/hotel/gr/villa-lithos-porto-rafti.html" target="_blank" rel="nofollow noopener">Booking.com</a>, and on <a href="https://airbnb.com/h/lithoss" target="_blank" rel="nofollow noopener">Airbnb</a>. Check-in is from 15:00, check-out is until 10:00. Private airport transfers can be arranged via the concierge team. Greek travel rules and Schengen entry requirements for non-EU visitors can be confirmed via the <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a> official portal.
+        Villa Lithos is bookable direct through <a href="https://www.villalithos.com/#inquiry">villalithos.com</a>, via Guesty at <a href="https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72" target="_blank" rel="noopener">Goldenberg Luxe</a>, on <a href="https://www.booking.com/hotel/gr/villa-lithos-porto-rafti.html" target="_blank" rel="nofollow noopener">Booking.com</a>, and on <a href="https://airbnb.com/h/lithoss" target="_blank" rel="nofollow noopener">Airbnb</a>. Check-in is from 15:00, check-out is until 10:00. Private airport transfers can be arranged via the concierge team. Greek travel rules and Schengen entry requirements for non-EU visitors can be confirmed via the <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a> official portal.
       </p>
 
       <h2 style={s.h2}>Related Reading</h2>

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "Select summer 2026 weeks at Villa Lithos are still open. Private villa, private pool, sea views near Athens. Families who book early get the best dates.",
   },
   alternates: {
-    canonical: "https://www.villalithosgreece.com/articles/villa-lithos-summer-2026-availability",
+    canonical: "https://www.villalithos.com/articles/villa-lithos-summer-2026-availability",
   },
 };
 
@@ -38,7 +38,7 @@ const jsonLd = {
   headline: "Book Villa Lithos for Summer 2026: Available Weeks and What You Need to Know",
   datePublished: "2026-03-02",
   author: { "@type": "Organization", name: "Villa Lithos" },
-  url: "https://www.villalithosgreece.com/articles/villa-lithos-summer-2026-availability",
+  url: "https://www.villalithos.com/articles/villa-lithos-summer-2026-availability",
 };
 
 const s = {

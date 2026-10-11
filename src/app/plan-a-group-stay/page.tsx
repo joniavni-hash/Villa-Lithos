@@ -4,7 +4,7 @@ import Link from "next/link";
 const TITLE = "Plan a Group Stay for 10 to 22 in Greece: Rooms, Beds and a Sample Schedule | Villa Lithos";
 const H1 = "Planning a Group Stay in Greece for 10 to 22 People: Rooms, Beds and a Sample Schedule";
 const DESC = "The organiser's page for Villa Lithos Porto Rafti: every bedroom with its bed and bathroom, who sleeps where for groups of 10, 16 and 22, a three-day sample schedule, the spec organisers ask for, and logistics from Athens airport.";
-const URL = "https://www.villalithosgreece.com/plan-a-group-stay";
+const URL = "https://www.villalithos.com/plan-a-group-stay";
 const PUBLISHED = "2026-10-08";
 const MODIFIED = "2026-10-08";
 
@@ -139,12 +139,12 @@ const jsonLd = {
       description: DESC,
       datePublished: PUBLISHED,
       dateModified: MODIFIED,
-      author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com" },
-      publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithosgreece.com/img/logo.webp" } },
-      image: ["https://www.villalithosgreece.com/img/hero.webp"],
+      author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithos.com" },
+      publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithos.com/img/logo.webp" } },
+      image: ["https://www.villalithos.com/img/hero.webp"],
       mainEntityOfPage: { "@type": "WebPage", "@id": URL },
       url: URL,
-      about: { "@type": "LodgingBusiness", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com", sameAs: "https://www.villalithosgreece.com/#villa" },
+      about: { "@type": "LodgingBusiness", name: "Villa Lithos Porto Rafti", url: "https://www.villalithos.com", sameAs: "https://www.villalithos.com/#villa" },
     },
     {
       "@type": "FAQPage",

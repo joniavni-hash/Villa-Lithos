@@ -4,7 +4,7 @@ import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "Day Trips from Porto Rafti and Rafina Port: A Practical Attica Guide";
 const DESC = "Five practical day trips from Porto Rafti and Rafina port: Athens, Cape Sounion, Brauron, Marathon and the Cycladic ferries, with drive times, ticket prices, opening hours and crowd-avoidance tips.";
-const URL = "https://www.villalithosgreece.com/articles/day-trips-from-porto-rafti";
+const URL = "https://www.villalithos.com/articles/day-trips-from-porto-rafti";
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-10-09";
 
@@ -34,9 +34,9 @@ const jsonLd = {
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com" },
-  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithosgreece.com/img/logo.webp" } },
-  image: ["https://www.villalithosgreece.com/img/hero.webp"],
+  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithos.com" },
+  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithos.com/img/logo.webp" } },
+  image: ["https://www.villalithos.com/img/hero.webp"],
   mainEntityOfPage: { "@type": "WebPage", "@id": URL },
   url: URL,
 };

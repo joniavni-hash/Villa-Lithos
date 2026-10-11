@@ -4,7 +4,7 @@ import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "Porto Rafti Restaurants: Where Our Team Eats, and a Local Food Guide";
 const DESC = "Six places in Porto Rafti our team actually eats at, from a seafront fish taverna on Avlaki to Epirote small plates and the town's best pastry shop, plus markets, Attic wine and private chefs for villa dinners.";
-const URL = "https://www.villalithosgreece.com/articles/eating-in-porto-rafti";
+const URL = "https://www.villalithos.com/articles/eating-in-porto-rafti";
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-10-08";
 
@@ -36,9 +36,9 @@ const jsonLd = {
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com" },
-  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithosgreece.com/img/logo.webp" } },
-  image: ["https://www.villalithosgreece.com/img/hero.webp"],
+  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithos.com" },
+  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithos.com/img/logo.webp" } },
+  image: ["https://www.villalithos.com/img/hero.webp"],
   mainEntityOfPage: { "@type": "WebPage", "@id": URL },
   url: URL,
 };

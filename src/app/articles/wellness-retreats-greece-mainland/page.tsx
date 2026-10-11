@@ -4,7 +4,7 @@ import Link from "next/link";
 const TITLE = "Fitness & Wellness Retreat Venue in Greece | Villa Lithos";
 const H1 = "Fitness and Wellness Retreats in Greece: A Practical Guide to Mainland Venues";
 const DESC = "Luxury wellness retreat villa in Greece, 20 min from Athens airport: 9 bedrooms for 22 guests, heated infinity pool, private gym, padel court, outdoor sauna.";
-const URL = "https://www.villalithosgreece.com/articles/wellness-retreats-greece-mainland";
+const URL = "https://www.villalithos.com/articles/wellness-retreats-greece-mainland";
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-09-29";
 
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "private retreat venue greece",
     "wellness tourism greece",
   ],
-  openGraph: { type: "article", title: TITLE, description: DESC, url: URL, images: [{ url: "https://www.villalithosgreece.com/img/gallery/Exterior%20%26%20Pool%20(15).jpg", width: 2048, height: 1365 }] },
+  openGraph: { type: "article", title: TITLE, description: DESC, url: URL, images: [{ url: "https://www.villalithos.com/img/gallery/Exterior%20%26%20Pool%20(15).jpg", width: 2048, height: 1365 }] },
   twitter: { card: "summary_large_image", title: TITLE, description: DESC },
   alternates: { canonical: URL },
 };
@@ -138,15 +138,15 @@ const jsonLd = {
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com" },
-  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithosgreece.com/img/logo.webp" } },
-  image: ["https://www.villalithosgreece.com/img/hero.webp", ...facilityPhotos.map((p) => `https://www.villalithosgreece.com${img(p.file)}`)],
+  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithos.com" },
+  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithos.com/img/logo.webp" } },
+  image: ["https://www.villalithos.com/img/hero.webp", ...facilityPhotos.map((p) => `https://www.villalithos.com${img(p.file)}`)],
   mainEntityOfPage: { "@type": "WebPage", "@id": URL },
   url: URL,
   about: [
     { "@type": "Thing", name: "Fitness retreats in Greece" },
     { "@type": "Thing", name: "Wellness retreats in Greece" },
-    { "@id": "https://www.villalithosgreece.com/#villa" },
+    { "@id": "https://www.villalithos.com/#villa" },
   ],
 };
 

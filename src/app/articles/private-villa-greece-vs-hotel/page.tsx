@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "Hotels or private villa for your Greece family holiday? An honest breakdown of what each actually delivers, and why Villa Lithos near Athens is the clear winner for families.",
   },
   alternates: {
-    canonical: "https://www.villalithosgreece.com/articles/private-villa-greece-vs-hotel",
+    canonical: "https://www.villalithos.com/articles/private-villa-greece-vs-hotel",
   },
 };
 
@@ -38,7 +38,7 @@ const jsonLd = {
   headline: "Private Villa in Greece vs. Island Hotel: An Honest Comparison for Families",
   datePublished: "2026-03-02",
   author: { "@type": "Organization", name: "Villa Lithos" },
-  url: "https://www.villalithosgreece.com/articles/private-villa-greece-vs-hotel",
+  url: "https://www.villalithos.com/articles/private-villa-greece-vs-hotel",
 };
 
 const s = {

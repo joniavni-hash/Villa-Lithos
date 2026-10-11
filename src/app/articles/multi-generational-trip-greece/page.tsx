@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Planning a Multi-Generational Family Trip to Greece",
     description: "How to bring the whole family together for the perfect Greek holiday, from toddlers to grandparents.",
-    url: "https://blog.villalithosgreece.com/articles/multi-generational-trip-greece",
+    url: "https://www.villalithos.com/articles/multi-generational-trip-greece",
     type: "article",
   },
     alternates: {
-          canonical: "https://www.villalithosgreece.com/articles/multi-generational-trip-greece",
+          canonical: "https://www.villalithos.com/articles/multi-generational-trip-greece",
             },
 };
 
