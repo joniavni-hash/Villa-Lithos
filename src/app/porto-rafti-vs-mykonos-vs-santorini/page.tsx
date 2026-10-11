@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const TITLE = "Porto Rafti vs Mykonos vs Santorini: A 2026 Comparison for Families";
 const DESC = "An honest 2026 comparison of three Greek destinations for family holidays, by airport access, beach safety, peak-season crowding, accommodation cost, and day-trip range. Includes data sources and use-case recommendations.";
-const URL = "https://www.villalithosgreece.com/porto-rafti-vs-mykonos-vs-santorini";
+const URL = "https://www.villalithos.com/porto-rafti-vs-mykonos-vs-santorini";
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-09-22";
 
@@ -32,9 +32,9 @@ const jsonLd = {
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com" },
-  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithosgreece.com/img/logo.webp" } },
-  image: ["https://www.villalithosgreece.com/img/hero.webp"],
+  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithos.com" },
+  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithos.com/img/logo.webp" } },
+  image: ["https://www.villalithos.com/img/hero.webp"],
   mainEntityOfPage: { "@type": "WebPage", "@id": URL },
   url: URL,
 };

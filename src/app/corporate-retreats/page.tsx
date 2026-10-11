@@ -38,7 +38,7 @@ import { WINTER_STATS } from "@/app/lib/season";
 const TITLE = "Corporate Retreat Venue Near Athens | Villa Lithos";
 const H1 = "A corporate retreat venue near Athens, 20 minutes from the airport.";
 const DESC = "Private corporate retreat venue near Athens for offsites of 10 to 22. A 5,000 m² estate 20 minutes from the airport, Starlink internet, pool, padel, gym, sauna.";
-const URL = "https://www.villalithosgreece.com/corporate-retreats";
+const URL = "https://www.villalithos.com/corporate-retreats";
 const PUBLISHED = "2026-09-22";
 const MODIFIED = "2026-10-09";
 
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     "winter offsite greece",
     "winter corporate retreat near athens",
   ],
-  openGraph: { type: "article", title: TITLE, description: DESC, url: URL, images: [{ url: "https://www.villalithosgreece.com/img/hero.webp", width: 1920, height: 1080 }] },
+  openGraph: { type: "article", title: TITLE, description: DESC, url: URL, images: [{ url: "https://www.villalithos.com/img/hero.webp", width: 1920, height: 1080 }] },
   twitter: { card: "summary_large_image", title: TITLE, description: DESC },
   alternates: { canonical: URL },
 };
@@ -75,9 +75,9 @@ const jsonLd = {
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com" },
-  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithosgreece.com/img/logo.webp" } },
-  image: ["https://www.villalithosgreece.com/img/hero.webp"],
+  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithos.com" },
+  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithos.com/img/logo.webp" } },
+  image: ["https://www.villalithos.com/img/hero.webp"],
   mainEntityOfPage: { "@type": "WebPage", "@id": URL },
   url: URL,
   about: { "@type": "Thing", name: "Corporate retreats and company offsites in Greece" },
@@ -99,11 +99,11 @@ const faqs = [
 const venueJsonLd = {
   "@context": "https://schema.org",
   "@type": "EventVenue",
-  "@id": "https://www.villalithosgreece.com/corporate-retreats#venue",
+  "@id": "https://www.villalithos.com/corporate-retreats#venue",
   name: "Villa Lithos Porto Rafti, corporate retreat venue near Athens",
   url: URL,
   description: DESC,
-  sameAs: "https://www.villalithosgreece.com/#villa",
+  sameAs: "https://www.villalithos.com/#villa",
   maximumAttendeeCapacity: 22,
   publicAccess: false,
   isAccessibleForFree: false,

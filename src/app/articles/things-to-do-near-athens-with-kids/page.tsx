@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   description: "From ancient ruins to island day trips and hidden beaches, discover the best family-friendly activities near Athens for summer 2026. Porto Rafti is your perfect base.",
   keywords: ["things to do near athens with kids","athens family activities summer","day trips from athens families","cape sounion with children","schinias beach families","attica zoo park","porto rafti activities","brauron archaeological site","family holidays near athens 2026","athens riviera kids activities","island hopping from rafina","greek cooking class family","summer activities attica greece"],
   openGraph: { type: "article", title: "Best Things to Do Near Athens with Kids: Summer 2026 Guide", description: "The ultimate family activity guide for the Athens Riviera and Attica region." },
-  alternates: { canonical: "https://www.villalithosgreece.com/articles/things-to-do-near-athens-with-kids" },
+  alternates: { canonical: "https://www.villalithos.com/articles/things-to-do-near-athens-with-kids" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Best Things to Do Near Athens with Kids: Summer 2026 Guide", datePublished: "2026-02-24", author: { "@type": "Organization", name: "Villa Lithos" }, url: "https://www.villalithosgreece.com/articles/things-to-do-near-athens-with-kids" };
+const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Best Things to Do Near Athens with Kids: Summer 2026 Guide", datePublished: "2026-02-24", author: { "@type": "Organization", name: "Villa Lithos" }, url: "https://www.villalithos.com/articles/things-to-do-near-athens-with-kids" };
 
 const s = {
   article: { maxWidth: 780, margin: "0 auto", padding: "60px 24px 80px", fontFamily: "var(--font-sans), sans-serif", color: "#333", lineHeight: 1.8 } as React.CSSProperties,

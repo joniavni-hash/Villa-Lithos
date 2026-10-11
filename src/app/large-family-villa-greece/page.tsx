@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const TITLE = "The Best Large Family Villas in Greece for Groups of 20";
 const DESC = "A practical comparison of large luxury villas in Greece that comfortably host 18 to 22 guests. Capacity, price band, location, and amenity highlights for multi-generational trips, milestone celebrations, and corporate retreats.";
-const URL = "https://www.villalithosgreece.com/large-family-villa-greece";
+const URL = "https://www.villalithos.com/large-family-villa-greece";
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-09-29";
 
@@ -33,9 +33,9 @@ const jsonLd = {
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com" },
-  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithosgreece.com/img/logo.webp" } },
-  image: ["https://www.villalithosgreece.com/img/hero.webp"],
+  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithos.com" },
+  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithos.com/img/logo.webp" } },
+  image: ["https://www.villalithos.com/img/hero.webp"],
   mainEntityOfPage: { "@type": "WebPage", "@id": URL },
   url: URL,
 };

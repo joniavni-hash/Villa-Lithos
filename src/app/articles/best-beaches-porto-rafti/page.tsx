@@ -4,7 +4,7 @@ import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "The Best Beaches in Porto Rafti and Around: A 2026 Family Guide";
 const DESC = "A practical guide to the beaches of Porto Rafti and the East Attica coast, with sand vs pebble, wind exposure, family suitability, drive times from Villa Lithos, and Blue Flag status.";
-const URL = "https://www.villalithosgreece.com/articles/best-beaches-porto-rafti";
+const URL = "https://www.villalithos.com/articles/best-beaches-porto-rafti";
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-05-11";
 
@@ -35,9 +35,9 @@ const jsonLd = {
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com" },
-  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithosgreece.com/img/logo.webp" } },
-  image: ["https://www.villalithosgreece.com/img/hero.webp"],
+  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithos.com" },
+  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithos.com/img/logo.webp" } },
+  image: ["https://www.villalithos.com/img/hero.webp"],
   mainEntityOfPage: { "@type": "WebPage", "@id": URL },
   url: URL,
 };

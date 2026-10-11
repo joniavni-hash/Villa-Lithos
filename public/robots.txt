@@ -1,5 +1,5 @@
 # robots.txt for Villa Lithos Porto Rafti
-# https://www.villalithosgreece.com
+# https://www.villalithos.com
 
 User-agent: *
 Allow: /
@@ -43,4 +43,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://www.villalithosgreece.com/sitemap.xml
+Sitemap: https://www.villalithos.com/sitemap.xml

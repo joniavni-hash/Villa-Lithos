@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   description: "Skip the crowded islands. Porto Rafti near Athens offers stunning beaches, ancient sites, and easy access to everything families love about Greece. Plan your 2026 summer holiday.",
   keywords: ["porto rafti family holiday","porto rafti greece summer","family beach holiday near athens","porto rafti vs greek islands","best family destination athens riviera","porto rafti beaches kids","summer holiday attica greece 2026","porto rafti accommodation families","athens coast family vacation","alternative to greek islands families","porto rafti travel guide","family friendly greece mainland"],
   openGraph: { type: "article", title: "Porto Rafti Family Holiday: Why This Hidden Gem Beats the Greek Islands", description: "Discover why Porto Rafti is the smartest family holiday choice near Athens." },
-  alternates: { canonical: "https://www.villalithosgreece.com/articles/porto-rafti-family-holiday-greece" },
+  alternates: { canonical: "https://www.villalithos.com/articles/porto-rafti-family-holiday-greece" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Porto Rafti Family Holiday: Why This Hidden Gem Beats the Greek Islands", datePublished: "2026-02-24", author: { "@type": "Organization", name: "Villa Lithos" }, url: "https://www.villalithosgreece.com/articles/porto-rafti-family-holiday-greece" };
+const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Porto Rafti Family Holiday: Why This Hidden Gem Beats the Greek Islands", datePublished: "2026-02-24", author: { "@type": "Organization", name: "Villa Lithos" }, url: "https://www.villalithos.com/articles/porto-rafti-family-holiday-greece" };
 
 const s = {
   article: { maxWidth: 780, margin: "0 auto", padding: "60px 24px 80px", fontFamily: "var(--font-sans), sans-serif", color: "#333", lineHeight: 1.8 } as React.CSSProperties,

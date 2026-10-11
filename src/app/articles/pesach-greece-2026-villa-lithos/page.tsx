@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "Villa Lithos in Porto Rafti: the ideal Passover 2026 holiday for Israeli families. Private villa, private pool, 20 minutes from Athens Airport.",
   },
   alternates: {
-    canonical: "https://www.villalithosgreece.com/articles/pesach-greece-2026-villa-lithos",
+    canonical: "https://www.villalithos.com/articles/pesach-greece-2026-villa-lithos",
   },
 };
 
@@ -38,7 +38,7 @@ const jsonLd = {
   headline: "Passover in Greece 2026: Why Israeli Families Choose Villa Lithos in Porto Rafti",
   datePublished: "2026-03-02",
   author: { "@type": "Organization", name: "Villa Lithos" },
-  url: "https://www.villalithosgreece.com/articles/pesach-greece-2026-villa-lithos",
+  url: "https://www.villalithos.com/articles/pesach-greece-2026-villa-lithos",
 };
 
 const s = {

@@ -14,7 +14,7 @@ export const SITE = {
 
 export function siteUrl(path: string = ""): string {
   const base = (
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.villalithosgreece.com"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.villalithos.com"
   ).replace(/\/+$/, "");
   return `${base}${path.startsWith("/") ? path : `/${path}`}`;
 }

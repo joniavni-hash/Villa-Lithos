@@ -5,7 +5,7 @@ import StayWithUs from "@/components/StayWithUs";
 const TITLE = "Porto Rafti, Greece: 2026 Travel Guide | Villa Lithos";
 const H1 = "Porto Rafti, Greece: A Practical Travel Guide for 2026";
 const DESC = "Porto Rafti travel guide: where it is in East Attica, how to get there from Athens airport, the best beaches, day trips, where to eat and where to stay.";
-const URL = "https://www.villalithosgreece.com/porto-rafti";
+const URL = "https://www.villalithos.com/porto-rafti";
 const PUBLISHED = "2026-10-01";
 const MODIFIED = "2026-10-01";
 
@@ -61,9 +61,9 @@ const jsonLd = {
       description: DESC,
       datePublished: PUBLISHED,
       dateModified: MODIFIED,
-      author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com" },
-      publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithosgreece.com/img/logo.webp" } },
-      image: ["https://www.villalithosgreece.com/img/hero.webp"],
+      author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithos.com" },
+      publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithos.com/img/logo.webp" } },
+      image: ["https://www.villalithos.com/img/hero.webp"],
       mainEntityOfPage: { "@type": "WebPage", "@id": URL },
       url: URL,
       about: {

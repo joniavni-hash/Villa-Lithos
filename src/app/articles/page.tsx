@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     "eating in porto rafti",
   ],
   alternates: {
-    canonical: "https://www.villalithosgreece.com/articles",
+    canonical: "https://www.villalithos.com/articles",
   },
   openGraph: {
     title: "Articles",
-    url: "https://www.villalithosgreece.com/articles",
+    url: "https://www.villalithos.com/articles",
   }
 };
 

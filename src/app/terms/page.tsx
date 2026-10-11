@@ -10,8 +10,8 @@ const CONTACT_EMAIL = "info@villalithos.com";
 const EFFECTIVE_DATE = "22 September 2026";
 
 const TITLE = "Website Terms of Use";
-const DESC = "Terms that apply to your use of villalithosgreece.com: information on the site, bookings made through third-party platforms, intellectual property, third-party links, liability and governing law.";
-const URL = "https://www.villalithosgreece.com/terms";
+const DESC = "Terms that apply to your use of villalithos.com: information on the site, bookings made through third-party platforms, intellectual property, third-party links, liability and governing law.";
+const URL = "https://www.villalithos.com/terms";
 
 export const metadata: Metadata = {
   title: { absolute: `${TITLE} | Villa Lithos Porto Rafti` },
@@ -45,7 +45,7 @@ export default function Page() {
 
       <h2 style={s.h2}>1. Who we are</h2>
       <p style={s.p}>
-        This website, villalithosgreece.com, and Villa Lithos Porto Rafti (Vravronos 70, Porto Rafti 19003, Attica, Greece) are operated by <Fill v={OPERATOR} />, the property management company (&quot;we&quot;, &quot;us&quot;). Contact: <a href={`mailto:${CONTACT_EMAIL}`} style={s.link}>{CONTACT_EMAIL}</a>.
+        This website, villalithos.com, and Villa Lithos Porto Rafti (Vravronos 70, Porto Rafti 19003, Attica, Greece) are operated by <Fill v={OPERATOR} />, the property management company (&quot;we&quot;, &quot;us&quot;). Contact: <a href={`mailto:${CONTACT_EMAIL}`} style={s.link}>{CONTACT_EMAIL}</a>.
       </p>
 
       <h2 style={s.h2}>2. What this site is for</h2>

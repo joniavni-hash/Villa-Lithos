@@ -4,7 +4,7 @@ import Link from "next/link";
 const TITLE = "Luxury Villa Rental Porto Rafti | Large Private Estate Near Athens";
 const H1 = "Luxury Villa Rental in Porto Rafti, Greece: A 9-Bedroom Private Estate Near Athens";
 const DESC = "Luxury villa rental in Porto Rafti, Attica: a 9-bedroom private estate for 22 guests, 16 km from Athens airport, with heated infinity pool, padel court, sauna and elevator.";
-const URL = "https://www.villalithosgreece.com/luxury-villa-porto-rafti";
+const URL = "https://www.villalithos.com/luxury-villa-porto-rafti";
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-09-29";
 
@@ -37,9 +37,9 @@ const jsonLd = {
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
-  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithosgreece.com" },
-  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithosgreece.com/img/logo.webp" } },
-  image: ["https://www.villalithosgreece.com/img/hero.webp"],
+  author: { "@type": "Organization", name: "Villa Lithos Porto Rafti", url: "https://www.villalithos.com" },
+  publisher: { "@type": "Organization", name: "Villa Lithos Porto Rafti", logo: { "@type": "ImageObject", url: "https://www.villalithos.com/img/logo.webp" } },
+  image: ["https://www.villalithos.com/img/hero.webp"],
   mainEntityOfPage: { "@type": "WebPage", "@id": URL },
   url: URL,
 };
@@ -187,7 +187,7 @@ export default function Page() {
 
       <h2 style={s.h2}>Booking and Practicalities</h2>
       <p style={s.p}>
-        Villa Lithos can be booked direct through <a href="https://www.villalithosgreece.com/#inquiry">villalithosgreece.com</a>, via Guesty at <a href="https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72" target="_blank" rel="noopener">Goldenberg Luxe</a>, on <a href="https://www.booking.com/hotel/gr/villa-lithos-porto-rafti.html" target="_blank" rel="nofollow noopener">Booking.com</a>, and on <a href="https://airbnb.com/h/lithoss" target="_blank" rel="nofollow noopener">Airbnb</a>. Direct booking typically offers the most flexibility on dates and access to bespoke concierge services. Check-in is from 15:00 and check-out is until 10:00, with flexibility subject to the booking calendar. Pets are not allowed, smoking is not allowed inside, and the standard rate covers daily housekeeping. Private chefs, yacht charters, transfers, and themed experiences are arranged separately through the concierge team.
+        Villa Lithos can be booked direct through <a href="https://www.villalithos.com/#inquiry">villalithos.com</a>, via Guesty at <a href="https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72" target="_blank" rel="noopener">Goldenberg Luxe</a>, on <a href="https://www.booking.com/hotel/gr/villa-lithos-porto-rafti.html" target="_blank" rel="nofollow noopener">Booking.com</a>, and on <a href="https://airbnb.com/h/lithoss" target="_blank" rel="nofollow noopener">Airbnb</a>. Direct booking typically offers the most flexibility on dates and access to bespoke concierge services. Check-in is from 15:00 and check-out is until 10:00, with flexibility subject to the booking calendar. Pets are not allowed, smoking is not allowed inside, and the standard rate covers daily housekeeping. Private chefs, yacht charters, transfers, and themed experiences are arranged separately through the concierge team.
       </p>
 
       <h2 style={s.h2}>Related Reading</h2>

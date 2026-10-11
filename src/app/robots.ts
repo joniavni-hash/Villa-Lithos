@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
   const baseUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.villalithosgreece.com";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.villalithos.com";
 
   const aiBots = [
     "GPTBot",

@@ -14,7 +14,7 @@ const EFFECTIVE_DATE = "22 September 2026";
 
 const TITLE = "Privacy Notice";
 const DESC = "How Villa Lithos Porto Rafti collects and uses personal data through this website: the inquiry form, analytics cookies (with your consent), embedded maps, and the booking platforms we work with. Your rights under the GDPR and how to exercise them.";
-const URL = "https://www.villalithosgreece.com/privacy";
+const URL = "https://www.villalithos.com/privacy";
 
 export const metadata: Metadata = {
   title: { absolute: `${TITLE} | Villa Lithos Porto Rafti` },
@@ -57,7 +57,7 @@ export default function Page() {
 
       <h2 style={s.h2}>1. Who is responsible</h2>
       <p style={s.p}>
-        This website, villalithosgreece.com, and Villa Lithos Porto Rafti (Vravronos 70, Porto Rafti 19003, Attica, Greece) are operated by <Fill v={OPERATOR} />, the property management company (&quot;we&quot;, &quot;us&quot;). {OPERATOR} is responsible for the personal data described in this notice: it handles inquiries, proposals, guest communication, check-in, housekeeping and concierge services.
+        This website, villalithos.com, and Villa Lithos Porto Rafti (Vravronos 70, Porto Rafti 19003, Attica, Greece) are operated by <Fill v={OPERATOR} />, the property management company (&quot;we&quot;, &quot;us&quot;). {OPERATOR} is responsible for the personal data described in this notice: it handles inquiries, proposals, guest communication, check-in, housekeeping and concierge services.
       </p>
       <p style={s.p}>
         For any question or request about your personal data, write to <a href={`mailto:${PRIVACY_EMAIL}`} style={s.link}>{PRIVACY_EMAIL}</a>.

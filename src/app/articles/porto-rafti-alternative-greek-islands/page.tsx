@@ -12,12 +12,12 @@ export const metadata: Metadata = {
     title: "Porto Rafti: The Perfect Alternative to the Greek Islands",
     description:
       "Why savvy families are choosing Porto Rafti over the Greek islands for their summer holidays.",
-    url: "https://blog.villalithosgreece.com/articles/porto-rafti-alternative-greek-islands",
+    url: "https://www.villalithos.com/articles/porto-rafti-alternative-greek-islands",
     type: "article",
   },
   alternates: {
     canonical:
-      "https://www.villalithosgreece.com/articles/porto-rafti-alternative-greek-islands",
+      "https://www.villalithos.com/articles/porto-rafti-alternative-greek-islands",
   },
 };
 
