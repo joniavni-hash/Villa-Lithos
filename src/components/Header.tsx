@@ -55,7 +55,7 @@ export default function Header({ data }: { data?: HeaderData }) {
 
   return (
     <>
-      <header className={cls}>
+      <header className={cls} data-lead-block="nav">
         <div className="vl-header__in">
           <Link
             href="/"
@@ -99,7 +99,7 @@ export default function Header({ data }: { data?: HeaderData }) {
         </div>
       </header>
 
-      <div id="vl-mobile-menu" className={`vl-menu ${menuOpen ? "is-open" : ""}`} aria-hidden={!menuOpen}>
+      <div id="vl-mobile-menu" className={`vl-menu ${menuOpen ? "is-open" : ""}`} aria-hidden={!menuOpen} data-lead-block="nav-mobile">
         <nav className="vl-menu__links" aria-label="Mobile navigation">
           {navLinks.map((l) => (
             <Link key={l.href} href={l.href} className="vl-menu__link" onClick={() => setMenuOpen(false)}>

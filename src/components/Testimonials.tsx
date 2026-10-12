@@ -74,7 +74,7 @@ export default function Testimonials() {
   const cards = Array.from({ length: GRID }, (_, k) => ALL[(idx + 1 + k) % n]);
 
   return (
-    <section id="reviews" className={styles.section} aria-labelledby="reviews-title">
+    <section id="reviews" className={styles.section} aria-labelledby="reviews-title" data-lead-block="reviews">
       <div className={styles.container}>
         <div className={styles.head}>
           <div>
