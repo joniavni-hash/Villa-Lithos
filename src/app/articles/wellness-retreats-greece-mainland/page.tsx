@@ -194,7 +194,7 @@ export default function Page() {
 
       <StayWithUs
         source="wellness-guide"
-        kicker="Organising a retreat?"
+        kicker="Organizing a retreat?"
         lead="If you are a retreat leader, coach or facilitator scoping a venue, skip the comparison and ask about your dates."
         whatsappText="Hi, I'm reading your wellness retreats guide. I'm organising a retreat and would like to ask about availability at Villa Lithos."
         secondaryHref="/wellness-retreat-villa-greece"
