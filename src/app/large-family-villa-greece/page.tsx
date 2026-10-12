@@ -1,11 +1,12 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "The Best Large Family Villas in Greece for Groups of 20";
 const DESC = "A practical comparison of large luxury villas in Greece that comfortably host 18 to 22 guests. Capacity, price band, location, and amenity highlights for multi-generational trips, milestone celebrations, and corporate retreats.";
 const URL = "https://www.villalithos.com/large-family-villa-greece";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-09-29";
+const MODIFIED = "2026-10-12";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -68,11 +69,20 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <h1 style={s.h1}>{TITLE}</h1>
-      <span style={s.meta}>Last updated: September 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: October 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
         According to data published by major luxury villa operators, large family villas accommodating 18 to 22 guests in a single party are uncommon in Greece. Most of the stock is concentrated on Mykonos and Santorini, with a smaller cluster on the Athens Riviera and an emerging set of properties in East Attica. This page is a practical map of the category, with capacity, location, and price-band detail for travellers planning a multi-generational trip, a milestone celebration, or a corporate retreat for 20.
       </p>
+
+      <StayWithUs
+        source="large-family-intro"
+        kicker="Looking for a villa for 18 to 22?"
+        lead="If your group is already sized, skip the comparison and ask about your dates."
+        whatsappText="Hi, I'm reading your large family villas guide. We're a group of about 20 and would like to ask about availability at Villa Lithos."
+        secondaryHref="/plan-a-group-stay"
+        secondaryLabel="Rooms, beds and a sample schedule"
+      />
 
       <h2 style={s.h2}>What Counts as a "Large Family Villa"</h2>
       <p style={s.p}>
@@ -192,7 +202,7 @@ export default function Page() {
         <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
       </div>
 
-      <p style={s.updated}>Last updated: 29 September 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>
+      <p style={s.updated}>Last updated: 12 October 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>
 
       <Link href="/" style={s.back}>&larr; Back to Villa Lithos home</Link>
     </article>
