@@ -19,7 +19,7 @@ export default function Story({ paragraphs = DEFAULT_PARAGRAPHS }: Props) {
   const [first, ...rest] = paragraphs;
 
   return (
-    <section id="story" className="vl-section" aria-labelledby="story-title">
+    <section id="story" className="vl-section" aria-labelledby="story-title" data-lead-block="story">
       <div className="vl-container">
         <div className="vl-story__grid">
           <div className="vl-story__img vl-reveal">

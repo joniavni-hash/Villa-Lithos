@@ -32,7 +32,7 @@ const WINTER_AMENITIES = [
 // Shown on the homepage from October to March only (see src/app/lib/season.ts).
 export default function WinterBand() {
   return (
-    <section id="winter" className="vl-winter" aria-labelledby="winter-title">
+    <section id="winter" className="vl-winter" aria-labelledby="winter-title" data-lead-block="winter-band">
       <div className="vl-winter__in">
         <header className="vl-winter__head vl-reveal">
           <span className="vl-label">October to March</span>
