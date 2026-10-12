@@ -1,12 +1,13 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "Fitness & Wellness Retreat Venue in Greece | Villa Lithos";
 const H1 = "Fitness and Wellness Retreats in Greece: A Practical Guide to Mainland Venues";
 const DESC = "Luxury wellness retreat villa in Greece, 20 min from Athens airport: 9 bedrooms for 22 guests, heated infinity pool, private gym, padel court, outdoor sauna.";
 const URL = "https://www.villalithos.com/articles/wellness-retreats-greece-mainland";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-09-29";
+const MODIFIED = "2026-10-12";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -185,11 +186,20 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       <h1 style={s.h1}>{H1}</h1>
-      <span style={s.meta}>Last updated: September 2026 · 13 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: October 2026 · 13 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
         The Greek wellness travel category has grown rapidly since 2022, and fitness retreats have grown with it. Mainland Greece, particularly the Athens Riviera and East Attica, has emerged as an alternative to the established island spa resorts for both. This guide compares the two practical formats, dedicated wellness resorts and private villas with full training and wellness amenities, identifies when each is the right choice for a group, a family, or a corporate retreat, and sets out the <a href="#fitness-facilities" style={{ color: "#7a8c6e" }}>exact fitness facilities</a> a facilitator can plan around at Villa Lithos Porto Rafti. If you are looking for the venue itself, see our <Link href="/wellness-retreat-villa-greece" style={{ color: "#7a8c6e" }}>luxury wellness retreat villa in Greece</Link>.
       </p>
+
+      <StayWithUs
+        source="wellness-guide"
+        kicker="Organising a retreat?"
+        lead="If you are a retreat leader, coach or facilitator scoping a venue, skip the comparison and ask about your dates."
+        whatsappText="Hi, I'm reading your wellness retreats guide. I'm organising a retreat and would like to ask about availability at Villa Lithos."
+        secondaryHref="/wellness-retreat-villa-greece"
+        secondaryLabel="See the wellness retreat villa"
+      />
 
       <h2 style={s.h2}>The Wellness Tourism Market in Greece</h2>
       <p style={s.p}>
@@ -396,7 +406,7 @@ export default function Page() {
         <Link href="/#inquiry" style={s.cta}>Inquire About a Retreat</Link>
       </div>
 
-      <p style={s.updated}>Last updated: 29 September 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+      <p style={s.updated}>Last updated: 12 October 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
 
       <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     </article>
