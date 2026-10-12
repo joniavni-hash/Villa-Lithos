@@ -196,7 +196,7 @@ export default function Page() {
         source="wellness-guide"
         kicker="Organizing a retreat?"
         lead="If you are a retreat leader, coach or facilitator scoping a venue, skip the comparison and ask about your dates."
-        whatsappText="Hi, I'm reading your wellness retreats guide. I'm organising a retreat and would like to ask about availability at Villa Lithos."
+        whatsappText="Hi, I'm reading your wellness retreats guide. I'm organizing a retreat and would like to ask about availability at Villa Lithos."
         secondaryHref="/wellness-retreat-villa-greece"
         secondaryLabel="See the wellness retreat villa"
       />
