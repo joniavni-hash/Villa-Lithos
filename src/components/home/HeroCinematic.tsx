@@ -58,7 +58,7 @@ export default function HeroCinematic({
   }, [src]);
 
   return (
-    <section className="vl-hero" aria-label="Villa Lithos">
+    <section className="vl-hero" aria-label="Villa Lithos" data-lead-block="hero">
       <div className="vl-hero__media" aria-hidden="true">
         <picture>
           {posterMobile ? <source media="(max-width: 767px)" srcSet={posterMobile} /> : null}

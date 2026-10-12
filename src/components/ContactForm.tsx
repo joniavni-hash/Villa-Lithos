@@ -65,7 +65,7 @@ export default function ContactForm({ cmsData }: { cmsData?: ContactData }) {
     "No forms, no waiting list. The same team that meets you at the gate replies, usually within minutes during business hours.";
 
   return (
-    <section id="inquiry" className="vl-inquiry vl-section" aria-labelledby="inquiry-title">
+    <section id="inquiry" className="vl-inquiry vl-section" aria-labelledby="inquiry-title" data-lead-block="inquiry">
       <div className="vl-container vl-inquiry__grid">
         <div className="vl-reveal">
           <h2 id="inquiry-title" className="vl-h2" style={{ marginBottom: 20 }}>{title}</h2>

@@ -35,7 +35,7 @@ export default function Footer({ data, headerData }: { data?: FooterData; header
   ];
 
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" data-lead-block="footer">
       <div className="site-footer__container">
         {/* Top Section - 3 Column Layout for Desktop */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 items-start w-full py-8 lg:py-10">

@@ -18,7 +18,7 @@ export default function FaqSection() {
   const [category, setCategory] = useState<FaqCategory | "all">("all");
 
   return (
-    <section id="faq" className={styles.section} aria-labelledby="faq-title">
+    <section id="faq" className={styles.section} aria-labelledby="faq-title" data-lead-block="faq">
       <div className={styles.container}>
         <div className={styles.aside}>
           <h2 id="faq-title" className={styles.title}>Before you book</h2>

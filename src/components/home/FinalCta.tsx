@@ -6,7 +6,7 @@ const WHATSAPP_URL = `https://wa.me/306932757142?text=${encodeURIComponent(
 
 export default function FinalCta() {
   return (
-    <section className="vl-final" aria-labelledby="final-title">
+    <section className="vl-final" aria-labelledby="final-title" data-lead-block="final-cta">
       <Image
         src="/img/gallery/Exterior%20%26%20Pool%20(12).jpg"
         alt=""
