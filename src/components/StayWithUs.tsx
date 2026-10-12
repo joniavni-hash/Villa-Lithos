@@ -5,15 +5,25 @@ import Link from "next/link";
 // scroll away. Facts only from the live site (llms.txt key facts).
 // Clicks are measured by <LeadTracker /> through data-lead-block.
 
-const WHATSAPP = `https://wa.me/306932757142?text=${encodeURIComponent(
-  "Hi, I found Villa Lithos through your Porto Rafti guide. I'd like to ask about availability for our group."
-)}`;
+const DEFAULT_WHATSAPP_TEXT =
+  "Hi, I found Villa Lithos through your Porto Rafti guide. I'd like to ask about availability for our group.";
+
+function whatsappUrl(text: string) {
+  return `https://wa.me/306932757142?text=${encodeURIComponent(text)}`;
+}
 
 type Props = {
   /** One short sentence tying the guide's topic to the villa. */
   lead: string;
   /** Identifies the guide in the analytics event. */
   source: string;
+  /** Small heading above the text. Defaults to the Porto Rafti guides' wording. */
+  kicker?: string;
+  /** Pre-filled WhatsApp message. */
+  whatsappText?: string;
+  /** Secondary link. Defaults to the villa page. */
+  secondaryHref?: string;
+  secondaryLabel?: string;
 };
 
 const s = {
@@ -34,17 +44,24 @@ const s = {
   secondary: { display: "inline-block", color: "#5f7052", padding: "9px 4px", textDecoration: "none", fontWeight: 600, fontSize: "0.95rem" } as React.CSSProperties,
 };
 
-export default function StayWithUs({ lead, source }: Props) {
+export default function StayWithUs({
+  lead,
+  source,
+  kicker = "Staying in Porto Rafti?",
+  whatsappText = DEFAULT_WHATSAPP_TEXT,
+  secondaryHref = "/luxury-villa-porto-rafti",
+  secondaryLabel = "See the villa",
+}: Props) {
   return (
     <aside style={s.box} data-lead-block={`stay-${source}`} aria-label="Stay at Villa Lithos">
-      <p style={s.kicker}>Staying in Porto Rafti?</p>
+      <p style={s.kicker}>{kicker}</p>
       <p style={s.text}>
         {lead}{" "}
         <strong>Villa Lithos</strong> is a privately owned 9-bedroom estate for up to 22 guests, 20 minutes from Athens airport, with a heated infinity pool, sauna, gym and padel court.
       </p>
       <div style={s.row}>
-        <a href={WHATSAPP} target="_blank" rel="noopener" style={s.primary}>Ask about your dates on WhatsApp</a>
-        <Link href="/luxury-villa-porto-rafti" style={s.secondary}>See the villa &rarr;</Link>
+        <a href={whatsappUrl(whatsappText)} target="_blank" rel="noopener" style={s.primary}>Ask about your dates on WhatsApp</a>
+        <Link href={secondaryHref} style={s.secondary}>{secondaryLabel} &rarr;</Link>
       </div>
     </aside>
   );
