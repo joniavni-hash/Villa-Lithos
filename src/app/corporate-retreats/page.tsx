@@ -34,6 +34,7 @@ import {
   Thermometer,
 } from "lucide-react";
 import { WINTER_STATS } from "@/app/lib/season";
+import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "Corporate Retreat Venue Near Athens | Villa Lithos";
 const H1 = "A corporate retreat venue near Athens, 20 minutes from the airport.";
@@ -305,6 +306,18 @@ export default function Page() {
           ))}
         </div>
       </section>
+
+      {/* ASK ABOUT DATES: tagged WhatsApp card for planners who already know their group */}
+      <div className="mx-auto max-w-6xl px-6 pt-10">
+        <StayWithUs
+          source="corporate-intro"
+          kicker="Planning an offsite?"
+          lead="If you are scoping a venue for 10 to 22 people and already have dates in mind, skip the research and ask directly."
+          whatsappText="Hi, I'm looking at Villa Lithos for a company offsite and would like to ask about availability for our team."
+          secondaryHref="/plan-a-group-stay"
+          secondaryLabel="Rooms, beds and a sample schedule"
+        />
+      </div>
 
       {/* WHY AN OFFSITE: CHARTS */}
       <section className="mx-auto max-w-6xl px-6 py-20">
