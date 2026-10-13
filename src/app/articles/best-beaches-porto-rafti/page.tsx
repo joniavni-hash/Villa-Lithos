@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
+import PageCta from "@/components/PageCta";
 
 const TITLE = "The Best Beaches in Porto Rafti and Around: A 2026 Family Guide";
 const DESC = "A practical guide to the beaches of Porto Rafti and the East Attica coast, with sand vs pebble, wind exposure, family suitability, drive times from Villa Lithos, and Blue Flag status.";
@@ -185,7 +186,7 @@ export default function Page() {
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>A Beach 90 Seconds From the Front Door</h2>
         <p style={s.ctaText}>Villa Lithos Porto Rafti is 1.5 km from Avlaki Beach, the closest sheltered family beach in East Attica, and within 30 minutes of the eleven other beaches in this guide.</p>
-        <Link href="/#inquiry" style={s.cta}>Inquire About Summer 2026</Link>
+        <PageCta path="/articles/best-beaches-porto-rafti" style={s.cta} />
       </div>
 
       <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>

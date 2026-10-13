@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import PageCta from "@/components/PageCta";
 
 export const metadata: Metadata = {
   title: "Articles",
@@ -296,8 +297,8 @@ export default function ArticlesPage() {
 
         <div style={{ marginTop: 56, padding: "44px 32px", background: "#f8f6f1", borderRadius: 12, textAlign: "center" as const, maxWidth: 720, marginLeft: "auto", marginRight: "auto" }}>
           <h2 style={{ fontFamily: "var(--font-serif, Georgia, serif)", fontSize: "1.5rem", color: "#2c2c2c", marginBottom: 12, marginTop: 0 }}>Interested in Villa Lithos?</h2>
-          <p style={{ fontSize: "1.05rem", color: "#555", marginBottom: 24, maxWidth: 540, marginLeft: "auto", marginRight: "auto" }}>A private luxury villa in Porto Rafti, Greece with pool, sea views, and space for the whole family. Inquire about availability for summer 2026.</p>
-          <Link href="/#inquiry" style={{ display: "inline-block", padding: "14px 36px", background: "#8B9A6B", color: "#fff", borderRadius: 8, fontWeight: 600, fontSize: "1.08rem", textDecoration: "none", letterSpacing: 0.5 }}>Inquire Now</Link>
+          <p style={{ fontSize: "1.05rem", color: "#555", marginBottom: 24, maxWidth: 540, marginLeft: "auto", marginRight: "auto" }}>A private luxury villa in Porto Rafti, Greece with pool, sea views, and space for the whole family. Ask about availability for your dates.</p>
+          <PageCta path="/articles" style={{ display: "inline-block", padding: "14px 36px", background: "#8B9A6B", color: "#fff", borderRadius: 8, fontWeight: 600, fontSize: "1.08rem", textDecoration: "none", letterSpacing: 0.5 }} />
         </div>
       </div>
     </div>
