@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import PageCta from "@/components/PageCta";
 
 const TITLE = "Large Private Villa Near Athens | Villa Lithos";
 const H1 = "Large Private Villa Near Athens: Luxury Estate Rental for Groups at Villa Lithos";
@@ -186,7 +187,7 @@ export default function Article() {
         <p style={s.ctaText}>
           Whether planning an extended family reunion, an executive strategy summit, or a private wellness retreat, Villa Lithos offers unmatched space, security, and luxury within easy reach of Athens. Rates and minimum stay vary by season and are quoted on request. Inquire with your proposed group size and preferred dates to check availability.
         </p>
-        <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+        <PageCta path="/articles/luxury-villa-lithos-family-retreat" style={s.cta} />
       </div>
 
       <h2 style={s.h2}>Sources and Further Reading</h2>

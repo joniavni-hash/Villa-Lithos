@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import PageCta from "@/components/PageCta";
 
 export const metadata: Metadata = {
     title: { absolute: "Porto Rafti Family Holiday: Why This Hidden Gem Beats the Greek Islands" },
@@ -66,7 +67,7 @@ export default function Article() {
       <div style={s.ctaBox}>
             <h2 style={s.ctaHeading}>Ready to Experience Porto Rafti?</h2>
             <p style={s.ctaText}>Villa Lithos offers a luxurious family retreat just 20 minutes from Athens International Airport. Reach out to check availability for summer 2026.</p>
-            <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+            <PageCta path="/articles/porto-rafti-family-holiday-greece" style={s.cta} />
           </div>
           <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     

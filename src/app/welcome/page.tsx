@@ -45,7 +45,7 @@ export default function WelcomePage() {
           <span style={s.badge}>Summer 2026 Now Booking</span>
           <h1 style={s.h1}>Your Private Luxury Villa in Greece</h1>
           <p style={s.subtitle}>Villa Lithos in Porto Rafti: a stunning private retreat with pool, sea views, and space for the whole family, just 30 minutes from Athens.</p>
-          <Link href="/#contact" style={s.cta}>Check Availability</Link>
+          <Link href="/#inquiry" style={s.cta}>Check Availability</Link>
         </div>
       </section>
 
@@ -91,7 +91,7 @@ export default function WelcomePage() {
       <section style={s.finalCta}>
         <h2 style={s.finalTitle}>Ready to Book Your Greek Getaway?</h2>
         <p style={s.finalText}>Summer 2026 dates are filling up. Send us an inquiry and we will get back to you within 24 hours.</p>
-        <Link href="/#contact" style={s.cta}>Inquire Now</Link>
+        <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
       </section>
 
       {/* Minimal Footer */}

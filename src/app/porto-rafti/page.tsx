@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
+import PageCta from "@/components/PageCta";
 
 const TITLE = "Porto Rafti, Greece: 2026 Travel Guide | Villa Lithos";
 const H1 = "Porto Rafti, Greece: A Practical Travel Guide for 2026";
@@ -271,7 +272,7 @@ export default function Page() {
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>Stay at Villa Lithos Porto Rafti</h2>
         <p style={s.ctaText}>A private 9-bedroom estate above the bay, 20 minutes from Athens International Airport.</p>
-        <Link href="/#inquiry" style={s.cta}>Check Availability</Link>
+        <PageCta path="/porto-rafti" style={s.cta} />
       </div>
 
       <p style={s.updated}>
