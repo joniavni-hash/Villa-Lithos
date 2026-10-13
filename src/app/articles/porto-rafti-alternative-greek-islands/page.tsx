@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
+import PageCta from "@/components/PageCta";
 
 export const metadata: Metadata = {
   title: { absolute: "Porto Rafti: The Perfect Alternative to the Greek Islands" },
@@ -255,9 +256,7 @@ export default function PortoRaftiAlternativeGreekIslands() {
           A luxury 9-bedroom villa for up to 22 guests, just minutes from the
           beach and 20 minutes from Athens airport.
         </p>
-        <Link
-          href="/#inquiry"
-          style={{
+        <PageCta path="/articles/porto-rafti-alternative-greek-islands" style={{
             display: "inline-block",
             background: "#7a8c6e",
             color: "#fff",
@@ -266,10 +265,7 @@ export default function PortoRaftiAlternativeGreekIslands() {
             textDecoration: "none",
             fontWeight: 600,
             fontSize: 15,
-          }}
-        >
-          Explore Villa Lithos
-        </Link>
+          }} />
       </div>
     
       <h2 style={{ fontFamily: "var(--font-serif), 'DM Serif Display', serif", fontSize: "1.6rem", color: "#2c2c2c", marginTop: 48, marginBottom: 12 }}>Sources and Further Reading</h2>

@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import PageCta from "@/components/PageCta";
 
 export const metadata: Metadata = {
   title: {
@@ -136,7 +137,7 @@ export default function Article() {
       <div style={s.ctaBox}>
           <h2 style={s.ctaHeading}>Villa vs Hotel? Experience the Difference</h2>
           <p style={s.ctaText}>Discover why families choose Villa Lithos over traditional hotels. Inquire about availability for your Greece holiday.</p>
-          <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+          <PageCta path="/articles/private-villa-greece-vs-hotel" style={s.cta} />
         </div>
         <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     

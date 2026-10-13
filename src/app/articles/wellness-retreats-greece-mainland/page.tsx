@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
+import PageCta from "@/components/PageCta";
 
 const TITLE = "Fitness & Wellness Retreat Venue in Greece | Villa Lithos";
 const H1 = "Fitness and Wellness Retreats in Greece: A Practical Guide to Mainland Venues";
@@ -378,7 +379,7 @@ export default function Page() {
         ))}
       </div>
       <p style={s.p}>
-        <Link href="/#inquiry" style={s.cta}>Inquire for Retreat Facilitators &amp; Equipment Specs</Link>
+        <PageCta path="/articles/wellness-retreats-greece-mainland" style={s.cta} align="left" whatsappLabel="Ask for the facilitator and equipment specs" whatsappText="Hi, I'm organizing a retreat and would like the facilitator and equipment specs for Villa Lithos." />
       </p>
 
       <h2 style={s.h2}>Questions Retreat Organisers Ask</h2>
@@ -403,7 +404,7 @@ export default function Page() {
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>A Fitness and Wellness Retreat Venue for Up to 22 Guests</h2>
         <p style={s.ctaText}>Heated infinity pool, outdoor sauna, private gym, floodlit padel court, designer kitchen, two living rooms, 20 minutes from Athens airport. Concierge arranges trainers, yoga, breathwork, massage, and chef catering tailored to your group. See the <Link href="/wellness-retreat-villa-greece" style={{ color: "#7a8c6e" }}>wellness retreat villa</Link> page, or the <Link href="/corporate-retreats" style={{ color: "#7a8c6e" }}>corporate retreat venue</Link> page for team offsites.</p>
-        <Link href="/#inquiry" style={s.cta}>Inquire About a Retreat</Link>
+        <PageCta path="/articles/wellness-retreats-greece-mainland" style={s.cta} whatsappLabel="Ask about a retreat on WhatsApp" whatsappText="Hi, I'm organizing a retreat and would like to ask about availability at Villa Lithos." />
       </div>
 
       <p style={s.updated}>Last updated: 12 October 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>

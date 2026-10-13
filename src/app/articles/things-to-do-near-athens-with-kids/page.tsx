@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
+import PageCta from "@/components/PageCta";
 
 export const metadata: Metadata = {
     title: { absolute: "Best Things to Do Near Athens with Kids: Summer 2026 Guide" },
@@ -72,7 +73,7 @@ export default function Article() {
       <div style={s.ctaBox}>
           <h2 style={s.ctaHeading}>Planning a Family Trip Near Athens?</h2>
           <p style={s.ctaText}>Villa Lithos is the perfect base for exploring Porto Rafti and the Athens Riviera with kids. Inquire about summer 2026 availability.</p>
-          <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+          <PageCta path="/articles/things-to-do-near-athens-with-kids" style={s.cta} />
         </div>
         <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     
