@@ -35,6 +35,10 @@ import {
 } from "lucide-react";
 import { WINTER_STATS } from "@/app/lib/season";
 import StayWithUs from "@/components/StayWithUs";
+import RetreatCtaBand from "@/components/retreats/RetreatCtaBand";
+import RetreatWhatsAppFloat from "@/components/retreats/RetreatWhatsAppFloat";
+import ProposalBuilder from "@/components/retreats/ProposalBuilder";
+import { RETREAT_CTA_CSS, waLink, WhatsAppIcon } from "@/components/retreats/contact";
 
 const TITLE = "Corporate Retreat Venue Near Athens | Villa Lithos";
 const H1 = "A corporate retreat venue near Athens, 20 minutes from the airport.";
@@ -258,6 +262,8 @@ export default function Page() {
         .cr .mt-1{margin-top:.25rem}.cr .mt-2{margin-top:.5rem}.cr .mt-3{margin-top:.75rem}.cr .mt-4{margin-top:1rem}.cr .mt-5{margin-top:1.25rem}.cr .mt-6{margin-top:1.5rem}.cr .mt-8{margin-top:2rem}.cr .mt-10{margin-top:2.5rem}.cr .mb-4{margin-bottom:1rem}.cr .mt-0\\.5{margin-top:.125rem}
         .cr .cr-white{color:#fff}.cr .cr-white85{color:rgba(255,255,255,.85)}.cr .cr-white70{color:rgba(255,255,255,.7)}
         .cr details>summary::-webkit-details-marker{display:none}
+        .cr #proposal{scroll-margin-top:90px}
+        ${RETREAT_CTA_CSS}
       `}</style>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
@@ -283,14 +289,18 @@ export default function Page() {
           <p className="mt-5 max-w-2xl text-lg cr-white85 md:text-xl">
             A private 9-bedroom estate on the coast of Attica, Greece. Leadership offsites and company retreats for 10 to 22 people, weekday blocks from October to May.
           </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="/#inquiry" className="inline-flex items-center gap-2 rounded-md px-6 py-3.5 text-base font-semibold cr-white" style={{ background: SAGE }}>
+          <div className="mt-8 flex flex-wrap gap-3" data-lead-block="retreats-hero">
+            <a href={waLink("Hi, I'm planning a company retreat and would like to talk about Villa Lithos for our team.")} target="_blank" rel="noopener noreferrer" className="rc-wa">
+              <WhatsAppIcon /> Talk to us on WhatsApp
+            </a>
+            <a href="#proposal" className="inline-flex items-center gap-2 rounded-full px-6 text-base font-semibold cr-white" style={{ background: SAGE, minHeight: 52 }}>
               Request a proposal <ArrowRight size={18} />
-            </Link>
-            <a href="#rooming" className="inline-flex items-center rounded-md border border-white/60 px-6 py-3.5 text-base font-semibold cr-white backdrop-blur-sm">
+            </a>
+            <a href="#rooming" className="inline-flex items-center rounded-full border border-white/60 px-6 text-base font-semibold cr-white backdrop-blur-sm" style={{ minHeight: 52 }}>
               See the rooming plans
             </a>
           </div>
+          <p className="mt-4 text-sm cr-white70">The team replies on WhatsApp, usually within minutes during business hours.</p>
         </div>
       </section>
 
@@ -432,6 +442,16 @@ export default function Page() {
               ))}
             </dl>
             <p className="mt-4 text-sm" style={{ color: "#6B7280" }}>Extra screens, whiteboards, printing, a facilitator: tell the concierge team what the sessions need and it is set up before you land.</p>
+            <a
+              href={waLink("Hi, we're planning an offsite at Villa Lithos. This is what our sessions need: ")}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-flex items-center gap-2 text-base font-semibold"
+              style={{ color: "#128C4A" }}
+              data-lead-block="retreats-spaces"
+            >
+              <WhatsAppIcon size={18} /> Tell us what the sessions need <ArrowRight size={16} />
+            </a>
           </div>
         </div>
       </section>
@@ -451,6 +471,15 @@ export default function Page() {
               <p className="mt-3 text-sm" style={{ color: "#3D4A5C" }}>{text}</p>
             </div>
           ))}
+        </div>
+        <div className="mt-8">
+          <RetreatCtaBand
+            block="retreats-band-rooming"
+            title="How many are coming?"
+            text="Send your headcount and how many need a private room. We come back with a rooming plan for your team."
+            whatsappText="Hi, we're planning a company offsite at Villa Lithos and would like a rooming plan. Headcount: "
+            whatsappLabel="Get a rooming plan"
+          />
         </div>
       </section>
 
@@ -548,6 +577,16 @@ export default function Page() {
           <p className="mt-6 text-base" style={{ color: "#4a4a4a" }}>
             For an evening out, most Porto Rafti tavernas seat 10 to 14 at one table and need 24 to 48 hours&apos; notice to set up for a larger group; the concierge team books ahead. More on the local food in our guide to <Link href="/articles/eating-in-porto-rafti" style={{ color: SAGE }}>eating in Porto Rafti</Link>.
           </p>
+          <div className="mt-10">
+            <RetreatCtaBand
+              block="retreats-band-catering"
+              tone="light"
+              title="Pick a board level, get it priced."
+              text="Catering is quoted with the retreat proposal, by team size, board level and menu. Tell us what you have in mind."
+              whatsappText="Hi, we'd like a catering quote for a company retreat at Villa Lithos. Board level: "
+              whatsappLabel="Ask for a catering quote"
+            />
+          </div>
         </div>
       </section>
 
@@ -626,6 +665,16 @@ export default function Page() {
               </tbody>
             </table>
           </div>
+          <div className="mt-10">
+            <RetreatCtaBand
+              block="retreats-band-compare"
+              tone="dark"
+              title="Have dates in mind?"
+              text="Weekday blocks from October to May are the natural fit. Ask which dates are open for your team."
+              whatsappText="Hi, we're comparing offsite venues and would like to check which weekday dates are open at Villa Lithos. Our dates: "
+              whatsappLabel="Check our dates"
+            />
+          </div>
         </div>
       </section>
 
@@ -643,18 +692,24 @@ export default function Page() {
             </details>
           ))}
         </div>
+        <div className="mt-8 flex flex-wrap items-center gap-4" data-lead-block="retreats-faq">
+          <span className="text-base" style={{ color: "#3D4A5C" }}>Question not on the list?</span>
+          <a href={waLink("Hi, I have a question about holding a company retreat at Villa Lithos: ")} target="_blank" rel="noopener noreferrer" className="rc-wa">
+            <WhatsAppIcon /> Ask us on WhatsApp
+          </a>
+        </div>
       </section>
 
       {/* CTA */}
-      <section className="relative overflow-hidden">
+      <section id="proposal" className="relative overflow-hidden">
         <Image src={img("Exterior & Pool (12).jpg")} alt="Villa Lithos and the pool under the evening sky" fill sizes="100vw" quality={70} className="object-cover" />
-        <div className="absolute inset-0" style={{ background: "rgba(10,16,24,0.7)" }} />
+        <div className="absolute inset-0" style={{ background: "rgba(10,16,24,0.74)" }} />
         <div className="relative mx-auto max-w-3xl px-6 py-24 text-center cr-white">
           <h2 className="text-3xl md:text-5xl" style={{ fontFamily: "var(--font-serif), serif" }}>Request a retreat proposal</h2>
-          <p className="mx-auto mt-4 max-w-xl text-lg cr-white85">Send your dates, team size and what the retreat needs to achieve. You get availability, a rooming plan and a proposal for meals, transfers and activities.</p>
-          <Link href="/#inquiry" className="mt-8 inline-flex items-center gap-2 rounded-md px-8 py-4 text-base font-semibold cr-white" style={{ background: SAGE }}>
-            Request a proposal <ArrowRight size={18} />
-          </Link>
+          <p className="mx-auto mt-4 max-w-xl text-lg cr-white85">Tap your team size, month, nights and catering. Send it on WhatsApp or by email and get availability, a rooming plan and a proposal for meals, transfers and activities.</p>
+          <div className="mt-10">
+            <ProposalBuilder />
+          </div>
         </div>
       </section>
 
@@ -665,6 +720,8 @@ export default function Page() {
           {" "}Related: <Link href="/villas-near-athens-airport" style={{ color: SAGE }}>Large private villa near Athens airport</Link> · <Link href="/large-family-villa-greece" style={{ color: SAGE }}>Villas in Greece for groups of 20</Link> · <Link href="/articles/wellness-retreats-greece-mainland" style={{ color: SAGE }}>Fitness retreat venue in Greece</Link> · <Link href="/plan-a-group-stay" style={{ color: SAGE }}>Plan a group stay: rooms, beds and a sample schedule</Link>
         </p>
       </section>
+
+      <RetreatWhatsAppFloat />
     </main>
   );
 }
