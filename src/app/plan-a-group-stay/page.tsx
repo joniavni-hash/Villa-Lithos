@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "Plan a Group Stay for 10 to 22 in Greece: Rooms, Beds and a Sample Schedule | Villa Lithos";
 const H1 = "Planning a Group Stay in Greece for 10 to 22 People: Rooms, Beds and a Sample Schedule";
@@ -191,6 +192,15 @@ export default function Page() {
       <p style={s.intro}>
         Organising a trip for a big family, a group of friends or a retreat comes down to a few questions that most villa listings never answer: exactly who sleeps where, which rooms have their own bathroom, where the children go, where the teacher or the grandparents get some quiet, and what a day actually looks like. This page answers them for <strong>Villa Lithos Porto Rafti</strong>, a privately owned 9-bedroom estate for up to 22 guests, 20 minutes from Athens International Airport.
       </p>
+
+      <StayWithUs
+        source="group-plan"
+        kicker="Already have your dates?"
+        lead="If your group is sized and the dates are set, skip the planning detail and ask about availability now."
+        whatsappText="Hi, I'm planning a group stay for about 10 to 22 people and would like to ask about availability at Villa Lithos."
+        secondaryHref="/corporate-retreats"
+        secondaryLabel="Planning a company offsite instead?"
+      />
 
       <nav style={s.toc} aria-label="Contents">
         <strong>On this page</strong>
