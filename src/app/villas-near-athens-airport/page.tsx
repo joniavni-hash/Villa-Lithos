@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "Large Private Villa Near Athens Airport | Villa Lithos";
 const H1 = "Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto Rafti";
@@ -77,6 +78,15 @@ export default function Page() {
       <p style={s.intro}>
         Most luxury villa rentals near Athens advertise themselves as "close to the airport". The actual drive times vary widely. <strong>Villa Lithos Porto Rafti</strong> is a luxury family villa near Athens airport and a large private villa for groups of up to 22: it sits 16 km from Athens International Airport and the typical drive is 20 minutes, with no ferry and no domestic flight. This page compares the realistic options for travellers who want to land, drive a short distance, and be at the beach the same hour.
       </p>
+
+      <StayWithUs
+        source="airport-intro"
+        kicker="Landing in Athens with a group?"
+        lead="If a 20-minute transfer from the airport is what you are after, ask about your dates before you compare further."
+        whatsappText="Hi, I'm reading your villas near Athens airport page and would like to ask about availability at Villa Lithos for our group."
+        secondaryHref="/plan-a-group-stay"
+        secondaryLabel="Rooms, beds and a sample schedule"
+      />
 
       <h2 style={s.h2}>Why Airport Proximity Matters for a Greek Holiday</h2>
       <p style={s.p}>
