@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
+import PageCta from "@/components/PageCta";
 
 const TITLE = "The Best Large Family Villas in Greece for Groups of 20";
 const DESC = "A practical comparison of large luxury villas in Greece that comfortably host 18 to 22 guests. Capacity, price band, location, and amenity highlights for multi-generational trips, milestone celebrations, and corporate retreats.";
@@ -199,7 +200,7 @@ export default function Page() {
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>Plan a Group Stay at Villa Lithos Porto Rafti</h2>
         <p style={s.ctaText}>9 bedrooms, 22-guest capacity, private elevator, two living rooms, and the shortest airport transfer of any large Greek villa.</p>
-        <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+        <PageCta path="/large-family-villa-greece" style={s.cta} />
       </div>
 
       <p style={s.updated}>Last updated: 12 October 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>

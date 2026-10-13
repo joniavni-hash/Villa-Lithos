@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
+import PageCta from "@/components/PageCta";
 
 const TITLE = "Luxury Villa Rental Porto Rafti | Large Private Estate Near Athens";
 const H1 = "Luxury Villa Rental in Porto Rafti, Greece: A 9-Bedroom Private Estate Near Athens";
@@ -212,7 +213,7 @@ export default function Page() {
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>Plan Your Stay at Villa Lithos Porto Rafti</h2>
         <p style={s.ctaText}>A 9-bedroom luxury estate, 20 minutes from Athens International Airport, with infinity pool, padel court, and elevator. Inquire about availability for your dates.</p>
-        <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+        <PageCta path="/luxury-villa-porto-rafti" style={s.cta} />
       </div>
 
       <p style={s.updated}>Last updated: 29 September 2026. Sources: <a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener">Wikipedia, Porto Rafti</a>, <a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Athens International Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, <a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener">Hellenic Statistical Authority</a>, <a href="https://skift.com/" target="_blank" rel="nofollow noopener">Skift</a>, <a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener">Phocuswright</a>.</p>

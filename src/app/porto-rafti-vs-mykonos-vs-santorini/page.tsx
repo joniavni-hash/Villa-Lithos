@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import PageCta from "@/components/PageCta";
 
 const TITLE = "Porto Rafti vs Mykonos vs Santorini: A 2026 Comparison for Families";
 const DESC = "An honest 2026 comparison of three Greek destinations for family holidays, by airport access, beach safety, peak-season crowding, accommodation cost, and day-trip range. Includes data sources and use-case recommendations.";
@@ -201,7 +202,7 @@ export default function Page() {
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>Stay at Villa Lithos Porto Rafti</h2>
         <p style={s.ctaText}>A 9-bedroom luxury estate, 20 minutes from Athens International Airport. The mainland alternative to Mykonos and Santorini, with day-trip range to the Acropolis.</p>
-        <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+        <PageCta path="/porto-rafti-vs-mykonos-vs-santorini" style={s.cta} />
       </div>
 
       <p style={s.updated}>Last updated: 22 September 2026. Sources: <a href="https://en.wikipedia.org/wiki/Mykonos" target="_blank" rel="nofollow noopener">Wikipedia, Mykonos</a>, <a href="https://en.wikipedia.org/wiki/Santorini" target="_blank" rel="nofollow noopener">Wikipedia, Santorini</a>, <a href="https://en.wikipedia.org/wiki/Mykonos_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Mykonos Airport</a>, <a href="https://en.wikipedia.org/wiki/Santorini_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Santorini Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, public rental rates on Booking.com and Airbnb.</p>
