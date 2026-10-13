@@ -10,7 +10,6 @@ import ConciergeGrid from "@/components/home/ConciergeGrid";
 import Testimonials from "@/components/Testimonials";
 import JournalTeaser from "@/components/home/JournalTeaser";
 import FinalCta from "@/components/home/FinalCta";
-import StickyActions from "@/components/home/StickyActions";
 import Reveal from "@/components/home/Reveal";
 import { getPageData } from "@/app/lib/tina";
 import { defaultOpenGraph, defaultTwitter } from "@/app/lib/seo";
@@ -104,7 +103,6 @@ export default async function HomePage() {
         </div>
       </div>
 
-      <StickyActions />
     </main>
   );
 }

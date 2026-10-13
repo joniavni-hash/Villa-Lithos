@@ -1,25 +1,40 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { whatsappHref, whatsappTextForPath } from "@/app/lib/whatsapp";
 
-const WHATSAPP_URL = `https://wa.me/306932757142?text=${encodeURIComponent(
-  "Hi, I'd like to check availability at Villa Lithos."
-)}`;
+const PAGES_WITH_OWN_PILL = new Set(["/corporate-retreats"]);
+const BOOKING_URL = "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72";
 
-/** Floating WhatsApp pill (all sizes) + sticky bottom bar (mobile), both appear after the hero. */
+/**
+ * Floating WhatsApp pill (desktop) + sticky bottom bar with WhatsApp and
+ * direct booking (mobile and tablet). Rendered from the root layout on every
+ * public page; appears once the visitor has scrolled past the opening.
+ * The pre-filled message names the page the visitor was reading.
+ */
 export default function StickyActions() {
+  const pathname = usePathname();
   const [on, setOn] = useState(false);
+  const isHome = pathname === "/";
+
   useEffect(() => {
-    const onScroll = () => setOn(window.scrollY > window.innerHeight * 0.7);
+    const onScroll = () => setOn(window.scrollY > (isHome ? window.innerHeight * 0.7 : 240));
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [isHome]);
+
+  if (pathname?.startsWith("/admin")) return null;
+  // Pages that render their own floating WhatsApp button (corporate retreats) keep it.
+  if (PAGES_WITH_OWN_PILL.has(pathname || "")) return null;
+
+  const wa = whatsappHref(whatsappTextForPath(pathname));
 
   return (
     <>
       <a
-        href={WHATSAPP_URL}
+        href={wa}
         target="_blank"
         rel="noopener noreferrer"
         className={`vl-wa ${on ? "is-in" : ""}`}
@@ -32,7 +47,8 @@ export default function StickyActions() {
         <span>WhatsApp</span>
       </a>
       <div className={`vl-sticky ${on ? "is-in" : ""}`} aria-hidden={!on} data-lead-block="sticky-bar">
-        <a href="https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72" target="_blank" rel="noopener noreferrer" className="vl-btn">Check availability</a>
+        <a href={wa} target="_blank" rel="noopener noreferrer" className="vl-btn">WhatsApp</a>
+        <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="vl-btn vl-btn--ghost">Check availability</a>
       </div>
     </>
   );
