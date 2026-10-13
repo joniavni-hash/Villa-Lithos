@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
+import PageCta from "@/components/PageCta";
 
 const TITLE = "Porto Rafti Restaurants: Where Our Team Eats, and a Local Food Guide";
 const DESC = "Six places in Porto Rafti our team actually eats at, from a seafront fish taverna on Avlaki to Epirote small plates and the town's best pastry shop, plus markets, Attic wine and private chefs for villa dinners.";
@@ -253,7 +254,7 @@ export default function Page() {
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>Eat the Real Greece, Five Minutes From the Villa</h2>
         <p style={s.ctaText}>Villa Lithos Porto Rafti is within walking distance of the harbour tavernas, and the concierge team can arrange a private chef or curate a tasting menu of regional Attic wines for any night of your stay.</p>
-        <Link href="/#inquiry" style={s.cta}>Check Availability</Link>
+        <PageCta path="/articles/eating-in-porto-rafti" style={s.cta} />
       </div>
 
       <p style={s.updated}>Last updated: 8 October 2026 (team restaurant shortlist and FAQ added; first published 11 May 2026). All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>

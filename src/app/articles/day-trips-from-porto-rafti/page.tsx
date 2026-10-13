@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
+import PageCta from "@/components/PageCta";
 
 const TITLE = "Day Trips from Porto Rafti and Rafina Port: A Practical Attica Guide";
 const DESC = "Five practical day trips from Porto Rafti and Rafina port: Athens, Cape Sounion, Brauron, Marathon and the Cycladic ferries, with drive times, ticket prices, opening hours and crowd-avoidance tips.";
@@ -191,7 +192,7 @@ export default function Page() {
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>A Base for the Definitive Greek Week</h2>
         <p style={s.ctaText}>Villa Lithos Porto Rafti is the only large luxury villa in Attica within 60 minutes of the Acropolis, Sounion, Marathon, Brauron, and Rafina ferries. Inquire for summer 2026.</p>
-        <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+        <PageCta path="/articles/day-trips-from-porto-rafti" style={s.cta} />
       </div>
 
       <p style={s.updated}>Last updated: 11 May 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
