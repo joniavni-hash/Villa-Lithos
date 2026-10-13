@@ -224,7 +224,7 @@ main {
 .vl-header__nav {
   display: none;
   align-items: center;
-  gap: 34px;
+  gap: 30px;
 }
 
 .vl-header__link {
@@ -264,6 +264,24 @@ main {
 .vl-header--inner .vl-header__cta:hover { background: var(--vl-sage); border-color: var(--vl-sage); }
 .vl-header:not(.vl-header--solid):not(.vl-header--inner) .vl-header__cta:hover { background: var(--vl-cream); color: var(--vl-charcoal); border-color: var(--vl-cream); }
 
+.vl-header__wa {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  margin-right: 14px;
+  font-family: var(--font-label), "Jura", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.88;
+}
+.vl-header__wa svg { width: 22px; height: 22px; }
+.vl-header__wa span { display: none; }
+.vl-header__wa:hover { opacity: 1; }
+
 .vl-header__burger {
   display: inline-flex;
   flex-direction: column;
@@ -284,6 +302,7 @@ main {
 @media (min-width: 1024px) {
   .vl-header__nav { display: flex; }
   .vl-header__cta { display: inline-flex; }
+  .vl-header__wa { display: inline-flex; }
   .vl-header__burger { display: none; }
 }
 
@@ -798,10 +817,9 @@ main {
 .vl-wa.is-in { opacity: 1; transform: none; pointer-events: auto; }
 .vl-wa:hover { background: var(--vl-sage); }
 .vl-wa svg { width: 20px; height: 20px; }
-@media (max-width: 600px) {
-  .vl-wa { bottom: 76px; right: 16px; }
-  .vl-wa span { display: none; }
-  .vl-wa { padding: 0; width: 52px; justify-content: center; }
+/* Below 1024px the sticky bar carries WhatsApp, so the pill stays hidden. */
+@media (max-width: 1023px) {
+  .vl-wa { display: none; }
 }
 
 /* Mobile sticky bar */
@@ -810,7 +828,8 @@ main {
   left: 0; right: 0; bottom: 0;
   z-index: 55;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
   padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
   background: rgba(244, 240, 232, 0.94);
   backdrop-filter: blur(12px);
@@ -820,7 +839,7 @@ main {
   transition: transform 0.5s var(--vl-ease);
 }
 .vl-sticky.is-in { transform: none; }
-.vl-sticky .vl-btn { width: 100%; min-height: 48px; }
+.vl-sticky .vl-btn { width: 100%; min-height: 48px; padding: 0 12px; white-space: nowrap; }
 @media (min-width: 1024px) { .vl-sticky { display: none; } }
 
 /* Legacy cleanup for inner pages: consistent H1/H2 */
