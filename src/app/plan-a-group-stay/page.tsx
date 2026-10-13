@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import PageCta from "@/components/PageCta";
 
 const TITLE = "Plan a Group Stay for 10 to 22 in Greece: Rooms, Beds and a Sample Schedule | Villa Lithos";
 const H1 = "Planning a Group Stay in Greece for 10 to 22 People: Rooms, Beds and a Sample Schedule";
@@ -302,7 +303,7 @@ export default function Page() {
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>Request a Group Proposal</h2>
         <p style={s.ctaText}>Send the group size, dates and what you need. The concierge team replies with a proposal and a rooming plan.</p>
-        <Link href="/#inquiry" style={s.cta}>Plan Your Group Stay</Link>
+        <PageCta path="/plan-a-group-stay" style={s.cta} whatsappText="Hi, I'm planning a group stay for about 10 to 22 people and would like to ask about availability at Villa Lithos." />
       </div>
 
       <p style={s.updated}>

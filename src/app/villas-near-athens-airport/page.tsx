@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
+import PageCta from "@/components/PageCta";
 
 const TITLE = "Large Private Villa Near Athens Airport | Villa Lithos";
 const H1 = "Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto Rafti";
@@ -165,7 +166,7 @@ export default function Page() {
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>Plan Your Stay at Villa Lithos Porto Rafti</h2>
         <p style={s.ctaText}>The closest large luxury villa to Athens International Airport, just 16 km and a 20-minute drive. Inquire for availability.</p>
-        <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
+        <PageCta path="/villas-near-athens-airport" style={s.cta} />
       </div>
 
       <p style={s.updated}>Last updated: 29 September 2026. Sources: <a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Athens International Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.plumguide.com/d/gr-athens/villas" target="_blank" rel="nofollow noopener">Plum Guide Athens</a>.</p>
