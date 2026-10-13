@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "Luxury Villa Rental Porto Rafti | Large Private Estate Near Athens";
 const H1 = "Luxury Villa Rental in Porto Rafti, Greece: A 9-Bedroom Private Estate Near Athens";
@@ -77,6 +78,15 @@ export default function Page() {
       <p style={s.intro}>
         <strong>Villa Lithos Porto Rafti</strong> is a 9-bedroom, 800 m² luxury villa rental on a 5,000 m² private estate in Porto Rafti, Attica, Greece, located 16 km from Athens International Airport (a 20-minute drive). The property sleeps 22 guests across nine bedrooms and 8.5 bathrooms, with a heated infinity pool, outdoor sauna, jacuzzi, padel court, private gym, and elevator. It is the largest private villa near Athens available for whole-estate rental in the Porto Rafti area, bookable on Booking.com, Airbnb, and direct, and it doubles as a <Link href="/articles/wellness-retreats-greece-mainland" style={{ color: "#7a8c6e" }}>fitness and wellness retreat venue</Link> and a <Link href="/corporate-retreats" style={{ color: "#7a8c6e" }}>corporate retreat venue near Athens</Link>.
       </p>
+
+      <StayWithUs
+        source="villa-guide-intro"
+        kicker="Ready to ask about dates?"
+        lead="If you already know your group size and travel dates, skip the guide and ask directly."
+        whatsappText="Hi, I'm reading your Porto Rafti villa guide and would like to ask about availability at Villa Lithos for our group."
+        secondaryHref="/plan-a-group-stay"
+        secondaryLabel="Rooms, beds and a sample schedule"
+      />
 
       <h2 style={s.h2}>Where Is Porto Rafti?</h2>
       <p style={s.p}>
@@ -201,7 +211,7 @@ export default function Page() {
 
       <div style={s.ctaBox}>
         <h2 style={s.ctaHeading}>Plan Your Stay at Villa Lithos Porto Rafti</h2>
-        <p style={s.ctaText}>A 9-bedroom luxury estate, 20 minutes from Athens International Airport, with infinity pool, padel court, and elevator. Inquire about summer 2026 availability.</p>
+        <p style={s.ctaText}>A 9-bedroom luxury estate, 20 minutes from Athens International Airport, with infinity pool, padel court, and elevator. Inquire about availability for your dates.</p>
         <Link href="/#inquiry" style={s.cta}>Inquire Now</Link>
       </div>
 
