@@ -91,7 +91,24 @@ export default function LeadTracker() {
       if (typeof w.gtag === "function") w.gtag("event", "generate_lead", params);
       if (Array.isArray(w.dataLayer)) w.dataLayer.push({ event: "lead_click", ...params });
       // First-party counter (/api/lead): counts every visitor, with or without cookie consent.
+      // One row per visitor per channel in a 10-minute window, so repeated clicks on
+      // the same booking or WhatsApp button count as one inquiry. GA4 and GTM above
+      // still receive every click.
       try {
+        const key = `vl_lead_${channel}`;
+        const now = Date.now();
+        let last = 0;
+        try {
+          last = Number(window.sessionStorage.getItem(key)) || 0;
+        } catch {
+          last = 0;
+        }
+        if (now - last < 10 * 60 * 1000) return;
+        try {
+          window.sessionStorage.setItem(key, String(now));
+        } catch {
+          // storage unavailable: count the click
+        }
         const payload = JSON.stringify({ channel, block, page: window.location.pathname });
         const sent = navigator.sendBeacon?.("/api/lead", new Blob([payload], { type: "application/json" }));
         if (!sent) fetch("/api/lead", { method: "POST", body: payload, keepalive: true }).catch(() => {});
