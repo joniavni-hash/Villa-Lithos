@@ -7,7 +7,7 @@ const TITLE = "The Best Large Family Villas in Greece for Groups of 20";
 const DESC = "A practical comparison of large luxury villas in Greece that comfortably host 18 to 22 guests. Capacity, price band, location, and amenity highlights for multi-generational trips, milestone celebrations, and corporate retreats.";
 const URL = "https://www.villalithos.com/large-family-villa-greece";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-10-12";
+const MODIFIED = "2026-10-14";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -26,6 +26,45 @@ export const metadata: Metadata = {
   openGraph: { type: "article", title: TITLE, description: DESC, url: URL },
   twitter: { card: "summary_large_image", title: TITLE, description: DESC },
   alternates: { canonical: URL },
+};
+
+const WHATSAPP_FAQ = `https://wa.me/306932757142?text=${encodeURIComponent(
+  "Hi, I'm organising a group of about 20 and read your questions for group organisers. I'd like to ask about dates at Villa Lithos."
+)}`;
+
+// Questions group organisers ask about Villa Lithos. Every answer repeats facts
+// already on the live site (plan-a-group-stay, corporate-retreats, llms.txt).
+const FAQ = [
+  {
+    q: "How many guests can stay at Villa Lithos?",
+    a: "Up to 22 guests across nine bedrooms and 8.5 bathrooms. Eighteen sleep in proper beds in the nine bedrooms; the two attic lofts and the apartment lounge take the group to 22. The room-by-room list is on the group-stay planning page.",
+  },
+  {
+    q: "How many people can have a private room?",
+    a: "Eight to nine, one per bedroom. Larger groups share rooms, couples and families together. Four sample rooming splits are on the group-stay planning page.",
+  },
+  {
+    q: "How far is the villa from Athens airport?",
+    a: "16 km, about 20 minutes by car from Athens International Airport, with no ferry and no domestic flight. Guests arriving on different flights can still be at the villa within the same hour.",
+  },
+  {
+    q: "Is the villa suitable for grandparents and small children?",
+    a: "Yes. A private elevator connects all four floors, and the nearest beach, Avlaki, is about 3 minutes away by car. The estate is walled and gated, and used by one group at a time.",
+  },
+  {
+    q: "Can a chef cook for the whole group?",
+    a: "Yes. The concierge arranges a private chef for dinners only, half board or full board, and kosher and other dietary requirements on request. The dining table seats the full party, and catering is quoted separately.",
+  },
+  {
+    q: "How do we check dates and rates?",
+    a: "Send your dates and group size on WhatsApp or through the inquiry form. Rates are quoted by week and season and are not published on the site. Check-in is from 15:00 and check-out by 10:00; pets and indoor smoking are not allowed.",
+  },
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
 };
 
 const jsonLd = {
@@ -62,12 +101,17 @@ const s = {
   ctaText: { fontSize: "1.05rem", color: "#555", marginBottom: 24 } as React.CSSProperties,
   back: { display: "inline-block", marginTop: 32, color: "#7a8c6e", textDecoration: "none", fontSize: "0.97rem" } as React.CSSProperties,
   updated: { fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" } as React.CSSProperties,
+  faqItem: { borderBottom: "1px solid #e8e3d3", padding: "14px 0" } as React.CSSProperties,
+  faqQ: { fontWeight: 600, fontSize: "1.05rem", cursor: "pointer" } as React.CSSProperties,
+  faqA: { marginTop: 8, fontSize: "1.02rem", color: "#444" } as React.CSSProperties,
+  faqCta: { display: "inline-block", background: "#7a8c6e", color: "#fff", padding: "11px 24px", borderRadius: 6, textDecoration: "none", fontWeight: 600, fontSize: "0.98rem", marginTop: 18 } as React.CSSProperties,
 };
 
 export default function Page() {
   return (
     <article style={s.article}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       <h1 style={s.h1}>{TITLE}</h1>
       <span style={s.meta}>Last updated: October 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
@@ -188,6 +232,17 @@ export default function Page() {
         For multi-generational families, the elevator and ground-floor suites matter. For corporate retreats, the two living rooms, the workspace, and the meeting-friendly outdoor areas matter. For milestone celebrations, the dining capacity and the concierge team that can arrange private chefs, musicians, and themed experiences matter. Each of these features was a deliberate design choice for the property, not a happy accident.
       </p>
 
+      <section data-lead-block="faq-large-family">
+        <h2 id="faq" style={s.h2}>Questions Group Organisers Ask About Villa Lithos</h2>
+        {FAQ.map((f) => (
+          <details key={f.q} style={s.faqItem}>
+            <summary style={s.faqQ}>{f.q}</summary>
+            <p style={s.faqA}>{f.a}</p>
+          </details>
+        ))}
+        <a href={WHATSAPP_FAQ} target="_blank" rel="noopener" style={s.faqCta}>Ask about your dates on WhatsApp</a>
+      </section>
+
       <h2 style={s.h2}>Related Reading</h2>
       <ul style={s.ul}>
         <li style={s.li}><Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>Luxury Villa Rental in Porto Rafti, A 9-Bedroom Private Estate Near Athens</Link></li>
@@ -203,7 +258,7 @@ export default function Page() {
         <PageCta path="/large-family-villa-greece" style={s.cta} />
       </div>
 
-      <p style={s.updated}>Last updated: 12 October 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>
+      <p style={s.updated}>Last updated: 14 October 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>
 
       <Link href="/" style={s.back}>&larr; Back to Villa Lithos home</Link>
     </article>
