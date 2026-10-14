@@ -271,7 +271,8 @@ export default function Page() {
       </div>
       <p style={{ ...s.sub, marginTop: 18 }}>
         Who sleeps where, room by room, is on the <Link href="/plan-a-group-stay" style={s.link}>group-stay planning page</Link>. For team
-        offsites see the <Link href="/corporate-retreats" style={s.link}>corporate retreat venue</Link> page.
+        offsites see the <Link href="/corporate-retreats" style={s.link}>corporate retreat venue</Link> page. Groups built around the
+        court have their own page: <Link href="/padel-villa-athens" style={s.link}>private padel villa near Athens</Link>.
       </p>
 
       <h2 id="compare" style={s.h2}>A Private Villa or a Wellness Resort?</h2>
