@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const ITEMS = [
   {
-    href: "/#gallery",
+    href: "/padel-villa-athens",
     img: "/img/gallery/Sports%20%26%20Activities%20(6).jpg",
     alt: "Floodlit private padel court at Villa Lithos at night",
     title: "A private padel court",
-    text: "Floodlit and on the estate. Coaching can be arranged through the concierge.",
+    text: "Floodlit and on the estate. Coaching can be arranged through the concierge. See the padel villa page.",
   },
   {
     href: "/#gallery",
