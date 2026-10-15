@@ -1,0 +1,1367 @@
+{
+ "batch": 28,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "leyogascope",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence about how venues are chosen."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWzGRY-DbDA"
+     ],
+     "note": "Account name 'Le Yogascope - Retraites yoga' presents it as a yoga retreat brand; no registration, price or dates in the excerpts."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Posts dated April 06 and April 24, 2026 (Provence, Corse) are photos, not dated events she organised."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No event history in evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No event length evidence."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.2,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWzGRY-DbDA",
+      "https://www.instagram.com/p/DXhTW1PjZKL"
+     ],
+     "note": "French yoga retreat brand posting from Provence and Corsica; Mediterranean retreat setting is consistent with the villa, but evidence is thin."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Pack holds only two photo captions with locations; no event, price or follower data"
+    ],
+    "missingInformation": [
+     "Whether Le Yogascope organises and sells its own retreats",
+     "Retreat dates, group size and price",
+     "Follower count and audience geography",
+     "Whether they run retreats outside France"
+    ],
+    "summary": "Le Yogascope brands itself as a French yoga retreat account ('Retraites yoga'), with April 2026 posts located in Provence and Corsica. The pack has no registration, price, dates or group-size evidence, so organiser status and winter activity are unproven. France is a priority market and the Mediterranean positioning suits a Greek villa. Commercial risk unknown; scout further before outreach."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Le Yogascope - Retraites yoga",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "yoga retreats",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "betty.franks.art",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWz2hirjB1A"
+     ],
+     "note": "Runs her own multi-country retreat calendar (Ireland, France, Italy, Greece); destination choice sits with her."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWz2hirjB1A"
+     ],
+     "note": "'Get my 2027 Retreat schedule', 'Registration for Italy and Greece opens soon', 'comment RETREAT'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWz2hirjB1A"
+     ],
+     "note": "2027 calendar includes 'Ireland and France in April' (April 2027, inside the Nov-Apr window); exact dates not given."
+    },
+    "canFillGroupSize": {
+     "value": true,
+     "confidence": 0.2,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWz2hirjB1A"
+     ],
+     "note": "'The 2027 calendar is filling up!' suggests demand; no spots count."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWz2hirjB1A"
+     ],
+     "note": "At least four retreat destinations on the 2027 calendar."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat length evidence."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWz2hirjB1A"
+     ],
+     "note": "Already plans a 'Grecian autumn' retreat; colourful abstract art retreats in European destinations suit a private estate."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWz2hirjB1A"
+     ],
+     "note": "'The 2027 calendar is filling up' implies existing sales; no figures."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "No prices, group sizes or exact dates in evidence"
+    ],
+    "missingInformation": [
+     "Exact dates and venue of the Greece 2027 retreat and whether a venue is already booked",
+     "Group size and price per person",
+     "Home market and audience geography",
+     "Follower count"
+    ],
+    "summary": "Betty Franks sells abstract-art retreats on a 2027 calendar covering Ireland and France in April, a Mediterranean summer (Italy) and a 'Grecian autumn', with Greece registration opening soon. She organises the retreats herself, the April dates fall in the winter window, and she already targets Greece, which makes her a direct pilot lead for an autumn or shoulder-season Greek edition. Prices and group size are not shown. Medium commercial risk; approach before the Greece venue is fixed."
+   },
+   "events": [
+    {
+     "title": "Ireland art retreat (April 2027)",
+     "eventType": "personal_development_retreat",
+     "startDate": "2027-04",
+     "endDate": null,
+     "nights": null,
+     "location": "Ireland",
+     "country": "IE",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWz2hirjB1A"
+     ]
+    },
+    {
+     "title": "France art retreat (April 2027)",
+     "eventType": "personal_development_retreat",
+     "startDate": "2027-04",
+     "endDate": null,
+     "nights": null,
+     "location": "France",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWz2hirjB1A"
+     ]
+    },
+    {
+     "title": "Italy art retreat (Mediterranean summer 2027)",
+     "eventType": "personal_development_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Italy",
+     "country": "IT",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWz2hirjB1A"
+     ]
+    },
+    {
+     "title": "Grecian autumn retreat 2027",
+     "eventType": "personal_development_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Greece",
+     "country": "GR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWz2hirjB1A"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Betty Franks - Colorful Abstract Art",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "abstract art retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "brainhealthkitchen",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DVoY0uqBWYX"
+     ],
+     "note": "Runs her own Costa Rica Brain Health Retreat; destination is her choice."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DVoY0uqBWYX"
+     ],
+     "note": "'Costa Rica 2027 is officially open!', early enrollment perks, 'sign-up in the link in my bio'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Costa Rica 2027 retreat has no month or dates in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'first 10 registered guests' is an early-bird perk, not a stated group size."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DVoY0uqBWYX"
+     ],
+     "note": "Physician-led (MD) brain health retreat with complimentary-massage perks suggests an upscale wellness audience; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DVoY0uqBWYX"
+     ],
+     "note": "'Costa Rica 2027' naming implies an edition series; prior editions not shown."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat length evidence."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DVoY0uqBWYX"
+     ],
+     "note": "Medical wellness and nutrition retreat fits a quiet luxury estate."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Long-haul destination pattern (Costa Rica); no European activity in evidence"
+    ],
+    "missingInformation": [
+     "Dates of the Costa Rica 2027 retreat",
+     "Price and group size",
+     "Home market and audience geography",
+     "Interest in a Mediterranean edition"
+    ],
+    "summary": "Annie Fenn MD runs a Brain Health Retreat in Costa Rica and has opened registration for the 2027 edition, with an early-enrolment massage perk for the first 10 guests. She clearly organises and sells, and the physician-led wellness angle suits a private estate. No dates, price or group size are in evidence and there is no European activity. Medium risk; scout for interest in a Mediterranean edition."
+   },
+   "events": [
+    {
+     "title": "Costa Rica Brain Health Retreat 2027",
+     "eventType": "wellness_retreat",
+     "startDate": "2027",
+     "endDate": null,
+     "nights": null,
+     "location": "Costa Rica",
+     "country": "CR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DVoY0uqBWYX"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Annie Fenn MD | Brain Health",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "brain health nutrition and wellness retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "camplonestar",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTlAw-j6t6"
+     ],
+     "note": "Camp account selling its own event with lodging included; it is the venue, not a host choosing one."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTlAw-j6t6"
+     ],
+     "note": "'Register today to join us for Women's Renewal!' with cost $230."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only the registration deadline ('January 16th') is given; event date and year not stated."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTlAw-j6t6"
+     ],
+     "note": "'$230 (includes all meals, lodging, a t-shirt...)' is budget pricing."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No event history."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No length evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTlAw-j6t6"
+     ],
+     "note": "Budget camp retreat with t-shirt included; not a luxury-villa audience."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Camp/venue account running events on its own grounds",
+     "Pricing far below premium ($230 all-in)"
+    ],
+    "missingInformation": [
+     "Event dates and year",
+     "Location of the camp"
+    ],
+    "summary": "Camp Lone Star sells a Women's Renewal retreat at $230 including meals, lodging and a t-shirt, with registration closing January 16th. It is a camp running events on its own premises at budget pricing, so it neither books outside venues nor matches a luxury estate. Exclude."
+   },
+   "events": [
+    {
+     "title": "Women's Renewal",
+     "eventType": "womens_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": 230,
+     "currency": "USD",
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTlAw-j6t6"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Camp Lone Star",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "camp hosting church/community retreats",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "courtfituk",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbYQ2VKCS0"
+     ],
+     "note": "Runs its own trip programme across destinations (Lisbon, La Manga, Vale do Lobo) and chooses where to go."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbYQ2VKCS0"
+     ],
+     "note": "'Book our tennis and padel retreats', priced per person, booking by email."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbYQ2VKCS0"
+     ],
+     "note": "La Manga 4-8 Nov 2026 and Vale do Lobo 11-15 Nov 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size or sold-out evidence."
+    },
+    "audiencePaysPremium": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbYQ2VKCS0"
+     ],
+     "note": "Mid-market price points: from GBP 450pp (2 nights) and from GBP 749pp (4 nights)."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbYQ2VKCS0"
+     ],
+     "note": "Three upcoming trips plus 'More dates for next year going live soon'."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbYQ2VKCS0"
+     ],
+     "note": "Trips are 2 to 4 nights."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbYQ2VKCS0"
+     ],
+     "note": "Active-holiday group format suits a villa, but the product depends on tennis/padel court access."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbYQ2VKCS0"
+     ],
+     "note": "Published, priced trip schedule with a dedicated holidays@ booking address."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Product needs tennis/padel courts near the venue",
+     "Mid-market pricing"
+    ],
+    "missingInformation": [
+     "Group size per trip",
+     "Whether they would run a Greek edition and court access near Porto Rafti",
+     "Follower count"
+    ],
+    "summary": "CourtFit Tennis (UK) sells tennis and padel retreats: Lisbon 30 Sep - 2 Oct 2026 from GBP 450pp, La Manga 4-8 Nov 2026 and Vale do Lobo 11-15 Nov 2026 from GBP 749pp, with next year's dates coming. It is a UK organiser with proven November trips and a recurring programme, so it fits the winter-season goal and a priority market. The catch is court access and mid-market pricing. Medium risk; pilot only if courts near Porto Rafti can be packaged."
+   },
+   "events": [
+    {
+     "title": "Lisbon tennis and padel retreat",
+     "eventType": "padel_retreat",
+     "startDate": "2026-09-30",
+     "endDate": "2026-10-02",
+     "nights": 2,
+     "location": "Lisbon",
+     "country": "PT",
+     "groupSize": null,
+     "pricePerPerson": 450,
+     "currency": "GBP",
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbYQ2VKCS0"
+     ]
+    },
+    {
+     "title": "La Manga tennis and padel retreat",
+     "eventType": "padel_retreat",
+     "startDate": "2026-11-04",
+     "endDate": "2026-11-08",
+     "nights": 4,
+     "location": "La Manga",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": 749,
+     "currency": "GBP",
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbYQ2VKCS0"
+     ]
+    },
+    {
+     "title": "Vale do Lobo tennis and padel retreat",
+     "eventType": "padel_retreat",
+     "startDate": "2026-11-11",
+     "endDate": "2026-11-15",
+     "nights": 4,
+     "location": "Vale do Lobo",
+     "country": "PT",
+     "groupSize": null,
+     "pricePerPerson": 749,
+     "currency": "GBP",
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbYQ2VKCS0"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "CourtFit Tennis",
+    "country": "GB",
+    "languages": [
+     "en"
+    ],
+    "niche": "tennis and padel holidays",
+    "markets": [
+     "GB"
+    ]
+   }
+  },
+  {
+   "handle": "csiocsigene",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat or venue-selection evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeRuPwTCLnx"
+     ],
+     "note": "a free programme for people approaching retirement ('Bienvenue a la retraite'); 'retraite' here means retirement, not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat group evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeRuPwTCLnx"
+     ],
+     "note": "Off-topic for a hosted-retreat villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat commercial evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic account: matched on a keyword, not on retreat activity"
+    ],
+    "missingInformation": [],
+    "summary": "Csi Ocsigene: a free programme for people approaching retirement ('Bienvenue a la retraite'); 'retraite' here means retirement, not a retreat. Off-topic for Villa Lithos; no retreat organising, venue choice or winter group travel in evidence. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Csi Ocsigène",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "retirement-transition programme",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "daniela_kosmalski_yoga",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DaQLrskhX23"
+     ],
+     "note": "Hosts her own Mexico retreat and returns to a venue she chose ('head back to this wonderful place')."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DaQLrskhX23"
+     ],
+     "note": "'Mexico Retreat 2027 registration now open', 'Hope to host you'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DaQLrskhX23"
+     ],
+     "note": "'next January' with 'Mexico Retreat 2027' anchors the retreat to January 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DaQLrskhX23"
+     ],
+     "note": "'head back to this wonderful place' implies a repeat edition."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No length evidence."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DaQLrskhX23"
+     ],
+     "note": "Destination yoga retreat host; jungle setting differs from a seaside estate."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DaQLrskhX23"
+     ],
+     "note": "Returning to the same venue suggests a previous edition ran."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Home base unclear (#santacruzyoga)"
+    ],
+    "missingInformation": [
+     "Exact dates, price and group size",
+     "Home market",
+     "Whether she would add a European winter edition"
+    ],
+    "summary": "Daniela Kosmalski has opened registration for her Mexico Retreat 2027, returning in January to a jungle venue she has used before. She is a self-selling organiser with winter-dated activity and a repeat pattern, which matches the Nov-Apr goal. Home market, price and group size are not shown. Medium risk; pilot pitch for a second winter destination."
+   },
+   "events": [
+    {
+     "title": "Mexico Retreat 2027",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-01",
+     "endDate": null,
+     "nights": null,
+     "location": "Mexico",
+     "country": "MX",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DaQLrskhX23"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Daniela Kosmalski",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher and retreat host",
+    "markets": []
+   }
+  },
+  {
+   "handle": "dotunoloyede",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTMvY7kjOIJ?__d=1%2B"
+     ],
+     "note": "Runs his own R3 Mastermind Retreat; venue choice presumably his, location not given."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTMvY7kjOIJ?__d=1%2B"
+     ],
+     "note": "'Click the link in bio to register', 'The vision for this year's R3 Mastermind Retreat'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No event date in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.2,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTMvY7kjOIJ?__d=1%2B"
+     ],
+     "note": "Pitched at people 'ready to scale'; no price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTMvY7kjOIJ?__d=1%2B"
+     ],
+     "note": "'this year's R3 Mastermind Retreat' implies an annual series."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No length evidence."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTMvY7kjOIJ?__d=1%2B"
+     ],
+     "note": "Business mastermind retreat is an in-scope format for a private estate."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "No location, date, price or audience geography in evidence"
+    ],
+    "missingInformation": [
+     "Date and location of the R3 Mastermind Retreat",
+     "Group size and price",
+     "Home market"
+    ],
+    "summary": "Oladotun Oloyede promotes registration for this year's R3 Mastermind Retreat, a business-scaling retreat focused on practical strategies. He is the organiser and the format suits a private estate, but there is no date, location, price or audience information. Commercial risk unknown; scout before outreach."
+   },
+   "events": [
+    {
+     "title": "R3 Mastermind Retreat",
+     "eventType": "executive_mastermind",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTMvY7kjOIJ?__d=1%2B"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Oladotun Oloyede",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "business mastermind retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "doyogawithme",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeeV67pBt1s"
+     ],
+     "note": "Runs its own retreat season, tagged with @mardejade_retreat, suggesting a fixed partner venue."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeeV67pBt1s"
+     ],
+     "note": "'Our 2027 retreat season is up and ready for registration!'"
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat dates in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeeV67pBt1s"
+     ],
+     "note": "A '2027 retreat season' implies multiple retreats per year."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No length evidence."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeeV67pBt1s"
+     ],
+     "note": "Online yoga brand running destination retreats; tropical partner venue."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Appears tied to one partner venue (@mardejade_retreat)"
+    ],
+    "missingInformation": [
+     "Retreat dates and whether any fall in Nov-Apr",
+     "Group size and price",
+     "Whether they would add a European venue"
+    ],
+    "summary": "DoYogaWithMe, an online yoga brand, has opened registration for its 2027 retreat season, tagging @mardejade_retreat as the venue. It organises and sells retreats, but appears tied to one partner venue and the pack has no dates, price or group size. Medium risk; scouting outreach to test interest in a European winter edition."
+   },
+   "events": [
+    {
+     "title": "2027 retreat season",
+     "eventType": "yoga_retreat",
+     "startDate": "2027",
+     "endDate": null,
+     "nights": null,
+     "location": "@mardejade_retreat",
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeeV67pBt1s"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "DoYogaWithMe",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "online yoga platform with retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "drjoedispenza",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence on venue selection; events are run at large-venue scale."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/drjoedispenza"
+     ],
+     "note": "'Progressive Retreats here in Basel, Switzerland'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No event dates in evidence."
+    },
+    "canFillGroupSize": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/drjoedispenza"
+     ],
+     "note": "'16,000 people. 67 countries.' Conference-scale events, not 10-18 person groups."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/drjoedispenza"
+     ],
+     "note": "'Progressive Retreats' series."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No length evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/drjoedispenza"
+     ],
+     "note": "Mass-attendance format does not fit a 9-bedroom villa."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/drjoedispenza"
+     ],
+     "note": "16,000 attendees from 67 countries."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Event scale (16,000 people) is conference-sized, far beyond villa capacity"
+    ],
+    "missingInformation": [
+     "Whether any small-group or staff/team offsite formats exist"
+    ],
+    "summary": "Dr Joe Dispenza runs 'Progressive Retreats' in Basel, Switzerland, cited at 16,000 people from 67 countries. These are conference-scale events that need arena venues, not a 9-bedroom villa, and no small-group format is in evidence. Treated as none for booking purposes; high risk."
+   },
+   "events": [
+    {
+     "title": "Progressive Retreats Basel",
+     "eventType": "personal_development_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Basel, Switzerland",
+     "country": "CH",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/drjoedispenza"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Dr Joe Dispenza",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "mass-scale meditation events",
+    "markets": []
+   }
+  },
+  {
+   "handle": "drkarenhillspruden",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/drkarenhillspruden/reel/DZxXT1ikvQR?hl=de"
+     ],
+     "note": "Organises the conference and chose Rivers Casino, Portsmouth VA."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/drkarenhillspruden/reel/DZxXT1ikvQR?hl=de"
+     ],
+     "note": "Sells a 2-day leadership conference, not a residential retreat."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/drkarenhillspruden/reel/DZxXT1ikvQR?hl=de"
+     ],
+     "note": "Only dated event is October 2-3, 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No attendance figures."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No event history."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/drkarenhillspruden/reel/DZxXT1ikvQR?hl=de"
+     ],
+     "note": "Two-day conference format."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/drkarenhillspruden/reel/DZxXT1ikvQR?hl=de"
+     ],
+     "note": "Local casino-venue conference; not a residential group stay."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Domestic US conference, not a retreat",
+     "Not winter"
+    ],
+    "missingInformation": [
+     "Whether she also runs residential leadership retreats"
+    ],
+    "summary": "Dr Karen Hills Pruden promotes the Sister Leaders Conference ('Purpose Led. Profit Focused.') on October 2-3, 2026 at Rivers Casino, Portsmouth VA. It is a local two-day conference rather than a residential retreat or offsite, and is outside the winter window. Exclude unless residential leadership retreats surface."
+   },
+   "events": [
+    {
+     "title": "Sister Leaders Conference",
+     "eventType": "leadership_retreat",
+     "startDate": "2026-10-02",
+     "endDate": "2026-10-03",
+     "nights": null,
+     "location": "Rivers Casino, Portsmouth, VA",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/drkarenhillspruden/reel/DZxXT1ikvQR?hl=de"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "women's leadership conference",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "eafc_jean_meunier",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat or venue-selection evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcIW75Ylm0D"
+     ],
+     "note": "an adult-education school advertising a 2026-2027 retail-sales course ('Vendeur en magasin, inscriptions ouvertes')."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat group evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcIW75Ylm0D"
+     ],
+     "note": "Off-topic for a hosted-retreat villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat commercial evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic account: matched on a keyword, not on retreat activity"
+    ],
+    "missingInformation": [],
+    "summary": "EAFC Jean Meunier: an adult-education school advertising a 2026-2027 retail-sales course ('Vendeur en magasin, inscriptions ouvertes'). Off-topic for Villa Lithos; no retreat organising, venue choice or winter group travel in evidence. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "EAFC Jean Meunier",
+    "country": null,
+    "languages": [
+     "fr"
+    ],
+    "niche": "adult education",
+    "markets": []
+   }
+  }
+ ]
+}

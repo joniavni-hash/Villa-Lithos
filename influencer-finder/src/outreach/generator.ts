@@ -34,8 +34,25 @@ export const TRACK_LABELS: Record<PartnershipTrack, { en: string; he: string }> 
 
 const PRICE_RE = /(€|\$|£|₪|\beur\b|\busd\b|\bgbp\b|\bils\b)\s?\d|\d\s?(€|\$|£|₪|\beur\b|\busd\b|\bgbp\b|\bils\b)|\bper night\b.*\d|\d.*\bper night\b/i;
 
-/** Pick the partnership track from the candidate's evidence. */
+const TRACK_ORDER: Record<PartnershipTrack, number> = { scouting_stay: 0, pilot_retreat: 1, anchor_partnership: 2, referral_partnership: -1 };
+
+/**
+ * Pick the partnership track. The evidence rules give an upper bound; the classifier, which read
+ * the posts, may recommend a more cautious track (e.g. a surf-camp operator: scouting only). Without
+ * private verified data the more cautious of the two is used, so a first approach never asks for a
+ * bigger commitment than the evidence supports. Referral recommendations are kept as they are.
+ */
 export function recommendTrack(c: Candidate): { track: PartnershipTrack; reason: string } {
+  const rule = recommendTrackFromRules(c);
+  const advised = c.classification?.recommendedTrack;
+  if (!advised || c.privateInsights || rule.track === 'referral_partnership' || advised === 'referral_partnership') return rule;
+  if (TRACK_ORDER[advised] < TRACK_ORDER[rule.track]) {
+    return { track: advised, reason: `${rule.reason} The evidence review advises a ${TRACK_LABELS[advised].en} first; the more cautious track is used until private data supports more.` };
+  }
+  return rule;
+}
+
+function recommendTrackFromRules(c: Candidate): { track: PartnershipTrack; reason: string } {
   const cl = c.classification;
   const organiserEvents = c.events.filter((e) => e.role === 'organizer' || e.role === 'co_host');
   const winter = organiserEvents.filter((e) => e.isWinter);

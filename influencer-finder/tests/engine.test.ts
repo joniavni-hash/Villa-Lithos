@@ -310,3 +310,18 @@ describe('budget inputs from published events', () => {
     expect(budgetInputsFromEvents([e({ pricePerPerson: 900, currency: 'EUR', groupSize: 40 })], 18).inputs.participants).toBe(18);
   });
 });
+
+describe('track recommendation respects the evidence review', () => {
+  const winterEvents = [1, 2, 3].map((i) => ({ title: `Retreat ${i}`, startDate: `2027-0${i}-10`, nights: 5, role: 'organizer' as const, isWinter: true, provenance: 'verified_public_fact' as const, evidenceUrls: ['https://www.instagram.com/p/x'] }));
+  it('uses the more cautious of rule track and classifier track', () => {
+    const c = baseCandidate({ events: winterEvents as Candidate['events'], classification: { ...strongClassification, recommendedTrack: 'scouting_stay' } });
+    expect(recommendTrack({ ...c, classification: { ...c.classification!, recommendedTrack: 'anchor_partnership' } }).track).toBe('anchor_partnership');
+    const t = recommendTrack(c);
+    expect(t.track).toBe('scouting_stay');
+    expect(t.reason).toMatch(/more cautious track/);
+  });
+  it('never upgrades beyond the rule track', () => {
+    const c = baseCandidate({ classification: { ...strongClassification, recommendedTrack: 'anchor_partnership' } });
+    expect(recommendTrack(c).track).toBe(recommendTrack({ ...c, classification: { ...c.classification!, recommendedTrack: 'scouting_stay' }, privateInsights: {} as never }).track);
+  });
+});
