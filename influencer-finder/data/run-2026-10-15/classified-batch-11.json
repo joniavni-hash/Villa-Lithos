@@ -1,0 +1,289 @@
+{
+  "batch": 11,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "smlcfamily",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DUHuHQ2iKK1"], "note": "Organises its own 2026 Women's Retreat in Nags Head, NC (registration + deposit), so the group chooses where it goes."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DUHuHQ2iKK1"], "note": "Early-bird registration is open and a $20 deposit is required: first-person organiser signals."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only a registration deadline (March 1st) is given; the retreat's own dates are not in the evidence."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size or spot count in the evidence."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DUHuHQ2iKK1"], "note": "A $20 deposit points to a low-cost community (likely church) retreat."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DUHuHQ2iKK1"], "note": "'The 2026 Women's Retreat' phrasing implies an annual edition; only one edition evidenced."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Duration not stated."},
+        "brandFit": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DUHuHQ2iKK1"], "note": "Local US community retreat with a $20 deposit; not a premium travelling group."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No venue contracting or paid-partnership evidence."},
+        "commercialRisk": "high",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["pricing far below premium ($20 deposit)", "US local community/church-style retreat; no sign of international travel", "no bio or follower data in the pack"],
+        "missingInformation": ["retreat dates and venue", "group size and price per person", "what SMLC is (organisation type)", "follower count and engagement"],
+        "summary": "SMLC Family organises a 2026 Women's Retreat in Nags Head, North Carolina with early-bird registration open until March 1st and a $20 deposit (https://www.instagram.com/p/DUHuHQ2iKK1). It is a genuine organiser, but the evidence points to a low-budget local community group in the US, with no dates, group size or price visible. Commercial risk is high because the budget level and geography make a booking at a private Greek estate very unlikely. Deprioritise unless further research shows international retreats."
+      },
+      "events": [
+        {"title": "The 2026 Women's Retreat", "eventType": "womens_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Nags Head, NC", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DUHuHQ2iKK1"]}
+      ],
+      "profile": {"displayName": "SMLC Family", "country": "US", "languages": ["en"], "niche": "community women's retreat (US)", "markets": ["US"]}
+    },
+    {
+      "handle": "sundanceorg",
+      "classification": {
+        "group": "C_high_value_host",
+        "decidesVenue": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/BWRI11MlHRu"], "note": "Sundance Institute ran its Mediterranean Screenwriters Workshop at Costa Navarino, Greece with Faliro House; an institution that places workshops in chosen venues, although the Greek partner may select the site."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/BWRI11MlHRu"], "note": "Institutional lab/workshop for selected emerging filmmakers, not a sold retreat."},
+        "provenWinterActivity": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/BWRI11MlHRu"], "note": "The only dated activity is July 2017 (workshop 'currently underway' on July 07, 2017)."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Participant numbers not given."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Participants are selected fellows; no pricing model evidenced."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only one edition is evidenced."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Workshop duration not stated."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/BWRI11MlHRu"], "note": "Chose a luxury Greek resort (Costa Navarino) for a professional film workshop; private, focused group work fits an estate."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/BWRI11MlHRu"], "note": "Has previously held a residential workshop at a Greek resort venue."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["single evidence item from 2017; current activity unknown", "large institution with a procurement process; Greek partner (Faliro House) likely selects venues", "no bio or follower data in the pack"],
+        "missingInformation": ["whether the Mediterranean workshop still runs and in which months", "participant count and length of the lab", "who contracts the venue (Sundance vs Faliro House)"],
+        "summary": "The account is the Sundance Institute, which in July 2017 ran the Faliro House | Sundance Institute Mediterranean Screenwriters Workshop at Costa Navarino, Greece (https://www.instagram.com/p/BWRI11MlHRu). It is a high-value institutional host that already brings small professional groups to Greek venues, but the evidence is a single nine-year-old post with no dates in the winter window. Commercial risk is medium: strong brand and venue budget, but a long institutional decision chain and the Greek partner probably picks the venue. Treat as a scouting lead via the Greek partner rather than a direct Instagram outreach."
+      },
+      "events": [
+        {"title": "Faliro House | Sundance Institute Mediterranean Screenwriters Workshop", "eventType": "workshop", "startDate": "2017-07", "endDate": null, "nights": null, "location": "Costa Navarino, Greece", "country": "GR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "co_host", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/BWRI11MlHRu"]}
+      ],
+      "profile": {"displayName": "Sundance Institute", "country": "US", "languages": ["en"], "niche": "film institute / screenwriting labs & workshops", "markets": ["US", "GR"]}
+    },
+    {
+      "handle": "sunyoga_studio",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/CqZ56aBIRPn"], "note": "Teacher-training cohorts (morning and evening cycles) run inside the studio itself."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/CqZ56aBIRPn"], "note": "Only an in-studio Ashtanga teacher training with early registration for October 2026 cohorts; no retreat offer."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated winter event; the training intake is October 2026."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Cohort size not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing in the evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/CqZ56aBIRPn"], "note": "The academy runs teacher-training cohorts (October 2026 intake, morning and evening cycles)."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No residential component evidenced."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Insufficient evidence on aesthetics or audience."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None in the pack."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["studio training schedule, not a residential host"],
+        "missingInformation": ["whether the academy runs residential retreats or immersion weeks abroad", "studio location and cohort size", "bio, followers and website"],
+        "summary": "Sun Yoga is an Israeli traditional Ashtanga studio whose only evidence is a reel opening early registration for the Sun Yoga Academy teacher-training course, October 2026 cohorts in morning and evening cycles (https://www.instagram.com/reel/CqZ56aBIRPn). That is an in-studio class schedule, not a hosted group travelling to a venue, so it is marked none. Israel is the villa's priority market and Ashtanga academies sometimes run immersion weeks abroad, so a manual check of the studio's retreat history is worthwhile before discarding."
+      },
+      "events": [
+        {"title": "Sun Yoga Academy Ashtanga teacher-training course (October 2026 cohorts)", "eventType": "teacher_training", "startDate": "2026-10", "endDate": null, "nights": null, "location": "Sun Yoga studio (Israel, inferred from Hebrew)", "country": "IL", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/CqZ56aBIRPn"]}
+      ],
+      "profile": {"displayName": "Sun Yoga | סטודיו מסורתי לאשטנגה", "country": "IL", "languages": ["he"], "niche": "Ashtanga yoga studio & teacher training", "markets": ["IL"]}
+    },
+    {
+      "handle": "superstaractivator",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence of her own events or venue choices."},
+        "sellsRetreats": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "The pack shows a podcast appearance, not her own retreat offers."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events evidenced."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events evidenced."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only a podcast cover image is evidenced."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None in the pack."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["evidence is a third-party podcast appearance; no bio or follower data", "eventsMentioned entries are a podcast episode, not events"],
+        "missingInformation": ["her own bio, audience size and offers", "whether she runs retreats or masterminds herself", "geography of her retreat-leader audience"],
+        "summary": "Michelle Villalobos (Superstar Activator) appears as a guest on The Retreat Leaders Podcast with Shannon Jamail, episode 284 on why 'your retreat business can't outperform you' (https://www.instagram.com/reel/CtdaGafMvdq). The evidence shows she speaks to retreat leaders as a business/energy strategist, which is the reach-organisers profile, but nothing in the pack shows her own events, audience size or venue decisions. Group B with moderate confidence; commercial risk unknown. A referral or guest-content partnership is the only track the evidence supports."
+      },
+      "events": [],
+      "profile": {"displayName": "Michelle Villalobos (Superstar Activator)", "country": "US", "languages": ["en"], "niche": "retreat-business coaching / speaker", "markets": ["US"]}
+    },
+    {
+      "handle": "the_padel_circle_",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/the_padel_circle_"], "note": "Runs branded padel holidays, training camps and a padel retreat across Marbella, Tenerife and Seville, so it selects the venues."},
+        "sellsRetreats": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/the_padel_circle_"], "note": "Own flyers for dated padel holidays, a training camp and a 'Padel Retreat in Tenerife'; organiser signals are image text rather than explicit registration copy."},
+        "provenWinterActivity": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/the_padel_circle_"], "note": "All dated events fall in July-September 2026; no winter dates."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group sizes or spot counts."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No prices in the evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/the_padel_circle_"], "note": "Several dated 2026 events: Marbella Jul 23-26, Tenerife Aug 9-14, Marbella camp Sep 10-13, plus a Seville weekend."},
+        "longStayPotential": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/the_padel_circle_"], "note": "The Tenerife padel retreat spans Aug 9-14 (5 nights); other trips are 3 nights."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Sport-holiday format; fit depends entirely on padel-court access at or near the villa."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No venue partnership evidence."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["requires padel courts; villa court availability unknown", "all evidenced events are summer (Jul-Sep 2026)", "no bio or follower data; event details read from image OCR"],
+        "missingInformation": ["group size and price per person", "whether the organiser runs winter trips", "home market of participants (likely UK)", "padel-court access near Porto Rafti"],
+        "summary": "The Padel Circle organises branded padel holidays and camps in Spain: Padel Holiday in Marbella 23-26 July 2026, a Padel Retreat in Tenerife Aug 9-14 2026, a Marbella Training Camp Sep 10-13 2026 and a Padel Weekend in Seville (https://www.instagram.com/the_padel_circle_). It is a recurring organiser that picks its own venues, which makes it a group A candidate, but every evidenced trip is in summer and no prices or group sizes are visible. Commercial risk is medium: the format depends on court access, and winter demand is unproven. A pilot padel-plus-wellness week could work only if courts can be arranged nearby."
+      },
+      "events": [
+        {"title": "Padel Holiday in Marbella", "eventType": "padel_retreat", "startDate": "2026-07-23", "endDate": "2026-07-26", "nights": 3, "location": "Marbella", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/the_padel_circle_"]},
+        {"title": "Padel Retreat in Tenerife", "eventType": "padel_retreat", "startDate": "2026-08-09", "endDate": "2026-08-14", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/the_padel_circle_"]},
+        {"title": "Marbella Training Camp", "eventType": "padel_retreat", "startDate": "2026-09-10", "endDate": "2026-09-13", "nights": 3, "location": "Marbella", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/the_padel_circle_"]},
+        {"title": "Padel Weekend in Seville", "eventType": "padel_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Seville", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/the_padel_circle_"]}
+      ],
+      "profile": {"displayName": "The Padel Circle", "country": "ES", "languages": ["en"], "niche": "padel holidays & training camps", "markets": ["GB", "OTHER"]}
+    },
+    {
+      "handle": "the_retreat_academy",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "A 'Venue Coaching' highlight shows she advises on venues; no evidence of her own venue bookings."},
+        "sellsRetreats": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/the_retreat_academy"], "note": "'Circle Retreat' highlight and the linked @erthretreat account suggest she also hosts retreats, but no registration, price or dates are shown."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events in the pack."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events evidenced."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/the_retreat_academy"], "note": "Positions on 'the art of hosting profitable retreats' for retreat hosts; her audience is exactly the villa's target buyer."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No partnership evidence."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["website link truncated in the pack (linktr.ee)"],
+        "missingInformation": ["size and geography of her retreat-leader audience", "details of 'Circle Retreat' and @erthretreat (dates, venues, prices)", "whether she offers venue showcases or affiliate deals"],
+        "summary": "Polly Moore runs The Retreat Academy (12.7K followers), a retreat strategist and mindset coach teaching 'the art of hosting profitable retreats', with 'Venue Coaching' and 'Circle Retreat' story highlights and links to @erthretreat and @departmentofwellbeing (https://www.instagram.com/the_retreat_academy). This is a clear reach-organisers profile (group B) with a secondary hint that she hosts retreats herself. No dates, venues or prices are in the evidence, so winter activity and group size are unknown. A referral or venue-showcase partnership is the natural track; British spelling suggests a UK base, to be confirmed."
+      },
+      "events": [],
+      "profile": {"displayName": "Polly Moore | The Retreat Academy", "country": "GB", "languages": ["en"], "niche": "retreat strategist / coach for retreat hosts", "markets": ["GB", "US"]}
+    },
+    {
+      "handle": "thecenterslo",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DZaZOYdw525"], "note": "A studio's own Yoga Alliance 200-hour teacher training, delivered at the studio (website /ytt)."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DZaZOYdw525"], "note": "'Join us' and 'applications are now open' refer to a teacher training, not a retreat."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Training starts September 2026; an 'April 2027' hint exists only in the heuristic extraction, not in the excerpt."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Cohort size not given."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Price not in the excerpt ($300 hint unverified)."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DZaZOYdw525"], "note": "A registered 200-hour training programme implies annual cohorts; one edition evidenced."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No residential component evidenced."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No aesthetic or audience evidence beyond the training copy."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None in the pack."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["studio training schedule, not a residential host", "US local studio (San Luis Obispo, inferred from handle/website)"],
+        "missingInformation": ["whether the training includes a residential or international immersion module", "cohort size and tuition", "bio and followers"],
+        "summary": "The Center Studio (thecenterslo.com/ytt) advertises a Yoga Alliance registered 200-Hour Yoga Teacher Training starting September 2026 with applications open (https://www.instagram.com/reel/DZaZOYdw525). It is a local US studio delivering its own training programme; nothing shows retreats, external venues or travel. Marked none with the training recorded as an event. Only worth revisiting if the studio runs residential modules abroad."
+      },
+      "events": [
+        {"title": "200-Hour Yoga Teacher Training (September 2026)", "eventType": "teacher_training", "startDate": "2026-09", "endDate": null, "nights": null, "location": "The Center Studio (San Luis Obispo, inferred)", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DZaZOYdw525"]}
+      ],
+      "profile": {"displayName": "The Center Studio", "country": "US", "languages": ["en"], "niche": "yoga studio & teacher training", "markets": ["US"]}
+    },
+    {
+      "handle": "thenomadcollective_.",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DTTXloOEm_d"], "note": "The nOMad Mastermind Retreat is 'hosted by Phoebe Leona, founder of The nOMad Collective'; the organiser chooses the destination (St. Croix per location hint)."},
+        "sellsRetreats": {"value": true, "confidence": 0.85, "evidenceUrls": ["https://www.instagram.com/p/DTTXloOEm_d"], "note": "'Only 2 days remain to say yes to our early nOMad special pricing' for its own mastermind retreat: first-person sales copy with pricing deadline."},
+        "provenWinterActivity": {"value": true, "confidence": 0.25, "evidenceUrls": ["https://www.instagram.com/p/DTTXloOEm_d"], "note": "Heuristic extraction reports 'April 10-15, 2026' in St. Croix, but the dates are not visible in the excerpt; treat as unverified."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No spot count or group size."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Mentions a 'significantly reduced investment' but no price is given."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only one retreat evidenced."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Duration not visible in the excerpt (5-night hint unverified)."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DTTXloOEm_d"], "note": "A 'sacred container for retreat leaders and guides' on leadership, embodiment and community suits a private estate; its participants are themselves retreat organisers."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No venue partnership evidence."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["event dates and price not visible in the excerpt (heuristic hint: April 10-15, 2026)", "handle ends with '.' (possible scraper artefact; verify the account)", "no bio or follower data"],
+        "missingInformation": ["confirmed dates, nights and price of the mastermind retreat", "group size", "audience geography (likely US)", "whether other retreats are run through the year"],
+        "summary": "The nOMad Collective (Phoebe Leona) sells its own nOMad Mastermind Retreat for retreat leaders and guides, with early special pricing closing in two days (https://www.instagram.com/p/DTTXloOEm_d). This is a group A organiser whose participants are themselves retreat hosts, so one booking could seed several more. The destination (St. Croix) and dates (April 10-15, 2026) come only from heuristic extraction and need verification; no price or group size is visible. Commercial risk is medium: strong organiser signals, but US-based and unverified scale. Pitch a pilot leadership mastermind in the winter window."
+      },
+      "events": [
+        {"title": "The nOMad Mastermind Retreat", "eventType": "executive_mastermind", "startDate": null, "endDate": null, "nights": null, "location": "St. Croix (per location hint; not in excerpt)", "country": "VI", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DTTXloOEm_d"]}
+      ],
+      "profile": {"displayName": "The nOMad Collective (Phoebe Leona)", "country": "US", "languages": ["en"], "niche": "transformational retreats & mastermind for retreat leaders", "markets": ["US"]}
+    },
+    {
+      "handle": "theretreatplanner",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence of her own events."},
+        "sellsRetreats": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "She sells retreat marketing and sales strategy to coaches; 'sold-out events' refers to client outcomes, not her own retreats."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events evidenced."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events evidenced."},
+        "brandFit": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/theretreatplanner"], "note": "Targets coaches planning 'high-impact, high-income' retreats, i.e. premium-minded organisers."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None in the pack."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["small audience (2,193 followers)"],
+        "missingInformation": ["geography of her coach clients", "whether she recommends venues to clients", "engagement and content reach"],
+        "summary": "Leni Cavazos (@theretreatplanner, 2,193 followers, theretreatplanner.com) is a Retreat Coach & Strategist offering 'Retreat Marketing & Sales Strategy for Coaches' and posting daily as of mid-October 2026 (https://www.instagram.com/theretreatplanner). Her audience is coaches who host retreats, which is the group B profile; she does not appear to run retreats herself. The account is active but small, so commercial value lies in a referral or venue-recommendation partnership rather than reach. No winter dates, group sizes or prices are in the evidence."
+      },
+      "events": [],
+      "profile": {"displayName": "Leni Cavazos | Retreat Coach & Strategist", "country": "US", "languages": ["en"], "niche": "retreat marketing & sales coach", "markets": ["US"]}
+    },
+    {
+      "handle": "therizalacademy.",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"], "note": "A Philippine foundation teachers' retreat held at First Pacific Leadership Academy, Antipolo City; the account may itself be the academy/venue."},
+        "sellsRetreats": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"], "note": "Foundations 'invite you' to a teachers' retreat with a registration form; a non-commercial institutional event."},
+        "provenWinterActivity": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"], "note": "Dated 3-day retreat on November 17-19, 2023; the account's organiser role is unclear (foundations invite; account may be the venue)."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No participant numbers."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"], "note": "Foundation-run retreat for teachers; not a premium paying audience."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "One edition evidenced."},
+        "longStayPotential": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"], "note": "3-day weekend format."},
+        "brandFit": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"], "note": "Local Philippine educational foundation; no fit with a private Greek estate."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "high",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["off-topic account (Philippine foundation / teachers' retreat)", "evidence from 2023", "handle ends with '.' (possible scraper artefact)"],
+        "missingInformation": ["whether the account is the venue or an organiser"],
+        "summary": "The post is an invitation from the Rizal Development and Heritage Center Foundation and Gabay Guro Foundation to 'Kamalayan: Renew, Reframe, Repurpose', a 3-day weekend retreat for teachers on November 17-19, 2023 at First Pacific Leadership Academy, Antipolo City, Philippines (https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et). It is a dated winter-window event, but a local non-commercial educational programme in the Philippines with no plausible path to a Greek villa. Marked none / off-topic with high commercial risk."
+      },
+      "events": [
+        {"title": "Kamalayan: Renew, Reframe, Repurpose (3-day weekend retreat for teachers)", "eventType": "personal_development_retreat", "startDate": "2023-11-17", "endDate": "2023-11-19", "nights": 2, "location": "First Pacific Leadership Academy, Antipolo City", "country": "PH", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "unknown", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"]}
+      ],
+      "profile": {"displayName": "TRAIL / The Rizal Academy", "country": "PH", "languages": ["en"], "niche": "educational foundation (teachers' retreat)", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "tourlandia_",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No event or group evidence."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/CVQhHVYMU3a"], "note": "Only a hashtag-stuffed travel post (January 01, 2026); no retreat offer."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events."},
+        "brandFit": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/CVQhHVYMU3a"], "note": "Generic country-hashtag spam with 2 likes; no premium or retreat positioning."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "high",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["off-topic account (hashtag-spam travel post)", "very low engagement (2 likes)"],
+        "missingInformation": ["bio, followers and any actual offering"],
+        "summary": "The only evidence is a post from January 01, 2026 consisting of a long list of European country hashtags with 2 likes (https://www.instagram.com/p/CVQhHVYMU3a). There is no retreat, event, audience or organiser signal of any kind. Off-topic, group none, nothing to act on."
+      },
+      "events": [],
+      "profile": {"displayName": "tourlandia", "country": null, "languages": ["en"], "niche": "generic travel hashtag account", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "toweryoga",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DcwVuG9mu30"], "note": "The 200-hour Vinyasa YTT runs on Friday evenings and weekend days at the studio (Fresno)."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DcwVuG9mu30"], "note": "Sells an in-studio teacher training ($2,900 paid in full or 3 payments of $975), not a retreat."},
+        "provenWinterActivity": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DcwVuG9mu30"], "note": "Training dates run Nov 13-15 through Apr 2-4 (2026-27), but it is a non-residential weekend course, not a winter retreat."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Cohort size not given."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "$2,900 for a 200-hour YTT is standard studio pricing; not evidence of premium travel spend."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DcwVuG9mu30"], "note": "'Teacher Training 2026-27' implies an annual programme."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DcwVuG9mu30"], "note": "Weekend-module format, no residential component."},
+        "brandFit": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DcwVuG9mu30"], "note": "Local US studio programme."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["studio training schedule, not a residential host", "US local studio (Fresno)"],
+        "missingInformation": ["whether the studio runs any retreats abroad", "bio and followers"],
+        "summary": "Tower Yoga (toweryogafresno.com) posted its 200-hour Vinyasa Yoga Teacher Training 2026-27 with weekend training dates from Nov 13-15 through Apr 2-4, priced at $2,900 paid in full or 3 payments of $975, on Fridays, Saturdays and Sundays (https://www.instagram.com/p/DcwVuG9mu30). The dates fall in the winter window but this is an in-studio course in Fresno, California, not a hosted group that travels. Group none; no action for the villa."
+      },
+      "events": [
+        {"title": "200-hour Vinyasa Yoga Teacher Training 2026-27", "eventType": "teacher_training", "startDate": "2026-11-13", "endDate": "2027-04-04", "nights": null, "location": "Tower Yoga, Fresno", "country": "US", "groupSize": null, "pricePerPerson": 2900, "currency": "USD", "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DcwVuG9mu30"]}
+      ],
+      "profile": {"displayName": "Tower Yoga (Fresno)", "country": "US", "languages": ["en"], "niche": "yoga studio & teacher training", "markets": ["US"]}
+    }
+  ]
+}
