@@ -7,6 +7,13 @@ import { VILLA } from '../config/villa.ts';
 import type { Candidate, PartnershipTrack } from '../pipeline/types.ts';
 
 export type OutreachLanguage = 'en' | 'he';
+/** Grammatical gender for Hebrew drafts. 'unknown' uses the plural form, the neutral register in Hebrew business writing. */
+export type RecipientGender = 'female' | 'male' | 'unknown';
+
+/** Picks the Hebrew form for the recipient's gender (plural when unknown). */
+function heForm(g: RecipientGender, female: string, male: string, plural: string): string {
+  return g === 'female' ? female : g === 'male' ? male : plural;
+}
 
 export interface OutreachDraft {
   track: PartnershipTrack;
@@ -33,10 +40,10 @@ export function recommendTrack(c: Candidate): { track: PartnershipTrack; reason:
   const organiserEvents = c.events.filter((e) => e.role === 'organizer' || e.role === 'co_host');
   const winter = organiserEvents.filter((e) => e.isWinter);
   const recurring = cl?.runsRecurringEvents.value === true || organiserEvents.length >= 3;
-  if (cl?.group === 'B_reaches_organizers' && organiserEvents.length === 0) return { track: 'referral_partnership', reason: 'Her audience is organisers, not participants; she can refer bookings rather than host.' };
-  if (recurring && winter.length >= 1 && (cl?.decidesVenue.value === true)) return { track: 'anchor_partnership', reason: 'Runs recurring events including in winter and chooses venues herself; a multi-event commitment is realistic.' };
+  if (cl?.group === 'B_reaches_organizers' && organiserEvents.length === 0) return { track: 'referral_partnership', reason: 'Their audience is organisers, not participants; they can refer bookings rather than host.' };
+  if (recurring && winter.length >= 1 && (cl?.decidesVenue.value === true)) return { track: 'anchor_partnership', reason: 'Runs recurring events including in winter and chooses venues directly; a multi-event commitment is realistic.' };
   if (organiserEvents.length >= 1 && (cl?.decidesVenue.value !== false)) return { track: 'pilot_retreat', reason: 'Proven organiser; a first retreat tests the partnership before committing to more.' };
-  return { track: 'scouting_stay', reason: 'Organising capacity or venue authority not yet evidenced; a scouting stay lets her evaluate the property with low commitment.' };
+  return { track: 'scouting_stay', reason: 'Organising capacity or venue authority not yet evidenced; a scouting stay allows an evaluation of the property with low commitment.' };
 }
 
 function firstName(c: Candidate): string {
@@ -45,6 +52,16 @@ function firstName(c: Candidate): string {
   const clean = n.replace(/\(@.*?\)/, '').replace(/[|•·].*$/, '').trim();
   const w = clean.split(/\s+/)[0];
   return /^[A-Za-zÀ-ÿ֐-׿'-]{2,}$/.test(w) ? w : '';
+}
+
+/** Short, natural reference to an event for the opening line: the title, plus the place only if the title does not already name it. No raw dates. */
+function eventPhrase(e: { title: string; location?: string | null }): string {
+  // Leading article removed so the line reads 'your <event>' and never 'your The <event>'.
+  const title = e.title.trim().replace(/[.,;:]+$/, '').replace(/^(the|a|an)\s+/i, '');
+  const loc = e.location?.trim();
+  if (!loc) return title;
+  const key = loc.split(/[,(]/)[0].trim().toLowerCase();
+  return key && title.toLowerCase().includes(key) ? title : `${title} in ${loc.split(',')[0].trim()}`;
 }
 
 function pickFacts(c: Candidate): Array<{ fact: string; url?: string }> {
@@ -57,14 +74,17 @@ function pickFacts(c: Candidate): Array<{ fact: string; url?: string }> {
   return facts.slice(0, 3);
 }
 
-export function generateOutreach(c: Candidate, track: PartnershipTrack, language: OutreachLanguage, whyThisTrack: string, options: { senderName?: string; referralRateNote?: boolean } = {}): OutreachDraft {
+export function generateOutreach(c: Candidate, track: PartnershipTrack, language: OutreachLanguage, whyThisTrack: string, options: { senderName?: string; referralRateNote?: boolean; recipientGender?: RecipientGender } = {}): OutreachDraft {
   const facts = pickFacts(c);
   const name = firstName(c);
-  const ev = facts[0]?.fact;
+  const firstEvent = [...c.events].filter((e) => e.role === 'organizer' || e.role === 'co_host').sort((a, b) => (b.startDate ?? '').localeCompare(a.startDate ?? ''))[0];
+  const ev = firstEvent ? eventPhrase(firstEvent) : undefined;
   const sender = options.senderName ?? VILLA.propertyManager;
+  const g: RecipientGender = options.recipientGender ?? 'unknown';
+  const h = (female: string, male: string, plural: string) => heForm(g, female, male, plural);
   const en = {
     greeting: name ? `Hi ${name},` : 'Hi,',
-    hook: ev ? `I came across ${ev} and the way you run your groups.` : `I came across your work on Instagram and the way you run your groups.`,
+    hook: ev ? `I came across your ${ev} on Instagram and the way you run your groups.` : `I came across your work on Instagram and the way you run your groups.`,
     villa: `I manage Villa Lithos, a private 9-bedroom estate in Porto Rafti, 20 minutes from Athens airport with no ferry, built for hosted groups.`,
     scouting_stay: `Between November and April we open the house to a small number of hosts for a scouting stay: a few nights to experience the property, the area and the logistics, and to see whether it fits a future retreat of yours. No obligation.`,
     pilot_retreat: `We are looking for a few hosts to run a first retreat with us this winter. We would structure it as a pilot: you bring your group, we take care of the house and the local logistics, and we shape terms together around your format.`,
@@ -75,12 +95,12 @@ export function generateOutreach(c: Candidate, track: PartnershipTrack, language
   };
   const he = {
     greeting: name ? `היי ${name},` : 'היי,',
-    hook: ev ? `נתקלתי ב-${ev} ובאופן שבו את מנהלת את הקבוצות שלך.` : `נתקלתי בפעילות שלך באינסטגרם ובאופן שבו את מנהלת את הקבוצות שלך.`,
+    hook: ev ? `נתקלתי באינסטגרם ב-${ev} ${h('ובאופן שבו את מנהלת את הקבוצות שלך', 'ובאופן שבו אתה מנהל את הקבוצות שלך', 'ובאופן שבו אתם מנהלים את הקבוצות שלכם')}.` : `נתקלתי ${h('בפעילות שלך', 'בפעילות שלך', 'בפעילות שלכם')} באינסטגרם ${h('ובאופן שבו את מנהלת את הקבוצות שלך', 'ובאופן שבו אתה מנהל את הקבוצות שלך', 'ובאופן שבו אתם מנהלים את הקבוצות שלכם')}.`,
     villa: `אני מנהל את Villa Lithos, אחוזה פרטית עם 9 חדרי שינה בפורטו ראפטי, 20 דקות משדה התעופה של אתונה, בלי מעבורת, שמותאמת לאירוח קבוצות.`,
-    scouting_stay: `בין נובמבר לאפריל אנחנו פותחים את הבית למספר קטן של מארחות לביקור היכרות: כמה לילות להתרשם מהנכס, מהאזור ומהלוגיסטיקה, ולבדוק אם הוא מתאים לריטריט עתידי שלך. בלי התחייבות.`,
-    pilot_retreat: `אנחנו מחפשים כמה מארחות שיקיימו איתנו ריטריט ראשון בחורף הקרוב. נבנה אותו כפיילוט: את מביאה את הקבוצה, אנחנו דואגים לבית וללוגיסטיקה המקומית, ואת התנאים נגבש יחד סביב הפורמט שלך.`,
-    anchor_partnership: `נשמח לעבוד עם מספר קטן של מארחות לטווח ארוך: כמה ריטריטים או שהיות ארוכות לאורך עונת החורף, עם עדיפות בתאריכים ותנאים שמשקפים את ההתחייבות הזו.`,
-    referral_partnership: `נשמח להציע הסדר הפניות: כשמארחת מהקהילה שלך מזמינה את Villa Lithos לריטריט, את מקבלת עמלת הפניה על ההזמנה. בלי צורך לארח בעצמך.`,
+    scouting_stay: `בין נובמבר לאפריל אנחנו פותחים את הבית למספר קטן של ${h('מארחות', 'מארחים', 'מארחים')} לביקור היכרות: כמה לילות להתרשם מהנכס, מהאזור ומהלוגיסטיקה, ולבדוק אם הוא מתאים לריטריט עתידי ${h('שלך', 'שלך', 'שלכם')}. בלי התחייבות.`,
+    pilot_retreat: `אנחנו מחפשים ${h('כמה מארחות שיקיימו', 'כמה מארחים שיקיימו', 'כמה מארחים שיקיימו')} איתנו ריטריט ראשון בחורף הקרוב. נבנה אותו כפיילוט: ${h('את מביאה', 'אתה מביא', 'אתם מביאים')} את הקבוצה, אנחנו דואגים לבית וללוגיסטיקה המקומית, ואת התנאים נגבש יחד סביב הפורמט ${h('שלך', 'שלך', 'שלכם')}.`,
+    anchor_partnership: `נשמח לעבוד עם מספר קטן של ${h('מארחות', 'מארחים', 'מארחים')} לטווח ארוך: כמה ריטריטים או שהיות ארוכות לאורך עונת החורף, עם עדיפות בתאריכים ותנאים שמשקפים את ההתחייבות הזו.`,
+    referral_partnership: `נשמח להציע הסדר הפניות: כשמארח או מארחת ${h('מהקהילה שלך', 'מהקהילה שלך', 'מהקהילה שלכם')} מזמינים את Villa Lithos לריטריט, ${h('את מקבלת', 'אתה מקבל', 'אתם מקבלים')} עמלת הפניה על ההזמנה. בלי צורך לארח ${h('בעצמך', 'בעצמך', 'בעצמכם')}.`,
     close: `אם זה מעניין, אשמח לשלוח תמונות, תוכניות קומה ותאריכים, ולענות על כל שאלה לגבי החורף באטיקה.`,
     sign: `בברכה,\n${sender}\nVilla Lithos, Porto Rafti\n${VILLA.website}`,
   };
@@ -92,18 +112,19 @@ export function generateOutreach(c: Candidate, track: PartnershipTrack, language
 }
 
 /** Message asking for the private data needed for Stage 2. Short, specific, never sent automatically. */
-export function generateInsightsRequest(c: Candidate, language: OutreachLanguage, senderName = VILLA.propertyManager): string {
+export function generateInsightsRequest(c: Candidate, language: OutreachLanguage, senderName = VILLA.propertyManager, recipientGender: RecipientGender = 'unknown'): string {
   const name = firstName(c);
+  const h = (female: string, male: string, plural: string) => heForm(recipientGender, female, male, plural);
   if (language === 'he') {
     return [
       name ? `היי ${name},` : 'היי,', '',
-      'כדי שנוכל לבנות הצעה שמתאימה לקבוצות שלך, אשמח אם תוכלי לשתף כמה נתונים. צילומי מסך מ-Instagram Insights מספיקים לגמרי:',
+      `כדי שנוכל לבנות הצעה שמתאימה לקבוצות ${h('שלך', 'שלך', 'שלכם')}, אשמח אם ${h('תוכלי', 'תוכל', 'תוכלו')} לשתף כמה נתונים. צילומי מסך מ-Instagram Insights מספיקים לגמרי:`,
       '1. Accounts reached ו-Views ב-90 הימים האחרונים.',
       '2. פילוח הקהל: מדינות וערים מובילות, גיל ומגדר.',
       '3. ממוצע צפיות ו-reach של סטוריז וריילס.',
-      '4. לגבי הריטריטים: כמה אירועים קיימת, כמה משתתפים בכל אחד, והאם התמלאו.',
+      `4. לגבי הריטריטים: כמה אירועים ${h('קיימת', 'קיימת', 'קיימתם')}, כמה משתתפים בכל אחד, והאם התמלאו.`,
       '5. אם יש Media Kit או דוח מקמפיין קודם, גם הוא יעזור.', '',
-      'המידע ישמש רק לבחינת שיתוף הפעולה, יישמר בצורה מאובטחת ויימחק לבקשתך.', '',
+      `המידע ישמש רק לבחינת שיתוף הפעולה, יישמר בצורה מאובטחת ויימחק ${h('לבקשתך', 'לבקשתך', 'לבקשתכם')}.`, '',
       `תודה,\n${senderName}\nVilla Lithos`,
     ].join('\n');
   }

@@ -9,7 +9,7 @@ for f in sorted(glob.glob(f'{base}/candidates-slice-*.json')):
     d = json.load(open(f))
     stats.append({'file': os.path.basename(f), **d.get('stats', {})})
     for c in d.get('candidates', []):
-        h = (c.get('handle') or '').strip().lower().lstrip('@')
+        h = (c.get('handle') or '').strip().lower().lstrip('@').strip('.')  # IG handles never start/end with '.'
         if not re.fullmatch(r'[a-z0-9._]{1,30}', h): continue
         if h in cands:
             e = cands[h]

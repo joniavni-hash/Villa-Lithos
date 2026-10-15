@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { generateQueries, DEFAULT_RUN_PARAMETERS, balancedSelection } from '../src/discovery/queryGenerator.ts';
-import { handleFromUrl, handleFromTitle, handleFromExtractedText, followersFromText, mergeCandidate, normalizeWebsite } from '../src/discovery/normalize.ts';
+import { handleFromUrl, handleFromTitle, handleFromExtractedText, followersFromText, mergeCandidate, normalizeWebsite, cleanHandle } from '../src/discovery/normalize.ts';
 import { normalizeWeights, DEFAULT_WEIGHTS } from '../src/scoring/weights.ts';
 import { scoreCandidate } from '../src/scoring/score.ts';
 import { estimateVenueBudget } from '../src/scoring/budget.ts';
@@ -220,5 +220,45 @@ describe('normalizeWebsite', () => {
   it('returns null for empty values', () => {
     expect(normalizeWebsite(null)).toBeNull();
     expect(normalizeWebsite('  ')).toBeNull();
+  });
+});
+
+describe('outreach wording', () => {
+  const base = (): Candidate => ({
+    profile: { handle: 'host_x', profileUrl: 'https://www.instagram.com/host_x/', displayName: 'Dana Levi', bio: null, followers: null, followersProvenance: 'unknown', website: null, country: null, languages: ['en'], niche: null },
+    accountType: 'person_or_brand', markets: [], evidence: [],
+    events: [{ title: 'The Winter Reset retreat, Lanzarote', eventType: 'yoga_retreat', startDate: '2027-01-10', endDate: '2027-01-15', nights: 5, location: 'Lanzarote, Canary Islands', country: 'ES', groupSize: null, pricePerPerson: null, currency: null, soldOut: false, role: 'organizer', isWinter: true, provenance: 'verified_public_fact', evidenceUrls: ['https://www.instagram.com/p/x'] }],
+    verificationStatus: 'public_only', pipelineStage: 'discovered', discoveredAt: '2026-10-15', lastSeenAt: '2026-10-15', discoveryQueries: [],
+  } as unknown as Candidate);
+  it('opening line names the event once, without repeating the place or a raw date', () => {
+    const en = generateOutreach(base(), 'pilot_retreat', 'en', 'r');
+    expect(en.body).toContain('I came across your Winter Reset retreat, Lanzarote on Instagram');
+    expect(en.body).not.toContain('2027-01-10');
+    expect(en.body).not.toContain('your The ');
+  });
+  it('Hebrew defaults to the neutral plural form and honours an explicit gender', () => {
+    const neutral = generateOutreach(base(), 'pilot_retreat', 'he', 'r').body;
+    expect(neutral).toContain('אתם מביאים');
+    expect(neutral).not.toContain('את מביאה');
+    expect(generateOutreach(base(), 'pilot_retreat', 'he', 'r', { recipientGender: 'female' }).body).toContain('את מביאה');
+    expect(generateOutreach(base(), 'pilot_retreat', 'he', 'r', { recipientGender: 'male' }).body).toContain('אתה מביא');
+    expect(generateInsightsRequest(base(), 'he')).toContain('תוכלו');
+    expect(generateInsightsRequest(base(), 'he', undefined, 'female')).toContain('תוכלי');
+  });
+  it('track reasons are gender neutral', () => {
+    for (const r of [recommendTrack(base()).reason]) expect(r).not.toMatch(/\b(she|her|herself|he|him|his)\b/i);
+  });
+});
+
+describe('cleanHandle', () => {
+  it('drops sentence punctuation and @, keeps inner periods', () => {
+    expect(cleanHandle('@JamieBerman_.')).toBe('jamieberman_');
+    expect(cleanHandle('yoga.with.dana')).toBe('yoga.with.dana');
+    expect(handleFromExtractedText('More posts from thenomadcollective_.')).toBe('thenomadcollective_');
+  });
+  it('rejects invalid handles', () => {
+    expect(cleanHandle('a..b')).toBeNull();
+    expect(cleanHandle('...')).toBeNull();
+    expect(cleanHandle('has space')).toBeNull();
   });
 });

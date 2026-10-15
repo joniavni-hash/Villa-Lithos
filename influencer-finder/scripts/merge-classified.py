@@ -11,7 +11,7 @@ JUDG = ['decidesVenue','sellsRetreats','provenWinterActivity','canFillGroupSize'
 NOW = '2026-10-15T20:00:00Z'
 for f in sorted(glob.glob(f'{base}/classified-batch-*.json')):
     for r in json.load(open(f))['results']:
-        h = r['handle']; c = by.get(h)
+        h = r['handle'].strip().lower().lstrip('@').strip('.'); c = by.get(h)  # same canonical form as merge-slices.py
         if not c: problems.append(f'{h}: not in candidates.json'); continue
         urls = {e['url'] for e in c['evidence']} | {e.get('url') for e in c.get('eventsMentioned', [])}
         cl = r['classification']

@@ -238,6 +238,15 @@
      "source": "tavily",
      "observedAt": "2026-10-15T20:00:00Z",
      "score": 0.8055255
+    },
+    {
+     "url": "https://www.instagram.com/p/DXbWnjUjQBX?__d=1%2F",
+     "title": "Instagram",
+     "excerpt": "🏟️ Tenerife April 7th 2026 Vlog 3  \n☀️ Tenerife Padel Retreats April 5th-10th 2026  \nwww.tenerifepadelretreats.com  \n✅ €368 winter dates   \n✅ €299 summer dates promotion  \nWinter dates are now available for 2026 & 2027 book now and save as prices could increase in future if padel clubs raise prices.\n\nmax_eeee's profile picture\n\nmax\\_eeee\n\nFantastic experience, definitely book again x\n\nReply\n\n171\n\n",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.7482976
     }
    ],
    "classification": {
@@ -343,6 +352,7 @@
    "discoveredAt": "2026-10-15T20:00:00Z",
    "lastSeenAt": "2026-10-15T20:00:00Z",
    "discoveryQueries": [
+    "6ff97ede",
     "e257a573"
    ]
   },
@@ -1088,9 +1098,9 @@
     "handle": "tenerifepadelcamp",
     "profileUrl": "https://www.instagram.com/tenerifepadelcamp/",
     "displayName": "Tenerife Padel Camp",
-    "bio": null,
-    "followers": null,
-    "followersProvenance": "unknown",
+    "bio": "Log In\n\nSign Up\n\n 1,579 followers\n 3,895 following\n\nTenerife Padel Camp\n\n🎾💫☀️🏝️ Padel Retreats in Tenerife.   \n5 Nights/ 6 days camps €368 monthly dates in 2026/2027  \nwww.tenerifepadelretreats\n\n...\n\nmore\n\n tenerifepadelcamp's highlight story picture\n\n  Oct 2026 Camps\n tenerifepadelcamp's highlight story picture\n\n  Deals\n tenerifepadelcamp's highlight story picture\n\n  August 9th Camp\n tenerifepadelcamp's highlight story picture\n\n  April 5-10 Camp\n tenerifepadelcamp's highlight story picture [...] Photo by Tenerife Padel Camp on September 17, 2026. May be an image of text that says 'TENERIFE PA",
+    "followers": 1579,
+    "followersProvenance": "verified_public_fact",
     "website": "www.tenerifepadelretreats.com",
     "country": "ES",
     "languages": [
@@ -2358,6 +2368,15 @@
      "source": "tavily",
      "observedAt": "2026-10-15T20:00:00Z",
      "score": 0.35333946
+    },
+    {
+     "url": "https://www.instagram.com/p/DRJ39n2DFAB",
+     "title": "Instagram",
+     "excerpt": "Looking for alternative plans between Christmas and into the new year? There’s still space on this yoga retreat in the Canary Islands. 🎇  \n  \nAs featured in The Guardian’s ‘10 Great Christmas Getaways’.  \n  \n-6 day Luxury New Year Yoga Retreat  \n-28th December - 2nd January  \n-Canary Islands - Spain  \n  \nLocated in the serene and picturesque Lanzarote, the villa boasts a tennis court, a swimming p",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.55623144
     }
    ],
    "classification": {
@@ -2439,6 +2458,7 @@
    "discoveredAt": "2026-10-15T20:00:00Z",
    "lastSeenAt": "2026-10-15T20:00:00Z",
    "discoveryQueries": [
+    "26ccaf11",
     "f7c53ae4"
    ]
   },
@@ -2913,6 +2933,24 @@
      "source": "tavily",
      "observedAt": "2026-10-15T20:00:00Z",
      "score": 0.46395484
+    },
+    {
+     "url": "https://www.instagram.com/reel/DT8Sim1CPPa",
+     "title": "Instagram",
+     "excerpt": "There’s plenty of work ahead as I prep for the retreat, but passion always takes the lead. This island fuels me, grounds me, and reminds me why I do what I do.  \nGrateful that I’ve found @villa\\_las\\_perseidas to host my retreats. Friendly hosts who accommodate me and my guests.  \n2 back to back retreats all full booked 🙏  \n  \n#sandydonnelly #dbchealthretreat #pilatesretreat #healthretreat #lanzar",
+     "kind": "reel",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.4689128
+    },
+    {
+     "url": "https://www.instagram.com/reel/DT8Sim1CPPa",
+     "title": "Instagram",
+     "excerpt": "There’s plenty of work ahead as I prep for the retreat, but passion always takes the lead. This island fuels me, grounds me, and reminds me why I do what I do.  \nGrateful that I’ve found @villa\\_las\\_perseidas to host my retreats. Friendly hosts who accommodate me and my guests.  \n2 back to back retreats all full booked 🙏  \n  \n#sandydonnelly #dbchealthretreat #pilatesretreat #healthretreat #lanzar",
+     "kind": "reel",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.55709904
     }
    ],
    "classification": {
@@ -3008,7 +3046,9 @@
    "discoveredAt": "2026-10-15T20:00:00Z",
    "lastSeenAt": "2026-10-15T20:00:00Z",
    "discoveryQueries": [
-    "1146eb97"
+    "1146eb97",
+    "26ccaf11",
+    "86a72896"
    ]
   },
   {
@@ -3312,7 +3352,7 @@
    "profile": {
     "handle": "shanyelad",
     "profileUrl": "https://www.instagram.com/shanyelad/",
-    "displayName": "Reel by Elad Shany",
+    "displayName": "Elad Shany",
     "bio": null,
     "followers": null,
     "followersProvenance": "unknown",
@@ -4328,10 +4368,10 @@
     "handle": "the_padel_circle_",
     "profileUrl": "https://www.instagram.com/the_padel_circle_/",
     "displayName": "The Padel Circle",
-    "bio": null,
-    "followers": null,
-    "followersProvenance": "unknown",
-    "website": null,
+    "bio": "Log In\n\nSign Up\n\n## the\\_padel\\_circle\\_\n\n 1,705 followers\n 563 following\n\nThe Padel Circle\n\nthe\\_padel\\_circle\\_\n\nThe home of padel camps worldwide.  \nJoin the global community of padel travellers 🌍\n\nlinktr.ee/thepadelcircle\n\n the_padel_circle_'s highlight story picture\n\n  Happy Players\n\nVideo by The Padel Circle on October 15, 2026. May be an image of swimming, raft, beach ball, pool and text.\n\nPhoto by The Padel Circle on October 14, 2026. May be an image of text. [...] Photo by The Padel Circle on October 11, 2026. May be an image of tennis, racket, sports equipment, outdoors, basketball c",
+    "followers": 1705,
+    "followersProvenance": "verified_public_fact",
+    "website": "linktr.ee/thepadelcircle",
     "country": "ES",
     "languages": [
      "en"
@@ -4430,6 +4470,15 @@
      "source": "tavily",
      "observedAt": "2026-10-15T20:00:00Z",
      "score": 0.68723184
+    },
+    {
+     "url": "https://www.instagram.com/p/Dcaw7tFD1ng",
+     "title": "Instagram",
+     "excerpt": "Canary Islands Padel Retreat - Gran Canaria  \n  \n📅 Oct 7 - 11, 2026 · From €919 [...] A 5-day, 4-night padel retreat in Gran Canaria with 18h of padel, including 9h of professional coaching and 9h of additional play. Stay in a 4★ resort with daily breakfast, lunches on training days, welcome drinks and nibbles, a welcome gift, farewell dinner at a local restaurant, court rental and balls included.",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.60750073
     }
    ],
    "classification": {
@@ -4520,6 +4569,7 @@
    "discoveredAt": "2026-10-15T20:00:00Z",
    "lastSeenAt": "2026-10-15T20:00:00Z",
    "discoveryQueries": [
+    "6ff97ede",
     "e257a573"
    ]
   },
@@ -4531,7 +4581,7 @@
     "bio": "The art of hosting profitable retreats Retreat Strategist |Mindset Coach | Entrepreneur @the_retreat_academy @erthretreat · @departmentofwellbeing. Follow.",
     "followers": 12700,
     "followersProvenance": "verified_public_fact",
-    "website": "linktr.ee/the",
+    "website": "linktr.ee/the_retreat_academy",
     "country": "GB",
     "languages": [
      "en"
@@ -4775,8 +4825,8 @@
   },
   {
    "profile": {
-    "handle": "thenomadcollective_.",
-    "profileUrl": "https://www.instagram.com/thenomadcollective_./",
+    "handle": "thenomadcollective_",
+    "profileUrl": "https://www.instagram.com/thenomadcollective_/",
     "displayName": "The nOMad Collective (Phoebe Leona)",
     "bio": null,
     "followers": null,
@@ -5026,8 +5076,8 @@
   },
   {
    "profile": {
-    "handle": "therizalacademy.",
-    "profileUrl": "https://www.instagram.com/therizalacademy./",
+    "handle": "therizalacademy",
+    "profileUrl": "https://www.instagram.com/therizalacademy/",
     "displayName": "TRAIL / The Rizal Academy",
     "bio": null,
     "followers": null,
@@ -6464,8 +6514,8 @@
   },
   {
    "profile": {
-    "handle": "yogaschule_passau.",
-    "profileUrl": "https://www.instagram.com/yogaschule_passau./",
+    "handle": "yogaschule_passau",
+    "profileUrl": "https://www.instagram.com/yogaschule_passau/",
     "displayName": "Babette Woitke",
     "bio": null,
     "followers": null,
@@ -6754,7 +6804,7 @@
     "bio": null,
     "followers": null,
     "followersProvenance": "unknown",
-    "website": "Fair.co",
+    "website": "Yogiandwild.com",
     "country": "FR",
     "languages": [
      "fr"
@@ -9032,10 +9082,1674 @@
   },
   {
    "profile": {
+    "handle": "simonborgolivier",
+    "profileUrl": "https://www.instagram.com/simonborgolivier/",
+    "displayName": null,
+    "bio": null,
+    "followers": null,
+    "followersProvenance": "unknown",
+    "website": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher trainer (200h/300h)"
+   },
+   "accountType": "person_or_brand",
+   "markets": [],
+   "events": [
+    {
+     "title": "200h and 300h Yoga Teacher Training at Agricola Samadhi, Salento",
+     "eventType": "teacher_training",
+     "startDate": "2026-05-09",
+     "endDate": "2026-06-06",
+     "nights": 28,
+     "location": "Agricola Samadhi eco-retreat, Salento",
+     "country": "IT",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQ9HifMjE_N"
+     ]
+    },
+    {
+     "title": "200-Hour Yoga Teacher Training, seven-month study",
+     "eventType": "teacher_training",
+     "startDate": "2026-11",
+     "endDate": "2027-05",
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQ9HifMjE_N"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DQ9HifMjE_N",
+     "title": "Comment “EARLY” to get more info & secure your EARLY BIRD ...",
+     "excerpt": "Our 200-Hour Yoga Teacher Training is a seven-month immersive study from November 2026 through May 2027, designed to take you far beyond the physical practice.",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.7961819
+    }
+   ],
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQ9HifMjE_N"
+     ],
+     "note": "Runs his '200h & 300h Teacher Training in Europe' at a third-party venue he names (the Mediterranean eco-retreat Agricola Samadhi, @yogainsalento), so venue choice sits with him."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQ9HifMjE_N"
+     ],
+     "note": "First-person sales copy: 'my only 200h & 300h Teacher Training in Europe', early bird pricing, 'Spaces are limited', comment EARLY to secure a spot. The product is a residential teacher training rather than a retreat."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.35,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQ9HifMjE_N"
+     ],
+     "note": "The post excerpt says 'Our 200-Hour Yoga Teacher Training is a seven-month immersive study from November 2026 through May 2027'. Low confidence: it conflicts with the 'one transformative month' Salento format in the same pack and the format (residential or online) is not stated."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only 'Spaces are limited'; no spot count or sold-out signal."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price in the evidence; early bird mentioned without an amount."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQ9HifMjE_N"
+     ],
+     "note": "Offers both 200h and 300h trainings and calls Salento his only one in Europe, implying other editions elsewhere (India appears as a location hint)."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQ9HifMjE_N"
+     ],
+     "note": "'For one transformative month' residential training; the pack's extracted dates are 9 May to 6 June 2026, i.e. a month-long stay."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQ9HifMjE_N"
+     ],
+     "note": "Holds trainings at a Mediterranean eco-retreat, a setting comparable to a Greek coastal villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sold-out or past-attendance evidence; 'Early Bird EXTENDED' could signal slower sales but is not conclusive."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Pack mixes two formats: a one-month Salento training (May to June 2026) and a seven-month Nov 2026 to May 2027 training; attribution of the winter dates is uncertain",
+     "Early bird deadline was extended to 31 January 2026",
+     "No bio, follower count or price in the pack"
+    ],
+    "missingInformation": [
+     "Whether the Nov 2026 to May 2027 training is residential and where it runs",
+     "Group size and price of the Salento month",
+     "Follower count and audience geography"
+    ],
+    "summary": "@simonborgolivier sells a month-long 200h and 300h yoga teacher training at the Agricola Samadhi eco-retreat in Salento, Italy (extracted dates 9 May to 6 June 2026), with early bird pricing and limited spaces. He chooses third-party Mediterranean venues and runs month-long residential formats, which is the strongest long-stay signal the villa can get. The same post also mentions a seven-month training from November 2026 to May 2027, but its format and location are unclear, so the winter evidence is weak. Medium commercial risk; a pilot conversation about hosting a month-long winter or spring training in Greece is the realistic step.",
+    "model": "claude-session-analyst",
+    "analysedAt": "2026-10-15T20:00:00Z"
+   },
+   "verificationStatus": "public_only",
+   "pipelineStage": "discovered",
+   "discoveredAt": "2026-10-15T20:00:00Z",
+   "lastSeenAt": "2026-10-15T20:00:00Z",
+   "discoveryQueries": [
+    "91b84d60"
+   ]
+  },
+  {
+   "profile": {
+    "handle": "soulandsunyoga",
+    "profileUrl": "https://www.instagram.com/soulandsunyoga/",
+    "displayName": "Conscious Travel | Anke Lenz & Team",
+    "bio": "Retreats nah & fern (DE, Ös. Retreat-Kalender 2026/2027 ✨ *Yoga & Aerial Retreat Andalusien, El Palmar Move and Connect. Bio und unter www.soulandsunyoga.com.",
+    "followers": null,
+    "followersProvenance": "unknown",
+    "website": "www.soulandsunyoga.com",
+    "country": "DE",
+    "languages": [
+     "de"
+    ],
+    "niche": "yoga and aerial yoga retreats, conscious travel"
+   },
+   "accountType": "person_or_brand",
+   "markets": [
+    "DE"
+   ],
+   "events": [],
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/soulandsunyoga",
+     "title": "Conscious Travel | Anke Lenz & Team (@soulandsunyoga) ...",
+     "excerpt": "Retreats nah & fern (DE, Ös. Retreat-Kalender 2026/2027 ✨ *Yoga & Aerial Retreat Andalusien, El Palmar Move and Connect. Bio und unter www.soulandsunyoga.com.",
+     "kind": "profile",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.52422476
+    }
+   ],
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/soulandsunyoga"
+     ],
+     "note": "'Retreats nah & fern' with a published retreat calendar across several places (Germany, Austria, Andalusia, El Palmar) implies the team selects venues."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/soulandsunyoga"
+     ],
+     "note": "Bio advertises its own 'Retreat-Kalender 2026/2027' and a 'Yoga & Aerial Retreat Andalusien'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "The 2026/2027 calendar spans the winter season, but no dated event is shown."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/soulandsunyoga"
+     ],
+     "note": "A multi-retreat calendar run by 'Anke Lenz & Team'."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat lengths shown."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/soulandsunyoga"
+     ],
+     "note": "Conscious-travel yoga and aerial retreats in Mediterranean destinations (Andalusia) suit a Greek villa; German-speaking audience is a priority market."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sold-out or attendance evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Only a profile bio snippet; no dated events, prices or follower count"
+    ],
+    "missingInformation": [
+     "Dates and destinations on the 2026/2027 retreat calendar, especially Nov to Apr",
+     "Group size and price per person",
+     "Whether aerial yoga needs rigging the villa would have to provide"
+    ],
+    "summary": "Conscious Travel by Anke Lenz & Team (soulandsunyoga.com) runs retreats 'nah & fern' in Germany, Austria and abroad, with a published 2026/2027 retreat calendar and a Yoga & Aerial retreat in Andalusia (El Palmar). That is a German-speaking organiser with a team and a multi-destination calendar, a good structural match for a Greek venue. The pack has no dated winter event, price or group size, so commercial risk is unknown. Check the calendar on the website and pitch a pilot retreat for a winter or spring slot.",
+    "model": "claude-session-analyst",
+    "analysedAt": "2026-10-15T20:00:00Z"
+   },
+   "verificationStatus": "public_only",
+   "pipelineStage": "discovered",
+   "discoveredAt": "2026-10-15T20:00:00Z",
+   "lastSeenAt": "2026-10-15T20:00:00Z",
+   "discoveryQueries": [
+    "5db891f7"
+   ]
+  },
+  {
+   "profile": {
+    "handle": "sterrekopjefarm",
+    "profileUrl": "https://www.instagram.com/sterrekopjefarm/",
+    "displayName": "Sterrekopje Farm",
+    "bio": null,
+    "followers": null,
+    "followersProvenance": "unknown",
+    "website": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "farm venue hosting women's retreats"
+   },
+   "accountType": "venue",
+   "markets": [],
+   "events": [
+    {
+     "title": "Wise Women Spring Retreat",
+     "eventType": "womens_retreat",
+     "startDate": "2026-12-05",
+     "endDate": "2026-12-11",
+     "nights": 6,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": false,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcJbc0ikbzX"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DcJbc0ikbzX",
+     "title": "Instagram",
+     "excerpt": "sterrekopjefarm\n\nWith two spaces remaining, we invite you to our Wise Women Spring Retreat. Together, we will work with the energy of Spring, the element of Air and the Maiden archetype, reconnecting with our eternal youth and infinite potential, opening ourselves to the portals of new beginnings, new creations and all that is ready to come into being. Join us from 5–11 December 2026. Link in bio ",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.69968605
+    }
+   ],
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcJbc0ikbzX"
+     ],
+     "note": "Account is a farm (pack accountType venue) inviting guests to 'our' retreat; it hosts on its own property rather than choosing venues."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcJbc0ikbzX"
+     ],
+     "note": "'We invite you to our Wise Women Spring Retreat', 'Link in bio to book'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcJbc0ikbzX"
+     ],
+     "note": "Dated retreat 5 to 11 December 2026 that it runs."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'Two spaces remaining' without a total."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price shown."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only one retreat visible; 'Spring' naming hints at a seasonal series but is not proof."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcJbc0ikbzX"
+     ],
+     "note": "Six-night format."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No aesthetic or audience evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcJbc0ikbzX"
+     ],
+     "note": "Down to 'two spaces remaining' before the retreat, suggesting near-full sales."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account hosting retreats on its own farm, not a host who books other venues",
+     "A 'Spring' retreat in December implies a southern-hemisphere location (inference); far from Greece"
+    ],
+    "missingInformation": [
+     "Location of the farm and whether it ever runs retreats elsewhere",
+     "Group size",
+     "Price per person"
+    ],
+    "summary": "Sterrekopje Farm invites followers to its own Wise Women Spring Retreat, 5 to 11 December 2026, with two spaces remaining and booking via link in bio. It is a venue running retreats on its own property, so it is not a buyer of other venues, and the 'Spring' label in December points to a southern-hemisphere base (inference). High commercial risk for the villa: classify as none and keep only as a market reference.",
+    "model": "claude-session-analyst",
+    "analysedAt": "2026-10-15T20:00:00Z"
+   },
+   "verificationStatus": "public_only",
+   "pipelineStage": "discovered",
+   "discoveredAt": "2026-10-15T20:00:00Z",
+   "lastSeenAt": "2026-10-15T20:00:00Z",
+   "discoveryQueries": [
+    "eb024675"
+   ]
+  },
+  {
+   "profile": {
+    "handle": "sunfloweryogaspringfld",
+    "profileUrl": "https://www.instagram.com/sunfloweryogaspringfld/",
+    "displayName": "Sunflower Yoga Springfield",
+    "bio": null,
+    "followers": null,
+    "followersProvenance": "unknown",
+    "website": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga studio running destination retreats"
+   },
+   "accountType": "person_or_brand",
+   "markets": [],
+   "events": [
+    {
+     "title": "Pura Vida Soul & Sol Retreat",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-01-25",
+     "endDate": "2027-02-01",
+     "nights": 7,
+     "location": "Costa Rica",
+     "country": "CR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdILmgbCWPL"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DdILmgbCWPL",
+     "title": "Instagram",
+     "excerpt": "RETREATS ARE TRANSFORMATIONAL....community, adventure, self-discovery, and relationships that extend beyond your time there. I can't tell you how much it will feed your soul and lift your spirit. Costa Rica is next so take my hand and come with us. I want to show you one of the most beautiful places in the world. Our Pura Vida Soul & Sol Retreat is January 25-February 1, 2027. Escape winter...join",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.32885316
+    }
+   ],
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdILmgbCWPL"
+     ],
+     "note": "'Costa Rica is next... I want to show you one of the most beautiful places in the world': she picks destinations for her group."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdILmgbCWPL"
+     ],
+     "note": "First-person organiser copy: 'Our Pura Vida Soul & Sol Retreat', 'take my hand and come with us'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdILmgbCWPL"
+     ],
+     "note": "Dated retreat January 25 to February 1, 2027, explicitly marketed as 'Escape winter'."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No spot count."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdILmgbCWPL"
+     ],
+     "note": "'Costa Rica is next' and 'RETREATS ARE TRANSFORMATIONAL' imply previous retreats."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdILmgbCWPL"
+     ],
+     "note": "Seven-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdILmgbCWPL"
+     ],
+     "note": "Community-led yoga retreat with an escape-winter angle; no luxury signal either way."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdILmgbCWPL"
+     ],
+     "note": "Implied prior retreats ('Costa Rica is next')."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Home market not stated; the handle suggests a Springfield yoga studio, and a Costa Rica choice hints at a North American audience (inference), which would make Greece long-haul",
+     "No price, group size or follower count"
+    ],
+    "missingInformation": [
+     "Studio location and audience geography",
+     "Group size and price of the Costa Rica retreat",
+     "Past retreat destinations"
+    ],
+    "summary": "Sunflower Yoga (Springfield, per handle) sells its own Pura Vida Soul & Sol Retreat in Costa Rica, January 25 to February 1, 2027, pitched as an escape from winter, and says 'Costa Rica is next', implying earlier trips. That is a clear winter-dated organiser that chooses destinations. The audience appears North American (inference), so Greece would be a long-haul switch and commercial risk is medium. Worth a pilot conversation for a future winter or spring edition.",
+    "model": "claude-session-analyst",
+    "analysedAt": "2026-10-15T20:00:00Z"
+   },
+   "verificationStatus": "public_only",
+   "pipelineStage": "discovered",
+   "discoveredAt": "2026-10-15T20:00:00Z",
+   "lastSeenAt": "2026-10-15T20:00:00Z",
+   "discoveryQueries": [
+    "98e3b92e"
+   ]
+  },
+  {
+   "profile": {
+    "handle": "tauernhofaustria",
+    "profileUrl": "https://www.instagram.com/tauernhofaustria/",
+    "displayName": "Tauernhof",
+    "bio": null,
+    "followers": null,
+    "followersProvenance": "unknown",
+    "website": null,
+    "country": "AT",
+    "languages": [
+     "de",
+     "en"
+    ],
+    "niche": "venue / school running residential programmes"
+   },
+   "accountType": "person_or_brand",
+   "markets": [
+    "OTHER"
+   ],
+   "events": [
+    {
+     "title": "FBS 2026 (two-week programme)",
+     "eventType": "long_stay_program",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Tauernhof",
+     "country": "AT",
+     "groupSize": 95,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/tauernhofaustria/reels"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/tauernhofaustria/reels",
+     "title": "Tauernhof (@tauernhofaustria)",
+     "excerpt": "Welcome, FBS 2026! Zwei Wochen voller Gemeinschaft und Abenteuer zusammen! our 95 students arriving this weekend. Sommer 2026 — Jetzt Anmelden! #jetztanmelden",
+     "kind": "website",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.59061456
+    }
+   ],
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/tauernhofaustria/reels"
+     ],
+     "note": "Welcomes '95 students arriving this weekend' to its own programme; it is the host site, not a buyer of venues."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/tauernhofaustria/reels"
+     ],
+     "note": "Sells its own in-house programmes ('FBS 2026', 'Sommer 2026 - Jetzt Anmelden'), not retreats held at other venues."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/tauernhofaustria/reels"
+     ],
+     "note": "Only summer 2026 programmes are mentioned."
+    },
+    "canFillGroupSize": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/tauernhofaustria/reels"
+     ],
+     "note": "'Our 95 students' shows it fills large groups, but at a scale far beyond an 18-guest villa."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/tauernhofaustria/reels"
+     ],
+     "note": "Named annual programme ('FBS 2026') and a summer intake."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/tauernhofaustria/reels"
+     ],
+     "note": "'Zwei Wochen' (two-week) programme, but on its own premises."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/tauernhofaustria/reels"
+     ],
+     "note": "Large student cohorts (95) do not match a 9-bedroom villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No revenue or sell-out evidence beyond attendance."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue or school running programmes on its own site, not a host who books venues",
+     "Group scale (95 students) far exceeds villa capacity"
+    ],
+    "missingInformation": [
+     "Whether it ever runs small off-site groups",
+     "Nature of the FBS programme"
+    ],
+    "summary": "Tauernhof (Austria) welcomes 95 students for a two-week 'FBS 2026' programme and opens registration for summer 2026, all on its own premises. It is a venue and school with large cohorts, not a retreat organiser that selects external venues, and there is no winter activity in the pack. Classified as none; high commercial risk for the villa.",
+    "model": "claude-session-analyst",
+    "analysedAt": "2026-10-15T20:00:00Z"
+   },
+   "verificationStatus": "public_only",
+   "pipelineStage": "discovered",
+   "discoveredAt": "2026-10-15T20:00:00Z",
+   "lastSeenAt": "2026-10-15T20:00:00Z",
+   "discoveryQueries": [
+    "5db891f7"
+   ]
+  },
+  {
+   "profile": {
+    "handle": "tenerifehmtpadelholidays",
+    "profileUrl": "https://www.instagram.com/tenerifehmtpadelholidays/",
+    "displayName": null,
+    "bio": null,
+    "followers": null,
+    "followersProvenance": "unknown",
+    "website": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "padel holidays (Tenerife)"
+   },
+   "accountType": "person_or_brand",
+   "markets": [],
+   "events": [
+    {
+     "title": "Tenerife padel holidays, winter 2026/27 season",
+     "eventType": "padel_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Tenerife",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "promoter",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Da7wNfFMJs0"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Da7wNfFMJs0",
+     "title": "Instagram",
+     "excerpt": "•\n\nFollow\n\ntenerifehmtpadelholidays's profile picture\n\ntenerifehmtpadelholidays\n\nCheck out tenerifepadelholidays confirmed dates for winter 2026/27 please contact me or tamara for information @tenerifepadelholidays #padel #padeladdict\n\n## No comments yet.\n\nStart the conversation.\n\n3\n\nLog in to like or comment.\n\nMore posts from tenerifehmtpadelholidays\n\nPhoto by @tenerifehmtpadelholidays on October",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.568057
+    }
+   ],
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Padel holidays appear tied to Tenerife by brand; no evidence the operator picks venues outside it."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Da7wNfFMJs0"
+     ],
+     "note": "'Please contact me or tamara for information' about the padel holiday dates: the account takes enquiries for the holidays, apparently as part of the @tenerifepadelholidays operation."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Da7wNfFMJs0"
+     ],
+     "note": "Promotes 'confirmed dates for winter 2026/27' for padel holidays; the dates themselves are not in the excerpt."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Da7wNfFMJs0"
+     ],
+     "note": "Multiple 'confirmed dates' for a winter season imply a recurring programme."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No holiday length shown."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Padel holidays need courts; no evidence about fit with a villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sell-out or attendance evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Dates belong to a separate account (@tenerifepadelholidays); this account looks like an affiliate or staff account, so attribution is uncertain",
+     "Destination-locked brand (Tenerife) and padel requires court access",
+     "Post has no comments; very thin pack"
+    ],
+    "missingInformation": [
+     "Actual winter 2026/27 dates and group sizes",
+     "Relationship between this account and @tenerifepadelholidays",
+     "Whether they would run a padel trip outside Tenerife"
+    ],
+    "summary": "This account promotes confirmed winter 2026/27 dates for @tenerifepadelholidays and asks people to contact 'me or tamara', so it is part of a padel holiday operation that runs a winter season. The product is branded around Tenerife and needs padel courts, and the actual dates sit on the other account, so the fit for a Greek villa without courts is weak. Medium commercial risk; worth a scouting check on @tenerifepadelholidays rather than direct pursuit.",
+    "model": "claude-session-analyst",
+    "analysedAt": "2026-10-15T20:00:00Z"
+   },
+   "verificationStatus": "public_only",
+   "pipelineStage": "discovered",
+   "discoveredAt": "2026-10-15T20:00:00Z",
+   "lastSeenAt": "2026-10-15T20:00:00Z",
+   "discoveryQueries": [
+    "6ff97ede"
+   ]
+  },
+  {
+   "profile": {
+    "handle": "thedharmatribe",
+    "profileUrl": "https://www.instagram.com/thedharmatribe/",
+    "displayName": "The Dharma Tribe",
+    "bio": null,
+    "followers": null,
+    "followersProvenance": "unknown",
+    "website": null,
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "yoga teacher training and mentoring"
+   },
+   "accountType": "person_or_brand",
+   "markets": [
+    "FR"
+   ],
+   "events": [
+    {
+     "title": "Formation Professeur de Yoga 200h",
+     "eventType": "teacher_training",
+     "startDate": "2026-09",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "unknown",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYSEbbvNcc0"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DYSEbbvNcc0",
+     "title": "Yoga Teacher & Mentor | Olivier and I have been receiving lots of ...",
+     "excerpt": "Formation Professeur de Yoga 200h • Septembre 2026. Approfondissez votre pratique. Explorez les fondements du yoga. Apprenez à transmettre. Orientation",
+     "kind": "reel",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.65412235
+    }
+   ],
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No venue for the training is named."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYSEbbvNcc0"
+     ],
+     "note": "Promotes a 'Formation Professeur de Yoga 200h' from a 'Yoga Teacher & Mentor' account ('Olivier and I'); a teacher training rather than a retreat, and registration is not shown."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYSEbbvNcc0"
+     ],
+     "note": "The only dated activity is September 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price shown."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only one training visible."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Training format (residential or in-studio) unknown."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No aesthetic or audience evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sell-out or attendance evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Thin pack: one reel snippet, role and location of the training unknown",
+     "May be an in-studio training, which would make it group none"
+    ],
+    "missingInformation": [
+     "Whether the 200h training is residential and where it is held",
+     "Other retreats or trainings in the calendar",
+     "Follower count and home base"
+    ],
+    "summary": "The Dharma Tribe (a yoga teacher and mentor duo, 'Olivier and I') advertises a French-language 200h yoga teacher training starting September 2026. There is no venue, price or group size, and no winter activity, so it is classified provisionally as an organiser at low confidence. If the training turns out to be residential and run at rented venues, it could be pitched for a future module; if it is in-studio, it is not a target.",
+    "model": "claude-session-analyst",
+    "analysedAt": "2026-10-15T20:00:00Z"
+   },
+   "verificationStatus": "public_only",
+   "pipelineStage": "discovered",
+   "discoveredAt": "2026-10-15T20:00:00Z",
+   "lastSeenAt": "2026-10-15T20:00:00Z",
+   "discoveryQueries": [
+    "aca59609"
+   ]
+  },
+  {
+   "profile": {
+    "handle": "thenomadcollective_",
+    "profileUrl": "https://www.instagram.com/thenomadcollective_/",
+    "displayName": "The nOMad Collective",
+    "bio": null,
+    "followers": null,
+    "followersProvenance": "unknown",
+    "website": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "transformational retreats and mastermind for retreat leaders"
+   },
+   "accountType": "person_or_brand",
+   "markets": [],
+   "events": [
+    {
+     "title": "The nOMad Mastermind Retreat",
+     "eventType": "executive_mastermind",
+     "startDate": "2026-04-10",
+     "endDate": "2026-04-15",
+     "nights": 5,
+     "location": "St. Croix",
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTXloOEm_d"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTTXloOEm_d",
+     "title": "The nOMad Collective- Transformational Retreats on Instagram: \"Only 2 days remain to say yes to our early nOMad special pricing for The nOMad Mastermind Retreat, between April 10-15, 2026, in St. Croix.🌿\n\nIf this retreat has been on your heart, this is your moment.\n\nThis 6-day oceanfront immersion i...",
+     "excerpt": "rare opportunity to step into the new paradigm of leadership - one rooted in embodiment, integrity, and community at a significantly reduced investment.\n\nHosted by Phoebe Leona, founder of The nOMad Collective, this is not another business mastermind. It’s a sacred container for retreat leaders and guides ready to deepen their voice, refine their craft, and lead with presence rather than pressure.",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.28558657
+    }
+   ],
+   "classification": {
+    "group": "B_reaches_organizers",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTXloOEm_d"
+     ],
+     "note": "Hosts its own Mastermind Retreat in St. Croix; as founder-host, Phoebe Leona chooses the venue."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTXloOEm_d"
+     ],
+     "note": "'Only 2 days remain to say yes to our early nOMad special pricing for The nOMad Mastermind Retreat', 'Hosted by Phoebe Leona, founder'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTXloOEm_d"
+     ],
+     "note": "Mastermind retreat dated April 10-15, 2026 (pack's extracted dates), inside the Nov to Apr window."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No spot count."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTXloOEm_d"
+     ],
+     "note": "Premium positioning ('rare opportunity... at a significantly reduced investment') suggests a high list price; no amount shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTXloOEm_d"
+     ],
+     "note": "Account brands itself 'Transformational Retreats' and runs a collective, implying repeated events."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTXloOEm_d"
+     ],
+     "note": "Five-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTTXloOEm_d"
+     ],
+     "note": "Embodied leadership, 'sacred container' tone suits a private estate."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sell-out or attendance evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "referral_partnership",
+    "redFlags": [
+     "St. Croix venue suggests an Americas-focused audience (inference)",
+     "The April 2026 edition has passed; next date unknown"
+    ],
+    "missingInformation": [
+     "Price and group size of the mastermind",
+     "Audience geography",
+     "Whether a 2027 edition is planned and where"
+    ],
+    "summary": "The nOMad Collective (Transformational Retreats), founded by Phoebe Leona, ran The nOMad Mastermind Retreat in St. Croix on April 10-15, 2026, a leadership container 'for retreat leaders and guides'. That makes it both a direct winter-window booker and, more valuable, a channel into retreat leaders, hence group B. Premium tone and a small-group format fit the villa, but the audience looks Americas-based (inference) and no price or size is shown. Medium risk; open with a referral partnership and offer the villa for a future mastermind edition.",
+    "model": "claude-session-analyst",
+    "analysedAt": "2026-10-15T20:00:00Z"
+   },
+   "verificationStatus": "public_only",
+   "pipelineStage": "discovered",
+   "discoveredAt": "2026-10-15T20:00:00Z",
+   "lastSeenAt": "2026-10-15T20:00:00Z",
+   "discoveryQueries": [
+    "a4bf8ef0"
+   ]
+  },
+  {
+   "profile": {
+    "handle": "therizalacademy",
+    "profileUrl": "https://www.instagram.com/therizalacademy/",
+    "displayName": "The Rizal Academy",
+    "bio": null,
+    "followers": null,
+    "followersProvenance": "unknown",
+    "website": null,
+    "country": "PH",
+    "languages": [
+     "en"
+    ],
+    "niche": "education foundation / teacher development"
+   },
+   "accountType": "person_or_brand",
+   "markets": [
+    "OTHER"
+   ],
+   "events": [
+    {
+     "title": "Kamalayan: Renew, Reframe, Repurpose (3-day retreat for teachers)",
+     "eventType": "personal_development_retreat",
+     "startDate": "2023-11-17",
+     "endDate": "2023-11-19",
+     "nights": 2,
+     "location": "First Pacific Leadership Academy, Antipolo City",
+     "country": "PH",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et",
+     "title": "TRAIL on Instagram: \"The Rizal Development and Heritage Center Foundation (RCF) and Gabay Guro Foundation\ninvite you to\n\nKamalayan: Renew, Reframe, Repurpose\n\nA 3-day weekend retreat for teachers\nhappening on November 17, 18, and 19, 2023 at\nFirst Pacific Leadership Academy (FPLA), Antipolo\n(Km. 27 ...",
+     "excerpt": "long Highway, Antipolo City)\n\nFor inquiries and registration, please use this link: https://forms.gle/pWYP39nibxaunQ5q7\"\nNever miss a post from therizalacademy. Sign up for Instagram to stay in the loop. The Rizal Development and Heritage Center Foundation (RCF) and Gabay Guro Foundation. A 3-day weekend retreat for teachers. happening on November 17, 18, and 19, 2023 at. First Pacific Leadership ",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.09332227
+    }
+   ],
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"
+     ],
+     "note": "The foundations held their teacher retreat at an external venue (First Pacific Leadership Academy, Antipolo City)."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"
+     ],
+     "note": "A foundation-run 3-day retreat for teachers with a registration form; a nonprofit programme rather than a commercial retreat."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"
+     ],
+     "note": "Retreat dated November 17, 18 and 19, 2023, co-organised by the account's foundation (role inferred)."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"
+     ],
+     "note": "Nonprofit teacher-development event in the Philippines; no premium price signal."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only one retreat visible."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"
+     ],
+     "note": "Three-day weekend format."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"
+     ],
+     "note": "Local nonprofit education audience does not match a luxury Greek villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No commercial evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Post title is attributed to 'TRAIL' while the page belongs to therizalacademy; possible mis-attribution",
+     "Evidence is from 2023 (stale)",
+     "Local Philippine nonprofit audience, far from the villa's markets"
+    ],
+    "missingInformation": [
+     "Relationship between the account and RCF / Gabay Guro",
+     "Any recent activity"
+    ],
+    "summary": "The account shares a 2023 invitation from the Rizal Development and Heritage Center Foundation and Gabay Guro Foundation to 'Kamalayan', a 3-day weekend retreat for teachers on November 17-19, 2023 at the First Pacific Leadership Academy, Antipolo City. It is a local nonprofit teacher-development event, three years old and possibly posted under another account's name. Not a target: classified none, high commercial risk.",
+    "model": "claude-session-analyst",
+    "analysedAt": "2026-10-15T20:00:00Z"
+   },
+   "verificationStatus": "public_only",
+   "pipelineStage": "discovered",
+   "discoveredAt": "2026-10-15T20:00:00Z",
+   "lastSeenAt": "2026-10-15T20:00:00Z",
+   "discoveryQueries": [
+    "b9a396df"
+   ]
+  },
+  {
+   "profile": {
+    "handle": "uluyoga",
+    "profileUrl": "https://www.instagram.com/uluyoga/",
+    "displayName": "Ulu Yoga",
+    "bio": null,
+    "followers": null,
+    "followersProvenance": "unknown",
+    "website": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "hybrid yoga teacher training with residential immersions"
+   },
+   "accountType": "person_or_brand",
+   "markets": [],
+   "events": [
+    {
+     "title": "200 Hour Hybrid Yoga Teacher Training, in-person immersion (April cohort)",
+     "eventType": "teacher_training",
+     "startDate": "2026-04-01",
+     "endDate": "2026-04-14",
+     "nights": 13,
+     "location": "Private retreat center, Provence",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTsG4yJCKEK"
+     ]
+    },
+    {
+     "title": "200 Hour Hybrid Yoga Teacher Training, in-person immersion (September cohort)",
+     "eventType": "teacher_training",
+     "startDate": "2026-09-16",
+     "endDate": "2026-09-29",
+     "nights": 13,
+     "location": "Private retreat center, Provence",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTsG4yJCKEK"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTsG4yJCKEK",
+     "title": "Our 200 Hour Hybrid Yoga Teacher Training in the South ...",
+     "excerpt": "Our 200 Hour Hybrid Yoga Teacher Training in the South of France is now open for applications. 2026 -September 16–29, 2026 📍Location Le",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.75442725
+    }
+   ],
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTsG4yJCKEK"
+     ],
+     "note": "'The on site training takes place at a private retreat center surrounded by nature' in Provence: they rent private retreat venues."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTsG4yJCKEK"
+     ],
+     "note": "'Our 200 Hour Hybrid Yoga Teacher Training... is now open for applications', 'Apply via DM'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.55,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTsG4yJCKEK"
+     ],
+     "note": "Pack's extracted dates include an April 1-14, 2026 cohort alongside September 16-29, 2026; the April date is not in the visible excerpt, so confidence is moderate."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No cohort size shown."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTsG4yJCKEK"
+     ],
+     "note": "Two in-person cohorts in 2026 (April and September)."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTsG4yJCKEK"
+     ],
+     "note": "'14 day in person immersion in Provence' per cohort."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTsG4yJCKEK"
+     ],
+     "note": "Private nature retreat centre in the south of France is close to the villa's positioning."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sell-out or attendance evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "April 2026 cohort date comes only from the pack's extracted dates, not the visible caption",
+     "Hybrid format: half of the 200 hours is online, so only the 14-day immersion needs a venue"
+    ],
+    "missingInformation": [
+     "Cohort size and price",
+     "Home base of Ulu Yoga and audience geography",
+     "Whether they would move a cohort from Provence to Greece"
+    ],
+    "summary": "Ulu Yoga sells a 200-hour hybrid yoga teacher training: 100 hours online, then a 14-day in-person immersion at a private retreat centre in Provence, with cohorts on April 1-14 and September 16-29, 2026. They rent private Mediterranean venues for two-week stays and run a spring cohort inside the winter window, which is a strong match for villa nights. No price or cohort size is shown, so risk is medium. Pitch a pilot cohort, ideally the spring immersion, in Greece.",
+    "model": "claude-session-analyst",
+    "analysedAt": "2026-10-15T20:00:00Z"
+   },
+   "verificationStatus": "public_only",
+   "pipelineStage": "discovered",
+   "discoveredAt": "2026-10-15T20:00:00Z",
+   "lastSeenAt": "2026-10-15T20:00:00Z",
+   "discoveryQueries": [
+    "4ec2b52d"
+   ]
+  },
+  {
+   "profile": {
+    "handle": "usacanada_nyi",
+    "profileUrl": "https://www.instagram.com/usacanada_nyi/",
+    "displayName": "USA/Canada NYI",
+    "bio": null,
+    "followers": null,
+    "followersProvenance": "unknown",
+    "website": null,
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "regional organisation leadership conference"
+   },
+   "accountType": "person_or_brand",
+   "markets": [
+    "OTHER"
+   ],
+   "events": [
+    {
+     "title": "Leadership Conference 2026",
+     "eventType": "leadership_retreat",
+     "startDate": "2026-03-02",
+     "endDate": "2026-03-03",
+     "nights": 1,
+     "location": "Salt Lake City",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRuowoME-XA"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DRuowoME-XA",
+     "title": "Instagram",
+     "excerpt": "usacanada\\_nyi\n\nIf you were waiting to register for Leadership Conference 2026 until after Thanksgiving, no worries! You've still got plenty of time! Early Bird and Standard Registration have closed, so we are in Late Registration until February 1. Remember that housing is a separate cost, so be sure to get in our room block, too. We'll see you in beautiful Salt Lake City March 2-3, 2026! Link's i",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.47110215
+    }
+   ],
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRuowoME-XA"
+     ],
+     "note": "Organises a Leadership Conference in Salt Lake City with its own hotel room block, so it selects venues, but at conference scale."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRuowoME-XA"
+     ],
+     "note": "Sells conference registration (early bird, standard, late), not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRuowoME-XA"
+     ],
+     "note": "Leadership Conference dated March 2-3, 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Attendance not stated; tiered registration and a room block imply a large event."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price shown; 'housing is a separate cost'."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRuowoME-XA"
+     ],
+     "note": "Named annual event ('Leadership Conference 2026')."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRuowoME-XA"
+     ],
+     "note": "Two-day conference."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRuowoME-XA"
+     ],
+     "note": "Hotel conference with room blocks does not match a 9-bedroom villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sell-out or revenue evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "referral_partnership",
+    "redFlags": [
+     "Convention-scale event with a hotel room block; scale mismatch with an 18-guest villa",
+     "US and Canada regional organisation; no European travel evidence"
+    ],
+    "missingInformation": [
+     "Attendance",
+     "Whether its leadership team runs small offsites"
+    ],
+    "summary": "USA/Canada NYI runs its Leadership Conference 2026 in Salt Lake City, March 2-3, with tiered registration and a separate hotel room block. It is a regional association conference: dated in the winter window but convention-scale and North American, so it does not fit a 9-bedroom villa. Classified none, high commercial risk.",
+    "model": "claude-session-analyst",
+    "analysedAt": "2026-10-15T20:00:00Z"
+   },
+   "verificationStatus": "public_only",
+   "pipelineStage": "discovered",
+   "discoveredAt": "2026-10-15T20:00:00Z",
+   "lastSeenAt": "2026-10-15T20:00:00Z",
+   "discoveryQueries": [
+    "c0c49648"
+   ]
+  },
+  {
+   "profile": {
+    "handle": "vigeo_fit",
+    "profileUrl": "https://www.instagram.com/vigeo_fit/",
+    "displayName": "Vigeo",
+    "bio": null,
+    "followers": null,
+    "followersProvenance": "unknown",
+    "website": null,
+    "country": "ES",
+    "languages": [
+     "en"
+    ],
+    "niche": "venue marketing for fitness camps and retreats"
+   },
+   "accountType": "person_or_brand",
+   "markets": [],
+   "events": [],
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DbvfgoOExV0",
+     "title": "Instagram",
+     "excerpt": "Sign up\n\nLog in\n\nSport Hotel Monte Feliz in Gran Canaria offers an ideal setting for fitness camps and active retreats, with quality training facilities, warm year-round weather, strength and mobility training spaces, endurance workouts, and recovery facilities. Perfect for personal trainers, fitness coaches, yoga instructors, and wellness leaders looking to host an unforgettable fitness retreat i",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.6238588
+    }
+   ],
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbvfgoOExV0"
+     ],
+     "note": "Markets Sport Hotel Monte Feliz (Gran Canaria) to 'personal trainers, fitness coaches, yoga instructors and wellness leaders' who want to host; it sells a venue rather than choosing one."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbvfgoOExV0"
+     ],
+     "note": "'Ready to host your next fitness camp in paradise?', 'DM us to... secure your dates': venue sales, no own retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Promotes year-round warm weather, but no dated event of its own."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No own events."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Not applicable to a venue seller."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No commercial evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue/aggregator account, not a host: markets a competing sport hotel in Gran Canaria (and possibly Koh Samui) to retreat leaders",
+     "Same brand as @vigeo_retreats (duplicate entity)"
+    ],
+    "missingInformation": [
+     "Whether Vigeo is a multi-venue agency that could list a Greek villa"
+    ],
+    "summary": "Vigeo (fitness) promotes Sport Hotel Monte Feliz in Gran Canaria as a base for fitness camps and active retreats, inviting trainers and wellness leaders to DM and secure dates. It is a venue sales channel and a competitor for the same winter-sun groups, not an organiser. Classified none; at most a possible listing partner if it represents several venues.",
+    "model": "claude-session-analyst",
+    "analysedAt": "2026-10-15T20:00:00Z"
+   },
+   "verificationStatus": "public_only",
+   "pipelineStage": "discovered",
+   "discoveredAt": "2026-10-15T20:00:00Z",
+   "lastSeenAt": "2026-10-15T20:00:00Z",
+   "discoveryQueries": [
+    "cf37cdca"
+   ]
+  },
+  {
+   "profile": {
     "handle": "interreg_grcy",
     "profileUrl": "https://www.instagram.com/interreg_grcy/",
     "displayName": "Interreg VI- A Greece Cyprus",
-    "bio": null,
+    "bio": "Video by Interreg VI- A Greece Cyprus on July 16, 2026.\nVideo by Interreg VI- A Greece Cyprus on July 14, 2026.\nPhoto by Interreg VI- A Greece Cyprus on July 07, 2026.\nPhoto by Interreg VI- A Greece Cyprus on June 18, 2026.\nPhoto by Interreg VI- A Greece Cyprus on June 08, 2026. [...] Photo by Interreg VI- A Greece Cyprus on August 12, 2026. May be an image of outdoors and text. [...] Photo by Interreg VI- A Greece Cyprus on September 04, 2026.",
     "followers": null,
     "followersProvenance": "unknown",
     "website": null,
@@ -9393,6 +11107,15 @@
      "source": "tavily",
      "observedAt": "2026-10-15T20:00:00Z",
      "score": 0.4295017
+    },
+    {
+     "url": "https://www.instagram.com/reel/DTiwmJ9DWld",
+     "title": "Instagram",
+     "excerpt": "Video by ✨ Yoga / Meditation / Retreats ✨ on September 19, 2026. May be an image of yoga and text that says 'JANUARY NEW YEAR YOGA DETOX & WELLNESS RETREAT'.\n\nVideo by ✨ Yoga / Meditation / Retreats ✨ on August 24, 2026. May be an image of yoga, pool, outdoors and text that says 'UPCOMINGRETREATS UPCOMING RETREATS 2026-2027'. [...] ladan\\_soltani\n\n✨Christmas Yoga Escape in the Canary Islands  \n  \n",
+     "kind": "reel",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.52524763
     }
    ],
    "classification": {
@@ -9488,6 +11211,7 @@
    "discoveredAt": "2026-10-15T20:00:00Z",
    "lastSeenAt": "2026-10-15T20:00:00Z",
    "discoveryQueries": [
+    "26ccaf11",
     "978c7377",
     "9ca81900"
    ]
@@ -11829,6 +13553,15 @@
      "source": "tavily",
      "observedAt": "2026-10-15T20:00:00Z",
      "score": 0.52071625
+    },
+    {
+     "url": "https://www.instagram.com/thepadelretreat?hl=en",
+     "title": "The Padel Retreat (@thepadelretreat) • Instagram photos and videos",
+     "excerpt": "Title: The Padel Retreat (@thepadelretreat) • Instagram photos and videos\nThe 1st ever Padel Retreat 🎾. Your ultimate destination for padel in paradise 🌴. 📍Cape Town, Maldives, Mykonos, Ubud &. * thepadelretreat's highlight story picture. Photo by The Padel Retreat on April 28, 2026. Video by The Padel Retreat on September 10, 2026. May be an image of tennis, sports equipment and text that says '場",
+     "kind": "profile",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.42892754
     }
    ],
    "classification": {
@@ -11923,6 +13656,7 @@
    "discoveredAt": "2026-10-15T20:00:00Z",
    "lastSeenAt": "2026-10-15T20:00:00Z",
    "discoveryQueries": [
+    "64d107bd",
     "cedf53e0",
     "dcdad8ba"
    ]
@@ -12930,6 +14664,24 @@
      "source": "tavily",
      "observedAt": "2026-10-15T20:00:00Z",
      "score": 0.18016468
+    },
+    {
+     "url": "https://www.instagram.com/reel/DcBsYa2MEjP",
+     "title": "Instagram",
+     "excerpt": "adventureyogi\n\nSet your alarms ⏰ Our full 2027 retreat calendar launches at 12pm on Sunday\n\nitsvix_h's profile picture\n\nitsvix\\_h\n\nYES!!!! Can’t wait 🤩\n\n1 like\n\nReply\n\n181\n\nLog in to like or comment.\n\nMore posts from adventureyogi\n\nPhoto by Adventure Yoga & Wellness Holiday Company on September 30, 2026. May be an image of standing, mountain and text.\n\nVideo by Adventure Yoga & Wellness Holiday Co",
+     "kind": "reel",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.42190963
+    },
+    {
+     "url": "https://www.instagram.com/reel/DZa0YVfO5Zy",
+     "title": "Instagram",
+     "excerpt": "adventureyogi\n\n#travelwithme #frenchalpsretreat #yogaretreat #frenchalpshiking #samoens\n\nReply\n\n4810\n\nLog in to like or comment.\n\nMore posts from adventureyogi\n\nPhoto by Adventure Yoga & Wellness Holiday Company on September 30, 2026. May be an image of standing, mountain and text.\n\nVideo by Adventure Yoga & Wellness Holiday Company on September 06, 2026. May be an image of yoga, activewear, pool ",
+     "kind": "reel",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.09010118
     }
    ],
    "classification": {
@@ -13020,7 +14772,9 @@
    "discoveredAt": "2026-10-15T20:00:00Z",
    "lastSeenAt": "2026-10-15T20:00:00Z",
    "discoveryQueries": [
-    "586c1fe2"
+    "1bc8563e",
+    "586c1fe2",
+    "aca59609"
    ]
   },
   {
@@ -13169,8 +14923,8 @@
   },
   {
    "profile": {
-    "handle": "alenascharfschwert_yoga.",
-    "profileUrl": "https://www.instagram.com/alenascharfschwert_yoga./",
+    "handle": "alenascharfschwert_yoga",
+    "profileUrl": "https://www.instagram.com/alenascharfschwert_yoga/",
     "displayName": "Alena Scharfschwert Yoga",
     "bio": null,
     "followers": null,
@@ -13299,8 +15053,8 @@
   },
   {
    "profile": {
-    "handle": "alldreamsportcenter.",
-    "profileUrl": "https://www.instagram.com/alldreamsportcenter./",
+    "handle": "alldreamsportcenter",
+    "profileUrl": "https://www.instagram.com/alldreamsportcenter/",
     "displayName": "All Dreams Sport Center",
     "bio": null,
     "followers": null,
@@ -13312,7 +15066,7 @@
     ],
     "niche": "local sports centre"
    },
-   "accountType": "person_or_brand",
+   "accountType": "venue",
    "markets": [
     "IL"
    ],
@@ -13594,9 +15348,9 @@
     "handle": "arhatic_yoga_retreat",
     "profileUrl": "https://www.instagram.com/arhatic_yoga_retreat/",
     "displayName": "ARHATIC YOGA®️RETREAT in Portugal",
-    "bio": null,
-    "followers": null,
-    "followersProvenance": "unknown",
+    "bio": "Log In\n\nSign Up\n\n 1,218 followers\n 1,350 following\n\nARHATIC YOGA®️RETREAT in Portugal\n\nRetiro de Yoga Arhatica em Portugal   \n📍 maio de 2027  \n📍na encantadora cidade de Tomar! 🇵🇹\n\nretiro-arhatic-yoga-2026-29x0gw6.gamma.site\n\n arhatic_yoga_retreat's highlight story picture\n\n  Retreat\n arhatic_yoga_retreat's highlight story picture\n\n  📍Hotel\n arhatic_yoga_retreat's highlight story picture\n\n  📍Como chegar\n arhatic_yoga_retreat's highlight story picture\n\n  📍Turist point [...] Video by ARHATIC YOGA®️RETREAT in Portugal on April 17, 2026.\n\nPhoto by ARHATIC YOGA®️RETREAT in Portugal on April 15, 2026",
+    "followers": 1218,
+    "followersProvenance": "verified_public_fact",
     "website": "retiro-arhatic-yoga-2026-29x0gw6.gamma.site",
     "country": "PT",
     "languages": [
@@ -14280,8 +16034,8 @@
   },
   {
    "profile": {
-    "handle": "campamichai.",
-    "profileUrl": "https://www.instagram.com/campamichai./",
+    "handle": "campamichai",
+    "profileUrl": "https://www.instagram.com/campamichai/",
     "displayName": "Machane Amichai",
     "bio": null,
     "followers": null,
@@ -14690,8 +16444,8 @@
   },
   {
    "profile": {
-    "handle": "cothinkk.",
-    "profileUrl": "https://www.instagram.com/cothinkk./",
+    "handle": "cothinkk",
+    "profileUrl": "https://www.instagram.com/cothinkk/",
     "displayName": "CoThinkk",
     "bio": null,
     "followers": null,
@@ -16345,8 +18099,8 @@
   },
   {
    "profile": {
-    "handle": "franchiseassembly.",
-    "profileUrl": "https://www.instagram.com/franchiseassembly./",
+    "handle": "franchiseassembly",
+    "profileUrl": "https://www.instagram.com/franchiseassembly/",
     "displayName": "Franchise Assembly",
     "bio": null,
     "followers": null,
@@ -16942,8 +18696,8 @@
   },
   {
    "profile": {
-    "handle": "insideoutwithcourtnaye.",
-    "profileUrl": "https://www.instagram.com/insideoutwithcourtnaye./",
+    "handle": "insideoutwithcourtnaye",
+    "profileUrl": "https://www.instagram.com/insideoutwithcourtnaye/",
     "displayName": "Courtnaye Richard",
     "bio": null,
     "followers": null,
@@ -17354,8 +19108,8 @@
   },
   {
    "profile": {
-    "handle": "jamieberman_.",
-    "profileUrl": "https://www.instagram.com/jamieberman_./",
+    "handle": "jamieberman_",
+    "profileUrl": "https://www.instagram.com/jamieberman_/",
     "displayName": "Jamie Berman",
     "bio": null,
     "followers": null,
@@ -18110,8 +19864,8 @@
   },
   {
    "profile": {
-    "handle": "littlebigganesha.",
-    "profileUrl": "https://www.instagram.com/littlebigganesha./",
+    "handle": "littlebigganesha",
+    "profileUrl": "https://www.instagram.com/littlebigganesha/",
     "displayName": "Little Big Ganesha Yoga Studio",
     "bio": null,
     "followers": null,
@@ -18526,8 +20280,8 @@
   },
   {
    "profile": {
-    "handle": "marcelclementi_.",
-    "profileUrl": "https://www.instagram.com/marcelclementi_./",
+    "handle": "marcelclementi_",
+    "profileUrl": "https://www.instagram.com/marcelclementi_/",
     "displayName": "Marcel Clementi",
     "bio": null,
     "followers": null,
@@ -18806,6 +20560,15 @@
      "source": "tavily",
      "observedAt": "2026-10-15T20:00:00Z",
      "score": 0.08744704
+    },
+    {
+     "url": "https://www.instagram.com/p/DeZV_RmDBeb",
+     "title": "Instagram",
+     "excerpt": "European Tour for 2026/2027 is kicking off next month, love to see you in the workshops and sessions.  \n  \n(More details coming soon for 200/300hr trainings soon)  \n  \nNov 6-8, 2026 🇨🇭Switzerland @yogameetsweggis  \n  \nNov 13, 2026 🇬🇧 London @mission.e1   \n  \nNov 20-22, 2026 🇸🇪 Stockholm @urbanom\\_sthlm   \n  \nDec 4-6, 2026 🏴󠁧󠁢󠁳󠁣󠁴󠁿Edinburgh @tribeyoga   \n  \nJan 3-10, 2027 🇮🇳 Govindas Eco Village @ra",
+     "kind": "post",
+     "source": "tavily",
+     "observedAt": "2026-10-15T20:00:00Z",
+     "score": 0.5920305
     }
    ],
    "classification": {
@@ -18888,7 +20651,8 @@
    "discoveredAt": "2026-10-15T20:00:00Z",
    "lastSeenAt": "2026-10-15T20:00:00Z",
    "discoveryQueries": [
-    "0d821ecd"
+    "0d821ecd",
+    "4ec2b52d"
    ]
   },
   {
@@ -19419,7 +21183,7 @@
     "bio": null,
     "followers": null,
     "followersProvenance": "unknown",
-    "website": "thegospel.co",
+    "website": null,
     "country": "US",
     "languages": [
      "en"
@@ -20326,8 +22090,8 @@
   },
   {
    "profile": {
-    "handle": "pennsylvania_bar_association.",
-    "profileUrl": "https://www.instagram.com/pennsylvania_bar_association./",
+    "handle": "pennsylvania_bar_association",
+    "profileUrl": "https://www.instagram.com/pennsylvania_bar_association/",
     "displayName": "Pennsylvania Bar Association",
     "bio": null,
     "followers": null,

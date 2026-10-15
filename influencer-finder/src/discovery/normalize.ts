@@ -6,6 +6,17 @@ import type { Candidate, Evidence, Market, Language } from '../pipeline/types.ts
 
 const RESERVED = new Set(['p', 'reel', 'reels', 'explore', 'stories', 'accounts', 'tv', 'about', 'legal', 'directory', 'developer', 'web', 'static', 'locations', 'tags', 'direct', 'ar', 'privacy', 'terms', 'press', 'api']);
 
+/**
+ * Canonical handle: lower-case, no leading '@', no leading or trailing periods.
+ * Instagram usernames cannot start or end with a period, so a trailing '.' is
+ * sentence punctuation captured by a text pattern ("More posts from x.").
+ */
+export function cleanHandle(raw: string | null | undefined): string | null {
+  if (!raw) return null;
+  const h = raw.trim().toLowerCase().replace(/^@/, '').replace(/^\.+|\.+$/g, '');
+  return /^[a-z0-9._]{1,30}$/.test(h) && !/\.\./.test(h) ? h : null;
+}
+
 /** Extract a handle from an Instagram profile URL. Returns null for post/reel URLs. */
 export function handleFromUrl(url: string): string | null {
   try {
@@ -15,8 +26,7 @@ export function handleFromUrl(url: string): string | null {
     if (seg.length === 0) return null;
     const first = seg[0].toLowerCase();
     if (RESERVED.has(first)) return null;
-    if (!/^[a-z0-9._]{1,30}$/.test(first)) return null;
-    return first;
+    return cleanHandle(first);
   } catch {
     return null;
   }
@@ -26,7 +36,7 @@ export function handleFromUrl(url: string): string | null {
 export function handleFromTitle(title: string | undefined): string | null {
   if (!title) return null;
   const m = title.match(/\(@([a-z0-9._]{1,30})\)/i);
-  return m ? m[1].toLowerCase() : null;
+  return m ? cleanHandle(m[1]) : null;
 }
 
 /**
@@ -40,7 +50,7 @@ export function handleFromExtractedText(text: string | undefined): string | null
   const patterns = [/Never miss a post from ([a-z0-9._]{1,30})/i, /More posts from ([a-z0-9._]{1,30})/i, /^([a-z0-9._]{1,30})\n•\nFollow/im];
   for (const p of patterns) {
     const m = t.match(p);
-    if (m) return m[1].toLowerCase();
+    if (m) { const h = cleanHandle(m[1]); if (h) return h; }
   }
   return null;
 }

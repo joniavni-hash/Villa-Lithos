@@ -1,9 +1,10 @@
 // generate-outreach: builds personalised drafts (EN/HE) for the 4 tracks, or an
 // insights request. Deterministic template from real facts, optionally polished by
 // Claude under a strict no-price rule. Drafts are stored; nothing is sent.
-// POST { candidateId, kind: 'outreach'|'insights_request', track?, language: 'en'|'he', polish?: boolean }
+// POST { candidateId, kind: 'outreach'|'insights_request', track?, language: 'en'|'he', polish?: boolean,
+//        recipientGender?: 'female'|'male'|'unknown' }  (Hebrew grammar; 'unknown' = neutral plural form)
 import { adminClient, json, CORS, requireUser, callClaude, recordUsage } from '../_shared/clients.ts';
-import { generateOutreach, generateInsightsRequest, recommendTrack } from '../_shared/engine/outreach/generator.ts';
+import { generateOutreach, generateInsightsRequest, recommendTrack, type RecipientGender } from '../_shared/engine/outreach/generator.ts';
 import { toCandidate } from '../_shared/mappers.ts';
 
 const PRICE_RE = /(€|\$|£|₪)\s?\d|\d\s?(€|\$|£|₪)|\b\d{3,}\s?(eur|usd|gbp|ils|euros?|dollars?|shekels?)\b/i;
@@ -13,7 +14,8 @@ Deno.serve(async (req) => {
   const auth = await requireUser(req);
   if (auth instanceof Response) return auth;
   const sb = adminClient();
-  const { candidateId, kind = 'outreach', track, language = 'en', polish = false } = await req.json();
+  const { candidateId, kind = 'outreach', track, language = 'en', polish = false, recipientGender: rg } = await req.json();
+  const recipientGender: RecipientGender = rg === 'female' || rg === 'male' ? rg : 'unknown';
   const { data: row } = await sb.from('candidates').select('*').eq('id', candidateId).single();
   if (!row) return json({ error: 'candidate not found' }, 404);
   const { data: ev } = await sb.from('evidence').select('url,title,excerpt,kind').eq('candidate_id', candidateId).limit(40);
@@ -22,16 +24,16 @@ Deno.serve(async (req) => {
   const cand = toCandidate(row, ev ?? [], events ?? [], row.classification ?? undefined);
   const sender = settings?.villa?.propertyManager ?? 'Aviv Goldenberg';
   if (kind === 'insights_request') {
-    const body = generateInsightsRequest(cand, language, sender);
+    const body = generateInsightsRequest(cand, language, sender, recipientGender);
     const { data: d } = await sb.from('outreach_drafts').insert({ candidate_id: candidateId, kind, language, subject: language === 'he' ? 'בקשת נתונים לבחינת שיתוף פעולה' : 'A few numbers for the collaboration review', body }).select().single();
     return json({ draft: d });
   }
   const rec = recommendTrack(cand);
   const chosen = track ?? rec.track;
-  let draft = generateOutreach(cand, chosen, language, track ? `Owner-selected track (engine suggested ${rec.track}: ${rec.reason})` : rec.reason, { senderName: sender });
+  let draft = generateOutreach(cand, chosen, language, track ? `Owner-selected track (engine suggested ${rec.track}: ${rec.reason})` : rec.reason, { senderName: sender, recipientGender });
   let polished: string | null = null;
   if (polish) {
-    const res = await callClaude({ tier: 'screening', system: 'You polish outreach messages for a luxury villa. Keep every fact, keep the structure and length, improve flow. Never add prices, numbers of nights, discounts or claims about facilities not present in the draft. Reply with the message text only.', messages: [{ role: 'user', content: `Language: ${language}\n\n${draft.body}` }], maxTokens: 1200 });
+    const res = await callClaude({ tier: 'screening', system: 'You polish outreach messages for a luxury villa. Keep every fact, keep the structure and length, improve flow. Never add prices, numbers of nights, discounts or claims about facilities not present in the draft. Keep the grammatical gender and form of address exactly as in the draft. Reply with the message text only.', messages: [{ role: 'user', content: `Language: ${language}\n\n${draft.body}` }], maxTokens: 1200 });
     await recordUsage(sb, { candidateId, provider: 'claude', operation: 'outreach_polish', costUsd: res.costUsd });
     if (!PRICE_RE.test(res.text)) polished = res.text.trim();
   }

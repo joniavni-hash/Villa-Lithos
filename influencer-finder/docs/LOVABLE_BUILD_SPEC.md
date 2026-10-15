@@ -22,7 +22,7 @@ and the `_shared` folder exactly as in `supabase/functions/`. No logic changes.
 5. Verified Performance tab: upload to private bucket `insights` (screenshot/PDF/export/media kit/report), "test fixture" checkbox, Analyse button → `analyze-insights`; show extracted metrics with provenance and source document; Before/After score comparison; derived metrics charts.
 6. Best Match: top candidate + 9 alternatives, two rankings (public data / verified performance; the second only when private insights exist), each with why, evidence, winter proof, capacity, expected nights range, value range, missing-to-verify, risks, recommended track, draft message, next step.
 7. Pipeline: Kanban on `pipeline_stage`, drag between stages, skipping insights stages allowed.
-8. Outreach: track picker, EN/HE, generate via `generate-outreach`, edit, save, copy; never send.
+8. Outreach: track picker, EN/HE, recipient gender for Hebrew (female / male / unknown, default unknown = neutral plural), generate via `generate-outreach`, edit, save, copy; never send.
 9. Settings: villa profile (verified flags), season, floor price slider, weights sliders normalised to 100, venue share, referral rate, collaboration costs, nightly revenue, spend cap, LLM provider, sources status, data deletion (candidate + documents).
 
 ## Message 4 — seed and QA
