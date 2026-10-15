@@ -1,0 +1,305 @@
+{
+  "batch": 1,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "tenerifepadelretreats",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DXY0_YijXsf", "https://www.instagram.com/p/DT8fYEEDQtn"], "note": "Organiser packages padel club + '4 star and 5 star accommodation' and hotel add-ons; they select club and hotel, but accommodation is an optional add-on, not a private-villa model."},
+        "sellsRetreats": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DT8fYEEDQtn", "https://www.instagram.com/p/DXY0_YijXsf?img_index=14"], "note": "First-person sales posts with dates, prices (EUR 368 / EUR 299), 'Very Limited spaces', 'Book your place now' and booking URL."},
+        "provenWinterActivity": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DT8fYEEDQtn", "https://www.instagram.com/p/DXY0_YijXsf"], "note": "Dated winter camps: Dec 8-13 2025, Jan 11-16 2026, Feb 1-6, Mar 1-6, Apr 5-10 2026; states '8 padel Retreats with over 130+ people from Nov 2025-May 2026' and sells winter dates Sept 2026-May 2027."},
+        "canFillGroupSize": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DT8fYEEDQtn", "https://www.instagram.com/p/DXY0_YijXsf"], "note": "'12 players who came to Tenerife Dec 8th-13th 2025'; 130+ people across 8 winter retreats (about 16 per retreat on average)."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DT8fYEEDQtn", "https://www.instagram.com/p/DXY0_YijXsf?img_index=14"], "note": "EUR 368 (GBP 323) for a 6-day package excluding accommodation; summer sale EUR 299; hotel add-on 'from EUR 100 per night for two people'. Budget positioning."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DT8fYEEDQtn", "https://www.instagram.com/p/DXY0_YijXsf"], "note": "Monthly dates throughout 2026; 8 retreats Nov 2025-May 2026."},
+        "longStayPotential": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DT8fYEEDQtn"], "note": "Each camp is 5 nights / 6 days, repeated monthly; but the model is hotel-based with the padel club as the anchor."},
+        "brandFit": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DXY0_YijXsf", "https://www.instagram.com/p/DXY0_YijXsf?img_index=14"], "note": "Mass-market sports camp with budget pricing and 4-star hotel add-ons; weak fit with a private luxury estate."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DXY0_YijXsf", "https://www.instagram.com/p/DT8fYEEDQtn"], "note": "Delivered 8 retreats / 130+ participants in one winter; thanks posts for Dec 2025, Jan 2026 and Feb 2026 groups."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Pricing far below premium (EUR 299-368 for 6 days, accommodation not included)", "Model depends on a top padel club next to a hotel; a private villa without courts does not match the product", "Sister account @tenerifepadelcamp shares the same website (duplicate outreach risk)"],
+        "missingInformation": ["Whether the organiser would run a villa-based format with transfers to padel courts near Porto Rafti", "Origin market of players ('from all over Europe' only)", "Follower count and engagement"],
+        "summary": "Tenerife Padel Retreats is a proven, high-frequency winter organiser: monthly 5-night padel camps with dated winter editions (Dec 8-13 2025, Jan 11-16, Feb 1-6, Mar 1-6, Apr 5-10 2026) and a stated 130+ participants across 8 retreats from Nov 2025 to May 2026 (post DT8fYEEDQtn, DXY0_YijXsf). Groups of about 12-16 match the villa's capacity. However, the product is budget (EUR 368 per person for 6 days, accommodation sold separately as a 4-star hotel add-on) and anchored to a padel club, so a luxury private villa is a poor commercial fit unless padel courts near Porto Rafti can be bundled. Commercial risk is medium: volume is real but price point is low. Recommend at most a scouting stay to test a 'Athens padel week' concept; do not prioritise over premium organisers."
+      },
+      "events": [
+        {"title": "Tenerife Padel Retreat Dec 2025 (12 players)", "eventType": "padel_retreat", "startDate": "2025-12-08", "endDate": "2025-12-13", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": 12, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DT8fYEEDQtn"]},
+        {"title": "Tenerife Padel Retreat Jan 2026", "eventType": "padel_retreat", "startDate": "2026-01-11", "endDate": "2026-01-16", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DT8fYEEDQtn"]},
+        {"title": "Tenerife Padel Retreat Feb 2026", "eventType": "padel_retreat", "startDate": "2026-02-01", "endDate": "2026-02-06", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": 368, "currency": "EUR", "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DT8fYEEDQtn"]},
+        {"title": "Tenerife Padel Retreat Mar 2026", "eventType": "padel_retreat", "startDate": "2026-03-01", "endDate": "2026-03-06", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": 368, "currency": "EUR", "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DT8fYEEDQtn"]},
+        {"title": "Tenerife Padel Retreat Apr 2026", "eventType": "padel_retreat", "startDate": "2026-04-05", "endDate": "2026-04-10", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": 368, "currency": "EUR", "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DT8fYEEDQtn"]},
+        {"title": "Tenerife Padel Retreat May 2026", "eventType": "padel_retreat", "startDate": "2026-05-03", "endDate": "2026-05-08", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": 368, "currency": "EUR", "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DT8fYEEDQtn"]},
+        {"title": "Summer Padel Retreat June 2026", "eventType": "padel_retreat", "startDate": "2026-06-07", "endDate": "2026-06-12", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": 299, "currency": "EUR", "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DXY0_YijXsf?img_index=14"]},
+        {"title": "Summer Padel Retreat July 2026", "eventType": "padel_retreat", "startDate": "2026-07-05", "endDate": "2026-07-10", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": 299, "currency": "EUR", "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DXY0_YijXsf?img_index=14"]},
+        {"title": "Summer Padel Retreat Aug 2026", "eventType": "padel_retreat", "startDate": "2026-08-09", "endDate": "2026-08-14", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": 299, "currency": "EUR", "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DXY0_YijXsf?img_index=14"]}
+      ],
+      "profile": {"displayName": "Tenerife Padel Retreats", "country": "ES", "languages": ["en"], "niche": "padel sports camps", "markets": ["GB", "OTHER"]}
+    },
+    {
+      "handle": "yoga.biz.mentor",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/yoga.biz.mentor", "https://www.instagram.com/p/DeTU9DKNEM9"], "note": "Consultant/mentor to retreat brands; does not run her own retreats in the evidence."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DeTU9DKNEM9", "https://www.instagram.com/reel/Dcng-uGiehj"], "note": "Sells mentorship and consulting to 'retreat leader clients', not retreats."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable; no own events."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/yoga.biz.mentor"], "note": "Ex-Retreats Director at Six Senses; positions toward wellness and retreat brands, a luxury-adjacent audience."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/Dcng-uGiehj", "https://www.instagram.com/p/DeTU9DKNEM9"], "note": "Claims client results ('went from having no retreat sales to filling up her retreat'); 18 years in retreats."},
+        "commercialRisk": "low",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": [],
+        "missingInformation": ["Follower count and audience size", "Country and markets of her client base", "Whether she recommends venues to clients"],
+        "summary": "Manu (@yoga.biz.mentor) is a retreat-business consultant, ex-Retreats Director at Six Senses, whose audience is explicitly retreat leaders struggling to fill international retreats (post DeTU9DKNEM9, profile). She does not organise retreats herself, so there is no venue decision or winter activity to verify. Value to Villa Lithos is as a referral channel into her client base of wellness/retreat brands. Low commercial risk; propose a referral partnership (commission on client bookings or a venue feature for her clients). Follower count and client geography are unknown and should be confirmed before setting terms."
+      },
+      "events": [],
+      "profile": {"displayName": "Manu | Mentorship & Consulting for Wellness & Retreat Brands", "country": null, "languages": ["en"], "niche": "retreat business consulting", "markets": []}
+    },
+    {
+      "handle": "awakenwithmariabrito",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"], "note": "Runs retreats across six destinations (Morocco, Puerto Rico, Cabo, Bali, Portugal, Peru) under her own brand, implying she selects venues; one Tenerife event is co-hosted with @inneryou.community."},
+        "sellsRetreats": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"], "note": "'Morocco SOLD OUT, Puerto Rico SOLD OUT, Cabo 5 Spots left, Bali SOLD OUT, Portugal 3 Spots left, Machu Picchu Peru Just Released! DM me the country and I will send you the link'."},
+        "provenWinterActivity": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"], "note": "Renewal Retreat with @inneryou.community December 29 2026 to January 3 2027 in Tenerife (co-hosted); other destinations undated."},
+        "canFillGroupSize": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"], "note": "Three sold-out retreats and near-sold-out others, but group sizes are not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No prices in evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"], "note": "Six upcoming retreats listed at once; regular posting 2026."},
+        "longStayPotential": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"], "note": "Tenerife retreat is 5 nights (Dec 29 - Jan 3); other durations unknown."},
+        "brandFit": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"], "note": "Women's wellness retreats in aspirational international destinations; life-coach positioning."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"], "note": "Multiple sold-out retreats stated first-person."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Destination mix (Cabo, Puerto Rico, Peru) suggests a US-based audience with long-haul travel to Greece", "No prices or group sizes visible"],
+        "missingInformation": ["Price per person and typical group size", "Follower count and home market", "Whether she would run a Europe-based winter edition beyond the Tenerife co-host"],
+        "summary": "Maria Brito runs a multi-destination women's wellness retreat business with three sold-out retreats (Morocco, Puerto Rico, Bali) and others nearly full (reel Da08L3QN1Tj), and has a dated winter event: a co-hosted New Year Renewal Retreat in Tenerife, Dec 29 2026 to Jan 3 2027. She clearly decides venues and sells directly ('DM me the country and I will send you the link'). Prices and group sizes are not visible, and the destination list points to a US audience, so commercial risk is medium. Recommend a pilot retreat proposal for a winter 2027/28 European edition, positioned as the 'Athens' stop in her destination rotation; request her media kit and past group sizes first."
+      },
+      "events": [
+        {"title": "Renewal Retreat (New Year) with @inneryou.community, Tenerife", "eventType": "womens_retreat", "startDate": "2026-12-29", "endDate": "2027-01-03", "nights": 5, "location": "Tenerife, Canary Islands", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "co_host", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"]},
+        {"title": "Morocco women's wellness retreat (sold out)", "eventType": "womens_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Morocco", "country": "MA", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": true, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"]},
+        {"title": "Puerto Rico women's wellness retreat (sold out)", "eventType": "womens_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Puerto Rico", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": true, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"]},
+        {"title": "Cabo women's wellness retreat (5 spots left)", "eventType": "womens_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Cabo", "country": "MX", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"]},
+        {"title": "Bali women's wellness retreat (sold out)", "eventType": "womens_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Bali", "country": "ID", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": true, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"]},
+        {"title": "Portugal women's wellness retreat (3 spots left)", "eventType": "womens_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Portugal", "country": "PT", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"]},
+        {"title": "Machu Picchu Peru retreat (just released)", "eventType": "womens_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Machu Picchu, Peru", "country": "PE", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/Da08L3QN1Tj"]}
+      ],
+      "profile": {"displayName": "Maria Brito | Women's Wellness Retreats - Life Coach", "country": null, "languages": ["en"], "niche": "women's wellness retreats / life coaching", "markets": ["US", "OTHER"]}
+    },
+    {
+      "handle": "vallabhyouthorganisation",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DeMlEnZiFaj"], "note": "Organisation booked Soul Bay Resort, Kevadia, Gujarat for its retreat."},
+        "sellsRetreats": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DeMlEnZiFaj", "https://www.instagram.com/reel/Def47yvDaU5"], "note": "'Register Today' for its own Spiritual Wellness Retreat 2026; a religious youth organisation event for its community."},
+        "provenWinterActivity": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DeMlEnZiFaj", "https://www.instagram.com/reel/Def47yvDaU5"], "note": "27-30 November 2026, 3 nights / 4 days."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only one edition visible."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DeMlEnZiFaj"], "note": "3-night format."},
+        "brandFit": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/Def47yvDaU5"], "note": "Devotional (Krishna Bhakti) community retreat in Gujarat, India; outside the villa's audience and markets."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account: religious youth organisation in India running a community retreat for its own members", "Outside all target markets; no realistic path to a Greek booking"],
+        "missingInformation": [],
+        "summary": "Vallabh Youth Organisation is an Indian devotional youth organisation promoting its own Spiritual Wellness Retreat 2026 (27-30 November 2026, Soul Bay Resort, Kevadia, Gujarat; post DeMlEnZiFaj, reel Def47yvDaU5). While it organises a dated winter retreat, it is a community/religious body serving an Indian membership, not a commercial retreat host that would book a Mediterranean villa. Classified as none; no outreach recommended."
+      },
+      "events": [
+        {"title": "Life Bliss Spiritual Wellness Retreat 2026", "eventType": "wellness_retreat", "startDate": "2026-11-27", "endDate": "2026-11-30", "nights": 3, "location": "Soul Bay Resort, Statue of Unity, Ekta Nagar, Kevadia, Gujarat", "country": "IN", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DeMlEnZiFaj", "https://www.instagram.com/reel/Def47yvDaU5"]}
+      ],
+      "profile": {"displayName": "Vallabh Youth Organisation", "country": "IN", "languages": ["en"], "niche": "religious youth organisation", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "retreatleadersplaybook",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence of her own venue decisions; podcast mentions an Operations Manager at 'Retreat Ranch', which suggests she operates her own venue."},
+        "sellsRetreats": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No registration, price or dates for her own retreats in the evidence."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DeNENt_Dx76"], "note": "Runs 'The Retreat Leaders Podcast' (recurring content, not events)."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Insufficient evidence."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["Appears to operate her own venue ('Retreat Ranch'), which may compete with promoting third-party venues"],
+        "missingInformation": ["Audience size and geography of her retreat-leader community", "Whether she recommends venues to her community", "Location of Retreat Ranch"],
+        "summary": "Shannon Jamail positions as a Retreat Leader Strategist with a podcast and a paid community for retreat leaders (posts DeNENt_Dx76, DdZI2lCCHzt), so her audience is exactly the organisers Villa Lithos wants to reach. There is no evidence of her selling her own retreats, and a reference to an Operations Manager at 'Retreat Ranch' suggests she owns a venue, which could make her less inclined to promote others. Commercial risk is medium for that reason. Recommend a referral partnership (podcast guest spot or venue feature for her community) rather than a hosting track; verify audience size and location first."
+      },
+      "events": [],
+      "profile": {"displayName": "Shannon Jamail | Retreat Leader Strategist", "country": null, "languages": ["en"], "niche": "retreat-leader coaching / podcast", "markets": []}
+    },
+    {
+      "handle": "tenerifepadelcamp",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/tenerifepadelcamp", "https://www.instagram.com/p/DRdRPxsCjnp"], "note": "Same operator as @tenerifepadelretreats (website www.tenerifepadelretreats.com); packages hotel transfers and padel club."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/tenerifepadelcamp", "https://www.instagram.com/p/DRdRPxsCjnp"], "note": "'Book a padel retreat in Tenerife', 6-day packages for EUR 368, 'New dates released'."},
+        "provenWinterActivity": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/tenerifepadelcamp"], "note": "Dec 8-13 2025 (12 players), Feb 1-6 2026, Apr 5-10 2026; winter dates Sept 2026-May 2027 on sale."},
+        "canFillGroupSize": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/tenerifepadelcamp"], "note": "'12 players who came to Tenerife Dec 8th-13th 2025'."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/tenerifepadelcamp"], "note": "EUR 368 for 6-day package."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/tenerifepadelcamp"], "note": "'5 Nights/ 6 days camps with monthly dates in 2026'."},
+        "longStayPotential": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/tenerifepadelcamp"], "note": "5-night camps monthly, but hotel-based model."},
+        "brandFit": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/tenerifepadelcamp"], "note": "Budget sports camp."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/tenerifepadelcamp"], "note": "Delivered Dec 2025 and Feb 2026 camps."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Duplicate/sister account of @tenerifepadelretreats (identical website and copy); treat as one organiser", "Pricing far below premium (EUR 368 for 6 days)"],
+        "missingInformation": ["Same as @tenerifepadelretreats: willingness to run a villa-based format near Athens with court access"],
+        "summary": "Tenerife Padel Camp is a second Instagram account for the same operator as @tenerifepadelretreats (same website www.tenerifepadelretreats.com, same copy, profile page and post DRdRPxsCjnp). It confirms the dated winter activity (12 players Dec 8-13 2025; Feb 1-6 and Apr 5-10 2026) and monthly 5-night camps at EUR 368. Merge with the primary account for outreach to avoid double contact; the same budget-pricing and padel-court dependency caveats apply. Medium commercial risk; scouting stay only if the Athens padel concept is pursued."
+      },
+      "events": [
+        {"title": "Tenerife Padel Camp Dec 2025 (12 players)", "eventType": "padel_retreat", "startDate": "2025-12-08", "endDate": "2025-12-13", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": 12, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/tenerifepadelcamp"]},
+        {"title": "Tenerife Padel Camp Feb 2026", "eventType": "padel_retreat", "startDate": "2026-02-01", "endDate": "2026-02-06", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": 368, "currency": "EUR", "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/tenerifepadelcamp"]},
+        {"title": "Tenerife Padel Camp Apr 2026", "eventType": "padel_retreat", "startDate": "2026-04-05", "endDate": "2026-04-10", "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": 368, "currency": "EUR", "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/tenerifepadelcamp"]}
+      ],
+      "profile": {"displayName": "Tenerife Padel Camp", "country": "ES", "languages": ["en"], "niche": "padel sports camps", "markets": ["GB", "OTHER"]}
+    },
+    {
+      "handle": "weddingsabroad",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DX_qssmsHrn"], "note": "Directory that 'connects couples with trusted, vetted venues, planners, and wedding professionals'; not a host."},
+        "sellsRetreats": {"value": false, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DX_qssmsHrn"], "note": "Wedding tourism listing platform; no retreats."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host", "off-topic account: destination-wedding directory, not retreats"],
+        "missingInformation": [],
+        "summary": "Weddings Abroad is a destination-wedding listing platform that connects couples with venues and planners in Italy, Greece, Portugal and Cyprus (reel DX_qssmsHrn). It is an aggregator, not a retreat organiser, and its topic is weddings rather than hosted retreats. Classified as none. If the owner later wants wedding listings for the villa it could be a separate marketing channel, but it is outside this programme."
+      },
+      "events": [],
+      "profile": {"displayName": "Weddings Abroad | Destination Weddings | Wedding Tourism", "country": null, "languages": ["en"], "niche": "destination-wedding directory", "markets": ["GB", "OTHER"]}
+    },
+    {
+      "handle": "yogahabit",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DdG5dJ3EebQ"], "note": "Teacher trainings are held 'AT YOGA HABIT', i.e. in its own studio."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DZxLYNxD2gS", "https://www.instagram.com/p/DdG5dJ3EebQ"], "note": "Sells in-studio 200-hour teacher trainings (registration live), not travel retreats."},
+        "provenWinterActivity": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DZxLYNxD2gS"], "note": "Only a part-time Sept 9 - Nov 18 2026 training; no residential winter event."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No cohort size stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price visible."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DdG5dJ3EebQ"], "note": "'2027 marks our ninth 200-hour teacher training'."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DZxLYNxD2gS"], "note": "Multi-week local format, non-residential."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Insufficient evidence."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DdG5dJ3EebQ", "https://www.instagram.com/reel/DZxLYNxD2gS"], "note": "Nine annual trainings with graduates now teaching."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Local yoga studio; teacher trainings are in-studio and part-time, no travel retreats in evidence", "Training dates (Sept 9 - Nov 18 2026) are identical to @theriveryoga's listing; excerpt may be mis-attributed"],
+        "missingInformation": ["Studio location", "Whether the studio runs any destination retreats or residential immersions"],
+        "summary": "Yoga Habit is a yoga studio running its ninth annual 200-hour teacher training in-studio (post DdG5dJ3EebQ), with a Fall 2026 cohort listed Sept 9 - Nov 18 2026 (reel DZxLYNxD2gS, though those dates duplicate @theriveryoga's and may be mis-scraped). There is no evidence of destination retreats or residential programmes, so the account does not fit any target group. Classified as none; could be revisited only if the studio adds a travel immersion."
+      },
+      "events": [
+        {"title": "Fall 2026 200 Hour Yoga Teacher Training (in-studio, part-time)", "eventType": "teacher_training", "startDate": "2026-09-09", "endDate": "2026-11-18", "nights": null, "location": "Yoga Habit studio", "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DZxLYNxD2gS"]},
+        {"title": "2027 200-Hour Teacher Training (ninth edition)", "eventType": "teacher_training", "startDate": "2027", "endDate": null, "nights": null, "location": "Yoga Habit studio", "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DdG5dJ3EebQ"]}
+      ],
+      "profile": {"displayName": "YOGA HABIT", "country": null, "languages": ["en"], "niche": "yoga studio / teacher training", "markets": ["US"]}
+    },
+    {
+      "handle": "4padel_annemasse",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DbNnniiuyBi"], "note": "Padel club running day camps on its own courts."},
+        "sellsRetreats": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DbNnniiuyBi"], "note": "Sells local 4-day padel 'stage' (EUR 120, 1.5-hour daily sessions), not residential retreats."},
+        "provenWinterActivity": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DbNnniiuyBi"], "note": "August and October day camps only."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not stated."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DbNnniiuyBi"], "note": "EUR 120 for 4 days of coaching."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DbNnniiuyBi"], "note": "Summer and autumn camps."},
+        "longStayPotential": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DbNnniiuyBi"], "note": "Non-residential day camps."},
+        "brandFit": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DbNnniiuyBi"], "note": "Local club offering."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host: local padel club (4PADEL Annemasse) running day camps on its own courts"],
+        "missingInformation": [],
+        "summary": "4PADEL Annemasse is a padel club in Annemasse, France, advertising a local 4-day summer 'stage' (Aug 10-13, EUR 120) and youth camps in October 2026 run by Platinum Padel (post DbNnniiuyBi). It is a venue with non-residential day sessions, not a retreat organiser that travels. Classified as none."
+      },
+      "events": [
+        {"title": "Stage de padel d'ete (4-day local day camp)", "eventType": "workshop", "startDate": null, "endDate": null, "nights": null, "location": "Annemasse", "country": "FR", "groupSize": null, "pricePerPerson": 120, "currency": "EUR", "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DbNnniiuyBi"]},
+        {"title": "Platinum Padel youth stages (Oct 21-23 and Oct 28-30 2026)", "eventType": "workshop", "startDate": "2026-10-21", "endDate": "2026-10-30", "nights": null, "location": "Annemasse", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "promoter", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DbNnniiuyBi"]}
+      ],
+      "profile": {"displayName": "4PADEL Annemasse", "country": "FR", "languages": ["fr"], "niche": "padel club", "markets": ["FR", "CH"]}
+    },
+    {
+      "handle": "aaspasurgerypa",
+      "classification": {
+        "group": "C_high_value_host",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DTS01lfAunq"], "note": "Association organises its own physician-only wellness retreat; location not shown."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DTS01lfAunq"], "note": "'Join us for an exclusive physician-only wellness retreat. SIGN UP NOW! limited spots available! Nov 7-14th, 2026 Book NOW!'."},
+        "provenWinterActivity": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DTS01lfAunq"], "note": "Dated Nov 7-14 2026 (7 nights)."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "'limited spots' without a number."},
+        "audiencePaysPremium": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DTS01lfAunq"], "note": "Physician/surgical-PA audience; pricing referenced but not shown."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DTS01lfAunq"], "note": "Past-tense 'The AASPA Wellness Retreat was a powerful reminder' plus a 2026 edition."},
+        "longStayPotential": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DTS01lfAunq"], "note": "7-night format."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DTS01lfAunq"], "note": "Professional wellness/leadership retreat for medical professionals."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DTS01lfAunq"], "note": "A previous edition is referenced."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["US professional association; destination of the 2026 retreat is not shown, long-haul to Greece likely"],
+        "missingInformation": ["Retreat location and price", "Group size", "Who in the association decides venue (events committee or agency)"],
+        "summary": "AASPA (surgical physician assistants association) is selling an exclusive physician-only wellness retreat, Nov 7-14 2026, with limited spots and a past edition referenced (reel DTS01lfAunq). This is a high-value professional host running a 7-night winter programme for an audience that can pay premium rates, which fits a C-track approach. Location and price are not visible and the association is US-based, so commercial risk is medium. Recommend a pilot retreat proposal for a 2027 edition (Athens access, privacy, 18 guests); identify the events chair first."
+      },
+      "events": [
+        {"title": "AASPA Wellness Retreat 2026 (physician-only)", "eventType": "wellness_retreat", "startDate": "2026-11-07", "endDate": "2026-11-14", "nights": 7, "location": null, "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DTS01lfAunq"]}
+      ],
+      "profile": {"displayName": "AASPA", "country": "US", "languages": ["en"], "niche": "medical professional association wellness retreat", "markets": ["US"]}
+    },
+    {
+      "handle": "all.in.jose",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"], "note": "Hosts The Yoga Project YTT at @sumberkimahill in Bali and announces returning there in 2027."},
+        "sellsRetreats": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"], "note": "'registration for 2027 is now OPEN', 'registration is live on the website', early-bird discount."},
+        "provenWinterActivity": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"], "note": "Only September dates (Sept 8-29 2027) in evidence."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Cohort size not stated."},
+        "audiencePaysPremium": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"], "note": "'Get up to $1000 off for early bird' implies a multi-thousand-dollar ticket; actual price not shown."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"], "note": "YTT 2026 in progress and second edition in 2027."},
+        "longStayPotential": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"], "note": "Three-week residential teacher training (Sept 8-29 2027)."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"], "note": "Destination YTT at a boutique Bali venue; aesthetic-led copy."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"], "note": "2026 edition running 'in FULL motion'."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Loyal to Bali venue (Sumberkima Hill) and September timing; no winter evidence"],
+        "missingInformation": ["Cohort size and price", "Home market of participants", "Appetite for a second, winter location"],
+        "summary": "Jose Portillo runs The Yoga Project, a 200-hour residential yoga teacher training in Bali with the 2026 cohort underway and 2027 registration open for Sept 8-29 at Sumberkima Hill (reel DaRb54xO18A). A 21-night block with early-bird discounts 'up to $1000 off' signals a premium-priced, long-stay product that is attractive for a villa. The gap is seasonality: only September dates exist and the organiser appears loyal to Bali. Medium risk. Recommend a pilot retreat pitch for a winter European YTT or a shorter 'Yoga Project immersion' in Nov-Mar, emphasising the 20-minute Athens airport access."
+      },
+      "events": [
+        {"title": "The Yoga Project 200-hour YTT 2027, Bali", "eventType": "teacher_training", "startDate": "2027-09-08", "endDate": "2027-09-29", "nights": 21, "location": "Sumberkima Hill, Bali", "country": "ID", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"]},
+        {"title": "The Yoga Project YTT 2026, Bali (in progress)", "eventType": "teacher_training", "startDate": "2026", "endDate": null, "nights": null, "location": "Bali", "country": "ID", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"]}
+      ],
+      "profile": {"displayName": "Jose Portillo", "country": null, "languages": ["en"], "niche": "destination yoga teacher training", "markets": ["US"]}
+    },
+    {
+      "handle": "amberhagberg",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DeIPqtCyQT5"], "note": "Coaches retreat leaders on selling; no own retreat in evidence."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DeIPqtCyQT5"], "note": "Sells a $22 Launch Masterclass and free training for retreat leaders, not retreats."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Insufficient evidence."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "low",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["Low-ticket offer ($22 masterclass) suggests a broad, early-stage retreat-leader audience"],
+        "missingInformation": ["Audience size and geography", "Whether she runs her own retreats"],
+        "summary": "Amber Hagberg is a spiritual business coach producing a content series for retreat leaders on how to sell retreats, with a $22 launch masterclass and free training (reel DeIPqtCyQT5). Her audience is aspiring and active retreat organisers, which makes her a referral channel rather than a host. Low commercial risk; propose a referral partnership (venue spotlight to her list, affiliate on bookings). Audience size and whether she organises her own retreats are unknown."
+      },
+      "events": [],
+      "profile": {"displayName": "Amber Hagberg | Spiritual Business Coach", "country": null, "languages": ["en"], "niche": "business coaching for retreat leaders", "markets": ["US"]}
+    }
+  ]
+}
