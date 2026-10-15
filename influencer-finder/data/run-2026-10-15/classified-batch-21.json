@@ -1,0 +1,911 @@
+{
+ "batch": 21,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "vigeo_retreats",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeUFNubzhas"
+     ],
+     "note": "'For retreat leaders, coaches, and active groups, Sport Hotel Monte Feliz is your base': it sells a venue to organisers rather than choosing one."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeUFNubzhas"
+     ],
+     "note": "'DM us GRANCANARIA for group packages and Q4 availability': venue group sales, no own retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Q4 availability is offered to others; no dated event of its own."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No own events."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Not applicable to a venue seller."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No commercial evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue/aggregator account, not a host: sells group packages at a competing Gran Canaria sport hotel",
+     "Same brand as @vigeo_fit (duplicate entity)"
+    ],
+    "missingInformation": [
+     "Whether Vigeo represents several venues and could list a Greek villa"
+    ],
+    "summary": "Vigeo Retreats markets Sport Hotel Monte Feliz in Gran Canaria (training platform, thermal circuit, ice bath) to retreat leaders, coaches and active groups, with group packages and Q4 availability by DM. It is a venue sales channel competing for the same winter-sun groups, and the same brand as @vigeo_fit. Classified none; at most a possible listing partner."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Vigeo Retreats",
+    "country": "ES",
+    "languages": [
+     "en"
+    ],
+    "niche": "venue marketing for active retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "viphq_essex",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdhG71Vu4VN"
+     ],
+     "note": "'Our final retreat of 2026 is taking us to Tenerife': the brand picks the destination for its group."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdhG71Vu4VN"
+     ],
+     "note": "Own retreat with '£750 per person', a '£250 non-refundable deposit' and 'Spaces are LIMITED'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdhG71Vu4VN"
+     ],
+     "note": "Tenerife Retreat dated 27th to 29th November 2026, sold as winter sun ('escape the cold')."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'Spaces are LIMITED' without a number."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.35,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdhG71Vu4VN"
+     ],
+     "note": "£750 per person for a 3-day fitness retreat is a solid mid-to-upper price; what it includes is not stated."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdhG71Vu4VN"
+     ],
+     "note": "'Our final retreat of 2026' and 'finishing the year exactly how we started it' show several retreats in 2026."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdhG71Vu4VN"
+     ],
+     "note": "Three-day format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdhG71Vu4VN"
+     ],
+     "note": "UK fitness community seeking winter-sun retreats; Greece in late autumn is milder than the UK but cooler than the Canaries."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdhG71Vu4VN"
+     ],
+     "note": "Runs multiple paid retreats per year with a deposit model."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Short 3-day / 2-night format limits villa nights per booking",
+     "Winter-sun promise is easier to meet in the Canaries than in Attica in late November"
+    ],
+    "missingInformation": [
+     "Group size",
+     "Follower count",
+     "Dates and destinations of its earlier 2026 retreats"
+    ],
+    "summary": "VIP HQ Essex, a UK fitness brand, sells its 'final retreat of 2026' in Costa Adeje, Tenerife, 27th to 29th November 2026 at £750 per person with a £250 deposit and limited spaces, after starting the year with another retreat. It is a UK-market organiser that chooses destinations and runs several paid trips a year, with a dated winter event. The 3-day format and winter-sun expectations cap the fit, so risk is medium. Pitch a spring or shoulder-season pilot in Greece with a longer format."
+   },
+   "events": [
+    {
+     "title": "Tenerife Retreat 2026",
+     "eventType": "fitness_retreat",
+     "startDate": "2026-11-27",
+     "endDate": "2026-11-29",
+     "nights": 2,
+     "location": "Costa Adeje, Tenerife",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": 750,
+     "currency": "GBP",
+     "soldOut": false,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdhG71Vu4VN"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "VIP HQ Essex",
+    "country": "GB",
+    "languages": [
+     "en"
+    ],
+    "niche": "fitness community / training retreats",
+    "markets": [
+     "GB"
+    ]
+   }
+  },
+  {
+   "handle": "vivianbalakrishnan",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat or event evidence."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Evidence is only comments on a post."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dated events."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic account: the only evidence is a comment thread (one comment about meeting 'Prince Max' in Singapore)",
+     "Likely a false-positive search hit"
+    ],
+    "missingInformation": [
+     "Any evidence of retreat or event hosting"
+    ],
+    "summary": "The only evidence for @vivianbalakrishnan is a comment thread under one post, including a remark about meeting 'Prince Max and his brother' in Singapore. Nothing relates to retreats, events or group travel, so it is an off-topic search hit. Classified none."
+   },
+   "events": [],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "unknown (off-topic)",
+    "markets": []
+   }
+  },
+  {
+   "handle": "voiceforrightsinternational",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DabN-hpyHz0"
+     ],
+     "note": "Runs the Leadership & Diplomacy Summit 2026 in Turkey, so it selects host venues abroad, but for 100 delegates."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DabN-hpyHz0"
+     ],
+     "note": "Application-based summit ('Applications are Now Open'), not a retreat sold to a small group."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DabN-hpyHz0"
+     ],
+     "note": "Summit dated 27-29 December 2026 (organiser role inferred from the VFRI post)."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'Total Seats: 100 Delegates' is capacity offered, not a filled group, and far above villa scale."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price shown."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only one summit visible."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DabN-hpyHz0"
+     ],
+     "note": "Three-day summit."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DabN-hpyHz0"
+     ],
+     "note": "100-delegate summit does not match a 9-bedroom villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sell-out or revenue evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Summit scale (100 delegates) far exceeds villa capacity",
+     "Application-driven international youth/leadership summit; commercial model unclear"
+    ],
+    "missingInformation": [
+     "Price per delegate",
+     "Organisation's home base",
+     "Whether it runs small leadership offsites"
+    ],
+    "summary": "Voice for Rights International (VFRI) is taking applications for its Leadership & Diplomacy Summit 2026 in Turkey, 27-29 December 2026, with 100 delegate seats. It is a winter-dated event and the organisation picks venues abroad, but a 100-delegate summit is a conference, not a villa-sized retreat. Classified none, high commercial risk."
+   },
+   "events": [
+    {
+     "title": "Leadership & Diplomacy Summit 2026",
+     "eventType": "leadership_retreat",
+     "startDate": "2026-12-27",
+     "endDate": "2026-12-29",
+     "nights": 2,
+     "location": "Turkey",
+     "country": "TR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DabN-hpyHz0"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Voice for Rights International",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "leadership and diplomacy summits",
+    "markets": []
+   }
+  },
+  {
+   "handle": "welikande.yoga.retreats",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/welikande.yoga.retreats?hl=en"
+     ],
+     "note": "Profile posts show the property itself (deck chair, pool, yoga) and reposts from visiting teachers, which reads as a retreat venue rather than a host."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat listings, dates or prices in the snippet."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dated events."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Appears to be a retreat venue (pool, deck chairs, guest-teacher reposts), not a host who books venues",
+     "Profile snippet contains only image descriptions; very thin"
+    ],
+    "missingInformation": [
+     "Whether Welikande is a property or a travelling retreat brand",
+     "Location",
+     "Retreat calendar"
+    ],
+    "summary": "Welikande Yoga Retreat's profile shows recent posts (August to October 2026) of yoga, a pool and deck chairs, plus reposts from visiting wellness teachers. That pattern suggests a retreat venue rather than an organiser who books other properties, but the snippet has no text, dates or location. Classified none at low confidence."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Welikande Yoga Retreat",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga retreat venue (inferred)",
+    "markets": []
+   }
+  },
+  {
+   "handle": "yoga_with_paola",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRVI9QpiHHa"
+     ],
+     "note": "She chose 'une villa d'exception au coeur de la jungle', a modern villa 10 minutes from Akumal beach, for her retreat."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRVI9QpiHHa"
+     ],
+     "note": "'J'ai l'immense joie de vous annoncer l'ouverture des inscriptions pour la retraite de yoga 2026', early bird 1500 EUR."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRVI9QpiHHa"
+     ],
+     "note": "'Retraite au Mexique : 14-21 Mars 2026'."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No spot count."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRVI9QpiHHa"
+     ],
+     "note": "Early bird of 1500 EUR for a week in an exceptional private villa signals an audience paying for premium stays."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRVI9QpiHHa"
+     ],
+     "note": "'la retraite de yoga 2026' and an early bird running to 31/12/2024 suggest an annual series planned well ahead."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRVI9QpiHHa"
+     ],
+     "note": "Seven-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRVI9QpiHHa"
+     ],
+     "note": "Already books exceptional private villas for retreats, exactly the Villa Lithos product."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sell-out or attendance evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Early bird deadline 31/12/2024 for a March 2026 retreat is inconsistent (typo or a reused post)",
+     "No group size or follower count"
+    ],
+    "missingInformation": [
+     "Group size and full price",
+     "Home country (francophone; France, Belgium or Switzerland not stated)",
+     "Plans for a 2027 retreat and destination"
+    ],
+    "summary": "Paola, a French-speaking yoga teacher, sells her own week-long yoga retreat in Mexico, 14-21 March 2026, in an exceptional modern villa in the jungle near Akumal, with an early bird price of 1500 EUR. She already books private luxury villas for her groups and runs in the winter window, which is the closest possible match to Villa Lithos. The early bird date (31/12/2024) conflicts with the event year and group size is unknown, so risk is medium. Pitch Greece for her 2027 edition as a pilot retreat; Europe is a much shorter flight for a francophone audience."
+   },
+   "events": [
+    {
+     "title": "Retraite de yoga au Mexique 2026",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-03-14",
+     "endDate": "2026-03-21",
+     "nights": 7,
+     "location": "Private villa in the jungle near Akumal (Tulum area)",
+     "country": "MX",
+     "groupSize": null,
+     "pricePerPerson": 1500,
+     "currency": "EUR",
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRVI9QpiHHa"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Yoga with Paola",
+    "country": null,
+    "languages": [
+     "fr"
+    ],
+    "niche": "yoga teacher running villa retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "yogafestivaltribe",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Venue for the Greece retreat not named."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'The tribe is on retreat in Greece' does not show whether the account sells the retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only a July 2026 post; no winter evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbGBRJ1ivsL"
+     ],
+     "note": "Already takes its community on retreat in Greece."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Thin pack: one reel with page chrome and a single caption line",
+     "Role in the Greece retreat (organiser or attendee) unknown"
+    ],
+    "missingInformation": [
+     "Whether Yoga Festival organises and sells retreats",
+     "Dates, venue and group size of the Greece retreat",
+     "Home market"
+    ],
+    "summary": "Yoga Festival (@yogafestivaltribe) posted in July 2026 that 'the tribe is on retreat in Greece', so its community already travels to Greece. The pack does not show who organised the retreat, where, or whether they run anything in winter, so the classification as an organiser is provisional and low confidence. Worth a scouting message because Greece familiarity lowers the barrier."
+   },
+   "events": [
+    {
+     "title": "Tribe retreat in Greece",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-07",
+     "endDate": null,
+     "nights": null,
+     "location": "Greece",
+     "country": "GR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "unknown",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbGBRJ1ivsL"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Yoga Festival",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga festival and community retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "yogaoncrete_retreat",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unclear whether YogaOnCrete owns its venue or rents one on Crete."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Profile snippet shows only image descriptions; no booking language."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Posts shown are August to October 2026; no winter dates."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/yogaoncrete_retreat"
+     ],
+     "note": "Image text mentions '2006' alongside the brand, suggesting a long-running retreat (inference from OCR text)."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/yogaoncrete_retreat"
+     ],
+     "note": "Iyengar yoga retreat in Greece ('we are on beautiful Crete'); Greek-island setting and teaching style suit the villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "May be a fixed-location retreat or venue on Crete rather than a host that books other venues",
+     "Profile snippet is image descriptions only"
+    ],
+    "missingInformation": [
+     "Venue ownership",
+     "Retreat dates and whether any run in Nov to Apr",
+     "Group size and pricing"
+    ],
+    "summary": "YogaOnCrete runs Iyengar yoga retreats on Crete, with posts from August to October 2026 and image text referring to 2006, suggesting a long-running summer programme. The pack does not show whether it owns its venue or rents one, or whether it runs any winter dates, so it is classified as a provisional organiser at low confidence. A mainland winter or spring base 20 minutes from Athens airport could complement a Crete summer season; worth a scouting conversation."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "YogaOnCrete - Iyengar Yoga Retreat",
+    "country": "GR",
+    "languages": [
+     "en"
+    ],
+    "niche": "Iyengar yoga retreats on Crete",
+    "markets": []
+   }
+  },
+  {
+   "handle": "yogaschule_passau",
+   "classification": {
+    "group": "C_high_value_host",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DA2cWuwIXAY"
+     ],
+     "note": "Took her 2-year teacher-training participants to an external residential venue (Yoga Vidya Ashram Bad Meinberg) for a 'Yoga-Intensivwoche'."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DA2cWuwIXAY"
+     ],
+     "note": "The intensive week is part of a paid 2-year training rather than a stand-alone retreat."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DA2cWuwIXAY"
+     ],
+     "note": "The only dated activity is the intensive week posted October 07, 2024."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Number of Teilnehmerinnen not stated."
+    },
+    "audiencePaysPremium": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DA2cWuwIXAY"
+     ],
+     "note": "Chose a low-cost ashram for the intensive week; local evening sessions priced at 35, 75 and 120 EUR per the pack."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DA2cWuwIXAY"
+     ],
+     "note": "A 2-year Yogalehrerausbildung with an intensive week implies repeated residential modules."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DA2cWuwIXAY"
+     ],
+     "note": "One-week residential intensive ('Intensivwoche')."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Traditional, teaching-focused school; no luxury signal."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DA2cWuwIXAY"
+     ],
+     "note": "Has booked an external residential venue for a training group."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Duplicate of @yogaschule_passau. (trailing dot) already classified in batch 12 from the same reel",
+     "Evidence post dated October 2024; recent activity unknown",
+     "Intensive week held at an ashram, a low-cost institutional venue"
+    ],
+    "missingInformation": [
+     "Group size of the training cohort",
+     "Budget per participant and current schedule",
+     "Whether an intensive week could be held abroad"
+    ],
+    "summary": "Babette Woitke of Yogaschule Passau (www.yogaschule-passau.de) took the participants of her 2-year yoga teacher training on a 'Yoga-Intensivwoche' at the Yoga Vidya Ashram in Bad Meinberg, posted October 07, 2024. She moves a training group to an external residential venue for a week, so she is classified as group C, consistent with the batch 12 record for the same account. Budget signals are modest and the evidence is two years old, so risk is medium. A scouting conversation about a future intensive week in Greece is the realistic step."
+   },
+   "events": [
+    {
+     "title": "Yoga-Intensivwoche der Yogalehrerausbildung Passau (Yoga Vidya Ashram Bad Meinberg)",
+     "eventType": "teacher_training",
+     "startDate": "2024-10",
+     "endDate": null,
+     "nights": null,
+     "location": "Yoga Vidya Ashram, Bad Meinberg",
+     "country": "DE",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DA2cWuwIXAY"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Babette Woitke",
+    "country": "DE",
+    "languages": [
+     "de"
+    ],
+    "niche": "yoga school and 2-year teacher training",
+    "markets": [
+     "DE"
+    ]
+   }
+  }
+ ]
+}
