@@ -1,6 +1,7 @@
 {
  "slice": 1,
  "generatedAt": "2026-10-15",
+ "notes": "All handles/numbers/dates/quotes are verbatim from Tavily tool results saved in raw/. eventsMentioned, locationHints, organizerSignals, winterMonthMentioned, role and accountType are regex/keyword-derived from those verbatim texts (heuristic, may include false positives such as deadlines or feed dates). followers integers are parsed from literal '<n> followers' strings (followersText keeps the literal). bioSource='profile_snippet' means the bio field holds the search-engine snippet of a profile page rather than a parsed bio block. offTopic=true marks accounts that matched the handle rules but are clearly unrelated to retreats. Some raw files have long unrelated content truncated and marked inline.",
  "stats": {
   "searchesAttempted": 40,
   "searchesSucceeded": 40,
@@ -11,7 +12,8 @@
    "https://www.instagram.com/reel/DS0hDEIkUrL",
    "https://www.instagram.com/p/Db3t16snavq"
   ],
-  "failedQueryIds": []
+  "failedQueryIds": [],
+  "urlsRequestedForExtract": 50
  },
  "candidates": [
   {
@@ -955,7 +957,7 @@
      "location": "Morocco",
      "price": null,
      "spots": "SOLD OUT",
-     "role": "organizer",
+     "role": "unknown",
      "excerpt": "re\nawakenwithmariabrito\nHead to my bio to see all upcoming retreats!   \nWould love to have you with me 👯‍♀️❤️  \nMorocco SOLD OUT  \nPuerto Rico SOLD OUT  \nCabo 5 Spots left  \nBali SOLD OUT   \nPortugal 3 Spots left  \nMachu Picchu Peru Just Released!",
      "url": "https://www.instagram.com/reel/Da08L3QN1Tj"
     },
@@ -965,7 +967,7 @@
      "location": "Tenerife",
      "price": null,
      "spots": null,
-     "role": "co_host",
+     "role": "unknown",
      "excerpt": "Head to my bio to see all upcoming retreats! Would love ...\nRenewal Retreat with @inneryou.community from December 29th, 2026 to January 3rd, 2027 in Tenerife, Canary Islands, Spain Mexico New Years",
      "url": "https://www.instagram.com/reel/Da08L3QN1Tj"
     }
@@ -1091,7 +1093,7 @@
      "location": "Suryalila",
      "price": null,
      "spots": "a few spaces remaining",
-     "role": "unknown",
+     "role": "organizer",
      "excerpt": "50hr Yin Yoga Teacher Training Suryalila, Spain June 27\n10% LAST-MINUTE DISCOUNT Our Yin Yoga Teacher Training takes place in Tenerife from 20 to 26 August 2026, and we have a few spaces remaining.",
      "url": "https://www.instagram.com/reel/DUnF2Z_CGOL"
     }
@@ -1142,7 +1144,7 @@
      "location": "Montana",
      "price": null,
      "spots": null,
-     "role": "organizer",
+     "role": "unknown",
      "excerpt": "p away for two days of reflection, creativity, and connection with women leaders from across Montana Time to recharge, set intentions, and reconnect with yourself Th Emily Dickins December 3-4, 2026 Chico Hot Springs OUGH WOMEN ENTURE STORIES See all details and register at the link in our bio TOUGH'.\nleadmontana's profile picture\nleadmontana\n•\nFollow\nleadmontana's profile pi",
      "url": "https://www.instagram.com/p/DcPVJRXBbuL"
     },
@@ -1152,7 +1154,7 @@
      "location": "Montana",
      "price": null,
      "spots": "Space is limited to 35 women",
-     "role": "organizer",
+     "role": "unknown",
      "excerpt": "ection as the year winds down. Time to recharge, reflect, and reconnect with other women leaders from across Montana.  \nSpace is limited to 35 women, so grab your spot now. Full agenda and facilitators announced September 8.  \nRegister at the link in our bio 👆\nNo comm",
      "url": "https://www.instagram.com/p/DcPVJRXBbuL"
     }
@@ -1336,7 +1338,7 @@
      "location": null,
      "price": null,
      "spots": null,
-     "role": "organizer",
+     "role": "unknown",
      "excerpt": "u where you are and guides you somewhere new. Whether you step into a teaching role or simply deepen your practice, you will walk away transformed.  \n✨ Free Virtual Info Session  \nJuly 21, 2026 | 6:00–6:30 PM on Zoom  \nMeet the instructors, learn more, and ask your questions before you commit.  \nLearn more + sign up via link in bio\nemilykiddphoto's profile picture\nemilyk",
      "url": "https://www.instagram.com/reel/Daf_rKlhkL7"
     }
@@ -1607,7 +1609,7 @@
      "location": "Lanzarote",
      "price": null,
      "spots": "Limited places",
-     "role": "organizer",
+     "role": "unknown",
      "excerpt": "Instagram\n📅 14-18 January 2027  \nLimited places available.  \n  \nSend me a message with the word “RETREAT” and I’ll send you all the details.  \n‼️ Also have one room available 16-20 Nov ‼️   \n  \n#Lanzarote #Pila",
      "url": "https://www.instagram.com/reel/DeBjbhColl_"
     },
@@ -1617,7 +1619,7 @@
      "location": "Lanzarote",
      "price": null,
      "spots": "Limited places",
-     "role": "organizer",
+     "role": "unknown",
      "excerpt": "Instagram\n📅 14-18 January 2027  \nLimited places available.  \n  \nSend me a message with the word “RETREAT” and I’ll send you all the details.  \n‼️ Also have one room available 16-20 Nov ‼️   \n  \n#Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat #RetreatHoliday HikingAdventure [...] What if January wasn’t about surviving winter...  \nWhat if it was abou",
      "url": "https://www.instagram.com/reel/DeBjbhColl_"
     }
@@ -2212,7 +2214,8 @@
     "book now",
     "host your own retreat"
    ],
-   "accountType": "venue"
+   "accountType": "venue",
+   "bioSource": "profile_page"
   },
   {
    "handle": "stanleysounds",
@@ -2268,7 +2271,7 @@
    "handle": "thepadelretreat",
    "profileUrl": "https://www.instagram.com/thepadelretreat/",
    "displayName": "The Padel Retreat",
-   "bio": "The Padel Retreat is heading to Cape Town from November 15–23, 2026!! We can't wait to see you on the courts Comment CAPE TOWN to pre-register and",
+   "bio": "The 1st ever Padel Retreat 🎾  \nYour ultimate destination for padel in paradise 🌴  \n📍Cape Town, Maldives, Mykonos, Ubud &",
    "followers": 23200,
    "followersText": "23.2K followers",
    "website": "thepadelretreat.com",
@@ -2314,7 +2317,8 @@
    "organizerSignals": [
     "pre-register"
    ],
-   "accountType": "person_or_brand"
+   "accountType": "person_or_brand",
+   "bioSource": "profile_page"
   },
   {
    "handle": "vituityhealth",
@@ -2356,7 +2360,7 @@
      "location": "Loews Coronado Bay Resort",
      "price": null,
      "spots": "Limited spots",
-     "role": "organizer",
+     "role": "unknown",
      "excerpt": "ned to help physicians like yourself feel refreshed, grounded, and with a renewed sense of purpose.   \nExperience the reset you deserve. Click the link in our bio to register!  \n📍 November 12–15 | Loews Coronado Bay Resort, Coronado, CA   \n❗️Limited spots   \n❗️Early bird pricing through June 5   \n#wellnessretreat #physicianwellbeing #wellnessweekend #wellnesslife #2026wel",
      "url": "https://www.instagram.com/reel/DXfKEqhD53E"
     }
@@ -2459,7 +2463,8 @@
    "organizerSignals": [
     "spots left"
    ],
-   "accountType": "person_or_brand"
+   "accountType": "person_or_brand",
+   "bioSource": "profile_page"
   },
   {
    "handle": "aimeedrost",
@@ -2540,7 +2545,8 @@
    ],
    "winterMonthMentioned": false,
    "organizerSignals": [],
-   "accountType": "person_or_brand"
+   "accountType": "person_or_brand",
+   "bioSource": "profile_page"
   },
   {
    "handle": "mysoreyogaparis",
@@ -2622,6 +2628,7 @@
     "הרשמה"
    ],
    "accountType": "person_or_brand",
+   "bioSource": "profile_snippet",
    "offTopic": true
   },
   {
@@ -2776,7 +2783,8 @@
    "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": [],
-   "accountType": "person_or_brand"
+   "accountType": "person_or_brand",
+   "bioSource": "profile_snippet"
   },
   {
    "handle": "coherenceretreats",
@@ -2978,7 +2986,8 @@
    "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": [],
-   "accountType": "person_or_brand"
+   "accountType": "person_or_brand",
+   "bioSource": "profile_snippet"
   },
   {
    "handle": "danihoyo_padelcoach",
@@ -3164,7 +3173,8 @@
    "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": [],
-   "accountType": "person_or_brand"
+   "accountType": "person_or_brand",
+   "bioSource": "profile_snippet"
   },
   {
    "handle": "lovetenagne",
@@ -3192,7 +3202,8 @@
    "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": [],
-   "accountType": "person_or_brand"
+   "accountType": "person_or_brand",
+   "bioSource": "profile_page"
   },
   {
    "handle": "michaeljameswong",
@@ -3348,7 +3359,8 @@
    "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": [],
-   "accountType": "person_or_brand"
+   "accountType": "person_or_brand",
+   "bioSource": "profile_snippet"
   },
   {
    "handle": "retreatcompany",
@@ -3532,7 +3544,8 @@
    "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": [],
-   "accountType": "person_or_brand"
+   "accountType": "person_or_brand",
+   "bioSource": "profile_snippet"
   },
   {
    "handle": "theretreatplanner",

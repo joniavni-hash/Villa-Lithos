@@ -1,0 +1,326 @@
+import json, glob, re, os, sys
+RAW = '/home/user/Villa-Lithos/influencer-finder/data/run-2026-10-15/raw'
+OUT = '/home/user/Villa-Lithos/influencer-finder/data/run-2026-10-15/candidates-slice-1.json'
+RESERVED = {'p','reel','reels','explore','stories','tv','accounts','popular'}
+HANDLE_RE = r"[A-Za-z0-9._\\]{2,40}"
+
+def norm_handle(h):
+    h = h.replace('\\_','_').replace('\\.','.').lower().strip().rstrip('.')
+    if not re.fullmatch(r'[a-z0-9._]{2,30}', h): return None
+    if h in RESERVED: return None
+    return h
+
+def url_kind(u):
+    if re.search(r'instagram\.com/(?:[^/]+/)?(?:p|reel)/', u): return 'reel' if '/reel/' in u else 'post'
+    if re.search(r'instagram\.com/[^/?#]+/?(?:\?|$)', u) or re.search(r'instagram\.com/[^/?#]+/reels', u): return 'profile'
+    return 'website'
+
+def handles_from_url(u):
+    m = re.match(r'https?://(?:www\.)?instagram\.com/([^/?#]+)', u)
+    if m:
+        h = norm_handle(m.group(1))
+        if h: return [h]
+    return []
+
+def handles_from_title(t):
+    out=[]
+    for h in re.findall(r'\(@('+HANDLE_RE+r')\)', t): 
+        n=norm_handle(h); 
+        if n: out.append(n)
+    return out
+
+def handles_from_text(c):
+    out=[]
+    for pat in [r'Never miss a post from ('+HANDLE_RE+r')', r'More posts from ('+HANDLE_RE+r')', r'Show more posts from ('+HANDLE_RE+r')']:
+        for h in re.findall(pat, c):
+            n=norm_handle(h)
+            if n: out.append(n)
+    for h in re.findall(r'(?:^|\n)('+HANDLE_RE+r')(?: Edited)?\n+•\n+Follow', c):
+        n=norm_handle(h)
+        if n: out.append(n)
+    return out
+
+searches=[]; extracts=[]
+for f in sorted(glob.glob(RAW+'/slice1-*.json')):
+    d=json.load(open(f))
+    if os.path.basename(f).startswith('slice1-extract-'): extracts.append(d)
+    else: searches.append(d)
+
+# map post url -> (spec, score, title)
+urlmeta={}
+for d in searches:
+    for r in d['results']:
+        u=r['url'].split('?')[0].replace('http://','https://')
+        if u not in urlmeta or r['score']>urlmeta[u]['score']:
+            urlmeta[u]={'spec':d['spec'],'score':r['score'],'title':r['title'],'content':r['content']}
+
+LOCS = ["Tenerife","Lanzarote","Canary Islands","Gran Canaria","Fuerteventura","Greece","Spain","Portugal","Cyprus","Morocco","France","Italy","Mallorca","Ibiza","Paros","Amorgos","Mykonos","Crete","Corfu","Mani","Andalusia","Provence","Côte d'Azur","Biarritz","Val d'Isère","UK","London","Dorset","Granada","Costa Rica","Bali","El Salvador","Cape Town","Phuket","Maldives","Ubud","Uluwatu","Dubai","Tulum","Peru","Mexico","Cabo","Puerto Rico","Iceland","Georgia","Virginia","California","Chicago","Miami Beach","Montana","Missouri","Maine","Ohio","Wales","Ireland","Sydney","Denmark","Copenhagen","Israel","Rhodes","Antiparos","Tomar","Sintra","Marbella","Seville","Algarve","Croatia","Costa Navarino","Suryalila","Kenosha","Coronado","Wildwood","Arafo","Güímar","Geretsried","Saint-Denis","La Reunion","Annemasse","Nantes","Vallon-Pont-d'Arc","Saint Medard","Gujarat","India","North Carolina","Jamaica","Pennsylvania","Honesdale","Fresno","Holly Springs","Cascais","Oranmore","Berlin","Madison","Dallas","Barcelona","Mediterranean","South Africa","Sichuan","Yunnan","Joshua Tree","Mani, Greece","Lombok","Phuket","Lake of the Ozarks","Winter Harbor","Acadia","Alexandria","Sonoma","Monterey","Lagada","Essaouira","Taghazout","Lajares","Famara","Nafplio","Naxos","Chios","Ikaria","Heraklion","Chania","Kastoria","Mystras","Palaiochora","Paphos","Larnaca","Famagusta","Paralimni","Mazotos","Peyia","Coral Bay","Modi`in","Mizata","Santa Susana","Alentejo","Setúbal","Almeria","Níjar","Lagos","Albufeira","Tavira","Óbidos","Porto","Faro","Hérémence","Switzerland","Netherlands","Germany","Malta","Gozo","Tarragona","Lanjarón","Polop","Catalonia","Alicante","Albir","El Burgo","Zahara de la Sierra","Tías","Puerto de la Cruz","Naturno","Playa de Muro","Corbera de Llobregat","Montegonzi","Carate Urio","Lake Como","Beaumont-de-Pertuis","Adjara","Tsikhisdziri","Buckinghamshire","East Sussex","Buckfastleigh","County Wicklow","Lochem","Culemborg","Sottrum","Kevadia","Goa","Varkala","Bentota","Sri Lanka","Matara","Mauritius","Malaysia","Morib","Thailand","Koh Samui","Ko Samui","Hinton","Winter Harbor","Schoodic","Wakeman","Honesdale","Geretsried","Salt Lake City","Kansas City","Chico Hot Springs","Lansdowne","Coronado Bay","Columbus Ohio","Charlotte","Wendell","Yorkdale","Langley","Port Moody","Kamloops","Horizon West","Ekta Nagar","Soul Bay Resort","Himalayan Institute","Loews Coronado Bay Resort","Pine Springs Ranch","Camp of the Woods","Adirondack Mountains","Camp Icaghowan","Greentop","Osage Beach","Black Cat Guest Ranch","Schoodic Institute","Gleneagles"]
+LOC_RE = re.compile(r'(?<![A-Za-z])(' + '|'.join(re.escape(l) for l in sorted(set(LOCS), key=len, reverse=True)) + r')(?![a-z])')
+
+WINTER_RE = re.compile(r"\b(November|Nov|December|Dec|January|Jan|February|Feb|March|Mar|April|Apr|NOVEMBER|NOV|DECEMBER|DEC|JANUARY|JAN|FEBRUARY|FEB|MARCH|MAR|APRIL|APR|winter|Winter|WINTER|Christmas|New Year|novembre|décembre|janvier|février|mars|avril|Dezember|Januar|Februar|März|Toussaint)\b|נובמבר|דצמבר|ינואר|פברואר|מרץ|אפריל")
+
+SIGNALS = ["registration is now open","registration is live","registration is officially open","registration is open","registration closes soon","registrations are open","early registration is available","registration opens","inscriptions sont ouvertes","inscriptions ouvertes","les inscriptions à","anmeldung jetzt offen","anmeldung offen","anmeldung ist offen","sold out","spots left","spot left","rooms left","room available","spaces left","place left","places left","last spaces","last 2 spots","limited spots","limited places","limited spaces","very limited spaces","few spaces remaining","a couple of last spaces","link in bio","link in our bio","link is in our bio","link in profile","book now","booking is now avail","bookings now open","early bird","earlybird","join us","join my","join me","i'm hosting","i am hosting","hosting a retreat","we're hosting","i will be hosting","i'll be hosting","hosting 3 back to back","waitlist","register today","register now","register at","register via","applications are open","applications are now open","applications close","now inviting facilitators","pre-register","secure your spot","secure your space","secure yours","reserve your spot","reserve your space","comment retreat","dm me","dm us","places are limited","places limitées","places partent vite","doors open soon","we only have four place left","only 4 spots left","only 7 spots remaining","just released","pricing starts at","payment plans available","application only","deposit","balance due","save the date","dates are now available","new dates released","host your own retreat","q4 availability is open","available dates for autumn & winter","now open","ההרשמה עדיין פתוחה","הרשמה"]
+
+PRICE_RE = re.compile(r"(?:€|\$|£|US\$|USD|EUR|BR\$|₺|Rp)\s?\d[\d,.]*(?:k|K)?(?:\s?(?:pp|per person|/ \d+ days|/ \d+ day))?|\d[\d,.]*\s?(?:€|euros|EUR|USD|£)(?:\s?pp)?", re.U)
+SPOTS_RE = re.compile(r"(?i)(?:only\s+|just\s+|last\s+)?(?:\d+|one|two|three|four|five|six|seven|a few|few)\s+(?:spots?|rooms?|spaces?|places?|place)\s+(?:left|remaining|remain|available)|one room available|(?:last|few) (?:spaces|spots)|sold out|limited spots|limited places|very limited spaces|places limitées|reste \d+ places|4 spots left|space is limited to \d+ \w+")
+
+MONTHS = r"(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec|JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER|JAN|FEB|MAR|APR|JUN|JUL|AUG|SEP|SEPT|OCT|NOV|DEC|janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre|Januar|Februar|März|Mai|Juni|Juli|Oktober|Dezember|נובמבר|אוקטובר|ספטמבר)"
+DAY = r"\d{1,2}(?:st|nd|rd|th|ST|ND|RD|TH)?\.?"
+SEP = r"\s*(?:-|–|—|to|bis|au|/)\s*"
+YEAR = r"(?:,?\s*\d{4})?"
+DATE_PATS = [
+    re.compile(MONTHS+r"\s+"+DAY+r"(?:,?\s*\d{4})?\s*(?:-|–|—|to|through|bis)\s*"+MONTHS+r"\s+"+DAY+YEAR),   # Month D[, Y] - Month D[, Y]
+    re.compile(r"(?:du\s+)?"+DAY+SEP+DAY+r"\s+"+MONTHS+YEAR+r"(?:\s*\|\s*"+DAY+SEP+DAY+r"\s+"+MONTHS+YEAR+r")?"),  # D-D Month [Y]
+    re.compile(MONTHS+r"\.?\s+"+DAY+SEP+DAY+YEAR+r"(?:\s*\|\s*"+MONTHS+r"\s+"+DAY+SEP+DAY+YEAR+r")?"),  # Month D-D[, Y]
+    re.compile(DAY+r"\s+"+MONTHS+SEP+DAY+r"\s+"+MONTHS+YEAR),  # D Month - D Month Y
+    re.compile(r"(?:du\s+)?\d{1,2}\s+au\s+\d{1,2}\s+"+MONTHS+r"(?:\s+\d{4})?"),
+    re.compile(r"\d{1,2}/\d{2}\s+to\s+(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+\d{1,2}/\d{2}"),
+    re.compile(r"(?:Thu|Fri|Sat|Sun|Mon|Tue|Wed)\s+\d{1,2}/\d{2}\s+to\s+(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+\d{1,2}/\d{2}"),
+    re.compile(MONTHS+r"\s+"+DAY+r",\s*\d{4}"),  # Month D, Y single
+    re.compile(r"\d{1,2}(?:-|\.)\d{1,2}(?:-|\.)\d{4}"),
+    re.compile(r"\d{1,2}-\d{1,2}\s+בנובמבר\s+\d{4}|אוקטובר\s+\d{1,2}-\d{1,2}"),
+]
+MONTH_YEAR_RE = re.compile(MONTHS+r"\s+\d{4}")
+
+def find_dates(text):
+    found=[]
+    for p in DATE_PATS:
+        for m in p.finditer(text):
+            s,e=m.span()
+            if any(not (e<=a or s>=b) for a,b,_ in found): continue
+            found.append((s,e,m.group(0)))
+    if not found:
+        for m in MONTH_YEAR_RE.finditer(text):
+            found.append((m.start(),m.end(),m.group(0)))
+    found.sort()
+    return found
+
+ORG_WORDS_OLD = ["join us","join me","join my","our next","our 20","our retreat","our women","our yoga","our tenerife","we're","we are","we’re","we only have","i'm hosting","i am hosting","i’m hosting","my retreat","hosting a retreat","i'll be hosting","i will be hosting","we're heading","i'm heading","i’m heading","booking is now avail","registration is now open for our","my women's retreat","my bio","dm me","hosting 3 back to back","my course","our 2027","our 2026","our next","our fall","our labor day","with me","come with me","i'm offering","i’m offering","in 2026, i'm offering","our biggest","we invite you","nous sommes ravis","notre prochain","unseren","sign up through the link in our bio","link in our bio","link in bio","head to my bio","send me a message"]
+
+ORG_WORDS = ["join us","join me","join my","our next","our retreat","our women","our yoga","our tenerife","we're hosting","we’re hosting","i'm hosting","i am hosting","i’m hosting","my retreat","hosting a retreat","i'll be hosting","i will be hosting","we're heading","we’re heading","i'm heading","i’m heading","booking is now avail","my women's retreat","hosting 3 back to back","our 2027","our 2026","our fall","our labor day","come with me","i'm offering","i’m offering","our biggest","we invite you","nous sommes ravis","notre prochain","we only have","we're opening registration","we’re opening registration","we are planning","we're planning","our 6th","registration for our","our thousand pines","our yoga teachers retreat","our next ytt","our 200","our yin","i've created","i’ve created","my course"]
+def role_for(excerpt, kind):
+    low=excerpt.lower()
+    if kind=='listing': return 'promoter'
+    if re.search(r"with @[A-Za-z0-9._\\]+", excerpt) and any(w in low for w in ORG_WORDS): return 'co_host'
+    if any(w in low for w in ORG_WORDS): return 'organizer'
+    return 'unknown'
+
+def window(text, s, e, pad=180):
+    a=max(0,s-pad); b=min(len(text),e+pad)
+    return text[a:b].strip()[:400]
+
+def events_from(text, url, title_hint, kind):
+    evs=[]
+    for s,e,dt in find_dates(text):
+        exc=window(text,s,e)
+        loc=LOC_RE.search(exc); price=PRICE_RE.search(exc); spots=SPOTS_RE.search(exc)
+        th = title_hint if title_hint and title_hint!='Instagram' else (exc[:90].replace("\n"," ")+"...")
+        evs.append({"title": th, "dates": dt, "location": loc.group(1) if loc else None,
+                    "price": price.group(0).strip() if price else None, "spots": spots.group(0) if spots else None,
+                    "role": role_for(exc, kind), "excerpt": exc, "url": url})
+    covered=[(s,e) for s,e,_ in find_dates(text)]
+    for m in SPOTS_RE.finditer(text):
+        if any(abs(m.start()-s)<220 for s,e in covered): continue
+        exc=window(text,m.start(),m.end(),120)
+        loc=LOC_RE.search(exc); price=PRICE_RE.search(exc)
+        th = title_hint if title_hint and title_hint!='Instagram' else (exc[:90].replace("\n"," ")+"...")
+        evs.append({"title": th, "dates": None, "location": loc.group(1) if loc else None,
+                    "price": price.group(0).strip() if price else None, "spots": m.group(0),
+                    "role": role_for(exc, kind), "excerpt": exc, "url": url})
+        covered.append((m.start(),m.end()))
+    # dedupe by dates
+    seen=set(); out=[]
+    for ev in evs:
+        k=(ev['dates'],ev['spots'],ev['url'])
+        if k in seen: continue
+        seen.add(k); out.append(ev)
+    return out
+
+def signals_in(text):
+    out=[]; low=text.lower()
+    for s in SIGNALS:
+        i=low.find(s)
+        if i>=0: out.append(text[i:i+len(s)])
+    return out
+
+def followers_in(text):
+    m=re.search(r"([\d.,]+)\s*(K|M)?\s+followers", text)
+    if not m: return None, None
+    raw=m.group(0).strip(); num=m.group(1).replace(',',''); mult={'K':1000,'M':1000000}.get(m.group(2),1)
+    try: return int(round(float(num)*mult)), raw
+    except: return None, raw
+
+def parse_profile(content, handle):
+    """returns displayName, bio, website from an IG profile page dump"""
+    i=content.find('following\n')
+    if i<0: return None,None,None
+    rest=content[i+len('following\n'):].lstrip('\n')
+    segs=[s.strip() for s in re.split(r'\n\n+', rest)]
+    segs=[s for s in segs if s]
+    if not segs: return None,None,None
+    dn=segs[0]; j=1
+    if j<len(segs) and norm_handle(segs[j].replace('\\_','_'))==handle: j+=1
+    bio = segs[j] if j<len(segs) and segs[j] not in ('...','more') else None
+    web=None
+    for s in segs[j:j+5]:
+        m=re.search(r"(?:https?://)?(?:www\.)?[a-z0-9-]+(?:\.[a-z0-9-]+)+(?:/[^\s]*)?", s)
+        if m and ' ' not in s and 'instagram' not in s: web=m.group(0); break
+    return dn,bio,web
+
+cands={}
+def cand(h):
+    if h not in cands:
+        cands[h]={"handle":h,"profileUrl":"https://www.instagram.com/"+h+"/","displayName":None,"bio":None,"followers":None,"followersText":None,"website":None,"locationHints":[],"evidence":[],"eventsMentioned":[],"winterMonthMentioned":False,"organizerSignals":[],"accountType":"person_or_brand"}
+    return cands[h]
+
+FEED_RE=re.compile(r"(?:Photo|Video) by .{1,120}? on [A-Z][a-z]+ \d{1,2}, \d{4}\.?")
+SNIPDATE_RE=re.compile(r"\b[A-Z][a-z]+ \d{1,2}, \d{4}:")
+def clean_text(t):
+    t=FEED_RE.sub(" ",t); t=SNIPDATE_RE.sub(" ",t)
+    t=re.sub(r"(?:Never miss a post from|More posts from|Show more posts from) [^\n]+"," ",t)
+    return t
+def add_evidence(h, ev, text):
+    c=cand(h)
+    text=clean_text(text)
+    if any(e['url']==ev['url'] and e['excerpt']==ev['excerpt'] for e in c['evidence']): return
+    c['evidence'].append(ev)
+    for m in LOC_RE.finditer(text):
+        if m.group(1) not in c['locationHints']: c['locationHints'].append(m.group(1))
+    if WINTER_RE.search(text): c['winterMonthMentioned']=True
+    for s in signals_in(text):
+        if s not in c['organizerSignals']: c['organizerSignals'].append(s)
+    for e in events_from(text, ev['url'], ev['title'], ev['kind']):
+        if not any(x['dates']==e['dates'] and x['url']==e['url'] for x in c['eventsMentioned']): c['eventsMentioned'].append(e)
+
+listingLeads=[]; unattributed=[]; attributed_urls=set()
+
+longest={}
+for d in searches:
+    for r in d['results']:
+        u=r['url'].split('?')[0].replace('http://','https://')
+        if '(duplicate of' in r['content'] or 'truncated in raw save' in r['content']: continue
+        if u not in longest or len(r['content'])>len(longest[u]): longest[u]=r['content']
+# --- search results
+for d in searches:
+    spec=d['spec']
+    for r in d['results']:
+        u=r['url']; t=r['title']; c=r['content']; sc=r['score']
+        if '(duplicate of' in c or 'truncated in raw save' in c:
+            lc=longest.get(u.split('?')[0].replace('http://','https://'))
+            if lc: c=lc
+            else: continue
+        text=t+"\n"+c
+        if spec['lane']=='listing_site':
+            # listing leads
+            leads=[]
+            # retreat.guru inline / multiline entries
+            for m in re.finditer(r"###\s+(?P<title>[^\n#]+?)\.?\s*\n*(?:Date\s+(?P<date>[^\n]+?)\s*\.?\s*\n*)?Center\s{2,}(?P<center>[^\n]+?)\s{3}(?P<loc>[^.\n]+?)(?:\.|\n|$)", c):
+                tail=c[m.end():m.end()+200]
+                pm=PRICE_RE.search(tail)
+                leads.append({"url":u,"title":m.group('title').strip(),"excerpt":c[m.start():m.end()+120][:400],"organizerName":m.group('center').strip(),"instagramHandle":None,"dates":(m.group('date') or '').strip() or None,"price":pm.group(0).strip() if pm else None,"location":m.group('loc').strip(),"queryId":spec['id']})
+            # bookretreats multiline entries: ### Title \n\n [gold host]\n\n Location \n\n Dates
+            for m in re.finditer(r"###\s+(?P<title>[^\n]+)\n\n(?:gold medalGold host\n\n)?(?P<loc>[^\n]+)\n\n(?P<date>[^\n]+)\n", c):
+                if 'Center' in m.group(0): continue
+                tail=c[m.end():m.end()+400]
+                pm=re.search(r"From\n\n(?:(?:US\$|BR\$|€|₺|Rp|\$|£)\d[\d,.]*k?\n\n)?(US\$|BR\$|€|₺|Rp|\$|£)\n\n(\d[\d,.]*k?)", tail)
+                price = (pm.group(1)+pm.group(2)) if pm else None
+                leads.append({"url":u,"title":m.group('title').strip(),"excerpt":c[m.start():m.end()+200][:400],"organizerName":None,"instagramHandle":None,"dates":m.group('date').strip(),"price":price,"location":m.group('loc').strip(),"queryId":spec['id']})
+            if not leads:
+                dm=find_dates(text); pm=PRICE_RE.search(c); lm=LOC_RE.search(c)
+                leads.append({"url":u,"title":t,"excerpt":c[:400],"organizerName":None,"instagramHandle":None,"dates":dm[0][2] if dm else None,"price":pm.group(0).strip() if pm else None,"location":lm.group(1) if lm else None,"queryId":spec['id']})
+            for l in leads:
+                hm=re.search(r"@([A-Za-z0-9._]{2,30})", l['excerpt'])
+                if hm: l['instagramHandle']=hm.group(1).lower()
+            listingLeads.extend(leads)
+            continue
+        kind=url_kind(u)
+        hs=set(handles_from_url(u))|set(handles_from_title(t))|set(handles_from_text(c))
+        if kind=='profile' and not hs: continue
+        ev={"url":u,"title":t,"excerpt":c[:400],"kind":kind,"queryId":spec['id'],"lane":spec['lane'],"score":sc}
+        if not hs:
+            if kind in ('post','reel'): unattributed.append({"url":u,"title":t,"excerpt":c[:400],"queryId":spec['id']})
+            continue
+        attributed_urls.add(u.split('?')[0])
+        for h in hs:
+            add_evidence(h, ev, text)
+            cd=cand(h)
+            if kind=='profile':
+                f,ft=followers_in(c)
+                if f and not cd['followers']: cd['followers']=f; cd['followersText']=ft
+                dn,bio,web=parse_profile(c,h)
+                tm=re.match(r"(.+?)\s*\(@", t)
+                if tm and not cd['displayName']: cd['displayName']=tm.group(1).strip()
+                if dn and not cd['displayName']: cd['displayName']=dn
+                if bio and (not cd['bio'] or cd.get('bioSource')=='profile_snippet'): cd['bio']=bio; cd['bioSource']='profile_page'
+                if web and not cd['website']: cd['website']=web
+                if not cd['bio'] and 'following' not in c and len(c)<400 and 'Photo by' not in c and 'Video by' not in c:
+                    cd['bio']=c; cd['bioSource']='profile_snippet'
+                if dn and cd.get('bioSource')=='profile_page' and (cd['displayName'] is None or len(cd['displayName'])<3): cd['displayName']=dn
+                if not cd['website']:
+                    wm=re.search(r"(?:https?://)?(?:www\.)?(?:[a-z0-9-]+\.)+(?:co\.uk|org\.il|co\.il|co\.za|com|net|org|ie|de|fr|es|it|co|io|site|be|guru|at|ch|nl|us)(?:/[^\s'\"]*)?", c)
+                    if wm and 'instagram' not in wm.group(0): cd['website']=wm.group(0)
+
+# --- extract results
+extract_calls=len(extracts); urls_extracted=0; failed_urls=[]
+for d in extracts:
+    for fr in d.get('failed_results',[]): failed_urls.append(fr['url'])
+    for r in d['results']:
+        urls_extracted+=1
+        u=r['url'].split('?')[0]; rc=r['raw_content']; meta=urlmeta.get(u)
+        if r['title'].startswith("Post isn't available"): unattributed.append({"url":u,"title":r['title'],"excerpt":rc[:200],"queryId":meta['spec']['id'] if meta else None}); continue
+        hs=set(handles_from_text(rc))
+        kind='reel' if '/reel/' in u else 'post'
+        if not hs:
+            unattributed.append({"url":u,"title":meta['title'] if meta else r['title'],"excerpt":rc[:400],"queryId":meta['spec']['id'] if meta else None}); continue
+        attributed_urls.add(u)
+        for h in hs:
+            # caption excerpt: text after "<handle>\n" following "Follow"
+            cap=None
+            esc=h.replace('_','\\_')
+            for hv in (h,esc):
+                m=re.search(r"\nFollow\n(?:[^\n]*\n){0,4}?"+re.escape(hv)+r"(?: Edited•)?\n", rc)
+                if m: cap=rc[m.end():]; break
+            if cap is None:
+                m=re.search(r"(?:^|\n)"+re.escape(esc)+r"\n", rc) or re.search(r"(?:^|\n)"+re.escape(h)+r"\n", rc)
+                cap = rc[m.end():] if m else rc
+            cap=re.split(r"\nNo comments yet\.|\n\d+ likes?\nReply|\nLog in to like or comment\.", cap)[0]
+            ev={"url":u,"title":meta['title'] if meta else r['title'],"excerpt":cap.strip()[:400],"kind":kind,"queryId":meta['spec']['id'] if meta else None,"lane":meta['spec']['lane'] if meta else None,"score":meta['score'] if meta else None}
+            add_evidence(h, ev, (meta['title'] if meta else '')+"\n"+rc)
+            if meta:
+                sev={"url":u,"title":meta['title'],"excerpt":meta['content'][:400],"kind":kind,"queryId":meta['spec']['id'],"lane":meta['spec']['lane'],"score":meta['score']}
+                add_evidence(h, sev, meta['title']+"\n"+meta['content'])
+            cd=cand(h)
+            if not cd['displayName']:
+                m=re.search(r"Never miss a post from [^\n]+\n(?:[^\n]*\n){0,6}?(?:Photo|Video) by (.+?) on [A-Z][a-z]+ \d{2}, \d{4}", rc)
+                if m: cd['displayName']=m.group(1).strip()
+            if not cd['website']:
+                wm=re.search(r"(?:https?://)?(?:www\.)?(?:[a-z0-9-]+\.)+(?:co\.uk|org\.il|co\.il|co\.za|com|net|org|ie|de|fr|es|it|co|io|site|be|guru|at|ch|nl|us)(?:/[^\s'\"]*)?", cap)
+                if wm and 'instagram' not in wm.group(0) and wm.group(0)!=h and h.replace('_','').replace('.','')[:6] in wm.group(0).replace('-','').replace('.',''): cd['website']=wm.group(0)
+
+# unattributed: remove ones later attributed
+unattributed=[x for x in unattributed if x['url'].split('?')[0] not in attributed_urls]
+# dedupe unattributed by url
+seen=set(); ua=[]
+for x in unattributed:
+    if x['url'] in seen: continue
+    seen.add(x['url']); ua.append(x)
+unattributed=ua
+
+VENUE_WORDS=["retreat center","retreat centre","villa","hotel","resort","finca","retreat venue","christian camp","retreat house","holidays, retreats & events","guest ranch"]
+for h,c in cands.items():
+    blob=" ".join(filter(None,[c['displayName'] or '',c['bio'] or '']+[e['title'] for e in c['evidence']])).lower()
+    if any(w in blob for w in VENUE_WORDS): c['accountType']='venue'
+
+OFFTOPIC={"smcstudyabroad","tourlandia_","world.of_statistics","weddingsabroad","districtoffices","sundanceorg","science_abroad","ucdavismenasa","womensfoodserviceforum","oneevent.greece.cyprus"}
+for h,c in cands.items():
+    if h in OFFTOPIC: c["offTopic"]=True
+stats={"searchesAttempted":40,"searchesSucceeded":len(searches),"rateLimited429":4,"extractCalls":extract_calls,"urlsExtracted":urls_extracted,"extractFailedUrls":failed_urls,"failedQueryIds":[]}
+stats["urlsRequestedForExtract"]=50
+notes=("All handles/numbers/dates/quotes are verbatim from Tavily tool results saved in raw/. eventsMentioned, locationHints, organizerSignals, winterMonthMentioned, role and accountType are regex/keyword-derived from those verbatim texts (heuristic, may include false positives such as deadlines or feed dates). "
+       "followers integers are parsed from literal '<n> followers' strings (followersText keeps the literal). bioSource='profile_snippet' means the bio field holds the search-engine snippet of a profile page rather than a parsed bio block. "
+       "offTopic=true marks accounts that matched the handle rules but are clearly unrelated to retreats. Some raw files have long unrelated content truncated and marked inline.")
+out={"slice":1,"generatedAt":"2026-10-15","notes":notes,"stats":stats,"candidates":sorted(cands.values(),key=lambda c:(-len(c['eventsMentioned']),-len(c['evidence']),c['handle'])),"listingLeads":listingLeads,"unattributedPosts":unattributed}
+json.dump(out,open(OUT,'w'),ensure_ascii=False,indent=1)
+print("candidates",len(cands),"winter",sum(1 for c in cands.values() if c['winterMonthMentioned']),"venues",sum(1 for c in cands.values() if c['accountType']=='venue'),"leads",len(listingLeads),"unattributed",len(unattributed))
+for c in out['candidates']:
+    print(f"{c['handle']:34s} ev={len(c['evidence'])} events={len(c['eventsMentioned'])} winter={c['winterMonthMentioned']} fol={c['followers']} type={c['accountType']} dn={str(c['displayName'])[:40]!r} web={c['website']}")
