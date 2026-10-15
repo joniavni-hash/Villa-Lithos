@@ -36,6 +36,11 @@ python3 -I scripts/export-ranked-csv.py   # -> ranked.csv
 npx tsx scripts/seed-sql.ts               # -> seed.sql for the Cloud database
 ```
 
+Deployment set for Lovable Cloud: `python3 -I scripts/build-lovable-bundle.py OUT_DIR` merges `src/` into one
+module `supabase/functions/_shared/engine.ts` and points the edge functions at it. Before upload it was checked
+with `deno check` on all six functions and against `src/` on all 339 run candidates (scores, tracks and Hebrew
+drafts identical).
+
 ```
 npm install
 npm test            # vitest
