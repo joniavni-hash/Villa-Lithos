@@ -22,8 +22,19 @@ This folder holds everything that is platform-independent and testable:
 | `src/ai/prompts.ts` | Claude prompts (screening / deep / insights extraction), JSON schema, model tiers |
 | `supabase/migrations/0001_schema.sql` | Full schema: runs, resumable query plan, candidates, evidence, events, score history, private insights, outreach, feedback, learning, RLS, private storage bucket |
 | `supabase/functions/*` | Deno edge functions: `run-discovery` (resumable, spend-capped), `classify-candidates`, `analyze-insights`, `generate-outreach`, `export-csv` |
-| `tests/engine.test.ts` | 19 tests covering generator, normaliser, website dedupe, weights, scoring gates, budget, EBN, rescoring, outreach |
-| `data/run-2026-10-15/` | The first real discovery run: query plan, raw Tavily responses, normalised candidates, ranked output |
+| `tests/engine.test.ts` | 33 tests covering generator, handle cleaning, website dedupe, weights, scoring gates, budget inputs, season-window EBN, affordability, rescoring, track choice, outreach wording and gender forms |
+| `data/run-2026-10-15/` | First real discovery run: 200 queries, raw Tavily responses, 339 accounts, classifications, `ranked.json`, `ranked.csv`, `REPORT.md` (Best Match + 9 with evidence), `seed.sql` |
+
+Rebuild the run outputs from the files on disk (no network calls):
+
+```
+python3 -I scripts/merge-slices.py        # candidates-slice-*.json -> candidates.json
+python3 -I scripts/merge-classified.py    # classified-batch-*.json -> classified.json (validates evidence URLs)
+npx tsx scripts/rank-dataset.ts           # -> ranked.json (scores, EBN, budget, track, drafts)
+python3 -I scripts/make-report.py         # -> REPORT.md
+python3 -I scripts/export-ranked-csv.py   # -> ranked.csv
+npx tsx scripts/seed-sql.ts               # -> seed.sql for the Cloud database
+```
 
 ```
 npm install
@@ -35,7 +46,7 @@ npm run queries 400 out.json   # print a query plan
 
 ## Verification done in the build session
 
-- `npm test` (19 tests) and `npm run typecheck` pass; every edge function passes `deno check` with the synced engine.
+- `npm test` (33 tests) and `npm run typecheck` pass; every edge function passes `deno check` with the synced engine.
 - The schema migration and the generated seed were applied to a local PostgreSQL 16 with minimal stand-ins for the Supabase `auth` and `storage` schemas. Both apply twice without errors and with identical row counts, so they are idempotent.
 - Undated events are deduplicated by a `nulls not distinct` unique key (Postgres 15 or later), so re-classifying a candidate cannot inflate its events per year or its Expected Booked Nights.
 - Row-level security: a signed-in user reads all rows, an anonymous request reads none.
