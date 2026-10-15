@@ -324,7 +324,8 @@ drop policy if exists "insights_owner_rw" on storage.objects;
 create policy "insights_owner_rw" on storage.objects for all to authenticated using (bucket_id = 'insights') with check (bucket_id = 'insights');
 
 -- Dashboard view --------------------------------------------------------------------------
-create or replace view dashboard_summary as
+-- security_invoker: the view runs with the caller's rights, so RLS applies (anon sees nothing).
+create or replace view dashboard_summary with (security_invoker = true) as
 select
   (select count(*) from candidates) as candidates_total,
   (select count(*) from candidates where tier = 'A') as tier_a,
