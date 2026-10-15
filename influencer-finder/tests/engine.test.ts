@@ -193,3 +193,20 @@ describe('outreach', () => {
     expect(recommendTrack(c).track).toBe('referral_partnership');
   });
 });
+
+import { buildLearningSnapshot, type OutcomeRow } from '../src/insights/learning.ts';
+describe('learning', () => {
+  const bd = (x: number) => ({ bookingIntentAuthority: x, provenWinterActivity: x, audienceRelevance: 50, estimatedVenueBudget: 50, geographicFit: 50, expectedStayDuration: 50, engagementQuality: 50, partnershipFeasibility: 50 });
+  it('refuses to suggest weights on thin data', () => {
+    const s = buildLearningSnapshot([{ handle: 'a', breakdown: bd(90), outcome: 'positive', booked: true }, { handle: 'b', breakdown: bd(20), outcome: 'negative', booked: false }]);
+    expect(s.weightSuggestion).toBeNull();
+    expect(s.note).toMatch(/Not enough outcomes/);
+  });
+  it('suggests damped, normalised weights with enough outcomes', () => {
+    const rows: OutcomeRow[] = [...[...Array(6)].map((_, i): OutcomeRow => ({ handle: `p${i}`, breakdown: bd(90), outcome: 'positive', booked: i < 2 })), ...[...Array(6)].map((_, i): OutcomeRow => ({ handle: `n${i}`, breakdown: bd(20), outcome: 'negative', booked: false }))];
+    const s = buildLearningSnapshot(rows);
+    expect(s.weightSuggestion).not.toBeNull();
+    expect(Object.values(s.weightSuggestion!).reduce((a, b) => a + b, 0)).toBe(100);
+    expect(s.weightSuggestion!.bookingIntentAuthority).toBeGreaterThan(25);
+  });
+});

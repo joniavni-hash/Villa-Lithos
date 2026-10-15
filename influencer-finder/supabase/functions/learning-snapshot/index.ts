@@ -1,0 +1,32 @@
+// learning-snapshot: aggregates feedback into a calibration snapshot. Suggestions
+// are stored, shown in Settings, and never auto-applied.
+import { adminClient, json, CORS, requireUser } from '../_shared/clients.ts';
+import { buildLearningSnapshot, type OutcomeRow } from '../_shared/engine/insights/learning.ts';
+
+Deno.serve(async (req) => {
+  if (req.method === 'OPTIONS') return new Response(null, { headers: CORS });
+  const auth = await requireUser(req);
+  if (auth instanceof Response) return auth;
+  const sb = adminClient();
+  const { data: fb } = await sb.from('feedback').select('candidate_id,kind');
+  const { data: cands } = await sb.from('candidates').select('id,handle,public_score,verified_score,pipeline_stage');
+  const { data: settings } = await sb.from('villa_settings').select('weights').eq('id', 1).maybeSingle();
+  type Row = { id: string; handle: string; public_score?: { breakdown: OutcomeRow['breakdown'] }; verified_score?: { breakdown: OutcomeRow['breakdown'] }; pipeline_stage: string };
+  const byId = new Map<string, Row>((cands ?? []).map((c: Row) => [c.id, c]));
+  const rows: OutcomeRow[] = [];
+  const seen = new Set<string>();
+  for (const f of (fb ?? []) as Array<{ candidate_id: string; kind: string }>) {
+    const c = byId.get(f.candidate_id);
+    if (!c || seen.has(f.candidate_id)) continue;
+    const breakdown = (c.verified_score ?? c.public_score)?.breakdown;
+    if (!breakdown) continue;
+    const positive = f.kind === 'booked' || f.kind === 'replied' || f.kind === 'quality' || c.pipeline_stage === 'booked';
+    const negative = f.kind === 'not_relevant' || f.kind === 'rejected';
+    if (!positive && !negative) continue;
+    seen.add(f.candidate_id);
+    rows.push({ handle: c.handle, breakdown, outcome: positive ? 'positive' : 'negative', booked: f.kind === 'booked' || c.pipeline_stage === 'booked' });
+  }
+  const snap = buildLearningSnapshot(rows, settings?.weights);
+  await sb.from('learning_snapshots').insert({ outcomes_count: snap.outcomesCount, booked_count: snap.bookedCount, feature_stats: snap.featureStats, weight_suggestion: snap.weightSuggestion, note: snap.note });
+  return json(snap);
+});
