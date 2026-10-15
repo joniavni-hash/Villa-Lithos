@@ -1,0 +1,541 @@
+{
+ "batch": 27,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "yellowyogaberlin",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Retreat venue not named (campfires, communal cooking, a swimming lake)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVdiZ6wCcA3"
+     ],
+     "note": "Describes its retreat programme and 'Reservations are now open!'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dates; lake swimming and campfires suggest a warm-season retreat."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "One retreat in evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Duration not stated."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVdiZ6wCcA3"
+     ],
+     "note": "Community-style programme (campfires, communal cooking, singing circles) reads as rustic rather than luxury."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No figures."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "No dates, price or venue",
+     "Rustic communal format may not match a luxury villa"
+    ],
+    "missingInformation": [
+     "Retreat dates and venue",
+     "Group size and price",
+     "Interest in winter retreats abroad",
+     "Follower count"
+    ],
+    "summary": "yellow yoga (Berlin) sells its own retreat with mixed yoga styles, pranayama, sound journeys, massages, campfires, communal cooking and hikes to a swimming lake, with reservations open. It is a German organiser, a priority market, but there are no dates, price, venue or group size and the communal format reads as rustic. Medium risk; scouting conversation about a winter retreat abroad."
+   },
+   "events": [
+    {
+     "title": "yellow yoga retreat",
+     "eventType": "yoga_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVdiZ6wCcA3"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "yellow yoga",
+    "country": "DE",
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga studio retreats",
+    "markets": [
+     "DE"
+    ]
+   }
+  },
+  {
+   "handle": "yog_apo",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DSMvTFygHSo"
+     ],
+     "note": "Books its retreat at an external venue (@casaolta, gorges du Verdon)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DSMvTFygHSo"
+     ],
+     "note": "'OUVERTURE DES INSCRIPTIONS EARLY BIRD' for her 'Sacred Flow' retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only dated event is 14 to 17 May 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Early-bird pricing mentioned but no amount."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DSMvTFygHSo"
+     ],
+     "note": "'11 ÈME ÉDITION' of Sacred Flow."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DSMvTFygHSo"
+     ],
+     "note": "4 days / 3 nights format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DSMvTFygHSo"
+     ],
+     "note": "Saint-Tropez yoga teacher with a holistic boutique-venue retreat (cacao, hot and cold baths); tone fits a luxury villa."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DSMvTFygHSo"
+     ],
+     "note": "Eleven editions of the same retreat imply repeat paying demand."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "No winter-season evidence"
+    ],
+    "missingInformation": [
+     "Winter retreat interest",
+     "Group size and price",
+     "Follower count and audience markets"
+    ],
+    "summary": "Apolline Delmas, a yoga teacher in Saint-Tropez, opened early-bird registration for the 11th edition of her 'Sacred Flow' retreat, 4 days and 3 nights at Casa Olta in the gorges du Verdon, 14 to 17 May 2026. She is an established, recurring organiser who books external boutique venues and has a premium tone, but no winter activity is evidenced. Medium risk; pitch a pilot spring or winter edition near Athens."
+   },
+   "events": [
+    {
+     "title": "Retraite de yoga 'Sacred Flow' 11e édition: au rythme des 5 éléments",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-05-14",
+     "endDate": "2026-05-17",
+     "nights": 3,
+     "location": "Casa Olta, gorges du Verdon, Provence",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DSMvTFygHSo"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Apolline Delmas • Yoga teacher Saint-Tropez",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "yoga teacher and retreats",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "yogaden.nl",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT_Av8OCNbz"
+     ],
+     "note": "Amsterdam studio running a destination retreat in Paros, Greece."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT_Av8OCNbz"
+     ],
+     "note": "Promotes its 'Retreat with Tina in Paros, Greece (May 14-19)'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only a May retreat; year not stated."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'A small group setting' without a number."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "One retreat in evidence."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT_Av8OCNbz"
+     ],
+     "note": "Multi-day retreat, described as 'Seven days', though May 14 to 19 spans six days."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT_Av8OCNbz"
+     ],
+     "note": "Already sells a Greek island retreat to a Dutch audience; small-group format."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No figures."
+    },
+    "commercialRisk": "low",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "'Seven days' in the caption does not match the May 14 to 19 dates",
+     "Year of the Paros retreat not stated"
+    ],
+    "missingInformation": [
+     "Year, price and group size of the Paros retreat",
+     "Whether Tina or the studio contracts the venue",
+     "Interest in winter or spring dates"
+    ],
+    "summary": "Yoga Den Amsterdam promotes a small-group retreat with teacher Tina in Paros, Greece, May 14 to 19 (year not stated). A Dutch studio that already sells Greece to its community is a natural prospect for an Athens-area villa in the shoulder season, but there is no winter evidence, price or group size. Low risk; invite for a scouting stay."
+   },
+   "events": [
+    {
+     "title": "Retreat with Tina in Paros, Greece (May 14-19, year not stated)",
+     "eventType": "yoga_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Paros",
+     "country": "GR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT_Av8OCNbz"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Yoga Den Amsterdam",
+    "country": "NL",
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga studio with destination retreats",
+    "markets": [
+     "NL"
+    ]
+   }
+  },
+  {
+   "handle": "yogaunited",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/yogaunited/reel/DT-x2YqkgaD?hl=zh-cn"
+     ],
+     "note": "'Ready to join us on an unforgettable adventure?', 'Join our newsletter to be the first to know about our dates'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dates."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'trip of a lifetime' framing only; no price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/yogaunited/reel/DT-x2YqkgaD?hl=zh-cn"
+     ],
+     "note": "Announces upcoming dates via a newsletter, implying repeated trips."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/yogaunited/reel/DT-x2YqkgaD?hl=zh-cn"
+     ],
+     "note": "Rest, connection and cultural-immersion trips; tone generic."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No figures."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Very thin pack: one generic reel caption",
+     "No display name, location or market"
+    ],
+    "missingInformation": [
+     "Who runs the account and where",
+     "Retreat destinations, dates and prices",
+     "Follower count"
+    ],
+    "summary": "Yoga United posts a generic invitation to join its retreats ('deep rest, meaningful connection, cultural immersion, or the trip of a lifetime') and asks people to join a newsletter for dates. It appears to sell yoga trips, but the pack has no name, location, dates or prices. Unknown risk; classified at low confidence pending a richer pack."
+   },
+   "events": [],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga retreats and trips",
+    "markets": [
+     "OTHER"
+    ]
+   }
+  },
+  {
+   "handle": "zibelkazivljenja",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbjW5CQDfcA"
+     ],
+     "note": "It is the venue ('we will be hosting a special event at Zibelka Življenja')."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbjW5CQDfcA"
+     ],
+     "note": "Hosts and invites guests to a three-day retreat at its own place."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only an October 2026 event."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "One event in evidence."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbjW5CQDfcA"
+     ],
+     "note": "Three-day format."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbjW5CQDfcA"
+     ],
+     "note": "Slovenian retreat venue, a competitor rather than a host."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No figures."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account running events on its own premises"
+    ],
+    "missingInformation": [
+     "Who facilitates the retreat and whether they travel to other venues"
+    ],
+    "summary": "Zibelka Življenja is a Slovenian venue hosting 'Coming Home to Yourself', a three-day experiential retreat on 2 to 4 October 2026 at its own property. As a venue it would not book the villa, and no winter activity is shown. Group none; the facilitator could be worth identifying separately."
+   },
+   "events": [
+    {
+     "title": "Coming Home to Yourself",
+     "eventType": "personal_development_retreat",
+     "startDate": "2026-10-02",
+     "endDate": "2026-10-04",
+     "nights": 2,
+     "location": "Zibelka Življenja",
+     "country": "SI",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbjW5CQDfcA"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Zibelka Življenja",
+    "country": "SI",
+    "languages": [
+     "en"
+    ],
+    "niche": "retreat venue (Slovenia)",
+    "markets": [
+     "OTHER"
+    ]
+   }
+  }
+ ]
+}

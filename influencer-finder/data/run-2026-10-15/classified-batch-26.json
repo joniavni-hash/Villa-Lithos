@@ -1,0 +1,1315 @@
+{
+ "batch": 26,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "purple_yoga",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No venue choice in evidence; training appears studio-based."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdVNKwxtlqB"
+     ],
+     "note": "Sells a yoga teacher training via membership email, not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdVNKwxtlqB"
+     ],
+     "note": "Winter-Spring 2027 teacher training, February 6 to May 9, 2027; a months-long studio course, not a residential winter retreat."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No cohort size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdVNKwxtlqB"
+     ],
+     "note": "Runs a Fall training now and a Winter-Spring 2027 cohort next."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdVNKwxtlqB"
+     ],
+     "note": "Weekend-based multi-month course with an orientation weekend and graduation."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdVNKwxtlqB"
+     ],
+     "note": "Local studio training; no destination retreats."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No figures."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Studio running in-studio teacher trainings only",
+     "No location in evidence"
+    ],
+    "missingInformation": [
+     "Studio location",
+     "Whether it runs any destination retreats"
+    ],
+    "summary": "Purple Yoga is a yoga studio promoting its Winter-Spring 2027 Yoga Teacher Training (February 6 to May 9, 2027, orientation weekend and graduation) after a current Fall cohort. These are studio trainings, not residential retreats, and nothing shows destination travel. Group none; high risk."
+   },
+   "events": [
+    {
+     "title": "Purple Yoga Teacher Training Winter - Spring 2027",
+     "eventType": "teacher_training",
+     "startDate": "2027-02-06",
+     "endDate": "2027-05-09",
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdVNKwxtlqB"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Purple Yoga",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga studio teacher trainings",
+    "markets": [
+     "OTHER"
+    ]
+   }
+  },
+  {
+   "handle": "reso.meditation",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Location hint Le Poizat-Lalleyriat may be a fixed base; venue choice not evidenced."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVth1L4DLLM"
+     ],
+     "note": "Refers to 'la retraite d'hiver cette année' as its own retreat; no price or registration in the excerpt."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVth1L4DLLM"
+     ],
+     "note": "Explicitly ran a winter retreat ('la retraite d'hiver cette année'); no dates given."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVth1L4DLLM"
+     ],
+     "note": "'la retraite d'hiver cette année' implies an annual winter edition."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Duration unknown."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVth1L4DLLM"
+     ],
+     "note": "Meditation retreats for a French audience; aesthetic and tone unknown."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No figures."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Very thin pack: a single one-line caption",
+     "May operate from a fixed mountain base in the Ain (France)"
+    ],
+    "missingInformation": [
+     "Retreat dates, price and group size",
+     "Whether it travels to other venues",
+     "Follower count"
+    ],
+    "summary": "Reso is a French meditation account that asks followers how 'la retraite d'hiver' went this year, implying it runs an annual winter retreat, with a location hint of Le Poizat-Lalleyriat. The pack is a single line, with no dates, price or group size, and the retreat may be held at a fixed local base. Medium risk; scouting only."
+   },
+   "events": [
+    {
+     "title": "Retraite d'hiver",
+     "eventType": "personal_development_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVth1L4DLLM"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Reso",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "meditation retreats",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "saleemuddin797",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DU2HUSegJJ6"
+     ],
+     "note": "Post is a Ramadan calendar; no events sold."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DU2HUSegJJ6"
+     ],
+     "note": "Off-topic personal account."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic: Ramadan calendar repost; no retreat signal"
+    ],
+    "missingInformation": [],
+    "summary": "Saleem Uddin's only evidence is a repost of Al Jazeera's Ramadan start-date calendar (2026 February 18, 2027 February 8). It matched on winter dates only and has no retreat or event activity. Group none."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Saleem Uddin",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "personal account (off-topic)",
+    "markets": [
+     "OTHER"
+    ]
+   }
+  },
+  {
+   "handle": "shahartangy",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Degr8rasdCI"
+     ],
+     "note": "Organises a travelling retreat for its academy ('יוצא לדרך' with a plane emoji, limited rooms); destination not named."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Degr8rasdCI"
+     ],
+     "note": "'ההרשמה נפתחה' (registration open), 'הבטיחו את מקומכם' (secure your place), members-only retreat."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Degr8rasdCI"
+     ],
+     "note": "Retreat dated 12 to 15 November 2026 (from the search snippet on the same post)."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'מספר החדרים מוגבל' (limited rooms) without a number."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Degr8rasdCI"
+     ],
+     "note": "Retreat is numbered 'באתי לגני 5', i.e. a fifth edition."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Degr8rasdCI"
+     ],
+     "note": "Three-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Degr8rasdCI"
+     ],
+     "note": "Israeli learning community travelling as a group; a villa 20 minutes from Athens airport is a short hop from Israel."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Degr8rasdCI"
+     ],
+     "note": "Fifth edition of a members-only retreat for a paid academy."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Destination of the November 2026 retreat not stated",
+     "Restricted to academy members, so reach is limited to the existing community",
+     "Date comes from a search snippet rather than the caption"
+    ],
+    "missingInformation": [
+     "Destination and venue of past editions",
+     "Group size and price",
+     "Religious requirements for the venue (for example kashrut or Shabbat)",
+     "Follower count"
+    ],
+    "summary": "Shahar Tangy runs the 'Tanya Lachaim' academy and has opened registration for the fifth edition of its members-only retreat 'Bati LeGani 5', dated 12 to 15 November 2026, with limited rooms and a travel framing. This is an Israeli organiser with a recurring, winter-window retreat for a closed paying community, a priority-market fit. Destination, group size and price are unknown. Medium risk; pitch a pilot edition near Athens."
+   },
+   "events": [
+    {
+     "title": "Retreat 'Bati LeGani 5' (באתי לגני 5)",
+     "eventType": "personal_development_retreat",
+     "startDate": "2026-11-12",
+     "endDate": "2026-11-15",
+     "nights": 3,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Degr8rasdCI"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "שחר טנג׳י | תניא לחיים",
+    "country": "IL",
+    "languages": [
+     "he"
+    ],
+    "niche": "Jewish spiritual learning academy and retreats",
+    "markets": [
+     "IL"
+    ]
+   }
+  },
+  {
+   "handle": "sigridbrelid",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTkDZVNitx6"
+     ],
+     "note": "Organises retreats in Sweden ('5 days in the field'); whether she rents or owns the place is not stated."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTkDZVNitx6"
+     ],
+     "note": "'Join us for the final ORIN Women's Mastermind & Retreat', 'Read more & apply: portal-to-grace.com'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.35,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTkDZVNitx6"
+     ],
+     "note": "The Initiation Retreat runs 28 April to 3 May (year not stated), starting at the end of the window; the ORIN programme runs July 2026 to January 2027 but its retreat is in September 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTkDZVNitx6"
+     ],
+     "note": "Application-based mastermind and retreat format suggests premium positioning; no price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTkDZVNitx6"
+     ],
+     "note": "Several programmes, and the 'final' ORIN edition implies earlier cohorts."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTkDZVNitx6"
+     ],
+     "note": "Five-day retreat format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTkDZVNitx6"
+     ],
+     "note": "Nordic women's spiritual retreats; small-group, nature-led tone fits a private villa."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTkDZVNitx6"
+     ],
+     "note": "'final ORIN' edition implies previous paid cohorts."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Retreats so far held in Sweden; no evidence of travel abroad",
+     "Year of the Initiation Retreat not stated"
+    ],
+    "missingInformation": [
+     "Year and venue of the Initiation Retreat",
+     "Group size and price",
+     "Whether she runs retreats outside Sweden",
+     "Follower count"
+    ],
+    "summary": "Sigrid Brelid (portal-to-grace.com) runs women's spiritual programmes in Sweden: the five-day Initiation Retreat from 28 April to 3 May (year not stated) and the final ORIN Women's Mastermind and Retreat (July 2026 to January 2027, retreat in September 2026), both application-based. She is a Swedish organiser in a priority Nordic market with recurring, premium-style formats, but winter evidence is borderline and she has no proven retreats abroad. Medium risk; worth a pilot pitch for a spring retreat near Athens."
+   },
+   "events": [
+    {
+     "title": "The Initiation Retreat - Sweden (28 April to 3 May, year not stated)",
+     "eventType": "personal_development_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Sweden",
+     "country": "SE",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTkDZVNitx6"
+     ]
+    },
+    {
+     "title": "ORIN Women's Mastermind & Retreat (programme July 2026 to January 2027)",
+     "eventType": "womens_retreat",
+     "startDate": "2026-09",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTkDZVNitx6"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Sigrid Brelid ~",
+    "country": "SE",
+    "languages": [
+     "en"
+    ],
+    "niche": "women's spiritual retreats and mastermind",
+    "markets": [
+     "SE"
+    ]
+   }
+  },
+  {
+   "handle": "sonastudio_",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DYCpSi9CCQB"
+     ],
+     "note": "Takes its clients abroad to the Stockholm Archipelago for its annual Sweden Retreat; destination choice is the studio's."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DYCpSi9CCQB"
+     ],
+     "note": "'This year's Sweden Retreat is now fully booked'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No month given for the Sweden Retreat; activities (sea swims, alfresco fitness) suggest summer."
+    },
+    "canFillGroupSize": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DYCpSi9CCQB"
+     ],
+     "note": "Fully booked with 'ten lovely ladies'."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DYCpSi9CCQB"
+     ],
+     "note": "Four-day Scandinavian trip with saunas and local food; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DYCpSi9CCQB"
+     ],
+     "note": "'This year's Sweden Retreat' implies a recurring annual retreat."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DYCpSi9CCQB"
+     ],
+     "note": "Four-day format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DYCpSi9CCQB"
+     ],
+     "note": "Small women's Pilates group; a private villa suits ten guests."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DYCpSi9CCQB"
+     ],
+     "note": "Sweden Retreat 2026 sold out (fully booked)."
+    },
+    "commercialRisk": "low",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "No winter-season evidence",
+     "Lindfield exists in both the UK and Australia; studio country not confirmed in evidence"
+    ],
+    "missingInformation": [
+     "Studio country (UK or Australia)",
+     "Retreat month and price",
+     "Interest in a winter or spring retreat"
+    ],
+    "summary": "Sona Studio Pilates Lindfield runs an annual Sweden Retreat; the 2026 edition is fully booked with ten women for four days in the Stockholm Archipelago. It is a studio that sells and fills destination retreats with groups of about ten, a good size for the villa, but there is no winter evidence and the studio's country is unconfirmed (Lindfield is in the UK and in Australia). Low risk; pitch a pilot spring or winter retreat."
+   },
+   "events": [
+    {
+     "title": "Sweden Retreat 2026",
+     "eventType": "fitness_retreat",
+     "startDate": "2026",
+     "endDate": null,
+     "nights": null,
+     "location": "Stockholm Archipelago",
+     "country": "SE",
+     "groupSize": 10,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": true,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DYCpSi9CCQB"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Sona Studio Pilates Lindfield",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "Pilates studio running women's destination retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "sostlaurent",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdmT5YmFlTX"
+     ],
+     "note": "Co-creates a destination retreat in Sesimbra, Portugal with Charline."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdmT5YmFlTX"
+     ],
+     "note": "'Il reste encore de la place pour notre prochaine retraite', 'Retraite de yoga co-création Sophie & Charline'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdmT5YmFlTX"
+     ],
+     "note": "Co-hosted retreat dated 9 to 17 April 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'Il reste encore de la place' without a number."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdmT5YmFlTX"
+     ],
+     "note": "'notre prochaine aventure' implies earlier retreats."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdmT5YmFlTX"
+     ],
+     "note": "Eight-night retreat."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdmT5YmFlTX"
+     ],
+     "note": "Yoga and facial-care teacher with a French audience; week-long co-hosted format suits a villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sold-out or past-edition figures."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Places still open for April 2027, demand not proven",
+     "Co-hosted, so venue decision is shared"
+    ],
+    "missingInformation": [
+     "Group size and price",
+     "Past retreat destinations",
+     "Follower count"
+    ],
+    "summary": "Sophie (sostlaurent), a French yoga teacher and facialist, co-hosts a yoga retreat with Charline in Sesimbra, Portugal on 9 to 17 April 2027, with places still available. She organises week-long destination retreats in the winter window for a French audience, which matches the villa's minimum-stay and season goals. Group size and price are unknown and the venue decision is shared. Medium risk; pitch a pilot retreat for a future spring edition."
+   },
+   "events": [
+    {
+     "title": "Retraite de yoga co-création Sophie & Charline",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-04-09",
+     "endDate": "2027-04-17",
+     "nights": 8,
+     "location": "Sesimbra",
+     "country": "PT",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": false,
+     "role": "co_host",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdmT5YmFlTX"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Sophie ~ Yoga teacher & facialiste",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "yoga retreats and facial care",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "suitedreamsgrancanaria",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/suitedreamsgrancanaria"
+     ],
+     "note": "Accommodation (venue) account."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/suitedreamsgrancanaria"
+     ],
+     "note": "Venue in Gran Canaria, a competitor rather than a host."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account",
+     "Profile excerpt contains no content beyond a photo date"
+    ],
+    "missingInformation": [
+     "Any evidence of retreat hosting"
+    ],
+    "summary": "Suite Dreams Gran Canaria is an accommodation account; the profile excerpt shows nothing beyond a photo dated January 15, 2026. As a venue it would not book the villa. Group none."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Suite Dreams Gran Canaria",
+    "country": "ES",
+    "languages": [
+     "en"
+    ],
+    "niche": "accommodation venue (Gran Canaria)",
+    "markets": [
+     "ES"
+    ]
+   }
+  },
+  {
+   "handle": "taichifuerteventura",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown; the post shows a cabana and a guest thank-you, which may indicate a local hosting base."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat sales in evidence."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Tai chi in Fuerteventura; tone unknown."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Too thin to classify: image alt text and a guest thank-you only",
+     "May be a local host or venue in Fuerteventura"
+    ],
+    "missingInformation": [
+     "Whether it runs tai chi retreats and where",
+     "Dates, group size and price",
+     "Follower count"
+    ],
+    "summary": "Tai Chi Fuerteventura's evidence is only image alt text (sliding door, cabana) and a guest thank-you from September and October 2026 posts. It may host guests locally in the Canary Islands, but there is no retreat, date or price evidence. Group none at low confidence; needs a richer pack."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Tai Chi Fuerteventura",
+    "country": "ES",
+    "languages": [
+     "en"
+    ],
+    "niche": "tai chi (Fuerteventura)",
+    "markets": [
+     "ES"
+    ]
+   }
+  },
+  {
+   "handle": "thepadelbeast",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTA38O0EtnJ"
+     ],
+     "note": "Partners with a chosen luxury villa ('Hosted at V House Bali', 'the same villa chosen by the Kardashians & Tyga')."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTA38O0EtnJ"
+     ],
+     "note": "'Register now through the link in our bio', 'DM now to secure your spot'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTA38O0EtnJ"
+     ],
+     "note": "Retreats running across January and February 2027."
+    },
+    "canFillGroupSize": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTA38O0EtnJ"
+     ],
+     "note": "'ONLY 8 SLOTS AVAILABLE', below the 10 to 18 range."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTA38O0EtnJ"
+     ],
+     "note": "Positioned as 'THE MOST AWAITED LUXURY PADEL RETREAT' at a celebrity villa."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTA38O0EtnJ"
+     ],
+     "note": "Seven-day retreats repeated over '60 days during January & February 2027'."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTA38O0EtnJ"
+     ],
+     "note": "Seven-day stays across a 60-day villa run."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTA38O0EtnJ"
+     ],
+     "note": "Luxury private-villa retreat format is exactly the villa's model; needs padel court access."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sold-out or past-edition evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Product requires padel courts",
+     "Abu Dhabi base with a Bali venue; Greece not yet on its map",
+     "Wording '60 days during January & February 2027' is ambiguous"
+    ],
+    "missingInformation": [
+     "Padel court access near Porto Rafti",
+     "Price per person",
+     "Client base markets",
+     "Past retreats"
+    ],
+    "summary": "Padel Beast (Abu Dhabi) sells a luxury padel retreat at V House Bali: seven days of padel, recovery and villa living, running across January and February 2027 with only 8 slots. It is a winter-season organiser that already books a luxury private villa for long runs, which is the villa's exact model, but groups are small and the product needs padel courts. Medium risk; pitch a pilot if court access can be arranged."
+   },
+   "events": [
+    {
+     "title": "Padel Beast x V House Bali Luxury Padel Retreat",
+     "eventType": "padel_retreat",
+     "startDate": "2027-01",
+     "endDate": "2027-02",
+     "nights": null,
+     "location": "V House Bali",
+     "country": "ID",
+     "groupSize": 8,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTA38O0EtnJ"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Padel Beast",
+    "country": "AE",
+    "languages": [
+     "en"
+    ],
+    "niche": "luxury padel retreats",
+    "markets": [
+     "OTHER"
+    ]
+   }
+  },
+  {
+   "handle": "tootsieolan",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dc4Wy2MP3vI"
+     ],
+     "note": "Holds the room block herself ('I got all the inventory') for the Belize retreat."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dc4Wy2MP3vI"
+     ],
+     "note": "'LAST 5 ROOMS FOR BELIZE RETREAT', 'once we sell out, that's it'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dc4Wy2MP3vI"
+     ],
+     "note": "Belize retreat on January 16 to 20, 2027 (MLK weekend)."
+    },
+    "canFillGroupSize": {
+     "value": true,
+     "confidence": 0.35,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dc4Wy2MP3vI"
+     ],
+     "note": "Room-block retreat with 5 rooms still unsold implies a multi-room group; total not stated."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dc4Wy2MP3vI"
+     ],
+     "note": "'For this retreat' and a /retreats page imply multiple retreats."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dc4Wy2MP3vI"
+     ],
+     "note": "Four-night long weekend."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dc4Wy2MP3vI"
+     ],
+     "note": "Room-based group retreat abroad; US audience."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dc4Wy2MP3vI"
+     ],
+     "note": "Selling down a contracted room block."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "US audience (MLK weekend timing); long-haul to Greece"
+    ],
+    "missingInformation": [
+     "Total rooms and price",
+     "Retreat theme",
+     "Follower count",
+     "Interest in Europe"
+    ],
+    "summary": "Tootsie Olan sells her own Belize retreat on MLK weekend, January 16 to 20, 2027, with the last 5 rooms left and all room inventory contracted by her. She is a winter-season organiser who controls venue contracts and sells by the room, a good structural fit for a 9-bedroom villa. The audience appears US-based and price and theme are not shown. Medium risk; pilot pitch for a European winter edition."
+   },
+   "events": [
+    {
+     "title": "Belize Retreat (MLK weekend)",
+     "eventType": null,
+     "startDate": "2027-01-16",
+     "endDate": "2027-01-20",
+     "nights": 4,
+     "location": "Belize",
+     "country": "BZ",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": false,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dc4Wy2MP3vI"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Tootsie Olan",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "destination group retreats",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "tulayoga",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeCHdKDAaSB"
+     ],
+     "note": "Studio takes its community to Mar de Jade in coastal Mexico."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeCHdKDAaSB"
+     ],
+     "note": "'We have just two spots left - visit tulayoganj.com to register'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeCHdKDAaSB"
+     ],
+     "note": "New Year Reset Retreat on January 3 to 9, 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'two spots left' without a total."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only one retreat in evidence."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeCHdKDAaSB"
+     ],
+     "note": "Seven-day retreat."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeCHdKDAaSB"
+     ],
+     "note": "Yoga and meditation retreat; US studio audience."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeCHdKDAaSB"
+     ],
+     "note": "Retreat nearly full ('just two spots left')."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "US (New Jersey) studio audience; long-haul to Greece"
+    ],
+    "missingInformation": [
+     "Group size and price",
+     "Past retreat destinations",
+     "Follower count"
+    ],
+    "summary": "Tula Yoga (Aberdeen, NJ) sells a New Year Reset Retreat led by Jennifer Cavalieri and Leah Kleiner at Mar de Jade, Mexico, January 3 to 9, 2027, with two spots left. A studio that runs nearly full week-long winter retreats abroad is a solid organiser profile, but the audience is US-based and group size is unknown. Medium risk; pilot pitch."
+   },
+   "events": [
+    {
+     "title": "New Year Reset Retreat",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-01-03",
+     "endDate": "2027-01-09",
+     "nights": 6,
+     "location": "Mar de Jade, coastal Mexico",
+     "country": "MX",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": false,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeCHdKDAaSB"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Tula Yoga | Aberdeen, NJ",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga studio running destination retreats",
+    "markets": [
+     "US"
+    ]
+   }
+  }
+ ]
+}
