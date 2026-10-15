@@ -3,6 +3,7 @@
 // Screens candidates lacking a classification (or all given ids). Tier A candidates
 // get a second pass with the stronger model when deep=true.
 import { adminClient, json, CORS, requireUser, callClaude, parseJson, recordUsage, logRun } from '../_shared/clients.ts';
+import { errMsg } from '../_shared/clients.ts';
 import { SYSTEM_SCREENING, SYSTEM_DEEP, CLASSIFICATION_SCHEMA, buildScreeningUserMessage } from '../_shared/engine/ai/prompts.ts';
 import { scoreCandidate } from '../_shared/engine/scoring/score.ts';
 import { expectedBookedNights } from '../_shared/engine/scoring/ebn.ts';
@@ -68,8 +69,8 @@ Deno.serve(async (req) => {
       if (body.runId) await logRun(sb, body.runId, 'info', `Classified @${row.handle}: tier ${score.tier}, fit ${score.fitScore}, conf ${score.confidence}`);
       out.push({ id: row.id, handle: row.handle, tier: score.tier, fitScore: score.fitScore });
     } catch (e) {
-      out.push({ id: row.id, handle: row.handle, error: String(e?.message ?? e) });
-      if (body.runId) await logRun(sb, body.runId, 'error', `Classification failed for @${row.handle}`, { error: String(e?.message ?? e) });
+      out.push({ id: row.id, handle: row.handle, error: errMsg(e) });
+      if (body.runId) await logRun(sb, body.runId, 'error', `Classification failed for @${row.handle}`, { error: errMsg(e) });
     }
   }
   const { count } = await sb.from('candidates').select('*', { count: 'exact', head: true }).is('classification', null);

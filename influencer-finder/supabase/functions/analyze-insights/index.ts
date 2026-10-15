@@ -3,6 +3,7 @@
 // rescoring the candidate while keeping the public score untouched.
 // POST { candidateId, documentIds?: string[] }
 import { adminClient, json, CORS, requireUser, callClaude, parseJson, recordUsage } from '../_shared/clients.ts';
+import { errMsg } from '../_shared/clients.ts';
 import { SYSTEM_INSIGHTS_EXTRACTION } from '../_shared/engine/ai/prompts.ts';
 import { rescoreWithInsights } from '../_shared/engine/insights/rescoring.ts';
 import { expectedBookedNights } from '../_shared/engine/scoring/ebn.ts';
@@ -42,7 +43,7 @@ Deno.serve(async (req) => {
   if (documentIds?.length) dq = dq.in('id', documentIds);
   const { data: docs } = await dq;
   if (!docs?.length) return json({ error: 'no documents' }, 400);
-  await sb.from('insights_documents').update({ status: 'extracting' }).in('id', docs.map((d) => d.id));
+  await sb.from('insights_documents').update({ status: 'extracting' }).in('id', docs.map((d: { id: string }) => d.id));
 
   // Build a multimodal message: images inline, PDFs as documents, with file names so sourceRef can cite them.
   const content: Array<Record<string, unknown>> = [];
@@ -59,7 +60,7 @@ Deno.serve(async (req) => {
   const res = await callClaude({ system: SYSTEM_INSIGHTS_EXTRACTION, messages: [{ role: 'user', content }], tier: 'deep', schema: INSIGHTS_SCHEMA, maxTokens: 6000 });
   await recordUsage(sb, { candidateId, provider: 'claude', operation: 'insights', costUsd: res.costUsd, meta: { model: res.model, docs: docs.length } });
   let pi: PrivateInsights;
-  try { pi = parseJson<PrivateInsights>(res.text); } catch (e) { await sb.from('insights_documents').update({ status: 'failed', error: 'model output not JSON' }).in('id', docs.map((d) => d.id)); return json({ error: String(e) }, 500); }
+  try { pi = parseJson<PrivateInsights>(res.text); } catch (e) { await sb.from('insights_documents').update({ status: 'failed', error: 'model output not JSON' }).in('id', docs.map((d: { id: string }) => d.id)); return json({ error: String(e) }, 500); }
 
   const { data: ev } = await sb.from('evidence').select('url,title,excerpt,kind').eq('candidate_id', candidateId).limit(40);
   const { data: events } = await sb.from('events').select('*').eq('candidate_id', candidateId);
@@ -69,9 +70,9 @@ Deno.serve(async (req) => {
   const track = recommendTrack({ ...cand, privateInsights: pi });
   const organiser = cand.events.filter((e) => e.role === 'organizer' || e.role === 'co_host');
   const ebn = expectedBookedNights({ score: r.verifiedScore, typicalNights: organiser[0]?.nights ?? null, eventsPerYear: pi.retreatsOrganisedCount?.value ?? organiser.length ?? null, winterShare: organiser.length ? organiser.filter((e) => e.isWinter).length / organiser.length : null, nightlyRevenueEur: settings?.nightly_revenue_eur ?? null, track: track.track, verified: true });
-  const isTestOnly = docs.every((d) => d.is_test);
-  await sb.from('private_insights').upsert({ candidate_id: candidateId, data: pi, derived: r.derived, rescore: { deltas: r.deltas, fitDelta: r.fitDelta, confidenceDelta: r.confidenceDelta, explanation: r.explanation, isTestOnly }, model: res.model, document_ids: docs.map((d) => d.id), analysed_at: new Date().toISOString() });
-  await sb.from('insights_documents').update({ status: 'extracted', extracted_at: new Date().toISOString(), extraction: { model: res.model }, reporting_period_start: pi.reportingPeriodStart ?? null, reporting_period_end: pi.reportingPeriodEnd ?? null }).in('id', docs.map((d) => d.id));
+  const isTestOnly = docs.every((d: { is_test: boolean }) => d.is_test);
+  await sb.from('private_insights').upsert({ candidate_id: candidateId, data: pi, derived: r.derived, rescore: { deltas: r.deltas, fitDelta: r.fitDelta, confidenceDelta: r.confidenceDelta, explanation: r.explanation, isTestOnly }, model: res.model, document_ids: docs.map((d: { id: string }) => d.id), analysed_at: new Date().toISOString() });
+  await sb.from('insights_documents').update({ status: 'extracted', extracted_at: new Date().toISOString(), extraction: { model: res.model }, reporting_period_start: pi.reportingPeriodStart ?? null, reporting_period_end: pi.reportingPeriodEnd ?? null }).in('id', docs.map((d: { id: string }) => d.id));
   // Test fixtures exercise the mechanism but must never change a real candidate's ranking.
   if (!isTestOnly) {
     await sb.from('candidates').update({ verified_score: r.verifiedScore, fit_score: r.verifiedScore.fitScore, confidence: r.verifiedScore.confidence, tier: r.verifiedScore.tier, ebn, recommended_track: track.track, verification_status: 'privately_assessed', pipeline_stage: ['insights_requested', 'insights_received', 'verification_queue', 'publicly_qualified', 'discovered'].includes(row.pipeline_stage) ? 'ai_analysis_complete' : row.pipeline_stage }).eq('id', candidateId);

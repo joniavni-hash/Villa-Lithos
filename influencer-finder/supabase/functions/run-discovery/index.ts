@@ -5,6 +5,7 @@
 // POST { action: 'pause'|'cancel', runId }
 // The client (or a scheduler) calls 'step' repeatedly until done; a crashed invocation leaves the DB consistent and 'step' resumes.
 import { adminClient, json, CORS, requireUser, tavilySearch, tavilyExtract, TavilyDisabled, logRun, recordUsage, type TavilyResult } from '../_shared/clients.ts';
+import { errMsg } from '../_shared/clients.ts';
 import { generateQueries, type RunParameters, type QuerySpec } from '../_shared/engine/discovery/queryGenerator.ts';
 import { handleFromUrl, handleFromTitle, handleFromExtractedText, followersFromText, guessMarket, mentionsWinterMonth, profileUrl } from '../_shared/engine/discovery/normalize.ts';
 import { COMMERCIAL_DEFAULTS } from '../_shared/engine/config/villa.ts';
@@ -25,7 +26,7 @@ Deno.serve(async (req) => {
       default: return json({ error: 'unknown action' }, 400);
     }
   } catch (e) {
-    return json({ error: String(e?.message ?? e) }, 500);
+    return json({ error: errMsg(e) }, 500);
   }
 });
 
@@ -82,8 +83,8 @@ async function step(sb: ReturnType<typeof adminClient>, runId: string, maxQuerie
         await logRun(sb, runId, 'error', 'Tavily source disabled (no API key). Add TAVILY_API_KEY in backend secrets and restart the run.');
         return { done: true, status: 'failed', reason: 'tavily_disabled' };
       }
-      await sb.from('run_queries').update({ status: 'failed', error: String(e?.message ?? e) }).eq('run_id', runId).eq('query_id', spec.id);
-      await logRun(sb, runId, 'error', `Query failed: ${spec.query}`, { error: String(e?.message ?? e) });
+      await sb.from('run_queries').update({ status: 'failed', error: errMsg(e) }).eq('run_id', runId).eq('query_id', spec.id);
+      await logRun(sb, runId, 'error', `Query failed: ${spec.query}`, { error: errMsg(e) });
     }
     await sb.from('research_runs').update({ cost_usd: cost, candidates_new: newCount, candidates_updated: updCount }).eq('id', runId);
     await sb.rpc('increment_queries_done', { p_run_id: runId }).then(() => {}, () => {});
@@ -142,7 +143,7 @@ async function resolveAuthors(sb: ReturnType<typeof adminClient>, runId: string,
   let resolved = 0;
   for (let i = 0; i < rows.length; i += 10) {
     const batch = rows.slice(i, i + 10);
-    const { results, credits } = await tavilyExtract(batch.map((b) => b.url), 'username retreat dates price spots');
+    const { results, credits } = await tavilyExtract(batch.map((b: { url: string }) => b.url), 'username retreat dates price spots');
     const c = credits * COMMERCIAL_DEFAULTS.unitCostsUsd.tavilyExtractPerUrl * 5;
     cost += c;
     await recordUsage(sb, { runId, provider: 'tavily', operation: 'extract', units: batch.length, costUsd: c });

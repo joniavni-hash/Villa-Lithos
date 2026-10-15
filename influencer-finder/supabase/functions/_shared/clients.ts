@@ -153,3 +153,5 @@ export async function logRun(sb: SupabaseClient, runId: string, level: 'debug' |
 export async function recordUsage(sb: SupabaseClient, u: { runId?: string | null; candidateId?: string | null; provider: string; operation: string; units?: number; costUsd: number; meta?: unknown }) {
   await sb.from('api_usage').insert({ run_id: u.runId ?? null, candidate_id: u.candidateId ?? null, provider: u.provider, operation: u.operation, units: u.units ?? 1, cost_usd: u.costUsd, meta: u.meta ?? null });
 }
+
+export function errMsg(e: unknown): string { return e instanceof Error ? e.message : String(e); }
