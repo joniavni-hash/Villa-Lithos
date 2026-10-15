@@ -3,7 +3,7 @@ import { generateQueries, DEFAULT_RUN_PARAMETERS, balancedSelection } from '../s
 import { handleFromUrl, handleFromTitle, handleFromExtractedText, followersFromText, mergeCandidate, normalizeWebsite, cleanHandle } from '../src/discovery/normalize.ts';
 import { normalizeWeights, DEFAULT_WEIGHTS } from '../src/scoring/weights.ts';
 import { scoreCandidate } from '../src/scoring/score.ts';
-import { estimateVenueBudget } from '../src/scoring/budget.ts';
+import { estimateVenueBudget, budgetInputsFromEvents } from '../src/scoring/budget.ts';
 import { expectedBookedNights, scoreToProbability, eventInputs } from '../src/scoring/ebn.ts';
 import { rescoreWithInsights } from '../src/insights/rescoring.ts';
 import { generateOutreach, recommendTrack, generateInsightsRequest } from '../src/outreach/generator.ts';
@@ -284,5 +284,29 @@ describe('EBN event inputs and affordability', () => {
     expect(half.bookingProbability.base).toBeCloseTo(full.bookingProbability.base * 0.5, 6);
     expect(unknown.bookingProbability.base).toBeCloseTo(full.bookingProbability.base, 6);
     expect(half.assumptions.join(' ')).toMatch(/50% of the floor price/);
+  });
+});
+
+describe('budget inputs from published events', () => {
+  const e = (o: Record<string, unknown>) => ({ role: 'organizer', pricePerPerson: null, currency: null, groupSize: null, nights: 5, provenance: 'verified_public_fact' as const, ...o });
+  it('combines a price and a group size published on different events', () => {
+    const r = budgetInputsFromEvents([e({ groupSize: 12 }), e({ pricePerPerson: 368, currency: 'EUR' })], 18);
+    expect(r.inputs.participants).toBe(12);
+    expect(r.inputs.pricePerParticipant).toBe(368);
+    expect(r.inputs.nights).toBe(5);
+  });
+  it('assumes the villa capacity when no group size is published, and says so', () => {
+    const r = budgetInputsFromEvents([e({ pricePerPerson: 1500, currency: 'EUR', nights: 7 })], 18);
+    expect(r.inputs.participants).toBe(18);
+    expect(r.inputs.provenance).toBe('ai_estimate');
+    expect(r.notes.join(' ')).toMatch(/fills the villa/);
+  });
+  it('does not convert other currencies', () => {
+    const r = budgetInputsFromEvents([e({ pricePerPerson: 750, currency: 'GBP', groupSize: 12 })], 18);
+    expect(r.inputs.pricePerParticipant).toBeNull();
+    expect(r.notes.join(' ')).toMatch(/GBP; not converted/);
+  });
+  it('caps a published group larger than the villa', () => {
+    expect(budgetInputsFromEvents([e({ pricePerPerson: 900, currency: 'EUR', groupSize: 40 })], 18).inputs.participants).toBe(18);
   });
 });

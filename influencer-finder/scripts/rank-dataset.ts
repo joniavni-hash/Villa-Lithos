@@ -6,7 +6,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { scoreCandidate } from '../src/scoring/score.ts';
 import { expectedBookedNights, eventInputs } from '../src/scoring/ebn.ts';
-import { estimateVenueBudget } from '../src/scoring/budget.ts';
+import { estimateVenueBudget, budgetInputsFromEvents } from '../src/scoring/budget.ts';
 import { recommendTrack, generateOutreach } from '../src/outreach/generator.ts';
 import { normalizeWebsite } from '../src/discovery/normalize.ts';
 import type { Candidate } from '../src/pipeline/types.ts';
@@ -18,8 +18,9 @@ const { candidates } = JSON.parse(readFileSync(inPath, 'utf8')) as { candidates:
 const ranked = candidates.map((c) => {
   const score = scoreCandidate(c);
   const track = recommendTrack(c);
-  const best = [...c.events].sort((a, b) => (b.pricePerPerson ?? 0) * (b.groupSize ?? 0) - (a.pricePerPerson ?? 0) * (a.groupSize ?? 0))[0];
-  const budget = estimateVenueBudget({ participants: best?.groupSize ?? null, pricePerParticipant: best?.pricePerPerson ?? null, nights: best?.nights ?? null, provenance: best?.provenance ?? 'unknown' });
+  const bi = budgetInputsFromEvents(c.events);
+  const budget = estimateVenueBudget(bi.inputs);
+  budget.assumptions.push(...bi.notes);
   const budgetToFloorRatio = budget.venueBudgetPerNightEur == null ? null : budget.venueBudgetPerNightEur / budget.floorPricePerNightEur;
   const ebn = expectedBookedNights({ score, ...eventInputs(c.events), nightlyRevenueEur: null, track: track.track, verified: false, budgetToFloorRatio });
   const outreachEn = score.tier === 'excluded' ? null : generateOutreach(c, track.track, 'en', track.reason);

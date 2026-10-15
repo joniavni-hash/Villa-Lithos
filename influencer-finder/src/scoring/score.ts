@@ -6,7 +6,7 @@
 import { MARKET_FIT } from '../config/villa.ts';
 import type { Candidate, Classification, Judgement, ScoreBreakdown, ScoreResult, Tier, Weights } from '../pipeline/types.ts';
 import { DEFAULT_WEIGHTS, normalizeWeights } from './weights.ts';
-import { estimateVenueBudget } from './budget.ts';
+import { estimateVenueBudget, budgetInputsFromEvents } from './budget.ts';
 
 export interface ScoringOptions {
   weights?: Partial<Weights>;
@@ -60,10 +60,10 @@ export function scoreCandidate(c: Candidate, opts: ScoringOptions = {}): ScoreRe
   }
 
   // 4. Estimated venue budget
-  const bestEvent = [...c.events].sort((a, b) => (b.pricePerPerson ?? 0) * (b.groupSize ?? 0) - (a.pricePerPerson ?? 0) * (a.groupSize ?? 0))[0];
-  const participants = pi?.registrationsPerEvent?.length ? Math.max(...pi.registrationsPerEvent.map((r) => r.registrations)) : bestEvent?.groupSize ?? null;
-  const price = pi?.avgPricePerParticipant?.value ?? bestEvent?.pricePerPerson ?? null;
-  const budget = estimateVenueBudget({ participants, pricePerParticipant: price, nights: bestEvent?.nights ?? null, venueShare: opts.venueShare, provenance: pi ? 'document_backed' : bestEvent?.provenance ?? 'unknown' }, opts.floorPricePerNightEur);
+  const fromEvents = budgetInputsFromEvents(c.events).inputs;
+  const participants = pi?.registrationsPerEvent?.length ? Math.max(...pi.registrationsPerEvent.map((r) => r.registrations)) : fromEvents.participants ?? null;
+  const price = pi?.avgPricePerParticipant?.value ?? fromEvents.pricePerParticipant ?? null;
+  const budget = estimateVenueBudget({ participants, pricePerParticipant: price, nights: fromEvents.nights ?? null, venueShare: opts.venueShare, provenance: pi ? 'document_backed' : fromEvents.provenance }, opts.floorPricePerNightEur);
   let budgetScore: number;
   if (budget.venueBudgetPerNightEur == null) budgetScore = cl ? 0.5 * blend(cl.audiencePaysPremium) + 0.5 * blend(cl.priorCommercialEvidence) : 35;
   else {
