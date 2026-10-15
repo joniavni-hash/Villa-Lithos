@@ -1,0 +1,1 @@
+{"slice": 4, "status": "extracting", "searchesAttempted": 40, "searchesSucceeded": 40, "rateLimited429": 1, "extractBatchesDone": 2, "extractBatchesPlanned": 5, "extractUrlsDone": 20, "failedQueryIds": [], "note": "429 on extract batch 3 (URLs 21-30); retry 1 pending", "updatedAt": "2026-10-15T00:00:00Z"}
