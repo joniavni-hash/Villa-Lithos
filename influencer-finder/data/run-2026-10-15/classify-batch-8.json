@@ -1,0 +1,385 @@
+{
+ "batch": 8,
+ "candidates": [
+  {
+   "handle": "lamaisonfete",
+   "profileUrl": "https://www.instagram.com/lamaisonfete/",
+   "displayName": "La Maison Fête",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Litchfield",
+    "Connecticut"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Registration is Now Open",
+    "Join us",
+    "Limited availability",
+    "Link in bio"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DZUu45KjuTa",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Registration is Now Open! Join us November 8–10, 2026!!   \n  \nBrett and I are thrilled to officially welcome guests to our first retreat at Belden House and Mews. We have been planning this for months! Details, details, details!!   \n  \nThree days of Mahjong, wellness, culinary experiences, art and antiques, creating and gathering in Litchfield, Connecticut and we can’t wait to entertain you the LM"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram",
+     "dates": "November 8–10, 2026",
+     "location": "Litchfield, Connecticut",
+     "price": null,
+     "spots": "Limited availability",
+     "role": "organizer",
+     "excerpt": "Registration is Now Open! Join us November 8–10, 2026!!   \n  \nBrett and I are thrilled to officially welcome guests to our first retreat at Belden House and Mews. We have been planning this for months! Details, details, details!!   \n  \nThree days of Mahjong, wellness, culinary experiences, art and antiques, creating and gathering in Litchfield, Connecticut and we can’t wait to entertain you the LM",
+     "url": "https://www.instagram.com/p/DZUu45KjuTa"
+    }
+   ]
+  },
+  {
+   "handle": "limegatherings",
+   "profileUrl": "https://www.instagram.com/limegatherings/",
+   "displayName": null,
+   "bio": "When sourcing a venue, it's easy to focus on the photos, guest rooms, and meeting space. But some of the most important things can't be captured in a brochure.",
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/limegatherings",
+     "kind": "profile",
+     "title": "li+me Gatherings | Corporate Retreat Planning & Venue ...",
+     "excerpt": "When sourcing a venue, it's easy to focus on the photos, guest rooms, and meeting space. But some of the most important things can't be captured in a brochure."
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "littlebigganesha.",
+   "profileUrl": "https://www.instagram.com/littlebigganesha./",
+   "displayName": "Little Big Ganesha Yoga Studio",
+   "bio": null,
+   "followers": null,
+   "website": "nicolebongartz.de",
+   "locationHints": [
+    "Wiesbaden"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DYebuats0S1",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Title: Instagram\nNever miss a post from littlebigganesha. Sign up for Instagram to stay in the loop. By continuing, you agree to Instagram's Terms of Use and Privacy Policy. Video by Little Big Ganesha Yoga Studio on May 18, 2026. May be an image of text that says '04 Ausbildungswochenende Deep Dive: Chakren & Vayus, Philosophie Mai `26 26'. nicolebongartz.de's profile picture. Modul unserer Yogal"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram",
+     "dates": null,
+     "location": "Wiesbaden",
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "Title: Instagram\nNever miss a post from littlebigganesha. Sign up for Instagram to stay in the loop. By continuing, you agree to Instagram's Terms of Use and Privacy Policy. Video by Little Big Ganesha Yoga Studio on May 18, 2026. May be an image of text that says '04 Ausbildungswochenende Deep Dive: Chakren & Vayus, Philosophie Mai `26 26'. nicolebongartz.de's profile picture. Modul unserer Yogal",
+     "url": "https://www.instagram.com/reel/DYebuats0S1"
+    }
+   ]
+  },
+  {
+   "handle": "lovetenagne",
+   "profileUrl": "https://www.instagram.com/lovetenagne/",
+   "displayName": "Tenagne Turner | Retreat Strategist + Business Coach",
+   "bio": "Retention. Relationships. Revenue.  \n🥂Profitable luxury retreats that deepen relationships + build community  \nFounder,",
+   "followers": 38300,
+   "website": "www.brbretreats.com",
+   "locationHints": [
+    "Mykonos",
+    "Costa Rica"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/lovetenagne/reels",
+     "kind": "profile",
+     "title": "Tenagne Turner | Retreat Strategist + Business Coach (@lovetenagne) • Instagram photos and videos",
+     "excerpt": "Log In\n\nSign Up\n\n 38.3K followers\n 7,219 following\n\nTenagne Turner | Retreat Strategist + Business Coach\n\nlovetenagne\n\nRetention. Relationships. Revenue.  \n🥂Profitable luxury retreats that deepen relationships + build community  \nFounder,\n\n...\n\nmore\n\nwww.brbretreats.com\n\n lovetenagne's highlight story picture\n\n  ITALY 🇮🇹\n lovetenagne's highlight story picture\n\n  COSTA RICA 🇨🇷\n lovetenagne's highli"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "manayogacenter",
+   "profileUrl": "https://www.instagram.com/manayogacenter/",
+   "displayName": "Votre Studio de Yoga à Hossegor ✨",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Nantes",
+    "Vertou",
+    "Hossegor"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DcT9Xxajq1S",
+     "kind": "post",
+     "title": "Les inscriptions pour le Mana Yoga Training 2026 / 2027 sont ...",
+     "excerpt": "Alors rejoins-nous le 29 août 2026 ou en janvier 2027 pour la formation de professeur de yoga. À Vertou (44), près de Nantes, sur 11 week-ends. Formation"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Les inscriptions pour le Mana Yoga Training 2026 / 2027 sont ...",
+     "dates": null,
+     "location": "Nantes, Vertou, Hossegor",
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "Log In\nSign Up\nmanayogacenter's profile picture\nNever miss a post from manayogacenter\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nPhoto by Votre Studio de Yoga à Hossegor ✨ on August 21, 2026. May be an image of yoga and text that says '2026 2027 Mana Y Yoga Training FORMATION 200 FORMATION200HEURES HEURES'.\nman",
+     "url": "https://www.instagram.com/p/DcT9Xxajq1S"
+    }
+   ]
+  },
+  {
+   "handle": "marcelclementi_.",
+   "profileUrl": "https://www.instagram.com/marcelclementi_./",
+   "displayName": "Marcel Clementi",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "ausgebucht",
+    "LINK IN BIO"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DPO0sDGjPAu",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Title: Instagram\nNever miss a post from marcelclementi\\_. Sign up for Instagram to stay in the loop. By continuing, you agree to Instagram's Terms of Use and Privacy Policy. Video by Marcel Clementi on September 30, 2025. 200h Multi-Style Yogalehrer-Ausbildung 🧘🏼‍♀️. Das erste Wochenende meiner Ausbildung für Yogalehrerinnen und Yogalehrer ist wie im Flug vergangen! An drei Tagen lernen die Teilne"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram",
+     "dates": "28.Juni",
+     "location": null,
+     "price": null,
+     "spots": "ausgebucht",
+     "role": "organizer",
+     "excerpt": "Title: Instagram\nNever miss a post from marcelclementi\\_. Sign up for Instagram to stay in the loop. By continuing, you agree to Instagram's Terms of Use and Privacy Policy. Video by Marcel Clementi on September 30, 2025. 200h Multi-Style Yogalehrer-Ausbildung 🧘🏼‍♀️. Das erste Wochenende meiner Ausbildung für Yogalehrerinnen und Yogalehrer ist wie im Flug vergangen! An drei Tagen lernen die Teilne",
+     "url": "https://www.instagram.com/reel/DPO0sDGjPAu"
+    }
+   ]
+  },
+  {
+   "handle": "mastermind_healthcare_rcm_offl",
+   "profileUrl": "https://www.instagram.com/mastermind_healthcare_rcm_offl/",
+   "displayName": "Mastermind Healthcare RCM Tactics",
+   "bio": "We're the RCM masterminds.",
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/mastermind_healthcare_rcm_offl",
+     "kind": "profile",
+     "title": "Mastermind Healthcare RCM Tactics (@mastermind_healthcare_rcm_offl) • Instagram photos and videos",
+     "excerpt": "Title: Mastermind Healthcare RCM Tactics (@mastermind_healthcare_rcm_offl) • Instagram photos and videos\n## mastermind\\_healthcare\\_rcm\\_offl. We're the RCM masterminds. Photo by Mastermind Healthcare RCM Tactics on November 17, 2025. Video by Mastermind Healthcare RCM Tactics on March 27, 2026. Photo by Mastermind Healthcare RCM Tactics on March 10, 2026. Video by Mastermind Healthcare RCM Tactic"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Mastermind Healthcare RCM Tactics (@mastermind_healthcare_rcm_offl) • Instagram photos and videos",
+     "dates": null,
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "Title: Mastermind Healthcare RCM Tactics (@mastermind_healthcare_rcm_offl) • Instagram photos and videos\n## mastermind\\_healthcare\\_rcm\\_offl. We're the RCM masterminds. Photo by Mastermind Healthcare RCM Tactics on November 17, 2025. Video by Mastermind Healthcare RCM Tactics on March 27, 2026. Photo by Mastermind Healthcare RCM Tactics on March 10, 2026. Video by Mastermind Healthcare RCM Tactic",
+     "url": "https://www.instagram.com/mastermind_healthcare_rcm_offl"
+    }
+   ]
+  },
+  {
+   "handle": "michaeljameswong",
+   "profileUrl": "https://www.instagram.com/michaeljameswong/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Comment RETREAT"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DePdwSksts7",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Video by Yoga meets Weggis 🧘🏻‍♀️ on October 12, 2026. May be an image of poster and text.\n\nVideo by Michael James Wong on October 11, 2026. May be an image of text.\n\nVideo by Michael James Wong on October 09, 2026. May be an image of yoga, bicycle and text.\n\nVideo by Michael James Wong on October 07, 2026. May be an image of yoga and text.\n\nSee more posts\n\n--- [...] 2 likes\n\nReply\n\n15230\n\nLog in t"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "mysoreyogaparis",
+   "profileUrl": "https://www.instagram.com/mysoreyogaparis/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "A couple of last spaces",
+    "Join us",
+    "last spaces"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DTkq_EYDJWv",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "So grateful to be heading back to @purplevalleyyogatenerife in February with some of my favorite people! 🌊  \n  \nJoin us for a deeply transformative week rooted in Yoga Bhāvanā - the Cultivation of Integration. This retreat weaves an embodied approach to Ashtanga Yoga and Prāṇāyāma with Buddha Dharma, into a somatic path of insight and compassion.  \n  \nBhāvanā - The Path of Cultivation  \n1 Week Ret"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "ṇāyāma with Buddha Dharma, into a somatic path of insight and compassion.      Bhāvanā - T...",
+     "dates": "February 14-21",
+     "location": null,
+     "price": null,
+     "spots": "last spaces",
+     "role": "unknown",
+     "excerpt": "ṇāyāma with Buddha Dharma, into a somatic path of insight and compassion.  \n  \nBhāvanā - The Path of Cultivation  \n1 Week Retreat with Kia Naddermier assisted by @agnetabeckman   \nFebruary 14-21 [...] February 14-21  \n  \nA couple of last spaces open!   \nReach out to @purplevalleyyogatenerife for details & booking. 🤍x  \n  \n#mysoreyogaparis #kianaddermier #purplevalleyyoga",
+     "url": "https://www.instagram.com/reel/DTkq_EYDJWv"
+    },
+    {
+     "title": "Instagram",
+     "dates": "February 14-21",
+     "location": null,
+     "price": null,
+     "spots": "last spaces",
+     "role": "organizer",
+     "excerpt": "So grateful to be heading back to @purplevalleyyogatenerife in February with some of my favorite people! 🌊  \n  \nJoin us for a deeply transformative week rooted in Yoga Bhāvanā - the Cultivation of Integration. This retreat weaves an embodied approach to Ashtanga Yoga and Prāṇāyāma with Buddha Dharma, into a somatic path of insight and compassion.  \n  \nBhāvanā - The Path of Cultivation  \n1 Week Ret",
+     "url": "https://www.instagram.com/reel/DTkq_EYDJWv"
+    }
+   ]
+  },
+  {
+   "handle": "namaze.yoga",
+   "profileUrl": "https://www.instagram.com/namaze.yoga/",
+   "displayName": "Namazé Yoga",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Magog"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Inscriptions ouvertes"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DWej-L7jsAv",
+     "kind": "reel",
+     "title": "Ce n'est pas juste une formation professorale de yoga. C' ...",
+     "excerpt": "✨ Inscriptions ouvertes pour la cohorte 2026-2027 qui débute dès septembre à Magog. ... Sortie de la promotion 2026 de ma formation de professeur"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Ce n'est pas juste une formation professorale de yoga. C' ...",
+     "dates": null,
+     "location": "Magog",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Log In\nSign Up\nnamaze.yoga's profile picture\nNever miss a post from namaze.yoga\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nVideo by Namazé Yoga on March 29, 2026.\nze_namaze's profile picture\nnamaze.yoga's profile picture\nnamaze.yoga and ze\\_namaze\nLenzspot•Transformation\nnamaze.yoga's profile picture\nnamaze.yog",
+     "url": "https://www.instagram.com/reel/DWej-L7jsAv"
+    }
+   ]
+  },
+  {
+   "handle": "nmsu_state4h",
+   "profileUrl": "https://www.instagram.com/nmsu_state4h/",
+   "displayName": "NMSU 4-H Youth Development",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/nmsu_state4h",
+     "kind": "profile",
+     "title": "NMSU 4-H Youth Development (@nmsu_state4h) • Instagram photos and videos",
+     "excerpt": "Title: NMSU 4-H Youth Development (@nmsu_state4h) • Instagram photos and videos\n## nmsu\\_state4h. NMSU 4-H Youth Development. Facebook: NMSU 4-H Youth Development. * nmsu_state4h's highlight story picture. Video by NMSU 4-H Youth Development on October 05, 2026. May be an image of slow loris and text. Photo by NMSU 4-H Youth Development on October 04, 2026. May be an image of poster and text. May "
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "NMSU 4-H Youth Development (@nmsu_state4h) • Instagram photos and videos",
+     "dates": null,
+     "location": null,
+     "price": "$25",
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "Title: NMSU 4-H Youth Development (@nmsu_state4h) • Instagram photos and videos\n## nmsu\\_state4h. NMSU 4-H Youth Development. Facebook: NMSU 4-H Youth Development. * nmsu_state4h's highlight story picture. Video by NMSU 4-H Youth Development on October 05, 2026. May be an image of slow loris and text. Photo by NMSU 4-H Youth Development on October 04, 2026. May be an image of poster and text. May ",
+     "url": "https://www.instagram.com/nmsu_state4h"
+    }
+   ]
+  },
+  {
+   "handle": "nourishmovelovebali",
+   "profileUrl": "https://www.instagram.com/nourishmovelovebali/",
+   "displayName": "Alka Martine |  Business Mentor • Psychologist • Retreat Host",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DYlNJdagaaW",
+     "kind": "post",
+     "title": "Alka Martine | Business Mentor • Psychologist • Retreat Host",
+     "excerpt": "I have walked hundreds of wellness practitioners through these six phases. Yoga teachers. Therapists. Nutritionists. Trauma counsellors. Women"
+    }
+   ],
+   "eventsMentioned": []
+  }
+ ]
+}

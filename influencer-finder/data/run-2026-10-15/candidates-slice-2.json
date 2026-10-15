@@ -13,8 +13,8 @@
  },
  "candidates": [
   {
-   "handle": "alldreamsportcenter.",
-   "profileUrl": "https://www.instagram.com/alldreamsportcenter./",
+   "handle": "alldreamsportcenter",
+   "profileUrl": "https://www.instagram.com/alldreamsportcenter/",
    "displayName": null,
    "bio": null,
    "followers": null,
@@ -22,7 +22,7 @@
    "locationHints": [
     "כפר סבא"
    ],
-   "accountType": "person_or_brand",
+   "accountType": "venue",
    "evidence": [
     {
      "url": "https://www.instagram.com/p/DZr7Sr6iGQU",
@@ -46,7 +46,7 @@
      "url": "https://www.instagram.com/p/DZr7Sr6iGQU"
     }
    ],
-   "winterMonthMentioned": true,
+   "winterMonthMentioned": false,
    "organizerSignals": [
     "הרשמה מוקדמת"
    ]
@@ -123,9 +123,7 @@
    "bio": "🇮🇱רשת מועדוני הפאדל הגדולה בישראל. השכרת מחבטים במקום | אקדמיה לכל הגילאים | אירועים 🎾. להזמנת מגרש: אפליקציית Go Play 📱.",
    "followers": null,
    "website": null,
-   "locationHints": [
-    "כפר סבא"
-   ],
+   "locationHints": [],
    "accountType": "person_or_brand",
    "evidence": [
     {
@@ -165,19 +163,17 @@
     }
    ],
    "eventsMentioned": [],
-   "winterMonthMentioned": true,
+   "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
-   "handle": "campamichai.",
-   "profileUrl": "https://www.instagram.com/campamichai./",
+   "handle": "campamichai",
+   "profileUrl": "https://www.instagram.com/campamichai/",
    "displayName": null,
    "bio": null,
    "followers": null,
    "website": null,
-   "locationHints": [
-    "Israel"
-   ],
+   "locationHints": [],
    "accountType": "person_or_brand",
    "evidence": [
     {
@@ -190,19 +186,8 @@
      "score": 0.35140064
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": "Israel",
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "Title: Instagram\nNever miss a post from campamichai. Sign up for Instagram to stay in the loop. By continuing, you agree to Instagram's Terms of Use and Privacy Policy. Photo by מחנה עמיחי 🇮🇱 on December 11, 2025. ההרשמה לקיץ תשפ\"ו נפתחה📣🎉🎊. תאריכי המחנה: ט\"ז תמוז - ו' אב תשפ\"ו , 1-20 ביולי 2026. הירשמו עוד היום, תהנו מהמחיר המוצע בהרשמה המוקדמת והבטיחו את מקומכם במחנה עמיחי! ניתן להגיש כעת גם מוע",
-     "url": "https://www.instagram.com/p/DSH4Y6fjK4a"
-    }
-   ],
-   "winterMonthMentioned": true,
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
@@ -227,18 +212,7 @@
      "score": 0.780947
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Ende Monat schau ich gern zurück, was bei Reiten & Yoga ...",
-     "dates": null,
-     "location": "Hamburg",
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "reitenundyoga on July 31, 2026: Photo by Reiten & Yoga Retreats on July 31, 2026. Mastermind in Hamburg – Business, Anmeldung ist offen: Link",
-     "url": "https://www.instagram.com/p/Dbd9cu1Av5d"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": [
     "Anmeldung ist offen"
@@ -320,8 +294,8 @@
    ]
   },
   {
-   "handle": "alenascharfschwert_yoga.",
-   "profileUrl": "https://www.instagram.com/alenascharfschwert_yoga./",
+   "handle": "alenascharfschwert_yoga",
+   "profileUrl": "https://www.instagram.com/alenascharfschwert_yoga/",
    "displayName": "Alena Scharfschwert Yoga",
    "bio": null,
    "followers": null,
@@ -353,12 +327,12 @@
      "url": "https://www.instagram.com/p/DZ_3dswBkzB"
     }
    ],
-   "winterMonthMentioned": true,
+   "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
-   "handle": "yogaschule_passau.",
-   "profileUrl": "https://www.instagram.com/yogaschule_passau./",
+   "handle": "yogaschule_passau",
+   "profileUrl": "https://www.instagram.com/yogaschule_passau/",
    "displayName": "Babette Woitke",
    "bio": null,
    "followers": null,
@@ -394,8 +368,8 @@
    "organizerSignals": []
   },
   {
-   "handle": "littlebigganesha.",
-   "profileUrl": "https://www.instagram.com/littlebigganesha./",
+   "handle": "littlebigganesha",
+   "profileUrl": "https://www.instagram.com/littlebigganesha/",
    "displayName": "Little Big Ganesha Yoga Studio",
    "bio": null,
    "followers": null,
@@ -415,24 +389,13 @@
      "score": 0.8700796
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": "Wiesbaden",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Title: Instagram\nNever miss a post from littlebigganesha. Sign up for Instagram to stay in the loop. By continuing, you agree to Instagram's Terms of Use and Privacy Policy. Video by Little Big Ganesha Yoga Studio on May 18, 2026. May be an image of text that says '04 Ausbildungswochenende Deep Dive: Chakren & Vayus, Philosophie Mai `26 26'. nicolebongartz.de's profile picture. Modul unserer Yogal",
-     "url": "https://www.instagram.com/reel/DYebuats0S1"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": true,
    "organizerSignals": []
   },
   {
-   "handle": "marcelclementi_.",
-   "profileUrl": "https://www.instagram.com/marcelclementi_./",
+   "handle": "marcelclementi_",
+   "profileUrl": "https://www.instagram.com/marcelclementi_/",
    "displayName": "Marcel Clementi",
    "bio": null,
    "followers": null,
@@ -462,7 +425,7 @@
      "url": "https://www.instagram.com/reel/DPO0sDGjPAu"
     }
    ],
-   "winterMonthMentioned": true,
+   "winterMonthMentioned": false,
    "organizerSignals": [
     "ausgebucht",
     "LINK IN BIO"
@@ -499,29 +462,8 @@
      "score": 0.4177708
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": "Lanzarote",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Day Minus 1 - Every Body Bootcamp Lanzarote Retreat 🌞🌊\n\nmomipoonam's profile picture\n\nmomipoonam\n\n❤️\n\n1 like\n\nReply\n\n31\n\nLog in to like or comment.\n\nMore posts from everybodybootcampessex\n\nPhoto by Every Body Bootcaamp on October 15, 2026. May be an image of text.\n\nPhoto by Every Body Bootcaamp on October 08, 2026. May be an image of one or more people, people standing and text. [...] Video by Eve",
-     "url": "https://www.instagram.com/reel/DVevJbfDC7i"
-    },
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": "Lanzarote",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Day Minus 1 - Every Body Bootcamp Lanzarote Retreat 🌞🌊\n\nmomipoonam's profile picture\n\nmomipoonam\n\n❤️\n\n1 like\n\nReply\n\n31\n\nLog in to like or comment.\n\nMore posts from everybodybootcampessex\n\nPhoto by Every Body Bootcaamp on October 15, 2026. May be an image of text.\n\nPhoto by Every Body Bootcaamp on October 08, 2026. May be an image of one or more people, people standing and text. [...] Video by Eve",
-     "url": "https://www.instagram.com/reel/DVevJbfDC7i"
-    }
-   ],
-   "winterMonthMentioned": true,
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
@@ -571,10 +513,8 @@
    "displayName": "North Texas Youth",
    "bio": null,
    "followers": null,
-   "website": "thegospel.co",
-   "locationHints": [
-    "Texas"
-   ],
+   "website": null,
+   "locationHints": [],
    "accountType": "person_or_brand",
    "evidence": [
     {
@@ -591,7 +531,7 @@
     {
      "title": "YOUTH RETREAT 2026 🔥⚡️💫 NOVEMBER 22ND",
      "dates": "October 9-11 | Nov. 13-15, 2026",
-     "location": "Texas",
+     "location": null,
      "price": "$160. | $135",
      "spots": null,
      "role": "organizer",
@@ -724,16 +664,6 @@
      "role": "unknown",
      "excerpt": "thecove\\_church\n\nReserve your spot today🎉  \nWomen’s Retreat 2026  \nOctober 8–10, 2026  \n  \n📍 Lake Junaluska Conference and Retreat Center  \n  \nA beautiful weekend in the mountains with worship, community, and renewal.  \n  \n$375 per person (includes lodging, meals, sessions, crafts, and shirt)  \n  \nRegistration closes September 16. Space is limited.  \n  \nA simple gift that says you matter, and you’",
      "url": "https://www.instagram.com/reel/DYXv3WiRfn2"
-    },
-    {
-     "title": "Instagram",
-     "dates": "October 8–10, 2026",
-     "location": "Lake Junaluska",
-     "price": "$375 per person",
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "thecove\\_church\n\nReserve your spot today🎉  \nWomen’s Retreat 2026  \nOctober 8–10, 2026  \n  \n📍 Lake Junaluska Conference and Retreat Center  \n  \nA beautiful weekend in the mountains with worship, community, and renewal.  \n  \n$375 per person (includes lodging, meals, sessions, crafts, and shirt)  \n  \nRegistration closes September 16. Space is limited.  \n  \nA simple gift that says you matter, and you’",
-     "url": "https://www.instagram.com/reel/DYXv3WiRfn2"
     }
    ],
    "winterMonthMentioned": false,
@@ -761,18 +691,7 @@
      "score": 0.7458619
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "👋 Are you hosting a writing retreat and looking to fill your ...",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "👋 Are you hosting a writing retreat and looking to fill your spaces? ... The Writing Retreat Directory is focused exclusively on writers and the retreats that serve them. ... writingretreatdirectory.com/promote-your-retreat",
-     "url": "https://www.instagram.com/p/Dc6BbYADgOn?__d=1httpswww.instagram.comsyjobodygoals"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": [
     "hosting"
@@ -798,19 +717,8 @@
      "score": 0.7244226
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "RETREAT TIP: Marketing ⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀ ...",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "The best way to get your retreat filled bar none is to have a plan laid out so you know exactly what you're doing weekly to promote your",
-     "url": "https://www.instagram.com/p/B9HUgtXnDVr"
-    }
-   ],
-   "winterMonthMentioned": true,
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
@@ -869,59 +777,8 @@
      "score": 0.64826655
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "Trying to fill up your international retreat? 🫠  \n  \nI know this is a real challenge for many wellness entrepreneurs.  \n  \nHere at @yoga.biz.mentor, we REALLY know what works. 🤗😇  \n  \nAnd we're always happy to share with our retreat leader clients the best-kept secrets we've learned from 18 years of hands-on experience in the retreat and wellness industry. 🤫 [...] annettesyoga's profile picture\n\na",
-     "url": "https://www.instagram.com/p/DeTU9DKNEM9"
-    },
-    {
-     "title": "yoga.biz.mentor",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Helping wellness brands go from ignored to booked (no BS marketing) • 18 years in wellness & retreats • Ex-Retreats Director @ Six Senses Start here⬇️.",
-     "url": "https://www.instagram.com/yoga.biz.mentor"
-    },
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "Trying to fill up your international retreat? 🫠  \n  \nI know this is a real challenge for many wellness entrepreneurs.  \n  \nHere at @yoga.biz.mentor, we REALLY know what works. 🤗😇  \n  \nAnd we're always happy to share with our retreat leader clients the best-kept secrets we've learned from 18 years of hands-on experience in the retreat and wellness industry. 🤫 [...] Photo by Manu | Mentorship & Cons",
-     "url": "https://www.instagram.com/p/DeTU9DKNEM9"
-    },
-    {
-     "title": "Follow @yoga.biz.mentor for #wellness and #retreat ...",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Video by Manu | Mentorship & Consulting for Wellness & Retreat Brands on August 29, 2026. May be a meme of one or more people and text that says 'How my client went from having no retreat sales to filling up her retreat'. Follow @yoga.biz.mentor for #wellness and #retreat #business",
-     "url": "https://www.instagram.com/reel/Dcng-uGiehj"
-    },
-    {
-     "title": "Manu | Mentorship & Consulting for Wellness & Retreat Brands (@yoga.biz.mentor) • Instagram photos and videos",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Video by Manu | Mentorship & Consulting for Wellness & Retreat Brands on October 09, 2026. May be an image of one or more people, people practicing yoga, activewear and text.\nPhoto by Manu | Mentorship & Consulting for Wellness & Retreat Brands on September 25, 2026. May be an image of text. [...] Photo by Manu | Mentorship & Consulting for Wellness & Retreat Brands on March 25, 2026.\nPhoto by Man",
-     "url": "https://www.instagram.com/yoga.biz.mentor"
-    }
-   ],
-   "winterMonthMentioned": true,
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
@@ -953,29 +810,8 @@
      "score": 0.27488437
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "Photo by Shannon Jamail | Retreat Leader Strategist on September 17, 2026. May be an image of magazine and text that says 'Top Worldwide Podcast 2% The RETREAT LEADERS Moleast With Shannon Jamail EP 284 ENERGY BEFORE STRATEGY: WHY YOUR RETREAT BUSINESS CAN'T OUTPERFORM YOU WITHI MICHIELLE VILLALOBOS'.\n\nVideo by Sandra Tru | Aliveness Mentor on July 07, 2026.\n\nVideo by Michelle Villalobos on August",
-     "url": "https://www.instagram.com/reel/CtdaGafMvdq"
-    },
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "Photo by Shannon Jamail | Retreat Leader Strategist on September 17, 2026. May be an image of magazine and text that says 'Top Worldwide Podcast 2% The RETREAT LEADERS Moleast With Shannon Jamail EP 284 ENERGY BEFORE STRATEGY: WHY YOUR RETREAT BUSINESS CAN'T OUTPERFORM YOU WITHI MICHIELLE VILLALOBOS'.\n\nVideo by Sandra Tru | Aliveness Mentor on July 07, 2026.\n\nVideo by Michelle Villalobos on August",
-     "url": "https://www.instagram.com/reel/CtdaGafMvdq"
-    }
-   ],
-   "winterMonthMentioned": true,
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
@@ -998,25 +834,14 @@
      "score": 0.71687365
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Leni Cavazos | Retreat Coach & Strategist (@theretreatplanner) • Instagram photos and videos",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Log In\n\nSign Up\n\n## theretreatplanner\n\n 2,193 followers\n 76 following\n\nLeni Cavazos | Retreat Coach & Strategist\n\ntheretreatplanner\n\nRetreat Marketing & Sales Strategy for Coaches  \n📣Sold-out events . Price for Profit  \nReady for high-impact, high-income\n\n...\n\nmore\n\ntheretreatplanner.com\n\nVideo by Leni Cavazos | Retreat Coach & Strategist on October 15, 2026. May be an image of one or more people,",
-     "url": "https://www.instagram.com/theretreatplanner"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
    "handle": "amberhousley",
    "profileUrl": "https://www.instagram.com/amberhousley/",
-   "displayName": "Retreat Expert",
+   "displayName": "Amber Housley | Business Coach + Retreat Expert",
    "bio": "Helping multi-passionate women grow experience-driven brands rooted in connection, hospitality, and heart ❤️  \n⬇️ Retreat",
    "followers": 26200,
    "website": null,
@@ -1033,18 +858,7 @@
      "score": 0.27349237
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Amber Housley | Business Coach + Retreat Expert (@amberhousley) • Instagram photos and videos",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Video by Amber Housley | Business Coach + Retreat Expert on September 18, 2026. May be an image of standing, chandelier, lightbulb, indoors and text that says 'Justagi นร์ girl who's home renov renovationisalmost Vation almost complete.'. [...] Video by Amber Housley | Business Coach + Retreat Expert on September 14, 2026. May be an image of one or more people, people smiling, picnic and text that",
-     "url": "https://www.instagram.com/amberhousley"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": []
   },
@@ -1077,29 +891,8 @@
      "score": 0.44840267
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Thinking of hosting your first wellness event/retreat?  \n  \nI’ve hosted 30+ retreats and ADORE them. But what I’ve learnt is that the magic isn’t just in what you offer it’s in how the experience is designed.  \n  \nSharing my top 4 tips for creating a retreat that feels elevated, intentional, and unforgettable and naturally attracts aligned guests.   \n  \nIf you’re a wellness practitioner/coach, fol",
-     "url": "https://www.instagram.com/reel/DSSRuTWjOAI"
-    },
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Thinking of hosting your first wellness event/retreat?  \n  \nI’ve hosted 30+ retreats and ADORE them. But what I’ve learnt is that the magic isn’t just in what you offer it’s in how the experience is designed.  \n  \nSharing my top 4 tips for creating a retreat that feels elevated, intentional, and unforgettable and naturally attracts aligned guests.   \n  \nIf you’re a wellness practitioner/coach, fol",
-     "url": "https://www.instagram.com/reel/DSSRuTWjOAI"
-    }
-   ],
-   "winterMonthMentioned": true,
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
    "organizerSignals": [
     "hosting"
    ]
@@ -1124,18 +917,7 @@
      "score": 0.17973235
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "Comment INFO1 and I'll send you how that works! The travel agents I mentor get all of my courses and coaching for free. 👌🏻  \n  \n#retreats   \n#retreatsforwomen  \n#coach   \n#lifecoach   \n#travelcoach [...] if you've ever thought...  \n  \nabout hosting a retreat, I made this video just for you!  \n  \nthis is ESPECIALLY important if you're a life coach or a travel coach.  \n  \nComment GTA and I'll send y",
-     "url": "https://www.instagram.com/reel/Ddm25RXzw_D"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": [
     "Comment INFO1 and",
@@ -1165,18 +947,7 @@
      "score": 0.30467278
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": "Portugal",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "art\\_fuel\\_studio\n\nStill on a high from our time in Portugal with these wonderful artists! That’s a wrap for our 2026 Composition Lab retreats.  \nThank you to everyone who said yes and joined us for an adventure this year. We’re very grateful for this community!  \n  \nPS: 2027 announcements loading….\n\nabdalwahabsuweisi's profile picture\n\nabdalwahabsuweisi\n\nWow , beautiful,well done all of you. 👏👏❤️",
-     "url": "https://www.instagram.com/reel/DcyrklzROHn"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": []
   },
@@ -1532,8 +1303,7 @@
    "followers": null,
    "website": null,
    "locationHints": [
-    "Greece",
-    "Cyprus"
+    "Greece"
    ],
    "accountType": "person_or_brand",
    "evidence": [
@@ -1556,28 +1326,7 @@
      "score": 0.8605477755026487
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Interreg VI- A Greece Cyprus (@interreg_grcy) • Instagram photos and videos",
-     "dates": "26 - 20 October 2026",
-     "location": "Greece, Cyprus",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Photo by Interreg VI- A Greece Cyprus on September 21, 2026. May be an image of text that says 'Managing Authority Ειδική Υπηρεσία iNTERREG 2021- 2021-2027 Interact Co-funded by the European Union Interreg SAVE THE DATE Use of Artificial Intelligence in Interreg Communications Webinar for Interreg Programmes in Greece Webinar- Webinar-20October2026 - 20 October 2026'.\nVideo by Interreg VI- A Greec",
-     "url": "https://www.instagram.com/interreg_grcy"
-    },
-    {
-     "title": "Interreg VI- A Greece Cyprus (@interreg_grcy) • Instagram photos and videos",
-     "dates": "26 - 20 October 2026",
-     "location": "Greece, Cyprus",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Photo by Interreg VI- A Greece Cyprus on August 10, 2026. May be a graphic of magazine, poster and text that says '+ ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ Υπουργείο Εθνικής Οικονομίας και ιΟικονομικών Γενική Γραμματεία ΕΣΠΑ Managing Authority Ειδική Υπηρεσία iNTERREG 2021- 2021-2027 2027 KYPIAKH 6 ΣΕΠΤΕΜΒΡΙΟΥ 2026 12：00- 12:00-13:00 13:00 Υπουργείο Εθνικής Οικονομίας & Οικονομικών Περίπτερο 13 AΕΘ-HΕE SAVE THE DATE",
-     "url": "https://www.instagram.com/interreg_grcy"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": []
   },
@@ -1587,7 +1336,7 @@
    "displayName": "Polly Moore|",
    "bio": "How to host wonder in profitable retreats  \n🌍Retreat Strategist |Mindset Coach | Entrepreneur @the_retreat_academy",
    "followers": 12700,
-   "website": "linktr.ee/the",
+   "website": "linktr.ee/the_retreat_academy",
    "locationHints": [],
    "accountType": "person_or_brand",
    "evidence": [
@@ -1601,19 +1350,8 @@
      "score": 0.14622158
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Polly Moore| (@the_retreat_academy) • Instagram photos and videos",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Log In\n\nSign Up\n\n 12.7K followers\n 3,224 following\n\nPolly Moore|\n\nthe\\_retreat\\_academy\n\nHow to host wonder in profitable retreats  \n🌍Retreat Strategist |Mindset Coach | Entrepreneur @the\\_retreat\\_academy\n\n...\n\nmore\n\nlinktr.ee/the\\_retreat\\_academy\n\n the_retreat_academy's highlight story picture\n\n  Venue Coaching\n the_retreat_academy's highlight story picture\n\n  Circle Retreat\n the_retreat_academ",
-     "url": "https://www.instagram.com/the_retreat_academy"
-    }
-   ],
-   "winterMonthMentioned": true,
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
@@ -1662,27 +1400,7 @@
      "dates": "14-18 January 2027 | 16-20 Nov",
      "location": "Lanzarote",
      "price": null,
-     "spots": "Limited places | one room available 16-20 Nov ‼️ | one room available 16-20 Nov ‼️ #Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat",
-     "role": "organizer",
-     "excerpt": "📅 14-18 January 2027  \nLimited places available.  \n  \nSend me a message with the word “RETREAT” and I’ll send you all the details.  \n‼️ Also have one room available 16-20 Nov ‼️   \n  \n#Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat #RetreatHoliday HikingAdventure [...] What if January wasn’t about surviving winter...  \nWhat if it was about transforming how you feel?  \nImagine:  \n☀️ S",
-     "url": "https://www.instagram.com/reel/DeBjbhColl_"
-    },
-    {
-     "title": "Instagram",
-     "dates": "14-18 January 2027 | 16-20 Nov",
-     "location": "Lanzarote",
-     "price": null,
-     "spots": "Limited places | one room available 16-20 Nov ‼️ | one room available 16-20 Nov ‼️ #Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat",
-     "role": "organizer",
-     "excerpt": "📅 14-18 January 2027  \nLimited places available.  \n  \nSend me a message with the word “RETREAT” and I’ll send you all the details.  \n‼️ Also have one room available 16-20 Nov ‼️   \n  \n#Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat #RetreatHoliday HikingAdventure [...] What if January wasn’t about surviving winter...  \nWhat if it was about transforming how you feel?  \nImagine:  \n☀️ S",
-     "url": "https://www.instagram.com/reel/DeBjbhColl_"
-    },
-    {
-     "title": "Instagram",
-     "dates": "14-18 January 2027 | 16-20 Nov",
-     "location": "Lanzarote",
-     "price": null,
-     "spots": "Limited places | one room available 16-20 Nov ‼️ | one room available 16-20 Nov ‼️ #Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat",
+     "spots": "Limited places | one room available 16-20 Nov ‼️ | one room available 16-20 Nov ‼️ #Lanzarote #PilatesRetreat #WellnessRetreat #dbc",
      "role": "organizer",
      "excerpt": "📅 14-18 January 2027  \nLimited places available.  \n  \nSend me a message with the word “RETREAT” and I’ll send you all the details.  \n‼️ Also have one room available 16-20 Nov ‼️   \n  \n#Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat #RetreatHoliday HikingAdventure [...] What if January wasn’t about surviving winter...  \nWhat if it was about transforming how you feel?  \nImagine:  \n☀️ S",
      "url": "https://www.instagram.com/reel/DeBjbhColl_"
@@ -1795,18 +1513,7 @@
      "score": 0.6599319
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": "Tenerife",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Yoga is a very special part of life here, welcoming teachers and students from around the world. From January to April, we’ll once again be hosting @purplevalleyyogatenerife for their Tenerife season.  \n  \nFeaturing here the lovely @paulavahos\\_   \nBeautifully captured by @sigis.mondi   \nMat by @Liforme #fincanaranjastenerife #fincanaranjas #tenerife [...] Video by Alessandro Sigismondi on October",
-     "url": "https://www.instagram.com/reel/Ddo4eZ1zf1v"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": true,
    "organizerSignals": [
     "we’ll once again be hosting"
@@ -1857,9 +1564,7 @@
    "bio": null,
    "followers": null,
    "website": null,
-   "locationHints": [
-    "Tenerife"
-   ],
+   "locationHints": [],
    "accountType": "person_or_brand",
    "evidence": [
     {
@@ -1872,18 +1577,7 @@
      "score": 0.629889
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": "Tenerife",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Photo by Ashtanga Yoga Retreats | Tenerife on June 12, 2026.\n\nVideo by Ashtanga Yoga Retreats | Tenerife on October 15, 2026. May be an image of yoga and text.\n\nVideo by Ashtanga Yoga Retreats | Tenerife on October 08, 2026. May be an image of text.\n\nVideo by Ashtanga Yoga Retreats | Tenerife on October 05, 2026. May be an image of candle, Easter egg and text.\n\nVideo by Ashtanga Yoga Retreats | Te",
-     "url": "https://www.instagram.com/p/DbX2xtfjk8R"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": []
   },
@@ -1930,16 +1624,6 @@
      "role": "organizer",
      "excerpt": "## No comments yet.\n\nStart the conversation.\n\nLog in to like or comment.\n\nMore posts from ladan\\_soltani\n\nVideo by ✨ Yoga / Meditation / Retreats ✨ on September 19, 2026. May be an image of yoga and text that says 'JANUARY NEW YEAR YOGA DETOX & WELLNESS RETREAT'.\n\nVideo by ✨ Yoga / Meditation / Retreats ✨ on August 24, 2026. May be an image of yoga, pool, outdoors and text that says 'UPCOMINGRETRE",
      "url": "https://www.instagram.com/reel/DeJa7OZt3t9"
-    },
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": "Lanzarote",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "ladan\\_soltani\n\n🙏🏾Relaxing Christmas Wellness Retreat Lanzarote  \n  \n✨Real guest experience at Yoga & Meditation Retreats.  \n  \n#Ideal for all levels, including women in their 50s and menopause.   \n  \nMindful movement, meditation and wellness for body and soul.  \n  \n#wellnessretreiteurope, #yogaforwomenover50, #menopausewellness\n\n## No comments yet.\n\nStart the conversation.\n\nLog in to like or comm",
-     "url": "https://www.instagram.com/reel/DTdt5bZjUEm"
     }
    ],
    "winterMonthMentioned": true,
@@ -1990,7 +1674,7 @@
     }
    ],
    "eventsMentioned": [],
-   "winterMonthMentioned": true,
+   "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
@@ -2014,7 +1698,7 @@
     }
    ],
    "eventsMentioned": [],
-   "winterMonthMentioned": true,
+   "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
@@ -2067,18 +1751,7 @@
      "score": 0.0345309
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": "August 2026",
-     "location": "Cyprus, Romania, Malta",
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "Logga in\n\nPhoto by Eurostat on September 01, 2026. Kan vara en grafisk bild av text där det står ”20 Overnight stays in tourism accommodation, first half of 2026 compared with first half of 2025 (% change) 15 10 5 0 -5 -10 EU IRELAND MALTA SLOVAKIA SLOVAKIA SLOVENIA POLAND ESTONIA DENMARK HUNGARY ITALY CZECHIA AUSTRIA SPAIN SWEDEN GREECE FRANCE eurostatl”.\n\neu_eurostats profilbild\n\neu\\_eurostat\n\n•",
-     "url": "https://www.instagram.com/eu_eurostat/p/DcvSk1JArl2?hl=sv"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": [
     "LINK IN BIO"
@@ -2127,8 +1800,8 @@
    ]
   },
   {
-   "handle": "franchiseassembly.",
-   "profileUrl": "https://www.instagram.com/franchiseassembly./",
+   "handle": "franchiseassembly",
+   "profileUrl": "https://www.instagram.com/franchiseassembly/",
    "displayName": null,
    "bio": null,
    "followers": null,
@@ -2170,8 +1843,8 @@
    ]
   },
   {
-   "handle": "cothinkk.",
-   "profileUrl": "https://www.instagram.com/cothinkk./",
+   "handle": "cothinkk",
+   "profileUrl": "https://www.instagram.com/cothinkk/",
    "displayName": null,
    "bio": null,
    "followers": null,
@@ -2191,24 +1864,13 @@
      "score": 0.5041753
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "CoThinkk on Instagram: \"A New Era for CoThinkk 💡 Take Your Seat ✨ - 2026 Winter Retreat \n\n💫 As 2026 continues to unfold, we find ourselves at an important thres",
-     "dates": null,
-     "location": "Asheville",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "s is more than a gathering. It’s a space to reflect on where we’ve been, name what this next era is asking of us, and co-create a future rooted in shared values, bold strategy, and lasting impact.  🗓 Saturday, January 24 🕙 10:00 AM – 4:00 PM 📍 Downtown Asheville 👉 RSVP here : https://docs.google.com/forms/d/e/1FAIpQLSefUBnavJOei5z7rWK0OHOQC5pRs-fNzt36nvE2OKO0visu9g/viewform\n\n#cothinkk #2026winterr",
-     "url": "https://www.instagram.com/p/DTagR_pDrjI"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": true,
    "organizerSignals": []
   },
   {
-   "handle": "insideoutwithcourtnaye.",
-   "profileUrl": "https://www.instagram.com/insideoutwithcourtnaye./",
+   "handle": "insideoutwithcourtnaye",
+   "profileUrl": "https://www.instagram.com/insideoutwithcourtnaye/",
    "displayName": null,
    "bio": null,
    "followers": null,
@@ -2226,26 +1888,15 @@
      "score": 0.36019695
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Courtnaye Richard on Instagram: \"3 More days before my “Ministry & Marketplace Mastermind” kicks off! It starts Monday, January 5th! \n\nThe mastermind start this",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "and making a greater impact! \n\nGet ready to grow and learn with like-minded kingdom, ministry, and business builders. \n\nLearn more about it and if you have any questions, reach out via inbox. Let’s do this, together! It’s going to be awesome! 🤗🎊\n\nLearn more about it by clicking the link in my bio.\"\nNever miss a post from insideoutwithcourtnaye. Sign up for Instagram to stay in the loop. 3 More day",
-     "url": "https://www.instagram.com/p/DTBJJcjjm1e"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": true,
    "organizerSignals": [
     "link in my bio"
    ]
   },
   {
-   "handle": "thenomadcollective_.",
-   "profileUrl": "https://www.instagram.com/thenomadcollective_./",
+   "handle": "thenomadcollective_",
+   "profileUrl": "https://www.instagram.com/thenomadcollective_/",
    "displayName": null,
    "bio": null,
    "followers": null,
@@ -2284,8 +1935,8 @@
    ]
   },
   {
-   "handle": "jamieberman_.",
-   "profileUrl": "https://www.instagram.com/jamieberman_./",
+   "handle": "jamieberman_",
+   "profileUrl": "https://www.instagram.com/jamieberman_/",
    "displayName": null,
    "bio": null,
    "followers": null,
@@ -2342,19 +1993,8 @@
      "score": 0.078197904
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Mastermind Healthcare RCM Tactics (@mastermind_healthcare_rcm_offl) • Instagram photos and videos",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Title: Mastermind Healthcare RCM Tactics (@mastermind_healthcare_rcm_offl) • Instagram photos and videos\n## mastermind\\_healthcare\\_rcm\\_offl. We're the RCM masterminds. Photo by Mastermind Healthcare RCM Tactics on November 17, 2025. Video by Mastermind Healthcare RCM Tactics on March 27, 2026. Photo by Mastermind Healthcare RCM Tactics on March 10, 2026. Video by Mastermind Healthcare RCM Tactic",
-     "url": "https://www.instagram.com/mastermind_healthcare_rcm_offl"
-    }
-   ],
-   "winterMonthMentioned": true,
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
@@ -2492,18 +2132,7 @@
      "score": 0.69274646
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Ladies, you are chosen — gifted by God, and never meant ...",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "Ladies, you are chosen — gifted by God, and never meant to carry it alone. Join us at the Chosen Ladies Retreat, Eagle Sky, where we lean on each other and remember whose we are. Registration closes October 13. See you on November 13, 2026.❄️🤍",
-     "url": "https://www.instagram.com/reel/Ddt8rESDHy5"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": true,
    "organizerSignals": [
     "Join us"
@@ -2605,25 +2234,14 @@
      "score": 0.8014549
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Retraite mastermind entrepreneurs dans le cœur 💓 Avec Romain ...",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "PARCOURS ANNUEL 2026-2027 Inscriptions via notre site internet : associationterrehappy33.fr Sur place pendant les ateliers en septembre Edwina : 06",
-     "url": "https://www.instagram.com/p/DcTV7O-FQdj"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
    "handle": "shanyelad",
    "profileUrl": "https://www.instagram.com/shanyelad/",
-   "displayName": "Reel by Elad Shany",
+   "displayName": "Elad Shany",
    "bio": null,
    "followers": null,
    "website": null,
@@ -2682,8 +2300,8 @@
    "organizerSignals": []
   },
   {
-   "handle": "pennsylvania_bar_association.",
-   "profileUrl": "https://www.instagram.com/pennsylvania_bar_association./",
+   "handle": "pennsylvania_bar_association",
+   "profileUrl": "https://www.instagram.com/pennsylvania_bar_association/",
    "displayName": null,
    "bio": null,
    "followers": null,
@@ -2740,24 +2358,13 @@
      "score": 0.10065759
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Bishop DeFalco Retreat Center (@defalcoretreatcenter) • Instagram photos and videos",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Title: Bishop DeFalco Retreat Center (@defalcoretreatcenter) • Instagram photos and videos\nProviding a refuge for those seeking spiritual and personal development. Video by Bishop DeFalco Retreat Center on May 09, 2025. Photo by Bishop DeFalco Retreat Center on April 22, 2025. Photo by Bishop DeFalco Retreat Center on March 31, 2024. Photo by Bishop DeFalco Retreat Center on January 12, 2024. Phot",
-     "url": "https://www.instagram.com/defalcoretreatcenter"
-    }
-   ],
-   "winterMonthMentioned": true,
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
    "organizerSignals": []
   },
   {
-   "handle": "therizalacademy.",
-   "profileUrl": "https://www.instagram.com/therizalacademy./",
+   "handle": "therizalacademy",
+   "profileUrl": "https://www.instagram.com/therizalacademy/",
    "displayName": null,
    "bio": null,
    "followers": null,
@@ -2775,18 +2382,7 @@
      "score": 0.09332227
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "TRAIL on Instagram: \"The Rizal Development and Heritage Center Foundation (RCF) and Gabay Guro Foundation\ninvite you to\n\nKamalayan: Renew, Reframe, Repurpose\n\nA",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "long Highway, Antipolo City)\n\nFor inquiries and registration, please use this link: https://forms.gle/pWYP39nibxaunQ5q7\"\nNever miss a post from therizalacademy. Sign up for Instagram to stay in the loop. The Rizal Development and Heritage Center Foundation (RCF) and Gabay Guro Foundation. A 3-day weekend retreat for teachers. happening on November 17, 18, and 19, 2023 at. First Pacific Leadership ",
-     "url": "https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": true,
    "organizerSignals": []
   },
@@ -2799,8 +2395,7 @@
    "website": null,
    "locationHints": [
     "Nantes",
-    "Vertou",
-    "Hossegor"
+    "Vertou"
    ],
    "accountType": "person_or_brand",
    "evidence": [
@@ -2814,18 +2409,7 @@
      "score": 0.9191869
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Les inscriptions pour le Mana Yoga Training 2026 / 2027 sont ...",
-     "dates": null,
-     "location": "Nantes, Vertou, Hossegor",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Log In\nSign Up\nmanayogacenter's profile picture\nNever miss a post from manayogacenter\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nPhoto by Votre Studio de Yoga à Hossegor ✨ on August 21, 2026. May be an image of yoga and text that says '2026 2027 Mana Y Yoga Training FORMATION 200 FORMATION200HEURES HEURES'.\nman",
-     "url": "https://www.instagram.com/p/DcT9Xxajq1S"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": true,
    "organizerSignals": []
   },
@@ -2851,19 +2435,8 @@
      "score": 0.8886914
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Ce n'est pas juste une formation professorale de yoga. C' ...",
-     "dates": null,
-     "location": "Magog",
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "Log In\nSign Up\nnamaze.yoga's profile picture\nNever miss a post from namaze.yoga\nSign up for Instagram to stay in the loop.\nBy continuing, you agree to Instagram's Terms of Use and Privacy Policy.\nSign up\nLog in\nVideo by Namazé Yoga on March 29, 2026.\nze_namaze's profile picture\nnamaze.yoga's profile picture\nnamaze.yoga and ze\\_namaze\nLenzspot•Transformation\nnamaze.yoga's profile picture\nnamaze.yog",
-     "url": "https://www.instagram.com/reel/DWej-L7jsAv"
-    }
-   ],
-   "winterMonthMentioned": true,
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
    "organizerSignals": [
     "Inscriptions ouvertes"
    ]
@@ -2888,18 +2461,7 @@
      "score": 0.8872928
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Nous avons terminé le dernier module de la formation de ...",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "Video by YAY YOGA | Yoga pour tous on August 22, 2025.\nVideo by Patrycja Krok on October 15, 2026. May be an image of text.\nPhoto by YAY YOGA | Yoga pour tous on October 12, 2026. May be an image of text.\nVideo by YAY YOGA | Yoga pour tous on October 10, 2026. May be an image of one or more people, henna, people practicing yoga, activewear, mat and text.\nVideo by Patrycja Krok on October 07, 2026.",
-     "url": "https://www.instagram.com/reel/DZp04RzxPka"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": [
     "Inscriptions ouvertes"
@@ -2911,7 +2473,7 @@
    "displayName": "Ludivine • Professeure de Yoga",
    "bio": null,
    "followers": null,
-   "website": "Fair.co",
+   "website": "Yogiandwild.com",
    "locationHints": [
     "Paris"
    ],
@@ -2927,18 +2489,7 @@
      "score": 0.86108357
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Et si tu devenais professeur.e de yoga en 2027? Cette ...",
-     "dates": null,
-     "location": "Paris",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "best thing that happened to me in 2026 ❤️\n2 likes\nReply\nmarie.shanti.yoga's profile picture\nmarie.shanti.yoga\nOooooh comme j’ai hte hte hte ❤️\n3 likes\nReply\nsolclrc's profile picture\nsolclrc\nC’était si bien, Envie de revenir 🤍\n3 likes\nReply\nian8989's profile picture\nian8989\n🙌❤️\n3 likes\nReply\nophelielch's profile picture\nophelielch\nLa meilleure formation 💕\n3 likes\nReply\ncyr_riv's profile picture\ncy",
-     "url": "https://www.instagram.com/p/Dd8gY7tCMPo"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": true,
    "organizerSignals": [
     "lien en bio"
@@ -3044,18 +2595,7 @@
      "score": 0.77913743
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "המורות בסטודיו בקצב החיים @nicolesalti ...",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "הדור הבא של מורי האשטנגה מתחיל כאן. ההרשמה המוקדמת לקורס המורים של אקדמיית ״Sun Yoga״ למחזורי אוקטובר 2026 נפתחה. מחזור בוקר | מחזור ערב",
-     "url": "https://www.instagram.com/reel/CqZ56aBIRPn"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": []
   },
@@ -3161,18 +2701,7 @@
      "score": 0.39480802
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": null,
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "cfpc.cmfc\n\nSign up for the 2027 Physician Wellness Retreat waitlist and be the first to know when registration goes live! Plus, watch our location launch video and learn more about the 2027 event.  \n  \n\n## No comments yet.\n\nStart the conversation.\n\n2\n\nLog in to like or comment.\n\nMore posts from cfpc.cmfc\n\nPhoto by CFPC CMFC on October 14, 2026. May be an image of text.\n\nPhoto by CFPC CMFC on Octob",
-     "url": "https://www.instagram.com/reel/DcTmfOhj-tj"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": [
     "waitlist"
@@ -3239,18 +2768,7 @@
      "score": 0.6884899
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Our first Winter retreat in French Alps🤍💙 🔹Yoga and ...",
-     "dates": null,
-     "location": "French Alps",
-     "price": null,
-     "spots": null,
-     "role": "organizer",
-     "excerpt": "Our first Winter retreat in French Alps🤍💙 🔹Yoga and meditation practice 🔹 Mobility, movements and inversions 🔹Winter sport : ski, snowboarding, hiking ... 🔹 Thai massage ... cold plunge, warm jacuzzi. 🔹 French cuisine with dessert everyday 🔹Beautiful cozy chalet with epic mountain view ... Come join us! Comment ‘Winter’ we’ll send you the details of retreat directly.",
-     "url": "https://www.instagram.com/reel/DavTBPMNJ2Y"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": true,
    "organizerSignals": [
     "join us"
@@ -3280,18 +2798,7 @@
      "score": 0.2199572
     }
    ],
-   "eventsMentioned": [
-    {
-     "title": "Instagram",
-     "dates": null,
-     "location": "Lanzarote, Gran Canaria, Club La Santa",
-     "price": null,
-     "spots": null,
-     "role": "unknown",
-     "excerpt": "Gran Canaria here we come 🇪🇸  \n  \n#fitness #retreat #groupfitnessuk #fitnessfamily [...] This year will mark 17 years of my Total Body Conditioning Week event at Club La Santa in Lanzarote...  \n  \nIt is absolutely impossible to summarise in one post the memories that have been made over the last 17 years... the friendships, the energy! It has been magical and I can't wait to be back at CLS later i",
-     "url": "https://www.instagram.com/p/DYHY0aXjbaS"
-    }
-   ],
+   "eventsMentioned": [],
    "winterMonthMentioned": false,
    "organizerSignals": []
   },

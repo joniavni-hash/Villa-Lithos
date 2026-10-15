@@ -1,0 +1,405 @@
+{
+ "batch": 11,
+ "candidates": [
+  {
+   "handle": "smlcfamily",
+   "profileUrl": "https://www.instagram.com/smlcfamily/",
+   "displayName": "SMLC Family",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Nags Head"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "early bird",
+    "registration is now open"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DUHuHQ2iKK1",
+     "kind": "post",
+     "title": "The 2026 Women's Retreat early bird registration is now ...",
+     "excerpt": "The 2026 Women's Retreat early bird registration is now open! Early bird registration ends March 1st. Nags Head, NC $20 deposit is required."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "The 2026 Women's Retreat early bird registration is now ...",
+     "dates": null,
+     "location": "Nags Head",
+     "price": "$20",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "The 2026 Women's Retreat early bird registration is now open! Early bird registration ends March 1st. Nags Head, NC $20 deposit is required.",
+     "url": "https://www.instagram.com/p/DUHuHQ2iKK1"
+    }
+   ]
+  },
+  {
+   "handle": "sundanceorg",
+   "profileUrl": "https://www.instagram.com/sundanceorg/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/BWRI11MlHRu",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Title: Instagram\nNever miss a post from sundanceorg. Sign up for Instagram to stay in the loop. By continuing, you agree to Instagram's Terms of Use and Privacy Policy. Photo by The Sundance Institute on July 07, 2017. The Faliro House | Sundance Institute Mediterranean Screenwriters Workshop is currently underway in Costa Navarino, Greece. The workshop is designed to support emerging filmmakers f"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "sunyoga_studio",
+   "profileUrl": "https://www.instagram.com/sunyoga_studio/",
+   "displayName": "Sun Yoga | סטודיו מסורתי לאשטנגה",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/CqZ56aBIRPn",
+     "kind": "reel",
+     "title": "המורות בסטודיו בקצב החיים @nicolesalti ...",
+     "excerpt": "הדור הבא של מורי האשטנגה מתחיל כאן. ההרשמה המוקדמת לקורס המורים של אקדמיית ״Sun Yoga״ למחזורי אוקטובר 2026 נפתחה. מחזור בוקר | מחזור ערב"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "המורות בסטודיו בקצב החיים @nicolesalti ...",
+     "dates": null,
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "הדור הבא של מורי האשטנגה מתחיל כאן. ההרשמה המוקדמת לקורס המורים של אקדמיית ״Sun Yoga״ למחזורי אוקטובר 2026 נפתחה. מחזור בוקר | מחזור ערב",
+     "url": "https://www.instagram.com/reel/CqZ56aBIRPn"
+    }
+   ]
+  },
+  {
+   "handle": "superstaractivator",
+   "profileUrl": "https://www.instagram.com/superstaractivator/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/CtdaGafMvdq",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Photo by Shannon Jamail | Retreat Leader Strategist on September 17, 2026. May be an image of magazine and text that says 'Top Worldwide Podcast 2% The RETREAT LEADERS Moleast With Shannon Jamail EP 284 ENERGY BEFORE STRATEGY: WHY YOUR RETREAT BUSINESS CAN'T OUTPERFORM YOU WITHI MICHIELLE VILLALOBOS'.\n\nVideo by Sandra Tru | Aliveness Mentor on July 07, 2026.\n\nVideo by Michelle Villalobos on August"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram",
+     "dates": null,
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Photo by Shannon Jamail | Retreat Leader Strategist on September 17, 2026. May be an image of magazine and text that says 'Top Worldwide Podcast 2% The RETREAT LEADERS Moleast With Shannon Jamail EP 284 ENERGY BEFORE STRATEGY: WHY YOUR RETREAT BUSINESS CAN'T OUTPERFORM YOU WITHI MICHIELLE VILLALOBOS'.\n\nVideo by Sandra Tru | Aliveness Mentor on July 07, 2026.\n\nVideo by Michelle Villalobos on August",
+     "url": "https://www.instagram.com/reel/CtdaGafMvdq"
+    },
+    {
+     "title": "Instagram",
+     "dates": null,
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Photo by Shannon Jamail | Retreat Leader Strategist on September 17, 2026. May be an image of magazine and text that says 'Top Worldwide Podcast 2% The RETREAT LEADERS Moleast With Shannon Jamail EP 284 ENERGY BEFORE STRATEGY: WHY YOUR RETREAT BUSINESS CAN'T OUTPERFORM YOU WITHI MICHIELLE VILLALOBOS'.\n\nVideo by Sandra Tru | Aliveness Mentor on July 07, 2026.\n\nVideo by Michelle Villalobos on August",
+     "url": "https://www.instagram.com/reel/CtdaGafMvdq"
+    }
+   ]
+  },
+  {
+   "handle": "the_padel_circle_",
+   "profileUrl": "https://www.instagram.com/the_padel_circle_/",
+   "displayName": "The Padel Circle",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Tenerife",
+    "Spain"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/the_padel_circle_",
+     "kind": "profile",
+     "title": "The Padel Circle (@the_padel_circle_) • Instagram photos and videos",
+     "excerpt": "Title: The Padel Circle (@the_padel_circle_) • Instagram photos and videos\n## the\\_padel\\_circle\\_. the_padel_circle_'s highlight story picture. Video by The Padel Circle on March 29, 2025. Photo by The Padel Circle on August 03, 2026. May be an image of tennis, racket, sports equipment and text that says '生 Sevta PADEL EXPERIEN ALL LEVELS PADEL WEEKEND IN SEVILLE 08'. Photo by The Padel Circle on"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "The Padel Circle (@the_padel_circle_) • Instagram photos and videos",
+     "dates": "Sep 13, 2026",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "of outdoors and text that says 'TENERIFE PADEL HOLIDAY'. May be an image of tennis, racket, sports equipment and text that says 'MARBELLA TRAINING CAMP 17 Sep10- Sep10-13,2026 10 Sep 13, 2026 SPAIN SPAINPADEL IENCES SPAIN SPAINPADEL ADEL EXPERIENCES SPAIN.PAD SPAIN SPAINPADI EPERIENCES PADEL XPERIENCES E SPAIN PAINPADE SAENIRADE PADE EXPERIENCI I'. May be an image of o",
+     "url": "https://www.instagram.com/the_padel_circle_"
+    },
+    {
+     "title": "The Padel Circle (@the_padel_circle_) • Instagram photos and videos",
+     "dates": "23-26 July 2026",
+     "location": "Tenerife",
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "l Retreat in Tenerife Juy 17 Aug Aug9-14,2026 9 14, 2026'. May be an image of tennis, sports equipment, racket and text that says '間 PADEL HOLIDAY IN MARBELLA kty 17 23-26July2026 23-26 July 2026'. May be a meme of text that says 'Is this padel? Final Sun, 19 Jul 20:00 Spain Argentina'. May be an image of tennis, racquetball, racket, sports equipment and text that says '月0",
+     "url": "https://www.instagram.com/the_padel_circle_"
+    }
+   ]
+  },
+  {
+   "handle": "the_retreat_academy",
+   "profileUrl": "https://www.instagram.com/the_retreat_academy/",
+   "displayName": "Polly Moore|",
+   "bio": "The art of hosting profitable retreats Retreat Strategist |Mindset Coach | Entrepreneur @the_retreat_academy @erthretreat · @departmentofwellbeing. Follow.",
+   "followers": 12700,
+   "website": "linktr.ee/the",
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/the_retreat_academy",
+     "kind": "profile",
+     "title": "Polly Moore| (@the_retreat_academy)",
+     "excerpt": "The art of hosting profitable retreats Retreat Strategist |Mindset Coach | Entrepreneur @the_retreat_academy @erthretreat · @departmentofwellbeing. Follow."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Polly Moore| (@the_retreat_academy) • Instagram photos and videos",
+     "dates": null,
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "Log In\n\nSign Up\n\n 12.7K followers\n 3,224 following\n\nPolly Moore|\n\nthe\\_retreat\\_academy\n\nHow to host wonder in profitable retreats  \n🌍Retreat Strategist |Mindset Coach | Entrepreneur @the\\_retreat\\_academy\n\n...\n\nmore\n\nlinktr.ee/the\\_retreat\\_academy\n\n the_retreat_academy's highlight story picture\n\n  Venue Coaching\n the_retreat_academy's highlight story picture\n\n  Circle Retreat\n the_retreat_academ",
+     "url": "https://www.instagram.com/the_retreat_academy"
+    }
+   ]
+  },
+  {
+   "handle": "thecenterslo",
+   "profileUrl": "https://www.instagram.com/thecenterslo/",
+   "displayName": "The Center Studio",
+   "bio": null,
+   "followers": null,
+   "website": "thecenterslo.com/ytt",
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Join us",
+    "Applications are now open",
+    "link in our bio",
+    "reserve your spot"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DZaZOYdw525",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "🧘‍♀️ 200-Hour Yoga Teacher Training | September 2026 ✨  \n  \nJoin us for our Yoga Alliance Registered 200-Hour Teacher Training, a transformative journey of connection, community, and self-discovery. Whether your goal is to teach or simply immerse yourself more fully in the practice, this training is designed to support your growth every step of the way.  \n  \n✨ What’s Included:  \n  \n• Yoga Alliance"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram",
+     "dates": "September 2026 | April 2027",
+     "location": null,
+     "price": "$300",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🧘‍♀️ 200-Hour Yoga Teacher Training | September 2026 ✨  \n  \nJoin us for our Yoga Alliance Registered 200-Hour Teacher Training, a transformative journey of connection, community, and self-discovery. Whether your goal is to teach or simply immerse yourself more fully in the practice, this training is designed to support your growth every step of the way.  \n  \n✨ What’s Included:  \n  \n• Yoga Alliance",
+     "url": "https://www.instagram.com/reel/DZaZOYdw525"
+    }
+   ]
+  },
+  {
+   "handle": "thenomadcollective_.",
+   "profileUrl": "https://www.instagram.com/thenomadcollective_./",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "St. Croix"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Early bird",
+    "Comment “MASTERMIND” to"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTTXloOEm_d",
+     "kind": "post",
+     "title": "The nOMad Collective- Transformational Retreats on Instagram: \"Only 2 days remain to say yes to our early nOMad special pricing for The nOMad Mastermind Retreat",
+     "excerpt": "rare opportunity to step into the new paradigm of leadership - one rooted in embodiment, integrity, and community at a significantly reduced investment.\n\nHosted by Phoebe Leona, founder of The nOMad Collective, this is not another business mastermind. It’s a sacred container for retreat leaders and guides ready to deepen their voice, refine their craft, and lead with presence rather than pressure."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "The nOMad Collective- Transformational Retreats on Instagram: \"Only 2 days remain to say yes to our early nOMad special pricing for The nOMad Mastermind Retreat",
+     "dates": "April 10-15, 2026",
+     "location": "St. Croix",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "rare opportunity to step into the new paradigm of leadership - one rooted in embodiment, integrity, and community at a significantly reduced investment.\n\nHosted by Phoebe Leona, founder of The nOMad Collective, this is not another business mastermind. It’s a sacred container for retreat leaders and guides ready to deepen their voice, refine their craft, and lead with presence rather than pressure.",
+     "url": "https://www.instagram.com/p/DTTXloOEm_d"
+    }
+   ]
+  },
+  {
+   "handle": "theretreatplanner",
+   "profileUrl": "https://www.instagram.com/theretreatplanner/",
+   "displayName": "Leni Cavazos | Retreat Coach & Strategist",
+   "bio": "Retreat Marketing & Sales Strategy for Coaches  \n📣Sold-out events . Price for Profit  \nReady for high-impact, high-income",
+   "followers": 2193,
+   "website": "theretreatplanner.com",
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/theretreatplanner",
+     "kind": "profile",
+     "title": "Leni Cavazos | Retreat Coach & Strategist (@theretreatplanner) • Instagram photos and videos",
+     "excerpt": "Photo by Leni Cavazos | Retreat Coach & Strategist on October 15, 2026. May be an image of poster and text.\n\nVideo by Leni Cavazos | Retreat Coach & Strategist on October 14, 2026. May be an image of heart, book, playing cards, card and text.\n\nVideo by Leni Cavazos | Retreat Coach & Strategist on October 13, 2026. May be an image of one or more people, makeup, magazine and text. [...] Video by Len"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Leni Cavazos | Retreat Coach & Strategist (@theretreatplanner) • Instagram photos and videos",
+     "dates": null,
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "Log In\n\nSign Up\n\n## theretreatplanner\n\n 2,193 followers\n 76 following\n\nLeni Cavazos | Retreat Coach & Strategist\n\ntheretreatplanner\n\nRetreat Marketing & Sales Strategy for Coaches  \n📣Sold-out events . Price for Profit  \nReady for high-impact, high-income\n\n...\n\nmore\n\ntheretreatplanner.com\n\nVideo by Leni Cavazos | Retreat Coach & Strategist on October 15, 2026. May be an image of one or more people,",
+     "url": "https://www.instagram.com/theretreatplanner"
+    }
+   ]
+  },
+  {
+   "handle": "therizalacademy.",
+   "profileUrl": "https://www.instagram.com/therizalacademy./",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et",
+     "kind": "post",
+     "title": "TRAIL on Instagram: \"The Rizal Development and Heritage Center Foundation (RCF) and Gabay Guro Foundation\ninvite you to\n\nKamalayan: Renew, Reframe, Repurpose\n\nA",
+     "excerpt": "long Highway, Antipolo City)\n\nFor inquiries and registration, please use this link: https://forms.gle/pWYP39nibxaunQ5q7\"\nNever miss a post from therizalacademy. Sign up for Instagram to stay in the loop. The Rizal Development and Heritage Center Foundation (RCF) and Gabay Guro Foundation. A 3-day weekend retreat for teachers. happening on November 17, 18, and 19, 2023 at. First Pacific Leadership "
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "TRAIL on Instagram: \"The Rizal Development and Heritage Center Foundation (RCF) and Gabay Guro Foundation\ninvite you to\n\nKamalayan: Renew, Reframe, Repurpose\n\nA",
+     "dates": null,
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "long Highway, Antipolo City)\n\nFor inquiries and registration, please use this link: https://forms.gle/pWYP39nibxaunQ5q7\"\nNever miss a post from therizalacademy. Sign up for Instagram to stay in the loop. The Rizal Development and Heritage Center Foundation (RCF) and Gabay Guro Foundation. A 3-day weekend retreat for teachers. happening on November 17, 18, and 19, 2023 at. First Pacific Leadership ",
+     "url": "https://www.instagram.com/p/CxeaWRhhuAU?hl=am-et"
+    }
+   ]
+  },
+  {
+   "handle": "tourlandia_",
+   "profileUrl": "https://www.instagram.com/tourlandia_/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/CVQhHVYMU3a",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "#france #paris #portugal #italy #uk #germany #turkey #belgium #switzerland #poland #azerbaijan #spain #romania #hungary #denmark #sweden #russia #netherlands #greece #czech #austria #ukraine #london #cyprus #malta #luxembourg #estonia #latvia #lithuania #bulgaria [...] Photo by tourlandia on January 01, 2026.\n\nSee more posts\n\n--- [...] 2 likes\n\nReply\n\nkimonas_the's profile picture\n\nkimonas\\_the\n\nI"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "toweryoga",
+   "profileUrl": "https://www.instagram.com/toweryoga/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": "toweryogafresno.com",
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DcwVuG9mu30",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "toweryoga's profile picture\nPhoto by Tower Yoga on September 01, 2026. May be an image of ‎yoga, tower and ‎text that says '‎스코크크 ی TOWER YOGA Y GA Teacher Training 2026-27 Training Dates Nov 13 15 Dec Jan Feb Feb5-7 Mar5-7 Mar Apr Apr2-4 13 10 200-hour hour Vinyasa Yoga Teacher Training $2,900 paid in full or 3 payments of $975 Schedule: Fridays: -9 p.m. Saturdays ៩៥ Sundays: 9 a.m.- p.m. and 2-6"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram",
+     "dates": "5-7 Mar",
+     "location": null,
+     "price": "$2,900 | $975",
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "toweryoga's profile picture\nPhoto by Tower Yoga on September 01, 2026. May be an image of ‎yoga, tower and ‎text that says '‎스코크크 ی TOWER YOGA Y GA Teacher Training 2026-27 Training Dates Nov 13 15 Dec Jan Feb Feb5-7 Mar5-7 Mar Apr Apr2-4 13 10 200-hour hour Vinyasa Yoga Teacher Training $2,900 paid in full or 3 payments of $975 Schedule: Fridays: -9 p.m. Saturdays ៩៥ Sundays: 9 a.m.- p.m. and 2-6",
+     "url": "https://www.instagram.com/p/DcwVuG9mu30"
+    }
+   ]
+  }
+ ]
+}

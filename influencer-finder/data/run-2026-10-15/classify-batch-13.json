@@ -1,0 +1,44 @@
+{
+ "batch": 13,
+ "candidates": [
+  {
+   "handle": "zenspaceyoga",
+   "profileUrl": "https://www.instagram.com/zenspaceyoga/",
+   "displayName": "Zenspace Yoga",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "France",
+    "Lyon",
+    "Marseille"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "inscriptions sont ouvertes",
+    "Places limitées"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Da21MWnjQJR",
+     "kind": "post",
+     "title": "Formation de professeur·e de yoga 200h Que vous soyez ...",
+     "excerpt": "Deviens professeur·e de Vinyasa Yoga ✨ (Formation 200h – Édition 2027) ... Les inscriptions sont ouvertes. Studio Spirale — Marseille"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Formation de professeur·e de yoga 200h Que vous soyez ...",
+     "dates": null,
+     "location": "France, Lyon, Marseille",
+     "price": "2990€",
+     "spots": "Places limitées",
+     "role": "organizer",
+     "excerpt": "Photo by Zenspace Yoga on October 01, 2026.\nPhoto by Zenspace Yoga on September 18, 2026. May be an image of yoga and text that says 'RETRAITE YOGA RITUELS D'AUTOMNE nourir, apaiser, équilibrer DU 15 AU 18 e 2026 YOGA, AYURVEDA, MASSAGES REPAS VÉGÉTARIENS AYURVÉDIQUES CONSEILS BIEN-ÊTRE BALADE EN PLEINE NATURE TEMPS DE REPOS, D'INTÉGRATION ET DE PARTAGE avec Pamela, Amandine & Anne-Lise Au Chalet ",
+     "url": "https://www.instagram.com/p/Da21MWnjQJR"
+    }
+   ]
+  }
+ ]
+}
