@@ -88,52 +88,33 @@ const GATEWAY_MODELS = { screening: 'anthropic/claude-haiku-4-5', deep: 'anthrop
 const PRICE = { screening: { in: 1, out: 5 }, deep: { in: 3, out: 15 } };
 
 /**
- * Calls Claude through the Anthropic API when ANTHROPIC_API_KEY is set, otherwise
- * through the Lovable AI gateway (LOVABLE_API_KEY, injected by Lovable Cloud),
- * which serves the same Claude models without a BYO key.
+ * Calls Claude with the native Messages API. With ANTHROPIC_API_KEY set it goes to the Anthropic API;
+ * otherwise through the Lovable AI gateway (LOVABLE_API_KEY, injected by Lovable Cloud), which serves
+ * Claude models on its native /v1/messages endpoint (not the OpenAI-style chat/completions one).
+ * Same request and response shape on both paths, so image and PDF blocks pass through unchanged.
  */
 export async function callClaude(call: LlmCall): Promise<LlmResult> {
   const anthropicKey = Deno.env.get('ANTHROPIC_API_KEY');
+  const gatewayKey = Deno.env.get('LOVABLE_API_KEY');
+  if (!anthropicKey && !gatewayKey) throw new Error('No LLM credentials: set ANTHROPIC_API_KEY or enable Lovable AI (LOVABLE_API_KEY)');
+  const provider: LlmResult['provider'] = anthropicKey ? 'anthropic_api' : 'lovable_gateway';
+  const model = anthropicKey ? ANTHROPIC_MODELS[call.tier] : GATEWAY_MODELS[call.tier];
+  const url = anthropicKey ? 'https://api.anthropic.com/v1/messages' : 'https://ai.gateway.lovable.dev/v1/messages';
+  const headers: Record<string, string> = anthropicKey
+    ? { 'Content-Type': 'application/json', 'x-api-key': anthropicKey, 'anthropic-version': '2023-06-01' }
+    : { 'Content-Type': 'application/json', Authorization: `Bearer ${gatewayKey}`, 'anthropic-version': '2023-06-01' };
   const maxTokens = call.maxTokens ?? 4000;
   const jsonInstruction = call.schema ? `\n\nRespond with a single JSON object that validates against this JSON schema, and nothing else:\n${JSON.stringify(call.schema)}` : '';
-  if (anthropicKey) {
-    const model = ANTHROPIC_MODELS[call.tier];
-    const res = await withRetry(() => fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'x-api-key': anthropicKey, 'anthropic-version': '2023-06-01' },
-      body: JSON.stringify({ model, max_tokens: maxTokens, system: call.system + jsonInstruction, messages: call.messages }),
-    }));
-    if (!res.ok) throw new Error(`anthropic ${res.status}: ${await res.text()}`);
-    const data = await res.json();
-    const text = (data.content ?? []).filter((b: { type: string }) => b.type === 'text').map((b: { text: string }) => b.text).join('');
-    const inTok = data.usage?.input_tokens ?? 0, outTok = data.usage?.output_tokens ?? 0;
-    return { text, model, inputTokens: inTok, outputTokens: outTok, costUsd: (inTok * PRICE[call.tier].in + outTok * PRICE[call.tier].out) / 1e6, provider: 'anthropic_api' };
-  }
-  const gatewayKey = Deno.env.get('LOVABLE_API_KEY');
-  if (!gatewayKey) throw new Error('No LLM credentials: set ANTHROPIC_API_KEY or enable Lovable AI (LOVABLE_API_KEY)');
-  const model = GATEWAY_MODELS[call.tier];
-  const res = await withRetry(() => fetch('https://ai.gateway.lovable.dev/v1/chat/completions', {
+  const res = await withRetry(() => fetch(url, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${gatewayKey}` },
-    body: JSON.stringify({ model, max_tokens: maxTokens, messages: [{ role: 'system', content: call.system + jsonInstruction }, ...call.messages.map(toOpenAiMessage)] }),
+    headers,
+    body: JSON.stringify({ model, max_tokens: maxTokens, system: call.system + jsonInstruction, messages: call.messages }),
   }));
-  if (!res.ok) throw new Error(`lovable gateway ${res.status}: ${await res.text()}`);
+  if (!res.ok) throw new Error(`${provider} ${res.status}: ${await res.text()}`);
   const data = await res.json();
-  const text = data.choices?.[0]?.message?.content ?? '';
-  const inTok = data.usage?.prompt_tokens ?? 0, outTok = data.usage?.completion_tokens ?? 0;
-  return { text, model, inputTokens: inTok, outputTokens: outTok, costUsd: (inTok * PRICE[call.tier].in + outTok * PRICE[call.tier].out) / 1e6, provider: 'lovable_gateway' };
-}
-
-function toOpenAiMessage(m: LlmMessage) {
-  if (typeof m.content === 'string') return { role: m.role, content: m.content };
-  // Convert Anthropic-style image/document blocks to OpenAI-style parts.
-  const parts = m.content.map((b) => {
-    if (b.type === 'text') return { type: 'text', text: b.text };
-    if (b.type === 'image') { const s = b.source as { media_type: string; data: string }; return { type: 'image_url', image_url: { url: `data:${s.media_type};base64,${s.data}` } }; }
-    if (b.type === 'document') { const s = b.source as { media_type: string; data: string }; return { type: 'file', file: { filename: 'document.pdf', file_data: `data:${s.media_type};base64,${s.data}` } }; }
-    return { type: 'text', text: JSON.stringify(b) };
-  });
-  return { role: m.role, content: parts };
+  const text = (data.content ?? []).filter((b: { type: string }) => b.type === 'text').map((b: { text: string }) => b.text).join('');
+  const inTok = data.usage?.input_tokens ?? 0, outTok = data.usage?.output_tokens ?? 0;
+  return { text, model, inputTokens: inTok, outputTokens: outTok, costUsd: (inTok * PRICE[call.tier].in + outTok * PRICE[call.tier].out) / 1e6, provider };
 }
 
 /** Extract the first JSON object from model text (tolerates code fences). */
