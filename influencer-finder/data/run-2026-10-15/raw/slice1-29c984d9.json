@@ -1,0 +1,3 @@
+{"spec": {"id": "29c984d9", "query": "\"אופסייט חברה בחו\"ל\" \"הרשמה נפתחה\" 2026 OR 2027", "language": "he", "eventType": "corporate_offsite", "lane": "organizer_intent", "includeDomains": ["instagram.com"], "searchDepth": "basic", "priority": 2},
+ "results": [{"url":"https://www.instagram.com/science_abroad","title":"ScienceAbroad (@science_abroad) · Modi`in","content":"ובקרוב נחשוף חברות מארחות נוספות. 1-5 בנובמבר 2026 | ישראל מדענים וחוקרים ישראלים בחו״ל? ההרשמה עדיין פתוחה: https://fii.scienceabroad.org.il/","score":0.24225084}],
+ "fetchedAt": "2026-10-15T00:00:00Z"}
