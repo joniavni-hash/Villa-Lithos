@@ -1,4 +1,4 @@
-# Villa Lithos Influencer Finder — core engine
+# Villa Lithos Influencer Finder: core engine
 
 Autonomous Instagram influencer intelligence and booking platform for Villa Lithos
 (Porto Rafti, Attica). Objective: find the Instagram accounts most likely to generate
@@ -22,7 +22,7 @@ This folder holds everything that is platform-independent and testable:
 | `src/ai/prompts.ts` | Claude prompts (screening / deep / insights extraction), JSON schema, model tiers |
 | `supabase/migrations/0001_schema.sql` | Full schema: runs, resumable query plan, candidates, evidence, events, score history, private insights, outreach, feedback, learning, RLS, private storage bucket |
 | `supabase/functions/*` | Deno edge functions: `run-discovery` (resumable, spend-capped), `classify-candidates`, `analyze-insights`, `generate-outreach`, `export-csv` |
-| `tests/engine.test.ts` | 15 tests covering generator, normaliser, weights, scoring gates, budget, EBN, rescoring, outreach |
+| `tests/engine.test.ts` | 19 tests covering generator, normaliser, website dedupe, weights, scoring gates, budget, EBN, rescoring, outreach |
 | `data/run-2026-10-15/` | The first real discovery run: query plan, raw Tavily responses, normalised candidates, ranked output |
 
 ```
@@ -32,6 +32,19 @@ npm run typecheck
 npm run queries 400 out.json   # print a query plan
 ./scripts/sync-shared.sh       # copy src → supabase/functions/_shared/engine
 ```
+
+## Verification done in the build session
+
+- `npm test` (19 tests) and `npm run typecheck` pass; every edge function passes `deno check` with the synced engine.
+- The schema migration and the generated seed were applied to a local PostgreSQL 16 with minimal stand-ins for the Supabase `auth` and `storage` schemas. Both apply twice without errors and with identical row counts, so they are idempotent.
+- Undated events are deduplicated by a `nulls not distinct` unique key (Postgres 15 or later), so re-classifying a candidate cannot inflate its events per year or its Expected Booked Nights.
+- Row-level security: a signed-in user reads all rows, an anonymous request reads none.
+
+## Security model
+
+Single owner. RLS grants full access to any authenticated user, so public sign-ups must be
+disabled once the owner account exists. API keys live only in server-side secrets used by the
+edge functions; the browser never sees them. Outreach is drafted, never sent.
 
 ## Sources
 

@@ -6,7 +6,7 @@ the gateway; BYO `ANTHROPIC_API_KEY` optional).
 
 ## Message 1 — scaffold + schema
 - Enable Cloud. Apply `supabase/migrations/0001_schema.sql` verbatim.
-- Auth: email+password, single owner; all screens behind login.
+- Auth: email+password, single owner; all screens behind login. After the owner account exists, disable public sign-ups in Cloud auth settings: RLS grants every authenticated user full access, so an open sign-up would expose the data.
 - Secrets to request through the secure form: `TAVILY_API_KEY` (required), `ANTHROPIC_API_KEY` (optional).
 - Design: minimalist luxury-hospitality SaaS, mobile first, warm stone palette, serif display headings, no dashboard clutter. English UI.
 

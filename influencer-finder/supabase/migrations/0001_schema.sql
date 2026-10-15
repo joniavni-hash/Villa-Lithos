@@ -194,7 +194,9 @@ create table if not exists events (
   provenance provenance not null default 'unknown',
   evidence_urls text[] default '{}',
   created_at timestamptz not null default now(),
-  unique (candidate_id, title, start_date)
+  -- nulls not distinct (Postgres 15+): an undated event must not be duplicated on re-classification,
+  -- otherwise events-per-year and Expected Booked Nights are inflated.
+  unique nulls not distinct (candidate_id, title, start_date)
 );
 
 create table if not exists score_history (
