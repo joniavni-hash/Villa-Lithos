@@ -6,10 +6,11 @@ import json, glob, os, re, sys
 base = os.path.dirname(os.path.abspath(__file__)) + '/../data/run-2026-10-15'
 d = json.load(open(f'{base}/candidates.json'))
 by = {c['handle']: c for c in d['candidates']}
-out = []; problems = []
+out = []; problems = []; notes = []
 JUDG = ['decidesVenue','sellsRetreats','provenWinterActivity','canFillGroupSize','audiencePaysPremium','runsRecurringEvents','longStayPotential','brandFit','priorCommercialEvidence']
 NOW = '2026-10-15T20:00:00Z'
-for f in sorted(glob.glob(f'{base}/classified-batch-*.json')):
+files = sorted(glob.glob(f'{base}/classified-batch-*.json'), key=lambda f: int(re.search(r'-(\d+)\.json$', f).group(1)))
+for f in files:  # numeric order, so a later batch replaces an earlier record of the same handle
     for r in json.load(open(f))['results']:
         h = r['handle'].strip().lower().lstrip('@').strip('.'); c = by.get(h)  # same canonical form as merge-slices.py
         if not c: problems.append(f'{h}: not in candidates.json'); continue
@@ -30,6 +31,9 @@ for f in sorted(glob.glob(f'{base}/classified-batch-*.json')):
             events.append({'title': ev['title'], 'eventType': ev.get('eventType'), 'startDate': ev.get('startDate'), 'endDate': ev.get('endDate'), 'nights': ev.get('nights'), 'location': ev.get('location'), 'country': ev.get('country'), 'groupSize': ev.get('groupSize'), 'pricePerPerson': ev.get('pricePerPerson'), 'currency': ev.get('currency'), 'soldOut': ev.get('soldOut'), 'role': ev.get('role', 'unknown'), 'isWinter': bool(ev.get('isWinter')), 'provenance': ev.get('provenance', 'evidence_supported_inference'), 'evidenceUrls': eu})
         prof = r.get('profile', {})
         markets = [m for m in prof.get('markets', []) if re.fullmatch(r'[A-Z]{2}|OTHER', m)]
+        if any(o['profile']['handle'] == h for o in out):
+            notes.append(f'{h}: classified twice; kept the record from {os.path.basename(f)}')
+            out = [o for o in out if o['profile']['handle'] != h]
         out.append({
             'profile': {'handle': h, 'profileUrl': c['profileUrl'], 'displayName': c.get('displayName') or prof.get('displayName'), 'bio': c.get('bio'), 'followers': c.get('followers'), 'followersProvenance': 'verified_public_fact' if c.get('followers') else 'unknown', 'website': c.get('website'), 'country': prof.get('country'), 'languages': prof.get('languages', []), 'niche': prof.get('niche')},
             'accountType': c.get('accountType', 'person_or_brand'),
@@ -38,5 +42,6 @@ for f in sorted(glob.glob(f'{base}/classified-batch-*.json')):
             'classification': cl, 'verificationStatus': 'public_only', 'pipelineStage': 'discovered', 'discoveredAt': NOW, 'lastSeenAt': NOW, 'discoveryQueries': sorted({e.get('queryId') for e in c['evidence'] if e.get('queryId')}),
         })
 json.dump({'candidates': out}, open(f'{base}/classified.json', 'w'), indent=1, ensure_ascii=False)
-print(f'classified: {len(out)}; problems: {len(problems)}')
+print(f'classified: {len(out)}; problems: {len(problems)}; duplicate notes: {len(notes)}')
 for p in problems[:40]: print(' -', p)
+for n in notes: print(' note:', n)
