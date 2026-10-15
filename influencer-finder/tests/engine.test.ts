@@ -4,7 +4,7 @@ import { handleFromUrl, handleFromTitle, handleFromExtractedText, followersFromT
 import { normalizeWeights, DEFAULT_WEIGHTS } from '../src/scoring/weights.ts';
 import { scoreCandidate } from '../src/scoring/score.ts';
 import { estimateVenueBudget } from '../src/scoring/budget.ts';
-import { expectedBookedNights, scoreToProbability } from '../src/scoring/ebn.ts';
+import { expectedBookedNights, scoreToProbability, eventInputs } from '../src/scoring/ebn.ts';
 import { rescoreWithInsights } from '../src/insights/rescoring.ts';
 import { generateOutreach, recommendTrack, generateInsightsRequest } from '../src/outreach/generator.ts';
 import type { Candidate, Classification, Judgement } from '../src/pipeline/types.ts';
@@ -260,5 +260,29 @@ describe('cleanHandle', () => {
     expect(cleanHandle('a..b')).toBeNull();
     expect(cleanHandle('...')).toBeNull();
     expect(cleanHandle('has space')).toBeNull();
+  });
+});
+
+describe('EBN event inputs and affordability', () => {
+  const ev = (startDate: string | null, isWinter = true) => ({ role: 'organizer', startDate, nights: 5, isWinter });
+  it('counts the busiest single season, not several seasons added together', () => {
+    // 3 events in the 2025/26 season and 2 in 2026/27 -> 3 per year, not 5
+    const r = eventInputs([ev('2025-12-08'), ev('2026-01-11'), ev('2026-03-01'), ev('2026-11-20'), ev('2027-02-01')]);
+    expect(r.eventsPerYear).toBe(3);
+    expect(r.typicalNights).toBe(5);
+  });
+  it('ignores non-organiser roles and handles undated events', () => {
+    expect(eventInputs([{ role: 'promoter', startDate: '2026-12-01', nights: 5, isWinter: true }]).eventsPerYear).toBeNull();
+    expect(eventInputs([ev(null), ev(null)]).eventsPerYear).toBe(2);
+  });
+  it('scales booking probability when the budget is below the floor price', () => {
+    const s = { fitScore: 80, confidence: 0.7, tier: 'A', breakdown: {}, weightsUsed: {}, gates: [], redFlags: [], disqualified: false } as unknown as Parameters<typeof expectedBookedNights>[0]['score'];
+    const base = { score: s, typicalNights: 5, eventsPerYear: 4, winterShare: 1, nightlyRevenueEur: null, track: 'pilot_retreat' as const, verified: false };
+    const full = expectedBookedNights({ ...base, budgetToFloorRatio: 1.2 });
+    const half = expectedBookedNights({ ...base, budgetToFloorRatio: 0.5 });
+    const unknown = expectedBookedNights({ ...base, budgetToFloorRatio: null });
+    expect(half.bookingProbability.base).toBeCloseTo(full.bookingProbability.base * 0.5, 6);
+    expect(unknown.bookingProbability.base).toBeCloseTo(full.bookingProbability.base, 6);
+    expect(half.assumptions.join(' ')).toMatch(/50% of the floor price/);
   });
 });

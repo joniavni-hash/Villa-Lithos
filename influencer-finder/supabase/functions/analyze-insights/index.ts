@@ -6,7 +6,7 @@ import { adminClient, json, CORS, requireUser, callClaude, parseJson, recordUsag
 import { errMsg } from '../_shared/clients.ts';
 import { SYSTEM_INSIGHTS_EXTRACTION } from '../_shared/engine/ai/prompts.ts';
 import { rescoreWithInsights } from '../_shared/engine/insights/rescoring.ts';
-import { expectedBookedNights } from '../_shared/engine/scoring/ebn.ts';
+import { expectedBookedNights, eventInputs } from '../_shared/engine/scoring/ebn.ts';
 import { recommendTrack } from '../_shared/engine/outreach/generator.ts';
 import type { PrivateInsights } from '../_shared/engine/pipeline/types.ts';
 import { toCandidate } from '../_shared/mappers.ts';
@@ -68,8 +68,8 @@ Deno.serve(async (req) => {
   const cand = toCandidate(row, ev ?? [], events ?? [], row.classification ?? undefined);
   const r = rescoreWithInsights(cand, pi, { weights: settings?.weights, floorPricePerNightEur: settings?.floor_price_per_night_eur, venueShare: settings?.venue_budget_share });
   const track = recommendTrack({ ...cand, privateInsights: pi });
-  const organiser = cand.events.filter((e) => e.role === 'organizer' || e.role === 'co_host');
-  const ebn = expectedBookedNights({ score: r.verifiedScore, typicalNights: organiser[0]?.nights ?? null, eventsPerYear: pi.retreatsOrganisedCount?.value ?? organiser.length ?? null, winterShare: organiser.length ? organiser.filter((e) => e.isWinter).length / organiser.length : null, nightlyRevenueEur: settings?.nightly_revenue_eur ?? null, track: track.track, verified: true });
+  const fromEvents = eventInputs(cand.events);
+  const ebn = expectedBookedNights({ score: r.verifiedScore, ...fromEvents, eventsPerYear: pi.retreatsOrganisedCount?.value ?? fromEvents.eventsPerYear, nightlyRevenueEur: settings?.nightly_revenue_eur ?? null, track: track.track, verified: true });
   const isTestOnly = docs.every((d: { is_test: boolean }) => d.is_test);
   await sb.from('private_insights').upsert({ candidate_id: candidateId, data: pi, derived: r.derived, rescore: { deltas: r.deltas, fitDelta: r.fitDelta, confidenceDelta: r.confidenceDelta, explanation: r.explanation, isTestOnly }, model: res.model, document_ids: docs.map((d: { id: string }) => d.id), analysed_at: new Date().toISOString() });
   await sb.from('insights_documents').update({ status: 'extracted', extracted_at: new Date().toISOString(), extraction: { model: res.model }, reporting_period_start: pi.reportingPeriodStart ?? null, reporting_period_end: pi.reportingPeriodEnd ?? null }).in('id', docs.map((d: { id: string }) => d.id));

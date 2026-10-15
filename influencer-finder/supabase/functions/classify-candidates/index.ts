@@ -6,7 +6,7 @@ import { adminClient, json, CORS, requireUser, callClaude, parseJson, recordUsag
 import { errMsg } from '../_shared/clients.ts';
 import { SYSTEM_SCREENING, SYSTEM_DEEP, CLASSIFICATION_SCHEMA, buildScreeningUserMessage } from '../_shared/engine/ai/prompts.ts';
 import { scoreCandidate } from '../_shared/engine/scoring/score.ts';
-import { expectedBookedNights } from '../_shared/engine/scoring/ebn.ts';
+import { expectedBookedNights, eventInputs } from '../_shared/engine/scoring/ebn.ts';
 import { estimateVenueBudget } from '../_shared/engine/scoring/budget.ts';
 import { recommendTrack } from '../_shared/engine/outreach/generator.ts';
 import type { Candidate, Classification } from '../_shared/engine/pipeline/types.ts';
@@ -55,10 +55,10 @@ Deno.serve(async (req) => {
         score = scoreCandidate(cand, { weights: settings?.weights, floorPricePerNightEur: settings?.floor_price_per_night_eur, venueShare: settings?.venue_budget_share });
       }
       const track = recommendTrack(cand);
-      const organiserEvents = cand.events.filter((e) => e.role === 'organizer' || e.role === 'co_host');
-      const ebn = expectedBookedNights({ score, typicalNights: median(organiserEvents.map((e) => e.nights).filter((n): n is number => !!n)), eventsPerYear: organiserEvents.length || null, winterShare: organiserEvents.length ? organiserEvents.filter((e) => e.isWinter).length / organiserEvents.length : null, nightlyRevenueEur: settings?.nightly_revenue_eur ?? null, track: track.track, verified: false });
       const best = [...cand.events].sort((a, b) => (b.pricePerPerson ?? 0) * (b.groupSize ?? 0) - (a.pricePerPerson ?? 0) * (a.groupSize ?? 0))[0];
       const budget = estimateVenueBudget({ participants: best?.groupSize ?? null, pricePerParticipant: best?.pricePerPerson ?? null, nights: best?.nights ?? null, venueShare: settings?.venue_budget_share, provenance: best?.provenance ?? 'unknown' }, settings?.floor_price_per_night_eur);
+      const budgetToFloorRatio = budget.venueBudgetPerNightEur == null ? null : budget.venueBudgetPerNightEur / budget.floorPricePerNightEur;
+      const ebn = expectedBookedNights({ score, ...eventInputs(cand.events), nightlyRevenueEur: settings?.nightly_revenue_eur ?? null, track: track.track, verified: false, budgetToFloorRatio });
       const stage = row.pipeline_stage === 'discovered' ? (score.tier === 'A' || score.tier === 'B' ? 'publicly_qualified' : 'discovered') : row.pipeline_stage;
       await sb.from('candidates').update({
         classification: finalClassification, candidate_group: finalClassification.group, public_score: score, fit_score: row.verified_score ? row.fit_score : score.fitScore, confidence: row.verified_score ? row.confidence : score.confidence, tier: row.verified_score ? row.tier : score.tier,
@@ -77,4 +77,3 @@ Deno.serve(async (req) => {
   return json({ processed: out, remaining: count ?? 0 });
 });
 
-function median(nums: number[]): number | null { if (!nums.length) return null; const s = [...nums].sort((a, b) => a - b); const m = Math.floor(s.length / 2); return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; }

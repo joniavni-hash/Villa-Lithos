@@ -19,6 +19,39 @@ export interface EbnInputs {
   track: PartnershipTrack;
   /** Does private verified data back these inputs? */
   verified: boolean;
+  /**
+   * Estimated venue budget per night divided by the floor price (null when unknown).
+   * Below 1 the group cannot pay the floor price, so the booking probability is scaled
+   * by this ratio (minimum 0.1). Unknown budgets leave the probability unchanged.
+   */
+  budgetToFloorRatio?: number | null;
+}
+
+type EventLike = { role: string; startDate?: string | null; nights?: number | null; isWinter?: boolean };
+
+/**
+ * Event-derived EBN inputs. Events per year is the busiest single season window
+ * (1 Nov to 31 Oct), so posts from several past seasons are not added together.
+ * Undated events cannot be placed in a window; they count only if they exceed the busiest window.
+ */
+export function eventInputs(events: EventLike[]): { typicalNights: number | null; eventsPerYear: number | null; winterShare: number | null } {
+  const org = events.filter((e) => e.role === 'organizer' || e.role === 'co_host');
+  if (!org.length) return { typicalNights: null, eventsPerYear: null, winterShare: null };
+  const nights = org.map((e) => e.nights).filter((n): n is number => typeof n === 'number' && n > 0).sort((a, b) => a - b);
+  const m = Math.floor(nights.length / 2);
+  const typicalNights = nights.length ? (nights.length % 2 ? nights[m] : (nights[m - 1] + nights[m]) / 2) : null;
+  const windows = new Map<number, number>();
+  let undated = 0;
+  for (const e of org) {
+    const d = /^(\d{4})-(\d{2})/.exec(e.startDate ?? '');
+    if (!d) { undated++; continue; }
+    const y = Number(d[1]); const mo = Number(d[2]);
+    const key = mo >= 11 ? y : y - 1;
+    windows.set(key, (windows.get(key) ?? 0) + 1);
+  }
+  const busiest = windows.size ? Math.max(...windows.values()) : 0;
+  const eventsPerYear = Math.max(busiest, undated) || null;
+  return { typicalNights, eventsPerYear, winterShare: org.filter((e) => e.isWinter).length / org.length };
 }
 
 export interface EbnResult {
@@ -48,7 +81,13 @@ export function expectedBookedNights(input: EbnInputs): EbnResult {
   if (input.eventsPerYear == null) assumptions.push('Events per year unknown; assumed 1.');
   const winterShare = input.winterShare ?? 0.3;
   if (input.winterShare == null) assumptions.push('Winter share of events unknown; assumed 30%.');
-  const base = scoreToProbability(input.score.fitScore, input.score.confidence);
+  let base = scoreToProbability(input.score.fitScore, input.score.confidence);
+  const ratio = input.budgetToFloorRatio;
+  if (ratio != null && ratio < 1) {
+    const f = Math.max(0.1, ratio);
+    base *= f;
+    assumptions.push(`Estimated venue budget is ${(ratio * 100).toFixed(0)}% of the floor price; booking probability scaled by ${f.toFixed(2)}.`);
+  } else if (ratio == null) assumptions.push('Venue budget unknown; booking probability not adjusted for affordability.');
   const prob = { conservative: Math.max(0.01, base * 0.5), base, optimistic: Math.min(0.9, base * 1.4) };
   // Events in a 6-month season = perYear * winterShare; anchor partnerships may add a repeat
   const seasonEvents = perYear * winterShare;
