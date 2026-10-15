@@ -1,5 +1,5 @@
 {
- "rankedAt": "2026-10-15T19:22:28.352Z",
+ "rankedAt": "2026-10-15T19:24:26.229Z",
  "tiers": {
   "A": 9,
   "B": 25,
@@ -12,12 +12,15 @@
   "ladan_soltani",
   "lacasashambala",
   "senseandpresenceretreats",
-  "tenerifepadelcamp",
   "thepadelretreat",
   "sandydbchealth",
   "wellliferetreats",
-  "patricia_zafra"
+  "patricia_zafra",
+  "ladiesinweighting_be"
  ],
+ "sisterAccounts": {
+  "tenerifepadelcamp": "tenerifepadelretreats"
+ },
  "candidates": [
   {
    "profile": {

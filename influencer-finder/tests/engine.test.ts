@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { generateQueries, DEFAULT_RUN_PARAMETERS, balancedSelection } from '../src/discovery/queryGenerator.ts';
-import { handleFromUrl, handleFromTitle, handleFromExtractedText, followersFromText, mergeCandidate } from '../src/discovery/normalize.ts';
+import { handleFromUrl, handleFromTitle, handleFromExtractedText, followersFromText, mergeCandidate, normalizeWebsite } from '../src/discovery/normalize.ts';
 import { normalizeWeights, DEFAULT_WEIGHTS } from '../src/scoring/weights.ts';
 import { scoreCandidate } from '../src/scoring/score.ts';
 import { estimateVenueBudget } from '../src/scoring/budget.ts';
@@ -208,5 +208,17 @@ describe('learning', () => {
     expect(s.weightSuggestion).not.toBeNull();
     expect(Object.values(s.weightSuggestion!).reduce((a, b) => a + b, 0)).toBe(100);
     expect(s.weightSuggestion!.bookingIntentAuthority).toBeGreaterThan(25);
+  });
+});
+
+describe('normalizeWebsite', () => {
+  it('treats scheme, www, trailing slash and query as the same site', () => {
+    expect(normalizeWebsite('https://www.TenerifePadelRetreats.com/')).toBe('tenerifepadelretreats.com');
+    expect(normalizeWebsite('tenerifepadelretreats.com/?utm=1')).toBe('tenerifepadelretreats.com');
+    expect(normalizeWebsite('http://example.com/retreats/')).toBe('example.com/retreats');
+  });
+  it('returns null for empty values', () => {
+    expect(normalizeWebsite(null)).toBeNull();
+    expect(normalizeWebsite('  ')).toBeNull();
   });
 });

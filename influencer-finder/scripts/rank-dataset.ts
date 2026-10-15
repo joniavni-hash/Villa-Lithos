@@ -8,6 +8,7 @@ import { scoreCandidate } from '../src/scoring/score.ts';
 import { expectedBookedNights } from '../src/scoring/ebn.ts';
 import { estimateVenueBudget } from '../src/scoring/budget.ts';
 import { recommendTrack, generateOutreach } from '../src/outreach/generator.ts';
+import { normalizeWebsite } from '../src/discovery/normalize.ts';
 import type { Candidate } from '../src/pipeline/types.ts';
 
 const inPath = process.argv[2] ?? 'data/run-2026-10-15/classified.json';
@@ -34,5 +35,16 @@ ranked.sort((a, b) => {
 });
 const tiers: Record<string, number> = {};
 for (const r of ranked) tiers[r.publicScore.tier] = (tiers[r.publicScore.tier] ?? 0) + 1;
-writeFileSync(outPath, JSON.stringify({ rankedAt: new Date().toISOString(), tiers, bestMatch: ranked[0]?.profile.handle, alternatives: ranked.slice(1, 10).map((r) => r.profile.handle), candidates: ranked }, null, 1));
-console.log(JSON.stringify({ total: ranked.length, tiers, top10: ranked.slice(0, 10).map((r) => ({ handle: r.profile.handle, tier: r.publicScore.tier, fit: r.publicScore.fitScore, conf: r.publicScore.confidence, ebnBase: Number(r.ebn.expectedBookedNights.base.toFixed(2)), track: r.track.track, gates: r.publicScore.gates })) }, null, 1));
+
+// Sister accounts (two handles, one website) count as one organiser for the Best Match list.
+const seenSites = new Map<string, string>();
+const sisterAccounts: Record<string, string> = {};
+const shortlist: typeof ranked = [];
+for (const r of ranked) {
+  const site = normalizeWebsite(r.profile.website);
+  if (site && seenSites.has(site)) { sisterAccounts[r.profile.handle] = seenSites.get(site)!; continue; }
+  if (site) seenSites.set(site, r.profile.handle);
+  if (shortlist.length < 10) shortlist.push(r);
+}
+writeFileSync(outPath, JSON.stringify({ rankedAt: new Date().toISOString(), tiers, bestMatch: shortlist[0]?.profile.handle, alternatives: shortlist.slice(1, 10).map((r) => r.profile.handle), sisterAccounts, candidates: ranked }, null, 1));
+console.log(JSON.stringify({ total: ranked.length, tiers, sisterAccounts, top10: shortlist.map((r) => ({ handle: r.profile.handle, tier: r.publicScore.tier, fit: r.publicScore.fitScore, conf: r.publicScore.confidence, ebnBase: Number(r.ebn.expectedBookedNights.base.toFixed(2)), track: r.track.track, gates: r.publicScore.gates })) }, null, 1));

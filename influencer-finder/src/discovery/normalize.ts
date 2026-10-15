@@ -120,3 +120,12 @@ export function dedupeEvents<T extends { title: string; startDate?: string; loca
   }
   return Array.from(seen.values());
 }
+
+/** Normalises a website for sister-account detection: lower-case host + path, no scheme, no www, no trailing slash. */
+export function normalizeWebsite(site: string | null | undefined): string | null {
+  if (!site) return null;
+  let s = site.trim().toLowerCase();
+  s = s.replace(/^https?:\/\//, '').replace(/^www\./, '');
+  s = s.split(/[?#]/)[0].replace(/\/+$/, '');
+  return s || null;
+}
