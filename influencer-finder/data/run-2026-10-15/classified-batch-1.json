@@ -201,7 +201,7 @@
       },
       "events": [
         {"title": "Fall 2026 200 Hour Yoga Teacher Training (in-studio, part-time)", "eventType": "teacher_training", "startDate": "2026-09-09", "endDate": "2026-11-18", "nights": null, "location": "Yoga Habit studio", "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DZxLYNxD2gS"]},
-        {"title": "2027 200-Hour Teacher Training (ninth edition)", "eventType": "teacher_training", "startDate": "2027", "endDate": null, "nights": null, "location": "Yoga Habit studio", "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DdG5dJ3EebQ"]}
+        {"title": "2027 200-Hour Teacher Training (ninth edition, year 2027, dates not shown)", "eventType": "teacher_training", "startDate": null, "endDate": null, "nights": null, "location": "Yoga Habit studio", "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DdG5dJ3EebQ"]}
       ],
       "profile": {"displayName": "YOGA HABIT", "country": null, "languages": ["en"], "niche": "yoga studio / teacher training", "markets": ["US"]}
     },
@@ -275,7 +275,7 @@
       },
       "events": [
         {"title": "The Yoga Project 200-hour YTT 2027, Bali", "eventType": "teacher_training", "startDate": "2027-09-08", "endDate": "2027-09-29", "nights": 21, "location": "Sumberkima Hill, Bali", "country": "ID", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"]},
-        {"title": "The Yoga Project YTT 2026, Bali (in progress)", "eventType": "teacher_training", "startDate": "2026", "endDate": null, "nights": null, "location": "Bali", "country": "ID", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"]}
+        {"title": "The Yoga Project YTT 2026, Bali (in progress, year 2026, dates not shown)", "eventType": "teacher_training", "startDate": null, "endDate": null, "nights": null, "location": "Bali", "country": "ID", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DaRb54xO18A"]}
       ],
       "profile": {"displayName": "Jose Portillo", "country": null, "languages": ["en"], "niche": "destination yoga teacher training", "markets": ["US"]}
     },
