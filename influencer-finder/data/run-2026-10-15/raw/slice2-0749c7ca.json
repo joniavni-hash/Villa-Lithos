@@ -1,0 +1,65 @@
+{
+ "spec": {
+  "id": "0749c7ca",
+  "query": "\"Mastermind Retreat\" \"Anmeldung offen\" 2026 OR 2027",
+  "language": "de",
+  "eventType": "executive_mastermind",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ "results": [
+  {
+   "url": "https://www.instagram.com/reel/DYrMnh6s3DV",
+   "title": "genau das macht unsere Retreats in Sizilien so besonders ...",
+   "content": "on May 21, 2026: Retreats in Sizilien. Mastermind in Hamburg – Business, Anmeldung ist offen: Link in Bio 🙌🏽. Retreat auf San Jon geleitet,",
+   "score": 0.79901963
+  },
+  {
+   "url": "https://www.instagram.com/p/Dbd9cu1Av5d",
+   "title": "Ende Monat schau ich gern zurück, was bei Reiten & Yoga ...",
+   "content": "reitenundyoga on July 31, 2026: Photo by Reiten & Yoga Retreats on July 31, 2026. Mastermind in Hamburg – Business, Anmeldung ist offen: Link",
+   "score": 0.780947
+  },
+  {
+   "url": "https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de",
+   "title": "Where should your franchise brand actually show up in ...",
+   "content": "Hello Mastermind Fall Retreat - November 4-5, 2026, Denver Let's Grow! Franchise Development & Sales Assembly - Jan 27-29, 2027, Dallas **2027",
+   "score": 0.74363416
+  },
+  {
+   "url": "https://www.instagram.com/reel/C4t4QO3NakG?hl=de",
+   "title": "Open your heart and mind to a transformative experience ...",
+   "content": "August 30, 2026. Leader Mastermind wanting to learn how to make my retreats better. August 1 to 6, 2026. August 1-6, 2026 Sitka, Alaska 1",
+   "score": 0.638588
+  },
+  {
+   "url": "https://www.instagram.com/p/DWV90qHikcC",
+   "title": "For 5. Gang har vi næææsten udsolgt Work Away Retreat ...",
+   "content": "Og vi har planlagt datoerne til efterårsretreatet den 27 sep til 2 okt 2026! Så du kan nu tilmelde dig en magisk oplevelse",
+   "score": 0.39578846
+  },
+  {
+   "url": "https://www.instagram.com/reel/DQtyhqgj9I5",
+   "title": "In dieser Zeit gewann sie 600 neue Newsletter ...",
+   "content": "Das 2-tägige Retreat in Berlin findet am 08. und 09. Januar 2026 statt, das wir mit dem gemeinsamen Welcome Dinner am 07. Januar starten, zu dem ich dich",
+   "score": 0.3934788
+  },
+  {
+   "url": "https://www.instagram.com/reel/DUTCgWOjiGU?hl=de",
+   "title": "As soon as you choose you, everything else ...",
+   "content": "As soon as you choose you, everything else chooses you too. This is YOUR season. Next Female Founder Retreat May 4-9, 2026. Comment RETREAT for more details",
+   "score": 0.26449534
+  },
+  {
+   "url": "https://www.instagram.com/p/DU8QFQUjDv8?hl=de",
+   "title": "A day in the life of one of my retreats. Obviously it depends on ...",
+   "content": "A day in the life of one of my retreats. Obviously it depends on where we are in the world and what the season is but my retreats are filled with wonderful",
+   "score": 0.031861935
+  }
+ ],
+ "fetchedAt": "2026-10-15T18:29:22Z"
+}

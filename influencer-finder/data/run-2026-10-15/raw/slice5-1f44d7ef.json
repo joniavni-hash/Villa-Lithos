@@ -1,0 +1,3 @@
+{"spec": {"id": "1f44d7ef", "query": "\"סדנה בחו\"ל\" \"הרשמה נפתחה\" 2026 OR 2027", "language": "he", "eventType": "workshop", "lane": "organizer_intent", "includeDomains": ["instagram.com"], "searchDepth": "basic", "priority": 2},
+"results": [],
+"fetchedAt": "2026-10-15T00:00:00Z"}

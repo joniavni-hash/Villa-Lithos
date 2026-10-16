@@ -1,0 +1,36 @@
+{
+ "spec": {
+  "id": "8e4e36f9",
+  "query": "\"מאסטרמיינד בחו\"ל\" Israel 2026 OR 2027 abroad OR Greece OR Spain OR Portugal OR Cyprus",
+  "language": "he",
+  "market": "IL",
+  "eventType": "executive_mastermind",
+  "lane": "market_language",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ "results": [
+  {
+   "url": "https://www.instagram.com/p/B-yxOMtHI1g",
+   "title": "שדדו אותי תראה: (תמונה מצורפת) חדווה לוי שלחה לי היום את השוד לאור ...",
+   "content": "עברו שתי תכניות שלי ויחד עם מאסטרמיינד מאמא שחשפה להם חומרים מסווגים מה-100k... הרימו קמפיין בליץ בשוק הגינון, פרגולות ודק. שלישיית הפשע הזאת סגרה את ׳מרץ השחור",
+   "score": 0.07319798
+  },
+  {
+   "url": "https://www.instagram.com/reel/DZB_qlFJY_r",
+   "title": "#טיפיםלמטיילים",
+   "content": "המחיר לא מחכה. אני אשמח לתת מענה לכל אחד ואחד. יחס אישי, ליווי צמוד, שירות VIP. אבל תכבדו. אל תתנו לי לשבת מול המערכת שעות ככה, ובסוף לא לענות ולהיעלם או להגיד",
+   "score": 0.015557138
+  },
+  {
+   "url": "https://www.instagram.com/p/DbscdU-DRKW",
+   "title": "\"השבוע אירחנו במשרד קבוצת נערות מעמותת בית רות לחוויה מיוחדת ...",
+   "content": "השבוע אירחנו במשרד קבוצת נערות מעמותת בית רות לחוויה מיוחדת ומעצימה. בית רות הוא כפר טיפולי-חינוכי בעפולה המעניק בית חם ומקום בטוח לנערות",
+   "score": 0.012461684
+  }
+ ],
+ "fetchedAt": "2026-10-15T18:51:15Z"
+}

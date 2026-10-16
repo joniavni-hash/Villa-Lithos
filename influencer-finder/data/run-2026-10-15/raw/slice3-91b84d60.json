@@ -1,0 +1,66 @@
+{
+ "spec": {
+  "id": "91b84d60",
+  "query": "\"yoga teacher training\" Israel 2026 OR 2027 abroad OR Greece OR Spain OR Portugal OR Cyprus",
+  "language": "en",
+  "market": "IL",
+  "eventType": "teacher_training",
+  "lane": "market_language",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ "results": [
+  {
+   "url": "https://www.instagram.com/p/DQ9HifMjE_N",
+   "title": "Comment “EARLY” to get more info & secure your EARLY BIRD ...",
+   "content": "Our 200-Hour Yoga Teacher Training is a seven-month immersive study from November 2026 through May 2027, designed to take you far beyond the physical practice.",
+   "score": 0.7961819
+  },
+  {
+   "url": "https://www.instagram.com/reel/DQV9TueCFia",
+   "title": "✨ After-bliss of four magnificent integration ...",
+   "content": "Aruna Teacher Training Cycle begins 2026 Israel & Online Belgium. Yoga Teacher Trainer (Yoga Alliance 200H / 500H). First weekend of our 300hr",
+   "score": 0.7166357
+  },
+  {
+   "url": "https://www.instagram.com/p/DcbeQESNwV3",
+   "title": "Massive congratulations to our 2026 Online Teacher Training ...",
+   "content": "300H YOGA TEACHER TRAINING MARCH – NOVEMBER 2027. The 300H Yoga Teacher Training 2027 is for teachers ready to question, explore and evolve — in their",
+   "score": 0.643173
+  },
+  {
+   "url": "https://www.instagram.com/p/DebmTumICWN",
+   "title": "FOUR-DAY RETREAT 24–27 November 2026 Beit Aruna, ...",
+   "content": "You can join as a personal retreat or as the first step towards the Aruna Yoga Teacher Training. I look forward to sharing these days with you.",
+   "score": 0.56489134
+  },
+  {
+   "url": "https://www.instagram.com/reel/DaD-zlbJdEZ",
+   "title": "Yoga for All Abilities is not only about learning techniques. ...",
+   "content": "Hatha Yoga Teacher Training … 100 Hours. 10 Days. One immersive training. 📍 Banyoles, Barcelona 📅25/11 - 4/12 2026. OPEN AUGUST 15TH 21-25",
+   "score": 0.42462727
+  },
+  {
+   "url": "https://www.instagram.com/reel/DB8CbmHIXUy",
+   "title": "The closing of the Aruna Yoga Teacher Training 2025 ...",
+   "content": "Next year we will have 3 cohorts starting internationally: Israel March 2025 Breda May 2025 Portugal 2025. Join us for a game changing",
+   "score": 0.2849892
+  },
+  {
+   "url": "https://www.instagram.com/reel/DFJ1RgnoRd9",
+   "title": "Leg behind head asana series Props yoga",
+   "content": "Multi style yoga 300 hrs Teacher Training Course. Dates: April 1st to 30th ・ yoga designed from Ashtanga and hatha yoga ・ learn to use yoga",
+   "score": 0.27605382
+  },
+  {
+   "url": "https://www.instagram.com/p/Dae-uk9iJC9",
+   "title": "The morning sessions in the lap of desert 🏜️ 🇮🇱 ...",
+   "content": "Gentle Vinyasa Yoga sessions for a wonderful Jewish community from the USA. between Israel and the United States, countries, and backgrounds.",
+   "score": 0.06124987
+  }
+ ],
+ "fetchedAt": "2026-10-15T18:49:40.473747+00:00"
+}

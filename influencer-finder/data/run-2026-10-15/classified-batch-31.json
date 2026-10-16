@@ -1,0 +1,1157 @@
+{
+ "batch": 31,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "storyknife_writers_retreat",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/storyknife_writers_retreat"
+     ],
+     "note": "Application-based writers retreat with selection notifications; appears to run on its own site."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/storyknife_writers_retreat"
+     ],
+     "note": "Selects residents by application ('Applications are in for 2027'); not a paid group retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only 'Notifications will go out in early November'; no residency dates."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/storyknife_writers_retreat"
+     ],
+     "note": "Annual application cycle."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/storyknife_writers_retreat"
+     ],
+     "note": "Residency programme rather than a hosted paid group."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Residency programme, likely on own premises"
+    ],
+    "missingInformation": [
+     "Where residencies are held"
+    ],
+    "summary": "Storyknife Writers Retreat has closed applications for 2027 and will notify applicants in early November. It is an application-based residency programme rather than an organiser booking outside venues for paid groups. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Storyknife Writers Retreat",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "writers residency",
+    "markets": []
+   }
+  },
+  {
+   "handle": "surf_spirit",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.2,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Da-vp_8RRWJ"
+     ],
+     "note": "Account name 'Surf & Yoga Retreats'; no offer in the excerpt."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dated event."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Thin pack: one reel with no caption; may be a surf camp with its own premises"
+    ],
+    "missingInformation": [
+     "Whether it is a camp/venue or a travelling organiser",
+     "Location, dates, price"
+    ],
+    "summary": "Surf Spirit (Surf & Yoga Retreats) has only a July 19, 2026 reel with no caption text in the pack. It may be a travelling organiser or a surf camp with its own premises. Commercial risk unknown; scout only."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Surf & Yoga Retreats",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "surf and yoga retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "teachjivamukti",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/teachjivamukti"
+     ],
+     "note": "Runs destination teacher trainings in different countries (India, Italy)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/teachjivamukti"
+     ],
+     "note": "Highlights 'India 2026', 'HYBRID 25', 'India 2025', 'Italy 2022' for its trainings."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No months given for the India or Italy trainings."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/teachjivamukti"
+     ],
+     "note": "Trainings in 2022, 2025 and 2026."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/teachjivamukti"
+     ],
+     "note": "Destination teacher trainings typically mean multi-week residential stays; length not stated."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/teachjivamukti"
+     ],
+     "note": "Established international yoga lineage; destination trainings."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/teachjivamukti"
+     ],
+     "note": "Several past training editions; 4,029 followers."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Training-format events (long, possibly large cohorts)"
+    ],
+    "missingInformation": [
+     "Dates and length of trainings",
+     "Cohort size and price",
+     "Whether venues are chosen per edition"
+    ],
+    "summary": "Teach Jivamukti Yoga (4,029 followers) runs Jivamukti teacher trainings in destinations, with highlights for India 2026, a hybrid 2025 edition, India 2025 and Italy 2022. Destination trainings could mean long stays, but no dates, cohort size or price are shown. Medium risk; scout for a European winter training edition."
+   },
+   "events": [
+    {
+     "title": "India 2026 teacher training",
+     "eventType": "teacher_training",
+     "startDate": "2026",
+     "endDate": null,
+     "nights": null,
+     "location": "India",
+     "country": "IN",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/teachjivamukti"
+     ]
+    },
+    {
+     "title": "Italy 2022 teacher training",
+     "eventType": "teacher_training",
+     "startDate": "2022",
+     "endDate": null,
+     "nights": null,
+     "location": "Italy",
+     "country": "IT",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/teachjivamukti"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Teach Jivamukti Yoga",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher trainings",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "tenerifefirstexcursionss",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DWZuk9ejPFG"
+     ],
+     "note": "Excursion operator promoting @tenerifepadelholidays; not its own retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No events."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DWZuk9ejPFG"
+     ],
+     "note": "Local Tenerife tour operator."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Local excursion operator promoting another business"
+    ],
+    "missingInformation": [],
+    "summary": "Tenerife First Excursions is a local excursion operator that reposts @tenerifepadelholidays. It does not organise retreats or book venues for groups on this evidence. Exclude (the tagged padel holiday operator may be worth a separate look)."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Tenerife First Excursions",
+    "country": "ES",
+    "languages": [
+     "en"
+    ],
+    "niche": "local excursions",
+    "markets": []
+   }
+  },
+  {
+   "handle": "theisraelistudents",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DWQ7nJjjJYQ"
+     ],
+     "note": "Union organises its own weekend retreat."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DWQ7nJjjJYQ"
+     ],
+     "note": "Student-only retreat at 400 ILS for the weekend, 'link to register in bio'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Retreat is undated."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": false,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DWQ7nJjjJYQ"
+     ],
+     "note": "400 ILS for the whole weekend, students only."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DWQ7nJjjJYQ"
+     ],
+     "note": "Weekend format."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DWQ7nJjjJYQ"
+     ],
+     "note": "Subsidised student weekend in Israel."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Student union; subsidised pricing far below premium"
+    ],
+    "missingInformation": [],
+    "summary": "The Israeli National Union of Students sells a students-only listening retreat weekend at 400 ILS. It is a subsidised domestic student event, consistent with how other student organisations were rated. Exclude."
+   },
+   "events": [
+    {
+     "title": "Listening retreat (students only)",
+     "eventType": "workshop",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": "IL",
+     "groupSize": null,
+     "pricePerPerson": 400,
+     "currency": "ILS",
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DWQ7nJjjJYQ"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "התאחדות הסטודנטים והסטודנטיות",
+    "country": "IL",
+    "languages": [
+     "he"
+    ],
+    "niche": "student union",
+    "markets": [
+     "IL"
+    ]
+   }
+  },
+  {
+   "handle": "theperchplace",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence on where the retreat is held."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Deb5gcEs25V"
+     ],
+     "note": "'Register now for our New Year Reset Retreat', early rate until October 31."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Deb5gcEs25V"
+     ],
+     "note": "New Year Reset Retreat on January 2 or 9 (year not stated)."
+    },
+    "canFillGroupSize": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Deb5gcEs25V"
+     ],
+     "note": "'Our biggest event of the year... we offer it twice'."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Deb5gcEs25V"
+     ],
+     "note": "Run twice; described as the biggest event of the year."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Length not stated."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Appears to be a local wellness space (#aurorail) running its own events; one-day or local format likely"
+    ],
+    "missingInformation": [
+     "Whether the retreat is residential and where it is held",
+     "Price and group size"
+    ],
+    "summary": "The Perch, apparently a local wellness space tagged #aurorail, sells a New Year Reset Retreat on January 2 or 9 with an early rate until October 31. It looks like a local, venue-based event rather than a destination group trip. Low priority; recheck only if residential retreats abroad appear."
+   },
+   "events": [
+    {
+     "title": "New Year Reset Retreat",
+     "eventType": "wellness_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Deb5gcEs25V"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "the perch",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "local wellness space",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "theyogagau",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No offer in evidence."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No events."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Teacher-training school; thin pack"
+    ],
+    "missingInformation": [
+     "Where trainings are held"
+    ],
+    "summary": "Yoga Gau is a yoga teacher-training school; the pack holds only photo credits from August-September 2026. A school running trainings at its own centre is out of scope on this evidence."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Yoga Gau (Yoga Teacher Trainings)",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher training school",
+    "markets": []
+   }
+  },
+  {
+   "handle": "tn_housing",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddbf7YVir8N"
+     ],
+     "note": "State housing agency conference, not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Conference February 9-10, 2027 is not a retreat."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddbf7YVir8N"
+     ],
+     "note": "Government industry conference in Nashville."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Government agency conference; off-topic"
+    ],
+    "missingInformation": [],
+    "summary": "Tennessee Housing Development Agency promotes the 2027 TN Housing Conference in Nashville, February 9-10, 2027. A state agency industry conference is off-topic for a retreat villa. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "TN Housing Development Agency",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "government housing agency",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "tracyverdugo",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DayTQTAuqKa"
+     ],
+     "note": "Runs her own art retreats in France and Portugal."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DayTQTAuqKa"
+     ],
+     "note": "'Would love to see you in France or Portugal next year! DM me'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'next year' only; no months."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DayTQTAuqKa"
+     ],
+     "note": "Multiple destinations planned for next year."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DayTQTAuqKa"
+     ],
+     "note": "European art retreats suit a private estate."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "No dates, price or group size"
+    ],
+    "missingInformation": [
+     "Dates and seasons of the France and Portugal retreats",
+     "Price and group size",
+     "Home market"
+    ],
+    "summary": "Tracy Verdugo, a painter, sells art retreats and invites followers to France or Portugal next year. She organises in European destinations, which suits a Greek villa, but no dates, price or group size are shown. Medium risk; scout for a winter or shoulder-season Greek edition."
+   },
+   "events": [
+    {
+     "title": "Art retreats France / Portugal (next year)",
+     "eventType": "personal_development_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "France or Portugal",
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DayTQTAuqKa"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Tracy Verdugo",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "art retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "vilafoia",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DP15-ULiJ8l"
+     ],
+     "note": "'Retreat Venue & B&B': it is a venue."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No own retreats in evidence."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No events."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DP15-ULiJ8l"
+     ],
+     "note": "Competing venue."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account (competitor)"
+    ],
+    "missingInformation": [],
+    "summary": "VilaFoia is a retreat venue and B&B in Portugal. It is a competitor, not a booker. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "VilaFoia - Retreat Venue & B&B",
+    "country": "PT",
+    "languages": [
+     "en"
+    ],
+    "niche": "retreat venue",
+    "markets": []
+   }
+  },
+  {
+   "handle": "villierssurorge",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat or venue-selection evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdDq-WTCoh9"
+     ],
+     "note": "a municipality running 'Bienvenue a la retraite' workshops for new retirees (seven half-days, September to December 2026)."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat group evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdDq-WTCoh9"
+     ],
+     "note": "Off-topic for a hosted-retreat villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat commercial evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic account: matched on a keyword, not on retreat activity"
+    ],
+    "missingInformation": [],
+    "summary": "Ville de Villiers-sur-Orge: a municipality running 'Bienvenue a la retraite' workshops for new retirees (seven half-days, September to December 2026). Off-topic for Villa Lithos; no retreat organising, venue choice or winter group travel in evidence. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Ville de Villiers-sur-Orge",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "municipality",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "yogachikitsamama",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DY67uSICRxo"
+     ],
+     "note": "Co-runs a destination retreat in Krabi with @ashtangaacademy and @cedaryoga."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DY67uSICRxo"
+     ],
+     "note": "'Registration opens today for Our Thailand Yoga Retreat 2027'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DY67uSICRxo"
+     ],
+     "note": "Jan 4-11, 2027, Krabi, Thailand."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DY67uSICRxo"
+     ],
+     "note": "'THAILAND is next!!' implies a sequence of retreats."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DY67uSICRxo"
+     ],
+     "note": "Seven-night retreat."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DY67uSICRxo"
+     ],
+     "note": "Week-long Ashtanga retreat in winter."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Co-hosted; listed hosts are @ashtangaacademy and @cedaryoga"
+    ],
+    "missingInformation": [
+     "Which co-host books venues",
+     "Price and group size",
+     "Home market"
+    ],
+    "summary": "Jessica Lynne Trese co-hosts 'Our Thailand Yoga Retreat 2027', January 4-11, 2027 in Krabi, with @ashtangaacademy and @cedaryoga listed as hosts. A week-long winter retreat abroad is exactly the target pattern; venue authority sits with the co-host team. Medium risk; pilot pitch to the group."
+   },
+   "events": [
+    {
+     "title": "Thailand Yoga Retreat 2027",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-01-04",
+     "endDate": "2027-01-11",
+     "nights": 7,
+     "location": "Krabi, Thailand",
+     "country": "TH",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DY67uSICRxo"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Jessica Lynne Trese",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "Ashtanga yoga retreats",
+    "markets": []
+   }
+  }
+ ]
+}

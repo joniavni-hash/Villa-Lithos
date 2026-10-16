@@ -1,0 +1,283 @@
+{
+  "batch": 10,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "retreat_boss",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/retreat_boss"], "note": "Self-described 'Venue Advisor' and experience designer: advises retreat leaders on venue selection rather than hosting."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/retreat_boss"], "note": "Sells a 12-month retreat business programme, not retreats."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No event history."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/retreat_boss"], "note": "A venue advisor to retreat businesses is a natural referral channel for a retreat villa."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/retreat_boss"], "note": "Sells a paid 12-month programme; no price shown."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["No location, followers or client evidence"],
+        "missingInformation": ["Home market and size of client base", "Whether venue advice covers Europe", "Programme price"],
+        "summary": "Retreat Boss positions itself as 'Experience Design | Venue Advisor' and sells a 12-month programme that helps retreat leaders build a business model 'beyond any one event'. Its audience is retreat organisers and it explicitly advises on venues, so it is a direct referral channel rather than a booker. No location, follower or event data in the pack. Medium risk; pursue a referral partnership (venue listing or commission) and confirm geographic coverage."
+      },
+      "events": [],
+      "profile": {"displayName": "Experience Design | Venue Advisor (Retreat Boss)", "country": null, "languages": ["en"], "niche": "retreat business coaching / venue advisory", "markets": []}
+    },
+    {
+      "handle": "retreatcompany",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/retreatcompany"], "note": "Highlights organised by region (Europe, UK) plus Testimonials point to a retreat listing/directory service rather than a host."},
+        "sellsRetreats": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/retreatcompany"], "note": "Text-only posts and regional highlights; no first-person retreat with registration or spots."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only image descriptions ('May be an image of text')."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["venue/aggregator account, not a host (likely UK retreat directory; verify)", "Evidence pack has no bio or caption text"],
+        "missingInformation": ["Confirm whether The Retreat Company is a listing directory, a booking agent or an organiser", "Whether it lists venues for retreat leaders"],
+        "summary": "The Retreat Company (UK) shows highlights for Europe, UK and Testimonials and a stream of text-image posts in October 2026, which reads like a retreat listing or directory service rather than a host that fills its own groups. The pack has no bio or captions, so this is an inference. Classified as none for the host groups; if it is a directory it could list Villa Lithos to retreat leaders, so check it as a referral channel."
+      },
+      "events": [],
+      "profile": {"displayName": "The Retreat Company", "country": "GB", "languages": ["en"], "niche": "retreat directory / listing service (unverified)", "markets": ["GB"]}
+    },
+    {
+      "handle": "rushcreekchurch",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/Dd1wqzlDK4D"], "note": "Church chose Spring Lakes Ranch in Waco for its women's retreat; venue choice is local."},
+        "sellsRetreats": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/Dd1wqzlDK4D"], "note": "'Register today for the 2026 Women's Retreat', 'Comment Retreat to claim your spot'."},
+        "provenWinterActivity": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/Dd1wqzlDK4D"], "note": "2026 Women's Retreat on November 5-7."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/Dd1wqzlDK4D"], "note": "Church congregation retreat; no premium pricing signals."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/Dd1wqzlDK4D"], "note": "'2026 Women's Retreat' implies an annual event."},
+        "longStayPotential": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/Dd1wqzlDK4D"], "note": "Two-night weekend."},
+        "brandFit": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/Dd1wqzlDK4D"], "note": "Texas church women's ministry weekend."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account", "US church congregation event; audience will not travel to Greece"],
+        "missingInformation": [],
+        "summary": "Rush Creek Church (Waco, TX) is registering women for its 2026 Women's Retreat, November 5-7 at Spring Lakes Ranch, themed 'Vessels'. The organiser signals and the November dates are explicit, but it is a local church ministry weekend in Texas. Off-topic for Villa Lithos; discard."
+      },
+      "events": [
+        {"title": "2026 Women's Retreat 'Vessels'", "eventType": "womens_retreat", "startDate": "2026-11-05", "endDate": "2026-11-07", "nights": 2, "location": "Spring Lakes Ranch, Waco, TX", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/Dd1wqzlDK4D"]}
+      ],
+      "profile": {"displayName": "Rush Creek Church", "country": "US", "languages": ["en"], "niche": "church (off-topic)", "markets": ["US"]}
+    },
+    {
+      "handle": "sabrinacampbell.ie",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DPPFgOLjC8j"], "note": "Irish-based host (.ie) running a retreat in Tenerife; destination chosen abroad."},
+        "sellsRetreats": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DPPFgOLjC8j"], "note": "Her own post (30 Aug 2026) carries the retreat poster 'Reset Recharge Reconnect, Nov 9-13 2026, all inclusive'; no caption text, so organiser role is inferred from her posting the flyer."},
+        "provenWinterActivity": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DPPFgOLjC8j"], "note": "Tenerife wellness retreat NOV.9-NOV.13 2026."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "'All inclusive' but no price."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only one retreat in evidence."},
+        "longStayPotential": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DPPFgOLjC8j"], "note": "Four-night format."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DPPFgOLjC8j"], "note": "All-inclusive wellness programme (yoga, meditation, sound healing, hypnotherapy, Ayurveda workshop) with an Irish audience seeking winter sun."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DPPFgOLjC8j"], "note": "All-inclusive paid retreat advertised; no price or past editions."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Evidence is OCR of a poster with no caption; organiser role not stated in words", "No price, group size or follower count"],
+        "missingInformation": ["Confirm she is the organiser (not a co-facilitator or promoter)", "Price and capacity", "Past retreats and follower count"],
+        "summary": "Sabrina Campbell (.ie) posted on 30 August 2026 a poster for a Tenerife wellness retreat, 'Reset Recharge Reconnect', November 9-13, 2026, all inclusive with yoga, meditation, sound healing, hypnotherapy and an Ayurveda workshop. That is a dated winter-sun retreat she appears to run for an Irish audience, which is exactly the Villa Lithos use case. The evidence is poster text only, so her exact role, pricing and group size must be confirmed. Medium risk; pilot candidate for a November or January edition in Greece."
+      },
+      "events": [
+        {"title": "Tenerife Wellness Retreat: Reset Recharge Reconnect", "eventType": "wellness_retreat", "startDate": "2026-11-09", "endDate": "2026-11-13", "nights": 4, "location": "Tenerife, Canary Islands", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DPPFgOLjC8j"]}
+      ],
+      "profile": {"displayName": "Sabrina Campbell", "country": "IE", "languages": ["en"], "niche": "wellness retreat host (yoga, sound healing, hypnotherapy)", "markets": ["IE", "GB"]}
+    },
+    {
+      "handle": "samanthaskelly",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DaGMGX2ua0h"], "note": "Teaches 'organization and logistics of the retreat' from her own retreats; venue selection implied, no specific evidence."},
+        "sellsRetreats": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DaGMGX2ua0h"], "note": "The post sells a course ('six figure retreats'), built on 'how to effortlessly fill your retreats' from her own practice; no dated retreat in evidence."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DaGMGX2ua0h"], "note": "Course list price $4000 (flash sale $197-$297); audience of retreat hosts aiming at six-figure retreats."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No event history in evidence."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DaGMGX2ua0h"], "note": "Retreat-business educator whose students are retreat hosts; strong referral fit."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DaGMGX2ua0h"], "note": "Sells a $4000 course with templates from her own retreat operations."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["Aggressive flash-sale pricing ($197 vs $4000) suggests a volume info-product audience", "No location, followers or dated retreats"],
+        "missingInformation": ["Her own retreat calendar and destinations", "Home market (USD pricing suggests US)", "Follower count"],
+        "summary": "Samantha Skelly sells a 'six figure retreats' course ($197 for 48 hours, rising to $297, list $4000) containing her marketing road map, logistics templates and content curriculum for filling retreats. Her audience is retreat hosts, so she is a Group B referral channel; she evidently runs retreats herself but none are dated in the evidence. Medium risk; pursue a referral or venue-feature partnership toward her students, and ask for her own retreat plans."
+      },
+      "events": [],
+      "profile": {"displayName": "Samantha Skelly", "country": null, "languages": ["en"], "niche": "retreat business coaching", "markets": ["US"]}
+    },
+    {
+      "handle": "sandydbchealth",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DeBjbhColl_"], "note": "Runs her own DBC Health retreats in Lanzarote and sells rooms directly ('Send me a message... I'll send you all the details')."},
+        "sellsRetreats": {"value": true, "confidence": 0.85, "evidenceUrls": ["https://www.instagram.com/reel/DeBjbhColl_"], "note": "'14-18 January 2027, Limited places available', 'Also have one room available 16-20 Nov'; first-person direct booking."},
+        "provenWinterActivity": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DeBjbhColl_"], "note": "Dated 14-18 January 2027 retreat plus a 16-20 Nov edition; explicitly markets escaping winter."},
+        "canFillGroupSize": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DeBjbhColl_"], "note": "'One room available' for November and 'limited places' for January suggest near-full room-based groups; capacity not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No prices in evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DeBjbhColl_"], "note": "Two dated editions (November and January) under the #dbchealthretreat brand."},
+        "longStayPotential": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DeBjbhColl_"], "note": "Four-night formats."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DeBjbhColl_"], "note": "Pilates, wellness and hiking retreat pitched as a winter-sun escape ('What if January wasn't about surviving winter'), matching the villa's season and setting."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DeBjbhColl_"], "note": "Selling the last room of the November edition while opening January."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["No price or total group size in evidence", "Year of the 16-20 Nov edition not stated", "Follower count unknown"],
+        "missingInformation": ["Price per person and group size", "Home market (likely UK/Ireland) and follower count", "Whether she would switch destination from Lanzarote to Greece"],
+        "summary": "Sandy Donnelly (DBC Health) sells her own Pilates, wellness and hiking retreats in Lanzarote: 14-18 January 2027 with limited places, and one room left for a 16-20 November edition, booked by DM. The pitch is explicitly about escaping winter, which is the Villa Lithos season, and the two editions show a recurring, near-full product. Prices and capacity are not shown, and the November year is implied rather than stated. Medium risk; strong pilot candidate for a 4-5 night winter retreat if she will consider Greece instead of the Canaries."
+      },
+      "events": [
+        {"title": "DBC Health Retreat Lanzarote, January 2027", "eventType": "wellness_retreat", "startDate": "2027-01-14", "endDate": "2027-01-18", "nights": 4, "location": "Lanzarote", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DeBjbhColl_"]},
+        {"title": "DBC Health Retreat Lanzarote, 16-20 Nov (one room left)", "eventType": "wellness_retreat", "startDate": null, "endDate": null, "nights": 4, "location": "Lanzarote", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DeBjbhColl_"]}
+      ],
+      "profile": {"displayName": "Sandy Donnelly", "country": null, "languages": ["en"], "niche": "Pilates and wellness retreats", "markets": ["GB"]}
+    },
+    {
+      "handle": "science_abroad",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/science_abroad"], "note": "NGO conference for Israeli scientists abroad, hosted by partner companies ('חברות מארחות'); not a retreat host."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/science_abroad"], "note": "Registration is for a conference (1-5 November 2026, Israel), not a retreat."},
+        "provenWinterActivity": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/science_abroad"], "note": "Dated event 1-5 November 2026 that the organisation runs, but it is a conference, not a retreat."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not verifiable."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/science_abroad"], "note": "Academic / professional networking NGO."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account", "Conference for Israeli scientists abroad, hosted by companies in Israel"],
+        "missingInformation": [],
+        "summary": "ScienceAbroad (Modi'in) is an Israeli NGO registering Israeli scientists and researchers living abroad for an event in Israel on 1-5 November 2026 (fii.scienceabroad.org.il), with host companies to be announced. It is a professional conference, not a hosted retreat, and the organisation is not a venue decision-maker for a private villa. Off-topic; discard."
+      },
+      "events": [],
+      "profile": {"displayName": "ScienceAbroad", "country": "IL", "languages": ["he"], "niche": "scientific community NGO (off-topic)", "markets": ["IL"]}
+    },
+    {
+      "handle": "senseandpresenceretreats",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DeFHtswx6CA"], "note": "Chooses destinations across France, Costa Rica and Greece ('there is a reason we chose November')."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DeFHtswx6CA"], "note": "'next retreats' list with dates and 'all infos in bio'; first-person retreat brand."},
+        "provenWinterActivity": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DeFHtswx6CA"], "note": "France 21-24 November 2026 and Costa Rica 28 Feb-13 March 2027, both dated and self-organised."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No spots or sold-out signals in evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No prices in evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DeFHtswx6CA"], "note": "Three dated retreats in three countries within seven months."},
+        "longStayPotential": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DeFHtswx6CA"], "note": "Costa Rica edition runs 28 Feb-13 March 2027 (13 nights); European editions are 3-6 nights."},
+        "brandFit": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DeFHtswx6CA"], "note": "Yoga retreat brand already running a Greece edition (29 May-4 June 2027) and winter dates elsewhere."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DeFHtswx6CA"], "note": "Established calendar of paid retreats across three destinations."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["No prices, group sizes or follower count in evidence", "Greece edition is in May-June, outside the winter window"],
+        "missingInformation": ["Group size and price per retreat", "Current Greek venue for the May 2027 edition", "Home market and follower count"],
+        "summary": "Sense and Presence runs a multi-destination yoga retreat calendar: France 21-24 November 2026, Costa Rica 28 February-13 March 2027, and Greece 29 May-4 June 2027, with details in bio and a stated rationale for choosing November. They already pick Greek venues and already run winter dates, so the fit is unusually direct; the main gap is that their Greek edition sits in late spring. No prices or group sizes are shown. Medium risk; pitch a pilot winter edition in Greece (shifting the November or February slot) with a view to an anchor partnership if group size and pricing check out."
+      },
+      "events": [
+        {"title": "Sense and Presence retreat, France", "eventType": "yoga_retreat", "startDate": "2026-11-21", "endDate": "2026-11-24", "nights": 3, "location": "France", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DeFHtswx6CA"]},
+        {"title": "Sense and Presence retreat, Costa Rica", "eventType": "yoga_retreat", "startDate": "2027-02-28", "endDate": "2027-03-13", "nights": 13, "location": "Costa Rica", "country": "CR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DeFHtswx6CA"]},
+        {"title": "Sense and Presence retreat, Greece", "eventType": "yoga_retreat", "startDate": "2027-05-29", "endDate": "2027-06-04", "nights": 6, "location": "Greece", "country": "GR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DeFHtswx6CA"]}
+      ],
+      "profile": {"displayName": "Sense and Presence", "country": null, "languages": ["en"], "niche": "yoga retreats (multi-destination)", "markets": ["FR", "GB"]}
+    },
+    {
+      "handle": "shanyelad",
+      "classification": {
+        "group": "C_high_value_host",
+        "decidesVenue": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/C0hM3chNo-S"], "note": "Organises his own mastermind workshop for freelancers; venue choice implied, location not given."},
+        "sellsRetreats": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/C0hM3chNo-S"], "note": "Sells a 'סדנת מאסטרמיינד לעצמאיים/ות' (mastermind workshop for freelancers) with a registration questionnaire; a workshop, not a residential retreat."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Reel dated 6 December 2023 announces the workshop but gives no event dates."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/C0hM3chNo-S"], "note": "Registration opened in December 2023 and again per an October 11, 2024 mention ('ההרשמה נפתחה')."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown format."},
+        "brandFit": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/C0hM3chNo-S"], "note": "Israeli business mastermind host; masterminds are an in-scope format and Israel is a target market, but no aesthetic evidence."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/C0hM3chNo-S"], "note": "Paid mastermind workshop with application form, repeated cohorts."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Evidence is from December 2023 and October 2024; current activity unknown", "Workshop format, no residential or travel component in evidence"],
+        "missingInformation": ["Current mastermind calendar, format (day workshop vs residential) and group size", "Price", "Follower count"],
+        "summary": "Elad Shany runs a mastermind workshop for Israeli freelancers ('סדנת מאסטרמיינד לעצמאיים/ות') with a registration questionnaire in bio; the reel is from 6 December 2023 and a later note shows registration reopened on October 11, 2024. He is a first-person host of recurring business masterminds in the Israeli market, which makes him a candidate for a hosted mastermind abroad, but nothing shows a residential format, dates, price or group size, and the evidence is dated. Medium risk; scouting conversation to see whether he would take a cohort to Greece."
+      },
+      "events": [
+        {"title": "סדנת מאסטרמיינד לעצמאיים/ות (Mastermind workshop for freelancers)", "eventType": "executive_mastermind", "startDate": null, "endDate": null, "nights": null, "location": null, "country": "IL", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/C0hM3chNo-S"]}
+      ],
+      "profile": {"displayName": "Elad Shany", "country": "IL", "languages": ["he"], "niche": "business mastermind for freelancers", "markets": ["IL"]}
+    },
+    {
+      "handle": "sheri_rosenthal",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No venue evidence; she advises retreat leaders."},
+        "sellsRetreats": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/B9HUgtXnDVr"], "note": "Post is a 'RETREAT TIP: Marketing' for other hosts ('get your retreat filled'); no own retreat in evidence."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/B9HUgtXnDVr"], "note": "Retreat-marketing educator; audience is retreat leaders."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence of paid products in the excerpt."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["Single old-style 'RETREAT TIP' post; recency and current activity unknown", "No location, followers or products in evidence"],
+        "missingInformation": ["Current activity and audience size", "Whether she runs a retreat-leader programme or community", "Home market"],
+        "summary": "Sheri Rosenthal posts retreat-marketing tips for other hosts ('the best way to get your retreat filled... is to have a plan laid out'), which places her among retreat-business educators whose audience is retreat leaders. The pack holds one such post and nothing on her own events, products, location or reach, so the account's current weight is unknown. Treat as a referral-partnership lead and verify activity before outreach."
+      },
+      "events": [],
+      "profile": {"displayName": "Sheri Rosenthal", "country": null, "languages": ["en"], "niche": "retreat business coaching", "markets": ["US"]}
+    },
+    {
+      "handle": "smashpadel.official",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/smashpadel.official/p/DcOiJ1vN8Rr"], "note": "Padel club running a weekly academy at its own courts."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/smashpadel.official/p/DcOiJ1vN8Rr"], "note": "'PADELEROS ACADEMY 2026/27 - ANMELDUNG JETZT OFFEN': weekly training in fixed groups, not a retreat."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Season-long weekly academy; no retreat dates."},
+        "canFillGroupSize": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/smashpadel.official/p/DcOiJ1vN8Rr"], "note": "Training groups of 3; not a 10-18 group format."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/smashpadel.official/p/DcOiJ1vN8Rr"], "note": "Annual academy season (2026/27) with weekly sessions."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/smashpadel.official/p/DcOiJ1vN8Rr"], "note": "Local club; padel is in scope but a club running weekly classes is not a travelling host."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/smashpadel.official/p/DcOiJ1vN8Rr"], "note": "Paid academy enrolment."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["venue/aggregator account, not a host (padel club with on-site academy)"],
+        "missingInformation": ["Whether the club or its coaches run padel camps abroad", "Country (German-language, likely DE/AT/CH)"],
+        "summary": "Smash Padel is a German-speaking padel club opening enrolment for its Padeleros Academy 2026/27: weekly training in fixed groups of three at its own courts. That is a venue running a local class schedule, not an organiser of hosted trips. Not a target; at most a referral channel to coaches who might organise a padel camp."
+      },
+      "events": [],
+      "profile": {"displayName": "Smash Padel", "country": null, "languages": ["de"], "niche": "padel club / academy (venue)", "markets": ["DE"]}
+    },
+    {
+      "handle": "smcstudyabroad",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DIbnIWqhvIB"], "note": "University study-abroad office; programmes, not retreats."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DIbnIWqhvIB"], "note": "Student study-abroad promotion."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DIbnIWqhvIB"], "note": "Student audience."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account", "Study-abroad office (student programmes, Italy hint)"],
+        "missingInformation": [],
+        "summary": "SMC Study Abroad is a college study-abroad office posting student content (September-October 2026, Italy location hint). It is an academic programme account with no retreat, offsite or organiser signals. Off-topic; discard."
+      },
+      "events": [],
+      "profile": {"displayName": "SMC Study Abroad", "country": "US", "languages": ["en"], "niche": "study abroad office (off-topic)", "markets": ["US"]}
+    }
+  ]
+}

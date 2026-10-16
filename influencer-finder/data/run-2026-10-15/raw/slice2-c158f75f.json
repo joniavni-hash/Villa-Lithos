@@ -1,0 +1,47 @@
+{
+ "spec": {
+  "id": "c158f75f",
+  "query": "\"mastermind retreat\" Lanzarote January OR February OR March OR November OR December 2026 OR 2027 host",
+  "language": "en",
+  "eventType": "executive_mastermind",
+  "lane": "competitor_venue",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ "results": [
+  {
+   "url": "https://www.instagram.com/p/DZJo0IXmySC?img_index=2",
+   "title": "Wild Goddess Retreat 2026 🌺 To this beautiful group of women ...",
+   "content": "Her Ancient Wisdom Retreat is an invitation to begin that remembering together. ❤️ January 2027 · Lanzarote Details through the link in bio✨. View all 34",
+   "score": 0.50344294
+  },
+  {
+   "url": "https://www.instagram.com/reel/Db2_8ARIl4y",
+   "title": "X Summer Tour #coachodi #odysseaskoutsoupis #mindset ...",
+   "content": "MASTERMIND Miami HOST Sanchez FRIDAY. Mastermind & DTD Award Session Private VIP. Private Members Club on July 21, 2026. John Phillips on July",
+   "score": 0.35958952
+  },
+  {
+   "url": "https://www.instagram.com/p/DZlotHRCdIU",
+   "title": "I hope you FOMO through every single one of these slides. ...",
+   "content": "We're going back to beautiful and rugged Lanzarote, in the Canary Islands in January welcome Winter Sun. 26th - 31st January, suite room,",
+   "score": 0.32101336
+  },
+  {
+   "url": "https://www.instagram.com/reel/DQrnXcKiFCM",
+   "title": "Last month I was in sunny Lanzarote photographing ...",
+   "content": "Last month I was in sunny Lanzarote photographing @annapaynesales wonderful business retreat! Such an inspiring bunch of ladies there... all looking to take",
+   "score": 0.20168777
+  },
+  {
+   "url": "https://www.instagram.com/p/DAj6OQTBSea",
+   "title": "✨Beautiful weekend at my Women's Leadership Retreat ...",
+   "content": "Since January, we have been meeting on Zoom as part of a mastermind, creating a container of support, growth and honest reflection.",
+   "score": 0.13272823
+  }
+ ],
+ "fetchedAt": "2026-10-15T18:33:50Z"
+}
