@@ -45,7 +45,7 @@ const H1 = "A corporate retreat venue near Athens, 20 minutes from the airport."
 const DESC = "Private corporate retreat venue near Athens for offsites of 10 to 22. A 5,000 m² estate 20 minutes from the airport, Starlink internet, pool, padel, gym, sauna.";
 const URL = "https://www.villalithos.com/corporate-retreats";
 const PUBLISHED = "2026-09-22";
-const MODIFIED = "2026-10-09";
+const MODIFIED = "2026-10-16";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -518,7 +518,7 @@ export default function Page() {
         <span className="text-xs font-semibold uppercase tracking-[0.2em]" style={{ color: SAGE }}>Winter offsites, October to March</span>
         <h2 className="mt-3 max-w-3xl text-3xl md:text-4xl" style={{ fontFamily: "var(--font-serif), serif" }}>A winter offsite venue near Athens: sun outside, a fireplace inside.</h2>
         <p className="mt-4 max-w-3xl text-lg" style={{ color: "#4a4a4a" }}>
-          The quiet months are the natural fit for a company offsite here: weekday blocks are open, the airport is 20 minutes away and the Attica coast stays mild. Last winter the sky stayed sunny on {WINTER_STATS.portoRafti.sunnyDays} of {WINTER_STATS.days} days, and the estate has what a team needs when the day ends early: an outdoor sauna, a private gym, a fireplace lounge and a floodlit padel court.
+          The quiet months are the natural fit for a company offsite here: weekday blocks are open, the airport is 20 minutes away and the Attica coast stays mild. Last winter the sky stayed sunny on {WINTER_STATS.portoRafti.sunnyDays} of {WINTER_STATS.days} days, and the estate has what a team needs when the day ends early: an outdoor sauna, a private gym, a fireplace lounge and a floodlit padel court. For an offsite built around the court, with a coach and an in-house tournament, see the <Link href="/padel-villa-athens" style={{ color: SAGE }}>private padel retreat villa near Athens</Link>.
         </p>
         <div className="mt-10 grid gap-5 md:grid-cols-5">
           <figure className="rounded-2xl p-7 shadow-sm md:col-span-1" style={{ background: CREAM, border: "1px solid rgba(26,35,50,0.06)" }}>
@@ -716,8 +716,8 @@ export default function Page() {
       {/* FOOT NOTE */}
       <section className="mx-auto max-w-6xl px-6 py-10 text-xs" style={{ color: "#9CA3AF" }}>
         <p>
-          Last updated 9 October 2026. Property facts as published on <Link href="/luxury-villa-porto-rafti" style={{ color: SAGE }}>the luxury villa rental in Porto Rafti guide</Link>. Distances are approximate driving times. Research cited: Atlassian, Intentional Team Gatherings; Gallup, Hybrid Work in Retreat? Barely (2025). Winter weather figures: Open-Meteo historical data (ERA5), October 2025 to March 2026.
-          {" "}Related: <Link href="/villas-near-athens-airport" style={{ color: SAGE }}>Large private villa near Athens airport</Link> · <Link href="/large-family-villa-greece" style={{ color: SAGE }}>Villas in Greece for groups of 20</Link> · <Link href="/articles/wellness-retreats-greece-mainland" style={{ color: SAGE }}>Fitness retreat venue in Greece</Link> · <Link href="/plan-a-group-stay" style={{ color: SAGE }}>Plan a group stay: rooms, beds and a sample schedule</Link>
+          Last updated 16 October 2026. Property facts as published on <Link href="/luxury-villa-porto-rafti" style={{ color: SAGE }}>the luxury villa rental in Porto Rafti guide</Link>. Distances are approximate driving times. Research cited: Atlassian, Intentional Team Gatherings; Gallup, Hybrid Work in Retreat? Barely (2025). Winter weather figures: Open-Meteo historical data (ERA5), October 2025 to March 2026.
+          {" "}Related: <Link href="/villas-near-athens-airport" style={{ color: SAGE }}>Large private villa near Athens airport</Link> · <Link href="/large-family-villa-greece" style={{ color: SAGE }}>Villas in Greece for groups of 20</Link> · <Link href="/articles/wellness-retreats-greece-mainland" style={{ color: SAGE }}>Fitness retreat venue in Greece</Link> · <Link href="/plan-a-group-stay" style={{ color: SAGE }}>Plan a group stay: rooms, beds and a sample schedule</Link> · <Link href="/padel-villa-athens" style={{ color: SAGE }}>Private padel retreat villa near Athens</Link>
         </p>
       </section>
 

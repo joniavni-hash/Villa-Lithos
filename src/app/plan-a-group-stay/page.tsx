@@ -8,7 +8,7 @@ const H1 = "Planning a Group Stay in Greece for 10 to 22 People: Rooms, Beds and
 const DESC = "The organiser's page for Villa Lithos Porto Rafti: every bedroom with its bed and bathroom, who sleeps where for groups of 10, 16 and 22, a three-day sample schedule, the spec organisers ask for, and logistics from Athens airport.";
 const URL = "https://www.villalithos.com/plan-a-group-stay";
 const PUBLISHED = "2026-10-08";
-const MODIFIED = "2026-10-08";
+const MODIFIED = "2026-10-16";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -188,7 +188,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <h1 style={s.h1}>{H1}</h1>
-      <span style={s.meta}>Last updated: 8 October 2026 · 9 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: 16 October 2026 · 9 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
         Organising a trip for a big family, a group of friends or a retreat comes down to a few questions that most villa listings never answer: exactly who sleeps where, which rooms have their own bathroom, where the children go, where the teacher or the grandparents get some quiet, and what a day actually looks like. This page answers them for <strong>Villa Lithos Porto Rafti</strong>, a privately owned 9-bedroom estate for up to 22 guests, 20 minutes from Athens International Airport.
@@ -275,7 +275,7 @@ export default function Page() {
         </div>
       ))}
       <p style={s.p}>
-        For a working offsite, the <Link href="/corporate-retreats" style={s.link}>corporate retreats page</Link> has an agenda built around sessions. For a training or yoga programme, the <Link href="/articles/wellness-retreats-greece-mainland" style={s.link}>wellness retreat guide</Link> lists the gym and training equipment on the estate.
+        For a working offsite, the <Link href="/corporate-retreats" style={s.link}>corporate retreats page</Link> has an agenda built around sessions. For a training or yoga programme, the <Link href="/articles/wellness-retreats-greece-mainland" style={s.link}>wellness retreat guide</Link> lists the gym and training equipment on the estate. For a friends&apos; weekend or a club week built around the floodlit court, the <Link href="/padel-villa-athens" style={s.link}>private padel retreat villa page</Link> covers the court, the rackets provided and coaching through the concierge.
       </p>
 
       <h2 id="spec" style={s.h2}>The Spec Organisers Ask For</h2>
@@ -305,6 +305,7 @@ export default function Page() {
         <li style={s.li}><Link href="/articles/luxury-villa-lithos-family-retreat" style={s.link}>Large Private Villa Near Athens: the estate for groups of up to 22</Link></li>
         <li style={s.li}><Link href="/articles/multi-generational-trip-greece" style={s.link}>Planning a Multi-Generational Family Trip to Greece</Link></li>
         <li style={s.li}><Link href="/corporate-retreats" style={s.link}>Corporate Retreat Venue Near Athens</Link></li>
+        <li style={s.li}><Link href="/padel-villa-athens" style={s.link}>Private Padel Retreat Villa Near Athens</Link></li>
         <li style={s.li}><Link href="/articles/wellness-retreats-greece-mainland" style={s.link}>Fitness and Wellness Retreats in Greece</Link></li>
         <li style={s.li}><Link href="/articles/eating-in-porto-rafti" style={s.link}>Where to eat in Porto Rafti with a group</Link></li>
         <li style={s.li}><Link href="/porto-rafti" style={s.link}>Porto Rafti travel guide</Link></li>
@@ -317,7 +318,7 @@ export default function Page() {
       </div>
 
       <p style={s.updated}>
-        Last updated: 8 October 2026. Room, bed and bathroom details are from the villa&apos;s own sleeping inventory; drive times measured in light traffic. Rates and availability are quoted on request.
+        Last updated: 16 October 2026. Room, bed and bathroom details are from the villa&apos;s own sleeping inventory; drive times measured in light traffic. Rates and availability are quoted on request.
       </p>
 
       <Link href="/" style={s.back}>&larr; Back to Villa Lithos home</Link>
