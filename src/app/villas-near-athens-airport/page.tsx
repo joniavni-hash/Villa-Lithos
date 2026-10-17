@@ -8,7 +8,7 @@ const H1 = "Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto 
 const DESC = "Luxury family villa near Athens airport: Villa Lithos is a large private villa for groups of up to 22, 16 km and a 20-minute drive from Athens International Airport, with no ferry.";
 const URL = "https://www.villalithos.com/villas-near-athens-airport";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-09-29";
+const MODIFIED = "2026-10-17";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -31,6 +31,24 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", title: TITLE, description: DESC },
   alternates: { canonical: URL },
 };
+
+const faqs = [
+  { q: "How long is the transfer from Athens airport to Villa Lithos?", a: "Villa Lithos sits 16 km from Athens International Airport and the typical drive is about 20 minutes, almost entirely on the Attiki Odos motorway, with no ferry and no domestic flight. In Friday afternoon rush hour or August traffic allow 15 to 30 minutes more." },
+  { q: "Who arranges the airport transfer?", a: "The Villa Lithos concierge team arranges private airport transfers on request, with sedan, SUV or minibus options. Tell the team your flight number and landing time when you confirm your dates." },
+  { q: "Can one transfer carry a group of 20 guests?", a: "Yes. The concierge team matches the vehicles to the size of your group, from a sedan for a couple to a minibus, or a combination of vehicles, for a full party of 20 to 22 guests with luggage." },
+  { q: "What if we land late at night?", a: "The drive is the same at night, about 20 minutes on the Attiki Odos toll road with no city-centre crossings. Standard check-in is from 15:00; share your arrival time with the concierge team so the transfer and your welcome are planned around it." },
+  { q: "Should we rent a car instead?", a: "Either works. From the airport you stay on the Attiki Odos until the final five minutes into Porto Rafti, with no complicated junctions, so a rental car is an easy option for groups who want to explore Attica. Many groups combine a transfer on arrival day with a rental car for day trips." },
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map(({ q, a }) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })),
+};
+
+const WHATSAPP_FAQ = `https://wa.me/306932757142?text=${encodeURIComponent(
+  "Hi, I'm reading your airport transfer FAQ and would like to ask about a transfer and availability at Villa Lithos for our group."
+)}`;
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -66,15 +84,20 @@ const s = {
   ctaText: { fontSize: "1.05rem", color: "#555", marginBottom: 24 } as React.CSSProperties,
   back: { display: "inline-block", marginTop: 32, color: "#7a8c6e", textDecoration: "none", fontSize: "0.97rem" } as React.CSSProperties,
   updated: { fontSize: "0.86rem", color: "#888", marginTop: 36, paddingTop: 14, borderTop: "1px solid #e8e3d3" } as React.CSSProperties,
+  faqItem: { borderBottom: "1px solid #e8e3d3", padding: "14px 0" } as React.CSSProperties,
+  faqQ: { fontWeight: 600, fontSize: "1.05rem", cursor: "pointer" } as React.CSSProperties,
+  faqA: { marginTop: 8, fontSize: "1.02rem", color: "#444" } as React.CSSProperties,
+  faqCta: { display: "inline-block", background: "#7a8c6e", color: "#fff", padding: "11px 24px", borderRadius: 6, textDecoration: "none", fontWeight: 600, fontSize: "0.98rem", marginTop: 18 } as React.CSSProperties,
 };
 
 export default function Page() {
   return (
     <article style={s.article}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       <h1 style={s.h1}>{H1}</h1>
-      <span style={s.meta}>Last updated: September 2026 · 9 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: October 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
         Most luxury villa rentals near Athens advertise themselves as "close to the airport". The actual drive times vary widely. <strong>Villa Lithos Porto Rafti</strong> is a luxury family villa near Athens airport and a large private villa for groups of up to 22: it sits 16 km from Athens International Airport and the typical drive is 20 minutes, with no ferry and no domestic flight. This page compares the realistic options for travellers who want to land, drive a short distance, and be at the beach the same hour.
@@ -155,6 +178,17 @@ export default function Page() {
         Villa Lithos is bookable direct through <a href="https://www.villalithos.com/#inquiry">villalithos.com</a>, via Guesty at <a href="https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72" target="_blank" rel="noopener">Goldenberg Luxe</a>, on <a href="https://www.booking.com/hotel/gr/villa-lithos-porto-rafti.html" target="_blank" rel="nofollow noopener">Booking.com</a>, and on <a href="https://airbnb.com/h/lithoss" target="_blank" rel="nofollow noopener">Airbnb</a>. Check-in is from 15:00, check-out is until 10:00. Private airport transfers can be arranged via the concierge team. Greek travel rules and Schengen entry requirements for non-EU visitors can be confirmed via the <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a> official portal.
       </p>
 
+      <section data-lead-block="faq-airport">
+        <h2 id="faq" style={s.h2}>Airport Transfer Questions Guests Ask</h2>
+        {faqs.map(({ q, a }) => (
+          <details key={q} style={s.faqItem}>
+            <summary style={s.faqQ}>{q}</summary>
+            <p style={s.faqA}>{a}</p>
+          </details>
+        ))}
+        <a href={WHATSAPP_FAQ} target="_blank" rel="noopener" style={s.faqCta}>Ask about a transfer on WhatsApp</a>
+      </section>
+
       <h2 style={s.h2}>Related Reading</h2>
       <ul style={s.ul}>
         <li style={s.li}><Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>Luxury Villa Rental in Porto Rafti, A 9-Bedroom Private Estate Near Athens</Link></li>
@@ -169,7 +203,7 @@ export default function Page() {
         <PageCta path="/villas-near-athens-airport" style={s.cta} />
       </div>
 
-      <p style={s.updated}>Last updated: 29 September 2026. Sources: <a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Athens International Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.plumguide.com/d/gr-athens/villas" target="_blank" rel="nofollow noopener">Plum Guide Athens</a>.</p>
+      <p style={s.updated}>Last updated: 17 October 2026. Sources: <a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Athens International Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.plumguide.com/d/gr-athens/villas" target="_blank" rel="nofollow noopener">Plum Guide Athens</a>.</p>
 
       <Link href="/" style={s.back}>&larr; Back to Villa Lithos home</Link>
     </article>
