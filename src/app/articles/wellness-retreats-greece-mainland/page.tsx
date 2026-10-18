@@ -8,7 +8,7 @@ const H1 = "Fitness and Wellness Retreats in Greece: A Practical Guide to Mainla
 const DESC = "Luxury wellness retreat villa in Greece, 20 min from Athens airport: 9 bedrooms for 22 guests, heated infinity pool, private gym, padel court, outdoor sauna.";
 const URL = "https://www.villalithos.com/articles/wellness-retreats-greece-mainland";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-10-12";
+const MODIFIED = "2026-10-17";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -118,13 +118,14 @@ const facilityPhotos = [
 ];
 const img = (file: string) => `/img/gallery/${encodeURIComponent(file)}`;
 
-const faqs = [
+const faqs: { q: string; a: string; more?: { href: string; label: string } }[] = [
   { q: "Can Villa Lithos host a fitness retreat in Greece?", a: "Yes. The estate has a private gym pavilion, a heated infinity pool, a full-size floodlit padel court, an outdoor sauna and shaded terraces for mat work, all for the exclusive use of one group of up to 22. Trainers, yoga teachers and therapists are arranged and quoted by the concierge team." },
   { q: "How far is the venue from Athens airport?", a: "16 km, about 20 minutes by car. Groups can land in the morning and train the same afternoon, with no ferry or domestic flight." },
   { q: "How many people can a retreat host?", a: "Up to 22 guests across nine bedrooms. Eight to nine people if everyone needs a private room; most retreats run between 10 and 16." },
   { q: "Is catering for athletic or dietary programmes available?", a: "Yes. Private chefs are arranged by the concierge, from single meals to full board, with plant-forward, high-protein, kosher and other dietary briefs on request. Catering is quoted separately by group size and menu." },
   { q: "Are the facilities shared with other guests?", a: "No. The whole estate, including the pool, gym, padel court and sauna, is rented to one group at a time." },
   { q: "When is the venue available for retreats?", a: "Weekday blocks from October to May are the natural fit and the coast stays mild for most of that period. Summer dates compete with holiday bookings. Rates are quoted on request." },
+  { q: "What is the difference between a fitness holiday and a fitness retreat, and how does it work at the villa?", a: "A fitness holiday in Greece is usually a self-directed stay where the group trains when it wants; a fitness retreat follows a programme led by a trainer or facilitator. Villa Lithos works for both: the private gym pavilion, the shaded training deck, the heated infinity pool and the floodlit padel court are on the estate for the exclusive use of your group, and a trainer, yoga teacher or physiotherapist can be arranged through the concierge team when you want a led programme.", more: { href: "/wellness-retreat-villa-greece", label: "See the wellness retreat villa page for the retreat formats and how booking works" } },
 ];
 
 const faqJsonLd = {
@@ -383,10 +384,18 @@ export default function Page() {
       </p>
 
       <h2 style={s.h2}>Questions Retreat Organisers Ask</h2>
-      {faqs.map(({ q, a }) => (
+      {faqs.map(({ q, a, more }) => (
         <details key={q} style={s.faqItem}>
           <summary style={s.faqQ}>{q}</summary>
-          <p style={s.faqA}>{a}</p>
+          <p style={s.faqA}>
+            {a}
+            {more && (
+              <>
+                {" "}
+                <Link href={more.href} style={{ color: "#7a8c6e" }}>{more.label}</Link>.
+              </>
+            )}
+          </p>
         </details>
       ))}
 
@@ -407,7 +416,7 @@ export default function Page() {
         <PageCta path="/articles/wellness-retreats-greece-mainland" style={s.cta} whatsappLabel="Ask about a retreat on WhatsApp" whatsappText="Hi, I'm organizing a retreat and would like to ask about availability at Villa Lithos." />
       </div>
 
-      <p style={s.updated}>Last updated: 12 October 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+      <p style={s.updated}>Last updated: 17 October 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
 
       <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     </article>
