@@ -169,7 +169,7 @@ export default function Page() {
         If the bay beaches start to feel familiar, the East Attica coast has enough variety for a different beach every day for a week. Vravrona is a good half-day combination with the Brauron archaeological site (5 km from the villa). Schinias works well combined with a Marathon battlefield visit. Mavro Lithari is the right call for a low-effort short drive when you want depth and clarity but not commitment.
       </p>
       <p style={s.p}>
-        For more on combining beach time with cultural day trips, see our <Link href="/articles/day-trips-from-porto-rafti" style={{ color: "#7a8c6e" }}>day trips from Porto Rafti guide</Link>.
+        For more on combining beach time with cultural day trips, see our <Link href="/articles/day-trips-from-porto-rafti" style={{ color: "#7a8c6e" }}>day trips from Porto Rafti guide</Link>, and for the airport route, the best time to visit and where to stay, our <Link href="/porto-rafti" style={{ color: "#7a8c6e" }}>Porto Rafti travel guide</Link>.
       </p>
 
       <h2 style={s.h2}>Sources and Further Reading</h2>
