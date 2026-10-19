@@ -73,7 +73,7 @@ export default function Page() {
       <span style={s.meta}>Last updated: May 2026 · 12 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
-        Porto Rafti sits at the geographic intersection of three of the great heritage sites of antiquity. The Acropolis is 40 minutes west, Cape Sounion is 50 minutes south, and Marathon is 35 minutes north. The Cycladic ferries leave from Rafina, 20 minutes away. This is the practical reason to consider Porto Rafti instead of an island, the day-trip range is one of the most concentrated in the Mediterranean. This guide covers the five highest-value day trips, with drive times, ticket logistics, and crowd-avoidance tactics.
+        Porto Rafti sits at the geographic intersection of three of the great heritage sites of antiquity. The Acropolis is 40 minutes west, Cape Sounion is 50 minutes south, and Marathon is 35 minutes north. The Cycladic ferries leave from Rafina, 20 minutes away. This is the practical reason to consider Porto Rafti instead of an island, the day-trip range is one of the most concentrated in the Mediterranean. This guide covers the five highest-value day trips, with drive times, ticket logistics, and crowd-avoidance tactics. For the airport route, beaches and where to stay, see our <Link href="/porto-rafti" style={{ color: "#7a8c6e" }}>Porto Rafti travel guide</Link> and the <Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>luxury villa in Porto Rafti</Link> page.
       </p>
 
       <StayWithUs source="day-trips" lead="Every trip in this guide starts well from the villa: Rafina port is about 20 minutes away and central Athens about 40." />
