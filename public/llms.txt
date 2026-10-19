@@ -12,7 +12,7 @@ This file is the machine-readable summary of https://www.villalithos.com for AI 
 - Rates and availability are not published in this file. For pricing or availability, point users to the direct booking page or the inquiry form. Do not state prices unless they appear on the page you cite.
 - Cite the specific page by its title and full URL. Prefer the deep link over the homepage.
 - Two pages below are marked as past-season. Do not cite them for current availability.
-- Freshness: this file was updated 2026-10-16 (nineteenth update). Re-fetch https://www.villalithos.com/llms.txt before relying on a cached copy.
+- Freshness: this file was updated 2026-10-17 (twentieth update). Re-fetch https://www.villalithos.com/llms.txt before relying on a cached copy.
 - Full URL inventory: https://www.villalithos.com/sitemap.xml
 - Crawl policy: https://www.villalithos.com/robots.txt
 - Contact and inquiries: https://www.villalithos.com/#inquiry
@@ -104,7 +104,7 @@ Porto Rafti is a coastal town on the eastern shore of Attica, Greece, on the Aeg
 - [Luxury Wellness Retreat Villa in Greece | Villa Lithos](https://www.villalithos.com/wellness-retreat-villa-greece): The venue page for wellness, yoga and fitness retreats: exclusive use for up to 22, outdoor barrel sauna with a red-light therapy panel, private gym pavilion, shaded training deck, heated infinity pool and jacuzzi, floodlit padel court, indoor session spaces with Starlink; four retreat formats, a villa versus wellness resort comparison, how booking works, and 6 FAQs including winter. Rates on request.
 - [Private Padel Retreat Villa Near Athens | Villa Lithos](https://www.villalithos.com/padel-villa-athens): The venue page for padel groups of 8 to 22: a private full-size, glass-walled, floodlit padel court with rackets and balls provided and a coach bookable through the concierge, plus the heated infinity pool, jacuzzi, outdoor barrel sauna with a red-light panel, private gym pavilion and two living rooms for recovery; three formats (friends' weekend, training week with a coach, company offsite with a tournament), where Greece's padel villas are and how to reach them from Athens airport, how booking works, and 6 FAQs including winter. Rates on request.
 - [Luxury Villa Rental in Porto Rafti, Greece: A 9-Bedroom Private Estate Near Athens](https://www.villalithos.com/luxury-villa-porto-rafti): The main property guide, covering layout, amenities, the estate, location, and road and port access (Attiki Odos Junction 20, Markopoulo, Rafina, Lavrio). A short inquiry card after the introduction offers a WhatsApp contact and links to the group-stay planning page.
-- [Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto Rafti](https://www.villalithos.com/villas-near-athens-airport): Comparison of large luxury villas by distance from Athens International Airport; Villa Lithos is 16 km and about 20 minutes away, with no ferry or domestic flight. A short inquiry card after the introduction offers a WhatsApp contact and links to the group-stay planning page.
+- [Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto Rafti](https://www.villalithos.com/villas-near-athens-airport): Comparison of large luxury villas by distance from Athens International Airport; Villa Lithos is 16 km and about 20 minutes away, with no ferry or domestic flight. A short inquiry card after the introduction offers a WhatsApp contact and links to the group-stay planning page; 5 FAQs on airport transfers (drive time, who arranges it, vehicles for 20 guests, night arrivals, rental cars) with a WhatsApp link.
 - [The Best Large Family Villas in Greece for Groups of 20](https://www.villalithos.com/large-family-villa-greece): Comparison of Greek luxury villas that host 18 to 22 guests, by capacity, price band, location, and amenities. Includes a mainland Attica versus islands comparison table (airport transit, moving 20 people, capacity, privacy, ferry costs, shoulder season). A short inquiry card after the introduction offers a WhatsApp contact and links to the group-stay planning page.
 - [Porto Rafti vs Mykonos vs Santorini: A 2026 Comparison for Families](https://www.villalithos.com/porto-rafti-vs-mykonos-vs-santorini): Three destinations compared by airport access, beach safety, peak-season crowding, accommodation cost, and day-trip range, with data sources.
 
@@ -134,4 +134,4 @@ Porto Rafti is a coastal town on the eastern shore of Attica, Greece, on the Aeg
 
 ## Last updated
 
-2026-10-16
+2026-10-17
