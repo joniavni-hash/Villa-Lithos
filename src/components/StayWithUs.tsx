@@ -4,6 +4,10 @@ import Link from "next/link";
 // high-traffic guides, so readers planning a trip see the villa before they
 // scroll away. Facts only from the live site (llms.txt key facts).
 // Clicks are measured by <LeadTracker /> through data-lead-block.
+// The card offers both channels the site's end-of-page CTA offers: WhatsApp
+// first, direct booking (Guesty) second, then a text link to the villa page.
+
+const BOOKING_URL = "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72";
 
 const DEFAULT_WHATSAPP_TEXT =
   "Hi, I found Villa Lithos through your Porto Rafti guide. I'd like to ask about availability for our group.";
@@ -41,6 +45,7 @@ const s = {
   text: { fontSize: "1rem", color: "#3a3a3a", margin: "6px 0 14px" } as React.CSSProperties,
   row: { display: "flex", flexWrap: "wrap" as const, gap: 10 } as React.CSSProperties,
   primary: { display: "inline-block", background: "#7a8c6e", color: "#fff", padding: "9px 20px", borderRadius: 6, textDecoration: "none", fontWeight: 600, fontSize: "0.95rem" } as React.CSSProperties,
+  booking: { display: "inline-block", background: "transparent", color: "#5f7052", border: "1px solid #7a8c6e", padding: "8px 20px", borderRadius: 6, textDecoration: "none", fontWeight: 600, fontSize: "0.95rem" } as React.CSSProperties,
   secondary: { display: "inline-block", color: "#5f7052", padding: "9px 4px", textDecoration: "none", fontWeight: 600, fontSize: "0.95rem" } as React.CSSProperties,
 };
 
@@ -61,6 +66,7 @@ export default function StayWithUs({
       </p>
       <div style={s.row}>
         <a href={whatsappUrl(whatsappText)} target="_blank" rel="noopener" style={s.primary}>Ask about your dates on WhatsApp</a>
+        <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" style={s.booking}>Check availability</a>
         <Link href={secondaryHref} style={s.secondary}>{secondaryLabel} &rarr;</Link>
       </div>
     </aside>
