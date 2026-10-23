@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
 import PageCta from "@/components/PageCta";
+import { whatsappHref } from "@/app/lib/whatsapp";
 
 export const metadata: Metadata = {
   title: { absolute: "Porto Rafti: The Perfect Alternative to the Greek Islands" },
@@ -22,6 +23,41 @@ export const metadata: Metadata = {
   },
 };
 
+
+// Questions readers of this article ask before choosing the mainland over an
+// island. Every answer repeats facts already on the live site (this article,
+// the Porto Rafti guide, the Mykonos and Santorini comparison, llms.txt).
+// Phrased differently from the five FAQs on /porto-rafti so the two pages do
+// not answer the same question twice.
+const FAQ = [
+  {
+    q: "Is Porto Rafti a real alternative to the Greek islands, or a compromise?",
+    a: "For families and groups it is a real alternative. The bay is sheltered and calm, Avlaki beach is a 3-minute drive from Villa Lithos, Athens airport is 20 minutes away, the Acropolis is under an hour and Cape Sounion a 40-minute drive. Tourism here is mostly domestic, so the town keeps working as a Greek town in summer. Where it loses to the islands is nightlife, beach clubs and the famous postcard views.",
+  },
+  {
+    q: "How does Porto Rafti compare with Mykonos and Santorini for a family holiday?",
+    a: "Porto Rafti needs no internal flight or ferry after landing in Athens, its bay is sheltered from the summer meltemi wind, and accommodation and restaurant costs sit at mainland levels. Mykonos has the beach clubs and nightlife and Santorini the caldera views, with beaches on the far side of the island. Our comparison page sets the three side by side.",
+  },
+  {
+    q: "Can you combine Porto Rafti with a Greek island on the same trip?",
+    a: "Yes. Rafina port is about 20 minutes north with ferries to Andros, Tinos and Mykonos, and Lavrio port about 40 minutes south serves Kea and Kythnos. A common pattern is a few nights at the villa for the airport stretch and the Athens sightseeing, then a ferry out to an island for the second half, or a single island day trip with dinner back at the villa.",
+  },
+  {
+    q: "Who is Porto Rafti not the right choice for?",
+    a: "Couples or small parties looking for an island atmosphere, beach clubs or nightlife: Porto Rafti is a quiet mainland town. Villa Lithos itself suits groups of about 10 to 22 who want one house rather than several rooms; smaller parties should only consider it if they want the whole estate to themselves.",
+  },
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+};
+
+const WHATSAPP_FAQ = whatsappHref(
+  "Hi, I'm reading your article on Porto Rafti as an alternative to the Greek islands. I'd like to ask about availability at Villa Lithos for our group."
+);
+
 export default function PortoRaftiAlternativeGreekIslands() {
   return (
     <article
@@ -34,6 +70,8 @@ export default function PortoRaftiAlternativeGreekIslands() {
         lineHeight: 1.8,
       }}
     >
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+
       <Link
         href="/articles"
         style={{
@@ -232,6 +270,43 @@ export default function PortoRaftiAlternativeGreekIslands() {
         space, the authenticity, and the sheer beauty of the coastline, the
         mainland does not feel like a compromise. It feels like a discovery.
       </p>
+
+      <section data-lead-block="faq-islands-alternative">
+        <h2
+          id="faq"
+          style={{
+            fontFamily: "'DM Serif Display', serif",
+            fontSize: "1.6rem",
+            color: "#2c2c2c",
+            marginTop: 40,
+            marginBottom: 16,
+          }}
+        >
+          Questions Readers Ask Before Choosing the Mainland
+        </h2>
+        {FAQ.map((f) => (
+          <details key={f.q} style={{ borderBottom: "1px solid #e8e3d3", padding: "14px 0" }}>
+            <summary style={{ fontWeight: 600, fontSize: "1.05rem", cursor: "pointer" }}>{f.q}</summary>
+            <p style={{ marginTop: 8, fontSize: "1.02rem", color: "#444" }}>
+              {f.a}
+              {f.q.startsWith("How does Porto Rafti compare") ? (
+                <>
+                  {" "}
+                  <Link href="/porto-rafti-vs-mykonos-vs-santorini" style={{ color: "#7a8c6e" }}>Read the full Porto Rafti vs Mykonos vs Santorini comparison</Link>.
+                </>
+              ) : null}
+            </p>
+          </details>
+        ))}
+        <a
+          href={WHATSAPP_FAQ}
+          target="_blank"
+          rel="noopener"
+          style={{ display: "inline-block", background: "#7a8c6e", color: "#fff", padding: "11px 24px", borderRadius: 6, textDecoration: "none", fontWeight: 600, fontSize: "0.98rem", marginTop: 18 }}
+        >
+          Ask about your dates on WhatsApp
+        </a>
+      </section>
 
       <div
         style={{
