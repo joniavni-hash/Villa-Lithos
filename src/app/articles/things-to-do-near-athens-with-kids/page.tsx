@@ -68,7 +68,7 @@ export default function Article() {
       <p style={s.p}>Porto Rafti benefits from relatively low light pollution compared to central Athens. On a clear summer night, families can enjoy stargazing from the comfort of a private villa terrace. Free astronomy apps can help identify constellations, planets, and even the International Space Station passing overhead.</p>
 
       <h2 style={s.h2}>Make Porto Rafti Your Family Base</h2>
-      <p style={s.p}>With so many activities within easy reach, Porto Rafti is the ideal base for a family summer holiday near Athens. Whether your children are toddlers or teenagers, the mix of beaches, history, nature, and island access ensures that every day offers something new. For the airport route, the best time to visit and more on the town itself, see our <Link href="/porto-rafti" style={{ color: "#7a8c6e" }}>Porto Rafti travel guide</Link>.</p>
+      <p style={s.p}>With so many activities within easy reach, Porto Rafti is the ideal base for a <Link href="/large-family-villa-greece" style={{ color: "#7a8c6e" }}>family summer holiday near Athens</Link>. Whether your children are toddlers or teenagers, the mix of beaches, history, nature, and island access ensures that every day offers something new. For the airport route, the best time to visit and more on the town itself, see our <Link href="/porto-rafti" style={{ color: "#7a8c6e" }}>Porto Rafti travel guide</Link>.</p>
 
       <div style={s.ctaBox}>
           <h2 style={s.ctaHeading}>Planning a Family Trip Near Athens?</h2>
