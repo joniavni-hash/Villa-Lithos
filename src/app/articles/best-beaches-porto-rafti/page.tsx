@@ -161,7 +161,7 @@ export default function Page() {
 
       <h2 style={s.h2}>Practical Daily Routines</h2>
       <p style={s.p}>
-        Most families staying at Villa Lithos follow a similar rhythm. Breakfast at the villa, beach from 09:30 to 13:00, lunch back at the villa or at one of the Porto Rafti waterfront tavernas, and either a second beach session in the late afternoon (16:30 to 19:00) or a quiet pool day with the villa's infinity pool. The sun is most intense between 12:30 and 16:00, so a midday break out of direct light is standard advice.
+        Most <Link href="/large-family-villa-greece" style={{ color: "#7a8c6e" }}>families staying at Villa Lithos</Link> follow a similar rhythm. Breakfast at the villa, beach from 09:30 to 13:00, lunch back at the villa or at one of the Porto Rafti waterfront tavernas, and either a second beach session in the late afternoon (16:30 to 19:00) or a quiet pool day with the villa's infinity pool. The sun is most intense between 12:30 and 16:00, so a midday break out of direct light is standard advice.
       </p>
 
       <h2 style={s.h2}>Beach Day Trips from the Villa</h2>

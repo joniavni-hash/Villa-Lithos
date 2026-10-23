@@ -303,6 +303,7 @@ export default function Page() {
       <h2 style={s.h2}>Related Reading</h2>
       <ul style={s.ul}>
         <li style={s.li}><Link href="/articles/luxury-villa-lithos-family-retreat" style={s.link}>Large Private Villa Near Athens: the estate for groups of up to 22</Link></li>
+        <li style={s.li}><Link href="/large-family-villa-greece" style={s.link}>The Best Large Family Villas in Greece for Groups of 20</Link></li>
         <li style={s.li}><Link href="/articles/multi-generational-trip-greece" style={s.link}>Planning a Multi-Generational Family Trip to Greece</Link></li>
         <li style={s.li}><Link href="/corporate-retreats" style={s.link}>Corporate Retreat Venue Near Athens</Link></li>
         <li style={s.li}><Link href="/padel-villa-athens" style={s.link}>Private Padel Retreat Villa Near Athens</Link></li>
