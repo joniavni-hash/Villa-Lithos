@@ -1,13 +1,14 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import PageCta from "@/components/PageCta";
+import StayWithUs from "@/components/StayWithUs";
 
 export const metadata: Metadata = {
   title: {
     absolute: "Private Villa in Greece vs. Island Hotel: An Honest Comparison for Families",
   },
   description:
-    "Trying to decide between a private villa and a hotel for your Greece family holiday? We break down the real differences in cost, privacy, flexibility, and experience â and why families who try a villa once rarely go back.",
+    "Trying to decide between a private villa and a hotel for your Greece family holiday? We break down the real differences in cost, privacy, flexibility, and experience, and why families who try a villa once rarely go back.",
   keywords: [
     "private villa greece vs hotel",
     "villa rental greece family",
@@ -105,7 +106,14 @@ export default function Article() {
       <h1 style={s.h1}>Private Villa in Greece vs. Island Hotel: An Honest Comparison for Families</h1>
       <span style={s.date}>March 2026 | Travel Planning</span>
 
-      <p style={s.p}>At some point in the planning of a Greece family holiday, the question always comes up: villa or hotel? Both have their advocates, and both can deliver a good holiday. But for families, particularly those travelling with children of different ages, the answer is almost never as close a contest as it might appear. This is an honest look at what each option actually involves, what you are paying for, and what you are giving up â so you can make the decision with clear information rather than habit or assumption.</p>
+      <p style={s.p}>At some point in the planning of a Greece family holiday, the question always comes up: villa or hotel? Both have their advocates, and both can deliver a good holiday. But for families, particularly those travelling with children of different ages, the answer is almost never as close a contest as it might appear. This is an honest look at what each option actually involves, what you are paying for, and what you are giving up, so you can make the decision with clear information rather than habit or assumption.</p>
+
+      <StayWithUs
+        source="villa-vs-hotel"
+        kicker="Comparing a villa to hotel rooms?"
+        lead="One estate for the whole group instead of a corridor of rooms, with a full kitchen and the pool to yourselves at any hour."
+        whatsappText="Hi, I read your villa vs hotel comparison. I'd like to ask about availability at Villa Lithos for our family group."
+      />
 
       <h2 style={s.h2}>Space: The Difference Is Not Subtle</h2>
       <p style={s.p}>According to the <a href="https://www.grhotels.gr/en/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Hellenic Chamber of Hotels</a>, a standard hotel room in a Greek island resort is somewhere between 25 and 40 square metres. Two rooms for a family of four means two bathrooms, two television sets, two separate spaces, and a lot of walking back and forth in a corridor when you want to talk to your own children. A private villa like Villa Lithos offers the entire property: nine bedrooms, 8.5 bathrooms, a large open kitchen and dining area, indoor and outdoor living spaces, terraces, a private pool, and a garden, all on a 5,000 m² estate. The difference in liveable space is not 20 percent. It is several hundred percent. For a family spending seven or ten days together, that space changes the entire quality of the holiday.</p>
@@ -114,7 +122,7 @@ export default function Article() {
       <p style={s.p}>Hotels by their nature are shared spaces. The pool is shared. The breakfast room is shared. The beach chairs are shared and often reserved at 7am by someone who placed a towel there and left. Lifts, corridors, reception areas, and restaurants are all spaces you navigate around other guests. Some families enjoy this social dimension. Many do not, particularly when they are travelling to rest and recover. A private villa gives you the property entirely. The pool is yours at any hour. The terrace is yours for dinner or for a glass of wine at midnight. There are no other guests. There is no performance of being on holiday. You are simply at home, but somewhere beautiful.</p>
 
       <h2 style={s.h2}>Cost: The Real Comparison</h2>
-      <p style={s.p}>The instinct is to assume that a private villa is more expensive than a hotel. In absolute terms, the weekly price of a villa like Villa Lithos is higher than a single hotel room. But this comparison is misleading. A villa like Villa Lithos accommodates up to 22 people. When you divide the cost across a group of 22, or across two or three families travelling together, the per-person cost is frequently lower than equivalent hotel rooms for the same group. Factor in the savings on restaurant meals â when you have a full kitchen, you cook breakfast and lunch at the villa â and the cost advantage of a villa often becomes significant. Families who have made this comparison honestly often find that the villa costs less in total while delivering a dramatically better experience.</p>
+      <p style={s.p}>The instinct is to assume that a private villa is more expensive than a hotel. In absolute terms, the weekly price of a villa like Villa Lithos is higher than a single hotel room. But this comparison is misleading. A villa like Villa Lithos accommodates up to 22 people. When you divide the cost across a group of 22, or across two or three families travelling together, the per-person cost is frequently lower than equivalent hotel rooms for the same group. Factor in the savings on restaurant meals (when you have a full kitchen, you cook breakfast and lunch at the villa) and the cost advantage of a villa often becomes significant. Families who have made this comparison honestly often find that the villa costs less in total while delivering a dramatically better experience.</p>
 
       <h2 style={s.h2}>Flexibility: No Timetable But Your Own</h2>
       <p style={s.p}>Hotels run on schedules. Breakfast ends at 10am. The pool closes at 7pm. Dinner service begins at 7pm. Checkout is at 11am regardless of when your flight departs. A private villa runs on your schedule. If the children want to swim at 8am before the sun is too strong, no one is stopping them. If you want a late dinner at 9:30pm on the terrace, you cook it and eat it when you are ready. If the baby naps until noon, you do not eat breakfast in shifts. The flexibility of a villa is not a luxury in the abstract sense. For families with young children, it is a practical necessity that makes the holiday noticeably less stressful.</p>

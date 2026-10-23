@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import PageCta from "@/components/PageCta";
+import StayWithUs from "@/components/StayWithUs";
 
 const TITLE = "Porto Rafti vs Mykonos vs Santorini: A 2026 Comparison for Families";
 const DESC = "An honest 2026 comparison of three Greek destinations for family holidays, by airport access, beach safety, peak-season crowding, accommodation cost, and day-trip range. Includes data sources and use-case recommendations.";
@@ -73,6 +74,13 @@ export default function Page() {
       <p style={s.intro}>
         Porto Rafti, Mykonos, and Santorini are three different value propositions. Mykonos is the brand-name nightlife and beach-club destination. Santorini is the visual-icon honeymoon and photography destination. Porto Rafti is the mainland family base, 20 minutes from Athens International Airport, with easy day trips to the Acropolis. This comparison is for families and groups who actually have to choose.
       </p>
+
+      <StayWithUs
+        source="vs-islands"
+        kicker="Choosing between the islands and the mainland?"
+        lead="No internal flight or ferry is needed to start the holiday, and Rafina port, with ferries to Mykonos, Andros and Tinos, is about 10 km from the house."
+        whatsappText="Hi, I found Villa Lithos through your Porto Rafti vs Mykonos vs Santorini comparison. I'd like to ask about availability for our group."
+      />
 
       <h2 style={s.h2}>What Each Destination Is, in One Paragraph</h2>
       <h3 style={s.h3}>Porto Rafti</h3>
