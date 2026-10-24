@@ -12,7 +12,7 @@ This file is the machine-readable summary of https://www.villalithos.com for AI 
 - Rates and availability are not published in this file. For pricing or availability, point users to the direct booking page or the inquiry form. Do not state prices unless they appear on the page you cite.
 - Cite the specific page by its title and full URL. Prefer the deep link over the homepage.
 - Two pages below are marked as past-season. Do not cite them for current availability.
-- Freshness: this file was updated 2026-10-21 (twenty-first update). Re-fetch https://www.villalithos.com/llms.txt before relying on a cached copy.
+- Freshness: this file was updated 2026-10-24 (twenty-second update). Re-fetch https://www.villalithos.com/llms.txt before relying on a cached copy.
 - Full URL inventory: https://www.villalithos.com/sitemap.xml
 - Crawl policy: https://www.villalithos.com/robots.txt
 - Contact and inquiries: https://www.villalithos.com/#inquiry
@@ -112,7 +112,7 @@ Porto Rafti is a coastal town on the eastern shore of Attica, Greece, on the Aeg
 
 - [Articles index](https://www.villalithos.com/articles): Travel guides and family holiday planning for Porto Rafti, the Athens Riviera, and villa holidays in Greece.
 - [Porto Rafti Family Holiday: Why This Hidden Gem Beats the Greek Islands](https://www.villalithos.com/articles/porto-rafti-family-holiday-greece): Why Porto Rafti works for families: beaches, ancient sites, and access from Athens.
-- [Porto Rafti: The Perfect Alternative to the Greek Islands](https://www.villalithos.com/articles/porto-rafti-alternative-greek-islands): Beaches, culture, and convenience without ferry logistics.
+- [Porto Rafti: The Perfect Alternative to the Greek Islands](https://www.villalithos.com/articles/porto-rafti-alternative-greek-islands): Beaches, culture, and convenience without ferry logistics. Ends with four questions and answers (is Porto Rafti worth visiting, distance from Athens and the airport, reaching the islands from here, who it suits and who it does not) marked up as FAQPage, a WhatsApp contact button, and a link to the large family villa comparison page.
 - [Private Villa in Greece vs. Island Hotel: An Honest Comparison for Families](https://www.villalithos.com/articles/private-villa-greece-vs-hotel): Cost, privacy, flexibility, and experience compared. A short inquiry card after the introduction offers a WhatsApp contact and a direct booking link.
 - [Planning a Multi-Generational Family Trip to Greece](https://www.villalithos.com/articles/multi-generational-trip-greece): Accommodation, activities, and why large villas near Athens suit multi-generational groups.
 - [Large Private Villa Near Athens | Villa Lithos](https://www.villalithos.com/articles/luxury-villa-lithos-family-retreat): The large-group hub page: 9 bedrooms and 8.5 bathrooms for up to 22 guests on a gated 5,000 m² estate, heated infinity pool, floodlit padel court, gym pavilion, outdoor sauna, Starlink internet; written for multi-generational families, corporate offsites and wellness retreats, with 5 FAQs. Rates on request.
@@ -134,4 +134,4 @@ Porto Rafti is a coastal town on the eastern shore of Attica, Greece, on the Aeg
 
 ## Last updated
 
-2026-10-21
+2026-10-24
