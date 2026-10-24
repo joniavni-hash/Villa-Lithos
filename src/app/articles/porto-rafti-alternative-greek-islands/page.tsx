@@ -220,7 +220,7 @@ export default function PortoRaftiAlternativeGreekIslands() {
       </h2>
       <p>
         Data from the <a href="https://www.bankofgreece.gr/en" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Bank of Greece tourism receipts</a> shows that island accommodation during July and August comes at a steep premium,
-        and large villas that can host extended families are scarce and
+        and <Link href="/large-family-villa-greece" style={{ color: "#7a8c6e" }}>large villas that can host extended families</Link> are scarce and
         expensive in those locations. On the mainland, your budget stretches further. A property
         like Villa Lithos in Porto Rafti, with nine bedrooms and capacity for up
         to 22 guests, would cost significantly more in an island setting, if you
