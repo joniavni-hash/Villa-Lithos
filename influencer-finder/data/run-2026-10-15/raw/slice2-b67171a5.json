@@ -1,0 +1,65 @@
+{
+ "spec": {
+  "id": "b67171a5",
+  "query": "\"מאסטרמיינד בחו\"ל\" \"הרשמה נפתחה\" 2026 OR 2027",
+  "language": "he",
+  "eventType": "executive_mastermind",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ "results": [
+  {
+   "url": "https://www.instagram.com/reel/C0hM3chNo-S",
+   "title": "Reel by Elad Shany (@shanyelad) · December 6, 2023",
+   "content": "אם הצעד הבא שלך זו סדנת מאסטרמיינד לעצמאיים/ות פרטים ושאלון הרשמה בביו ... ההרשמה נפתחה - קישור בתגובות -. October 11, 2024 ... © 2026 Instagram from Meta.",
+   "score": 0.5758033
+  },
+  {
+   "url": "https://www.instagram.com/p/Dd5sMZMCuu0",
+   "title": "סגרנו את החודש במפגש נטוורקינג ערב עסקי מעולה ✨ היה כל כך כיף ...",
+   "content": "September 29, 2026 : פתח את הראש (ואת היומן) מאסטרמיינד חודשי עם קרן דרורי @[יוזר].",
+   "score": 0.52290934
+  },
+  {
+   "url": "https://www.instagram.com/p/CzEgDemCeuF",
+   "title": "נעים מאוד שמי שירן אבקסיס הבעלים ומנכלית של VALUE GROUP.360 ...",
+   "content": "זה קורה ב 22.1.2026 יום חמישי בבוקר כל הפרטים וקישור הרשמה בביו #עסקים #כנס #2026 #mastermind #value360⁩. View all 2 comments · bluebear_agency. אנחנו גם",
+   "score": 0.47212428
+  },
+  {
+   "url": "https://www.instagram.com/reel/DS20hC3DLE5",
+   "title": "פרוייקט ONE התחיל מרגע אחד ביום. צילום אחד, בלי תכנון מוקדם ...",
+   "content": "מועד התכנית: מרץ 2026 - מרץ 2027 ⏰ דדליין להגשה: 15.2.26 פרטים נוספים והרשמה באתר - לינק בביו. January 11 · ladyv_art's profile picture",
+   "score": 0.22240484
+  },
+  {
+   "url": "https://www.instagram.com/reel/DVOg9UojOVu",
+   "title": "זוכרים את ארוחת הצהריים הקבועה של אשטרום אנרגיה מתחדשת בימי ...",
+   "content": "... מאסטרמיינד חודשיים עם קרן דרורי. הרשמה אצל קרן דרורי- 054-7830389 11.8 (שלישי) | 9:00-11:30: בוקר נטוורקינג והרחבה של עינת גולן. 24.8 (שני) | 20:00-22",
+   "score": 0.21660788
+  },
+  {
+   "url": "https://www.instagram.com/p/DXwzOHIDBs_",
+   "title": "כל הפרטים לקראת פתיחת המכירות לסיבוב ההופעות של אוליביה ...",
+   "content": "275 likes, 16 comments - sagi.concerts on April 30, 2026‎: \"כל הפרטים לקראת פתיחת המכירות לסיבוב ההופעות של אוליביה רודריגו!",
+   "score": 0.06393101
+  },
+  {
+   "url": "https://www.instagram.com/p/DVyrUxGDTUU",
+   "title": "הכישרון שלכם יכול להשפיע על חיים של אחרים! בואו להפוך את ...",
+   "content": "ממש כאן בבית - בשדרות בני ובנות 60+ אנחנו מחכים לכם בבוקר ההשקה החגיגי של המיזם עם תוכן וכלים חשובים! הרצאה של היזמית ואשת העסקים חנה רדו",
+   "score": 0.021518527
+  },
+  {
+   "url": "https://www.instagram.com/p/Dbqq65gCm1f",
+   "title": "9:00-11:30 | בוקר נטוורקינג והרחבה בוקר של חיבורים עסקיים ...",
+   "content": "Save the date~לו״ז אוגוסט המלא שמחכה לנו✨ ☕ 11.8 (שלישי) | 9:00-11:30 | בוקר נטוורקינג והרחבה בוקר של חיבורים עסקיים והרחבה עם עינת גולן",
+   "score": 0.019009009
+  }
+ ],
+ "fetchedAt": "2026-10-15T18:33:08Z"
+}

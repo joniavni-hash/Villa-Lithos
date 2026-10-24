@@ -1,0 +1,52 @@
+{
+ "batch": 32,
+ "candidates": [
+  {
+   "handle": "yogapilateslab",
+   "profileUrl": "https://www.instagram.com/yogapilateslab/",
+   "displayName": "YogaPilatesLab",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Fuerteventura, Canary Island, Spain",
+    "Antigua"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Would you love to join us from March 19th to 26th? Get in touch with us!"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeQsLYYCP8d",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "We'd love to show you the location hosting our March 2027 yoga retreat in Fuerteventura! 🧘‍♀️ A traditional house in Antigua, one of the oldest towns in Fuerteventura. A cozy, welcoming, quiet, and spacious villa close to everything The villa also features a private swimming pool Would you love to join us from March 19th to 26th? Get in touch with us! 🙏 Jeannette & Erika"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Yoga retreat in Fuerteventura",
+     "dates": "March 19th to 26th",
+     "location": "Antigua, Fuerteventura",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "YOGA RETREAT IN FUERTEVENTURA 19-26 March 2027",
+     "url": "https://www.instagram.com/p/DeQsLYYCP8d"
+    },
+    {
+     "title": "Ritiro yoga in Marocco",
+     "dates": "7 al 14 febbraio 2027",
+     "location": "Marocco",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "RITIRO YOGA IN MAROCCO Dal 7 al 14 febbraio 2027",
+     "url": "https://www.instagram.com/p/DeQsLYYCP8d"
+    }
+   ]
+  }
+ ]
+}

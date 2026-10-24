@@ -1,0 +1,294 @@
+{
+  "batch": 5,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "adventureyogi",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DdcB5rFMxwi"], "note": "Operates as 'Adventure Yoga & Wellness Holiday Company' and sells its own Almeria retreat; a holiday company picks its venues."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DdcB5rFMxwi"], "note": "First-person retreat announcement with 'Link in bio to book your spot'."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only a 3-10 October retreat is evidenced; no November-April dates."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No spots or group size stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price in evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DdcB5rFMxwi"], "note": "Branded as a holiday company, which implies a programme of retreats, but only one event is evidenced."},
+        "longStayPotential": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DdcB5rFMxwi"], "note": "Retreat runs 3-10 October, a week-long format."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DdcB5rFMxwi"], "note": "Yoga and wellness holidays abroad; aesthetics unknown."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DdcB5rFMxwi"], "note": "Sells paid retreat spots via booking link."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Profile data (bio, followers, website) missing from the pack; engagement on the reel is low (1 like on the visible comment)"],
+        "missingInformation": ["Price per person and group size", "Whether they run November-April retreats", "Home market (UK is implied by 'holiday company' wording but unverified)", "Follower count and website"],
+        "summary": "Adventure Yoga & Wellness Holiday Company runs its own yoga retreats abroad; the reel announces an Almeria, Spain retreat on 3-10 October with a booking link in bio. This is an organiser that chooses foreign venues and sells a week-long format, which matches the villa's minimum stay. No winter dates, prices or group sizes are in evidence, so winter capacity is unproven. Suggested approach: offer a pilot retreat for November-April once their programme calendar is confirmed."
+      },
+      "events": [
+        {"title": "Almeria, Spain yoga retreat (3-10 October)", "eventType": "yoga_retreat", "startDate": "2026-10-03", "endDate": "2026-10-10", "nights": 7, "location": "Almeria, Spain", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DdcB5rFMxwi"]}
+      ],
+      "profile": {"displayName": "Adventure Yoga & Wellness Holiday Company", "country": null, "languages": ["en"], "niche": "yoga and wellness holidays", "markets": ["GB"]}
+    },
+    {
+      "handle": "aimeedrost",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DdwBmoSCIcp"], "note": "She positions 'Rich & Regulated' as her own business retreat and chose Tenerife as the destination."},
+        "sellsRetreats": {"value": true, "confidence": 0.85, "evidenceUrls": ["https://www.instagram.com/p/DdwBmoSCIcp"], "note": "Application-only retreat, limited spots, payment plans, bonuses for sign-ups."},
+        "provenWinterActivity": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DdwBmoSCIcp"], "note": "Retreat dated November 9-13 (year not stated in excerpt), i.e. inside the November-April window."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "'Limited spots' without a number."},
+        "audiencePaysPremium": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DdwBmoSCIcp"], "note": "Targets business leaders, application-only with payment plans and EUR 2,000 of bonuses, which signals a high-ticket offer; the ticket price itself is not stated."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only one edition evidenced."},
+        "longStayPotential": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DdwBmoSCIcp"], "note": "November 9-13 is a 4-night format, matching the villa minimum."},
+        "brandFit": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DdwBmoSCIcp"], "note": "Ocean views, poolside integration, brand shoot and masterminding describe an upscale private-villa style event."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DdwBmoSCIcp"], "note": "Sells applications for a paid business retreat with payment plans."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Profile data (bio, followers, website) missing from the pack", "Year of the November retreat not stated in the excerpt"],
+        "missingInformation": ["Ticket price and number of spots", "Home market and audience location", "Whether this is a recurring annual retreat"],
+        "summary": "Aimee Drost sells 'Rich & Regulated', an application-only business retreat for leaders in Tenerife on November 9-13 with limited spots, payment plans and EUR 2,000 in bonuses. The format (ocean views, masterminding, breathwork, brand shoot, poolside sessions) is exactly the kind of private-villa business retreat the villa is positioned for, and the dates fall in the target winter window. Price, group size and home market are not in the evidence. Recommended: approach with a pilot winter retreat offer for the next edition."
+      },
+      "events": [
+        {"title": "Rich & Regulated business retreat, Tenerife (November 9-13)", "eventType": "leadership_retreat", "startDate": "2026-11-09", "endDate": "2026-11-13", "nights": 4, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DdwBmoSCIcp"]}
+      ],
+      "profile": {"displayName": "Aimee Drost", "country": null, "languages": ["en"], "niche": "business and leadership coaching retreats", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "alenascharfschwert_yoga.",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No venue-choosing evidence; only a local workshop poster."},
+        "sellsRetreats": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DZ_3dswBkzB"], "note": "Evidence is a local 'Yoga & Manifestation' workshop poster in Moenchengladbach, not a retreat."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only a 12 July 2026 workshop is referenced."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Single workshop evidenced."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["No retreat or travel evidence; local studio workshop only"],
+        "missingInformation": ["Whether she runs or plans residential retreats", "Follower count, audience size and pricing"],
+        "summary": "Alena Scharfschwert is a German yoga teacher (Moenchengladbach) whose only evidence is a poster for a local 'Yoga & Manifestation' workshop on 12 July 2026. There is no sign she organises residential retreats or chooses venues. Not actionable for the villa at this stage; revisit only if retreat activity appears."
+      },
+      "events": [
+        {"title": "Yoga & Manifestation workshop, Moenchengladbach", "eventType": "workshop", "startDate": "2026-07-12", "endDate": "2026-07-12", "nights": 0, "location": "Moenchengladbach", "country": "DE", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DZ_3dswBkzB"]}
+      ],
+      "profile": {"displayName": "Alena Scharfschwert Yoga", "country": "DE", "languages": ["de"], "niche": "local yoga teacher", "markets": ["DE"]}
+    },
+    {
+      "handle": "alldreamsportcenter.",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DZr7Sr6iGQU"], "note": "A sports centre running its own summer training camp on site."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DZr7Sr6iGQU"], "note": "Sells a summer 2026 training camp at a sports centre, not a retreat."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Summer camp only."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Camp prices appear in heuristic hints only, not in the evidence excerpt."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DZr7Sr6iGQU"], "note": "Local sports-centre camp audience, not a luxury retreat audience."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account"],
+        "missingInformation": [],
+        "summary": "All Dream Sport Center is a sports facility in Kfar Saba, Israel, advertising its summer 2026 training camp ('machane imunim') with early registration. This is a local sports camp, not a retreat organiser, and it runs on its own premises. Not relevant for the villa."
+      },
+      "events": [
+        {"title": "ALLDREAM SPORT CENTER summer training camp 2026", "eventType": "fitness_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Kfar Saba", "country": "IL", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DZr7Sr6iGQU"]}
+      ],
+      "profile": {"displayName": "All Dreams Sport Center", "country": "IL", "languages": ["he"], "niche": "local sports centre", "markets": ["IL"]}
+    },
+    {
+      "handle": "alphaministries_",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Retreat location not stated; a church ministry may use fixed denominational facilities."},
+        "sellsRetreats": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DeKzqsTjFFl"], "note": "Own retreats with registration deadline and 'register now' link in bio."},
+        "provenWinterActivity": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DeKzqsTjFFl"], "note": "Alpha Women's Retreat November 6-7, 2026; Remain Retreat October 30 - November 1, 2026."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing; church retreats are typically low-cost."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DeKzqsTjFFl"], "note": "Two separate retreats within two weeks."},
+        "longStayPotential": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DeKzqsTjFFl"], "note": "1-2 night weekend formats."},
+        "brandFit": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DeKzqsTjFFl"], "note": "Religious ministry weekend retreats, not a luxury-villa audience."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DeKzqsTjFFl"], "note": "Paid/registered events implied by a registration deadline."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Church ministry running short local weekend retreats; location and country not stated (likely domestic)", "Formats of 1-2 nights are below the villa minimum stay"],
+        "missingInformation": ["Country and venue of the retreats", "Pricing and group size", "Any history of travelling abroad for retreats"],
+        "summary": "Alpha Ministries organises its own church retreats: 'Remain Retreat' on October 30 - November 1, 2026 and the 'Alpha Women's Retreat' on November 6-7, 2026, both with registration via link in bio. Dates fall in the winter window, but the formats are 1-2 night weekend ministry events of unknown location and budget. Fit with a private luxury villa in Greece is weak and the group size is unknown. Low priority; treat as an organiser in name only."
+      },
+      "events": [
+        {"title": "Remain Retreat", "eventType": "personal_development_retreat", "startDate": "2026-10-30", "endDate": "2026-11-01", "nights": 2, "location": null, "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DeKzqsTjFFl"]},
+        {"title": "Alpha Women's Retreat", "eventType": "womens_retreat", "startDate": "2026-11-06", "endDate": "2026-11-07", "nights": 1, "location": null, "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DeKzqsTjFFl"]}
+      ],
+      "profile": {"displayName": "Alpha Ministries", "country": null, "languages": ["en"], "niche": "church ministry retreats", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "arhatic_yoga_retreat",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/arhatic_yoga_retreat?hl=en"], "note": "Dedicated account for an Arhatic Yoga retreat held in Tomar, Portugal, with its own landing page; the organisers selected the town."},
+        "sellsRetreats": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/arhatic_yoga_retreat?hl=en"], "note": "Account exists to promote its own 2026 retreat (landing page 'retiro-arhatic-yoga-2026'); no registration or price text in the excerpt."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dates in evidence."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Posts from September 2025 and a 2026 landing page hint at more than one edition, but not verifiable."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Arhatic Yoga (Pranic Healing lineage) retreat; aesthetics unknown."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Single-event promotional account; Portuguese-language audience (Portugal/Brazil) outside the preferred markets", "No dates, prices or group size anywhere in the evidence"],
+        "missingInformation": ["Who the organising body is (person vs. Pranic Healing organisation)", "Retreat dates, duration, price and group size", "Whether they would hold editions outside Portugal"],
+        "summary": "This is a dedicated Instagram account for an 'Arhatic Yoga Retreat in Portugal' held in Tomar, with a 2026 landing page. It behaves like an organiser's event account, but the pack contains no dates, prices, group size or registration language, and the audience is Portuguese-speaking. Treat as a weak organiser lead; verify the organising body and calendar before any outreach."
+      },
+      "events": [
+        {"title": "Arhatic Yoga Retreat in Portugal (Tomar), 2026 edition", "eventType": "yoga_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Tomar, Portugal", "country": "PT", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/arhatic_yoga_retreat?hl=en"]}
+      ],
+      "profile": {"displayName": "ARHATIC YOGA RETREAT in Portugal", "country": "PT", "languages": ["pt"], "niche": "Arhatic yoga retreat", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "art_fuel_studio",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DcyrklzROHn"], "note": "Runs its own 'Composition Lab retreats' and took the 2026 edition to Portugal."},
+        "sellsRetreats": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DcyrklzROHn"], "note": "'Our 2026 Composition Lab retreats', 'everyone who said yes and joined us', '2027 announcements loading'."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dates in evidence."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Group size not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DcyrklzROHn"], "note": "Plural 'retreats' in 2026 and 2027 editions being announced."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Duration not stated."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DcyrklzROHn"], "note": "Art retreats for a community of artists in scenic European locations."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DcyrklzROHn"], "note": "Completed a programme of paid retreats in 2026."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Profile data (bio, followers, website) missing from the pack"],
+        "missingInformation": ["Retreat dates, duration, price and group size", "Home market of the studio and its participants", "2027 destinations under consideration"],
+        "summary": "Art Fuel Studio runs its own 'Composition Lab' art retreats; the reel wraps the 2026 retreats held in Portugal and teases 2027 announcements. It is an organiser that travels abroad with a loyal artist community and plans a year ahead, which makes the 2027 planning window relevant. Dates, duration, prices and group size are not in evidence. Worth contacting with a pilot offer for a 2027 edition in Greece."
+      },
+      "events": [
+        {"title": "Composition Lab retreat 2026, Portugal", "eventType": "workshop", "startDate": null, "endDate": null, "nights": null, "location": "Portugal", "country": "PT", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DcyrklzROHn"]}
+      ],
+      "profile": {"displayName": "Art Fuel Studio", "country": null, "languages": ["en"], "niche": "art retreats for artists", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "ashtangayogaantibes",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/Dd0puRrCH4d"], "note": "Trainings run at the studio's own premises (3030 chemin Saint-Bernard, Vallauris)."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/Dd0puRrCH4d"], "note": "Sells teacher-training modules at its own centre, not residential retreats."},
+        "provenWinterActivity": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/Dd0puRrCH4d"], "note": "Dated winter modules (200H: 26-30 Dec 2026, Jan-Apr 2027 weekends; Yin 50H: 31 Oct-1 Nov, 7-8 Nov, 14-15 Nov) but all are non-residential modules at the studio."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing in evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/Dd0puRrCH4d"], "note": "Training centre for over 12 years with a 2026/2027 module calendar."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/Dd0puRrCH4d"], "note": "Weekend modules; no residential format."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/Dd0puRrCH4d"], "note": "Established paid teacher trainings for 12+ years."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Studio/training centre running modules at its own premises; no residential retreat evidence"],
+        "missingInformation": ["Whether the school runs any residential retreats or intensives abroad", "Module pricing and cohort size"],
+        "summary": "Ashtanga Yoga Antibes (AYA) is an established yoga training centre in Vallauris, France, publishing its 2026/2027 teacher-training calendar: a 200H course from December 2026 to May 2027 and a 50H Yin module in late October-November 2026. All sessions are weekend modules at its own premises, so it does not choose external venues. The winter dates are real but not retreat activity. Only relevant if the school ever runs residential intensives; no action now."
+      },
+      "events": [
+        {"title": "Formation Professeur 200H (AYA), Dec 2026 - May 2027", "eventType": "teacher_training", "startDate": "2026-12-26", "endDate": "2027-05-09", "nights": null, "location": "Ashtanga Yoga Antibes, Vallauris", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/Dd0puRrCH4d"]},
+        {"title": "Yin Yoga 50H Module 1 (AYA)", "eventType": "teacher_training", "startDate": "2026-10-31", "endDate": "2026-11-15", "nights": null, "location": "Ashtanga Yoga Antibes, Vallauris", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/Dd0puRrCH4d"]}
+      ],
+      "profile": {"displayName": "Ashtanga Yoga Antibes", "country": "FR", "languages": ["fr"], "niche": "yoga teacher training studio", "markets": ["FR"]}
+    },
+    {
+      "handle": "bucketlistretreatstm",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/bucketlistretreatstm"], "note": "A retreat planner offering 'Bucket List locations + Seamless Planning' influences venue selection for its clients."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/bucketlistretreatstm"], "note": "Plans retreats for coaches and creators rather than selling its own."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events or dates in evidence."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/bucketlistretreatstm"], "note": "Positions on aspirational 'bucket list' locations."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Claims 20+ years business experience but no retreat track record shown."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["No follower count, website or past-retreat evidence in the pack; the account may be new or small"],
+        "missingInformation": ["Follower count and client list", "Markets served (likely North America)", "Commission or partnership model"],
+        "summary": "Bucket List Retreats ('Coaches & Creators') is a retreat-planning service helping coaches and creators turn ideas into retreats at 'bucket list locations'. It does not run its own retreats but sits between organisers and venues, so it is a channel rather than a direct booker. No track record, followers or client examples are in evidence. Suitable for a referral partnership conversation if its audience proves to be real."
+      },
+      "events": [],
+      "profile": {"displayName": "Coaches & Creators (Bucket List Retreats)", "country": null, "languages": ["en"], "niche": "retreat planning service for coaches and creators", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "camille_soustra",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DZNg3uTs4KI"], "note": "Chose Bali for her own women's retreat and sells it directly."},
+        "sellsRetreats": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DZNg3uTs4KI"], "note": "Dated retreat, EUR 1,499 price, EUR 150 deposit, 'les inscriptions sont ouvertes'."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only an October 22-29, 2026 retreat is evidenced."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No spots stated."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DZNg3uTs4KI"], "note": "EUR 1,499 for a 7-night Bali retreat is mid-market rather than premium."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Single edition evidenced."},
+        "longStayPotential": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DZNg3uTs4KI"], "note": "7-night format."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DZNg3uTs4KI"], "note": "Women-only transformational retreat; aesthetics unknown."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DZNg3uTs4KI"], "note": "Public price and deposit-based booking."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Profile data (bio, followers, website) missing from the pack", "Price point (EUR 1,499 per week) leaves a limited venue budget for a premium villa"],
+        "missingInformation": ["Group size and sell-through", "Whether she runs winter editions", "Follower count"],
+        "summary": "Camille Soustra sells a women-only retreat in Bali from 22 to 29 October 2026 at EUR 1,499 per person with a EUR 150 booking deposit; registration is open. She is a French-speaking organiser who picks her own destinations and handles sales directly. No winter dates or group sizes are in evidence and the price point is mid-market. A pilot winter retreat near Athens could be pitched as a shorter-haul alternative to Bali for her French audience."
+      },
+      "events": [
+        {"title": "Camille a Bali - retraite 100% femmes", "eventType": "womens_retreat", "startDate": "2026-10-22", "endDate": "2026-10-29", "nights": 7, "location": "Bali", "country": "ID", "groupSize": null, "pricePerPerson": 1499, "currency": "EUR", "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DZNg3uTs4KI"]}
+      ],
+      "profile": {"displayName": "Camille Soustra", "country": "FR", "languages": ["fr"], "niche": "women's transformational retreats", "markets": ["FR"]}
+    },
+    {
+      "handle": "campamichai.",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DSH4Y6fjK4a"], "note": "A residential children's summer camp with a fixed site."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DSH4Y6fjK4a"], "note": "Sells places at a summer camp for children (1-20 July 2026), not a retreat."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Summer only."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DSH4Y6fjK4a"], "note": "Annual summer camp (registration for summer 5786)."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DSH4Y6fjK4a"], "note": "Youth camp, not a retreat audience."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account"],
+        "missingInformation": [],
+        "summary": "Camp Amichai is an Israeli residential summer camp for youth; the post opens registration for summer 5786 (1-20 July 2026) with an early-bird price. It is an off-topic youth camp, not a retreat organiser, and has no relevance to a winter villa booking."
+      },
+      "events": [
+        {"title": "Camp Amichai summer camp 5786", "eventType": "long_stay_program", "startDate": "2026-07-01", "endDate": "2026-07-20", "nights": 19, "location": "Israel", "country": "IL", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DSH4Y6fjK4a"]}
+      ],
+      "profile": {"displayName": "Machane Amichai", "country": "IL", "languages": ["he"], "niche": "youth summer camp", "markets": ["IL"]}
+    },
+    {
+      "handle": "cfpc.cmfc",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DcTmfOhj-tj"], "note": "The association announces a 'location launch video' for its 2027 Physician Wellness Retreat, i.e. it selects the venue."},
+        "sellsRetreats": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DcTmfOhj-tj"], "note": "Own retreat with waitlist ahead of registration."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "2027 event dates not stated."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Group size unknown; a national association event is likely much larger than 18."},
+        "audiencePaysPremium": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DcTmfOhj-tj"], "note": "Physician audience with high purchasing power."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DcTmfOhj-tj"], "note": "Naming a '2027' edition suggests an annual series; prior editions not shown."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DcTmfOhj-tj"], "note": "Registration-based paid event implied."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Professional association (College of Family Physicians of Canada) with institutional procurement; event likely North American and larger than villa capacity"],
+        "missingInformation": ["2027 retreat location, dates and attendee count", "Whether international venues are ever considered"],
+        "summary": "CFPC/CMFC (the College of Family Physicians of Canada) is building a waitlist for its 2027 Physician Wellness Retreat and has published a location launch video. It is an institutional organiser of a wellness retreat with a high-income audience, but the event is almost certainly North American and sized well beyond an 18-guest villa. Not a realistic booker for Greece; keep only as a long-shot reference."
+      },
+      "events": [
+        {"title": "2027 Physician Wellness Retreat (CFPC)", "eventType": "wellness_retreat", "startDate": null, "endDate": null, "nights": null, "location": null, "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DcTmfOhj-tj"]}
+      ],
+      "profile": {"displayName": "CFPC CMFC", "country": "CA", "languages": ["en", "fr"], "niche": "medical professional association", "markets": ["CA"]}
+    }
+  ]
+}

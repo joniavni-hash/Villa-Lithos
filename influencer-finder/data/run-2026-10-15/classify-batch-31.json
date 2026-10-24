@@ -1,0 +1,344 @@
+{
+ "batch": 31,
+ "candidates": [
+  {
+   "handle": "storyknife_writers_retreat",
+   "profileUrl": "https://www.instagram.com/storyknife_writers_retreat/",
+   "displayName": "Storyknife Writers Retreat",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Applications are in for 2027!"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/storyknife_writers_retreat",
+     "kind": "profile",
+     "title": "Storyknife Writers Retreat (@storyknife_writers_retreat) • Instagram photos and videos",
+     "excerpt": "Photo by Storyknife Writers Retreat on September 01, 2026. May be an image of poster and text that says 'Storyknife Applications are in for 2027! Notifications will go out in early November.'"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "surf_spirit",
+   "profileUrl": "https://www.instagram.com/surf_spirit/",
+   "displayName": "Surf & Yoga Retreats",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/Da-vp_8RRWJ",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Never miss a post from surf_spirit [...] Video by Surf & Yoga Retreats on July 19, 2026. May be an image of poster and wetsuit. surf_spirit • Follow"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "teachjivamukti",
+   "profileUrl": "https://www.instagram.com/teachjivamukti/",
+   "displayName": "Teach Jivamukti Yoga",
+   "bio": "A path to enlightenment through compassion for all beings. Inspired in India, founded in NYC. @jivamuktiyoga",
+   "followers": 4029,
+   "website": "linktr.ee/teachjivamukti",
+   "locationHints": [
+    "India",
+    "NYC",
+    "Italy"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/teachjivamukti",
+     "kind": "profile",
+     "title": "Teach Jivamukti Yoga (@teachjivamukti) • Instagram photos and videos",
+     "excerpt": "4,029 followers 580 following Teach Jivamukti Yoga A path to enlightenment through compassion for all beings. Inspired in India, founded in NYC. @jivamuktiyoga linktr.ee/teachjivamukti highlight: India 2026 HYBRID 25 India 2025 Italy 2022"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "India 2026",
+     "dates": "2026",
+     "location": "India",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "India 2026",
+     "url": "https://www.instagram.com/teachjivamukti"
+    }
+   ]
+  },
+  {
+   "handle": "tenerifefirstexcursionss",
+   "profileUrl": "https://www.instagram.com/tenerifefirstexcursionss/",
+   "displayName": "Tenerife First Excursions",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Tenerife"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DWZuk9ejPFG",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "@tenerifepadelholidays are as good as it gets for Padel players, blue skies, palm trees, padel and everything else in between #tenerife #TenerifeFirstExcursions #Padel"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "theisraelistudents",
+   "profileUrl": "https://www.instagram.com/theisraelistudents/",
+   "displayName": "התאחדות הסטודנטים והסטודנטיות",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "לינק להרשמה בביו"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DWQ7nJjjJYQ",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "ריטריט לסטודנטים/ות בלבד ב400 ש״ח לכל הסופ״ש? ריטריט הקשבה - סופ״ש של סדנאות, חיבורים ואנשים טובים מכל הארץ. לינק להרשמה בביו >>"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "ריטריט הקשבה",
+     "dates": null,
+     "location": null,
+     "price": "400 ש״ח לכל הסופ״ש",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "ריטריט לסטודנטים/ות בלבד ב400 ש״ח לכל הסופ״ש?",
+     "url": "https://www.instagram.com/reel/DWQ7nJjjJYQ"
+    }
+   ]
+  },
+  {
+   "handle": "theperchplace",
+   "profileUrl": "https://www.instagram.com/theperchplace/",
+   "displayName": "the perch",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "#aurorail"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Register now",
+    "get our best rate when you register by October 31"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Deb5gcEs25V",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Register now for our New Year Reset Retreat and choose your date: January 2 or 9. Our biggest event of the year is almost here! It's so big, we offer it twice! Pick your weekend now and get our best rate when you register by October 31."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "New Year Reset Retreat",
+     "dates": "January 2 or 9",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Register now for our New Year Reset Retreat and choose your date: January 2 or 9.",
+     "url": "https://www.instagram.com/p/Deb5gcEs25V"
+    }
+   ]
+  },
+  {
+   "handle": "theyogagau",
+   "profileUrl": "https://www.instagram.com/theyogagau/",
+   "displayName": "Yoga Gau ॐ ( Yoga Teacher  Trainings )",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DYPVojigogg",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "More posts from theyogagau Photo by Bipin Bartwal 🌞 | Baba | on September 11, 2026. Photo by Yoga Gau ॐ ( Yoga Teacher Trainings ) on August 28, 2026."
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "tn_housing",
+   "profileUrl": "https://www.instagram.com/tn_housing/",
+   "displayName": "TN Housing Development Agency",
+   "bio": null,
+   "followers": null,
+   "website": "tnhousingconference.com",
+   "locationHints": [
+    "Nashville, Tennessee"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Ddbf7YVir8N",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Early bird registration is now OPEN for the 2027 TN Housing Conference in Nashville! TNHC Tennessee Housing Conference February 9th-10th, 2027 Registration Ends January 25"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "tracyverdugo",
+   "profileUrl": "https://www.instagram.com/tracyverdugo/",
+   "displayName": "Tracy Verdugo⁣ 💫 🎨",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "France",
+    "Portugal"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "DM me if you’d like to know more"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DayTQTAuqKa",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Pretty sure an art retreat will change your life. Would love to see you in France or Portugal next year! DM me if you’d like to know more ❤️🎨💫"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "art retreat France or Portugal",
+     "dates": "next year",
+     "location": "France or Portugal",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Would love to see you in France or Portugal next year! DM me if you’d like to know more",
+     "url": "https://www.instagram.com/reel/DayTQTAuqKa"
+    }
+   ]
+  },
+  {
+   "handle": "vilafoia",
+   "profileUrl": "https://www.instagram.com/vilafoia/",
+   "displayName": "VilaFoia - Retreat Venue & B&B",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Portugal"
+   ],
+   "accountType": "venue",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DP15-ULiJ8l",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "More posts from vilafoia Video by VilaFoia - Retreat Venue & B&B on October 14, 2026. Photo by 2RidePortugal Guided Motorcycle Tours on October 12, 2026."
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "villierssurorge",
+   "profileUrl": "https://www.instagram.com/villierssurorge/",
+   "displayName": "Ville de Villiers-sur-Orge",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Arpajon"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DdDq-WTCoh9",
+     "kind": "post",
+     "title": "Ateliers « Bienvenue à la retraite » : La retraite approche ...",
+     "excerpt": "🎉 Ateliers « Bienvenue à la retraite » : Les ateliers c'est : 📅 7 demi-journées de septembre à décembre 2026 autour de la santé, du bien-être, des loisirs, des projets et de la vie à la retraite."
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "yogachikitsamama",
+   "profileUrl": "https://www.instagram.com/yogachikitsamama/",
+   "displayName": "Jessica Lynne Trese",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Krabi, Thailand"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Registration opens today",
+    "Spaces are limited",
+    "Register now"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DY67uSICRxo",
+     "kind": "post",
+     "title": "THAILAND is next!! Registration opens today for Our ...",
+     "excerpt": "THAILAND is next!! Registration opens today for Our Thailand Yoga Retreat 2027 ✨🌿 Join us Jan 4-11, 2027 for deep practice, mindful movement, and serene reflection 📅 Dates: Jan 4-11, 2027 📍 Location: Krabi, Thailand 🧘 Hosted by: @ashtangaacademy @cedaryoga"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Thailand Yoga Retreat 2027",
+     "dates": "Jan 4-11, 2027",
+     "location": "Krabi, Thailand",
+     "price": null,
+     "spots": null,
+     "role": "co_host",
+     "excerpt": "📅 Dates: Jan 4-11, 2027 📍 Location: Krabi, Thailand 🧘 Hosted by: @ashtangaacademy @cedaryoga",
+     "url": "https://www.instagram.com/p/DY67uSICRxo"
+    }
+   ]
+  }
+ ]
+}
