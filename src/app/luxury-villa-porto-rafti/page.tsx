@@ -8,7 +8,7 @@ const H1 = "Luxury Villa Rental in Porto Rafti, Greece: A 9-Bedroom Private Esta
 const DESC = "Luxury villa rental in Porto Rafti, Attica: a 9-bedroom private estate for 22 guests, 16 km from Athens airport, with heated infinity pool, padel court, sauna and elevator.";
 const URL = "https://www.villalithos.com/luxury-villa-porto-rafti";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-09-29";
+const MODIFIED = "2026-10-26";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -74,7 +74,7 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <h1 style={s.h1}>{H1}</h1>
-      <span style={s.meta}>Last updated: September 2026 · 12 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: October 2026 · 12 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
         <strong>Villa Lithos Porto Rafti</strong> is a 9-bedroom, 800 m² luxury villa rental on a 5,000 m² private estate in Porto Rafti, Attica, Greece, located 16 km from Athens International Airport (a 20-minute drive). The property sleeps 22 guests across nine bedrooms and 8.5 bathrooms, with a heated infinity pool, outdoor sauna, jacuzzi, padel court, private gym, and elevator. It is the largest private villa near Athens available for whole-estate rental in the Porto Rafti area, bookable on Booking.com, Airbnb, and direct, and it doubles as a <Link href="/articles/wellness-retreats-greece-mainland" style={{ color: "#7a8c6e" }}>fitness and wellness retreat venue</Link> and a <Link href="/corporate-retreats" style={{ color: "#7a8c6e" }}>corporate retreat venue near Athens</Link>.
@@ -198,7 +198,7 @@ export default function Page() {
 
       <h2 style={s.h2}>Booking and Practicalities</h2>
       <p style={s.p}>
-        Villa Lithos can be booked direct through <a href="https://www.villalithos.com/#inquiry">villalithos.com</a>, via Guesty at <a href="https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72" target="_blank" rel="noopener">Goldenberg Luxe</a>, on <a href="https://www.booking.com/hotel/gr/villa-lithos-porto-rafti.html" target="_blank" rel="nofollow noopener">Booking.com</a>, and on <a href="https://airbnb.com/h/lithoss" target="_blank" rel="nofollow noopener">Airbnb</a>. Direct booking typically offers the most flexibility on dates and access to bespoke concierge services. Check-in is from 15:00 and check-out is until 10:00, with flexibility subject to the booking calendar. Pets are not allowed, smoking is not allowed inside, and the standard rate covers daily housekeeping. Private chefs, yacht charters, transfers, and themed experiences are arranged separately through the concierge team.
+        Villa Lithos can be booked direct through <a href="https://www.villalithos.com/#inquiry">villalithos.com</a>, via Guesty at <a href="https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72" target="_blank" rel="noopener">Goldenberg Luxe</a>, on <a href="https://www.booking.com/hotel/gr/villa-lithos-porto-rafti.html" target="_blank" rel="nofollow noopener">Booking.com</a>, and on <a href="https://airbnb.com/h/lithoss" target="_blank" rel="nofollow noopener">Airbnb</a>. Direct booking typically offers the most flexibility on dates and access to bespoke concierge services. Check-in is from 15:00 and check-out is until 10:00, with flexibility subject to the booking calendar. Pets are not allowed, smoking is not allowed inside, and daily housekeeping is available on request. Private chefs, yacht charters, transfers, and themed experiences are arranged separately through the concierge team.
       </p>
 
       <h2 style={s.h2}>Related Reading</h2>
@@ -216,7 +216,7 @@ export default function Page() {
         <PageCta path="/luxury-villa-porto-rafti" style={s.cta} />
       </div>
 
-      <p style={s.updated}>Last updated: 29 September 2026. Sources: <a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener">Wikipedia, Porto Rafti</a>, <a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Athens International Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, <a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener">Hellenic Statistical Authority</a>, <a href="https://skift.com/" target="_blank" rel="nofollow noopener">Skift</a>, <a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener">Phocuswright</a>.</p>
+      <p style={s.updated}>Last updated: 26 October 2026. Sources: <a href="https://en.wikipedia.org/wiki/Porto_Rafti" target="_blank" rel="nofollow noopener">Wikipedia, Porto Rafti</a>, <a href="https://en.wikipedia.org/wiki/Athens_International_Airport" target="_blank" rel="nofollow noopener">Wikipedia, Athens International Airport</a>, <a href="https://www.visitgreece.gr/" target="_blank" rel="nofollow noopener">Visit Greece</a>, <a href="https://www.hellenicstat.gr/" target="_blank" rel="nofollow noopener">Hellenic Statistical Authority</a>, <a href="https://skift.com/" target="_blank" rel="nofollow noopener">Skift</a>, <a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener">Phocuswright</a>.</p>
 
       <Link href="/" style={s.back}>&larr; Back to Villa Lithos home</Link>
     </article>
