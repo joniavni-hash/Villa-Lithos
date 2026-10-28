@@ -249,7 +249,7 @@ export default function Page() {
         <li style={s.li}><Link href="/villas-near-athens-airport" style={{ color: "#7a8c6e" }}>Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto Rafti</Link></li>
         <li style={s.li}><Link href="/porto-rafti-vs-mykonos-vs-santorini" style={{ color: "#7a8c6e" }}>Porto Rafti vs Mykonos vs Santorini, 2026 Comparison</Link></li>
         <li style={s.li}><Link href="/articles/multi-generational-trip-greece" style={{ color: "#7a8c6e" }}>Planning a Multi-Generational Family Trip to Greece</Link></li>
-        <li style={s.li}><Link href="/plan-a-group-stay" style={{ color: "#7a8c6e" }}>Plan a Group Stay for 10 to 22 in Greece: Rooms, Beds and a Sample Schedule</Link></li>
+        <li style={s.li}><Link href="/plan-a-group-stay" style={{ color: "#7a8c6e" }}>Group retreats in Greece for 10 to 22: rooms, beds and a sample schedule</Link></li>
       </ul>
 
       <div style={s.ctaBox}>
@@ -258,7 +258,7 @@ export default function Page() {
         <PageCta path="/large-family-villa-greece" style={s.cta} />
       </div>
 
-      <p style={s.updated}>Last updated: 14 October 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>
+      <p style={s.updated}>Last updated: 28 October 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>
 
       <Link href="/" style={s.back}>&larr; Back to Villa Lithos home</Link>
     </article>
