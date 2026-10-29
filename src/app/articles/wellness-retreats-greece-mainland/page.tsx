@@ -191,7 +191,7 @@ export default function Page() {
       <span style={s.meta}>Last updated: October 2026 · 13 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
-        The Greek wellness travel category has grown rapidly since 2022, and fitness retreats have grown with it. Mainland Greece, particularly the Athens Riviera and East Attica, has emerged as an alternative to the established island spa resorts for both. This guide compares the two practical formats, dedicated wellness resorts and private villas with full training and wellness amenities, identifies when each is the right choice for a group, a family, or a corporate retreat, and sets out the <a href="#fitness-facilities" style={{ color: "#7a8c6e" }}>exact fitness facilities</a> a facilitator can plan around at Villa Lithos Porto Rafti. If you are looking for the venue itself, see our <Link href="/wellness-retreat-villa-greece" style={{ color: "#7a8c6e" }}>luxury wellness retreat villa in Greece</Link>; padel groups have their own <Link href="/padel-villa-athens" style={{ color: "#7a8c6e" }}>padel villa near Athens</Link> page.
+        The Greek wellness travel category has grown rapidly since 2022, and fitness retreats have grown with it. Mainland Greece, particularly the Athens Riviera and East Attica, has emerged as an alternative to the established island spa resorts for both. This guide compares the two practical formats, dedicated wellness resorts and private villas with full training and wellness amenities, identifies when each is the right choice for a group, a family, or a corporate retreat, and sets out the <a href="#fitness-facilities" style={{ color: "#7a8c6e" }}>exact fitness facilities</a> a facilitator can plan around at Villa Lithos Porto Rafti. If you are looking for the venue itself, see our <Link href="/wellness-retreat-villa-greece" style={{ color: "#7a8c6e" }}>luxury wellness retreat villa in Greece</Link>; padel groups have their own <Link href="/padel-villa-athens" style={{ color: "#7a8c6e" }}>padel villa near Athens</Link> page, and organisers of <Link href="/plan-a-group-stay" style={{ color: "#7a8c6e" }}>group retreats in Greece</Link> for 10 to 22 can see who sleeps where on the room-by-room planning page.
       </p>
 
       <StayWithUs
@@ -224,7 +224,7 @@ export default function Page() {
         The newer format is a private villa rental with on-site amenities matching what a wellness resort offers, combined with a bespoke programme arranged by the villa management. The advantages are group capacity, dietary flexibility, schedule control, and privacy. The disadvantages are that the responsibility for organising practitioners (yoga instructor, masseuse, nutritionist) shifts from the resort to the villa concierge.
       </p>
       <p style={s.p}>
-        For groups of 10 to 22 guests, the villa format is usually the only realistic option. Resort programmes rarely scale beyond 10 shared participants.
+        For groups of 10 to 22 guests, the villa format is usually the only realistic option. Resort programmes rarely scale beyond 10 shared participants. The <Link href="/plan-a-group-stay" style={{ color: "#7a8c6e" }}>group stay planning page</Link> lists every bedroom, bed and bathroom with four rooming splits.
       </p>
 
       <h2 style={s.h2}>What a Wellness-Ready Villa Should Have</h2>
@@ -401,6 +401,7 @@ export default function Page() {
 
       <h2 style={s.h2}>Sources and Further Reading</h2>
       <ul style={s.ul}>
+        <li style={s.li}><Link href="/plan-a-group-stay" style={{ color: "#7a8c6e" }}>Group retreats in Greece for 10 to 22: rooms, beds and a sample schedule</Link>, the organiser's room-by-room page</li>
         <li style={s.li}><a href="https://globalwellnessinstitute.org/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Global Wellness Institute</a>, wellness tourism market data</li>
         <li style={s.li}><a href="https://skift.com/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Skift</a>, wellness travel trends and behaviour shifts</li>
         <li style={s.li}><a href="https://www.phocuswright.com/" target="_blank" rel="nofollow noopener" style={{ color: "#7a8c6e" }}>Phocuswright</a>, travel industry research</li>
@@ -416,7 +417,7 @@ export default function Page() {
         <PageCta path="/articles/wellness-retreats-greece-mainland" style={s.cta} whatsappLabel="Ask about a retreat on WhatsApp" whatsappText="Hi, I'm organizing a retreat and would like to ask about availability at Villa Lithos." />
       </div>
 
-      <p style={s.updated}>Last updated: 17 October 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+      <p style={s.updated}>Last updated: 28 October 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
 
       <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     </article>

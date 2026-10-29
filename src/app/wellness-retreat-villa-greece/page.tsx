@@ -270,7 +270,7 @@ export default function Page() {
         ))}
       </div>
       <p style={{ ...s.sub, marginTop: 18 }}>
-        Who sleeps where, room by room, is on the <Link href="/plan-a-group-stay" style={s.link}>group-stay planning page</Link>. For team
+        Who sleeps where, room by room, is on our page for <Link href="/plan-a-group-stay" style={s.link}>group retreats in Greece</Link>, with four rooming splits and a sample schedule. For team
         offsites see the <Link href="/corporate-retreats" style={s.link}>corporate retreat venue</Link> page. Groups built around the
         court have their own page: <Link href="/padel-villa-athens" style={s.link}>private padel villa near Athens</Link>.
       </p>
@@ -325,7 +325,7 @@ export default function Page() {
       </div>
 
       <p style={s.updated}>
-        Last updated 10 October 2026. Winter sunshine and temperature figures: Open-Meteo historical data (ERA5), {WINTER_STATS.period}.
+        Last updated 28 October 2026. Winter sunshine and temperature figures: Open-Meteo historical data (ERA5), {WINTER_STATS.period}.
       </p>
     </div>
   );
