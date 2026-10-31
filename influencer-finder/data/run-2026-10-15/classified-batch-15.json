@@ -1,0 +1,1308 @@
+{
+ "batch": 15,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "skyretreats",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Evidence only shows Gran Canaria; whether that is a fixed base or a chosen venue is not stated."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdtXMAQlBGT"
+     ],
+     "note": "'Our last spots are going fast and we want you to join us'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdtXMAQlBGT"
+     ],
+     "note": "Pilates week on 12-19 December in Gran Canaria (year not stated)."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'Last spots' without a count."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdtXMAQlBGT"
+     ],
+     "note": "One-week format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdtXMAQlBGT"
+     ],
+     "note": "Pilates plus adventures week; small-group active format."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Pitch relies on Gran Canaria's winter warmth ('it'll be cold again, except here'); Attica in December is cooler",
+     "Year of the December dates not stated",
+     "No price or group size"
+    ],
+    "missingInformation": [
+     "Year, price and group size",
+     "Whether Gran Canaria is their only location",
+     "Home market"
+    ],
+    "summary": "Sky Retreats sells a full week of Pilates plus adventures in Gran Canaria on 12-19 December, with 'last spots going fast'. It is an organiser with a dated winter week. The pitch is built on Canary Islands warmth, location appears fixed, and price and group size are missing. Medium risk; a pilot-retreat pitch if they want a second winter destination."
+   },
+   "events": [
+    {
+     "title": "Pilates and adventure week, 12-19 December (year not stated)",
+     "eventType": "fitness_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": 7,
+     "location": "Gran Canaria",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdtXMAQlBGT"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "Pilates retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "underthesun_retreats",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.55,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc-9YovDmmm"
+     ],
+     "note": "Organiser brand running retreats with guest teacher Bianka Duka, each 'completely different'; it sets location and format."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc-9YovDmmm"
+     ],
+     "note": "'Bookings are live. Link in bio.'"
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc-9YovDmmm"
+     ],
+     "note": "WE ARE ONE retreat, Maspalomas, 5-10 January 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc-9YovDmmm"
+     ],
+     "note": "'This is our third retreat with Bianka'."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc-9YovDmmm"
+     ],
+     "note": "5-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc-9YovDmmm"
+     ],
+     "note": "Distinct, anti-cliche brand voice ('No New Year, New You'); yoga retreats with a named teacher suit a private villa."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc-9YovDmmm"
+     ],
+     "note": "Third retreat with the same teacher."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Winter pitch rests on warmth ('21°C > 7°C'); Athens in January is cooler than Gran Canaria",
+     "No price or group size"
+    ],
+    "missingInformation": [
+     "Group size and price",
+     "Home market (Amsterdam appears in pack location hints)",
+     "Other destinations used"
+    ],
+    "summary": "Under The Sun Retreats is selling WE ARE ONE, a yoga retreat with Bianka Duka in Maspalomas, Gran Canaria on 5-10 January 2027, its third retreat with her, with bookings live. It is a recurring organiser with a firmly dated winter event, and the '21°C > 7°C' line plus Amsterdam in the location hints point to a Dutch audience escaping winter. The main risk is that its winter offer sells warmth, which Attica cannot match in January. Medium risk; a good pilot candidate for a shoulder-month (March/April or November) Greece edition."
+   },
+   "events": [
+    {
+     "title": "WE ARE ONE yoga retreat with Bianka Duka",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-01-05",
+     "endDate": "2027-01-10",
+     "nights": 5,
+     "location": "Maspalomas, Gran Canaria",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc-9YovDmmm"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga retreats",
+    "markets": [
+     "NL"
+    ]
+   }
+  },
+  {
+   "handle": "visteon",
+   "classification": {
+    "group": "C_high_value_host",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Who chose the Portugal venue is not stated."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DKJg28BNZo_"
+     ],
+     "note": "Internal corporate offsite, not a sold retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DKJg28BNZo_"
+     ],
+     "note": "Global company bringing EMEA and AMER finance teams together in Portugal with senior leadership."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.35,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DKJg28BNZo_"
+     ],
+     "note": "Cross-regional team offsite in Southern Europe is the use case a villa offsite serves."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DKJg28BNZo_"
+     ],
+     "note": "Ran a Finance offsite in Portugal with workshops and leadership sessions."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Large corporation; venue procurement likely sits with corporate travel/events teams, hard to reach via Instagram",
+     "Offsite date and size not shown"
+    ],
+    "missingInformation": [
+     "Offsite size and dates",
+     "Who books offsites (HR, finance leadership, agency)",
+     "Frequency of regional offsites"
+    ],
+    "summary": "Visteon posted about its Finance offsite in Portugal that brought EMEA and AMER teams together for workshops and leadership dialogue. It is a corporate host that does run destination offsites in Southern Europe, but there are no dates, sizes or decision-maker signals, and procurement is likely centralised. Medium risk; a scouting-level corporate lead."
+   },
+   "events": [
+    {
+     "title": "Visteon Finance offsite (EMEA and AMER teams)",
+     "eventType": "corporate_offsite",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Portugal",
+     "country": "PT",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DKJg28BNZo_"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Visteon",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "global corporation (team offsites)",
+    "markets": []
+   }
+  },
+  {
+   "handle": "alenascharfschwert_yoga",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZ_3dswBkzB"
+     ],
+     "note": "Only a local Yoga & Manifestation workshop poster; no retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Thin pack: one poster post",
+     "Local workshop only"
+    ],
+    "missingInformation": [
+     "Whether she runs retreats",
+     "Follower count"
+    ],
+    "summary": "Alena Scharfschwert is a yoga teacher in Mönchengladbach promoting a local 'Yoga & Manifestation' workshop (pack date 12 July 2026). There is no retreat or venue-booking evidence. Group none on current evidence."
+   },
+   "events": [
+    {
+     "title": "Yoga & Manifestation workshop",
+     "eventType": "workshop",
+     "startDate": "2026-07-12",
+     "endDate": null,
+     "nights": null,
+     "location": "Mönchengladbach",
+     "country": "DE",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZ_3dswBkzB"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Alena Scharfschwert Yoga",
+    "country": "DE",
+    "languages": [
+     "de"
+    ],
+    "niche": "power/core yoga teacher",
+    "markets": [
+     "DE"
+    ]
+   }
+  },
+  {
+   "handle": "alexperezyoga",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZc3BRGI59G"
+     ],
+     "note": "Runs Grace YTT editions in changing locations (Portugal next, then Berlin)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZc3BRGI59G"
+     ],
+     "note": "'Next up is the 300h Grace YTT - September 2026 - Portugal'; 'link in bio'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Next 200h dates are cut off ('Ber...'); no Nov-Apr date."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZc3BRGI59G"
+     ],
+     "note": "Successive 200h and 300h Grace YTT cohorts."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZc3BRGI59G"
+     ],
+     "note": "Three-week programme ('this 3-weeks program')."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZc3BRGI59G"
+     ],
+     "note": "Immersive, nature-based training ('poetry, nature, lectures... community')."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZc3BRGI59G"
+     ],
+     "note": "Completed a 200h cohort and scheduling the next ones."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "No winter dates; next scheduled edition is September 2026 in Portugal",
+     "Group size and price unknown"
+    ],
+    "missingInformation": [
+     "Group size and price",
+     "Dates of the next 200h",
+     "Whether trainings are residential"
+    ],
+    "summary": "Alex Perez runs Grace YTT, a three-week immersive yoga teacher training, with a 300h edition in Portugal in September 2026 and the next 200h in Berlin. A multi-week residential format is attractive for long winter stays and he moves between locations. No winter dates, prices or group sizes are shown yet. Medium risk; a pilot pitch for a three-week winter YTT in Greece."
+   },
+   "events": [
+    {
+     "title": "300h Grace YTT",
+     "eventType": "teacher_training",
+     "startDate": "2026-09",
+     "endDate": null,
+     "nights": null,
+     "location": "Portugal",
+     "country": "PT",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZc3BRGI59G"
+     ]
+    },
+    {
+     "title": "Next 200h Grace YTT (Berlin)",
+     "eventType": "teacher_training",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Berlin",
+     "country": "DE",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZc3BRGI59G"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher trainer (Grace YTT)",
+    "markets": []
+   }
+  },
+  {
+   "handle": "alldreamsportcenter",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZr7Sr6iGQU"
+     ],
+     "note": "Local sport center in Kfar Saba running its own summer training camp."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZr7Sr6iGQU"
+     ],
+     "note": "Sells a local summer training camp (prices 1,390 / 350 / 300 ILS), not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZr7Sr6iGQU"
+     ],
+     "note": "Summer 2026 camp."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZr7Sr6iGQU"
+     ],
+     "note": "Local sports-camp format."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Local venue/sport center",
+     "Summer camp only"
+    ],
+    "missingInformation": [],
+    "summary": "All Dreams Sport Center in Kfar Saba advertises its Summer 2026 training camp with early registration and listed prices. It is a local sports venue, not a retreat organiser. Group none."
+   },
+   "events": [
+    {
+     "title": "Summer 2026 training camp",
+     "eventType": null,
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Kfar Saba",
+     "country": "IL",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZr7Sr6iGQU"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "All Dreams",
+    "country": "IL",
+    "languages": [
+     "he"
+    ],
+    "niche": "sport center",
+    "markets": [
+     "IL"
+    ]
+   }
+  },
+  {
+   "handle": "alphayogaschool",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Ddot2nyCHEV"
+     ],
+     "note": "Recruits for its own Yoga Teacher Training; 'Applications are closing soon'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Ddot2nyCHEV"
+     ],
+     "note": "Listed course window September 26, 2026 - February 7, 2027 overlaps Nov-Apr; location and format not shown."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "School running its own teacher trainings; location not stated, so it may use its own premises",
+     "Thin pack: one testimonial reel"
+    ],
+    "missingInformation": [
+     "Where the trainings run",
+     "Group size and price",
+     "Whether trainings move between venues"
+    ],
+    "summary": "Alpha Yoga School recruits for its Yoga Teacher Training with a listed window of September 26, 2026 to February 7, 2027, using a testimonial from a French student. It sells its own trainings, but there is no sign it books external venues. Group none at low confidence; re-check if it runs trainings in rented locations."
+   },
+   "events": [
+    {
+     "title": "Yoga Teacher Training",
+     "eventType": "teacher_training",
+     "startDate": "2026-09-26",
+     "endDate": "2027-02-07",
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Ddot2nyCHEV"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher training school",
+    "markets": []
+   }
+  },
+  {
+   "handle": "aruna_yoga_life",
+   "classification": {
+    "group": "C_high_value_host",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQV9TueCFia"
+     ],
+     "note": "Runs Aruna Yoga Teacher Training cycles ('begins 2026 Israel & Online Belgium'; Breda)."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQV9TueCFia"
+     ],
+     "note": "Successive teacher-training cycles (200H/500H, 300hr weekends) in several countries."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQV9TueCFia"
+     ],
+     "note": "Multi-day intensives ('four magnificent integration days') could suit a residential module."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQV9TueCFia"
+     ],
+     "note": "Closed a teacher-training cohort in Breda."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Trainings appear to run in local studios (Breda, Westerlo) and online, not as destination retreats",
+     "No dates, prices or group sizes"
+    ],
+    "missingInformation": [
+     "Whether any module is residential",
+     "Cohort size and price",
+     "Interest in an immersion abroad"
+    ],
+    "summary": "Aruna Yoga Life is a Yoga Alliance 200H/500H teacher trainer who closed a training in Breda with four integration days and is starting a cycle in Israel and online from Belgium in 2026. She hosts trainings across NL, BE and Israel, all target markets, but there is no sign of destination or residential modules. Unknown risk; scouting-level lead for a residential immersion module."
+   },
+   "events": [
+    {
+     "title": "Aruna Yoga Teacher Training closing integration days",
+     "eventType": "teacher_training",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Breda",
+     "country": "NL",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQV9TueCFia"
+     ]
+    },
+    {
+     "title": "Aruna Teacher Training Cycle 2026 (Israel and online Belgium)",
+     "eventType": "teacher_training",
+     "startDate": "2026",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQV9TueCFia"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher trainer (Yoga Alliance 200H/500H)",
+    "markets": [
+     "NL",
+     "BE",
+     "IL"
+    ]
+   }
+  },
+  {
+   "handle": "barefootyogaschool",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYyq8MDt0ev"
+     ],
+     "note": "'March 2027 training, PRE-BOOKING open now', booking by email or website."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYyq8MDt0ev"
+     ],
+     "note": "Own Yoga Alliance training dated March 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Immersive tone ('imagine all this, and you leave ready') but location and setting not shown."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Location and format (residential vs in-studio) not stated, so the group is provisional",
+     "Official booking opened in May, so the March 2027 venue may already be fixed"
+    ],
+    "missingInformation": [
+     "Training location and whether residential",
+     "Cohort size and price",
+     "Whether venues change per cohort"
+    ],
+    "summary": "Barefoot Yoga School sells a Yoga Alliance teacher training for March 2027 with pre-booking open; the copy suggests an immersive format you 'leave' from certified. It is an organiser with a dated winter cohort, but location and whether it is residential are unknown, so the group A call is provisional. Unknown risk; scouting-level lead pending location check."
+   },
+   "events": [
+    {
+     "title": "Yoga Alliance teacher training, March 2027",
+     "eventType": "teacher_training",
+     "startDate": "2027-03",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYyq8MDt0ev"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher training school",
+    "markets": []
+   }
+  },
+  {
+   "handle": "baskretreatcenter",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeSeAujFeoR"
+     ],
+     "note": "Venue inviting others to 'host a retreat or event in 2027'."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeSeAujFeoR"
+     ],
+     "note": "Rents its space to retreat hosts; does not sell retreats."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeSeAujFeoR"
+     ],
+     "note": "Competing retreat venue."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Retreat venue (competitor) soliciting retreat leaders"
+    ],
+    "missingInformation": [],
+    "summary": "BASK Retreat Center is a venue asking retreat leaders to book it for 2027 events via retreats@baskretreatcenter.com. It competes with the villa for the same organisers. Group none."
+   },
+   "events": [],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "retreat venue",
+    "markets": []
+   }
+  },
+  {
+   "handle": "beppeyoga",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Thin pack: only image alt-text, no retreat or event content"
+    ],
+    "missingInformation": [
+     "Any retreat, event or teaching activity",
+     "Location and follower count"
+    ],
+    "summary": "The pack for Beppe (yoga teacher) contains only generic image descriptions of recent posts, with no retreats, events or pricing. Nothing supports organiser status. Group none at low confidence; thin pack."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Beppe - Yoga Teacher",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher",
+    "markets": []
+   }
+  },
+  {
+   "handle": "betweentheglasspadel",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Co-promoted with Hosting Experiences Tenerife, which appears to run the holiday."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.55,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdB9Nngw7q-"
+     ],
+     "note": "Graphic: 'BOOK YOUR PADEL HOLIDAY NOW, JOIN BETWEEN THE GLASS, 25th 26th & 27th September'."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdB9Nngw7q-"
+     ],
+     "note": "Only dated holiday is 25-27 September."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdB9Nngw7q-"
+     ],
+     "note": "Three-day format."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Co-hosted with a Tenerife experiences operator; venue choice may sit with the partner",
+     "Padel format needs nearby courts",
+     "Thin pack: one image description"
+    ],
+    "missingInformation": [
+     "Group size and price",
+     "Audience home market",
+     "Who organises and books venues"
+    ],
+    "summary": "Between The Glass, a padel podcast/media brand, is promoting a padel holiday in Tenerife on 25-27 September 2026 together with Hosting Experiences Tenerife. It co-hosts a sold trip, so it is a light organiser, but the dates are outside winter, the format is short and the partner may control venues. Medium risk; pilot only if they want a Greece padel weekend with court access."
+   },
+   "events": [
+    {
+     "title": "Padel holiday with Between The Glass (with Hosting Experiences Tenerife)",
+     "eventType": "padel_retreat",
+     "startDate": "2026-09-25",
+     "endDate": "2026-09-27",
+     "nights": 2,
+     "location": "Tenerife",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdB9Nngw7q-"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Between The Glass",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "padel podcast and padel holidays",
+    "markets": []
+   }
+  }
+ ]
+}

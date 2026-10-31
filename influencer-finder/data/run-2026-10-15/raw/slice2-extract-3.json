@@ -1,0 +1,69 @@
+{
+ "note": "Condensed record: full raw_content of this batch could not be persisted; fields below are copied from the Tavily extract response.",
+ "results": [
+  {
+   "url": "https://www.instagram.com/p/DdG5dJ3EebQ",
+   "authorPattern": "Never miss a post from yogahabit",
+   "handle": "yogahabit",
+   "excerpt": "2027 Teacher Training is officially OPEN for registration!"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DePeZkzCqi1",
+   "authorPattern": "Never miss a post from folkyogasf",
+   "handle": "folkyogasf",
+   "excerpt": "Winter 2027 Yoga Teacher Training enrollment is now open with Advanced Early Bird Special pricing! PART-TIME January 10–April 4, 2027 / FULL-TIME February 9–March 7, 2027 / SUPER EARLY BIRD: $2,899 / EARLY BIRD: $3,099 / Regular tuition: $3,699 (Dec 2nd onwards)"
+  },
+  {
+   "url": "https://www.instagram.com/p/DcwVuG9mu30",
+   "authorPattern": "toweryoga's profile picture (first line)",
+   "handle": "toweryoga",
+   "excerpt": "TOWER YOGA Teacher Training 2026-27 Training Dates Nov 13 15 Dec Jan Feb ... 200-hour Vinyasa Yoga Teacher Training $2,900 paid in full or 3 payments of $975 ... Register at toweryogafresno.com"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DZNg3uTs4KI",
+   "authorPattern": "camille_soustra's profile picture (first line)",
+   "handle": "camille_soustra",
+   "excerpt": "Video by Camille Soustra | CEO Stratège et Femme médecine on June 05, 2026."
+  },
+  {
+   "url": "https://www.instagram.com/p/DcTV7O-FQdj",
+   "authorPattern": "Never miss a post from chloe\\_monin\\_",
+   "handle": "chloe_monin_",
+   "excerpt": "Retraite mastermind entrepreneurs dans le cœur 💓 Avec Romain Clamaron, Iris Elya, Elise Pieters.."
+  },
+  {
+   "url": "https://www.instagram.com/reel/DdzZ78xJvyf",
+   "authorPattern": "redemptionsf's profile picture (first line)",
+   "handle": "redemptionsf",
+   "excerpt": "Video by Redemption Church SF on September 27, 2026."
+  },
+  {
+   "url": "https://www.instagram.com/p/DSTvZ95DMkB",
+   "authorPattern": "none literally present (only 'Photo by Satya Anahata Yoga')",
+   "handle": null,
+   "excerpt": "Photo by Satya Anahata Yoga on July 08, 2026."
+  },
+  {
+   "url": "https://www.instagram.com/p/Dbd9cu1Av5d",
+   "authorPattern": "reitenundyoga's profile picture (first line)",
+   "handle": "reitenundyoga",
+   "excerpt": "Video by Reiten & Yoga Retreats on July 31, 2026."
+  },
+  {
+   "url": "https://www.instagram.com/p/Dd0puRrCH4d",
+   "authorPattern": "Never miss a post from ashtangayogaantibes",
+   "handle": "ashtangayogaantibes",
+   "excerpt": "LES FORMATIONS AYA — 2026 / 2027 ... FORMATION PROFESSEUR — 200H 📅 Décembre 2026 → Mai 2027 26–30 déc. · 30–31 janv. · 6–7 fév. · 13–14 fév. · 27–29 mars · 17–18 avr. · 24–25 avr. · 5–9 mai ... YIN YOGA — 50H · MODULE 1 📅 31 oct.–1er nov. · 7–8 nov. · 14–15 nov. ... 📍 AYA — Ashtanga Yoga Antibes 3030 chemin Saint-Bernard, Vallauris Centre de formation depuis plus de 12 ans"
+  }
+ ],
+ "failed_results": [
+  {
+   "url": "https://www.instagram.com/reel/DYrMnh6s3DV",
+   "error": "Error fetching content"
+  }
+ ],
+ "response_time": 3.44,
+ "request_id": "0ee840ae-da88-48ca-983a-5d5eaf158a08",
+ "auth_mode": "keyed",
+ "fetchedAt": "2026-10-15T18:59:37Z"
+}

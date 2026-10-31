@@ -1,0 +1,12 @@
+{"spec": {"id": "933ae41c", "query": "\"workshop retreat\" January 2027 registration", "language": "en", "eventType": "workshop", "lane": "winter_destination", "includeDomains": ["instagram.com"], "searchDepth": "basic", "priority": 1},
+"results": [
+{"url":"https://www.instagram.com/popular/annual-writing-workshop-musician-author","title":"Annual Writing Workshop Musician Author","content":"(content truncated in raw save: aggregator page about songwriting workshops; listeningroomsongretreats: 'January 4-10, 2027 Siem Reap Songwriters Festival 🇰🇭 January 11-17 Phnom Penh Songwriters Festival 🇰🇭 2027: 25th Anniversary Year: January 24-30 Luang Prabang, Laos Retreat & Festival')","score":0.58408195},
+{"url":"https://www.instagram.com/popular/homedepot-kids-workshop-registration-process","title":"Homedepot Kids Workshop Registration Process","content":"(content truncated in raw save: unrelated aggregator page)","score":0.48030865},
+{"url":"https://www.instagram.com/popular/three-day-research-retreat-nebraska-lodge-universities","title":"Three Day Research Retreat Nebraska Lodge Universities","content":"(content truncated in raw save: unrelated aggregator page)","score":0.4485476},
+{"url":"https://www.instagram.com/popular/ces-2027-registration","title":"Ces 2027 Registration","content":"(content truncated in raw save: unrelated aggregator page)","score":0.41976747},
+{"url":"https://www.instagram.com/popular/ubud-bali-yoga-retreat-jungle-view","title":"Ubud Bali Yoga Retreat Jungle View","content":"(duplicate of slice4-bdb3a1b8 result; content truncated in raw save)","score":0.3795859},
+{"url":"https://www.instagram.com/p/DSkrMVTD6PL","title":"Wildebeest Publishing Company on Instagram: \"📣 Our first annual Authorpreneur Retreat is open for registration! ...","content":"(content truncated in raw save: US authorpreneur retreat at @greekpeakmtn, AUGUST 21-23, 2026; 'Never miss a post from hellobeesties')","score":0.27776968},
+{"url":"https://www.instagram.com/popular/kids-workshop-registration-2026","title":"Kids Workshop Registration 2026","content":"(content truncated in raw save: unrelated aggregator page)","score":0.18884735},
+{"url":"https://www.instagram.com/popular/joy-harjo-annual-workshop-2023","title":"Joy Harjo Annual Workshop 2023","content":"(content truncated in raw save: unrelated aggregator page)","score":0.09944416}
+],
+"fetchedAt": "2026-10-15T00:00:00Z"}

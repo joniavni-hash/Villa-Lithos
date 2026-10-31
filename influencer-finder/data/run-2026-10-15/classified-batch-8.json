@@ -1,0 +1,283 @@
+{
+  "batch": 8,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "lamaisonfete",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DZUu45KjuTa"], "note": "Hosts ('Brett and I') chose Belden House and Mews as the venue for their first retreat; venue selection sits with them."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DZUu45KjuTa"], "note": "First-person 'Registration is Now Open! Join us', 'our first retreat', 'Limited availability'."},
+        "provenWinterActivity": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DZUu45KjuTa"], "note": "Dated retreat November 8-10, 2026 that they organise."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only 'Limited availability'; no spots count or sold-out signal."},
+        "audiencePaysPremium": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DZUu45KjuTa"], "note": "Lifestyle positioning (Mahjong, culinary experiences, art and antiques, boutique inn) hints at an affluent audience; no price shown."},
+        "runsRecurringEvents": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DZUu45KjuTa"], "note": "Explicitly 'our first retreat'."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DZUu45KjuTa"], "note": "Three-day / two-night format."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DZUu45KjuTa"], "note": "Entertaining-and-wellness lifestyle retreat; aesthetic fits a private estate, but the audience is US-domestic."},
+        "priorCommercialEvidence": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DZUu45KjuTa"], "note": "First paid retreat is only now opening registration; no track record yet."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["US-based (Litchfield, Connecticut) host and audience; Greece is a long-haul proposition", "First-ever retreat, no track record", "No price, group size or follower count in evidence"],
+        "missingInformation": ["Price per person and group size of the November 2026 retreat", "Follower count and audience geography", "Whether they intend to run destination retreats abroad"],
+        "summary": "La Maison Fete (Litchfield, CT) is opening registration for its first hosted retreat, November 8-10, 2026 at Belden House and Mews: three days of Mahjong, wellness, culinary, art and antiques. The hosts organise and sell it themselves, so the organiser signals are explicit, and the event is dated in the winter window. The group is small-format lifestyle, which suits a private estate, but this is a first-time, US-domestic event with no price or group size shown. Medium commercial risk: approach as a pilot only after they prove this first edition fills."
+      },
+      "events": [
+        {"title": "First retreat at Belden House and Mews (Mahjong, wellness, culinary, art and antiques)", "eventType": "wellness_retreat", "startDate": "2026-11-08", "endDate": "2026-11-10", "nights": 2, "location": "Belden House and Mews, Litchfield, Connecticut", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DZUu45KjuTa"]}
+      ],
+      "profile": {"displayName": "La Maison Fête", "country": "US", "languages": ["en"], "niche": "lifestyle entertaining and wellness retreat host", "markets": ["US"]}
+    },
+    {
+      "handle": "limegatherings",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/limegatherings"], "note": "Positioned as 'Corporate Retreat Planning & Venue' service that sources venues for clients; influences venue choice rather than hosting."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/limegatherings"], "note": "Plans corporate retreats for clients; no own retreat with registration or price."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events in evidence."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Corporate clientele implied but no pricing evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No event history in evidence."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "brandFit": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/limegatherings"], "note": "Corporate offsite planning is an in-scope use case; the bio text about venue sourcing (guest rooms, meeting space) is directly relevant."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No client or revenue evidence."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["Only a single profile snippet; no location, followers or past events", "Planner/agency account rather than a host"],
+        "missingInformation": ["Home market and client geography", "Typical group size and budget of planned retreats", "Whether they source international venues"],
+        "summary": "li+me Gatherings presents itself as a corporate retreat planning and venue-sourcing service; the one profile snippet talks about what to look for when sourcing a venue (guest rooms, meeting space). That makes it a potential referral channel to corporate offsite organisers rather than a direct booker. There is no location, follower, event or pricing evidence, so commercial risk is unknown. Treat as a referral partnership lead and verify whether they place groups outside their home market."
+      },
+      "events": [],
+      "profile": {"displayName": "li+me Gatherings", "country": null, "languages": ["en"], "niche": "corporate retreat planning and venue sourcing", "markets": []}
+    },
+    {
+      "handle": "littlebigganesha.",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Studio runs its training modules on its own premises; no venue-selection evidence."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DYebuats0S1"], "note": "Evidence is a teacher-training weekend module ('04 Ausbildungswochenende Deep Dive: Chakren & Vayus') at a studio, not a retreat."},
+        "provenWinterActivity": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DYebuats0S1"], "note": "Only dated module is 'Mai 26' (May 2026), outside the winter window."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DYebuats0S1"], "note": "Modular teacher training (module 04) implies a recurring programme."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No aesthetic or audience evidence beyond a studio reel."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Yoga studio account running in-house weekend training modules, not a travelling retreat host", "Handle in pack ends with a dot (possible scrape artefact)"],
+        "missingInformation": ["Whether the studio or its owner (nicolebongartz.de) runs destination retreats", "Follower count and audience"],
+        "summary": "Little Big Ganesha is a Wiesbaden yoga studio; the only evidence is a reel for module 04 of its in-house yoga teacher training (Deep Dive: Chakren & Vayus, Philosophie, May 2026). That is a local studio schedule, not a retreat, so no villa-booking intent can be inferred. The linked website nicolebongartz.de suggests an individual teacher behind the studio who might run retreats, but there is no evidence of that here. Not a target on current evidence."
+      },
+      "events": [
+        {"title": "Yogalehrer-Ausbildung Modul 04: Deep Dive Chakren & Vayus, Philosophie", "eventType": "teacher_training", "startDate": "2026-05", "endDate": null, "nights": null, "location": "Wiesbaden", "country": "DE", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DYebuats0S1"]}
+      ],
+      "profile": {"displayName": "Little Big Ganesha Yoga Studio", "country": "DE", "languages": ["de"], "niche": "yoga studio / teacher training", "markets": ["DE"]}
+    },
+    {
+      "handle": "lovetenagne",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/lovetenagne/reels"], "note": "Founder of a retreats company (brbretreats.com) with destination highlights (Italy, Costa Rica); picks venues for own retreats."},
+        "sellsRetreats": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/lovetenagne/reels"], "note": "'Profitable luxury retreats', founder of brbretreats.com and destination highlights imply she hosts; no dated retreat, price or spots in evidence."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/lovetenagne/reels"], "note": "Explicit 'luxury retreats' positioning aimed at coaches building revenue."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/lovetenagne/reels"], "note": "Multiple destination highlights (Italy, Costa Rica) suggest more than one retreat; weak."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "brandFit": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/lovetenagne/reels"], "note": "Luxury-retreat strategist with 38.3K followers; audience of coaches running premium retreats matches the villa's buyer."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/lovetenagne/reels"], "note": "Founder of a retreats business; no revenue or sold-out evidence."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["No dated retreat, price or group size in evidence", "Home market unknown (likely US; Mykonos and Costa Rica appear only as destinations)"],
+        "missingInformation": ["Her own retreat calendar and group sizes", "Size and geography of her coaching community", "Whether she recommends venues to clients"],
+        "summary": "Tenagne Turner is a retreat strategist and business coach (38.3K followers) whose bio sells 'profitable luxury retreats' and who founded brbretreats.com, with Italy and Costa Rica retreat highlights. Her audience is exactly the retreat-host segment the villa wants, so she belongs in Group B as a referral channel, with a side chance of hosting her own luxury retreat. The evidence has no dated events, prices or group sizes, so winter activity and fill capacity are unproven. Medium risk; pursue a referral partnership and ask for her own retreat calendar."
+      },
+      "events": [],
+      "profile": {"displayName": "Tenagne Turner | Retreat Strategist + Business Coach", "country": null, "languages": ["en"], "niche": "retreat business coaching / luxury retreat host", "markets": ["US"]}
+    },
+    {
+      "handle": "manayogacenter",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DcT9Xxajq1S"], "note": "Training runs at the studio's own location in Vertou near Nantes over 11 weekends."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DcT9Xxajq1S"], "note": "Sells a 200h yoga teacher training (weekend format), not a retreat."},
+        "provenWinterActivity": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DcT9Xxajq1S"], "note": "A cohort starts 'en janvier 2027', but it is a local weekend training, not a travel retreat."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DcT9Xxajq1S"], "note": "Two training cohorts (29 August 2026 and January 2027), annual 2026/2027 programme."},
+        "longStayPotential": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DcT9Xxajq1S"], "note": "Weekend-based format over 11 weekends; no residential block."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Studio account; no aesthetic or audience evidence."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DcT9Xxajq1S"], "note": "Sells a paid teacher training; price not shown."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Yoga studio account (Hossegor / Nantes) selling a local weekend-format teacher training, not a host of destination groups"],
+        "missingInformation": ["Whether the studio runs residential retreats or immersion weeks abroad", "Follower count and audience"],
+        "summary": "Mana Yoga Center is a French yoga studio (Hossegor, with training in Vertou near Nantes). The only evidence is enrolment for its 200h Mana Yoga Training 2026/2027, starting 29 August 2026 or January 2027 and spread over 11 weekends. That is a local, non-residential programme; nothing points to booking a destination villa. The January cohort technically falls in the winter window but is irrelevant to Greece. Not a target on current evidence."
+      },
+      "events": [
+        {"title": "Mana Yoga Training 2026/2027 (200h teacher training, cohort starting 29 August 2026)", "eventType": "teacher_training", "startDate": "2026-08-29", "endDate": null, "nights": null, "location": "Vertou, near Nantes", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DcT9Xxajq1S"]},
+        {"title": "Mana Yoga Training 2026/2027 (200h teacher training, cohort starting January 2027)", "eventType": "teacher_training", "startDate": "2027-01", "endDate": null, "nights": null, "location": "Vertou, near Nantes", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DcT9Xxajq1S"]}
+      ],
+      "profile": {"displayName": "Votre Studio de Yoga à Hossegor ✨", "country": "FR", "languages": ["fr"], "niche": "yoga studio / teacher training", "markets": ["FR"]}
+    },
+    {
+      "handle": "marcelclementi_.",
+      "classification": {
+        "group": "C_high_value_host",
+        "decidesVenue": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DPO0sDGjPAu"], "note": "Runs 'meiner Ausbildung' (his own 200h training) so presumably chooses where it is held; location not stated."},
+        "sellsRetreats": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DPO0sDGjPAu"], "note": "Sells a 200h multi-style yoga teacher training in three-day weekend blocks, not a retreat."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Reel from 30 September 2025 reports on the first weekend; no event dates in the Nov-Apr window are stated (the '28.Juni' regex hint is not in the excerpt)."},
+        "canFillGroupSize": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DPO0sDGjPAu"], "note": "Pack flags an 'ausgebucht' (sold out) signal on the page; the excerpt itself does not show the group size."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DPO0sDGjPAu"], "note": "Modular training with a first weekend completed implies further weekends."},
+        "longStayPotential": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DPO0sDGjPAu"], "note": "Three-day weekend modules."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No aesthetic or audience evidence."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DPO0sDGjPAu"], "note": "Runs a paid teacher training; sold-out signal flagged by the pack."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Weekend-module training format in Germany; no sign of residential or destination events", "Evidence is a single reel from September 2025", "Handle in pack ends with a dot (possible scrape artefact)"],
+        "missingInformation": ["Location and price of the training", "Whether he runs residential intensives or retreats", "Follower count"],
+        "summary": "Marcel Clementi is a German yoga teacher running his own 200h multi-style teacher training; the reel (30 Sep 2025) reports the first three-day weekend has passed and the pack flags a sold-out ('ausgebucht') signal. He is a genuine first-person host of recurring trainings, which is in scope as a high-value host, but the format is weekend modules at home, not a residential retreat. No dates in the winter window and no price or group size. Medium risk; worth a scouting conversation about a residential immersion module, nothing more on current evidence."
+      },
+      "events": [
+        {"title": "200h Multi-Style Yogalehrer-Ausbildung (first weekend reported 30 Sep 2025)", "eventType": "teacher_training", "startDate": null, "endDate": null, "nights": null, "location": null, "country": "DE", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DPO0sDGjPAu"]}
+      ],
+      "profile": {"displayName": "Marcel Clementi", "country": "DE", "languages": ["de"], "niche": "yoga teacher training", "markets": ["DE"]}
+    },
+    {
+      "handle": "mastermind_healthcare_rcm_offl",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/mastermind_healthcare_rcm_offl"], "note": "Healthcare revenue-cycle-management company account; 'mastermind' is a brand name, not an event."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/mastermind_healthcare_rcm_offl"], "note": "No retreat or event content."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Post dates in Nov/Mar are ordinary posts, not events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/mastermind_healthcare_rcm_offl"], "note": "B2B healthcare billing services; unrelated to hosted retreats."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account", "Keyword false positive: 'mastermind' is the company name (healthcare RCM)"],
+        "missingInformation": [],
+        "summary": "Mastermind Healthcare RCM Tactics is a healthcare revenue-cycle-management business ('We're the RCM masterminds'). The word mastermind triggered the search, but there is no event, retreat or offsite content, only ordinary company posts. Off-topic; discard."
+      },
+      "events": [],
+      "profile": {"displayName": "Mastermind Healthcare RCM Tactics", "country": null, "languages": ["en"], "niche": "healthcare revenue cycle management (off-topic)", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "michaeljameswong",
+      "classification": {
+        "group": "C_high_value_host",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No venue evidence."},
+        "sellsRetreats": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DePdwSksts7"], "note": "Pack flags a 'Comment RETREAT' call to action; the excerpt itself shows only yoga reels and a 'Yoga meets Weggis' festival video."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Appears alongside 'Yoga meets Weggis' (a festival) but role unclear."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "brandFit": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DePdwSksts7"], "note": "Active yoga and mindfulness teacher posting several reels per week in October 2026; audience fit plausible but unproven."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Evidence is a thin reel-page scrape with no caption text; the retreat CTA is only a heuristic signal", "No bio, followers or location in the pack"],
+        "missingInformation": ["The retreat the 'Comment RETREAT' CTA refers to (dates, location, price)", "Follower count and home market", "Whether he organises or only teaches at festivals such as Yoga meets Weggis"],
+        "summary": "Michael James Wong appears as an active yoga teacher (reels on 7, 9 and 11 October 2026) with a 'Comment RETREAT' call to action flagged by the pack and a co-appearance with the Yoga meets Weggis festival. That is enough to suspect he sells a retreat, but the excerpt contains no caption, dates, location or price, so every judgement is weak. Classified as a possible high-value host pending a proper evidence pull. Unknown risk; scouting conversation only."
+      },
+      "events": [],
+      "profile": {"displayName": "Michael James Wong", "country": null, "languages": ["en"], "niche": "yoga and mindfulness teacher", "markets": []}
+    },
+    {
+      "handle": "mysoreyogaparis",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DTkq_EYDJWv"], "note": "She is 'heading back to @purplevalleyyogatenerife' and bookings go through the venue; the retreat centre hosts and sells, she teaches."},
+        "sellsRetreats": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DTkq_EYDJWv"], "note": "'Join us', '1 Week Retreat with Kia Naddermier', 'A couple of last spaces open!'; booking handled by Purple Valley."},
+        "provenWinterActivity": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DTkq_EYDJWv"], "note": "Dated retreat February 14-21 (year not stated) that she leads."},
+        "canFillGroupSize": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DTkq_EYDJWv"], "note": "'A couple of last spaces open' implies the week is nearly full; total group size not given."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DTkq_EYDJWv"], "note": "'Heading back' to Purple Valley indicates a repeat annual retreat."},
+        "longStayPotential": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DTkq_EYDJWv"], "note": "One-week format (7 nights) meets the villa's minimum stay."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DTkq_EYDJWv"], "note": "Serious Ashtanga / pranayama / Buddha Dharma week with an assistant teacher; committed practitioner audience, not luxury-oriented."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DTkq_EYDJWv"], "note": "Repeat paid retreat week nearly sold out."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Retreat is run through a specialised retreat centre (Purple Valley) that handles bookings; she may not control venue choice", "Year of the February dates not stated", "No price or group size"],
+        "missingInformation": ["Group size and price of the Purple Valley week", "Whether she runs retreats outside Purple Valley", "Follower count"],
+        "summary": "Kia Naddermier (Mysore Yoga Paris) leads a one-week Ashtanga / pranayama / Buddha Dharma retreat at Purple Valley, Tenerife, February 14-21, assisted by @agnetabeckman, with 'a couple of last spaces open'. She organises the programme and is returning to the venue, so winter activity and recurrence are proven, but booking runs through the retreat centre, which weakens her venue control. A seven-night format fits the villa's minimum stay. Medium risk; pitch a pilot February week as an alternative to the Tenerife centre and ask for group size and pricing."
+      },
+      "events": [
+        {"title": "Bhāvanā - The Path of Cultivation: 1 Week Retreat with Kia Naddermier at Purple Valley", "eventType": "yoga_retreat", "startDate": null, "endDate": null, "nights": 7, "location": "Purple Valley Yoga, Tenerife (February 14-21, year not stated)", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "co_host", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DTkq_EYDJWv"]}
+      ],
+      "profile": {"displayName": "Mysore Yoga Paris (Kia Naddermier)", "country": "FR", "languages": ["en", "fr"], "niche": "Ashtanga yoga teacher / retreat leader", "markets": ["FR", "GB"]}
+    },
+    {
+      "handle": "namaze.yoga",
+      "classification": {
+        "group": "C_high_value_host",
+        "decidesVenue": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DWej-L7jsAv"], "note": "Runs 'ma formation de professeur' (her own teacher training) in Magog; chooses where it runs, but it is local."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DWej-L7jsAv"], "note": "Sells a yoga teacher-training cohort ('Inscriptions ouvertes pour la cohorte 2026-2027'), not a retreat."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Cohort starts in September; no Nov-Apr event dates given."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DWej-L7jsAv"], "note": "Graduating 'promotion 2026' and enrolling cohort 2026-2027: annual programme."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown format."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No aesthetic or audience evidence."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DWej-L7jsAv"], "note": "Has already graduated a 2026 cohort of a paid training."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Quebec-based (Magog) local teacher training; Greece is an unlikely destination for this audience", "No retreat, price or group size evidence"],
+        "missingInformation": ["Whether she runs destination retreats or residential modules", "Group size and price of the training", "Follower count"],
+        "summary": "Namaze Yoga (Magog, Quebec) runs an annual yoga teacher training: a 2026 cohort has graduated and enrolment is open for the 2026-2027 cohort starting in September. The organiser signals are first-person and recurring, so she is a real host, but the product is a local training, not a travel retreat, and the audience is Canadian. High commercial risk for a Greek villa. Keep on file for a scouting conversation only if she ever adds a residential module."
+      },
+      "events": [
+        {"title": "Formation de professeur de yoga, cohorte 2026-2027", "eventType": "teacher_training", "startDate": "2026-09", "endDate": null, "nights": null, "location": "Magog, Quebec", "country": "CA", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DWej-L7jsAv"]}
+      ],
+      "profile": {"displayName": "Namazé Yoga", "country": "CA", "languages": ["fr"], "niche": "yoga teacher training", "markets": ["CA"]}
+    },
+    {
+      "handle": "nmsu_state4h",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/nmsu_state4h"], "note": "University youth-development programme account."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/nmsu_state4h"], "note": "No retreat content; youth programme posts."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/nmsu_state4h"], "note": "Pack extracted a '$25' price hint; youth programme audience is not a premium buyer."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/nmsu_state4h"], "note": "US public youth programme (NMSU 4-H)."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account", "US university youth programme; audience is minors and families"],
+        "missingInformation": [],
+        "summary": "NMSU 4-H Youth Development is the Instagram account of a New Mexico State University youth programme. Posts are programme announcements (October 2026) with a $25 price hint; nothing relates to hosted adult retreats or offsites. Off-topic; discard."
+      },
+      "events": [],
+      "profile": {"displayName": "NMSU 4-H Youth Development", "country": "US", "languages": ["en"], "niche": "university youth programme (off-topic)", "markets": ["US"]}
+    },
+    {
+      "handle": "nourishmovelovebali",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DYlNJdagaaW"], "note": "Self-described 'Retreat Host' in the display name; venue choice implied, no specific venue evidence."},
+        "sellsRetreats": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DYlNJdagaaW"], "note": "Display name says 'Retreat Host'; no dated retreat, price or spots in the excerpt."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No event history in evidence."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DYlNJdagaaW"], "note": "Business mentor and psychologist for wellness practitioners (yoga teachers, therapists, nutritionists); her community are potential retreat hosts."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DYlNJdagaaW"], "note": "'Walked hundreds of wellness practitioners' through her programme; implies a paid mentoring business."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["Bali-based (handle) with no evidence of European activity", "No dated retreat, price, group size or follower count"],
+        "missingInformation": ["Her own retreat calendar and destinations", "Size and geography of her practitioner community", "Follower count"],
+        "summary": "Alka Martine (nourishmovelovebali) is a business mentor, psychologist and self-described retreat host who says she has walked 'hundreds of wellness practitioners' (yoga teachers, therapists, nutritionists) through her six-phase programme. Her audience is exactly the practitioner segment that organises retreats, so she fits Group B as a referral channel; she may also host her own retreats. The single post gives no dates, prices or group sizes, and her base appears to be Bali. Medium risk; approach for a referral partnership and ask about her own retreat destinations."
+      },
+      "events": [],
+      "profile": {"displayName": "Alka Martine | Business Mentor • Psychologist • Retreat Host", "country": null, "languages": ["en"], "niche": "business mentoring for wellness practitioners / retreat host", "markets": ["AU", "GB"]}
+    }
+  ]
+}

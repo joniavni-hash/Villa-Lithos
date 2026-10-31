@@ -1,0 +1,65 @@
+{
+ "spec": {
+  "id": "5db891f7",
+  "query": "\"zweiwöchiges Retreat\" \"Anmeldung offen\" 2026 OR 2027",
+  "language": "de",
+  "eventType": "long_stay_program",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ "results": [
+  {
+   "url": "https://www.instagram.com/p/Dc_U7dYiCb_",
+   "title": "Und dann gibt es noch etwas ganz Besonderes… ...",
+   "content": "September 7, 2026: zweiwöchiges Panchakarma-Programm im Vaidya's Ayurveda Village in Kerala, Indien. Oktober 2026 ab 16 Uhr. September ->",
+   "score": 0.6016175
+  },
+  {
+   "url": "https://www.instagram.com/tauernhofaustria/reels",
+   "title": "Tauernhof (@tauernhofaustria)",
+   "content": "Welcome, FBS 2026! Zwei Wochen voller Gemeinschaft und Abenteuer zusammen! our 95 students arriving this weekend. Sommer 2026 — Jetzt Anmelden! #jetztanmelden",
+   "score": 0.59061456
+  },
+  {
+   "url": "https://www.instagram.com/soulandsunyoga",
+   "title": "Conscious Travel | Anke Lenz & Team (@soulandsunyoga) ...",
+   "content": "Retreats nah & fern (DE, Ös. Retreat-Kalender 2026/2027 ✨ *Yoga & Aerial Retreat Andalusien, El Palmar Move and Connect. Bio und unter www.soulandsunyoga.com.",
+   "score": 0.52422476
+  },
+  {
+   "url": "https://www.instagram.com/chalochaloindia",
+   "title": "Chalo Reisen / Chalo Travels (@chalochaloindia) · Shimla",
+   "content": "Yoga Immersion Retreat 2026 Vom 20. bis 31. Oktober 2026 findet unser. Exklusiv mit deutschsprachigem Yoga Lehrer",
+   "score": 0.464392
+  },
+  {
+   "url": "https://www.instagram.com/p/DFI_9CXscUv",
+   "title": "Retreat food 🫶🏼 We had @sharonrech_ with us at our @flow. ...",
+   "content": "We had @sharonrech_ with us at our @flow.retreat in Fuerteventura, and every day she amazed us with incredible vegan and vegetarian dishes (3–4 courses),",
+   "score": 0.028116787
+  },
+  {
+   "url": "https://www.instagram.com/p/DMcmXRdM9gf",
+   "title": "Hey India! Was für ein besonderer Ort. Was für eine spannende, ...",
+   "content": "Hey India! · Erlebnisreise Georgien · In einer traumhaften Finca dürfen wir 7 gemeinsame und wunderbare Tage verbringen. · Sommer – das bedeutet, die kleinen",
+   "score": 0.026317844
+  },
+  {
+   "url": "https://www.instagram.com/p/DXw6EgHgRME",
+   "title": "Du hast ME/CFS , bist etwa Bell 40/50 und mit guter ...",
+   "content": "Du hast ME/CFS , bist etwa Bell 40/50 und mit guter Vorbereitung flugtauglich, dann ist eine Reise nach Indien sehr gut möglich.",
+   "score": 0.018748544
+  },
+  {
+   "url": "https://www.instagram.com/p/Dc1YrL1F7DP",
+   "title": "GIDEX-Studie: Kann eine Kur das Immunsystem \"verjüngen\"? ...",
+   "content": "Was hilft dabei, möglichst lange gesund und aktiv zu bleiben? Mit dieser Frage hat sich die GIDEX-Studie im Gasteinertal befasst. Untersucht wurde, wie sich",
+   "score": 0.013450294
+  }
+ ],
+ "fetchedAt": "2026-10-15T19:06:18.211222+00:00"
+}

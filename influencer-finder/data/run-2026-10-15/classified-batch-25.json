@@ -1,0 +1,1341 @@
+{
+ "batch": 25,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "louison_yoga",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZJtJw7MzRv"
+     ],
+     "note": "Moved her retreat from April 2026 to Sri Lanka in May 2027 ('Je vous propose finalement de nous retrouver au Sri Lanka'); destination choice sits with her."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZJtJw7MzRv"
+     ],
+     "note": "'3 séjours sont ouverts aux inscriptions', 'Inscriptions ouvertes pour ce voyage', price 1480 EUR shown."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZJtJw7MzRv"
+     ],
+     "note": "Dated stay she sells: 4 to 10 January 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'Reste 1 place' on the January stay signals demand but no total group size is stated."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.35,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZJtJw7MzRv"
+     ],
+     "note": "1480 EUR normal rate for a six-night stay; mid-to-upper price point, accommodation scope not stated."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZJtJw7MzRv"
+     ],
+     "note": "Three stays open for registration at once (January 2027, May 2027 and a third)."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZJtJw7MzRv"
+     ],
+     "note": "Six-night formats (4 to 10 January, 10 to 16 May)."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZJtJw7MzRv"
+     ],
+     "note": "Women's yoga retreats ('au sein d'un groupe de femmes') sold to a French-speaking audience; small-group format suits a private villa."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZJtJw7MzRv"
+     ],
+     "note": "January stay down to 'Reste 1 place' at 1480 EUR, i.e. paid places already sold."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Single reel only; no follower count, bio or website in evidence",
+     "Location of the January 2027 stay not stated",
+     "Already rescheduled one retreat (April 2026 moved to May 2027)"
+    ],
+    "missingInformation": [
+     "Venue and location of the January 2027 stay",
+     "Group size per stay",
+     "Follower count and audience geography",
+     "What the 1480 EUR price includes"
+    ],
+    "summary": "Louison Dalla Torre is a French-speaking yoga teacher who sells her own women's yoga stays: three are open for registration, including 4 to 10 January 2027 at 1480 EUR (normal rate) with one place left, and a Sri Lanka retreat in May 2027. She picks destinations herself (she moved an April 2026 retreat to Sri Lanka), runs six-night formats, and has proven winter-window demand. Group size and the January venue are unknown. Medium risk because the pack is a single reel; pitch a pilot winter stay to the French market."
+   },
+   "events": [
+    {
+     "title": "Séjour janvier 2027 (yoga, groupe de femmes)",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-01-04",
+     "endDate": "2027-01-10",
+     "nights": 6,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": 1480,
+     "currency": "EUR",
+     "soldOut": false,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZJtJw7MzRv"
+     ]
+    },
+    {
+     "title": "Retraite Sri Lanka",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-05-10",
+     "endDate": "2027-05-16",
+     "nights": 6,
+     "location": "Sri Lanka",
+     "country": "LK",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZJtJw7MzRv"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Louison Dalla Torre",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "women's yoga retreats and stays",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "ma.na_retreats",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcAnQkmD8vK"
+     ],
+     "note": "Runs its retreats in 'a house at the foot of a volcano'; unclear whether this is a rented house or a fixed local base."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcAnQkmD8vK"
+     ],
+     "note": "Describes its own four-day retreat ('part of MA•NA RETREATS', six classes, bilingual); no price or registration in the excerpt."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dated event."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'a group of strangers' without a size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcAnQkmD8vK"
+     ],
+     "note": "Retreat brand with this edition 'as part of MA•NA RETREATS', implying a series."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcAnQkmD8vK"
+     ],
+     "note": "Four-day format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcAnQkmD8vK"
+     ],
+     "note": "Small-group, house-based yoga retreat format suits a private villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales, sold-out or repeat-guest evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Fuerteventura-based operator; its own island is a winter-sun destination that competes with Greece",
+     "No dates, prices or group size"
+    ],
+    "missingInformation": [
+     "Retreat dates and season",
+     "Group size and price",
+     "Whether it runs retreats outside Fuerteventura",
+     "Follower count"
+    ],
+    "summary": "MA•NA Retreats runs four-day bilingual (English and Spanish) yoga retreats in Fuerteventura in a house at the foot of a volcano, with teacher Laura (@laurayoga.fuerteventura). It looks like a small retreat brand that hosts in a house, which matches the villa format, but the evidence gives no dates, price or group size and suggests a fixed Canary Islands base. Medium risk; a scouting conversation would establish whether it runs retreats away from Fuerteventura."
+   },
+   "events": [
+    {
+     "title": "Four days in Fuerteventura with Laura (MA•NA RETREATS)",
+     "eventType": "yoga_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Fuerteventura, Canary Islands",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcAnQkmD8vK"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "MA•NA - Yoga Retreats",
+    "country": "ES",
+    "languages": [
+     "en",
+     "es"
+    ],
+    "niche": "yoga retreats (Fuerteventura)",
+    "markets": [
+     "ES"
+    ]
+   }
+  },
+  {
+   "handle": "mightyyoganh",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Studio teacher training; no destination venue choice in evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Db3t16snavq"
+     ],
+     "note": "Sells a 2027 Yoga Teacher Training (waitlist, registration), not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Db3t16snavq"
+     ],
+     "note": "Organises a January to May 2027 teacher training, but it is a months-long studio course, not a residential winter retreat."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Db3t16snavq"
+     ],
+     "note": "Annual-style '2027 Yoga Teacher Training' cohort."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Db3t16snavq"
+     ],
+     "note": "Months-long part-time course rather than a residential stay."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Db3t16snavq"
+     ],
+     "note": "Local New Hampshire studio training; no destination retreat."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Local studio running an in-studio style teacher training; no destination retreats evidenced"
+    ],
+    "missingInformation": [
+     "Whether the studio runs any destination retreats",
+     "Training format (residential or weekend)"
+    ],
+    "summary": "Mighty Yoga NH is a New Hampshire yoga studio promoting its January to May 2027 Yoga Teacher Training with a waitlist and live registration. The only event is a months-long studio course, not a residential retreat, and nothing shows the studio travels or picks external venues. Group none; high commercial risk for the villa."
+   },
+   "events": [
+    {
+     "title": "2027 Yoga Teacher Training",
+     "eventType": "teacher_training",
+     "startDate": "2027-01",
+     "endDate": "2027-05",
+     "nights": null,
+     "location": "New Hampshire",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Db3t16snavq"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Mighty Yoga NH",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "local yoga studio and teacher training",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "moulindestempliers",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdlbFn_Mjif"
+     ],
+     "note": "Hotel that runs its retreats on its own premises ('Au Moulin des Templiers, nos retraites bien-être')."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdlbFn_Mjif"
+     ],
+     "note": "Sells its own wellness retreats with phone and email reservations."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdlbFn_Mjif"
+     ],
+     "note": "Own retreats on 20 to 22 November 2026, 26 to 28 February 2027 and 12 to 14 March 2027, but all held at its own hotel."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdlbFn_Mjif"
+     ],
+     "note": "Seasonal programme of four retreats from November 2026 to May 2027."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdlbFn_Mjif"
+     ],
+     "note": "Weekend formats of two nights."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdlbFn_Mjif"
+     ],
+     "note": "It is a venue; its retreats compete with rather than feed the villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales figures."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue (hotel) account, not an external host",
+     "Runs competing winter retreats at its own property"
+    ],
+    "missingInformation": [
+     "Whether any external organisers run retreats there who could be approached directly"
+    ],
+    "summary": "Moulin des Templiers is a French hotel that runs its own seasonal wellness retreats on site, including 20 to 22 November 2026, 26 to 28 February 2027, 12 to 14 March 2027 and 30 April to 2 May 2027, booked by phone or email. It has real winter-season retreat activity, but as a venue it has no reason to book another property. Group none; high risk as a lead."
+   },
+   "events": [
+    {
+     "title": "Retraite 'Habiter l'Hiver'",
+     "eventType": "wellness_retreat",
+     "startDate": "2026-11-20",
+     "endDate": "2026-11-22",
+     "nights": 2,
+     "location": "Moulin des Templiers",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdlbFn_Mjif"
+     ]
+    },
+    {
+     "title": "Retraite d'hiver",
+     "eventType": "wellness_retreat",
+     "startDate": "2027-02-26",
+     "endDate": "2027-02-28",
+     "nights": 2,
+     "location": "Moulin des Templiers",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdlbFn_Mjif"
+     ]
+    },
+    {
+     "title": "Retraite 'Accueillir le Printemps'",
+     "eventType": "wellness_retreat",
+     "startDate": "2027-03-12",
+     "endDate": "2027-03-14",
+     "nights": 2,
+     "location": "Moulin des Templiers",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdlbFn_Mjif"
+     ]
+    },
+    {
+     "title": "Retraite de printemps",
+     "eventType": "wellness_retreat",
+     "startDate": "2027-04-30",
+     "endDate": "2027-05-02",
+     "nights": 2,
+     "location": "Moulin des Templiers",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdlbFn_Mjif"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Moulin des Templiers",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "hotel running its own wellness retreats",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "national_home_delivery",
+   "classification": {
+    "group": "C_high_value_host",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdWtRWABqOR"
+     ],
+     "note": "Association organises its retreat at a resort it selected (Marriott Frenchman's Cove, St. Thomas)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdWtRWABqOR"
+     ],
+     "note": "'Registration is open! The Retreat is open to all NHDA regular members'; it runs the event."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdWtRWABqOR"
+     ],
+     "note": "NHDA Leadership Retreat dated February 7 to 10, 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Attendance not stated."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdWtRWABqOR"
+     ],
+     "note": "Member business owners at a Marriott beach resort; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'The Retreat' suggests a standing event but no past editions in evidence."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdWtRWABqOR"
+     ],
+     "note": "Three-night format."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdWtRWABqOR"
+     ],
+     "note": "US trade association using a full-service resort hotel; a private villa near Athens is a weak fit."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No figures."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "US-only membership association; long-haul to Greece",
+     "Hotel-resort format, likely needs meeting facilities and hotel rooms"
+    ],
+    "missingInformation": [
+     "Attendance numbers",
+     "Whether it ever holds events outside the US",
+     "Budget per attendee"
+    ],
+    "summary": "The National Home Delivery Association (NHDA) runs a members-only Leadership Retreat on February 7 to 10, 2027 at Marriott Frenchman's Cove, St. Thomas, with registration open. It is a professional group that chooses winter resort venues itself, so it fits group C, but its members are US-based, the format is a resort hotel and attendance is unknown. High risk for a Greek villa; scouting only."
+   },
+   "events": [
+    {
+     "title": "NHDA Leadership Retreat",
+     "eventType": "leadership_retreat",
+     "startDate": "2027-02-07",
+     "endDate": "2027-02-10",
+     "nights": 3,
+     "location": "Marriott Frenchman's Cove, St. Thomas",
+     "country": "VI",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdWtRWABqOR"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "National Home Delivery",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "trade association leadership retreat",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "ngcoa",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Conference venue choice not shown."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdjwqrQoEa8"
+     ],
+     "note": "Sells conference registration, not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdjwqrQoEa8"
+     ],
+     "note": "Golf Business Conference 2027 on January 25 to 27 in Orlando is a winter-window event, but it is a trade conference, not a retreat or offsite."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Attendance not stated."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdjwqrQoEa8"
+     ],
+     "note": "Numbered annual conference ('Golf Business Conference 2027')."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdjwqrQoEa8"
+     ],
+     "note": "National trade conference in Orlando; far beyond a 9-bedroom villa format."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No figures."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Trade association conference, not a retreat host",
+     "US-only, Orlando conference format"
+    ],
+    "missingInformation": [
+     "Whether the association runs small board or leadership offsites"
+    ],
+    "summary": "The National Golf Course Owners Association promotes registration for its Golf Business Conference 2027, January 25 to 27 in Orlando. It organises a winter event, but it is a national trade conference rather than a retreat or small offsite, and the market is US-only. Group none; high risk."
+   },
+   "events": [
+    {
+     "title": "Golf Business Conference 2027",
+     "eventType": null,
+     "startDate": "2027-01-25",
+     "endDate": "2027-01-27",
+     "nights": null,
+     "location": "Orlando",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdjwqrQoEa8"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Nat'l Golf Course Owners Assn",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "golf industry trade association",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "novafitnessretreat",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/novafitnessretreat?hl=en"
+     ],
+     "note": "It is the venue ('Vietnam's first purpose built retreat')."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only a content-creator call is in evidence; no retreat sales."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only an August and September 2026 creator programme."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/novafitnessretreat?hl=en"
+     ],
+     "note": "Purpose-built fitness venue in Phu Quoc, a competitor rather than a host."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No figures."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account (purpose-built retreat in Vietnam)",
+     "Evidence is a content-creator recruitment call"
+    ],
+    "missingInformation": [],
+    "summary": "Nova Fitness Retreat is a purpose-built fitness retreat venue in Phu Quoc, Vietnam (HYROX affiliated club), recruiting content creators for August and September 2026. As a venue it would not book another property. Group none; high risk."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Nova Fitness Retreat",
+    "country": "VN",
+    "languages": [
+     "en"
+    ],
+    "niche": "fitness retreat venue (Vietnam)",
+    "markets": [
+     "OTHER"
+    ]
+   }
+  },
+  {
+   "handle": "nwdanceproject",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeUke5oh-yH"
+     ],
+     "note": "Dance company audition call, not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeUke5oh-yH"
+     ],
+     "note": "Professional dance company; off-topic."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic: dance company audition post"
+    ],
+    "missingInformation": [],
+    "summary": "NW Dance Project is a dance company whose only evidence is a call for 2027/28 season company audition applications. It has nothing to do with retreats or offsites. Group none."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "NW Dance Project",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "contemporary dance company",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "offsiteio",
+   "classification": {
+    "group": "B_reaches_organizers",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeDZF-LiX8H"
+     ],
+     "note": "Plans team offsites end to end including venues, so it selects venues for client companies."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeDZF-LiX8H"
+     ],
+     "note": "A planning agency serving companies, not a host selling retreat places."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeDZF-LiX8H"
+     ],
+     "note": "Markets January kickoffs ('Your January kickoff is 90 days away'); no dated event of its own."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group sizes."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeDZF-LiX8H"
+     ],
+     "note": "Corporate clients with flights, hotel blocks, dinners and on-site support; no budgets shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeDZF-LiX8H"
+     ],
+     "note": "Ongoing offsite-planning service rather than one-off events."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeDZF-LiX8H"
+     ],
+     "note": "Company offsites and kickoffs fit a villa 20 minutes from Athens airport, if the groups are small enough."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No named clients or case studies."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "referral_partnership",
+    "redFlags": [
+     "Agency account; may expect commission",
+     "Mentions hotel blocks, which suggests some client groups exceed 9 bedrooms",
+     "No location or market in evidence"
+    ],
+    "missingInformation": [
+     "Where the agency and its clients are based",
+     "Typical group size and budget",
+     "Commission model"
+    ],
+    "summary": "Offsiteio is an agency that plans company offsites end to end, including venues, flights, hotel blocks, dinners and activities, and is actively marketing January kickoffs. It is not a host itself but chooses venues for corporate clients, so it fits group B as a referral channel for winter offsites. Market, group sizes and budgets are unknown. Medium risk; approach for a referral partnership."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Offsiteio | Events & Offsites",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "corporate offsite planning agency",
+    "markets": [
+     "OTHER"
+    ]
+   }
+  },
+  {
+   "handle": "padelante.spain",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdOU6DAnOh"
+     ],
+     "note": "Tour operator packaging its padel holiday at a 4-star resort with 13 courts in Alicante."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdOU6DAnOh"
+     ],
+     "note": "Sells its own padel holidays ('Our next tour is approaching! Learn more at padelante.co.uk')."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dates."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "4-star package; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdOU6DAnOh"
+     ],
+     "note": "'Our next tour' implies a series of tours."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Duration not stated."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdOU6DAnOh"
+     ],
+     "note": "Product built around a 13-court padel facility with airport transfer and spa; a villa only fits if courts are nearby."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdOU6DAnOh"
+     ],
+     "note": "Customer testimonial from a Dublin participant ('hear what Dan had to say')."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Product depends on a large padel facility (13 courts)",
+     "Mid-market 4-star hotel packaging"
+    ],
+    "missingInformation": [
+     "Tour dates and season",
+     "Group size and price",
+     "Whether it would run a Greek edition"
+    ],
+    "summary": "Padelante Tours sells padel holidays at a 4-star resort with 13 courts near Alicante, marketed via padelante.co.uk to UK and Irish players. It organises and sells recurring tours, but there are no dates, prices or group sizes, and the product depends on a large padel facility. Medium risk; scouting only, unless padel courts near Porto Rafti can be bundled."
+   },
+   "events": [
+    {
+     "title": "Padelante Holiday padel camp",
+     "eventType": "padel_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Alicante",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdOU6DAnOh"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Padelante Tours",
+    "country": "GB",
+    "languages": [
+     "en"
+    ],
+    "niche": "padel holidays and camps",
+    "markets": [
+     "GB",
+     "IE"
+    ]
+   }
+  },
+  {
+   "handle": "padelrest",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only a local event at TheCube Köln; no destination venue choice in evidence."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTYG-NYDXEp"
+     ],
+     "note": "Sells a padel x yoga session ('Join us! Anmeldung über Playtomic'); no residential retreat evidenced."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTYG-NYDXEp"
+     ],
+     "note": "Organised event on Friday 23 January 2026, but it is a 120-minute local session, not a residential retreat."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "One event only."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTYG-NYDXEp"
+     ],
+     "note": "120-minute format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTYG-NYDXEp"
+     ],
+     "note": "Padel plus yoga and mindfulness concept for a German audience; would need court access near the villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No figures."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Only evidence is a 2-hour local session in Cologne",
+     "Retreat claim rests on the account name only"
+    ],
+    "missingInformation": [
+     "Whether it runs residential padel retreats abroad",
+     "Group size and pricing",
+     "Follower count"
+    ],
+    "summary": "Padel Retreats & Community (Cologne) organises padel x yoga 'Mindful Matches', such as a 120-minute session at TheCube Köln on 23 January 2026 booked via Playtomic. The name signals retreats and the German market is a priority, but the only evidence is a local day session. Medium risk; scouting conversation to check whether it runs residential padel retreats."
+   },
+   "events": [
+    {
+     "title": "Mindful Matches: Padel x Yoga",
+     "eventType": "workshop",
+     "startDate": "2026-01-23",
+     "endDate": "2026-01-23",
+     "nights": null,
+     "location": "TheCube Köln",
+     "country": "DE",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTYG-NYDXEp"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Padel Retreats & Community",
+    "country": "DE",
+    "languages": [
+     "de"
+    ],
+    "niche": "padel and yoga community events",
+    "markets": [
+     "DE"
+    ]
+   }
+  },
+  {
+   "handle": "pure_haifa",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Local programme; no venue choice evidenced."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZWyD_1APwF"
+     ],
+     "note": "Sells a two-week summer workshop for teenage girls, not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only a summer 2026 programme."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'מספר המקומות מוגבל' (limited places) without a number."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZWyD_1APwF"
+     ],
+     "note": "Local Haifa youth summer workshop; not a destination retreat."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No figures."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Local youth programme in Haifa, not a retreat organiser"
+    ],
+    "missingInformation": [
+     "Whether the studio runs any adult destination retreats"
+    ],
+    "summary": "Pure Haifa runs a two-week summer 2026 workshop for teenage girls in Haifa (movement, confidence, creativity) with limited places. It is a local youth programme rather than a retreat organiser, despite the Israeli market being a priority. Group none."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Pure Haifa - פיור חיפה",
+    "country": "IL",
+    "languages": [
+     "he"
+    ],
+    "niche": "local movement studio, youth programmes",
+    "markets": [
+     "IL"
+    ]
+   }
+  }
+ ]
+}
