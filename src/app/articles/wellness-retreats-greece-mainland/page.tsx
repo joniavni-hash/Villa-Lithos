@@ -3,12 +3,12 @@ import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
 import PageCta from "@/components/PageCta";
 
-const TITLE = "Fitness & Wellness Retreat Venue in Greece | Villa Lithos";
+const TITLE = "Fitness and Wellness Retreats on the Greek Mainland: A Venue Guide | Villa Lithos";
 const H1 = "Fitness and Wellness Retreats in Greece: A Practical Guide to Mainland Venues";
-const DESC = "Luxury wellness retreat villa in Greece, 20 min from Athens airport: 9 bedrooms for 22 guests, heated infinity pool, private gym, padel court, outdoor sauna.";
+const DESC = "A practical guide to fitness and wellness retreats on the Greek mainland: dedicated resorts versus private villas, what to check in a venue, and the facilities a facilitator can plan around near Athens.";
 const URL = "https://www.villalithos.com/articles/wellness-retreats-greece-mainland";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-10-17";
+const MODIFIED = "2026-11-11";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -188,10 +188,10 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       <h1 style={s.h1}>{H1}</h1>
-      <span style={s.meta}>Last updated: October 2026 · 13 minute read · Villa Lithos Porto Rafti</span>
+      <span style={s.meta}>Last updated: November 2026 · 13 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
-        The Greek wellness travel category has grown rapidly since 2022, and fitness retreats have grown with it. Mainland Greece, particularly the Athens Riviera and East Attica, has emerged as an alternative to the established island spa resorts for both. This guide compares the two practical formats, dedicated wellness resorts and private villas with full training and wellness amenities, identifies when each is the right choice for a group, a family, or a corporate retreat, and sets out the <a href="#fitness-facilities" style={{ color: "#7a8c6e" }}>exact fitness facilities</a> a facilitator can plan around at Villa Lithos Porto Rafti. If you are looking for the venue itself, see our <Link href="/wellness-retreat-villa-greece" style={{ color: "#7a8c6e" }}>luxury wellness retreat villa in Greece</Link>; padel groups have their own <Link href="/padel-villa-athens" style={{ color: "#7a8c6e" }}>padel villa near Athens</Link> page, and organisers of <Link href="/plan-a-group-stay" style={{ color: "#7a8c6e" }}>group retreats in Greece</Link> for 10 to 22 can see who sleeps where on the room-by-room planning page.
+        The Greek wellness travel category has grown rapidly since 2022, and fitness retreats have grown with it. Mainland Greece, particularly the Athens Riviera and East Attica, has emerged as an alternative to the established island spa resorts for both. This guide compares the two practical formats, dedicated wellness resorts and private villas with full training and wellness amenities, identifies when each is the right choice for a group, a family, or a corporate retreat, and sets out the <a href="#fitness-facilities" style={{ color: "#7a8c6e" }}>exact fitness facilities</a> a facilitator can plan around at Villa Lithos Porto Rafti. If you are looking for the venue itself, see our <Link href="/wellness-retreat-villa-greece" style={{ color: "#7a8c6e" }}>luxury wellness retreat villa in Greece</Link>, one of the few wellness villas in Greece built for a whole group; padel groups have their own <Link href="/padel-villa-athens" style={{ color: "#7a8c6e" }}>padel villa near Athens</Link> page, and organisers of <Link href="/plan-a-group-stay" style={{ color: "#7a8c6e" }}>group retreats in Greece</Link> for 10 to 22 can see who sleeps where on the room-by-room planning page.
       </p>
 
       <StayWithUs
@@ -417,7 +417,7 @@ export default function Page() {
         <PageCta path="/articles/wellness-retreats-greece-mainland" style={s.cta} whatsappLabel="Ask about a retreat on WhatsApp" whatsappText="Hi, I'm organizing a retreat and would like to ask about availability at Villa Lithos." />
       </div>
 
-      <p style={s.updated}>Last updated: 28 October 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
+      <p style={s.updated}>Last updated: 11 November 2026. All external sources opened in a new tab with rel=&quot;nofollow noopener&quot;.</p>
 
       <Link href="/articles" style={s.back}>&larr; Back to Articles</Link>
     </article>

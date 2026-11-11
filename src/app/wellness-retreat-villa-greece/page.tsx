@@ -8,12 +8,12 @@ import { WINTER_STATS } from "@/app/lib/season";
 // Every fact here is already on the live site (wellness guide, homepage winter
 // band, plan-a-group-stay, llms.txt). No prices, no invented measurements.
 
-const TITLE = "Luxury Wellness Retreat Villa in Greece | Villa Lithos";
-const H1 = "A Private Wellness Retreat Villa in Greece, 20 Minutes from Athens Airport";
-const DESC = "The whole estate for your group: 9 bedrooms for up to 22, heated infinity pool, barrel sauna, private gym, padel court and shaded yoga deck, 20 min from Athens airport.";
+const TITLE = "Wellness Villas in Greece: Luxury Wellness Retreat Villa near Athens | Villa Lithos";
+const H1 = "Wellness Villas in Greece: A Private Luxury Wellness Retreat Villa, 20 Minutes from Athens Airport";
+const DESC = "A wellness villa in Greece for one group at a time: 9 bedrooms for up to 22, heated infinity pool, barrel sauna, private gym, padel court and yoga deck, 20 min from Athens airport.";
 const URL = "https://www.villalithos.com/wellness-retreat-villa-greece";
 const PUBLISHED = "2026-10-10";
-const MODIFIED = "2026-10-10";
+const MODIFIED = "2026-11-11";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -325,7 +325,7 @@ export default function Page() {
       </div>
 
       <p style={s.updated}>
-        Last updated 28 October 2026. Winter sunshine and temperature figures: Open-Meteo historical data (ERA5), {WINTER_STATS.period}.
+        Last updated 11 November 2026. Winter sunshine and temperature figures: Open-Meteo historical data (ERA5), {WINTER_STATS.period}.
       </p>
     </div>
   );
