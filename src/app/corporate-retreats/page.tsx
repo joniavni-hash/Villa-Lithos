@@ -40,12 +40,12 @@ import RetreatWhatsAppFloat from "@/components/retreats/RetreatWhatsAppFloat";
 import ProposalBuilder from "@/components/retreats/ProposalBuilder";
 import { RETREAT_CTA_CSS, waLink, WhatsAppIcon } from "@/components/retreats/contact";
 
-const TITLE = "Corporate Retreat Venue Near Athens | Villa Lithos";
+const TITLE = "Corporate Offsite Venue in Greece, 20 Minutes from Athens Airport | Villa Lithos";
 const H1 = "A corporate retreat venue near Athens, 20 minutes from the airport.";
-const DESC = "Private corporate retreat venue near Athens for offsites of 10 to 22. A 5,000 m² estate 20 minutes from the airport, Starlink internet, pool, padel, gym, sauna.";
+const DESC = "Private corporate offsite venue in Greece for teams of 10 to 22: a 5,000 m² estate 20 minutes from Athens airport with Starlink internet, pool, padel, gym and sauna.";
 const URL = "https://www.villalithos.com/corporate-retreats";
 const PUBLISHED = "2026-09-22";
-const MODIFIED = "2026-10-16";
+const MODIFIED = "2026-11-11";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
