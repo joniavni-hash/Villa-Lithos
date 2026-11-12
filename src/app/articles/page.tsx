@@ -45,7 +45,7 @@ const guides = [
   },
   {
     href: "/large-family-villa-greece",
-    title: "The Best Large Family Villas in Greece for Groups of 20",
+    title: "Large Villas in Greece for Groups: Up to 22 Guests, 9 Bedrooms near Athens",
     excerpt: "Where the 18-to-22 guest villas actually are, with regional capacity, location, and amenity comparisons.",
     category: "Large Groups",
   },
