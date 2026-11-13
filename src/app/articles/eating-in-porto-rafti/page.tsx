@@ -4,7 +4,7 @@ import StayWithUs from "@/components/StayWithUs";
 import PageCta from "@/components/PageCta";
 
 const TITLE = "Porto Rafti Restaurants: Where Our Team Eats, and a Local Food Guide";
-const DESC = "Six places in Porto Rafti our team actually eats at, from a seafront fish taverna on Avlaki to Epirote small plates and the town's best pastry shop, plus markets, Attic wine and private chefs for villa dinners.";
+const DESC = "Where our team eats in Porto Rafti: Kalos Gialos, Fyki-Fyki, Kazba Bar Kouzina, The Epirote, Ziba, Pastry Shop Pantazidis. Google ratings, price bands, markets and private chefs.";
 const URL = "https://www.villalithos.com/articles/eating-in-porto-rafti";
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-10-08";
