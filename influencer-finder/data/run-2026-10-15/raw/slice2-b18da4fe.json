@@ -1,0 +1,65 @@
+{
+ "spec": {
+  "id": "b18da4fe",
+  "query": "\"mastermind retraite\" \"inscriptions ouvertes\" 2026 OR 2027",
+  "language": "fr",
+  "eventType": "executive_mastermind",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ "results": [
+  {
+   "url": "https://www.instagram.com/reel/DZNg3uTs4KI",
+   "title": "Camille à Bali, ce n'est ni une retraite. Ni un mastermind. ...",
+   "content": "Il y a un avant et un après Bali. Du 22 au 29 octobre 2026. Retraite 100 % femmes 1 499 € Réservation possible avec 150 € Les inscriptions sont ouvertes.",
+   "score": 0.8016413
+  },
+  {
+   "url": "https://www.instagram.com/p/DcTV7O-FQdj",
+   "title": "Retraite mastermind entrepreneurs dans le cœur 💓 Avec Romain ...",
+   "content": "PARCOURS ANNUEL 2026-2027 Inscriptions via notre site internet : associationterrehappy33.fr Sur place pendant les ateliers en septembre Edwina : 06",
+   "score": 0.8014549
+  },
+  {
+   "url": "https://www.instagram.com/reel/DcZGRrfAKN6",
+   "title": "8 jours pour prendre soin de toi ❤️‍🩹 BALI 22-29 octobre 🌴 ...",
+   "content": "August 23, 2026: 2026 Retraite 100 % femmes 1 499 € Réservation possible avec 150 € Les inscriptions sont ouvertes. Ce ne sera pas une retraite",
+   "score": 0.5550741
+  },
+  {
+   "url": "https://www.instagram.com/reel/Db07Rm1BWBk",
+   "title": "j'avoue. Parce que si c'est pour faire du tourisme spirituel ...",
+   "content": "Du 22 au 29 octobre 2026. Retraite 100 % femmes 1 499 € Réservation possible avec 150 € Les inscriptions sont ouvertes. #bali",
+   "score": 0.52057004
+  },
+  {
+   "url": "https://www.instagram.com/p/DYVKBOIk9zF",
+   "title": "Et si cet été, tu t'offrais une expérience mastermind intime, high ...",
+   "content": "Du 29 au 31 juillet, j'ouvre les portes d'une retraite exclusive à Ottawa pour un très petit nombre de femmes prêtes à venir vivre 2 nuits / 3 jours d'immersion",
+   "score": 0.37786257
+  },
+  {
+   "url": "https://www.instagram.com/p/DbFzfC4juxt",
+   "title": "1er & 2 octobre 2026 – Paris ⚠️ Seulement 5 orthodontistes ...",
+   "content": "Programme détaillé et inscriptions : lien en bio. Paris · 9-10-11 octobre 2026 Inscriptions ouvertes. #orthodontie #onm #masterclass · June 23. OCR.",
+   "score": 0.34601128
+  },
+  {
+   "url": "https://www.instagram.com/p/DaCqgqgiEOb",
+   "title": "Envoie-moi « BALI » pour avoir les infos de cette retraite de ...",
+   "content": "Les inscriptions sont ouvertes ! Il ne reste que quelques places ! Pour vous inscrire, rendez-vous le lien en bio ou directement via l'adresse mail",
+   "score": 0.32946774
+  },
+  {
+   "url": "https://www.instagram.com/p/DcbaWoeqTCB",
+   "title": "La communauté des femmes entrepreneures on ...",
+   "content": "Le 12-13 septembre: retraite Business - 2 jour ensemble pour prendre de la hauteur avec ton business et bâtir ton influence (communication,",
+   "score": 0.0870737
+  }
+ ],
+ "fetchedAt": "2026-10-15T18:52:38Z"
+}

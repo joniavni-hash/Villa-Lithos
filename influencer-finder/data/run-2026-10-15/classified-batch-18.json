@@ -1,0 +1,1322 @@
+{
+ "batch": 18,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "lafouleedesducs",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Trail race organiser; not a retreat venue decision."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DV_kClvjNFQ"
+     ],
+     "note": "Sells race bibs ('dossard', 'Billetterie en bio') for the La Foulee des Ducs trail race, not retreats."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Race date not stated."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Not applicable; mass-participation race."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DV_kClvjNFQ"
+     ],
+     "note": "2027 is the 2nd edition ('cette 2e édition')."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DV_kClvjNFQ"
+     ],
+     "note": "Trail running race; off-topic for a retreat villa."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DV_kClvjNFQ"
+     ],
+     "note": "'L'édition 2026 a affiché complet' (2026 edition sold out)."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic: trail race organiser, not a retreat host"
+    ],
+    "missingInformation": [],
+    "summary": "La Foulee des Ducs is a French trail race; the post opens registration for the 2027 (second) edition after the 2026 race sold out. It sells race bibs, not retreats, and has no use for a villa. Off-topic; discard."
+   },
+   "events": [
+    {
+     "title": "La Foulee des Ducs 2027 (trail race, 2nd edition)",
+     "eventType": null,
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DV_kClvjNFQ"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "La Foulée des Ducs - Trail",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "trail running race",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "laurene_rothenbuhler",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat or venue in the excerpt."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only a 'FORMATION YOGA ALLIANCE 200H 2026-2027' title; the excerpt reads like a listing that also names yoga.pranidhana, so authorship is unclear."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dated event."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Very thin pack: one snippet that reads like a multi-account listing (mentions yoga.pranidhana)",
+     "Possible mis-attribution of the 200H training to this handle",
+     "Long location-hint list (Morocco, Portugal, Italy, France, Switzerland, Sri Lanka, India, Thailand) is not supported by the excerpt"
+    ],
+    "missingInformation": [
+     "Whether she runs the 200H training or destination retreats herself",
+     "Her home market (Switzerland or France)",
+     "Follower count, dates, prices"
+    ],
+    "summary": "The only evidence is a snippet titled 'FORMATION YOGA ALLIANCE 200H 2026-2027' that also lists yoga.pranidhana and YTT France 200h, so it may not be her programme. The location hints suggest retreats in many destinations, but nothing in the excerpt confirms that. Too thin to classify as an organiser; risk unknown. Worth a manual profile check because a French-speaking multi-destination retreat host would be in scope."
+   },
+   "events": [],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "fr"
+    ],
+    "niche": "yoga teacher (unverified)",
+    "markets": []
+   }
+  },
+  {
+   "handle": "littlebigganesha",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Studio runs its training modules on its own premises; no venue-selection evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYebuats0S1"
+     ],
+     "note": "Evidence is a teacher-training weekend module ('04 Ausbildungswochenende Deep Dive: Chakren & Vayus, Philosophie') at a studio, not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYebuats0S1"
+     ],
+     "note": "Only dated module is 'Mai 26' (May 2026), outside the winter window."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYebuats0S1"
+     ],
+     "note": "Modular teacher training (module 04) implies a recurring programme."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No aesthetic or audience evidence beyond a studio reel."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Yoga studio account running in-house weekend training modules, not a travelling retreat host"
+    ],
+    "missingInformation": [
+     "Whether the studio or its owner (nicolebongartz.de) runs destination retreats",
+     "Follower count"
+    ],
+    "summary": "Little Big Ganesha is a Wiesbaden yoga studio; the only evidence is a reel for module 04 of its in-house yoga teacher training (Deep Dive: Chakren & Vayus, Philosophie, May 2026). That is a local studio schedule, not a retreat, so no villa-booking intent can be inferred. The linked website nicolebongartz.de suggests an individual teacher who might run retreats, but there is no evidence of that here. Not a target on current evidence."
+   },
+   "events": [
+    {
+     "title": "Yogalehrer-Ausbildung Modul 04: Deep Dive Chakren & Vayus, Philosophie",
+     "eventType": "teacher_training",
+     "startDate": "2026-05",
+     "endDate": null,
+     "nights": null,
+     "location": "Wiesbaden",
+     "country": "DE",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYebuats0S1"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Little Big Ganesha Yoga Studio",
+    "country": "DE",
+    "languages": [
+     "de"
+    ],
+    "niche": "yoga studio and teacher training",
+    "markets": [
+     "DE"
+    ]
+   }
+  },
+  {
+   "handle": "llyouthcamp",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRLNHYzDYk4"
+     ],
+     "note": "Runs its retreat 'at Echo Valley'; unclear whether that is its own camp or a rented venue."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRLNHYzDYk4"
+     ],
+     "note": "'2026 Winter Retreat ... registration is open now', 'Register now at the link in bio'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRLNHYzDYk4"
+     ],
+     "note": "'2026 Winter Retreat' on January 7-9 for college students."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No numbers."
+    },
+    "audiencePaysPremium": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRLNHYzDYk4"
+     ],
+     "note": "College-student audience with a raffle for a 'FREE retreat'; budget positioning."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only one retreat shown."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRLNHYzDYk4"
+     ],
+     "note": "Weekend format."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRLNHYzDYk4"
+     ],
+     "note": "Youth/college camp retreat; not a luxury villa audience."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Youth camp ministry with a college-student audience; budget format",
+     "Location and home market not stated"
+    ],
+    "missingInformation": [
+     "Location of Echo Valley and home market"
+    ],
+    "summary": "LL Youth Camp ran a '2026 Winter Retreat' for college students on January 7-9 at Echo Valley, with early-registration deadlines and a raffle for a free place. It does organise winter retreats, but the audience is students on a budget and the format is a weekend camp. Off-target for a luxury villa; high commercial risk, discard."
+   },
+   "events": [
+    {
+     "title": "2026 Winter Retreat (college students, Echo Valley)",
+     "eventType": "personal_development_retreat",
+     "startDate": "2026-01-07",
+     "endDate": "2026-01-09",
+     "nights": 2,
+     "location": "Echo Valley",
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRLNHYzDYk4"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "youth and college camp ministry",
+    "markets": []
+   }
+  },
+  {
+   "handle": "lotos.yoga.berlin",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat venue evidence; the residential UK training may belong to another organisation."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRzHn68iG4I"
+     ],
+     "note": "Post celebrates a graduate of 'our YTT'; no retreat with registration or price."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "A 300hr Jivamukti hybrid training 'APRIL - JULY 2027' appears in the excerpt, but its organiser is not clearly this studio and the residential part is not dated."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRzHn68iG4I"
+     ],
+     "note": "Runs a yoga teacher training with graduates now teaching."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRzHn68iG4I"
+     ],
+     "note": "A former trainee now leads classes in Budapest; shows completed cohorts."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Berlin studio with in-house teacher training",
+     "The 'OFFICIAL 2027 300 hour' Jivamukti training with 10 days residential in the UK may be a different organiser's programme (possible mis-attribution)"
+    ],
+    "missingInformation": [
+     "Whether the studio runs residential trainings or retreats abroad",
+     "Follower count"
+    ],
+    "summary": "Lotos Yoga Berlin is a Berlin studio running a yoga teacher training; the reel celebrates a graduate from France now teaching in Budapest. The excerpt also mentions an official 300hr Jivamukti hybrid training (April to July 2027, 3 months online and 10 days residential in the UK), but it is unclear that this studio runs it. Classified as a studio with in-house trainings; risk unknown, not a target on current evidence."
+   },
+   "events": [],
+   "profile": {
+    "displayName": null,
+    "country": "DE",
+    "languages": [
+     "de",
+     "en"
+    ],
+    "niche": "yoga studio and teacher training",
+    "markets": [
+     "DE"
+    ]
+   }
+  },
+  {
+   "handle": "lovejoytantra",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Retreat is booked through nkdyoga.com; unclear whether Joey Tabone or NKD Yoga picks the venue."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DTJqNVhkyEU"
+     ],
+     "note": "Posts '#nkdyoga #lovejoytantra 2-8 February, Maspalomas, Gran Canaria. Booking details at nkdyoga.com/gran-canaria-retreat'; co-host with NKD Yoga."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DTJqNVhkyEU"
+     ],
+     "note": "Gran Canaria retreat 2-8 February; video posted January 05, 2026, so the retreat is February 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "One retreat in evidence."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DTJqNVhkyEU"
+     ],
+     "note": "Six-night retreat format meets a typical villa minimum stay."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Tantra and naked-yoga niche; fit depends on villa house rules and brand comfort."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Niche: tantra and naked yoga (#nkdyoga); check house-rule and brand fit before outreach",
+     "Co-host role; the booking page belongs to NKD Yoga"
+    ],
+    "missingInformation": [
+     "Who contracts the venue (Joey Tabone or NKD Yoga)",
+     "Group size and price",
+     "Audience market (UK hint)"
+    ],
+    "summary": "Joey Tabone (Love Joy Tantra) co-hosts a winter retreat with NKD Yoga in Maspalomas, Gran Canaria, 2-8 February (video posted 5 January 2026, so February 2026), booked via nkdyoga.com. That is a dated winter retreat in a sun destination, the pattern Villa Lithos wants, and a private estate suits a privacy-sensitive practice. The niche (tantra, naked yoga) needs a brand and house-rules check and the venue decision may sit with NKD Yoga. Medium risk; pilot conversation, ideally with NKD Yoga as well."
+   },
+   "events": [
+    {
+     "title": "Gran Canaria retreat with NKD Yoga",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-02-02",
+     "endDate": "2026-02-08",
+     "nights": 6,
+     "location": "Maspalomas, Gran Canaria",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DTJqNVhkyEU"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Joey Tabone",
+    "country": "GB",
+    "languages": [
+     "en"
+    ],
+    "niche": "tantra and naked yoga retreats",
+    "markets": [
+     "GB"
+    ]
+   }
+  },
+  {
+   "handle": "lunahvalsoefotograf",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWV90qHikcC"
+     ],
+     "note": "Co-runs the 'Work Away Retreat' to Spain with @juliebeicker and sets its dates; venue choice likely theirs."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWV90qHikcC"
+     ],
+     "note": "'du kan nu tilmelde dig', 'Kom med for kun 14.500 kr ex moms', 'Kun 1 plads tilbage'."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWV90qHikcC"
+     ],
+     "note": "Dated edition is the autumn retreat 27 Sep to 2 Oct 2026; earlier edition dates not given."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Near sell-outs ('Kun 1 plads tilbage'), but total group size not stated."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWV90qHikcC"
+     ],
+     "note": "DKK 14,500 ex VAT for a short retreat, priced ex moms for business buyers."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWV90qHikcC"
+     ],
+     "note": "'For 5. Gang' (fifth time) the Work Away Retreat to Spain is nearly sold out; autumn edition planned."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWV90qHikcC"
+     ],
+     "note": "Five-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWV90qHikcC"
+     ],
+     "note": "Work-away retreat for Danish business owners suits a private villa with workspace."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWV90qHikcC"
+     ],
+     "note": "Fifth edition, near sold out, paid in instalments."
+    },
+    "commercialRisk": "low",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Co-organised with @juliebeicker; confirm who contracts venues"
+    ],
+    "missingInformation": [
+     "Group size per edition",
+     "Dates of earlier editions (any in Nov-Apr)",
+     "Whether they would move an edition from Spain to Greece"
+    ],
+    "summary": "Luna Hvalsoe (Danish photographer) co-runs the 'Work Away Retreat' to Spain with @juliebeicker: the fifth edition is nearly sold out and an autumn retreat is set for 27 Sep to 2 Oct 2026 at DKK 14,500 ex VAT, with one place left. This is a repeat, sell-out, business-priced retreat for a Nordic market that already travels to Southern Europe, a strong profile for Villa Lithos even though no winter date is evidenced. Low risk; pitch a pilot winter or spring edition in Greece."
+   },
+   "events": [
+    {
+     "title": "Work Away Retreat Spain, autumn edition",
+     "eventType": "personal_development_retreat",
+     "startDate": "2026-09-27",
+     "endDate": "2026-10-02",
+     "nights": 5,
+     "location": "Spain",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": 14500,
+     "currency": "DKK",
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWV90qHikcC"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": "DK",
+    "languages": [
+     "da"
+    ],
+    "niche": "work-away retreats for business owners, photography",
+    "markets": [
+     "DK"
+    ]
+   }
+  },
+  {
+   "handle": "maison.moi.maime",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeFCYYbjUyC"
+     ],
+     "note": "Publishes its own 2027 retreat programmes ('Les retraites 2027 sont enfin là')."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeFCYYbjUyC"
+     ],
+     "note": "Mandatory pre-registration form, call-back by date order, then registration validated."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "2027 retreat dates are only in the bio link, not in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeFCYYbjUyC"
+     ],
+     "note": "Annual programme of retreats (plural) for 2027."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Retreat lengths unknown."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeFCYYbjUyC"
+     ],
+     "note": "High-touch application process suggests a curated, smaller-group offer."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeFCYYbjUyC"
+     ],
+     "note": "A screening and call-back process implies demand exceeding places, but no sell-out stated."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Dates, destinations and prices only in the bio link"
+    ],
+    "missingInformation": [
+     "2027 retreat destinations and dates",
+     "Price and group size",
+     "Whether Bali (location hint) is a fixed base"
+    ],
+    "summary": "Maison Moi Maime (French-language) has opened its 2027 retreat programmes, with a mandatory pre-registration form and personal call-backs before places are confirmed. It is a genuine organiser with a curated, application-based process, but destinations, dates, prices and group sizes are all behind the bio link; Bali appears only as a location hint. Medium risk; worth a pilot conversation with the French-speaking market in mind."
+   },
+   "events": [
+    {
+     "title": "Retraites 2027 (programmes in bio link)",
+     "eventType": null,
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeFCYYbjUyC"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "retreats (theme not stated)",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "mapitis",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dd9fUmVBtnb"
+     ],
+     "note": "Announces its own retreat '11.-16. April in Engelberg' with online registration."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dd9fUmVBtnb"
+     ],
+     "note": "'Anmeldung jetzt offen! ... Die Anmeldung erfolgt online'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dd9fUmVBtnb"
+     ],
+     "note": "Retreat 11-16 April in Engelberg, announced September 15, 2026, so April 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dd9fUmVBtnb"
+     ],
+     "note": "Title 'International team retreat 2026' plus a new April retreat suggests repeat events."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dd9fUmVBtnb"
+     ],
+     "note": "Five-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dd9fUmVBtnb"
+     ],
+     "note": "Fitness retreat with alpine/ski focus (Engelberg); Greek coastal villa would be a different season product."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Handle 'mapitis' while the reel is credited to 'Fitness Retreats Worldwide': possible mis-attribution or rename",
+     "Current winter offer is an Alpine ski-season retreat"
+    ],
+    "missingInformation": [
+     "Relationship between mapitis and Fitness Retreats Worldwide",
+     "Group size and price",
+     "Whether 'International team retreat' means a corporate offsite"
+    ],
+    "summary": "The reel (credited to Fitness Retreats Worldwide, 15 September 2026) opens registration for a retreat 11-16 April in Engelberg, Switzerland, i.e. April 2027, under the title 'International team retreat 2026'. That is a dated organiser-run retreat in the winter window aimed at the German-speaking market. The handle and the credited account name differ, so attribution needs checking. Medium risk; pilot pitch for a spring fitness retreat in Greece once attribution is confirmed."
+   },
+   "events": [
+    {
+     "title": "Fitness retreat in Engelberg (registration open)",
+     "eventType": "fitness_retreat",
+     "startDate": "2027-04-11",
+     "endDate": "2027-04-16",
+     "nights": 5,
+     "location": "Engelberg",
+     "country": "CH",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dd9fUmVBtnb"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": "CH",
+    "languages": [
+     "de"
+    ],
+    "niche": "fitness and ski retreats",
+    "markets": [
+     "CH",
+     "DE"
+    ]
+   }
+  },
+  {
+   "handle": "marcelclementi_",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Training format is weekend modules; venue unknown."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DPO0sDGjPAu"
+     ],
+     "note": "Runs 'meiner Ausbildung' (200h Multi-Style Yogalehrer-Ausbildung) in three-day weekends; not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No winter-window dates in the excerpt; the '28.Juni' hint is not in the excerpt."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Pack flags 'ausgebucht' but it is not in the excerpt and no size is given."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DPO0sDGjPAu"
+     ],
+     "note": "Own 200h teacher training running over multiple weekends."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No verifiable sales evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Weekend-module teacher training at home, not a residential retreat"
+    ],
+    "missingInformation": [
+     "Whether he runs residential trainings or retreats abroad",
+     "Group size, price, location"
+    ],
+    "summary": "Marcel Clementi is a German yoga teacher running his own 200h multi-style teacher training; the reel (30 September 2025) reports the first three-day weekend has passed. The format is weekend modules, not a residential retreat, and no dates in the winter window, price or group size are shown. Classified as a trainer without retreat evidence; medium risk, scouting only if a residential module abroad appears."
+   },
+   "events": [
+    {
+     "title": "200h Multi-Style Yogalehrer-Ausbildung (first weekend reported 30 September 2025)",
+     "eventType": "teacher_training",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": "DE",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DPO0sDGjPAu"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Marcel Clementi",
+    "country": "DE",
+    "languages": [
+     "de"
+    ],
+    "niche": "yoga teacher training",
+    "markets": [
+     "DE"
+    ]
+   }
+  },
+  {
+   "handle": "marysusanstults",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRgcGSUkfng"
+     ],
+     "note": "Runs her own Sedona retreats with a 'Book a Retreat' page; pack location hints list many destinations (Spain, Portugal, Madeira, Menorca, Italy, Mexico, Hawaii)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRgcGSUkfng"
+     ],
+     "note": "'Register btw Nov 24th and Dec 1st ... save $150 on your yoga retreat tuition. Returning students save an additional $108.'"
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRgcGSUkfng"
+     ],
+     "note": "Sedona Yoga, Hiking, Meditation Retreat April 22nd - 26th, 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only discounts shown ($150, $108), not the tuition."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRgcGSUkfng"
+     ],
+     "note": "Two Sedona dates in 2026 and 'After a wonderful retreat this past April, I am so happy to be heading back'; returning-student discount."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRgcGSUkfng"
+     ],
+     "note": "Four-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRgcGSUkfng"
+     ],
+     "note": "Yoga, hiking and meditation in nature; small destination retreats with loyal returning students."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRgcGSUkfng"
+     ],
+     "note": "Returning students and repeat Sedona editions."
+    },
+    "commercialRisk": "low",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "US-based audience likely; Greece is long-haul"
+    ],
+    "missingInformation": [
+     "Tuition price and group size",
+     "Which European destinations she has actually run (hints only)",
+     "Follower count"
+    ],
+    "summary": "Mary Susan Stults runs recurring yoga, hiking and meditation retreats in Sedona (April 22-26 and September 16-20, 2026), with early-registration and returning-student discounts, and her pack hints at further destinations in Spain, Portugal, Madeira, Menorca, Italy, Mexico and Hawaii. She is a multi-destination organiser with a dated April retreat inside the winter window and a loyal returning audience. Low risk; strong pilot candidate for a spring Greece retreat."
+   },
+   "events": [
+    {
+     "title": "Sedona Yoga, Hiking, Meditation Retreat (April)",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-04-22",
+     "endDate": "2026-04-26",
+     "nights": 4,
+     "location": "Sedona, Arizona",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRgcGSUkfng"
+     ]
+    },
+    {
+     "title": "Sedona Yoga, Hiking, Meditation Retreat (September)",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-09-16",
+     "endDate": "2026-09-20",
+     "nights": 4,
+     "location": "Sedona, Arizona",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRgcGSUkfng"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga, hiking and meditation retreats",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "metiyoga",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdeTYmKAkD0"
+     ],
+     "note": "'ma prochaine retraite de yoga' in Châtel; she chooses the location."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdeTYmKAkD0"
+     ],
+     "note": "'Les inscriptions sont ouvertes ... pour ma prochaine retraite de yoga'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdeTYmKAkD0"
+     ],
+     "note": "Retreat 'Entre ciel et terre' du 23 au 25 avril 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdeTYmKAkD0"
+     ],
+     "note": "'ma prochaine retraite' implies earlier retreats."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdeTYmKAkD0"
+     ],
+     "note": "Two-night weekend format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdeTYmKAkD0"
+     ],
+     "note": "Nature-based yoga retreat; current format is a short domestic mountain weekend."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Short domestic weekend format may not justify a flight to Greece"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Whether she runs longer retreats abroad",
+     "Follower count"
+    ],
+    "summary": "Meti Yoga has opened registration for her next yoga retreat 'Entre ciel et terre' in Châtel (French Alps), 23-25 April 2027. She is a first-person organiser with a dated retreat in the winter window, but the format is a two-night domestic mountain weekend and no price or group size is shown. Medium risk; pilot pitch only if she wants a longer sun-destination retreat for her French audience."
+   },
+   "events": [
+    {
+     "title": "Entre ciel et terre (yoga retreat)",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-04-23",
+     "endDate": "2027-04-25",
+     "nights": 2,
+     "location": "Châtel",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdeTYmKAkD0"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "yoga retreats",
+    "markets": [
+     "FR"
+    ]
+   }
+  }
+ ]
+}

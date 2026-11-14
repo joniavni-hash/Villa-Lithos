@@ -1,0 +1,74 @@
+{
+ "spec": {
+  "id": "08170918",
+  "query": "yoga teacher training November 2026 Europe OR Canary OR Morocco OR Cyprus OR Greece price per person instagram",
+  "language": "en",
+  "eventType": "teacher_training",
+  "lane": "listing_site",
+  "includeDomains": [
+   "bookretreats.com",
+   "retreat.guru",
+   "bookyogaretreats.com",
+   "tripaneer.com",
+   "retreatsandvenues.com",
+   "eventbrite.com",
+   "eventbrite.co.uk",
+   "eventbrite.de",
+   "eventbrite.fr",
+   "eventbrite.nl"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ "results": [
+  {
+   "url": "https://www.bookyogaretreats.com/all/c/200-hour-yoga-teacher-training/d/europe/spain/canary-islands",
+   "title": "Yoga Teacher Training (200-Hour) in Canary Islands, Spain",
+   "content": "200-Hour Yoga Teacher Training. Europe (2,107) Spain. Starts on: November 1, 2026 From US$ 1,151. Starts on: November 20, 2026 From US$ 2,072",
+   "score": 0.86358756
+  },
+  {
+   "url": "https://www.tripaneer.com/all/c/yoga-teacher-training/d/europe",
+   "title": "Top 10 Yoga Teacher Training in Europe for 2026/2027",
+   "content": "2026 November 2026. From US$ 1,502 22 Day ・ 22 Day US$ 1,723 ・ 10 Day 100-Hour Arm Balancing Yoga Teacher. Connect with us instagram facebook youtube",
+   "score": 0.86331123
+  },
+  {
+   "url": "https://bookretreats.com/blog/top-10-yoga-teacher-training-courses-november",
+   "title": "Top 10 Hand Picked Yoga Teacher Training Courses in November 2026/2027",
+   "content": "Cádiz, Andalusia, Spain |Prices from $1,719\n\nOur methods of teaching are interactive, focusing on a fully immersive yoga experience of teaching and group dynamics.\n\nThis course includes methods of reflective self-analysis as well as a vegetarian diet, all in a lovely, private, family-owned guest house.\n\nThe quiet location will allow you to enjoy and evolve in the perfect environment for your studies. [...] If you’re worried about prices, release all your fears to Mama Gaia or the team here at BookRetreats, because we have all the yoga teacher trainings in the world that will fit your budget.\n\nJust a heads up, if you’re looking for an authentic training that won’t use up your last few paychecks, India is the place to be!\n\n## 1. 21 Day 300 RYT Yoga Teacher Training in Athens, Greece\n\nAgisilaou 113, South Athens, Greece | Prices from $2,408 [...] Swasti Yoga Center has thoroughly designed every part of this teacher training course so that it appeals to each aspect of your being, expanding your mind and offering you a lifelong transformative experience.\n\n## 10. 18 Day 200 Hour Yoga Teacher Training in Koh Phangan, Thailand\n\nKoh Phangan, Surat Thani, Thailand | Prices from $1,464 (Flash sale)\n\nLa Casa Shambhala has been open to the public since 2017, and since then, we have welcomed many amazing human beings from all over the planet.",
+   "score": 0.7869018
+  },
+  {
+   "url": "https://www.bookyogaretreats.com/all/c/200-hour-yoga-teacher-training/d/europe",
+   "title": "200-Hour Yoga Teacher Training in Europe",
+   "content": "200-Hour Yoga Teacher Training in Europe! Europe (2,111) $ 1,689 US$ 1,566. The best 200-Hour Yoga Teacher Training courses in Europe",
+   "score": 0.5689194
+  },
+  {
+   "url": "https://retreat.guru/be/yoga-teacher-training-retreats",
+   "title": "2522+ Best Yoga Teacher Training Retreats | 2027 Prices",
+   "content": "Austria From €2,100 Loading. Yoga teacher training retreats typically cost between USD $40-$200 per day, with most programs running 15-28 days. generally range",
+   "score": 0.5654673
+  },
+  {
+   "url": "https://www.bookyogaretreats.com/all/c/yoga-teacher-training/s/yin-yoga/d/europe",
+   "title": "Top 10 Yin Yoga Teacher Training in Europe for 2026/2027",
+   "content": "Find, compare and book top Yin Yoga Teacher Training in Europe on the largest yoga travel site. Choose from 73 packages. Best price guaranteed!",
+   "score": 0.48308808
+  },
+  {
+   "url": "https://bookretreats.com/s/ttc/200-hours-yoga-teacher-training",
+   "title": "200 Hours Yoga Teacher Training",
+   "content": "Prices range from $595 for programs … programs in Bali, Costa Rica, and Europe command higher prices due .",
+   "score": 0.40839532
+  },
+  {
+   "url": "https://bookretreats.com/s/ttc/200-hours-yoga-teacher-training/spain",
+   "title": "200 Hours Yoga Teacher Training in Spain",
+   "content": "Embark on your journey to becoming a yoga teacher with a 200-hour Yoga Teacher Training in Spain's serene landscapes.",
+   "score": 0.17469202
+  }
+ ],
+ "fetchedAt": "2026-10-15T18:28:45Z"
+}

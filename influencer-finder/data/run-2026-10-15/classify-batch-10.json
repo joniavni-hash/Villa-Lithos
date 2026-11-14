@@ -1,0 +1,386 @@
+{
+ "batch": 10,
+ "candidates": [
+  {
+   "handle": "retreat_boss",
+   "profileUrl": "https://www.instagram.com/retreat_boss/",
+   "displayName": "Experience Design | Venue Advisor",
+   "bio": "This program will help you develop a business model and plan for short and long term gains that go way beyond any one event. It will support you for 12 months",
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/retreat_boss",
+     "kind": "profile",
+     "title": "Experience Design | Venue Advisor (@retreat_boss ...",
+     "excerpt": "This program will help you develop a business model and plan for short and long term gains that go way beyond any one event. It will support you for 12 months"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "retreatcompany",
+   "profileUrl": "https://www.instagram.com/retreatcompany/",
+   "displayName": "The Retreat Company",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "UK"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/retreatcompany",
+     "kind": "profile",
+     "title": "The Retreat Company (@retreatcompany) • Instagram photos and videos",
+     "excerpt": "Europe\n retreatcompany's highlight story picture\n\n  UK\n retreatcompany's highlight story picture\n\n  Testimonials\n\nPhoto by The Retreat Company on October 12, 2026. May be an image of text.\n\nPhoto by The Retreat Company on October 08, 2026. May be an image of text.\n\nPhoto by The Retreat Company on October 07, 2026. May be an image of text.\n\nPhoto by The Retreat Company on October 06, 2026. May be a"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "rushcreekchurch",
+   "profileUrl": "https://www.instagram.com/rushcreekchurch/",
+   "displayName": "Rush Creek Church",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Waco"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Register today",
+    "Comment \"Retreat\" to",
+    "claim your spot"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/Dd1wqzlDK4D",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "rushcreekchurch\n\nRegister today for the 2026 Women’s Retreat on November 5-7 at beautiful Spring Lakes Ranch in Waco, TX! Our theme “Vessels” will explore how God fills every area of our lives and meets our every need. Come enjoy the gift of unhurried time this Fall as we grow deeper in our walk with God together.   \n  \nComment \"Retreat\" to claim your spot and sign-up today!\n\n## No comments yet.\n\n"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram",
+     "dates": "November 5-7",
+     "location": "Waco",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "rushcreekchurch\n\nRegister today for the 2026 Women’s Retreat on November 5-7 at beautiful Spring Lakes Ranch in Waco, TX! Our theme “Vessels” will explore how God fills every area of our lives and meets our every need. Come enjoy the gift of unhurried time this Fall as we grow deeper in our walk with God together.   \n  \nComment \"Retreat\" to claim your spot and sign-up today!\n\n## No comments yet.\n\n",
+     "url": "https://www.instagram.com/reel/Dd1wqzlDK4D"
+    }
+   ]
+  },
+  {
+   "handle": "sabrinacampbell.ie",
+   "profileUrl": "https://www.instagram.com/sabrinacampbell.ie/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Tenerife"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DPPFgOLjC8j",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Photo by Sabrina Campbell on August 30, 2026. May be an image of poster, magazine and text that says 'TENERIFE CANARY TEXERIFE.CANARYISLANDS ISLANDS RESET RECHARGE RECONNECT wellness wellnessretreat retreat NOV.9-NOV13|2026 NOV 13 NOV.9 2026 ALL INCLUSIVE YOGA MEDITATION SOU SOUND ND HEALING HYPNOTHERAPY TRANSFORMATIONAL WORKSHOP AYURVEDA WORKSHOP Slow down. Breathe. Reconnect with yourself.'. [.."
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "samanthaskelly",
+   "profileUrl": "https://www.instagram.com/samanthaskelly/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Comment RETREAT"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DaGMGX2ua0h",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "48 HOURS ONLY! My course “six figure retreats” is on for $197 🔥🌴☀️🌊 (tomorrow it’s $247, Monday $297 then back to $4000) here’s what you get…   \n  \n- my entire marketing road map of how to effortlessly fill your retreats  \n- every template, document and resource I use for the organization and logistics of the retreat   \n- step-by-step how to actually plan the content curriculum  \n- how to generate"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "sandydbchealth",
+   "profileUrl": "https://www.instagram.com/sandydbchealth/",
+   "displayName": "Sandy Donnelly",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Lanzarote"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Join us",
+    "Limited places",
+    "Send me a message",
+    "room available"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DeBjbhColl_",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "📅 14-18 January 2027  \nLimited places available.  \n  \nSend me a message with the word “RETREAT” and I’ll send you all the details.  \n‼️ Also have one room available 16-20 Nov ‼️   \n  \n#Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat #RetreatHoliday HikingAdventure [...] What if January wasn’t about surviving winter...  \nWhat if it was about transforming how you feel?  \nImagine:  \n☀️ S"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram 📅 14-18 January 2027   Limited places available.      Send me a message with the...",
+     "dates": "14-18 January 2027",
+     "location": "Lanzarote",
+     "price": null,
+     "spots": "Limited places",
+     "role": "unknown",
+     "excerpt": "Instagram\n📅 14-18 January 2027  \nLimited places available.  \n  \nSend me a message with the word “RETREAT” and I’ll send you all the details.  \n‼️ Also have one room available 16-20 Nov ‼️   \n  \n#Lanzarote #Pila",
+     "url": "https://www.instagram.com/reel/DeBjbhColl_"
+    },
+    {
+     "title": "Instagram 📅 14-18 January 2027   Limited places available.      Send me a message with the...",
+     "dates": "16-20 Nov",
+     "location": "Lanzarote",
+     "price": null,
+     "spots": "Limited places",
+     "role": "unknown",
+     "excerpt": "Instagram\n📅 14-18 January 2027  \nLimited places available.  \n  \nSend me a message with the word “RETREAT” and I’ll send you all the details.  \n‼️ Also have one room available 16-20 Nov ‼️   \n  \n#Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat #RetreatHoliday HikingAdventure [...] What if January wasn’t about surviving winter...  \nWhat if it was abou",
+     "url": "https://www.instagram.com/reel/DeBjbhColl_"
+    },
+    {
+     "title": "Instagram",
+     "dates": "14-18 January 2027 | 16-20 Nov",
+     "location": "Lanzarote",
+     "price": null,
+     "spots": "Limited places | one room available 16-20 Nov ‼️ | one room available 16-20 Nov ‼️ #Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat",
+     "role": "organizer",
+     "excerpt": "📅 14-18 January 2027  \nLimited places available.  \n  \nSend me a message with the word “RETREAT” and I’ll send you all the details.  \n‼️ Also have one room available 16-20 Nov ‼️   \n  \n#Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat #RetreatHoliday HikingAdventure [...] What if January wasn’t about surviving winter...  \nWhat if it was about transforming how you feel?  \nImagine:  \n☀️ S",
+     "url": "https://www.instagram.com/reel/DeBjbhColl_"
+    },
+    {
+     "title": "Instagram",
+     "dates": "14-18 January 2027 | 16-20 Nov",
+     "location": "Lanzarote",
+     "price": null,
+     "spots": "Limited places | one room available 16-20 Nov ‼️ | one room available 16-20 Nov ‼️ #Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat",
+     "role": "organizer",
+     "excerpt": "📅 14-18 January 2027  \nLimited places available.  \n  \nSend me a message with the word “RETREAT” and I’ll send you all the details.  \n‼️ Also have one room available 16-20 Nov ‼️   \n  \n#Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat #RetreatHoliday HikingAdventure [...] What if January wasn’t about surviving winter...  \nWhat if it was about transforming how you feel?  \nImagine:  \n☀️ S",
+     "url": "https://www.instagram.com/reel/DeBjbhColl_"
+    },
+    {
+     "title": "Instagram",
+     "dates": "14-18 January 2027 | 16-20 Nov",
+     "location": "Lanzarote",
+     "price": null,
+     "spots": "Limited places | one room available 16-20 Nov ‼️ | one room available 16-20 Nov ‼️ #Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat",
+     "role": "organizer",
+     "excerpt": "📅 14-18 January 2027  \nLimited places available.  \n  \nSend me a message with the word “RETREAT” and I’ll send you all the details.  \n‼️ Also have one room available 16-20 Nov ‼️   \n  \n#Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat #RetreatHoliday HikingAdventure [...] What if January wasn’t about surviving winter...  \nWhat if it was about transforming how you feel?  \nImagine:  \n☀️ S",
+     "url": "https://www.instagram.com/reel/DeBjbhColl_"
+    }
+   ]
+  },
+  {
+   "handle": "science_abroad",
+   "profileUrl": "https://www.instagram.com/science_abroad/",
+   "displayName": "ScienceAbroad",
+   "bio": "ובקרוב נחשוף חברות מארחות נוספות. 1-5 בנובמבר 2026 | ישראל מדענים וחוקרים ישראלים בחו״ל? ההרשמה עדיין פתוחה: https://fii.scienceabroad.org.il/",
+   "followers": null,
+   "website": "https://fii.scienceabroad.org.il/",
+   "locationHints": [
+    "Modi`in"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "ההרשמה עדיין פתוחה",
+    "הרשמה"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/science_abroad",
+     "kind": "profile",
+     "title": "ScienceAbroad (@science_abroad) · Modi`in",
+     "excerpt": "ובקרוב נחשוף חברות מארחות נוספות. 1-5 בנובמבר 2026 | ישראל מדענים וחוקרים ישראלים בחו״ל? ההרשמה עדיין פתוחה: https://fii.scienceabroad.org.il/"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "ScienceAbroad (@science_abroad) · Modi`in",
+     "dates": "1-5 בנובמבר 2026",
+     "location": "Modi`in",
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "ScienceAbroad (@science_abroad) · Modi`in\nובקרוב נחשוף חברות מארחות נוספות. 1-5 בנובמבר 2026 | ישראל מדענים וחוקרים ישראלים בחו״ל? ההרשמה עדיין פתוחה: https://fii.scienceabroad.org.il/",
+     "url": "https://www.instagram.com/science_abroad"
+    }
+   ]
+  },
+  {
+   "handle": "senseandpresenceretreats",
+   "profileUrl": "https://www.instagram.com/senseandpresenceretreats/",
+   "displayName": "Sense and Presence",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Greece",
+    "France",
+    "Costa Rica"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DeFHtswx6CA",
+     "kind": "reel",
+     "title": "can you name a better feeling?🥹 next retreats: - France ...",
+     "excerpt": "- France • 21/24 November 2026 - Costa Rica • 28 Feb/13 March 2027 - Greece • 29 May/4 June 2027 all infos in bio!! #yogaretreat #"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "can you name a better feeling?🥹 next retreats: - France ...",
+     "dates": "21/24 November 2026 | March 2027 | June 2027",
+     "location": "Greece, France, Costa Rica",
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "can you name a better feeling?🥹 next retreats: France • 21/24 November 2026 Costa Rica • 28 Feb/13 March 2027 Greece • 29 May/4 June 2027 all infos in bio!! 🤍✨ #senseandpresence #yogaretreat #yogaretreatfrance #yogaretreatcostarica #yogaretreatgreece ... 'there is a reason we chose November...'",
+     "url": "https://www.instagram.com/reel/DeFHtswx6CA"
+    }
+   ]
+  },
+  {
+   "handle": "shanyelad",
+   "profileUrl": "https://www.instagram.com/shanyelad/",
+   "displayName": "Reel by Elad Shany",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "ההרשמה נפתחה"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/C0hM3chNo-S",
+     "kind": "reel",
+     "title": "Reel by Elad Shany (@shanyelad) · December 6, 2023",
+     "excerpt": "אם הצעד הבא שלך זו סדנת מאסטרמיינד לעצמאיים/ות פרטים ושאלון הרשמה בביו ... ההרשמה נפתחה - קישור בתגובות -. October 11, 2024 ... © 2026 Instagram from Meta."
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "sheri_rosenthal",
+   "profileUrl": "https://www.instagram.com/sheri_rosenthal/",
+   "displayName": "Sheri Rosenthal",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/B9HUgtXnDVr",
+     "kind": "post",
+     "title": "RETREAT TIP: Marketing ⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀ ...",
+     "excerpt": "The best way to get your retreat filled bar none is to have a plan laid out so you know exactly what you're doing weekly to promote your"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "RETREAT TIP: Marketing ⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀ ...",
+     "dates": null,
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "The best way to get your retreat filled bar none is to have a plan laid out so you know exactly what you're doing weekly to promote your",
+     "url": "https://www.instagram.com/p/B9HUgtXnDVr"
+    }
+   ]
+  },
+  {
+   "handle": "smashpadel.official",
+   "profileUrl": "https://www.instagram.com/smashpadel.official/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "ANMELDUNG JETZT OFFEN"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/smashpadel.official/p/DcOiJ1vN8Rr",
+     "kind": "post",
+     "title": "NEW TO PADEL? WE GOT YOU. Du willst ...",
+     "excerpt": "PADELEROS ACADEMY 2026/27 – ANMELDUNG JETZT OFFEN! Du möchtest Dein Padel Woche für Woche verbessern? Trainiere jede Woche in einer fixen Gruppe von 3"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "smcstudyabroad",
+   "profileUrl": "https://www.instagram.com/smcstudyabroad/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Italy"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DIbnIWqhvIB",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Photo by SMC Study Abroad on September 24, 2026.\n\nPhoto by SMC Study Abroad on September 23, 2026. May be an image of one or more people, people smiling and text.\n\nSee more posts\n\n--- [...] Video by SMC Study Abroad on October 07, 2026. May be an image of one or more people, makeup, people smiling, fleece and text.\n\nPhoto by SMC Study Abroad on October 06, 2026. May be an image of text.\n\nPhoto by "
+    }
+   ],
+   "eventsMentioned": []
+  }
+ ]
+}

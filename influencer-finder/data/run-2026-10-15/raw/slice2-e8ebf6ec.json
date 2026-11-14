@@ -1,0 +1,66 @@
+{
+ "spec": {
+  "id": "e8ebf6ec",
+  "query": "\"retraite de yoga\" France 2026 OR 2027 abroad OR Greece OR Spain OR Portugal OR Cyprus",
+  "language": "fr",
+  "market": "FR",
+  "eventType": "yoga_retreat",
+  "lane": "market_language",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ "results": [
+  {
+   "url": "https://www.instagram.com/reel/DeFHtswx6CA",
+   "title": "can you name a better feeling?🥹 next retreats: - France ...",
+   "content": "- France • 21/24 November 2026 - Costa Rica • 28 Feb/13 March 2027 - Greece • 29 May/4 June 2027 all infos in bio!! #yogaretreat #",
+   "score": 0.7738498
+  },
+  {
+   "url": "https://www.instagram.com/reel/DavTBPMNJ2Y",
+   "title": "Our first Winter retreat in French Alps🤍💙 🔹Yoga and ...",
+   "content": "La retraite d'hiver au @chalet.vinales fait son come back du 4 au 7 Mars 2027 ✨ 4 jours pour faire du yoga, du Pilates et de la randonnée dans",
+   "score": 0.6884899
+  },
+  {
+   "url": "https://www.instagram.com/p/DXhTW1PjZKL",
+   "title": "Retraite yoga et apnée en Corse 🗓️Du 1er au 5 juillet Un ...",
+   "content": "Retraites yoga on April 24, 2026. Yoga and freediving retreat in Corsica 🗓️ From July 1st to 5th A timeless experience awaits you, guided by a",
+   "score": 0.6100127
+  },
+  {
+   "url": "https://www.instagram.com/p/DWzGRY-DbDA",
+   "title": "Retour en images sur une retraite en plein cœur de la Provence. ...",
+   "content": "34 likes, 9 comments - leyogascope on April 6, 2026: \"Retour en images sur une retraite en plein cœur de la Provence. Une semaine douce et bienveillante",
+   "score": 0.46628717
+  },
+  {
+   "url": "https://www.instagram.com/p/DWRiKOSFarg",
+   "title": "Transformative 7 day Painting and Yoga retreat in the magical ...",
+   "content": "Nous vous donnons rendez-vous le mercredi 26 août 2026 pour un début de soirée tout en douceur. Au programme : un atelier de pastel intuitif guidé par",
+   "score": 0.38998842
+  },
+  {
+   "url": "https://www.instagram.com/p/DdmT5YmFlTX",
+   "title": "Quelques bonnes raisons d'embarquer avec nous dans ...",
+   "content": "Il reste encore de la place pour notre prochaine retraite au Portugal du 9 au 17 avril 2027. ✨ Et si toi aussi tu vivais cette aventure en 2027",
+   "score": 0.38567597
+  },
+  {
+   "url": "https://www.instagram.com/reel/DZa0YVfO5Zy",
+   "title": "Travel with me to our French Alps retreat ✈️ Here's how we get ...",
+   "content": "4 jours en retraite de yoga & randonnée dans les Alpes françaises. ✨ Merci @labruket et @madame_acidulee. Notre cheffe @chloeoudin.",
+   "score": 0.36983892
+  },
+  {
+   "url": "https://www.instagram.com/reel/DVqevVulFHQ",
+   "title": "️ Évade-toi en Grèce avec Anna & ...",
+   "content": "☀️ Évade-toi en Grèce avec Anna & Dina Bouge, respire et ralentis sous le soleil méditerranéen. Une retraite pensée pour te permettre de te recentrer, de te",
+   "score": 0.18537171
+  }
+ ],
+ "fetchedAt": "2026-10-15T18:31:22Z"
+}

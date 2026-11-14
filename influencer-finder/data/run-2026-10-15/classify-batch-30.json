@@ -1,0 +1,368 @@
+{
+ "batch": 30,
+ "candidates": [
+  {
+   "handle": "monicathemedium",
+   "profileUrl": "https://www.instagram.com/monicathemedium/",
+   "displayName": "Monica Imani",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Costa Rica",
+    "Villa Punto de Vista"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Only TWO spots remain",
+    "Link in bio for more info"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DYz4Ys1JSbk",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "August 17–22, 2026 Villa Punto de Vista 🌴 (The stunning sister property next door to the villa where my previous retreats were held) And with no Costa Rica retreat planned for 2027…this is truly your last chance for the foreseeable future. Only TWO spots remain ♥️ Link in bio for more info."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Costa Rica retreat",
+     "dates": "August 17–22, 2026",
+     "location": "Villa Punto de Vista",
+     "price": null,
+     "spots": "Only TWO spots remain",
+     "role": "organizer",
+     "excerpt": "August 17–22, 2026 Villa Punto de Vista 🌴 Only TWO spots remain ♥️",
+     "url": "https://www.instagram.com/reel/DYz4Ys1JSbk"
+    }
+   ]
+  },
+  {
+   "handle": "mycoachnadz",
+   "profileUrl": "https://www.instagram.com/mycoachnadz/",
+   "displayName": "Nadine Sinclair (Coach Nadz)",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Gran Canaria"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeFt2VjoGPZ",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Day 1 Gran Canaria 🇮🇨 Let the Goddess Retreat begin….. One Love"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Goddess Retreat",
+     "dates": null,
+     "location": "Gran Canaria",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Day 1 Gran Canaria 🇮🇨 Let the Goddess Retreat begin…..",
+     "url": "https://www.instagram.com/p/DeFt2VjoGPZ"
+    }
+   ]
+  },
+  {
+   "handle": "paamon.tlv",
+   "profileUrl": "https://www.instagram.com/paamon.tlv/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/paamon.tlv/p/DasR1PHDEb8?hl=bg",
+     "kind": "post",
+     "title": "ביום הרביעי לשבוע סדנאות היצירה בפעמון, ב 05.08 תתקיים סדנת ...",
+     "excerpt": "סדנה מהנה בה … הסדנה תתקיים בפעמון (הממוזג:)) ותלווה בכיבוד קיצי ומרענן. היא מיועדת למבוגרים וילדים (מגיל 8 ומעלה)"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "pantarhei.movement",
+   "profileUrl": "https://www.instagram.com/pantarhei.movement/",
+   "displayName": "Pantarhei Studio - מרכז למחול ותנועה סומטית",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DckxUAakWi8",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "More posts from pantarhei.movement Video by Pantarhei Studio - מרכז למחול ותנועה סומטית on October 15, 2026. May be an image of yoga, dancing and text."
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "pgbchope",
+   "profileUrl": "https://www.instagram.com/pgbchope/",
+   "displayName": "Pleasant Grove Baptist Church",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Jekyll Island"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Registration for Ladies Retreat 2027 is officially OPEN!",
+    "register at the link in our bio"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Dcj6tqojhiy",
+     "kind": "post",
+     "title": "Save the date for Ladies Retreat 2027! 📅 After having to ...",
+     "excerpt": "Save the date for Ladies Retreat 2027! 📅 After having to cancel our 2026 retreat, we’re even more excited to gather together again! 📆January 22nd - January 24th 📍Beautiful Jekyll Island Stay tuned to our social media pages for the theme, registration details, and more!"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Ladies Retreat 2027",
+     "dates": "January 22nd - January 24th",
+     "location": "Jekyll Island",
+     "price": "$350 all-inclusive",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Registration for Ladies Retreat 2027 is officially OPEN! 📅January 22nd - 24th. You can register at the link in our bio! $350 all-inclusive",
+     "url": "https://www.instagram.com/p/Dcj6tqojhiy"
+    }
+   ]
+  },
+  {
+   "handle": "retreatvenues_com",
+   "profileUrl": "https://www.instagram.com/retreatvenues_com/",
+   "displayName": "Retreat Venues - Venue for Hire",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Tenerife"
+   ],
+   "accountType": "venue",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Db_HoF3jOhv",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Photo by Retreat Venues - Venue for Hire on August 13, 2026. May be an image of text that says 'Your retreat venue in Tenerife, filled with charm, connection and calm.'"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "saisonschlemm",
+   "profileUrl": "https://www.instagram.com/saisonschlemm/",
+   "displayName": "Saison Schlemm",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "South of France"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DZpyRO-NK_c",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "A short recap of @nadine.felden and our food & yoga retreat in the South of France. How beautiful was that?? 🥹🫶🏽🐭💖"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "food & yoga retreat in the South of France",
+     "dates": null,
+     "location": "South of France",
+     "price": null,
+     "spots": null,
+     "role": "co_host",
+     "excerpt": "A short recap of @nadine.felden and our food & yoga retreat in the South of France.",
+     "url": "https://www.instagram.com/reel/DZpyRO-NK_c"
+    }
+   ]
+  },
+  {
+   "handle": "sarayogaofficial",
+   "profileUrl": "https://www.instagram.com/sarayogaofficial/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Schweiz"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "I am absolutely thrilled to announce that I will be guiding"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/sarayogaofficial/p/DaIpPqkMPHI?__d=1%2F%3Fhidemenu%3Dtrue",
+     "kind": "post",
+     "title": "I am absolutely thrilled to announce that I will be guiding ...",
+     "excerpt": "✨ Vision & mastermind sessions, deep mindset work ... Photo by Retreats in der Schweiz on August 15, 2026."
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "sculptneworleans",
+   "profileUrl": "https://www.instagram.com/sculptneworleans/",
+   "displayName": "Sculpt New Orleans",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "New Orleans",
+    "South of France",
+    "Languedoc"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Details for our France 🇫🇷 2027 Retreat coming soon…"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DbEnAtSJ3jw",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "FRANCE Retreat JOIN US FOR THE ULTIMATE PILATES & WINE ESCAPE Luxury Villa Accommodation Daily Pilates Instruction Curated Wine Classes Languedoc Excursions JUNE 21-25, 2027 [...] Was so nice we’re doing it twice. Picture yourself HERE! Details for our France 🇫🇷 2027 Retreat coming soon…"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "France Retreat Pilates & Wine Escape",
+     "dates": "JUNE 21-25, 2027",
+     "location": "South of France",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "FRANCE Retreat JOIN US FOR THE ULTIMATE PILATES & WINE ESCAPE JUNE 21-25, 2027",
+     "url": "https://www.instagram.com/reel/DbEnAtSJ3jw"
+    }
+   ]
+  },
+  {
+   "handle": "shirakucher",
+   "profileUrl": "https://www.instagram.com/shirakucher/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/shirakucher/p/DUdt-qtjC8b?__d=11%252F",
+     "kind": "post",
+     "title": "סיכום של דרך, שנתיים וחצי שהיו מלאות בהכל מהכל ורגע לפני ההתחלות ...",
+     "excerpt": "סיכום של דרך, שנתיים וחצי שהיו מלאות בהכל מהכל ורגע לפני ההתחלות החדשות והבית החדש לתרגולים רציתי לעצור רגע ולהגיד תודה. לכל המקומות שבהם לימדתי לאורך הדרך"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "soizic_michelot_mbsr_paris",
+   "profileUrl": "https://www.instagram.com/soizic_michelot_mbsr_paris/",
+   "displayName": "Soizic Michelot - MBSR Paris",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Paris",
+    "Perche"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Inscriptions ouvertes",
+    "complet - inscription sur liste d’attente"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DOQfxBzCMGs",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "[RETRAITES MÉDITATIVES] Voici les dates des prochaines retraites ! Du vendredi 9 au dimanche 11 janvier 2026 : 3 jours de retraite en ville, non résidentiels, au Parc Floral de Paris @espacecityzenparis (Inscriptions ouvertes). Du jeudi 9 au dimanche 12 avril 2026 : 3 jours de retraite résidentielle, dans le Perche, à 2h de Paris."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "retraite en ville Parc Floral de Paris",
+     "dates": "Du vendredi 9 au dimanche 11 janvier 2026",
+     "location": "Parc Floral de Paris",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Du vendredi 9 au dimanche 11 janvier 2026 : 3 jours de retraite en ville, non résidentiels, au Parc Floral de Paris @espacecityzenparis (Inscriptions ouvertes).",
+     "url": "https://www.instagram.com/p/DOQfxBzCMGs"
+    },
+    {
+     "title": "retraite résidentielle dans le Perche",
+     "dates": "Du jeudi 9 au dimanche 12 avril 2026",
+     "location": "dans le Perche, à 2h de Paris",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Du jeudi 9 au dimanche 12 avril 2026 : 3 jours de retraite résidentielle, dans le Perche, à 2h de Paris.",
+     "url": "https://www.instagram.com/p/DOQfxBzCMGs"
+    }
+   ]
+  },
+  {
+   "handle": "solarmedusa",
+   "profileUrl": "https://www.instagram.com/solarmedusa/",
+   "displayName": "Georgia Hunter⚡ Yoga • Photography • Retreats",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Mexico"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DZJo0IXmySC?img_index=2",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Such beautiful photos Geezy! What a powerful week 🥹 [...] The most beautiful journey 😍 [...] More posts from solarmedusa Photo by Georgia Hunter⚡ Yoga • Photography • Retreats on July 20, 2026. [...] solarmedusa and 2 others Mexico"
+    }
+   ],
+   "eventsMentioned": []
+  }
+ ]
+}

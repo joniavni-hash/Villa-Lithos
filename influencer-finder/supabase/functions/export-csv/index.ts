@@ -1,0 +1,23 @@
+// export-csv: candidates export with scores, stage, evidence count and top evidence URL.
+import { adminClient, json, CORS, requireUser } from '../_shared/clients.ts';
+
+Deno.serve(async (req) => {
+  if (req.method === 'OPTIONS') return new Response(null, { headers: CORS });
+  const auth = await requireUser(req);
+  if (auth instanceof Response) return auth;
+  const sb = adminClient();
+  const { data: rows, error } = await sb.from('candidates').select('handle,profile_url,display_name,country,markets,followers,followers_provenance,candidate_group,tier,fit_score,confidence,verification_status,pipeline_stage,recommended_track,ebn,budget,notes,discovered_at,last_seen_at').order('fit_score', { ascending: false, nullsFirst: false });
+  if (error) return json({ error: error.message }, 500);
+  const { data: evCounts } = await sb.from('evidence').select('candidate_id, url');
+  const byHandle = new Map<string, number>();
+  const header = ['handle', 'profile_url', 'display_name', 'country', 'markets', 'followers', 'followers_provenance', 'group', 'tier', 'fit_score', 'confidence', 'verification_status', 'pipeline_stage', 'recommended_track', 'expected_nights_base', 'expected_nights_conservative', 'expected_nights_optimistic', 'venue_budget_per_night_eur', 'notes', 'discovered_at', 'last_seen_at'];
+  const lines = [header.join(',')];
+  for (const r of rows ?? []) {
+    const vals = [r.handle, r.profile_url, r.display_name, r.country, (r.markets ?? []).join('|'), r.followers, r.followers_provenance, r.candidate_group, r.tier, r.fit_score, r.confidence, r.verification_status, r.pipeline_stage, r.recommended_track, r.ebn?.expectedBookedNights?.base?.toFixed?.(2), r.ebn?.expectedBookedNights?.conservative?.toFixed?.(2), r.ebn?.expectedBookedNights?.optimistic?.toFixed?.(2), r.budget?.venueBudgetPerNightEur?.toFixed?.(0), r.notes, r.discovered_at, r.last_seen_at];
+    lines.push(vals.map(csv).join(','));
+  }
+  void evCounts; void byHandle;
+  return new Response(lines.join('\n'), { headers: { ...CORS, 'Content-Type': 'text/csv; charset=utf-8', 'Content-Disposition': 'attachment; filename="villa-lithos-candidates.csv"' } });
+});
+
+function csv(v: unknown): string { if (v === null || v === undefined) return ''; const s = String(v); return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; }

@@ -1,0 +1,173 @@
+{
+ "batch": 27,
+ "candidates": [
+  {
+   "handle": "yellowyogaberlin",
+   "profileUrl": "https://www.instagram.com/yellowyogaberlin/",
+   "displayName": "yellow yoga",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Berlin"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Reservations are now open!"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DVdiZ6wCcA3",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "The retreat program includes a variety of yoga styles to explore – from vinyasa and ashtanga to kundalini as well as yin and restorative yoga. In addition to yoga, we offer many other wonderful activities: breathing exercises (pranayama) and meditation, sound journeys and massages, sharing and singing circles, campfires, communal cooking, and hiking trips to the swimming lake! 🌷 Reservations ar..."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "yellow yoga retreat",
+     "dates": null,
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🌷 Reservations are now open! 🌷 🪻Link in bio to more infos and bookings.🪻",
+     "url": "https://www.instagram.com/p/DVdiZ6wCcA3"
+    }
+   ]
+  },
+  {
+   "handle": "yog_apo",
+   "profileUrl": "https://www.instagram.com/yog_apo/",
+   "displayName": "Apolline Delmas • Yoga teacher Saint-Tropez",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Saint-Tropez",
+    "gorges du Verdon en Provence"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "OUVERTURE DES INSCRIPTIONS EARLY BIRD",
+    "11 ÈME ÉDITION"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DSMvTFygHSo",
+     "kind": "reel",
+     "title": "AU RYTHME DES 5 ÉLÉMENTS 📅 4 jours / 3 nuits ...",
+     "excerpt": "🥳 OUVERTURE DES INSCRIPTIONS EARLY BIRD 🧚 RETRAITE DE YOGA « SACRED FLOW » 11 ÈME ÉDITION : AU RYTHME DES 5 ÉLÉMENTS 📅 4 jours / 3 nuits 🇫🇷 À @casaolta dans les gorges du Verdon en Provence 📌 Du 14-17 mai 2026 ... yoga, méditation, cacao, cercle holistique, bains chauds & froids"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "RETRAITE DE YOGA « SACRED FLOW » 11 ÈME ÉDITION : AU RYTHME DES 5 ÉLÉMENTS",
+     "dates": "Du 14-17 mai 2026",
+     "location": "@casaolta dans les gorges du Verdon en Provence",
+     "price": "EARLY BIRD",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🥳 OUVERTURE DES INSCRIPTIONS EARLY BIRD ... 📌 Du 14-17 mai 2026",
+     "url": "https://www.instagram.com/reel/DSMvTFygHSo"
+    }
+   ]
+  },
+  {
+   "handle": "yogaden.nl",
+   "profileUrl": "https://www.instagram.com/yogaden.nl/",
+   "displayName": "Yoga Den Amsterdam",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Amsterdam",
+    "Paros, Greece"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DT_Av8OCNbz",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Retreat with Tina in Paros, Greece (May 14-19 🇬🇷) Seven days of deep practice, clear and intelligent teaching, and a genuine nervous system reset, all held on one of the most beautiful islands in the Aegean 🌊 ... • A small group setting that allows for presence, attention, and connection"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Retreat with Tina in Paros, Greece",
+     "dates": "May 14-19",
+     "location": "Paros, Greece",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Retreat with Tina in Paros, Greece (May 14-19 🇬🇷)",
+     "url": "https://www.instagram.com/p/DT_Av8OCNbz"
+    }
+   ]
+  },
+  {
+   "handle": "yogaunited",
+   "profileUrl": "https://www.instagram.com/yogaunited/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Join our newsletter to be the first to know about our dates"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/yogaunited/reel/DT-x2YqkgaD?hl=zh-cn",
+     "kind": "reel",
+     "title": "Join our newsletter to be the first to know about our dates ...",
+     "excerpt": "Ready to join us on an unforgettable adventure? Whether you're seeking deep rest, meaningful connection, cultural immersion, or the trip of a lifetime, our"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "zibelkazivljenja",
+   "profileUrl": "https://www.instagram.com/zibelkazivljenja/",
+   "displayName": "Zibelka Življenja",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Slovenia"
+   ],
+   "accountType": "venue",
+   "organizerSignals": [
+    "You are warmly invited if you feel called to join us."
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DbjW5CQDfcA",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "This October, we will be hosting a special event at Zibelka Življenja. ... \"Coming Home to Yourself\" is a three-day experiential retreat about authentic living ... 📅 2–4 October 2026"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Coming Home to Yourself",
+     "dates": "2–4 October 2026",
+     "location": "Zibelka Življenja",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "\"Coming Home to Yourself\" is a three-day experiential retreat ... 📅 2–4 October 2026",
+     "url": "https://www.instagram.com/p/DbjW5CQDfcA"
+    }
+   ]
+  }
+ ]
+}

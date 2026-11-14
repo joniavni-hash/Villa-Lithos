@@ -1,0 +1,301 @@
+{
+  "batch": 3,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "interreg_grcy",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/interreg_grcy"], "note": "EU programme managing authority; posts webinars and institutional events."},
+        "sellsRetreats": {"value": false, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/interreg_grcy"], "note": "No retreats; webinar on AI in Interreg communications (20 October 2026) and a ministry event."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account: EU Interreg Greece-Cyprus programme authority"],
+        "missingInformation": [],
+        "summary": "Interreg VI-A Greece-Cyprus is the official account of an EU cross-border funding programme; its posts are a webinar on 20 October 2026 and a ministry 'save the date' (profile page). It is a public institution with no retreat or hosted-group activity. Classified none; no outreach."
+      },
+      "events": [],
+      "profile": {"displayName": "Interreg VI- A Greece Cyprus", "country": "GR", "languages": ["el", "en"], "niche": "EU programme authority", "markets": ["GR", "CY"]}
+    },
+    {
+      "handle": "jenildholakia.yoga",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DUne9aFjP1L"], "note": "'hosting 30+ retreats across sacred lands, mountains, forests & beaches' implies past venue choices; none specified."},
+        "sellsRetreats": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DUne9aFjP1L"], "note": "Hosts retreats (30+, self-reported) but the current offer is a Retreat Masterclass for yoga teachers ('DM RETREAT MASTERCLASS to apply. Limited spots')."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated retreats."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No sizes."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DUne9aFjP1L"], "note": "30+ retreats hosted."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Insufficient evidence."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DUne9aFjP1L"], "note": "'Retreats can earn you more in a few days than weeks of regular classes', 30+ retreats."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["No location, bio or follower data; likely India-based audience (name and 'sacred lands' framing), outside target markets"],
+        "missingInformation": ["Country and audience geography", "Own retreat calendar and price points", "Masterclass cohort size"],
+        "summary": "Jenil Dholakia is a yoga teacher and wellness coach who says he has hosted 30+ retreats and now runs a Retreat Masterclass for yoga teachers who want to host their own (reel DUne9aFjP1L, 'DM RETREAT MASTERCLASS to apply, limited spots'). The audience is retreat organisers in the making, so the fit is a referral channel; his own hosting is undated and unpriced. Location is unknown and probably India, which weakens market fit. Medium risk. Low-priority referral partnership; confirm audience geography before investing."
+      },
+      "events": [],
+      "profile": {"displayName": "Jenil Dholakia | Yoga Teacher | Wellness Coach", "country": null, "languages": ["en"], "niche": "yoga retreat hosting / retreat masterclass", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "ladan_soltani",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DeJa7OZt3t9", "https://www.instagram.com/reel/DTdt5bZjUEm"], "note": "Hosts her own back-to-back retreats in Lanzarote ('join one of my retreats')."},
+        "sellsRetreats": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DeJa7OZt3t9"], "note": "'If you want to get away this Christmas and join one of my retreats, I would love to welcome you' with three dated retreats."},
+        "provenWinterActivity": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DeJa7OZt3t9", "https://www.instagram.com/reel/DTdt5bZjUEm"], "note": "Explicit 'winter retreats': 21-27 December Christmas retreat, 28 Dec - 2 Jan New Year retreat, 3-8 January Yoga detox retreat; past Christmas Wellness Retreat Lanzarote."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group sizes stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No prices."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DeJa7OZt3t9", "https://www.instagram.com/reel/DTdt5bZjUEm"], "note": "Three back-to-back winter retreats plus a prior Christmas edition."},
+        "longStayPotential": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DeJa7OZt3t9"], "note": "Back-to-back 6, 5 and 5-night retreats cover roughly 18 consecutive nights (21 Dec - 8 Jan)."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DTdt5bZjUEm"], "note": "Yoga/meditation wellness for women 50+ and menopause; pool imagery, European winter-sun positioning."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DTdt5bZjUEm"], "note": "'Real guest experience' from a past Christmas retreat."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["No prices or group sizes visible", "Established in Lanzarote; switching destination requires a clear value case"],
+        "missingInformation": ["Price per person and typical group size", "Home market (likely UK, not stated)", "Venue currently used in Lanzarote and what it costs her"],
+        "summary": "Ladan Soltani runs yoga, meditation and wellness retreats and is hosting three back-to-back winter retreats in Lanzarote: 21-27 December (Christmas), 28 Dec - 2 Jan (New Year) and 3-8 January (Yoga detox), inviting followers to 'join one of my retreats' (reel DeJa7OZt3t9), with a previous Christmas retreat documented (reel DTdt5bZjUEm). This is exactly the Nov-Apr, multi-week pattern Villa Lithos targets, and the 50+/menopause audience is a loyal, repeat-booking segment. Prices and group sizes are missing, so risk is medium. Recommend a pilot retreat for winter 2027/28 with an anchor-block option (three consecutive retreats, about 18 nights); open with the 20-minute airport access versus Lanzarote."
+      },
+      "events": [
+        {"title": "Christmas retreat, Lanzarote (21-27 December)", "eventType": "wellness_retreat", "startDate": "2026-12-21", "endDate": "2026-12-27", "nights": 6, "location": "Lanzarote, Canary Islands", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DeJa7OZt3t9"]},
+        {"title": "New Year retreat, Lanzarote (28 Dec - 2 Jan)", "eventType": "wellness_retreat", "startDate": "2026-12-28", "endDate": "2027-01-02", "nights": 5, "location": "Lanzarote, Canary Islands", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DeJa7OZt3t9"]},
+        {"title": "January New Year Yoga Detox & Wellness retreat, Lanzarote (3-8 January)", "eventType": "yoga_retreat", "startDate": "2027-01-03", "endDate": "2027-01-08", "nights": 5, "location": "Lanzarote, Canary Islands", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DeJa7OZt3t9"]},
+        {"title": "Christmas Wellness Retreat Lanzarote (past edition, guest experience)", "eventType": "wellness_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Lanzarote", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DTdt5bZjUEm"]}
+      ],
+      "profile": {"displayName": "Ladan Soltani | Yoga / Meditation / Retreats", "country": null, "languages": ["en"], "niche": "yoga and wellness retreats for women 50+", "markets": ["GB", "OTHER"]}
+    },
+    {
+      "handle": "leadmontana",
+      "classification": {
+        "group": "C_high_value_host",
+        "decidesVenue": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DcPVJRXBbuL"], "note": "Organisation books Chico Hot Springs for its annual Women's Leadership Retreat."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DcPVJRXBbuL"], "note": "'Registration is now open ... Space is limited to 35 women, so grab your spot now.'"},
+        "provenWinterActivity": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DcPVJRXBbuL"], "note": "December 3-4, 2026; held annually since 2015 'as the year winds down'."},
+        "canFillGroupSize": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DcPVJRXBbuL"], "note": "Caps at 35 women; larger than the villa's 18 but demonstrates fill capacity."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DcPVJRXBbuL"], "note": "Annual since 2015."},
+        "longStayPotential": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DcPVJRXBbuL"], "note": "Two-day, one-night format."},
+        "brandFit": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DcPVJRXBbuL"], "note": "Regional alumni network tied to Montana venues."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DcPVJRXBbuL"], "note": "Eleven annual editions."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Regional US alumni organisation; retreat is a 1-night in-state event, group of 35 exceeds villa capacity", "No realistic path to a Greek booking"],
+        "missingInformation": ["Whether Leadership Montana runs any international or multi-night programmes"],
+        "summary": "Leadership Montana organises an annual Women's Leadership Retreat for its alumnae, December 3-4 2026 at Chico Hot Springs, capped at 35 women and running since 2015 (post DcPVJRXBbuL). It is a credible, recurring winter host, but the format is a one-night, in-state gathering for a regional US network of 35, so the villa is neither the right capacity nor geography. High commercial risk; classified C for completeness, no active outreach recommended."
+      },
+      "events": [
+        {"title": "Women's Leadership Retreat 2026 - Leadership Montana", "eventType": "leadership_retreat", "startDate": "2026-12-03", "endDate": "2026-12-04", "nights": 1, "location": "Chico Hot Springs, Montana", "country": "US", "groupSize": 35, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DcPVJRXBbuL"]}
+      ],
+      "profile": {"displayName": "Leadership Montana", "country": "US", "languages": ["en"], "niche": "leadership alumni network", "markets": ["US"]}
+    },
+    {
+      "handle": "mainewriters207",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DWrTpcmDqmk"], "note": "Chooses the Schoodic Institute (Acadia National Park) for the Black Fly Writers Retreat; 'offering this writing retreat again at this location'."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DWrTpcmDqmk"], "note": "'LAST CALL', 'Workshop and registration details can be found on our website'."},
+        "provenWinterActivity": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DWrTpcmDqmk"], "note": "Retreat November 6-9 2026 for memoir and fiction writers; Black Fly retreat April 30 - May 3 2026."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No sizes."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No prices."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DWrTpcmDqmk"], "note": "Repeat Black Fly retreat plus a November edition."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DWrTpcmDqmk"], "note": "3-night formats."},
+        "brandFit": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DWrTpcmDqmk"], "note": "Regional writers' community using a research-centre campus."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DWrTpcmDqmk"], "note": "Previous editions at the same venue."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Regional Maine writers' community; retreats are domestic 3-night workshops at an institutional campus"],
+        "missingInformation": ["Price, group size and whether any international editions exist"],
+        "summary": "Maine Writers (@mainewriters207) organises the Black Fly Writers Retreat (April 30 - May 3 2026 at the Schoodic Institute, Acadia) and a November 6-9 2026 retreat for memoir and fiction writers, selling via its website (post DWrTpcmDqmk). It is a genuine, recurring organiser with winter-window dates, but it serves a regional US writing community with short domestic stays. High commercial risk for a Greek villa; keep as a low-priority scouting contact only if a 'writing week abroad' concept is ever tested."
+      },
+      "events": [
+        {"title": "2026 Black Fly Writers Retreat, Schoodic Institute", "eventType": "workshop", "startDate": "2026-04-30", "endDate": "2026-05-03", "nights": 3, "location": "Schoodic Institute, Winter Harbor, Maine", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DWrTpcmDqmk"]},
+        {"title": "Retreat for memoir and fiction writers, November 6-9 2026", "eventType": "workshop", "startDate": "2026-11-06", "endDate": "2026-11-09", "nights": 3, "location": null, "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DWrTpcmDqmk"]}
+      ],
+      "profile": {"displayName": "Maine Writers", "country": "US", "languages": ["en"], "niche": "writers' retreats", "markets": ["US"]}
+    },
+    {
+      "handle": "monicacbright",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DHBtLvdRtfi"], "note": "Hosts 'local weekend retreats or international week-long retreats' herself."},
+        "sellsRetreats": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DHBtLvdRtfi"], "note": "'I've been hosting sold out yoga retreats for years'; no current registration visible."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated retreats."},
+        "canFillGroupSize": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DHBtLvdRtfi"], "note": "Sold-out retreats, sizes not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DHBtLvdRtfi"], "note": "Retreats for years, only paused for the pandemic."},
+        "longStayPotential": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DHBtLvdRtfi"], "note": "International week-long retreats."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DHBtLvdRtfi"], "note": "Therapeutic, trauma-informed yoga; credible professional positioning."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DHBtLvdRtfi"], "note": "Sold-out retreats for years (self-reported)."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Evidence is a 2025-era podcast promo; no current retreat dates, destinations or prices"],
+        "missingInformation": ["Upcoming retreat calendar and destinations", "Price per person and group size", "Home market (likely US)"],
+        "summary": "Monica Bright (M.Ed, yoga for pain and injuries) says she has hosted sold-out yoga retreats for years, both local weekends and international week-long retreats, and runs a podcast for yoga teachers that includes an episode on hosting retreats (reel DHBtLvdRtfi). She is a proven organiser with a secondary reach into yoga teachers. The pack lacks dates, destinations and prices, so winter fit and premium pricing are unverified; medium risk. Recommend a pilot retreat invitation for a week-long therapeutic yoga retreat in the Nov-Apr window, plus a podcast-feature referral angle."
+      },
+      "events": [],
+      "profile": {"displayName": "Monica Bright M.Ed | Yoga for pain & injuries | Trauma Informed", "country": null, "languages": ["en"], "niche": "therapeutic yoga retreats / yoga teacher podcast", "markets": ["US"]}
+    },
+    {
+      "handle": "mysticmeadows_yogastudio",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DdR69VjptfO"], "note": "Studio books external venues: Greentop glamping site, Lake of the Ozarks / Osage Beach, Camp Icaghowan."},
+        "sellsRetreats": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DdR69VjptfO"], "note": "'registration is open', 'Limited spots remain', 'Join us', EARLY BIRD."},
+        "provenWinterActivity": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DdR69VjptfO"], "note": "Women's retreat November 12-15 2026; Wayfinder Fall Retreat November 6-8 2026; YTT starting November 7 2026."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "'Limited spots' without numbers."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No prices; camp and glamping venues suggest modest pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DdR69VjptfO"], "note": "Three retreats and two teacher trainings announced; Wayfinder 'IS BACK'."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DdR69VjptfO"], "note": "2-3 night weekend formats."},
+        "brandFit": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DdR69VjptfO"], "note": "Glamping and summer-camp venues in Missouri; community rather than luxury positioning."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DdR69VjptfO"], "note": "Repeat editions."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Regional US studio; all retreats are domestic 2-3 night weekends at camps", "No prices shown; venue types suggest non-premium pricing"],
+        "missingInformation": ["Whether the studio has ever run an international retreat", "Price points and group sizes"],
+        "summary": "Mystic Meadows Yoga (Missouri) is an active studio-organiser with a Co-Ed Glamping Retreat (Sept 25-27 2026), Savor the Season Women's Retreat (Nov 12-15 2026, Lake of the Ozarks), Wayfinder Fall Retreat (Nov 6-8 2026, Camp Icaghowan) and 200/300-hour teacher trainings starting Nov 7 2026 and Mar 13 2027 (post DdR69VjptfO). It decides venues and sells with urgency, and has dated winter activity, but everything is regional, short and camp-based, which is far from a premium Greek villa. High commercial risk; scouting contact only."
+      },
+      "events": [
+        {"title": "WILD & FREE Co-Ed Glamping Retreat", "eventType": "wellness_retreat", "startDate": "2026-09-25", "endDate": "2026-09-27", "nights": 2, "location": "Greentop, Missouri", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DdR69VjptfO"]},
+        {"title": "SAVOR THE SEASON Women's Retreat", "eventType": "womens_retreat", "startDate": "2026-11-12", "endDate": "2026-11-15", "nights": 3, "location": "Lake of the Ozarks / Osage Beach, Missouri", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DdR69VjptfO"]},
+        {"title": "WAYFINDER Fall Retreat", "eventType": "yoga_retreat", "startDate": "2026-11-06", "endDate": "2026-11-08", "nights": 2, "location": "Camp Icaghowan", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DdR69VjptfO"]},
+        {"title": "200-Hour Path of a Yogi Teacher Training", "eventType": "teacher_training", "startDate": "2026-11-07", "endDate": "2027-08-15", "nights": null, "location": "Mystic Meadows Yoga, Missouri", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DdR69VjptfO"]},
+        {"title": "300-Hour The Collective Path Advanced Teacher Training", "eventType": "teacher_training", "startDate": "2027-03-13", "endDate": "2027-11-14", "nights": null, "location": "Mystic Meadows Yoga, Missouri", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DdR69VjptfO"]}
+      ],
+      "profile": {"displayName": "Mystic Meadows Yoga", "country": "US", "languages": ["en"], "niche": "yoga studio retreats and teacher training", "markets": ["US"]}
+    },
+    {
+      "handle": "oxygenyogaandfitness",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/Dd6cfjKy63P"], "note": "Studio brand running a seven-day Costa Rica retreat (November 7-14)."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/Dd6cfjKy63P"], "note": "'Join us for the Sea Glass Yoga Retreat - Nov 20, 2026 - and save $250 with code EARLYBIRD250'; link in bio."},
+        "provenWinterActivity": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/Dd6cfjKy63P"], "note": "Costa Rica November 7-14 (year not stated; reel posted September 2026) and Sea Glass Yoga Retreat Nov 20 2026."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No sizes."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only a $250 discount shown; base price unknown."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/Dd6cfjKy63P"], "note": "Two retreats in the same window."},
+        "longStayPotential": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/Dd6cfjKy63P"], "note": "Seven-day Costa Rica format."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Franchise hot-yoga brand; aesthetic unknown from text."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No sales or sold-out evidence."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Second excerpt (Sea Glass Yoga Retreat, Nov 20 2026) may belong to a different studio; attribution uncertain", "Brand account of a franchise; the organising studio (oyfagourahills tag suggests Agoura Hills, CA) is a US location with long-haul to Greece"],
+        "missingInformation": ["Which franchise location organises the retreat and who decides venues", "Price per person and group size", "Year of the Costa Rica retreat"],
+        "summary": "Oxygen Yoga & Fitness, a studio brand, promotes a seven-day Costa Rica yoga retreat on November 7-14 and a Sea Glass Yoga Retreat on Nov 20 2026 with a $250 early-bird code (reel Dd6cfjKy63P). It sells directly and has winter-window dates, with a week-long format that fits the villa's minimum stay. Uncertainties: the Sea Glass excerpt may be another studio's, the organising location is probably in California, and prices are unknown. Medium risk. Recommend a pilot retreat pitch to the organising studio owner for a Nov-Apr Europe edition; confirm who runs retreats for the brand first."
+      },
+      "events": [
+        {"title": "Costa Rica yoga retreat, November 7-14 (year not stated)", "eventType": "yoga_retreat", "startDate": null, "endDate": null, "nights": 7, "location": "Costa Rica", "country": "CR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/Dd6cfjKy63P"]},
+        {"title": "Sea Glass Yoga Retreat (attribution uncertain)", "eventType": "yoga_retreat", "startDate": "2026-11-20", "endDate": null, "nights": null, "location": null, "country": null, "groupSize": null, "pricePerPerson": null, "currency": "USD", "soldOut": false, "role": "unknown", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/Dd6cfjKy63P"]}
+      ],
+      "profile": {"displayName": "Oxygen Yoga & Fitness", "country": null, "languages": ["en"], "niche": "hot yoga studio brand retreats", "markets": ["US", "CA"]}
+    },
+    {
+      "handle": "padel_heat",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"], "note": "Organiser bundles coaching, yacht cruise, jet ski and spa evenings in Phuket; venue choices are theirs but anchored in Thailand."},
+        "sellsRetreats": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"], "note": "'We're opening registration for the next Padel Heat retreats', 'Limited places available', booking site www.padelsamui.com/retreats/."},
+        "provenWinterActivity": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"], "note": "Dated peak-season retreats: December 21-26, January 25-30, February 22-27, March 22-27; weekly intensives launching 5 December 2026."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group sizes."},
+        "audiencePaysPremium": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"], "note": "Premium inclusions (Spanish coach, sunset yacht cruise, jet ski, spa evenings); no price shown."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"], "note": "Monthly retreats Dec-Mar plus weekly intensives."},
+        "longStayPotential": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"], "note": "5-night retreats; weekly cadence."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"], "note": "Lifestyle-luxury sports retreat positioning."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"], "note": "'next Padel Heat retreats' implies previous editions."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Product depends on padel courts and marine activities; Thailand-anchored (Phuket/Samui)", "No prices or group sizes shown"],
+        "missingInformation": ["Price per person and group size", "Home market of guests", "Whether the brand runs editions outside Thailand", "Padel court availability near Porto Rafti"],
+        "summary": "Padel Heat sells premium padel retreats in Phuket with monthly peak-season dates (Dec 21-26, Jan 25-30, Feb 22-27, Mar 22-27) and weekly intensives launching 5 December 2026, bundling a Spanish coach, yacht cruise, jet ski and spa evenings (post DeY4EXOEx0A). It is a proven winter organiser with a premium-leaning product, which matches the villa's Nov-Apr goal. Fit depends on padel courts near the villa and on whether the brand will run a European edition; prices and group sizes are unknown. Medium risk. Recommend a pilot retreat proposal for an 'Athens Riviera' padel week once court access is confirmed."
+      },
+      "events": [
+        {"title": "Padel Heat retreat, December 21-26", "eventType": "padel_retreat", "startDate": "2026-12-21", "endDate": "2026-12-26", "nights": 5, "location": "Phuket", "country": "TH", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"]},
+        {"title": "Padel Heat retreat, January 25-30", "eventType": "padel_retreat", "startDate": "2027-01-25", "endDate": "2027-01-30", "nights": 5, "location": "Phuket", "country": "TH", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"]},
+        {"title": "Padel Heat retreat, February 22-27", "eventType": "padel_retreat", "startDate": "2027-02-22", "endDate": "2027-02-27", "nights": 5, "location": "Phuket", "country": "TH", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"]},
+        {"title": "Padel Heat retreat, March 22-27", "eventType": "padel_retreat", "startDate": "2027-03-22", "endDate": "2027-03-27", "nights": 5, "location": "Phuket", "country": "TH", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"]},
+        {"title": "Weekly intensive padel retreats launching 5 December 2026", "eventType": "padel_retreat", "startDate": "2026-12-05", "endDate": null, "nights": null, "location": "Thailand (padelsamui.com)", "country": "TH", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DeY4EXOEx0A"]}
+      ],
+      "profile": {"displayName": "Padel Heat", "country": "TH", "languages": ["en"], "niche": "premium padel retreats", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "prana_holly_springs",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DeZv8q2CXIW"], "note": "Weekend teacher training at its own studio."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DeZv8q2CXIW"], "note": "Sells a 200-hour YTT 'all on weekends' starting January 8 2027; no travel retreats."},
+        "provenWinterActivity": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DeZv8q2CXIW"], "note": "January start, but a local non-residential course."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DeZv8q2CXIW"], "note": "Annual YTT ('Our 2027 ... Teacher Training')."},
+        "longStayPotential": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DeZv8q2CXIW"], "note": "Weekend format."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Insufficient evidence."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Local yoga studio; teacher trainings are in-studio weekends, no travel retreats in evidence"],
+        "missingInformation": ["Whether the studio runs any destination retreats"],
+        "summary": "Prana Yoga Holly Springs is a local studio promoting its 2027 200-hour teacher training starting January 8, held on weekends with an American Yoga Council credential (post DeZv8q2CXIW). It is a non-residential, in-studio programme with no retreat travel in evidence. Classified none."
+      },
+      "events": [
+        {"title": "2027 200-Hour Teacher Training (weekends, in-studio)", "eventType": "teacher_training", "startDate": "2027-01-08", "endDate": null, "nights": null, "location": "Prana Yoga Holly Springs", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DeZv8q2CXIW"]}
+      ],
+      "profile": {"displayName": "Prana Yoga Holly Springs", "country": "US", "languages": ["en"], "niche": "yoga studio / teacher training", "markets": ["US"]}
+    },
+    {
+      "handle": "rcpadelvallonpontdarc",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DTAPg64gv9A"], "note": "Club running a stage on its own courts for members."},
+        "sellsRetreats": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DTAPg64gv9A"], "note": "Member-only 3-day coaching stage (7.5 hours of lessons + tournament), not a residential retreat."},
+        "provenWinterActivity": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DTAPg64gv9A"], "note": "June 5-7 2026 only."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DTAPg64gv9A"], "note": "'editions precedentes' - repeated annual stage."},
+        "longStayPotential": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DTAPg64gv9A"], "note": "Non-residential."},
+        "brandFit": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DTAPg64gv9A"], "note": "Local club."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host: local padel club (Vallon-Pont-d'Arc, France) running a members' stage"],
+        "missingInformation": [],
+        "summary": "RC Padel Vallon-Pont-d'Arc is a French club announcing registrations for its VAMOS Padel 2026 stage, June 5-7 2026, open to club players with 7.5 hours of lessons and a closing tournament (reel DTAPg64gv9A). It is a local club event on its own courts, not a travelling organiser. Classified none."
+      },
+      "events": [
+        {"title": "Stage VAMOS Padel 2026 (club members)", "eventType": "workshop", "startDate": "2026-06-05", "endDate": "2026-06-07", "nights": null, "location": "Vallon-Pont-d'Arc", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DTAPg64gv9A"]}
+      ],
+      "profile": {"displayName": "Rc padel Vallon-Pont-d'Arc", "country": "FR", "languages": ["fr"], "niche": "padel club", "markets": ["FR"]}
+    },
+    {
+      "handle": "refreshbykf",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DdO6ZZKyHKV"], "note": "Founder-curated retreat booked at Lansdowne Resort, Virginia."},
+        "sellsRetreats": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DdO6ZZKyHKV"], "note": "'Booking is NOW AVAIL for our 6th Wellness Retreat for MEN & WOMEN', refreshbykf.com."},
+        "provenWinterActivity": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DdO6ZZKyHKV"], "note": "'The Winter Edit', December 11-13, 2026."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size."},
+        "audiencePaysPremium": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DdO6ZZKyHKV"], "note": "Resort venue and celebrity host (Kim Fields) imply premium positioning; no price shown."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DdO6ZZKyHKV"], "note": "Sixth edition."},
+        "longStayPotential": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DdO6ZZKyHKV"], "note": "Two-night weekend format."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DdO6ZZKyHKV"], "note": "Curated, resort-based wellness with 'long protected free time'; polished brand."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DdO6ZZKyHKV"], "note": "Five previous editions."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["US-based with a domestic resort format (2 nights); a Greek edition would need a longer, destination-style programme", "No price or group size visible"],
+        "missingInformation": ["Price per person and group size", "Whether the brand has run or wants an international edition", "Decision-maker (founder Kim Fields or an events team)"],
+        "summary": "Refresh Retreat by KF, hosted and curated by founder Kim Fields, is selling its 6th wellness retreat for men and women, 'The Winter Edit', December 11-13 2026 at Lansdowne Resort, Virginia (reel DdO6ZZKyHKV). It is a recurring, dated winter organiser with a polished resort-based brand and a celebrity host, which supports premium pricing. The format is a two-night domestic weekend and no prices or group sizes are visible, so a Greek pilot would need a longer destination edition; medium risk. Recommend a pilot retreat proposal for a 'Refresh Abroad' winter 2027/28 week, addressed to the founder's team."
+      },
+      "events": [
+        {"title": "it is well with my SOULstice - The Winter Edit (6th Refresh Retreat)", "eventType": "wellness_retreat", "startDate": "2026-12-11", "endDate": "2026-12-13", "nights": 2, "location": "Lansdowne Resort, Virginia", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DdO6ZZKyHKV"]}
+      ],
+      "profile": {"displayName": "Refresh Retreat by KF", "country": "US", "languages": ["en"], "niche": "celebrity-hosted wellness retreats", "markets": ["US"]}
+    }
+  ]
+}

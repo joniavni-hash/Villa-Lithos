@@ -1,0 +1,1538 @@
+{
+ "batch": 14,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "msjamilahpitts",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd7LmZYH2aC"
+     ],
+     "note": "Leads her own organisation (@she_imprints) whose retreat season spans destinations she announces (Panama, Marrakech); as founder-host she sets destinations."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd7LmZYH2aC",
+      "https://www.instagram.com/p/DTWTaAkEfRt"
+     ],
+     "note": "'Our 2027 Wellness Retreats are now open', 'Join us', and an open application for the 2026 Awakening Love retreat with limited availability."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd7LmZYH2aC"
+     ],
+     "note": "The pack's extracted dates for the 2027 post read 'December 5 - 6; December 2027'. The visible excerpt is cut off before that line, so the December retreat's destination is not shown."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only 'limited space', 'limited availability' and 'almost sold out' wording; no spot count."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No prices in evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd7LmZYH2aC",
+      "https://www.instagram.com/p/DTWTaAkEfRt"
+     ],
+     "note": "Ran a 2026 Marrakech retreat and has opened a multi-destination 2027 season (\"across all seasons\")."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Retreat lengths not stated."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd7LmZYH2aC",
+      "https://www.instagram.com/p/DTWTaAkEfRt"
+     ],
+     "note": "Women's wellness retreats built on communal care, joy and adventure in international destinations; price tier not shown."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd7LmZYH2aC",
+      "https://www.instagram.com/p/DTWTaAkEfRt"
+     ],
+     "note": "Took applications for a 2026 retreat and the pack marks the 2027 season 'almost sold out'."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Pack location hints (Columbus, Ohio; Hocking Hills) suggest a US base, so Greece is long-haul for her guests",
+     "December 2027 date comes from the extracted dates, not the visible excerpt text",
+     "Retreats run through her organisation @she_imprints; price tier and budget unknown"
+    ],
+    "missingInformation": [
+     "Price per person and group size",
+     "Which 2027 retreat is in December and where",
+     "Follower count and audience location",
+     "Whether venues are chosen by her or by local partners"
+    ],
+    "summary": "Jamilah Pitts leads @she_imprints, an organisation serving women and girls of the global majority, and sells its wellness retreats directly: an application-based 2026 Awakening Love retreat in Marrakech and a 2027 season with Panama (week of Juneteenth), Marrakech in the fall and a December 2027 date. She is clearly an organiser who picks international destinations, and the season is described as close to sold out. Winter evidence is only moderate because the December date appears in the extracted dates rather than the visible caption. Medium commercial risk: no prices or group sizes, and the audience looks US-based; worth a pilot conversation about a Greece edition."
+   },
+   "events": [
+    {
+     "title": "2026 Awakening Love Wellness Retreat",
+     "eventType": "womens_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Marrakech, Morocco",
+     "country": "MA",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTWTaAkEfRt"
+     ]
+    },
+    {
+     "title": "2027 wellness retreat, Panama (week of Juneteenth)",
+     "eventType": "womens_retreat",
+     "startDate": "2027-06",
+     "endDate": null,
+     "nights": null,
+     "location": "Panama",
+     "country": "PA",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd7LmZYH2aC"
+     ]
+    },
+    {
+     "title": "2027 fall wellness retreat, Marrakech",
+     "eventType": "womens_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Marrakech, Morocco",
+     "country": "MA",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd7LmZYH2aC"
+     ]
+    },
+    {
+     "title": "2027 wellness retreat in December (destination not visible in excerpt)",
+     "eventType": "womens_retreat",
+     "startDate": "2027-12",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd7LmZYH2aC"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "women's wellness retreats for women of colour",
+    "markets": []
+   }
+  },
+  {
+   "handle": "robloudyoga",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Co-facilitates with Jesse Seymour (@earthschoolyoga) at Mizata; who chose the venue is not stated."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTI6x-rkVVN"
+     ],
+     "note": "Co-facilitating 'Living Vinyasa'; pack signals 'Registration is live', 'spots are limited', 'secure your spot'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTI6x-rkVVN"
+     ],
+     "note": "Co-hosted retreat dated December 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only 'spots are limited'."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTI6x-rkVVN"
+     ],
+     "note": "Venue described as a 'sought after eco-chic resort'; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTI6x-rkVVN"
+     ],
+     "note": "Yoga and wellness retreat at a design-led coastal resort; style compatible with a private estate."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Co-facilitator rather than sole organiser; venue choice may sit with the partner",
+     "Single post; no price, group size or audience location"
+    ],
+    "missingInformation": [
+     "Price and group size of Living Vinyasa",
+     "Whether he runs retreats of his own",
+     "Audience home market",
+     "Who books venues in the partnership"
+    ],
+    "summary": "Rob Loud is co-facilitating 'Living Vinyasa', a yoga and wellness retreat with Jesse Seymour (@earthschoolyoga) at Mizata resort in Teotepeque, El Salvador, in December 2026, with registration live and limited spots. That is a dated winter event he co-hosts and sells. The evidence is a single post with no price, group size or home market, and venue choice may rest with his co-host. Medium risk: a reasonable pilot-retreat conversation, ideally with both facilitators."
+   },
+   "events": [
+    {
+     "title": "Living Vinyasa yoga and wellness retreat (with Jesse Seymour)",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-12",
+     "endDate": null,
+     "nights": null,
+     "location": "Mizata, Teotepeque, El Salvador",
+     "country": "SV",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTI6x-rkVVN"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "vinyasa yoga teacher and retreat co-facilitator",
+    "markets": []
+   }
+  },
+  {
+   "handle": "activeescapes",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeJYMgESw5i"
+     ],
+     "note": "Runs its own one-week retreats across five locations (Hawaii, South Africa, Noosa, Thailand and more); it picks the destinations."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeJYMgESw5i"
+     ],
+     "note": "'We have five locations across the three months... Which location are you eyeing off'; first-person selling."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeJYMgESw5i"
+     ],
+     "note": "South Africa 8-14 Nov, Noosa 11-17 Nov, Thailand 22-28 Nov and a 28 Nov - 6 Dec edition, in a post about 'the end of 2026'."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group sizes."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No prices."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeJYMgESw5i"
+     ],
+     "note": "Five one-week editions between October and early December 2026."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeJYMgESw5i"
+     ],
+     "note": "One-week format ('all it takes is one week'); meets the 4-night minimum but is not a long stay."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeJYMgESw5i"
+     ],
+     "note": "Fitness and mindset reset weeks; active format would need training space at the villa."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeJYMgESw5i"
+     ],
+     "note": "A five-destination autumn calendar implies an established operation."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Calendar is built on long-haul sun destinations; Attica in Nov-Apr is cooler",
+     "Home market not stated; 'Noosa' hints at Australia but is not confirmed",
+     "No price or group size"
+    ],
+    "missingInformation": [
+     "Price per person and group size",
+     "Home market",
+     "Whether a Europe/Greece edition is of interest",
+     "Facilities needed for fitness programming"
+    ],
+    "summary": "Active Escapes runs one-week fitness and mindset 'reset' retreats and lists five editions for the end of 2026: Hawaii 22-28 October, South Africa 8-14 November, Noosa 11-17 November, Thailand 22-28 November and a 28 November - 6 December edition. That is high-frequency, multi-destination organising with most dates inside the winter window. No prices, group sizes or home market are given, and the destinations are warm long-haul locations. Medium risk; a strong pilot-retreat prospect if a Mediterranean week fits their calendar."
+   },
+   "events": [
+    {
+     "title": "Active Escapes week, Hawaii",
+     "eventType": "fitness_retreat",
+     "startDate": "2026-10-22",
+     "endDate": "2026-10-28",
+     "nights": 6,
+     "location": "Hawaii",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeJYMgESw5i"
+     ]
+    },
+    {
+     "title": "Active Escapes week, South Africa",
+     "eventType": "fitness_retreat",
+     "startDate": "2026-11-08",
+     "endDate": "2026-11-14",
+     "nights": 6,
+     "location": "South Africa",
+     "country": "ZA",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeJYMgESw5i"
+     ]
+    },
+    {
+     "title": "Active Escapes week, Noosa",
+     "eventType": "fitness_retreat",
+     "startDate": "2026-11-11",
+     "endDate": "2026-11-17",
+     "nights": 6,
+     "location": "Noosa",
+     "country": "AU",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeJYMgESw5i"
+     ]
+    },
+    {
+     "title": "Active Escapes week, Thailand",
+     "eventType": "fitness_retreat",
+     "startDate": "2026-11-22",
+     "endDate": "2026-11-28",
+     "nights": 6,
+     "location": "Thailand",
+     "country": "TH",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeJYMgESw5i"
+     ]
+    },
+    {
+     "title": "Active Escapes week, 28 Nov - 6 Dec (location not visible in excerpt)",
+     "eventType": "fitness_retreat",
+     "startDate": "2026-11-28",
+     "endDate": "2026-12-06",
+     "nights": 8,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeJYMgESw5i"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "fitness and mindset reset retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "cesarritzcolleges",
+   "classification": {
+    "group": "C_high_value_host",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DY93zRigq_q"
+     ],
+     "note": "Chose Hotel La Tavola Rotonda, a restored 13th-century castle, for its residential Global Leadership Retreat."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DY93zRigq_q"
+     ],
+     "note": "'Applications are Now Open' for its International Leadership Program (ILP) 2026 in Rome."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DY93zRigq_q"
+     ],
+     "note": "ILP 2026 in Rome, 19-22 December 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Cohort size not stated."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price visible (the excerpt is cut off at 'Total')."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DY93zRigq_q"
+     ],
+     "note": "The residential retreat is the 'centrepiece' of the Master of Leadership programme, implying a per-cohort event."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DY93zRigq_q"
+     ],
+     "note": "Three-day residential formats (castle retreat; 19-22 December ILP)."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DY93zRigq_q"
+     ],
+     "note": "Seeks heritage venues for immersive residential leadership experiences ('Not a conference. Not a seminar.'); a private estate fits that brief."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DY93zRigq_q"
+     ],
+     "note": "Delivered the 2026 Global Leadership Retreat for its Master of Leadership students."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Academic institution; programmes are designed around Italy (Rome, Emilia-Romagna)",
+     "Student cohort budgets and venue procurement process unknown"
+    ],
+    "missingInformation": [
+     "Cohort size",
+     "Budget per participant",
+     "Who in the programme office selects venues",
+     "Whether programmes rotate countries"
+    ],
+    "summary": "César Ritz Colleges runs residential leadership programmes: its Master of Leadership students spent three days at Hotel La Tavola Rotonda, a restored castle in Cortemaggiore, for the Global Leadership Retreat 2026, and it is taking applications for the International Leadership Program in Rome on 19-22 December 2026. It is a professional/academic host that picks characterful venues and runs dated winter programmes. Cohort size, pricing and procurement are unknown and the current programmes are Italy-anchored. Medium risk; worth a scouting conversation with the programme office about a Greece module."
+   },
+   "events": [
+    {
+     "title": "Global Leadership Retreat 2026 (Master of Leadership)",
+     "eventType": "leadership_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Hotel La Tavola Rotonda, Cortemaggiore, Emilia-Romagna",
+     "country": "IT",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DY93zRigq_q"
+     ]
+    },
+    {
+     "title": "International Leadership Program (ILP) 2026",
+     "eventType": "leadership_retreat",
+     "startDate": "2026-12-19",
+     "endDate": "2026-12-22",
+     "nights": 3,
+     "location": "Rome",
+     "country": "IT",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DY93zRigq_q"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "hospitality business school, residential leadership programmes",
+    "markets": []
+   }
+  },
+  {
+   "handle": "clairemarkyoga",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Venue not named; location is reported inconsistently (Paros vs Andros)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DasphP1Ctgd"
+     ],
+     "note": "'JOIN ME IN PAROS, GREECE - Oct 4th 2026 - yoga retreat in paradise'."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DasphP1Ctgd"
+     ],
+     "note": "Only dated retreat is 4 October 2026, outside the winter window."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DasphP1Ctgd"
+     ],
+     "note": "Already runs yoga retreats in Greece; Greek-island positioning matches the villa destination."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Possible mis-attribution: a second snippet on the same URL describes a 6-day/5-night retreat on Andros led by 'Beth and Amy', contradicting the Paros caption",
+     "One post with very low visible engagement (1 like)",
+     "No winter dates"
+    ],
+    "missingInformation": [
+     "Retreat venue and whether she books it",
+     "Group size and price",
+     "Follower count and audience market",
+     "Interest in off-season dates"
+    ],
+    "summary": "Claire Mark invites followers to a yoga retreat in Paros, Greece on 4 October 2026, so she sells Greece retreats already, which is a natural fit for an Attica villa. The pack is thin and partly contradictory: a second snippet on the same URL describes an Andros retreat led by 'Beth and Amy', which may belong to another account. No winter dates, prices or group sizes. Medium risk; a light pilot-retreat approach pitching a shoulder-season Greece edition."
+   },
+   "events": [
+    {
+     "title": "Yoga retreat in Paros, Greece",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-10-04",
+     "endDate": null,
+     "nights": null,
+     "location": "Paros",
+     "country": "GR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DasphP1Ctgd"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Claire Mark",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher hosting Greece retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "greekamericafoundation",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdUG-T2ATXT"
+     ],
+     "note": "Runs its own 'Homecoming Journeys' retreat itinerary in Mykonos."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdUG-T2ATXT"
+     ],
+     "note": "'Our Homecoming Journeys Yoga & Greek Wellness Retreat'; first-person organiser voice."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdUG-T2ATXT"
+     ],
+     "note": "Only dated edition ran in Mykonos around mid-September 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.65,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdUG-T2ATXT"
+     ],
+     "note": "Greece-themed yoga and wellness retreat combining Greek ideas, history, food and excursions; directly aligned with a villa near Athens."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdUG-T2ATXT"
+     ],
+     "note": "Delivered the Mykonos retreat, with thanks to partner @corepoweryoga."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Only a summer-season island edition so far; winter appetite unproven",
+     "Foundation account; decision maker and budget unclear",
+     "Partner @corepoweryoga may co-organise"
+    ],
+    "missingInformation": [
+     "Group size and price",
+     "Whether a winter Athens/Attica edition (history and food focus) appeals",
+     "Who selects venues (foundation or partner)"
+    ],
+    "summary": "The Greek America Foundation runs 'Homecoming Journeys', a yoga and Greek wellness retreat combining daily yoga with Greek ideas, history, food and excursions; the Mykonos edition was under way in mid-September 2026 with @corepoweryoga as a partner. It is an organiser already selling Greece, and an Athens-area winter edition built on history and food would suit the villa. No group size, prices or winter dates are in evidence. Medium risk; strong thematic fit for a pilot."
+   },
+   "events": [
+    {
+     "title": "Homecoming Journeys Yoga & Greek Wellness Retreat",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-09",
+     "endDate": null,
+     "nights": null,
+     "location": "Mykonos",
+     "country": "GR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdUG-T2ATXT"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "Greek heritage yoga and wellness journeys",
+    "markets": []
+   }
+  },
+  {
+   "handle": "jennypennyxx_lanza",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "All weeks run in Lanzarote; whether she owns or is tied to a venue there is not shown."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dcj2cEpok9C"
+     ],
+     "note": "Dated Sun & Soul Women's Retreat weeks with 'Book now' and 'Only 10 spaces available on each week'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dcj2cEpok9C"
+     ],
+     "note": "Weeks on 19-26 December, 3-10 January, 14-21 March and 21-28 March (year not stated)."
+    },
+    "canFillGroupSize": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dcj2cEpok9C"
+     ],
+     "note": "Each week capped at 10 spaces, the low end of the 10-18 band; no sell-out shown."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No prices."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dcj2cEpok9C"
+     ],
+     "note": "Five dated weeks in one season."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dcj2cEpok9C"
+     ],
+     "note": "One-week (7-night) format; meets the minimum stay but is not long stay."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.35,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dcj2cEpok9C"
+     ],
+     "note": "Slow-down women's retreats with an accessible tone ('Come with your daughter, mum, sister'); premium positioning not shown."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dcj2cEpok9C"
+     ],
+     "note": "A repeating weekly calendar implies an operating retreat business."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Appears Lanzarote-based (handle '_lanza', every week in Lanzarote); may be tied to a local venue and sells the island's winter sun",
+     "Group cap of 10 is at the bottom of the villa planning range",
+     "Year of the dates not stated"
+    ],
+    "missingInformation": [
+     "Year of the listed dates",
+     "Price per person",
+     "Venue used and whether she would run a week elsewhere",
+     "Audience home market"
+    ],
+    "summary": "Jenny runs 'Sun & Soul' women's retreat weeks in Lanzarote with five dated weeks (3-10 October, 19-26 December, 3-10 January, 14-21 March, 21-28 March), each capped at 10 spaces with a 'Book now' call. Winter organising is clearly proven and recurring. However, she appears Lanzarote-based and sells the island's sun, so relocating a week to Greece is uncertain, and groups of 10 are at the low end for nine bedrooms. Medium risk; a pilot pitch only if she wants a second destination."
+   },
+   "events": [
+    {
+     "title": "Sun & Soul Women's Retreat week, 3-10 October (year not stated)",
+     "eventType": "womens_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": 7,
+     "location": "Lanzarote",
+     "country": "ES",
+     "groupSize": 10,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dcj2cEpok9C"
+     ]
+    },
+    {
+     "title": "Sun & Soul Women's Retreat week, 19-26 December (year not stated)",
+     "eventType": "womens_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": 7,
+     "location": "Lanzarote",
+     "country": "ES",
+     "groupSize": 10,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dcj2cEpok9C"
+     ]
+    },
+    {
+     "title": "Sun & Soul Women's Retreat week, 3-10 January (year not stated)",
+     "eventType": "womens_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": 7,
+     "location": "Lanzarote",
+     "country": "ES",
+     "groupSize": 10,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dcj2cEpok9C"
+     ]
+    },
+    {
+     "title": "Sun & Soul Women's Retreat week, 14-21 March (year not stated)",
+     "eventType": "womens_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": 7,
+     "location": "Lanzarote",
+     "country": "ES",
+     "groupSize": 10,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dcj2cEpok9C"
+     ]
+    },
+    {
+     "title": "Sun & Soul Women's Retreat week, 21-28 March (year not stated)",
+     "eventType": "womens_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": 7,
+     "location": "Lanzarote",
+     "country": "ES",
+     "groupSize": 10,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dcj2cEpok9C"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "women's wellness retreat weeks in Lanzarote",
+    "markets": []
+   }
+  },
+  {
+   "handle": "montefelizpoweredbyplayitas",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DUnFhi5Ep3Z"
+     ],
+     "note": "It is the venue: Sport Hotel Monte Feliz in Gran Canaria."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DUnFhi5Ep3Z"
+     ],
+     "note": "Sells hotel stays with daily yoga classes on site, not hosted retreats."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DUnFhi5Ep3Z"
+     ],
+     "note": "Competing sport-hotel venue."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account (sport hotel in Gran Canaria), a competitor rather than a booker"
+    ],
+    "missingInformation": [],
+    "summary": "Monte Feliz, powered by Playitas, is a sport hotel in Gran Canaria promoting its daily yoga classes and guest workouts. It is a venue, not a retreat organiser, so it will not book the villa. Group none."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Monte Feliz - powered by Playitas",
+    "country": "ES",
+    "languages": [
+     "en"
+    ],
+    "niche": "sport hotel, Gran Canaria",
+    "markets": []
+   }
+  },
+  {
+   "handle": "mountmadonnacenter",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DP9PBr5ksW5"
+     ],
+     "note": "Runs its retreats and teacher training at its own center."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DP9PBr5ksW5"
+     ],
+     "note": "Promotes its own '47th Annual New Year's Yoga Retreat'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DP9PBr5ksW5"
+     ],
+     "note": "New Year retreat sits at the turn of the year; exact dates not stated."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DP9PBr5ksW5"
+     ],
+     "note": "'47th Annual' New Year's retreat."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DP9PBr5ksW5"
+     ],
+     "note": "Retreat center with its own grounds; a competitor rather than a client."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Retreat center running programmes on its own grounds (venue), not a booker"
+    ],
+    "missingInformation": [
+     "Exact dates of the New Year retreat"
+    ],
+    "summary": "Mount Madonna Center is a retreat center running its own 47th Annual New Year's Yoga Retreat ('Heart of Belonging') and yoga teacher training on site. It hosts on its own premises, so it is a venue rather than a prospective guest. Group none."
+   },
+   "events": [
+    {
+     "title": "47th Annual New Year's Yoga Retreat: Heart of Belonging",
+     "eventType": "yoga_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Mount Madonna Center",
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DP9PBr5ksW5"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Mount Madonna Center",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga retreat center",
+    "markets": []
+   }
+  },
+  {
+   "handle": "mvstdotco",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Remote team met at its own Barcelona office using a travel budget; no offsite venue choice shown."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DXEMv6ZD48j"
+     ],
+     "note": "Company culture content; no retreats sold."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Team meet-up was held in its own Barcelona office, not at an offsite venue"
+    ],
+    "missingInformation": [
+     "Whether MVST runs offsite team retreats",
+     "Team size"
+    ],
+    "summary": "MVST is a remote-team tech company whose Spain and Germany staff used their MVST travel budget to meet at the Barcelona office for lunch and working sessions. There is no evidence of offsites at external venues, so it does not qualify as an offsite host on this evidence. Group none; a team-retreat angle would be speculative."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "MVST",
+    "country": "ES",
+    "languages": [
+     "en"
+    ],
+    "niche": "remote-team tech company",
+    "markets": []
+   }
+  },
+  {
+   "handle": "p2cwestern",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkkld4jj_3"
+     ],
+     "note": "'2026 WINTER RETREAT REGISTRATION IS OPEN'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkkld4jj_3"
+     ],
+     "note": "Explicitly markets a '2026 Winter Retreat'; dates not shown."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkkld4jj_3"
+     ],
+     "note": "'Winter Retreat is back'."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkkld4jj_3"
+     ],
+     "note": "Weekend format."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkkld4jj_3"
+     ],
+     "note": "Student faith-ministry weekend; budget and format do not match a luxury estate."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Student ministry retreat in a domestic weekend format",
+     "No dates, location or price"
+    ],
+    "missingInformation": [
+     "Dates, location and price"
+    ],
+    "summary": "P2C Western is a student Christian ministry opening registration for its 2026 Winter Retreat weekend with a pastor speaking. It organises a winter event, but it is a student faith weekend with no sign of destination travel or premium budget. Group none."
+   },
+   "events": [
+    {
+     "title": "2026 Winter Retreat (student ministry weekend)",
+     "eventType": null,
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkkld4jj_3"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "student Christian ministry",
+    "markets": []
+   }
+  },
+  {
+   "handle": "sivanandagurgaon",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdJaMqGJEam"
+     ],
+     "note": "Takes its retreat off-site to Sarsoli Dham, Kudal (near Goa)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdJaMqGJEam"
+     ],
+     "note": "'Register Early! YOGA RETREAT - December 2026' with booking phone numbers."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdJaMqGJEam"
+     ],
+     "note": "23-30 December 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdJaMqGJEam"
+     ],
+     "note": "One-week format."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdJaMqGJEam"
+     ],
+     "note": "Traditional yogic detox week at a rural venue in Maharashtra for a domestic Indian audience; far from luxury-estate positioning."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Domestic Indian market (Gurgaon centre, retreat in India, Indian phone numbers)",
+     "No price or group size"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Any history of retreats outside India"
+    ],
+    "summary": "Sivananda Gurgaon (yogashowstheway.com) is taking registrations for a one-week yoga retreat on 23-30 December 2026 at Sarsoli Dham, Kudal, near Goa. It is a genuine organiser with a dated winter retreat, but the audience and venues are domestic Indian and nothing suggests travel to Europe. High commercial risk; low priority."
+   },
+   "events": [
+    {
+     "title": "Yoga Retreat December 2026",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-12-23",
+     "endDate": "2026-12-30",
+     "nights": 7,
+     "location": "Sarsoli Dham, Kudal (near Goa), Maharashtra",
+     "country": "IN",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdJaMqGJEam"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": "IN",
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga centre (Gurgaon)",
+    "markets": [
+     "IN"
+    ]
+   }
+  }
+ ]
+}

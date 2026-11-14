@@ -1,0 +1,141 @@
+{
+ "batch": 32,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "yogapilateslab",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeQsLYYCP8d"
+     ],
+     "note": "Chose 'a traditional house in Antigua... spacious villa... private swimming pool' for the March 2027 retreat."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeQsLYYCP8d"
+     ],
+     "note": "'Would you love to join us from March 19th to 26th? Get in touch with us!'"
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeQsLYYCP8d"
+     ],
+     "note": "Fuerteventura 19-26 March 2027; Morocco 7-14 February 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeQsLYYCP8d"
+     ],
+     "note": "Two winter retreats (Morocco, Fuerteventura) in early 2027."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeQsLYYCP8d"
+     ],
+     "note": "Seven-night retreats."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeQsLYYCP8d"
+     ],
+     "note": "Villa-with-pool retreats in winter-sun destinations match the estate format."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "low",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "No price or group size"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Home market (Italian-language posts)",
+     "Follower count"
+    ],
+    "summary": "YogaPilatesLab (Jeannette and Erika) runs week-long winter yoga retreats: Morocco 7-14 February 2027 and Fuerteventura 19-26 March 2027 in a villa with private pool in Antigua. They choose villa venues themselves, operate squarely in the Nov-Apr window and seek winter-sun destinations, which makes Greece a natural next location. Price and group size are not shown. Low-to-medium risk; strong pilot candidate."
+   },
+   "events": [
+    {
+     "title": "Yoga retreat in Fuerteventura",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-03-19",
+     "endDate": "2027-03-26",
+     "nights": 7,
+     "location": "Antigua, Fuerteventura (villa with private pool)",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeQsLYYCP8d"
+     ]
+    },
+    {
+     "title": "Ritiro yoga in Marocco",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-02-07",
+     "endDate": "2027-02-14",
+     "nights": 7,
+     "location": "Morocco",
+     "country": "MA",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeQsLYYCP8d"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "YogaPilatesLab",
+    "country": null,
+    "languages": [
+     "en",
+     "it"
+    ],
+    "niche": "yoga and Pilates retreats",
+    "markets": [
+     "IT"
+    ]
+   }
+  }
+ ]
+}

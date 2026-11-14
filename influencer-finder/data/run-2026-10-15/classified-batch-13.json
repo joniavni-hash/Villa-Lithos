@@ -1,0 +1,31 @@
+{
+  "batch": 13,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "zenspaceyoga",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/Da21MWnjQJR"], "note": "Runs a 'Retraite Yoga Rituels d'Automne' at a chalet (venue name cut off in OCR) and its training at Studio Spirale, Marseille; it chooses external venues for retreats."},
+        "sellsRetreats": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/Da21MWnjQJR"], "note": "Own retreat flyer (yoga, Ayurveda, massages, vegetarian Ayurvedic meals, nature walks, 'du 15 au 18 ... 2026' with Pamela, Amandine & Anne-Lise) plus 'Les inscriptions sont ouvertes' / 'Places limitées' for the training."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "The autumn retreat runs 15-18 of a month unreadable in the OCR (posted September 18, 2026); could be October or November, not provable."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "'Places limitées' without numbers."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "A 2990 EUR figure appears only in heuristic extraction, not in the excerpt, and likely refers to the 200h training."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/Da21MWnjQJR"], "note": "A seasonal retreat ('Rituels d'Automne') plus an annual 200h Vinyasa training ('Édition 2027')."},
+        "longStayPotential": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/Da21MWnjQJR"], "note": "Retreat is 15-18 (3 nights), below the villa's 4-night planning minimum."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/Da21MWnjQJR"], "note": "Yoga + Ayurveda + massages + vegetarian cuisine + nature in a chalet: a wellness format that transfers well to a private estate."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No named venue partnership visible."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["retreat month unreadable in OCR ('du 15 au 18 ... 2026')", "2990 EUR price appears only in heuristic extraction, probably the training fee", "no bio or follower data"],
+        "missingInformation": ["exact dates and venue of the autumn retreat", "group size and price per person for retreats", "whether the school runs winter retreats abroad", "follower count and audience geography (Lyon/Marseille)"],
+        "summary": "Zenspace Yoga (Lyon/Marseille) sells a 200h Vinyasa teacher training, Édition 2027, at Studio Spirale in Marseille with registrations open, and posted on September 18, 2026 a flyer for its own 'Retraite Yoga Rituels d'Automne' from the 15th to the 18th of an unreadable month in 2026 at a chalet, with yoga, Ayurveda, massages, vegetarian Ayurvedic meals and nature walks led by Pamela, Amandine & Anne-Lise (https://www.instagram.com/p/Da21MWnjQJR). The school organises its own retreats at external venues and runs recurring trainings, so it is group A in a priority market (France). The retreat is only 3 nights and the winter dates, group size and prices are unverified, so commercial risk is medium. Approach with a pilot 4-night winter edition of the Ayurveda retreat."
+      },
+      "events": [
+        {"title": "Retraite Yoga Rituels d'Automne (nourrir, apaiser, équilibrer)", "eventType": "yoga_retreat", "startDate": null, "endDate": null, "nights": 3, "location": "Chalet (name cut off in OCR), France", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/Da21MWnjQJR"]},
+        {"title": "Formation 200h Vinyasa Yoga - Édition 2027", "eventType": "teacher_training", "startDate": null, "endDate": null, "nights": null, "location": "Studio Spirale, Marseille", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/Da21MWnjQJR"]}
+      ],
+      "profile": {"displayName": "Zenspace Yoga", "country": "FR", "languages": ["fr"], "niche": "yoga school, teacher training & seasonal retreats", "markets": ["FR"]}
+    }
+  ]
+}

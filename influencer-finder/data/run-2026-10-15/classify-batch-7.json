@@ -1,0 +1,460 @@
+{
+ "batch": 7,
+ "candidates": [
+  {
+   "handle": "fincanaranjas",
+   "profileUrl": "https://www.instagram.com/fincanaranjas/",
+   "displayName": "Finca Naranjas",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Tenerife"
+   ],
+   "accountType": "venue",
+   "organizerSignals": [
+    "we’ll once again be hosting"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/Ddo4eZ1zf1v",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Yoga is a very special part of life here, welcoming teachers and students from around the world. From January to April, we’ll once again be hosting @purplevalleyyogatenerife for their Tenerife season.  \n  \nFeaturing here the lovely @paulavahos\\_   \nBeautifully captured by @sigis.mondi   \nMat by @Liforme #fincanaranjastenerife #fincanaranjas #tenerife [...] Video by Alessandro Sigismondi on October"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram",
+     "dates": null,
+     "location": "Tenerife",
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "Yoga is a very special part of life here, welcoming teachers and students from around the world. From January to April, we’ll once again be hosting @purplevalleyyogatenerife for their Tenerife season.  \n  \nFeaturing here the lovely @paulavahos\\_   \nBeautifully captured by @sigis.mondi   \nMat by @Liforme #fincanaranjastenerife #fincanaranjas #tenerife [...] Video by Alessandro Sigismondi on October",
+     "url": "https://www.instagram.com/reel/Ddo4eZ1zf1v"
+    }
+   ]
+  },
+  {
+   "handle": "folkyogasf",
+   "profileUrl": "https://www.instagram.com/folkyogasf/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "enrollment is now open",
+    "Early Bird",
+    "link in our bio"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DePeZkzCqi1",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Our 200 Hour Yoga Teacher Training is designed to help you deepen your practice, explore yoga philosophy and anatomy, build real teaching experience, and discover your own voice—all within a supportive learning community.  \n  \nChoose the format that fits your life:  \n🗓️ PART-TIME  \nJanuary 10–April 4, 2027  \nA 3 month journey that allows time to learn, practice, and integrate.  \n  \n🗓️ FULL-TIME  \n"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram",
+     "dates": "January 10–April 4, 2027 | February 9–March 7, 2027 | Winter 2027",
+     "location": null,
+     "price": "$800 | $2,899 | $3,099 | $600 | $3,699",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Our 200 Hour Yoga Teacher Training is designed to help you deepen your practice, explore yoga philosophy and anatomy, build real teaching experience, and discover your own voice—all within a supportive learning community.  \n  \nChoose the format that fits your life:  \n🗓️ PART-TIME  \nJanuary 10–April 4, 2027  \nA 3 month journey that allows time to learn, practice, and integrate.  \n  \n🗓️ FULL-TIME  \n",
+     "url": "https://www.instagram.com/reel/DePeZkzCqi1"
+    }
+   ]
+  },
+  {
+   "handle": "franchiseassembly.",
+   "profileUrl": "https://www.instagram.com/franchiseassembly./",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Denver",
+    "Dallas",
+    "San Diego",
+    "New Orleans"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "join us",
+    "EARLY BIRD"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DdqvvABPro5",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Title: Instagram\nNever miss a post from franchiseassembly. Sign up for Instagram to stay in the loop. Video by Franchise Assembly on September 24, 2026. May be an image of magazine and text. We did it again, but this time... Franchise Development & Sales Assembly voted for the 3rd year in a row! Hello Mastermind Retreats voted for the first time at #10! These accolades are special because they're "
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram",
+     "dates": "November 2-3, 2026 | November 4-5, 2026 | Jan 27-29, 2027 | May 3-5, 2027 | November 1-2, 2027 | November 3-4, 2027",
+     "location": "Denver, Dallas, San Diego, New Orleans",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Title: Instagram\nNever miss a post from franchiseassembly. Sign up for Instagram to stay in the loop. Video by Franchise Assembly on September 24, 2026. May be an image of magazine and text. We did it again, but this time... Franchise Development & Sales Assembly voted for the 3rd year in a row! Hello Mastermind Retreats voted for the first time at #10! These accolades are special because they're ",
+     "url": "https://www.instagram.com/reel/DdqvvABPro5"
+    }
+   ]
+  },
+  {
+   "handle": "franchiseba",
+   "profileUrl": "https://www.instagram.com/franchiseba/",
+   "displayName": "Franchise Brokers Association",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Denver",
+    "Dallas"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de",
+     "kind": "reel",
+     "title": "Where should your franchise brand actually show up in ...",
+     "excerpt": "Hello Mastermind Fall Retreat - November 4-5, 2026, Denver Let's Grow! Franchise Development & Sales Assembly - Jan 27-29, 2027, Dallas **2027"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Where should your franchise brand actually show up in ...",
+     "dates": "November 4-5, 2026 | Jan 27-29, 2027",
+     "location": "Denver, Dallas",
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "Sponsor spots are limited. Once they are gone, they are gone. Check the FBCE 2026 sponsorship options and secure your place on the conference floor. #FranchiseEvents #FBCE2026 #FranchiseBrokersAssociation",
+     "url": "https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de"
+    }
+   ]
+  },
+  {
+   "handle": "giuliayogabelluno",
+   "profileUrl": "https://www.instagram.com/giuliayogabelluno/",
+   "displayName": "Giulia Citterio",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Tenerife"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Send me a message"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DeRxhDVtDwx",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "giuliayogabelluno Edited•\n\nYour Tenerife yoga retreat is waiting for you 🧡🌿  \nBeginning of 2027, a few days to slow down, reconnect and make space for yourself.  \nInterested in joining us? ✨  \nSend me a message to ask about availability and receive all the details 🙏🏼  \nThe retreat will be in Italian and English   \n  \n#yogaretreat #tenerife #canaryisland #blacklotusyoga\n\ntomastealdiyoga's profile p"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram",
+     "dates": "Beginning of 2027",
+     "location": "Tenerife",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "giuliayogabelluno Edited•\n\nYour Tenerife yoga retreat is waiting for you 🧡🌿  \nBeginning of 2027, a few days to slow down, reconnect and make space for yourself.  \nInterested in joining us? ✨  \nSend me a message to ask about availability and receive all the details 🙏🏼  \nThe retreat will be in Italian and English   \n  \n#yogaretreat #tenerife #canaryisland #blacklotusyoga\n\ntomastealdiyoga's profile p",
+     "url": "https://www.instagram.com/reel/DeRxhDVtDwx"
+    }
+   ]
+  },
+  {
+   "handle": "gretaertl",
+   "profileUrl": "https://www.instagram.com/gretaertl/",
+   "displayName": "Greta Ertl | Spiritual Life Coach + Retreat Host",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/gretaertl",
+     "kind": "profile",
+     "title": "Greta Ertl | Spiritual Life Coach + Retreat Host (@gretaertl) • Instagram photos and videos",
+     "excerpt": "Video by ✨Radiance Retreats✨ on October 13, 2026. May be an image of one or more people, sundress, wedding and text.\n\nVideo by Greta Ertl | Spiritual Life Coach + Retreat Host on October 13, 2026. May be a selfie of one or more people, can opener, dental floss and text.\n\nPhoto by ✨Radiance Retreats✨ on October 10, 2026.\n\nVideo by Greta Ertl | Spiritual Life Coach + Retreat Host on October 09, 2026"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "insideoutwithcourtnaye.",
+   "profileUrl": "https://www.instagram.com/insideoutwithcourtnaye./",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "link in my bio"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTBJJcjjm1e",
+     "kind": "post",
+     "title": "Courtnaye Richard on Instagram: \"3 More days before my “Ministry & Marketplace Mastermind” kicks off! It starts Monday, January 5th! \n\nThe mastermind start this",
+     "excerpt": "and making a greater impact! \n\nGet ready to grow and learn with like-minded kingdom, ministry, and business builders. \n\nLearn more about it and if you have any questions, reach out via inbox. Let’s do this, together! It’s going to be awesome! 🤗🎊\n\nLearn more about it by clicking the link in my bio.\"\nNever miss a post from insideoutwithcourtnaye. Sign up for Instagram to stay in the loop. 3 More day"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Courtnaye Richard on Instagram: \"3 More days before my “Ministry & Marketplace Mastermind” kicks off! It starts Monday, January 5th! \n\nThe mastermind start this",
+     "dates": null,
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "and making a greater impact! \n\nGet ready to grow and learn with like-minded kingdom, ministry, and business builders. \n\nLearn more about it and if you have any questions, reach out via inbox. Let’s do this, together! It’s going to be awesome! 🤗🎊\n\nLearn more about it by clicking the link in my bio.\"\nNever miss a post from insideoutwithcourtnaye. Sign up for Instagram to stay in the loop. 3 More day",
+     "url": "https://www.instagram.com/p/DTBJJcjjm1e"
+    }
+   ]
+  },
+  {
+   "handle": "itamar_padel_tour",
+   "profileUrl": "https://www.instagram.com/itamar_padel_tour/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "קפריסין",
+    "מדריד",
+    "מבשרת"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/itamar_padel_tour/reel/DbtKJN1COUJ",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Title: Instagram\nNever miss a post from itamar\\_padel\\_tour. By continuing, you agree to Instagram's Terms of Use and Privacy Policy. Video by Itamar kantzuker on August 06, 2026. May be an image of tennis, racket, ball and text that says 'DavidLoyd Loyd CLUBS- CLUBS CLUBS -'. More posts from itamar\\_padel\\_tour. Video by גרין פאדל | מבשרת ציון on August 12, 2026. May be an image of ‎text that say"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Instagram",
+     "dates": "03.09-07.09 | 23.07-26.07",
+     "location": "קפריסין, מדריד, מבשרת",
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "Title: Instagram\nNever miss a post from itamar\\_padel\\_tour. By continuing, you agree to Instagram's Terms of Use and Privacy Policy. Video by Itamar kantzuker on August 06, 2026. May be an image of tennis, racket, ball and text that says 'DavidLoyd Loyd CLUBS- CLUBS CLUBS -'. More posts from itamar\\_padel\\_tour. Video by גרין פאדל | מבשרת ציון on August 12, 2026. May be an image of ‎text that say",
+     "url": "https://www.instagram.com/itamar_padel_tour/reel/DbtKJN1COUJ"
+    }
+   ]
+  },
+  {
+   "handle": "jakesasseville",
+   "profileUrl": "https://www.instagram.com/jakesasseville/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Link in bio"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DcIMcI3zmoK",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "jakesasseville\n\nAfter owning the retreat venues for 10 years and seeing 450+ retreat leaders pass through, I’ve seen exactly what makes a retreat soar vs one that sours.   \n  \nThere are many characteristics, but this one determines most often whether someone is successful or not.   \n  \nSee if you agree in the video. Continue the conversation live with the community in Office Hours every Weds 3P ET"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "jamieberman_.",
+   "profileUrl": "https://www.instagram.com/jamieberman_./",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Maui"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Applications are open"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DRVpciukoMf",
+     "kind": "post",
+     "title": "Jamie Berman on Instagram: \"The Becoming a Millionaire Mastermind is NOW OPEN. 🎉\n\nThis isn’t your typical mastermind. This is where strategy meets soul.\n\nFor 6 ",
+     "excerpt": "stery.\n\nWe’re teaching you the outer strategy AND the inner energetics of becoming a millionaire, so you can scale your income, build long-term wealth, and do it all without sacrificing your peace.\n\n✨ Weekly live calls every Thursday\n ✨ Hot seat coaching\n ✨ Money strategy + mindset + embodiment\n ✨ Private community\n ✨ 4-day Maui retreat in June\n\nTimeline: January - June 2026\n\nThis is for women ent"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Jamie Berman on Instagram: \"The Becoming a Millionaire Mastermind is NOW OPEN. 🎉\n\nThis isn’t your typical mastermind. This is where strategy meets soul.\n\nFor 6 ",
+     "dates": "June 2026",
+     "location": "Maui",
+     "price": "$100K",
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "stery.\n\nWe’re teaching you the outer strategy AND the inner energetics of becoming a millionaire, so you can scale your income, build long-term wealth, and do it all without sacrificing your peace.\n\n✨ Weekly live calls every Thursday\n ✨ Hot seat coaching\n ✨ Money strategy + mindset + embodiment\n ✨ Private community\n ✨ 4-day Maui retreat in June\n\nTimeline: January - June 2026\n\nThis is for women ent",
+     "url": "https://www.instagram.com/p/DRVpciukoMf"
+    }
+   ]
+  },
+  {
+   "handle": "lacasashambala",
+   "profileUrl": "https://www.instagram.com/lacasashambala/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Tenerife",
+    "Canary Islands",
+    "Spain",
+    "Arafo"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "SOLD OUT",
+    "EARLY BIRD",
+    "JOIN US"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DVv3I3FDkk0",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Log In\n\nSign Up\n\nlacasashambala's profile picture\n\nNever miss a post from lacasashambala\n\nSign up for Instagram to stay in the loop.\n\nSign up\n\nLog in\n\nPhoto by Yoga Teacher Trainings on March 11, 2026.\n\ncoco_tardani's profile picture\n\nlacasashambala's profile picture\n\nlacasashambala and 3 others\n\nTenerife, Canary Islands, Spain\n\nlacasashambala's profile picture\n\nlacasashambala [...] Opportunities "
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "appy to have chosen this organisation and this location.       February was a perfect mont...",
+     "dates": "March 27 – April 13",
+     "location": null,
+     "price": null,
+     "spots": "SOLD OUT",
+     "role": "organizer",
+     "excerpt": "appy to have chosen this organisation and this location.   \n  \nFebruary was a perfect month and the value for money was great!.”  \n  \n— Joanne McCarthy  \n  \nJOIN US IN ARAFO:  \n  \nMarch 27 – April 13 (SOLD OUT)  \nMay 4 – May 21   \nJuly 3 – July 20 (EARLY BIRD)  \n  \n#arafotenerife #yogaintenerife #yogateachertraining #yogainspain #lacasahambala [...] Memories from our February",
+     "url": "https://www.instagram.com/p/DVv3I3FDkk0"
+    },
+    {
+     "title": "tion and this location.       February was a perfect month and the value for money was gre...",
+     "dates": "May 4 – May 21",
+     "location": "Arafo",
+     "price": null,
+     "spots": "SOLD OUT",
+     "role": "organizer",
+     "excerpt": "tion and this location.   \n  \nFebruary was a perfect month and the value for money was great!.”  \n  \n— Joanne McCarthy  \n  \nJOIN US IN ARAFO:  \n  \nMarch 27 – April 13 (SOLD OUT)  \nMay 4 – May 21   \nJuly 3 – July 20 (EARLY BIRD)  \n  \n#arafotenerife #yogaintenerife #yogateachertraining #yogainspain #lacasahambala [...] Memories from our February YTT in Arafo, Tenerife. 🌞",
+     "url": "https://www.instagram.com/p/DVv3I3FDkk0"
+    },
+    {
+     "title": "tion.       February was a perfect month and the value for money was great!.”      — Joann...",
+     "dates": "July 3 – July 20",
+     "location": "Arafo",
+     "price": null,
+     "spots": "SOLD OUT",
+     "role": "organizer",
+     "excerpt": "tion.   \n  \nFebruary was a perfect month and the value for money was great!.”  \n  \n— Joanne McCarthy  \n  \nJOIN US IN ARAFO:  \n  \nMarch 27 – April 13 (SOLD OUT)  \nMay 4 – May 21   \nJuly 3 – July 20 (EARLY BIRD)  \n  \n#arafotenerife #yogaintenerife #yogateachertraining #yogainspain #lacasahambala [...] Memories from our February YTT in Arafo, Tenerife. 🌞  \n  \n“Beautiful locati",
+     "url": "https://www.instagram.com/p/DVv3I3FDkk0"
+    }
+   ]
+  },
+  {
+   "handle": "ladiesinweighting_be",
+   "profileUrl": "https://www.instagram.com/ladiesinweighting_be/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Canary Islands",
+    "Spain",
+    "Tenerife"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "join us",
+    "only 4 spots",
+    "only 4 spots left",
+    "spots left"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DdWOblMiKPB",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "It’s happening!!! Our next GRIT & GLOW RETREAT will take place in February 2027 in TENERIFE 🤩  \nOnly 15 fabulous women but only 4 spots left. From every morning Strength Trainings at the beach to hiking the biggest mountain in Spain  \nIf you are interested please hurry up and contact us for more information on how to join us in this wonderful experience.\n\n## No comments yet.\n\nStart the conversatio"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "like or comment.     Log in    May be an image of campsite, mountain and text that says 'L...",
+     "dates": "25/02 to Mon 01/03",
+     "location": "Tenerife",
+     "price": null,
+     "spots": null,
+     "role": "unknown",
+     "excerpt": "like or comment.\n\n \n\nLog in\n\n  May be an image of campsite, mountain and text that says 'Ladies inWeightinga in invites invitesyou... yKu... Grit & Glow 17 5 5 days/ 4 nights Thu 25/02 to Mon 01/03 Tenerife,SPAIN Tenerife, SPAIN Max 15 fab women 도 Retreat'.\n\nladiesinweighting_be's profile picture\n\nladiesinweighting\\_be\n\n•\n\nFollow\n\nTenerife, Canary Islands.\n\nladiesinweighting",
+     "url": "https://www.instagram.com/p/DdWOblMiKPB"
+    },
+    {
+     "title": "s happening!!! Our next GRIT & GLOW RETREAT will take place in February 2027 in TENERIFE 🤩...",
+     "dates": null,
+     "location": "Spain",
+     "price": null,
+     "spots": "only 4 spots left",
+     "role": "organizer",
+     "excerpt": "s happening!!! Our next GRIT & GLOW RETREAT will take place in February 2027 in TENERIFE 🤩  \nOnly 15 fabulous women but only 4 spots left. From every morning Strength Trainings at the beach to hiking the biggest mountain in Spain  \nIf you are interested ple",
+     "url": "https://www.instagram.com/p/DdWOblMiKPB"
+    },
+    {
+     "title": "Instagram",
+     "dates": "February 2027",
+     "location": "Tenerife, Canary Islands, Spain",
+     "price": null,
+     "spots": "only 4 spots left",
+     "role": "organizer",
+     "excerpt": "Sign up\n\nLog in\n\nPhoto by Christina & Laura on September 16, 2026. May be an image of campsite, mountain and text that says 'Ladies inWeightinga in invites invitesyou... yKu... Grit & Glow 17 5 5 days/ 4 nights Thu 25/02 to Mon 01/03 Tenerife,SPAIN Tenerife, SPAIN Max 15 fab women 도 Retreat'.\n\nladiesinweighting_be's profile picture\n\nladiesinweighting\\_be\n\n•\n\nFollow\n\nTenerife, Canary Islands.\n\nladi",
+     "url": "https://www.instagram.com/p/DdWOblMiKPB"
+    }
+   ]
+  }
+ ]
+}

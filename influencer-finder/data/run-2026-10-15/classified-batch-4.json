@@ -1,0 +1,299 @@
+{
+  "batch": 4,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "retreat_to_tenerife_",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/retreat_to_tenerife_"], "note": "It is the venue: 'host your own retreat', 'villa rental & events', Casa Kinsella Tenerife South packages."},
+        "sellsRetreats": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/retreat_to_tenerife_"], "note": "Sells venue packages (transfers, private chef, excursions) to hosts; the AmpCamp MMA camp (Tenerife 17-24 April) is a third-party event it promotes."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable for a venue; only a promoted April MMA camp."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host: Tenerife villa and retreat-hosting package provider (competitor venue)"],
+        "missingInformation": [],
+        "summary": "Retreat to Tenerife (1,386 followers) is a venue business offering 'host your own retreat' packages at Casa Kinsella, Tenerife South, with transfers, private chef and excursions, and promotes a third-party AmpCamp MMA camp (Tenerife 17-24 April; profile page). It is a competing venue, not a retreat organiser. Classified none; it may be useful only as a benchmark for how a winter-sun villa packages hosted retreats."
+      },
+      "events": [
+        {"title": "AmpCamp MMA Camp, Tenerife 17-24 April (third-party, promoted)", "eventType": "fitness_retreat", "startDate": null, "endDate": null, "nights": 7, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "promoter", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/retreat_to_tenerife_"]}
+      ],
+      "profile": {"displayName": "Retreat to Tenerife holidays, retreats & events", "country": "ES", "languages": ["en"], "niche": "retreat venue / villa rental", "markets": ["GB"]}
+    },
+    {
+      "handle": "sonder.studios.us",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DdVCtbYRlvD"], "note": "Studio takes its retreat off-site to the Himalayan Institute (Honesdale, PA) with a guest teacher."},
+        "sellsRetreats": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DdVCtbYRlvD"], "note": "'SONDER is pleased to announce - BREATH & BANDHA YOGA RETREAT', 'Register today', 'BOOK NOW'; registration runs through the venue's site."},
+        "provenWinterActivity": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DdVCtbYRlvD"], "note": "Only event is October 30 - November 1 2026, straddling the window; no winter-season programme."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No sizes."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Single event in evidence."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DdVCtbYRlvD"], "note": "Two-night weekend."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Insufficient evidence."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Regional US studio (Calvert County, Maryland) running a 2-night domestic retreat; registration handled by the host venue"],
+        "missingInformation": ["Whether SONDER runs any international or week-long retreats", "Price and group size"],
+        "summary": "SONDER, a yoga studio in Calvert County, Maryland, is organising the Breath & Bandha Yoga Retreat with guest teacher Leslie Kaminoff at the Himalayan Institute, Honesdale PA, October 30 - November 1 2026, with registration via the institute (reel DdVCtbYRlvD). The studio does organise off-site retreats, but this is a two-night domestic weekend with no pricing or winter-season evidence. High commercial risk for a Greek villa; scouting contact only."
+      },
+      "events": [
+        {"title": "Breath & Bandha Yoga Retreat with Leslie Kaminoff", "eventType": "yoga_retreat", "startDate": "2026-10-30", "endDate": "2026-11-01", "nights": 2, "location": "Himalayan Institute, Honesdale, Pennsylvania", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DdVCtbYRlvD"]}
+      ],
+      "profile": {"displayName": "SONDER (Calvert County Maryland)", "country": "US", "languages": ["en"], "niche": "yoga studio retreats", "markets": ["US"]}
+    },
+    {
+      "handle": "stanleysounds",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/Dd3t_VpvpYy"], "note": "Co-hosts chose @visitmizata by Antiresort, El Salvador."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/Dd3t_VpvpYy"], "note": "'Join myself, @amandagloriayoga, and @aloeadoricion November 9-15, 2026 in El Salvador'; Labor Day enrollment offer."},
+        "provenWinterActivity": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/Dd3t_VpvpYy"], "note": "Dated November 9-15 2026."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No sizes."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Single event in evidence."},
+        "longStayPotential": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/Dd3t_VpvpYy"], "note": "Six-night retreat."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/Dd3t_VpvpYy"], "note": "Boutique 'Antiresort' venue, sound healing, vinyasa/yin; programme includes 'plant medicine exploration'."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Programme lists 'plant medicine exploration', a legal and brand consideration for a Greek venue", "Co-hosted by three facilitators; decision-making is shared"],
+        "missingInformation": ["Price per person and group size", "Which co-host leads venue selection", "Home market (likely US)"],
+        "summary": "Christopher Stanley (sound healing) co-hosts a six-night retreat with @amandagloriayoga and @aloeadoricion, November 9-15 2026 at Mizata by Antiresort in El Salvador, aimed at practitioners and yoga teachers with vinyasa, yin, meditation, sound healing and community service (reel Dd3t_VpvpYy). It is a dated winter-window, week-long, boutique-venue retreat that fits the villa's format. Prices and group size are unknown, the team is a trio, and 'plant medicine exploration' needs clarifying before any Greek edition; medium risk. Recommend a pilot retreat approach to the co-host team for a Nov-Apr 2027/28 edition."
+      },
+      "events": [
+        {"title": "Yoga, sound healing and ritual retreat, Mizata, El Salvador", "eventType": "yoga_retreat", "startDate": "2026-11-09", "endDate": "2026-11-15", "nights": 6, "location": "Mizata by Antiresort, El Salvador", "country": "SV", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "co_host", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/Dd3t_VpvpYy"]}
+      ],
+      "profile": {"displayName": "Christopher Stanley", "country": null, "languages": ["en"], "niche": "sound healing / yoga retreats", "markets": ["US"]}
+    },
+    {
+      "handle": "tennisclubdionysien",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/Dd1dFTxiKZi"], "note": "Club running padel stages on its own courts in Saint-Denis."},
+        "sellsRetreats": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/Dd1dFTxiKZi"], "note": "Local day stages for adults and children 6-16, October 2026."},
+        "provenWinterActivity": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/Dd1dFTxiKZi"], "note": "October stages, non-residential."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Prices on posters, not in text."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/Dd1dFTxiKZi"], "note": "Several sessions during October."},
+        "longStayPotential": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/Dd1dFTxiKZi"], "note": "Non-residential."},
+        "brandFit": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/Dd1dFTxiKZi"], "note": "Local club."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host: local tennis and padel club (Saint-Denis, France) running day stages"],
+        "missingInformation": [],
+        "summary": "Tennis Club Dionysien advertises padel stages for adults and children at its Saint-Denis courts from 5 October 2026, with registration by phone (post Dd1dFTxiKZi). It is a local club with non-residential sessions, not a travelling retreat organiser. Classified none."
+      },
+      "events": [
+        {"title": "Stages Padel au TCD - Octobre 2026", "eventType": "workshop", "startDate": "2026-10-05", "endDate": null, "nights": null, "location": "TCD Saint-Denis", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/Dd1dFTxiKZi"]}
+      ],
+      "profile": {"displayName": "Tennis Club Dionysien", "country": "FR", "languages": ["fr"], "niche": "tennis and padel club", "markets": ["FR"]}
+    },
+    {
+      "handle": "thecove_church",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DYXv3WiRfn2"], "note": "Church books Lake Junaluska Conference and Retreat Center for its women's retreat."},
+        "sellsRetreats": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DYXv3WiRfn2"], "note": "'Reserve your spot today', $375 per person including lodging, meals, sessions, crafts and shirt; registration closes September 16."},
+        "provenWinterActivity": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DYXv3WiRfn2"], "note": "October 8-10 2026 only."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "'Space is limited' without a number."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DYXv3WiRfn2"], "note": "$375 per person for two nights with lodging and meals."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DYXv3WiRfn2"], "note": "'Women's Retreat 2026' implies an annual event."},
+        "longStayPotential": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DYXv3WiRfn2"], "note": "Two-night weekend."},
+        "brandFit": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DYXv3WiRfn2"], "note": "Congregational worship retreat at a conference centre."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account: church congregation running a local members' weekend", "Pricing far below premium ($375 per person all-inclusive)"],
+        "missingInformation": [],
+        "summary": "The Cove Church promotes its Women's Retreat 2026, October 8-10 2026 at Lake Junaluska Conference and Retreat Center, at $375 per person all-inclusive with limited space (reel DYXv3WiRfn2). It is a congregational weekend for members at a conference centre, priced far below premium and outside the target season. Classified none; no outreach."
+      },
+      "events": [
+        {"title": "The Cove Church Women's Retreat 2026", "eventType": "womens_retreat", "startDate": "2026-10-08", "endDate": "2026-10-10", "nights": 2, "location": "Lake Junaluska Conference and Retreat Center", "country": "US", "groupSize": null, "pricePerPerson": 375, "currency": "USD", "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DYXv3WiRfn2"]}
+      ],
+      "profile": {"displayName": "The Cove Church", "country": "US", "languages": ["en"], "niche": "church congregation", "markets": ["US"]}
+    },
+    {
+      "handle": "thepadelretreat",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/thepadelretreat"], "note": "Multi-destination brand (Cape Town, Maldives, Mykonos, Ubud) choosing its own venues; already operates in Greece (Mykonos)."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/thepadelretreat"], "note": "'The Padel Retreat is heading to Cape Town from November 15-23, 2026!! Comment CAPE TOWN to pre-register'."},
+        "provenWinterActivity": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/thepadelretreat"], "note": "Dated November 15-23 2026 (Cape Town)."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group sizes."},
+        "audiencePaysPremium": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/thepadelretreat"], "note": "Destinations (Maldives, Mykonos, Ubud) and 'padel in paradise' positioning imply premium pricing; no price shown."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/thepadelretreat"], "note": "Four destinations listed; frequent posting (June 2026 series)."},
+        "longStayPotential": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/thepadelretreat"], "note": "Eight-night Cape Town edition."},
+        "brandFit": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/thepadelretreat"], "note": "Luxury-destination sports brand with 23,200 followers."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/thepadelretreat"], "note": "'The 1st ever Padel Retreat' with multiple destinations delivered; no sales figures."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Requires padel courts near the villa", "Greek edition is Mykonos (summer); winter programme is southern hemisphere (Cape Town)"],
+        "missingInformation": ["Price per person and group size", "Court requirements and whether an Athens-area edition is of interest", "Home market of guests"],
+        "summary": "The Padel Retreat (23,200 followers, thepadelretreat.com) runs destination padel retreats in Cape Town, the Maldives, Mykonos and Ubud, and is pre-registering guests for Cape Town, November 15-23 2026 (profile page). It decides venues, sells directly, already operates in Greece, and has a dated winter-window, eight-night event with a premium brand, which makes it one of the stronger fits in this batch. Open questions are padel-court access near Porto Rafti, prices and group sizes; medium risk. Recommend a pilot retreat proposal for an 'Athens Riviera' winter edition as the European counterpart to Cape Town."
+      },
+      "events": [
+        {"title": "The Padel Retreat - Cape Town", "eventType": "padel_retreat", "startDate": "2026-11-15", "endDate": "2026-11-23", "nights": 8, "location": "Cape Town", "country": "ZA", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/thepadelretreat"]},
+        {"title": "The Padel Retreat - Mykonos (dates not shown)", "eventType": "padel_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Mykonos", "country": "GR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/thepadelretreat"]}
+      ],
+      "profile": {"displayName": "The Padel Retreat", "country": null, "languages": ["en"], "niche": "luxury destination padel retreats", "markets": ["GB", "OTHER"]}
+    },
+    {
+      "handle": "theriveryoga",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/Daf_rKlhkL7"], "note": "10-week in-studio teacher training."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/Daf_rKlhkL7"], "note": "Sells a 200-hour YTT (Sept 9 - Nov 18 2026) via link in bio; no travel retreats."},
+        "provenWinterActivity": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/Daf_rKlhkL7"], "note": "Part-time local course ending November 18."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/Daf_rKlhkL7"], "note": "Seasonal cohorts ('Fall 2026')."},
+        "longStayPotential": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/Daf_rKlhkL7"], "note": "Non-residential."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Insufficient evidence."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Local yoga studio; teacher training is in-studio and part-time, no travel retreats in evidence", "Same training dates appear under @yogahabit (possible scrape duplication)"],
+        "missingInformation": ["Whether the studio runs any destination retreats"],
+        "summary": "The River Yoga promotes its Fall 2026 200-hour Yoga Teacher Training, September 9 - November 18 2026, led by Kurt Joyce and Meghann Saige Volz, a 10-week in-studio programme with a free Zoom info session on July 21 2026 (reel Daf_rKlhkL7). There is no destination retreat activity in evidence. Classified none."
+      },
+      "events": [
+        {"title": "Fall 2026 200 Hour Yoga Teacher Training (10-week, in-studio)", "eventType": "teacher_training", "startDate": "2026-09-09", "endDate": "2026-11-18", "nights": null, "location": "The River Yoga studio", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/Daf_rKlhkL7"]}
+      ],
+      "profile": {"displayName": "The River Yoga", "country": "US", "languages": ["en"], "niche": "yoga studio / teacher training", "markets": ["US"]}
+    },
+    {
+      "handle": "thousandpines",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DTVubnBCrTt"], "note": "Christian camp venue hosting its own on-site women's retreat (and a sister-site edition at Pine Springs Ranch)."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DTVubnBCrTt"], "note": "Venue-run programme ('Our Thousand Pines Women's Retreat ... May 1-3, 2026', 'Join us September 25-27'), not an organiser that books external venues."},
+        "provenWinterActivity": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DTVubnBCrTt"], "note": "May and September dates."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DTVubnBCrTt"], "note": "Annual women's retreat."},
+        "longStayPotential": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DTVubnBCrTt"], "note": "Weekend format."},
+        "brandFit": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DTVubnBCrTt"], "note": "Christian camp."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host: Christian camp running retreats on its own grounds"],
+        "missingInformation": [],
+        "summary": "Thousand Pines Christian Camp is a camp venue promoting its own Women's Retreat (May 1-3 2026, and a September 25-27 edition at Pine Springs Ranch) with worship, fellowship and a guest speaker (reel DTVubnBCrTt). It is a venue hosting on-site programmes, not an organiser that would book an external villa. Classified none."
+      },
+      "events": [
+        {"title": "Thousand Pines Women's Retreat 2026", "eventType": "womens_retreat", "startDate": "2026-05-01", "endDate": "2026-05-03", "nights": 2, "location": "Thousand Pines Christian Camp", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DTVubnBCrTt"]},
+        {"title": "Women's Retreat 2026 at Pine Springs Ranch (September 25-27)", "eventType": "womens_retreat", "startDate": null, "endDate": null, "nights": 2, "location": "Pine Springs Ranch", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DTVubnBCrTt"]}
+      ],
+      "profile": {"displayName": "Thousand Pines Christian Camp", "country": "US", "languages": ["en"], "niche": "Christian camp venue", "markets": ["US"]}
+    },
+    {
+      "handle": "ucdavismenasa",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Venue not shown."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DRGGWQFkr4A"], "note": "Student organisation sign-up for an annual campus leadership retreat; not a commercial retreat."},
+        "provenWinterActivity": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DRGGWQFkr4A"], "note": "January 9-10 2026 leadership retreat (student event)."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not stated."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DRGGWQFkr4A"], "note": "University student audience."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DRGGWQFkr4A"], "note": "'our annual Leadership Retreat'."},
+        "longStayPotential": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DRGGWQFkr4A"], "note": "One-night weekend."},
+        "brandFit": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DRGGWQFkr4A"], "note": "Student resource centre."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account: university student resource centre (UC Davis MENASA) running a campus leadership retreat"],
+        "missingInformation": [],
+        "summary": "UC Davis MENASA is a university student resource centre whose post advertises its annual Leadership Retreat, January 9-10 2026, with sign-up by November 17 2025 (reel DRGGWQFkr4A). It is a student community event, not a commercial retreat host. Classified none; no outreach."
+      },
+      "events": [
+        {"title": "UC Davis MENASA annual Leadership Retreat", "eventType": "leadership_retreat", "startDate": "2026-01-09", "endDate": "2026-01-10", "nights": 1, "location": null, "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DRGGWQFkr4A"]}
+      ],
+      "profile": {"displayName": "UC Davis MENASA", "country": "US", "languages": ["en"], "niche": "university student organisation", "markets": ["US"]}
+    },
+    {
+      "handle": "vituityhealth",
+      "classification": {
+        "group": "C_high_value_host",
+        "decidesVenue": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DXfKEqhD53E"], "note": "Company books Loews Coronado Bay Resort for its physician wellness retreat."},
+        "sellsRetreats": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DXfKEqhD53E"], "note": "'Click the link in our bio to register! ... Limited spots ... Early bird pricing through June 5' - paid registration for a corporate-hosted retreat."},
+        "provenWinterActivity": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DXfKEqhD53E"], "note": "'Vituity's Wellness 2026 Retreat', November 12-15."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "'Limited spots' without a number."},
+        "audiencePaysPremium": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DXfKEqhD53E"], "note": "Physician audience, luxury resort venue, tiered (early-bird) pricing; actual price not shown."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only the 2026 edition is visible."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DXfKEqhD53E"], "note": "Three-night format."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DXfKEqhD53E"], "note": "Premium resort, professional wellness positioning."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["US healthcare company with a domestic resort retreat; a Greek edition would be a significant change of format"],
+        "missingInformation": ["Group size and price", "Who owns the retreat programme (HR/wellbeing team or events agency)", "Whether international editions are conceivable"],
+        "summary": "Vituity, a physician-led healthcare organisation, is hosting its Wellness 2026 Retreat for physicians on November 12-15 at Loews Coronado Bay Resort, Coronado, CA, with limited spots and early-bird pricing through June 5 (reel DXfKEqhD53E). It is a high-value corporate host booking a luxury resort in the winter window with a premium professional audience. The format is a 3-night domestic event and prices and group size are unknown, so a Greek pilot is speculative; medium risk. Recommend a pilot retreat proposal to the wellbeing/events owner, positioned as an executive wellness offsite 20 minutes from Athens airport."
+      },
+      "events": [
+        {"title": "Vituity Wellness 2026 Retreat (physicians)", "eventType": "corporate_offsite", "startDate": "2026-11-12", "endDate": "2026-11-15", "nights": 3, "location": "Loews Coronado Bay Resort, Coronado, CA", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DXfKEqhD53E"]}
+      ],
+      "profile": {"displayName": "Vituity", "country": "US", "languages": ["en"], "niche": "healthcare company wellness retreat", "markets": ["US"]}
+    },
+    {
+      "handle": "yoganowchicago",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DZxY-T-FV_P"], "note": "In-studio teacher training (Saturdays and Tuesdays)."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DZxY-T-FV_P"], "note": "Sells 200-hour YTTs (30th training, Sept 26 2026; next starting Nov 14 2026 with early bird); no travel retreats."},
+        "provenWinterActivity": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DZxY-T-FV_P"], "note": "A YTT begins November 14 2026, but it is a local part-time course."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DZxY-T-FV_P"], "note": "'This is our 30th training'."},
+        "longStayPotential": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DZxY-T-FV_P"], "note": "Non-residential."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Insufficient evidence."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DZxY-T-FV_P"], "note": "30 trainings delivered."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Local yoga studio; teacher trainings are in-studio and part-time, no travel retreats in evidence"],
+        "missingInformation": ["Whether the studio runs any destination retreats"],
+        "summary": "Yoga Now Chicago announces its fall 200-hour Yoga Teacher Training beginning September 26 2026 (its 30th), meeting Saturdays and Tuesdays, and a further cohort beginning November 14 2026 with early-bird pricing (post DZxY-T-FV_P). These are in-studio, part-time programmes with no destination retreat evidence. Classified none."
+      },
+      "events": [
+        {"title": "Fall 2026 Yoga Teacher Training (30th, in-studio)", "eventType": "teacher_training", "startDate": "2026-09-26", "endDate": null, "nights": null, "location": "Yoga Now, Chicago", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DZxY-T-FV_P"]},
+        {"title": "200-Hour Yoga Teacher Training beginning November 14 2026 (in-studio)", "eventType": "teacher_training", "startDate": "2026-11-14", "endDate": null, "nights": null, "location": "Yoga Now, Chicago", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DZxY-T-FV_P"]}
+      ],
+      "profile": {"displayName": "Yoga Now Chicago", "country": "US", "languages": ["en"], "niche": "yoga studio / teacher training", "markets": ["US"]}
+    },
+    {
+      "handle": "_the_retreat_",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://instagram.com/_the_retreat_"], "note": "Travel-retreat brand choosing destinations (Tulum, Peru, St. Lucia for 2027; 2028 in planning)."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://instagram.com/_the_retreat_"], "note": "Bio sells 2027 retreats: 'Tulum (4 spots left!), Peru (4 spots left!) + St. Lucia', site jointheretreat.com."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dates for any retreat."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "'4 spots left' does not reveal total group size."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://instagram.com/_the_retreat_"], "note": "Three 2027 destinations and a 2028 line-up; posts since February 2026."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Durations unknown."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://instagram.com/_the_retreat_"], "note": "'Where travel meets intention'; destination-led boutique brand."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://instagram.com/_the_retreat_"], "note": "Two 2027 retreats nearly full (4 spots left each)."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Small audience (1,374 followers)", "No dates, prices or durations visible"],
+        "missingInformation": ["Retreat dates and whether any fall in Nov-Apr", "Price per person and group size", "Home market (Ohio location hint suggests US)"],
+        "summary": "The Retreat (@_the_retreat_, by @heyitsme_cg, 1,374 followers, jointheretreat.com) is a small travel-retreat brand selling 2027 trips to Tulum and Peru (4 spots left each) plus St. Lucia, with 2028 destinations in planning (profile page). It decides venues and is filling its trips, but no dates, prices or durations are visible and the audience is small. Medium risk. Recommend a low-cost scouting-stay conversation to see whether a Greek winter destination fits its 2028 line-up; ask for dates and group sizes first."
+      },
+      "events": [
+        {"title": "The Retreat 2027 - Tulum (4 spots left)", "eventType": "wellness_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Tulum", "country": "MX", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://instagram.com/_the_retreat_"]},
+        {"title": "The Retreat 2027 - Peru (4 spots left)", "eventType": "wellness_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Peru", "country": "PE", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://instagram.com/_the_retreat_"]},
+        {"title": "The Retreat 2027 - St. Lucia", "eventType": "wellness_retreat", "startDate": null, "endDate": null, "nights": null, "location": "St. Lucia", "country": "LC", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://instagram.com/_the_retreat_"]}
+      ],
+      "profile": {"displayName": "The Retreat", "country": null, "languages": ["en"], "niche": "boutique travel retreats", "markets": ["US"]}
+    }
+  ]
+}

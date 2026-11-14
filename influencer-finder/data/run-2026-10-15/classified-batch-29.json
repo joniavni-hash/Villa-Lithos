@@ -1,0 +1,1257 @@
+{
+ "batch": 29,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "fitterconfidentyou",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbApkifDcuY?img_index=8"
+     ],
+     "note": "Selects and packages a 'luxury villa with pool, jacuzzi and sauna' for his own retreat."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbApkifDcuY?img_index=8"
+     ],
+     "note": "'Dates for the next FCY retreat are here!', 'Three rooms taken, four available', 'Reply SUN'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbApkifDcuY?img_index=8"
+     ],
+     "note": "26th - 31st January, 2027 in Lanzarote, explicitly marketed as 'Winter Sun'."
+    },
+    "canFillGroupSize": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbApkifDcuY?img_index=8"
+     ],
+     "note": "Seven private en-suite rooms (three taken, four available); smaller than a 10-18 group."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbApkifDcuY?img_index=8"
+     ],
+     "note": "All-inclusive with private en-suite rooms, luxury villa, airport transfers and boat trip."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbApkifDcuY?img_index=8"
+     ],
+     "note": "'the next FCY retreat', 'We're going back to... Lanzarote'."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbApkifDcuY?img_index=8"
+     ],
+     "note": "Five-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbApkifDcuY?img_index=8"
+     ],
+     "note": "Luxury private villa with pool is exactly the venue type; winter-sun positioning."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbApkifDcuY?img_index=8"
+     ],
+     "note": "Three of seven rooms already sold for January 2027; repeat destination."
+    },
+    "commercialRisk": "low",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Group capacity (7 rooms) is below 9 bedrooms"
+    ],
+    "missingInformation": [
+     "Price per person",
+     "Home market of coach and clients",
+     "Whether he would swap Lanzarote for Greece in a future winter"
+    ],
+    "summary": "Matt Boyles (Fitter Confident You, online coach for gay men) sells a recurring fitness retreat in a luxury villa with pool, jacuzzi and sauna in Lanzarote, 26-31 January 2027, all-inclusive with private en-suite rooms; three of seven rooms are already taken. He chooses villa venues himself, markets explicitly as winter sun and has sold-through evidence. Group size (7 rooms) is under the villa's 9 bedrooms. Low risk; strong pilot candidate for a future winter edition."
+   },
+   "events": [
+    {
+     "title": "FCY retreat Lanzarote",
+     "eventType": "fitness_retreat",
+     "startDate": "2027-01-26",
+     "endDate": "2027-01-31",
+     "nights": 5,
+     "location": "Lanzarote, Canary Islands (luxury villa with pool)",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": false,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbApkifDcuY?img_index=8"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Matt Boyles | Online Coach for Gay Men",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "fitness coaching and villa retreats for gay men",
+    "markets": []
+   }
+  },
+  {
+   "handle": "forward.inc_",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat or venue-selection evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DaiCBR_jebW"
+     ],
+     "note": "a 4-month business-registration programme in the Netherlands (Register Your Business)."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat group evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DaiCBR_jebW"
+     ],
+     "note": "Off-topic for a hosted-retreat villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat commercial evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic account: matched on a keyword, not on retreat activity"
+    ],
+    "missingInformation": [],
+    "summary": "Forward Inc: a 4-month business-registration programme in the Netherlands (Register Your Business). Off-topic for Villa Lithos; no retreat organising, venue choice or winter group travel in evidence. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Forward·Inc",
+    "country": "NL",
+    "languages": [
+     "en"
+    ],
+    "niche": "business support programme",
+    "markets": [
+     "NL"
+    ]
+   }
+  },
+  {
+   "handle": "grwellnessco",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVi3PzzDE8M"
+     ],
+     "note": "Two founders run their own annual retreat and chose the Costa Rica mountains."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVi3PzzDE8M"
+     ],
+     "note": "'Registration is now open for our Wellness Retreat'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVi3PzzDE8M"
+     ],
+     "note": "Wellness Retreat Jan 15-19 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVi3PzzDE8M"
+     ],
+     "note": "'a cherished tradition since 2019'."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVi3PzzDE8M"
+     ],
+     "note": "Four-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVi3PzzDE8M"
+     ],
+     "note": "Wellness retreat with a winter-escape positioning."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVi3PzzDE8M"
+     ],
+     "note": "Run annually since 2019."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Loyal to one destination (Costa Rica) for years"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Home market of founders and guests",
+     "Openness to a second winter destination"
+    ],
+    "summary": "GROW Wellness Company (Rita Murti and Grier Hynes) has run a January wellness retreat since 2019 and opened registration for Jan 15-19 2027 in the mountains of Costa Rica. They organise and sell it, it is winter-dated and recurring, which is the core profile. They have stuck with one destination for years and no price, group size or home market is shown. Medium risk; pitch a Greek winter edition as a pilot."
+   },
+   "events": [
+    {
+     "title": "GROW Wellness Retreat Costa Rica",
+     "eventType": "wellness_retreat",
+     "startDate": "2027-01-15",
+     "endDate": "2027-01-19",
+     "nights": 4,
+     "location": "Mountains of Costa Rica",
+     "country": "CR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVi3PzzDE8M"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "GROW Wellness Company Rita Murti & Grier Hynes",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "wellness retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "hadas21",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unclear whether she organised the Lefkada retreat or attended it."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Recap caption ('Lefkada, thank you for your magic') does not say she organised or sold it."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Retreat is undated."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No event history."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'a few days'; no exact length."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DYq8nL1Ddjg"
+     ],
+     "note": "Hebrew-language women's yoga retreat in Greece (Lefkada); Israeli audience and Greek destination fit the villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Role in the Lefkada retreat (host or participant) not established"
+    ],
+    "missingInformation": [
+     "Whether she organises and sells retreats",
+     "Dates, price and group size",
+     "Follower count"
+    ],
+    "summary": "Hadas Cohen posts in Hebrew about a women's yoga retreat in Lefkada, Greece ('a few days of turquoise sea, deep breaths, yoga'). Israel is a priority market and the retreat is already in Greece, but the caption is a recap and does not show that she organised or sold it. Commercial risk unknown; scout to confirm whether she hosts."
+   },
+   "events": [
+    {
+     "title": "Retreat in Lefkada, Greece",
+     "eventType": "womens_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Lefkada, Greece",
+     "country": "GR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "unknown",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DYq8nL1Ddjg"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Hadas Cohen",
+    "country": "IL",
+    "languages": [
+     "he"
+    ],
+    "niche": "women's yoga retreats",
+    "markets": [
+     "IL"
+    ]
+   }
+  },
+  {
+   "handle": "iamfit4travel",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only retreat hashtags; no registration, price or dates."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dated events."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.2,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Da50mGLRLXG"
+     ],
+     "note": "Hashtags position it in group wellness/fitness retreat travel."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Pack is a single reel with hashtags only"
+    ],
+    "missingInformation": [
+     "Whether Fit4Travel organises its own group trips",
+     "Destinations, dates, prices, group size",
+     "Home market"
+    ],
+    "summary": "Fit4Travel posts reels tagged with group-retreat, fitness-retreat and wellness-travel hashtags. Nothing in the pack shows it organising or selling a specific retreat, so this is a weak, unverified A lead. Commercial risk unknown; scout only."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Fit4Travel",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "fitness and wellness travel",
+    "markets": []
+   }
+  },
+  {
+   "handle": "impact.europe",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat or venue-selection evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTd3EVziJyl"
+     ],
+     "note": "a church Leadership Academy weekend in Wolfsberg with teaching on 'building church and team work'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat group evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTd3EVziJyl"
+     ],
+     "note": "Off-topic for a hosted-retreat villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat commercial evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic account: matched on a keyword, not on retreat activity"
+    ],
+    "missingInformation": [],
+    "summary": "Impact Europe: a church Leadership Academy weekend in Wolfsberg with teaching on 'building church and team work'. Off-topic for Villa Lithos; no retreat organising, venue choice or winter group travel in evidence. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Impact Europe",
+    "country": "AT",
+    "languages": [
+     "en"
+    ],
+    "niche": "church leadership academy",
+    "markets": [
+     "OTHER"
+    ]
+   }
+  },
+  {
+   "handle": "ixad.nord.ouest",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat or venue-selection evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DaDlXVOnTHw"
+     ],
+     "note": "LinkedIn workshops and retirement-savings appointments ('rendez-vous retraite', Plan d'Epargne Retraite); 'retraite' means retirement here."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat group evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DaDlXVOnTHw"
+     ],
+     "note": "Off-topic for a hosted-retreat villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat commercial evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic account: matched on a keyword, not on retreat activity"
+    ],
+    "missingInformation": [],
+    "summary": "IXAD Nord-Ouest: LinkedIn workshops and retirement-savings appointments ('rendez-vous retraite', Plan d'Epargne Retraite); 'retraite' means retirement here. Off-topic for Villa Lithos; no retreat organising, venue choice or winter group travel in evidence. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": null,
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "professional services workshops",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "jamesyoga",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbrTvx5oVpF"
+     ],
+     "note": "Runs his own retreats; location not stated."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbrTvx5oVpF"
+     ],
+     "note": "'My 2027 Men's Yoga Retreats are now open'."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbrTvx5oVpF"
+     ],
+     "note": "Both 2027 dates are summer: May 29 - June 5 and August 28 - September 4."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbrTvx5oVpF"
+     ],
+     "note": "Two editions in 2027."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbrTvx5oVpF"
+     ],
+     "note": "Seven-night retreats."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbrTvx5oVpF"
+     ],
+     "note": "Week-long men's yoga retreats suit a villa format."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Only summer dates"
+    ],
+    "missingInformation": [
+     "Retreat location",
+     "Price and group size",
+     "Home market",
+     "Interest in a winter edition"
+    ],
+    "summary": "James sells two week-long Men's Yoga Retreats in 2027: May 29 - June 5 and August 28 - September 4. He organises them himself and the 7-night format suits a villa, but both dates are summer and no location, price or group size is shown. Medium risk; scouting outreach to test a winter edition."
+   },
+   "events": [
+    {
+     "title": "Men's Yoga Retreat (spring 2027)",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-05-29",
+     "endDate": "2027-06-05",
+     "nights": 7,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbrTvx5oVpF"
+     ]
+    },
+    {
+     "title": "Men's Yoga Retreat (summer 2027)",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-08-28",
+     "endDate": "2027-09-04",
+     "nights": 7,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbrTvx5oVpF"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "men's yoga retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "jjonthemic",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DXm8eDJEbez"
+     ],
+     "note": "Runs her own retreat brand (blessedrestretreat.com); location Houston, Texas."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DXm8eDJEbez"
+     ],
+     "note": "'2027 BLESSED REST RETREAT REGISTRATION IS OPEN!'"
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DXm8eDJEbez"
+     ],
+     "note": "February 19-21, 2027 (President's Day Weekend)."
+    },
+    "canFillGroupSize": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DXm8eDJEbez"
+     ],
+     "note": "'2026 sold out so quickly'; no headcount."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DXm8eDJEbez"
+     ],
+     "note": "2026 edition sold out; 2027 edition open."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DXm8eDJEbez"
+     ],
+     "note": "Two-night weekend format."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DXm8eDJEbez"
+     ],
+     "note": "Local Houston holiday-weekend retreat; not a destination format."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DXm8eDJEbez"
+     ],
+     "note": "Previous edition sold out."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Domestic US weekend retreat (Houston)",
+     "Short 2-night format"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Interest in an international destination edition"
+    ],
+    "summary": "Jillian JJ Simmons runs the Blessed Rest Retreat in Houston, Texas: the 2026 edition sold out and 2027 registration is open for February 19-21, 2027. She is a proven organiser with winter dates and demand, but the event is a local two-night weekend in her home city, which does not translate easily to a Greek villa. High risk; scouting only."
+   },
+   "events": [
+    {
+     "title": "Blessed Rest Retreat 2027",
+     "eventType": "womens_retreat",
+     "startDate": "2027-02-19",
+     "endDate": "2027-02-21",
+     "nights": 2,
+     "location": "Houston, Texas",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DXm8eDJEbez"
+     ]
+    },
+    {
+     "title": "Blessed Rest Retreat 2026",
+     "eventType": "womens_retreat",
+     "startDate": "2026",
+     "endDate": null,
+     "nights": null,
+     "location": "Houston, Texas",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": true,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DXm8eDJEbez"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Jillian JJ Simmons",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "faith-based rest retreats",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "maison_de_sens",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWRD9o1DEkO"
+     ],
+     "note": "Picks 'un lieu exceptionnel' near Saint Jean de Maurienne for its retreat."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWRD9o1DEkO"
+     ],
+     "note": "'La Retraite Eclats a ses inscriptions ouvertes!'"
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWRD9o1DEkO"
+     ],
+     "note": "Retraite Eclats du 12 au 15 Novembre 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWRD9o1DEkO"
+     ],
+     "note": "'Les retraites de 2026... Trois temps': three retreats in 2026."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWRD9o1DEkO"
+     ],
+     "note": "Four-day format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWRD9o1DEkO"
+     ],
+     "note": "French retreat brand that books exceptional venues; mountain setting rather than seaside."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Domestic French venues so far"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Willingness to run a retreat abroad",
+     "Follower count"
+    ],
+    "summary": "Maison de Sens runs a programme of three retreats in 2026 and has opened registration for the Retraite Eclats, 12-15 November 2026, in an exceptional venue near Saint Jean de Maurienne. It is a French organiser that chooses its own venues and has a dated November retreat, a good match for France as a priority market. Venues so far are domestic and no price or group size is given. Medium risk; pilot pitch for a Greek winter edition."
+   },
+   "events": [
+    {
+     "title": "Retraite Eclats",
+     "eventType": "personal_development_retreat",
+     "startDate": "2026-11-12",
+     "endDate": "2026-11-15",
+     "nights": 3,
+     "location": "near Saint Jean de Maurienne",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DWRD9o1DEkO"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Maison de Sens",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "personal development retreats",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "mavenyoga",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/mavenyoga?hl=en"
+     ],
+     "note": "Studio teacher training run as a collaboration with SOL Yoga School, not a destination event."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/mavenyoga?hl=en"
+     ],
+     "note": "Sells a teacher training, not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/mavenyoga?hl=en"
+     ],
+     "note": "'Spring 2027 Teacher Training: February 26-May 2' starts in the winter window, but it is an in-studio training."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/mavenyoga?hl=en"
+     ],
+     "note": "Seasonal 'Spring 2027' training implies recurring cohorts."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Multi-week non-residential training; no residential stay."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/mavenyoga?hl=en"
+     ],
+     "note": "Local Seattle studio programme."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Studio running in-studio teacher trainings only"
+    ],
+    "missingInformation": [
+     "Whether the studio runs destination retreats"
+    ],
+    "summary": "Maven Yoga is a Seattle studio ('Feel like a better human.') promoting a Spring 2027 Teacher Training, February 26 - May 2, in collaboration with SOL Yoga School. It is an in-studio training rather than a destination retreat, so the studio does not book outside venues on this evidence. Exclude unless destination retreats appear."
+   },
+   "events": [
+    {
+     "title": "Spring 2027 Teacher Training (SOL Yoga School collab)",
+     "eventType": "teacher_training",
+     "startDate": "2027-02-26",
+     "endDate": "2027-05-02",
+     "nights": null,
+     "location": "Seattle",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/mavenyoga?hl=en"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Maven Yoga",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga studio",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "mjclesabrets",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat or venue-selection evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeLxF9zllvC"
+     ],
+     "note": "a youth and community centre running a 4-session workshop for people nearing retirement ('Bientot a la retraite')."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat group evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events in evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeLxF9zllvC"
+     ],
+     "note": "Off-topic for a hosted-retreat villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat commercial evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic account: matched on a keyword, not on retreat activity"
+    ],
+    "missingInformation": [],
+    "summary": "Mjc-evs Les Abrets: a youth and community centre running a 4-session workshop for people nearing retirement ('Bientot a la retraite'). Off-topic for Villa Lithos; no retreat organising, venue choice or winter group travel in evidence. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Mjc-evs Les Abrets",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "community centre",
+    "markets": [
+     "FR"
+    ]
+   }
+  }
+ ]
+}

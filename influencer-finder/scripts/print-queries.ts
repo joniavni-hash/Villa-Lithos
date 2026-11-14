@@ -1,0 +1,10 @@
+import { generateQueries, DEFAULT_RUN_PARAMETERS } from '../src/discovery/queryGenerator.ts';
+import { writeFileSync } from 'node:fs';
+const max = Number(process.argv[2] ?? DEFAULT_RUN_PARAMETERS.maxQueries);
+const qs = generateQueries({ ...DEFAULT_RUN_PARAMETERS, maxQueries: max });
+const byLane: Record<string, number> = {};
+for (const s of qs) byLane[s.lane] = (byLane[s.lane] ?? 0) + 1;
+console.error(`generated ${qs.length} queries`, byLane);
+const out = process.argv[3];
+if (out) writeFileSync(out, JSON.stringify(qs, null, 2));
+else console.log(JSON.stringify(qs, null, 2));

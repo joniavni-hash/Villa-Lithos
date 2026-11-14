@@ -1,6 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "crons": [
-    { "path": "/api/indexnow", "schedule": "0 5 * * 1" }
-  ]
+    {
+      "path": "/api/indexnow",
+      "schedule": "0 5 * * 1"
+    }
+  ],
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':!influencer-finder'"
 }
