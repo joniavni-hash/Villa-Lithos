@@ -3,25 +3,34 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { whatsappHref } from "@/app/lib/whatsapp";
 
 type Props = {
   title?: string;
   kicker?: string;
-  secondaryLabel?: string;
-  primaryHref?: string;
-  secondaryHref?: string;
+  /** Optional third action (October to March: the winter offsites page). */
+  tertiaryLabel?: string;
+  tertiaryHref?: string;
+  /** Direct booking (Guesty), the secondary action since 2026-11. */
+  bookingHref?: string;
   videoDesktop?: string;
   videoMobile?: string | undefined;
   posterDesktop?: string;
   posterMobile?: string | undefined;
 };
 
+// Primary action is WhatsApp since 2026-11 (owner's decision 25.10.2026): the
+// direct booking page has no way to ask a question, and no Guesty click from
+// the homepage had turned into an inquiry. Direct booking stays as the
+// secondary button.
+const WHATSAPP_HERO = whatsappHref("Hi, I'd like to ask about dates and availability at Villa Lithos.");
+
 export default function HeroCinematic({
   title = "Your private Gem above the Aegean",
   kicker,
-  secondaryLabel = "Explore the villa",
-  primaryHref = "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72",
-  secondaryHref = "/#gallery",
+  tertiaryLabel,
+  tertiaryHref,
+  bookingHref = "https://goldenberg-luxe.guestybookings.com/en/properties/69020736fb5e7a0014894f72",
   videoDesktop = "/videos/heroPC.mp4",
   videoMobile,
   posterDesktop = "/img/gallery/Exterior%20%26%20Pool%20(14).jpg",
@@ -92,12 +101,17 @@ export default function HeroCinematic({
         {kicker ? <p className="vl-hero__kicker">{kicker}</p> : null}
         <h1 className="vl-hero__title">{title}</h1>
         <div className="vl-hero__cta">
-          <a href={primaryHref} target="_blank" rel="noopener noreferrer" className="vl-btn vl-btn--light">
+          <a href={WHATSAPP_HERO} target="_blank" rel="noopener noreferrer" className="vl-btn vl-btn--light">
+            WhatsApp the team
+          </a>
+          <a href={bookingHref} target="_blank" rel="noopener noreferrer" className="vl-btn vl-btn--outline-light">
             Check availability
           </a>
-          <Link href={secondaryHref} className="vl-btn vl-btn--outline-light">
-            {secondaryLabel}
-          </Link>
+          {tertiaryHref && tertiaryLabel ? (
+            <Link href={tertiaryHref} className="vl-btn vl-btn--outline-light">
+              {tertiaryLabel}
+            </Link>
+          ) : null}
         </div>
         <p className="vl-hero__trust">
           <span className="vl-stars" aria-hidden="true">★★★★★</span>

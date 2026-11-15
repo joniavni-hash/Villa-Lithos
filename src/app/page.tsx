@@ -49,13 +49,14 @@ export default async function HomePage() {
       <FAQJsonLd />
       <Reveal />
 
-      {/* 1. Cinematic hero: video over poster, one headline, one primary action.
-          October to March: a winter kicker and the secondary action points to offsites. */}
+      {/* 1. Cinematic hero: video over poster, one headline. Primary action WhatsApp,
+          secondary direct booking (since 2026-11). October to March: a winter kicker
+          and a third action that points to offsites. */}
       <HeroCinematic
         title={page?.hero?.title && page.hero.title !== "Villa Lithos Greece" ? page.hero.title : "Your private Gem above the Aegean"}
         kicker={winter ? "October to March · Outdoor sauna, private gym and a fireplace lounge, 20 minutes from Athens airport" : undefined}
-        secondaryHref={winter ? "/corporate-retreats" : "/#gallery"}
-        secondaryLabel={winter ? "Plan a winter offsite" : "Explore the villa"}
+        tertiaryHref={winter ? "/corporate-retreats" : undefined}
+        tertiaryLabel={winter ? "Plan a winter offsite" : undefined}
       />
 
       {/* 1b. Winter band: live conditions and last winter's sun, October to March only */}

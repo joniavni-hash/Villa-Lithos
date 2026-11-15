@@ -47,7 +47,7 @@ export default function StickyActions() {
         <span>WhatsApp</span>
       </a>
       <div className={`vl-sticky ${on ? "is-in" : ""}`} aria-hidden={!on} data-lead-block="sticky-bar">
-        <a href={wa} target="_blank" rel="noopener noreferrer" className="vl-btn">WhatsApp</a>
+        <a href={wa} target="_blank" rel="noopener noreferrer" className="vl-btn">WhatsApp the team</a>
         <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer" className="vl-btn vl-btn--ghost">Check availability</a>
       </div>
     </>
