@@ -3,16 +3,19 @@ import Link from "next/link";
 import StayWithUs from "@/components/StayWithUs";
 import PageCta from "@/components/PageCta";
 
-const TITLE = "The Best Large Family Villas in Greece for Groups of 20";
-const DESC = "A practical comparison of large luxury villas in Greece that comfortably host 18 to 22 guests. Capacity, price band, location, and amenity highlights for multi-generational trips, milestone celebrations, and corporate retreats.";
+const TITLE = "Large Villas in Greece for Groups of up to 22: 9 Bedrooms near Athens | Villa Lithos";
+const H1 = "Large Villas in Greece for Groups: Up to 22 Guests, 9 Bedrooms, 20 Minutes from Athens Airport";
+const DESC = "Large villas in Greece for groups of up to 22 guests: a practical comparison of the 18-to-22 capacity tier by region, and Villa Lithos, a privately owned 9-bedroom estate 20 minutes from Athens airport, for families, celebrations and corporate offsites.";
 const URL = "https://www.villalithos.com/large-family-villa-greece";
 const PUBLISHED = "2026-05-11";
-const MODIFIED = "2026-10-14";
+const MODIFIED = "2026-11-12";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESC,
   keywords: [
+    "large villas greece",
+    "large villas in greece",
     "large family villa greece",
     "villa for 20 guests greece",
     "9 bedroom villa rental greece",
@@ -23,8 +26,8 @@ export const metadata: Metadata = {
     "large villa rental athens",
     "villa for big family greece",
   ],
-  openGraph: { type: "article", title: TITLE, description: DESC, url: URL },
-  twitter: { card: "summary_large_image", title: TITLE, description: DESC },
+  openGraph: { type: "article", title: H1, description: DESC, url: URL },
+  twitter: { card: "summary_large_image", title: H1, description: DESC },
   alternates: { canonical: URL },
 };
 
@@ -70,7 +73,7 @@ const faqJsonLd = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: TITLE,
+  headline: H1,
   description: DESC,
   datePublished: PUBLISHED,
   dateModified: MODIFIED,
@@ -113,11 +116,11 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
-      <h1 style={s.h1}>{TITLE}</h1>
-      <span style={s.meta}>Last updated: October 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
+      <h1 style={s.h1}>{H1}</h1>
+      <span style={s.meta}>Last updated: November 2026 · 10 minute read · Villa Lithos Porto Rafti</span>
 
       <p style={s.intro}>
-        According to data published by major luxury villa operators, large family villas accommodating 18 to 22 guests in a single party are uncommon in Greece. Most of the stock is concentrated on Mykonos and Santorini, with a smaller cluster on the Athens Riviera and an emerging set of properties in East Attica. This page is a practical map of the category, with capacity, location, and price-band detail for travellers planning a multi-generational trip, a milestone celebration, or a corporate retreat for 20.
+        Large villas in Greece that host 18 to 22 guests under one roof are uncommon. Most of the stock is concentrated on Mykonos and Santorini, with a smaller cluster on the Athens Riviera and an emerging set of properties in East Attica. This page is a practical map of the category for any group of that size, a multi-generational family, a group of friends, a milestone celebration or a corporate offsite, with capacity, location and price-band detail by region, and the facts about Villa Lithos, a privately owned nine-bedroom estate for up to 22 guests, 20 minutes from Athens airport.
       </p>
 
       <StayWithUs
@@ -258,7 +261,7 @@ export default function Page() {
         <PageCta path="/large-family-villa-greece" style={s.cta} />
       </div>
 
-      <p style={s.updated}>Last updated: 28 October 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>
+      <p style={s.updated}>Last updated: 12 November 2026. Sources: <a href="https://www.thethinkingtraveller.com/greece" target="_blank" rel="nofollow noopener">The Thinking Traveller Greece</a>, <a href="https://www.oliverstravels.com/greece/" target="_blank" rel="nofollow noopener">Oliver&apos;s Travels Greece</a>, <a href="https://www.welcomebeyond.com/rentals/villa-rentals/greece" target="_blank" rel="nofollow noopener">Welcome Beyond Greece</a>, <a href="https://www.architizer.com/" target="_blank" rel="nofollow noopener">Architizer</a>, public listings on Booking.com and Airbnb.</p>
 
       <Link href="/" style={s.back}>&larr; Back to Villa Lithos home</Link>
     </article>
