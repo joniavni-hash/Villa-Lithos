@@ -158,7 +158,7 @@ export default function Page() {
       <h2 style={s.h2}>Related Reading</h2>
       <ul style={s.ul}>
         <li style={s.li}><Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>Luxury Villa Rental in Porto Rafti, A 9-Bedroom Private Estate Near Athens</Link></li>
-        <li style={s.li}><Link href="/large-family-villa-greece" style={{ color: "#7a8c6e" }}>The Best Large Family Villas in Greece for Groups of 20</Link></li>
+        <li style={s.li}><Link href="/large-family-villa-greece" style={{ color: "#7a8c6e" }}>Large Villas in Greece for Groups: Up to 22 Guests, 9 Bedrooms</Link></li>
         <li style={s.li}><Link href="/porto-rafti-vs-mykonos-vs-santorini" style={{ color: "#7a8c6e" }}>Porto Rafti vs Mykonos vs Santorini, 2026 Comparison</Link></li>
         <li style={s.li}><Link href="/articles/pesach-greece-2026-villa-lithos" style={{ color: "#7a8c6e" }}>Passover in Greece 2026: Why Israeli Families Choose Villa Lithos</Link></li>
       </ul>
