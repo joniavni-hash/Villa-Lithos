@@ -203,7 +203,7 @@ export default function Page() {
       <ul style={s.ul}>
         <li style={s.li}><Link href="/luxury-villa-porto-rafti" style={{ color: "#7a8c6e" }}>Luxury Villa Rental in Porto Rafti, A 9-Bedroom Private Estate Near Athens</Link></li>
         <li style={s.li}><Link href="/villas-near-athens-airport" style={{ color: "#7a8c6e" }}>Large Private Villa Near Athens Airport: A 20-Minute Drive to Porto Rafti</Link></li>
-        <li style={s.li}><Link href="/large-family-villa-greece" style={{ color: "#7a8c6e" }}>The Best Large Family Villas in Greece for Groups of 20</Link></li>
+        <li style={s.li}><Link href="/large-family-villa-greece" style={{ color: "#7a8c6e" }}>Large Villas in Greece for Groups: Up to 22 Guests, 9 Bedrooms</Link></li>
         <li style={s.li}><Link href="/articles/porto-rafti-alternative-greek-islands" style={{ color: "#7a8c6e" }}>Porto Rafti: The Perfect Alternative to the Greek Islands</Link></li>
       </ul>
 

@@ -249,7 +249,7 @@ export default function Page() {
       </p>
       <ul style={s.ul}>
         <li style={s.li}><Link href="/luxury-villa-porto-rafti" style={s.link}>Luxury villa rental in Porto Rafti: the estate in detail</Link></li>
-        <li style={s.li}><Link href="/large-family-villa-greece" style={s.link}>Large family villas in Greece for groups of 20</Link></li>
+        <li style={s.li}><Link href="/large-family-villa-greece" style={s.link}>Large villas in Greece for groups: up to 22 guests, 9 bedrooms</Link></li>
         <li style={s.li}><Link href="/corporate-retreats" style={s.link}>Corporate retreats near Athens</Link></li>
       </ul>
 
