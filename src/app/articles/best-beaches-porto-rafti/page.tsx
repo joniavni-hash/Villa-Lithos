@@ -4,7 +4,7 @@ import StayWithUs from "@/components/StayWithUs";
 import PageCta from "@/components/PageCta";
 
 const TITLE = "The Best Beaches in Porto Rafti and Around: A 2026 Family Guide";
-const DESC = "A practical guide to the beaches of Porto Rafti and the East Attica coast, with sand vs pebble, wind exposure, family suitability, drive times from Villa Lithos, and Blue Flag status.";
+const DESC = "Porto Rafti beaches ranked for families: Avlaki 3 min, Vravrona 10, Schinias 30 and eight more. Sand or pebble, shelter, Blue Flag status, drive times.";
 const URL = "https://www.villalithos.com/articles/best-beaches-porto-rafti";
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-05-11";
