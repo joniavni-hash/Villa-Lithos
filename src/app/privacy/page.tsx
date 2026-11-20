@@ -88,7 +88,7 @@ export default function Page() {
 
       <h3 style={s.h3}>2.4 Usage statistics without cookies (PostHog)</h3>
       <p style={s.p}>
-        We use PostHog, an analytics service whose EU cloud stores its data in Frankfurt, Germany, to count visits and to see which pages, buttons and links are used. PostHog receives the pages you view, the clicks you make on the site, the site you arrived from, your device and browser type, and an approximate location (country and city) worked out from your IP address. The IP address itself is discarded and is not stored with the statistics.
+        We use PostHog, an analytics service whose EU cloud stores its data in Frankfurt, Germany, to count visits and to see which pages, buttons and links are used. PostHog receives the pages you view and how quickly they load, the clicks you make on the site, how far you scroll and where the pointer moves on a page, the site you arrived from, your device and browser type, and an approximate location (country and city) worked out from your IP address. The IP address itself is discarded and is not stored with the statistics.
       </p>
       <p style={s.p}>
         Unless you click &quot;Accept all&quot; in the cookie banner, PostHog runs without cookies and stores nothing on your device, so it cannot recognise you on a later visit. Legal basis: our legitimate interest in measuring and improving the website (Article 6(1)(f) GDPR). If you click &quot;Accept all&quot;, PostHog also sets first-party cookies and browser storage entries so that repeat visits are counted as one visitor. Legal basis: your consent (Article 6(1)(a) GDPR), which you can withdraw at any time through &quot;Cookie settings&quot; in the footer; the cookies and storage entries are then removed.
