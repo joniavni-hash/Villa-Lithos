@@ -96,7 +96,7 @@ export default function CookieConsent() {
     >
       <div style={{ fontFamily: "var(--font-serif), serif", fontSize: 18, marginBottom: 6 }}>Cookies on this site</div>
       <p style={{ margin: 0, color: "#3D4A5C" }}>
-        One essential cookie remembers your choice. Analytics and marketing cookies (Google Analytics, Meta Pixel) are set only if you accept them. Details in the{" "}
+        One essential cookie remembers your choice. Analytics and marketing cookies (Google Analytics, PostHog, Meta Pixel) are set only if you accept them. Details in the{" "}
         <Link href="/privacy#cookies" style={{ color: "#7a8c6e", textDecoration: "underline" }}>Privacy Notice</Link>.
       </p>
       <div style={{ display: "flex", flexWrap: "wrap", gap: 10, marginTop: 14 }}>

@@ -10,10 +10,10 @@ import Link from "next/link";
 const OPERATOR = "Goldenberg Luxe";
 const PRIVACY_EMAIL = "info@villalithosgreece.com";
 const RETENTION = "24 months";
-const EFFECTIVE_DATE = "22 September 2026";
+const EFFECTIVE_DATE = "20 November 2026";
 
 const TITLE = "Privacy Notice";
-const DESC = "How Villa Lithos Porto Rafti collects and uses personal data through this website: the inquiry form, analytics cookies (with your consent), embedded maps, and the booking platforms we work with. Your rights under the GDPR and how to exercise them.";
+const DESC = "How Villa Lithos Porto Rafti collects and uses personal data through this website: the inquiry form, cookieless usage statistics, analytics cookies (with your consent), embedded maps, and the booking platforms we work with. Your rights under the GDPR and how to exercise them.";
 const URL = "https://www.villalithos.com/privacy";
 
 export const metadata: Metadata = {
@@ -52,7 +52,7 @@ export default function Page() {
       <span style={s.meta}>Villa Lithos Porto Rafti · Effective {EFFECTIVE_DATE}</span>
 
       <p style={s.box}>
-        In short: this website collects personal data only when you send us an inquiry, and sets analytics and marketing cookies only if you accept them. We do not sell personal data. Bookings are made through booking platforms that have their own privacy terms. You can contact us at any time at <a href={`mailto:${PRIVACY_EMAIL}`} style={s.link}>{PRIVACY_EMAIL}</a>.
+        In short: this website collects personal data only when you send us an inquiry, keeps usage statistics that work without cookies and do not identify you, and sets analytics and marketing cookies only if you accept them. We do not sell personal data. Bookings are made through booking platforms that have their own privacy terms. You can contact us at any time at <a href={`mailto:${PRIVACY_EMAIL}`} style={s.link}>{PRIVACY_EMAIL}</a>.
       </p>
 
       <h2 style={s.h2}>1. Who is responsible</h2>
@@ -86,12 +86,20 @@ export default function Page() {
         With your consent we use Google Analytics 4 to understand how visitors use the site (pages viewed, approximate location derived from a truncated IP address, device and browser type, how you arrived), the Meta Pixel to measure whether visitors who saw our Instagram or Facebook content later visited the site, and Google Ads measurement tags. All of these are loaded through Google Tag Manager, which we start only after you click &quot;Accept all&quot; in the cookie banner. If you choose &quot;Essential only&quot;, Google Tag Manager and the Meta Pixel are not loaded at all, and Google&apos;s measurement runs without cookies or identifiers. Legal basis: your consent (Article 6(1)(a) GDPR and Article 5(3) of the ePrivacy Directive as implemented in Greece by Law 3471/2006). You can withdraw consent at any time through &quot;Cookie settings&quot; in the footer.
       </p>
 
-      <h3 style={s.h3}>2.4 Embedded Google Maps</h3>
+      <h3 style={s.h3}>2.4 Usage statistics without cookies (PostHog)</h3>
+      <p style={s.p}>
+        We use PostHog, an analytics service whose EU cloud stores its data in Frankfurt, Germany, to count visits and to see which pages, buttons and links are used. PostHog receives the pages you view, the clicks you make on the site, the site you arrived from, your device and browser type, and an approximate location (country and city) worked out from your IP address. The IP address itself is discarded and is not stored with the statistics.
+      </p>
+      <p style={s.p}>
+        Unless you click &quot;Accept all&quot; in the cookie banner, PostHog runs without cookies and stores nothing on your device, so it cannot recognise you on a later visit. Legal basis: our legitimate interest in measuring and improving the website (Article 6(1)(f) GDPR). If you click &quot;Accept all&quot;, PostHog also sets first-party cookies and browser storage entries so that repeat visits are counted as one visitor. Legal basis: your consent (Article 6(1)(a) GDPR), which you can withdraw at any time through &quot;Cookie settings&quot; in the footer; the cookies and storage entries are then removed.
+      </p>
+
+      <h3 style={s.h3}>2.5 Embedded Google Maps</h3>
       <p style={s.p}>
         The location section embeds a map from Google Maps. When the map loads, your browser connects to Google, which may set its own cookies and receives your IP address. Google&apos;s use of this data is described in the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style={s.link}>Google Privacy Policy</a>.
       </p>
 
-      <h3 style={s.h3}>2.5 Technical data and security</h3>
+      <h3 style={s.h3}>2.6 Technical data and security</h3>
       <p style={s.p}>
         Our hosting provider records standard server logs (IP address, time, requested page, browser) to run the site securely and to prevent abuse. Legal basis: our legitimate interest in keeping the site available and secure (Article 6(1)(f) GDPR). Logs are kept for a short period by the hosting provider and are not used to profile visitors.
       </p>
@@ -101,6 +109,7 @@ export default function Page() {
         <li style={s.li}><strong>Our email service provider</strong>: delivery of inquiry form messages to our mailbox.</li>
         <li style={s.li}><strong>Vercel Inc.</strong> (hosting, USA): serves the website and keeps server logs.</li>
         <li style={s.li}><strong>Google</strong> (Google Ireland Ltd and Google LLC, USA): analytics with your consent, embedded maps.</li>
+        <li style={s.li}><strong>PostHog Inc.</strong> (usage statistics, data stored in the EU): without cookies by default, with a cookie only with your consent.</li>
         <li style={s.li}><strong>Meta Platforms Ireland Ltd</strong>: Meta Pixel measurement, only with your consent.</li>
         <li style={s.li}><strong>Booking platforms</strong> (Guesty, Booking.com, Airbnb): only if you book through them, under their own terms.</li>
         <li style={s.li}><strong>Public authorities</strong> where Greek law requires it (for example guest registration and tax reporting).</li>
@@ -134,6 +143,7 @@ export default function Page() {
           <tr><td style={s.td}>vl_consent</td><td style={s.td}>This site</td><td style={s.td}>Remembers your cookie choice so the banner does not reappear</td><td style={s.td}>12 months</td><td style={s.td}>Essential</td></tr>
           <tr><td style={s.td}>_ga</td><td style={s.td}>Google Analytics</td><td style={s.td}>Distinguishes visitors</td><td style={s.td}>2 years</td><td style={s.td}>Analytics (consent)</td></tr>
           <tr><td style={s.td}>_ga_*</td><td style={s.td}>Google Analytics</td><td style={s.td}>Keeps session state (one cookie per GA4 property)</td><td style={s.td}>2 years</td><td style={s.td}>Analytics (consent)</td></tr>
+          <tr><td style={s.td}>ph_*</td><td style={s.td}>PostHog</td><td style={s.td}>Distinguish visitors and keep session state (the same data is kept in local and session storage)</td><td style={s.td}>12 months</td><td style={s.td}>Analytics (consent)</td></tr>
           <tr><td style={s.td}>_fbp</td><td style={s.td}>Meta Pixel</td><td style={s.td}>Distinguishes visitors for Meta ad measurement</td><td style={s.td}>3 months</td><td style={s.td}>Marketing (consent)</td></tr>
           <tr><td style={s.td}>_gcl_au</td><td style={s.td}>Google Ads</td><td style={s.td}>Conversion linker used by Google Ads measurement</td><td style={s.td}>3 months</td><td style={s.td}>Marketing (consent)</td></tr>
           <tr><td style={s.td}>test_cookie</td><td style={s.td}>Google (doubleclick.net)</td><td style={s.td}>Checks whether the browser accepts cookies</td><td style={s.td}>15 minutes</td><td style={s.td}>Marketing (consent)</td></tr>
