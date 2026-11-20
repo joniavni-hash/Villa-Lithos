@@ -9,7 +9,8 @@ import { usePathname } from "next/navigation";
 // channel and the page it came from. Works for links added later without any
 // per-component code. gtag honours Google Consent Mode (set in the root layout):
 // without consent GA4 receives a cookieless ping only. GTM, when loaded after
-// consent, also gets a `lead_click` dataLayer event.
+// consent, also gets a `lead_click` dataLayer event. PostHog gets a `lead_click` event
+// with the same properties.
 
 type Gtag = (...args: unknown[]) => void;
 
@@ -90,6 +91,13 @@ export default function LeadTracker() {
       const w = window as unknown as { gtag?: Gtag; dataLayer?: unknown[] };
       if (typeof w.gtag === "function") w.gtag("event", "generate_lead", params);
       if (Array.isArray(w.dataLayer)) w.dataLayer.push({ event: "lead_click", ...params });
+      // PostHog (loaded by <PosthogLoader />) gets the same event, sent at once because the click usually leaves the page.
+      try {
+        const ph = (window as unknown as { posthog?: { __loaded?: boolean; capture?: (event: string, props?: Record<string, unknown>, options?: Record<string, unknown>) => void } }).posthog;
+        if (ph?.__loaded && typeof ph.capture === "function") ph.capture("lead_click", params, { send_instantly: true });
+      } catch {
+        // ignore
+      }
       // First-party counter (/api/lead): counts every visitor, with or without cookie consent.
       // One row per visitor per channel in a 10-minute window, so repeated clicks on
       // the same booking or WhatsApp button count as one inquiry. GA4 and GTM above
