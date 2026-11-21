@@ -1,0 +1,537 @@
+[
+ {
+  "id": "29c984d9",
+  "query": "\"אופסייט חברה בחו\"ל\" \"הרשמה נפתחה\" 2026 OR 2027",
+  "language": "he",
+  "eventType": "corporate_offsite",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "04c0ebe7",
+  "query": "\"yoga teacher training\" November 2026 registration",
+  "language": "en",
+  "eventType": "teacher_training",
+  "lane": "winter_destination",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 1
+ },
+ {
+  "id": "4681d123",
+  "query": "\"mastermind retreat\" Tenerife January OR February OR March OR November OR December 2026 OR 2027 host",
+  "language": "en",
+  "eventType": "executive_mastermind",
+  "lane": "competitor_venue",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "9979ba6f",
+  "query": "\"two week retreat\" UK 2026 OR 2027 abroad OR Greece OR Spain OR Portugal OR Cyprus",
+  "language": "en",
+  "market": "GB",
+  "eventType": "long_stay_program",
+  "lane": "market_language",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "5d806b63",
+  "query": "fitness retreat November 2026 Europe OR Canary OR Morocco OR Cyprus OR Greece price per person instagram",
+  "language": "en",
+  "eventType": "fitness_retreat",
+  "lane": "listing_site",
+  "includeDomains": [
+   "bookretreats.com",
+   "retreat.guru",
+   "bookyogaretreats.com",
+   "tripaneer.com",
+   "retreatsandvenues.com",
+   "eventbrite.com",
+   "eventbrite.co.uk",
+   "eventbrite.de",
+   "eventbrite.fr",
+   "eventbrite.nl"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ {
+  "id": "e0caff4f",
+  "query": "retreat business coach",
+  "language": "en",
+  "lane": "niche_b2b",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ {
+  "id": "a47b4528",
+  "query": "\"Team Offsite\" \"Anmeldung offen\" 2026 OR 2027",
+  "language": "de",
+  "eventType": "corporate_offsite",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "0138b30e",
+  "query": "\"corporate offsite\" November 2026 registration",
+  "language": "en",
+  "eventType": "corporate_offsite",
+  "lane": "winter_destination",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 1
+ },
+ {
+  "id": "6e087930",
+  "query": "\"leadership retreat\" Tenerife January OR February OR March OR November OR December 2026 OR 2027 host",
+  "language": "en",
+  "eventType": "leadership_retreat",
+  "lane": "competitor_venue",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "73685d59",
+  "query": "\"workshop retreat\" Sverige 2026 OR 2027 abroad OR Greece OR Spain OR Portugal OR Cyprus",
+  "language": "en",
+  "market": "SE",
+  "eventType": "workshop",
+  "lane": "market_language",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "c7fdf5c6",
+  "query": "leadership retreat November 2026 Europe OR Canary OR Morocco OR Cyprus OR Greece price per person instagram",
+  "language": "en",
+  "eventType": "leadership_retreat",
+  "lane": "listing_site",
+  "includeDomains": [
+   "bookretreats.com",
+   "retreat.guru",
+   "bookyogaretreats.com",
+   "tripaneer.com",
+   "retreatsandvenues.com",
+   "eventbrite.com",
+   "eventbrite.co.uk",
+   "eventbrite.de",
+   "eventbrite.fr",
+   "eventbrite.nl"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ {
+  "id": "e2dbd422",
+  "query": "how to host a retreat course",
+  "language": "en",
+  "lane": "niche_b2b",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ {
+  "id": "5127d8be",
+  "query": "\"women's retreat\" \"join my retreat\" 2026 OR 2027",
+  "language": "en",
+  "eventType": "womens_retreat",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 1
+ },
+ {
+  "id": "3795d069",
+  "query": "\"leadership retreat\" November 2026 registration",
+  "language": "en",
+  "eventType": "leadership_retreat",
+  "lane": "winter_destination",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 1
+ },
+ {
+  "id": "f60422ab",
+  "query": "\"women's retreat\" Tenerife January OR February OR March OR November OR December 2026 OR 2027 host",
+  "language": "en",
+  "eventType": "womens_retreat",
+  "lane": "competitor_venue",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "f7c53ae4",
+  "query": "\"yoga retreat\" France 2026 OR 2027 abroad OR Greece OR Spain OR Portugal OR Cyprus",
+  "language": "en",
+  "market": "FR",
+  "eventType": "yoga_retreat",
+  "lane": "market_language",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "3810e806",
+  "query": "wellness retreat November 2026 Europe OR Canary OR Morocco OR Cyprus OR Greece price per person instagram",
+  "language": "en",
+  "eventType": "wellness_retreat",
+  "lane": "listing_site",
+  "includeDomains": [
+   "bookretreats.com",
+   "retreat.guru",
+   "bookyogaretreats.com",
+   "tripaneer.com",
+   "retreatsandvenues.com",
+   "eventbrite.com",
+   "eventbrite.co.uk",
+   "eventbrite.de",
+   "eventbrite.fr",
+   "eventbrite.nl"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ {
+  "id": "993fa4d0",
+  "query": "retreat planning coach instagram",
+  "language": "en",
+  "lane": "niche_b2b",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ {
+  "id": "a9e7751e",
+  "query": "\"Padel Camp\" \"Anmeldung offen\" 2026 OR 2027",
+  "language": "de",
+  "eventType": "padel_retreat",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "eecdf869",
+  "query": "\"wellness retreat\" November 2026 registration",
+  "language": "en",
+  "eventType": "wellness_retreat",
+  "lane": "winter_destination",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 1
+ },
+ {
+  "id": "52cb5b42",
+  "query": "\"yoga teacher training\" Tenerife January OR February OR March OR November OR December 2026 OR 2027 host",
+  "language": "en",
+  "eventType": "teacher_training",
+  "lane": "competitor_venue",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "7ded82ed",
+  "query": "\"leadership retreat\" France 2026 OR 2027 abroad OR Greece OR Spain OR Portugal OR Cyprus",
+  "language": "en",
+  "market": "FR",
+  "eventType": "leadership_retreat",
+  "lane": "market_language",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "ff3a99d7",
+  "query": "mastermind retreat November 2026 Europe OR Canary OR Morocco OR Cyprus OR Greece price per person instagram",
+  "language": "en",
+  "eventType": "executive_mastermind",
+  "lane": "listing_site",
+  "includeDomains": [
+   "bookretreats.com",
+   "retreat.guru",
+   "bookyogaretreats.com",
+   "tripaneer.com",
+   "retreatsandvenues.com",
+   "eventbrite.com",
+   "eventbrite.co.uk",
+   "eventbrite.de",
+   "eventbrite.fr",
+   "eventbrite.nl"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ {
+  "id": "932129d4",
+  "query": "retreat leaders community",
+  "language": "en",
+  "lane": "niche_b2b",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ {
+  "id": "d03b6075",
+  "query": "\"stage de padel\" \"inscriptions ouvertes\" 2026 OR 2027",
+  "language": "fr",
+  "eventType": "padel_retreat",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "cedf53e0",
+  "query": "\"padel retreat\" November 2026 registration",
+  "language": "en",
+  "eventType": "padel_retreat",
+  "lane": "winter_destination",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 1
+ },
+ {
+  "id": "1146eb97",
+  "query": "\"fitness retreat\" Tenerife January OR February OR March OR November OR December 2026 OR 2027 host",
+  "language": "en",
+  "eventType": "fitness_retreat",
+  "lane": "competitor_venue",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "1334f21f",
+  "query": "\"ריטריט בריאות\" Israel 2026 OR 2027 abroad OR Greece OR Spain OR Portugal OR Cyprus",
+  "language": "he",
+  "market": "IL",
+  "eventType": "wellness_retreat",
+  "lane": "market_language",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "f2ede6e7",
+  "query": "women's retreat November 2026 Europe OR Canary OR Morocco OR Cyprus OR Greece price per person instagram",
+  "language": "en",
+  "eventType": "womens_retreat",
+  "lane": "listing_site",
+  "includeDomains": [
+   "bookretreats.com",
+   "retreat.guru",
+   "bookyogaretreats.com",
+   "tripaneer.com",
+   "retreatsandvenues.com",
+   "eventbrite.com",
+   "eventbrite.co.uk",
+   "eventbrite.de",
+   "eventbrite.fr",
+   "eventbrite.nl"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ {
+  "id": "060ac6d9",
+  "query": "for yoga teachers who want to host retreats",
+  "language": "en",
+  "lane": "niche_b2b",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ {
+  "id": "dcdad8ba",
+  "query": "\"padel retreat\" \"join my retreat\" 2026 OR 2027",
+  "language": "en",
+  "eventType": "padel_retreat",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 1
+ },
+ {
+  "id": "23665aa7",
+  "query": "\"workshop retreat\" November 2026 registration",
+  "language": "en",
+  "eventType": "workshop",
+  "lane": "winter_destination",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 1
+ },
+ {
+  "id": "e257a573",
+  "query": "\"padel retreat\" Tenerife January OR February OR March OR November OR December 2026 OR 2027 host",
+  "language": "en",
+  "eventType": "padel_retreat",
+  "lane": "competitor_venue",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "b7614ed5",
+  "query": "\"wellness retreat\" France 2026 OR 2027 abroad OR Greece OR Spain OR Portugal OR Cyprus",
+  "language": "en",
+  "market": "FR",
+  "eventType": "wellness_retreat",
+  "lane": "market_language",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "ecf17ae7",
+  "query": "padel retreat November 2026 Europe OR Canary OR Morocco OR Cyprus OR Greece price per person instagram",
+  "language": "en",
+  "eventType": "padel_retreat",
+  "lane": "listing_site",
+  "includeDomains": [
+   "bookretreats.com",
+   "retreat.guru",
+   "bookyogaretreats.com",
+   "tripaneer.com",
+   "retreatsandvenues.com",
+   "eventbrite.com",
+   "eventbrite.co.uk",
+   "eventbrite.de",
+   "eventbrite.fr",
+   "eventbrite.nl"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ {
+  "id": "063eba74",
+  "query": "venue sourcing for retreats",
+  "language": "en",
+  "lane": "niche_b2b",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ {
+  "id": "0d821ecd",
+  "query": "\"yoga teacher training\" \"join my retreat\" 2026 OR 2027",
+  "language": "en",
+  "eventType": "teacher_training",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 1
+ },
+ {
+  "id": "566ef196",
+  "query": "\"yoga retreat\" November 2026 registration",
+  "language": "en",
+  "eventType": "yoga_retreat",
+  "lane": "winter_destination",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 1
+ },
+ {
+  "id": "9ca81900",
+  "query": "\"wellness retreat\" Tenerife January OR February OR March OR November OR December 2026 OR 2027 host",
+  "language": "en",
+  "eventType": "wellness_retreat",
+  "lane": "competitor_venue",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ {
+  "id": "3ff0d509",
+  "query": "\"séminaire entreprise villa\" France 2026 OR 2027 abroad OR Greece OR Spain OR Portugal OR Cyprus",
+  "language": "fr",
+  "market": "FR",
+  "eventType": "corporate_offsite",
+  "lane": "market_language",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ }
+]

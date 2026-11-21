@@ -1,0 +1,1292 @@
+{
+ "batch": 24,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "floyotravels",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DecFjevs1Hk"
+     ],
+     "note": "Plans its own group-travel wellness retreats abroad ('you'll need your mat and your passport')."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DecFjevs1Hk"
+     ],
+     "note": "'Getting VERY close to opening registration', 'Join the VIP waitlist'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DecFjevs1Hk"
+     ],
+     "note": "Explicitly markets a new wellness retreat collab 'coming this January'; year not stated."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DecFjevs1Hk"
+     ],
+     "note": "Brands itself 'Luxury Wellness Retreats'; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DecFjevs1Hk"
+     ],
+     "note": "'A new FloYo wellness retreat' implies earlier ones."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DecFjevs1Hk"
+     ],
+     "note": "Luxury yoga and Pilates group travel abroad; matches a private luxury estate."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "January destination not revealed; it may already be booked elsewhere"
+    ],
+    "missingInformation": [
+     "Destination and venue of the January retreat",
+     "Price, group size and follower count",
+     "Home market"
+    ],
+    "summary": "FloYoTravels positions itself as 'Luxury Wellness Retreats' and is about to open registration for a new yoga and Pilates retreat collab abroad 'this January', with a VIP waitlist. Luxury group travel in winter is the right profile, and the brand plans trips where a passport is needed. The destination, size and price are not shown, so the January trip may already be placed elsewhere. Medium risk; pitch a pilot for the next winter or spring trip."
+   },
+   "events": [
+    {
+     "title": "FloYo wellness retreat collab (January)",
+     "eventType": "wellness_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "abroad (destination not revealed)",
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DecFjevs1Hk"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "FloYoTravels | Luxury Wellness Retreats",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "luxury yoga and Pilates group travel",
+    "markets": []
+   }
+  },
+  {
+   "handle": "gracefulbalancecollective",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeaTbtly30x"
+     ],
+     "note": "Runs its own calendar of retreats (one-day, coastal, women's retreat); venues not named."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeaTbtly30x"
+     ],
+     "note": "'2027 RETREAT REGISTRATION IS OFFICIALLY OPEN', membership with early registration."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeaTbtly30x"
+     ],
+     "note": "January 2027 one-day retreat and March 2027 women's wellness conference, both non-residential."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "$97 is an annual membership fee, not a retreat price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeaTbtly30x"
+     ],
+     "note": "Four events across 2027 plus a paid membership."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeaTbtly30x"
+     ],
+     "note": "Faith-based women's community with a domestic events calendar; no travel abroad indicated."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeaTbtly30x"
+     ],
+     "note": "Paid annual membership ($97) with retreat benefits."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Domestic, faith-based events; winter events are one-day or conference formats"
+    ],
+    "missingInformation": [
+     "Locations of the 2027 events",
+     "Home country",
+     "Price and group size of residential retreats"
+    ],
+    "summary": "Graceful Balance Collective is a Christian women's community that has opened 2027 registration for four events: a one-day ALIGN retreat in January, a women's wellness conference in March, a coastal retreat in May and the BECOMING retreat in September/October, plus a $97 membership. It organises and sells its own calendar, but the winter events are non-residential and nothing points to travel abroad. High risk; scouting at most."
+   },
+   "events": [
+    {
+     "title": "ALIGN One-Day Retreat",
+     "eventType": "womens_retreat",
+     "startDate": "2027-01",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeaTbtly30x"
+     ]
+    },
+    {
+     "title": "Women's Wellness Conference: I've Seen His Goodness",
+     "eventType": "workshop",
+     "startDate": "2027-03",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeaTbtly30x"
+     ]
+    },
+    {
+     "title": "He Called Me to Fish Coastal Retreat",
+     "eventType": "womens_retreat",
+     "startDate": "2027-05",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeaTbtly30x"
+     ]
+    },
+    {
+     "title": "BECOMING Women's Retreat",
+     "eventType": "womens_retreat",
+     "startDate": "2027-09",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeaTbtly30x"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Graceful Balance Collective",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "faith-based women's retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "hellobeesties",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkrMVTD6PL"
+     ],
+     "note": "Chose Greek Peak as the venue for its own Authorpreneur Retreat."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkrMVTD6PL"
+     ],
+     "note": "'Our first annual Authorpreneur Retreat is open for registration', early-bird price."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkrMVTD6PL"
+     ],
+     "note": "Retreat dated 21-23 August 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkrMVTD6PL"
+     ],
+     "note": "'First annual' edition."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkrMVTD6PL"
+     ],
+     "note": "3-day workshop."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkrMVTD6PL"
+     ],
+     "note": "Domestic US author business workshop at a ski resort."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "First edition, domestic US, summer dates",
+     "Publishing company rather than a retreat host"
+    ],
+    "missingInformation": [
+     "Group size and price",
+     "Interest in international editions"
+    ],
+    "summary": "Wildebeest Publishing (hellobeesties) launched its first annual Authorpreneur Retreat, a 3-day immersive workshop at Greek Peak on 21-23 August 2026. It organises and sells the event, but it is a first-edition, domestic US summer workshop with no sign of travel abroad. High risk; scouting only."
+   },
+   "events": [
+    {
+     "title": "Authorpreneur Retreat 2026",
+     "eventType": "workshop",
+     "startDate": "2026-08-21",
+     "endDate": "2026-08-23",
+     "nights": 2,
+     "location": "Greek Peak",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSkrMVTD6PL"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Wildebeest Publishing Company",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "publishing company running author workshops",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "hillelwinnipeg",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeJ_g4VskF2"
+     ],
+     "note": "Organises the Shabbat UnPlugged Leadership Retreat for students."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeJ_g4VskF2"
+     ],
+     "note": "10th Shabbat UnPlugged Leadership Retreat on 8-10 January 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeJ_g4VskF2"
+     ],
+     "note": "10th edition."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeJ_g4VskF2"
+     ],
+     "note": "Weekend format."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeJ_g4VskF2"
+     ],
+     "note": "Local Canadian student organisation's weekend retreat."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Student organisation; local weekend retreat in Canada"
+    ],
+    "missingInformation": [],
+    "summary": "Hillel Winnipeg runs its 10th Shabbat UnPlugged Leadership Retreat on 8-10 January 2027. It is a recurring winter retreat, but for local university students over a weekend, with no international or commercial angle. Exclude."
+   },
+   "events": [
+    {
+     "title": "10th Shabbat UnPlugged Leadership Retreat",
+     "eventType": "leadership_retreat",
+     "startDate": "2027-01-08",
+     "endDate": "2027-01-10",
+     "nights": 2,
+     "location": null,
+     "country": "CA",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeJ_g4VskF2"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Hillel Winnipeg",
+    "country": "CA",
+    "languages": [
+     "en"
+    ],
+    "niche": "Jewish student organisation",
+    "markets": [
+     "OTHER"
+    ]
+   }
+  },
+  {
+   "handle": "itskimberlykennedy",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Co-hosted with @reginaosilva under @coherenceretreats; venue role unknown."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYpdS7Ix12V"
+     ],
+     "note": "'Hosting a retreat with @reginaosilva in portugal'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Undated throwback."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYpdS7Ix12V"
+     ],
+     "note": "Has co-hosted at least one retreat in Portugal."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Thin pack: one undated throwback reel",
+     "The retreat brand may be @coherenceretreats rather than her"
+    ],
+    "missingInformation": [
+     "Upcoming retreats with dates",
+     "Her role versus Coherence Retreats",
+     "Follower count and market"
+    ],
+    "summary": "Kimberly Kennedy shares a throwback from co-hosting a retreat in Portugal with @reginaosilva under the @coherenceretreats brand. That proves she has hosted, but the evidence is one undated reel with no upcoming events, prices or sizes. Unknown risk; the organiser brand @coherenceretreats may be the better lead."
+   },
+   "events": [
+    {
+     "title": "Retreat in Portugal with @reginaosilva (throwback)",
+     "eventType": null,
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Portugal",
+     "country": "PT",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYpdS7Ix12V"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Kimberly Kennedy",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "retreat co-host",
+    "markets": []
+   }
+  },
+  {
+   "handle": "jccassociation",
+   "classification": {
+    "group": "C_high_value_host",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DePqOn8jmQc"
+     ],
+     "note": "Organises Mifgash and picks the host city (San Diego)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DePqOn8jmQc"
+     ],
+     "note": "'Registration opens soon' for its own executive conference."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DePqOn8jmQc"
+     ],
+     "note": "Mifgash on 19-21 January 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Conference scale not stated."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DePqOn8jmQc"
+     ],
+     "note": "Mifgash 'returns'."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DePqOn8jmQc"
+     ],
+     "note": "3-day conference."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DePqOn8jmQc"
+     ],
+     "note": "North American executive conference; conference format likely exceeds a 9-bedroom villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Conference format, likely too large for the villa",
+     "North American network"
+    ],
+    "missingInformation": [
+     "Attendance size",
+     "Smaller executive or board offsites that could travel abroad"
+    ],
+    "summary": "JCC Association runs Mifgash, its executive leadership conference, returning on 19-21 January 2027 in San Diego. It is a recurring winter event by a professional network (Group C by type), but a North American conference that is probably far larger than the villa. High risk; scouting only, perhaps for small executive offsites or Israel-linked trips."
+   },
+   "events": [
+    {
+     "title": "Mifgash executive leadership conference",
+     "eventType": "leadership_retreat",
+     "startDate": "2027-01-19",
+     "endDate": "2027-01-21",
+     "nights": 2,
+     "location": "San Diego",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DePqOn8jmQc"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "JCC Association",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "Jewish community centre network, executive conferences",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "jenmurphyyoga",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeCWopbjJWz"
+     ],
+     "note": "Co-leads a destination retreat in Playa Grande, Costa Rica with @kimspearyoga."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeCWopbjJWz"
+     ],
+     "note": "'Registration closes on 10/15', 'Click on BIO for cost and details'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeCWopbjJWz"
+     ],
+     "note": "Living Practice Yoga Retreat 23-30 January 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Cost is behind the bio link."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeCWopbjJWz"
+     ],
+     "note": "7-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeCWopbjJWz"
+     ],
+     "note": "Winter-escape yoga retreat for a cold-climate audience ('temps in the freezing zone come January')."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Co-hosted; audience appears North American (winter-escape framing)"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Home market",
+     "Past retreat history"
+    ],
+    "summary": "Jen Murphy co-leads the Living Practice Yoga Retreat in Playa Grande, Costa Rica on 23-30 January 2027 with @kimspearyoga, sold through her bio link. It is a week-long winter-sun retreat for a cold-climate audience, which matches the season, though the audience looks North American and the event is co-hosted. Medium risk; a pilot pitch for a Greek winter-sun week is reasonable."
+   },
+   "events": [
+    {
+     "title": "Living Practice Yoga Retreat",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-01-23",
+     "endDate": "2027-01-30",
+     "nights": 7,
+     "location": "Playa Grande",
+     "country": "CR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeCWopbjJWz"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Jen Murphy",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher and retreat co-leader",
+    "markets": []
+   }
+  },
+  {
+   "handle": "justrelaxing.k_l",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdqKXoNi9w"
+     ],
+     "note": "'Our upcoming Soul Ascension Mastermind Retreat', capping a seven-month programme."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdqKXoNi9w"
+     ],
+     "note": "Retreat 'this weekend' in a post of 31 July 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdqKXoNi9w"
+     ],
+     "note": "Weekend format."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdqKXoNi9w"
+     ],
+     "note": "Seven-month mastermind programme culminating in a retreat implies paying members."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Thin pack: one reel, no location, size or price"
+    ],
+    "missingInformation": [
+     "Location and format of the retreat",
+     "Home market",
+     "Follower count"
+    ],
+    "summary": "Justrelaxing runs a seven-month Soul Ascension Mastermind programme that ends in a retreat weekend (post of 31 July 2026). It shows a paid group programme with a retreat element, but there is no location, size, price or winter date. Unknown risk; scouting at most."
+   },
+   "events": [
+    {
+     "title": "Soul Ascension Mastermind Retreat",
+     "eventType": "personal_development_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdqKXoNi9w"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Justrelaxing",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "spiritual mastermind programme",
+    "markets": []
+   }
+  },
+  {
+   "handle": "kalyanagiliair",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/kalyanagiliair?hl=en"
+     ],
+     "note": "It is a venue: '5 handcrafted villas' on Gili Air."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/kalyanagiliair?hl=en"
+     ],
+     "note": "Sells villa stays."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/kalyanagiliair?hl=en"
+     ],
+     "note": "Competing villa and retreat venue."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account, a competitor rather than a client"
+    ],
+    "missingInformation": [],
+    "summary": "Kalyana is a 5-villa retreat property on Gili Air, Indonesia. It is a venue, not a host. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "KALYANA | Villa & Retreat",
+    "country": "ID",
+    "languages": [
+     "en"
+    ],
+    "niche": "villa and retreat venue",
+    "markets": []
+   }
+  },
+  {
+   "handle": "lascanterasbeachsuites",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/lascanterasbeachsuites"
+     ],
+     "note": "Holiday-home venue: '7 luxurious suites' in Gran Canaria."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/lascanterasbeachsuites"
+     ],
+     "note": "Sells holiday accommodation."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/lascanterasbeachsuites"
+     ],
+     "note": "Competing holiday accommodation."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account, a competitor rather than a client"
+    ],
+    "missingInformation": [],
+    "summary": "Las Canteras Beach Suites is a 7-suite holiday rental in Las Palmas de Gran Canaria. It is a venue, not a host. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Las Canteras Beach Suites | Gran Canaria",
+    "country": "ES",
+    "languages": [
+     "en"
+    ],
+    "niche": "holiday rental suites (venue)",
+    "markets": []
+   }
+  },
+  {
+   "handle": "lizhuntlyjensch",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/lizhuntlyjensch/p/DcCEs1FPOA0"
+     ],
+     "note": "Chose @peaceretreat in Los Pargos for 'our Costa Rica retreat'."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/lizhuntlyjensch/p/DcCEs1FPOA0"
+     ],
+     "note": "'Registration for our Costa Rica retreat is open!', early-bird pricing, registration on her site."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/lizhuntlyjensch/p/DcCEs1FPOA0"
+     ],
+     "note": "Costa Rica retreat on 10-16 January 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Early-bird pricing mentioned, no amount."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/lizhuntlyjensch/p/DcCEs1FPOA0"
+     ],
+     "note": "6-night 'week of revitalization + rest'."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/lizhuntlyjensch/p/DcCEs1FPOA0"
+     ],
+     "note": "Rest-and-revitalisation yoga week at a boutique retreat property in winter."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Venue sits near a surf beach; surf may be part of the appeal"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Home market (Surf Shack Yoga)",
+     "Past retreat history"
+    ],
+    "summary": "Liz Huntly/Jensch (Surf Shack Yoga) is selling 'our Costa Rica retreat' on 10-16 January 2027 at @peaceretreat in Los Pargos: a week of rest and revitalisation near a surf beach, with early-bird pricing. She picks the venue and sells directly, and the event sits squarely in the winter window. No price or group size shown. Medium risk; pilot retreat pitch for a winter Greek edition."
+   },
+   "events": [
+    {
+     "title": "Costa Rica retreat",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-01-10",
+     "endDate": "2027-01-16",
+     "nights": 6,
+     "location": "@peaceretreat, Los Pargos",
+     "country": "CR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/lizhuntlyjensch/p/DcCEs1FPOA0"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Liz Huntly/Jensch",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher running destination retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "lodgeparkmegeve",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZ7zA7rDpxq"
+     ],
+     "note": "Lodge Park is the venue hosting The Recode Retreat ('join us at @lodgeparkmegeve')."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZ7zA7rDpxq"
+     ],
+     "note": "Hosts a retreat run with an external longevity team; the venue is not the organiser."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZ7zA7rDpxq"
+     ],
+     "note": "Retreat dated 20-24 July 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZ7zA7rDpxq"
+     ],
+     "note": "Luxury Alpine hotel, a competing venue."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account, a competitor rather than a client",
+     "Excerpt tags @lodgeparkmegeve as the venue, so the post may belong to the retreat organiser"
+    ],
+    "missingInformation": [
+     "Identity of The Recode Retreat organiser"
+    ],
+    "summary": "Lodge Park Megève is a hotel in the French Alps that hosted The Recode Retreat, a longevity and detox retreat on 20-24 July 2026. It is a venue, not a host. The retreat organiser behind The Recode Retreat could be a separate lead. Exclude."
+   },
+   "events": [
+    {
+     "title": "The Recode Retreat",
+     "eventType": "wellness_retreat",
+     "startDate": "2026-07-20",
+     "endDate": "2026-07-24",
+     "nights": 4,
+     "location": "Lodge Park Megève, French Alps",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "unknown",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZ7zA7rDpxq"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Lodge Park Megève",
+    "country": "FR",
+    "languages": [
+     "en"
+    ],
+    "niche": "Alpine luxury hotel (venue)",
+    "markets": []
+   }
+  }
+ ]
+}

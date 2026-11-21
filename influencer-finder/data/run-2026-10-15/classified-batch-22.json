@@ -1,0 +1,1417 @@
+{
+ "batch": 22,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "adventure_with_liv",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcHLulSIvDr"
+     ],
+     "note": "Trip is 'all planned by someone who knows the area'; she plans the itinerary and stays, though no venue is named."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcHLulSIvDr"
+     ],
+     "note": "'Just book it', 'Next retreat | April 2027', 'More dates coming': she sells her own women-only Cyprus retreats."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcHLulSIvDr"
+     ],
+     "note": "Next retreat dated April 2027 (month only)."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only 'a small group of other women'; no spots count."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcHLulSIvDr"
+     ],
+     "note": "'Next retreat' and 'More dates coming' imply a series."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcHLulSIvDr"
+     ],
+     "note": "'4 full days' format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcHLulSIvDr"
+     ],
+     "note": "Small-group women's adventure and wellness travel; positioning is adventure rather than luxury."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcHLulSIvDr"
+     ],
+     "note": "'Next retreat' implies earlier editions ran; no counts or sold-out signals."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Product is built around Cyprus (Paphos) as the destination; a Greek edition would be a new product",
+     "No price, group size or follower count in evidence"
+    ],
+    "missingInformation": [
+     "Price per person and group size",
+     "Follower count and audience home markets (a Germany location hint is unconfirmed)",
+     "Whether she would run a retreat outside Cyprus"
+    ],
+    "summary": "Liv (adventure_with_liv) runs women-only adventure and wellness retreats in Paphos, Cyprus: small groups, 4 full days, planned by her as a local guide. The next retreat is dated April 2027 with more dates promised, so she has a winter-window product and sells it herself. Her whole offer is tied to Cyprus as the destination, and no price or group size is shown. Medium risk; worth a scouting conversation about a Greece edition rather than a direct booking pitch."
+   },
+   "events": [
+    {
+     "title": "Cyprus adventure and wellness retreat (women only)",
+     "eventType": "womens_retreat",
+     "startDate": "2027-04",
+     "endDate": null,
+     "nights": null,
+     "location": "Paphos, Cyprus",
+     "country": "CY",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcHLulSIvDr"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Liv | Adventure Travel | Cyprus Retreat Host",
+    "country": "CY",
+    "languages": [
+     "en"
+    ],
+    "niche": "women's adventure and wellness retreats in Cyprus",
+    "markets": [
+     "OTHER"
+    ]
+   }
+  },
+  {
+   "handle": "ashtangayogatelaviv",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DebyC2is_VP",
+      "https://www.instagram.com/reel/DeTRaZssQ5i"
+     ],
+     "note": "Shala runs its own destination retreats abroad (Kerala, North India) led by Maya Gross; the Kerala trip is 'in partnership with' a travel operator (מסע לצ׳אי), which may control lodging."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DebyC2is_VP"
+     ],
+     "note": "'Limited places', 'special price for the first 10 registrants', 'join us': sells the retreat directly."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DebyC2is_VP"
+     ],
+     "note": "Yoga and Ayurveda retreat in Kerala, 14-24 January 2027 (Hebrew RTL rendering shows '24-14')."
+    },
+    "canFillGroupSize": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DebyC2is_VP"
+     ],
+     "note": "Early-bird price for the first 10 registrants implies a group larger than 10; no total capacity stated."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DebyC2is_VP",
+      "https://www.instagram.com/reel/DeTRaZssQ5i"
+     ],
+     "note": "North India retreat over Sukkot 2026 (with a participant testimonial) followed by a Kerala retreat in January 2027."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DebyC2is_VP"
+     ],
+     "note": "'Ten days' format (14-24 January)."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DebyC2is_VP",
+      "https://www.instagram.com/reel/DeTRaZssQ5i"
+     ],
+     "note": "Israeli ashtanga community travelling abroad for long immersive retreats; Greece is a short flight from Israel."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeTRaZssQ5i"
+     ],
+     "note": "Testimonial thanking a participant for sharing about the Sukkot 2026 retreat shows a completed paid trip."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Kerala retreat is co-run with a travel operator, so the venue decision may sit with the partner",
+     "Destinations so far are India; price positioning unknown"
+    ],
+    "missingInformation": [
+     "Price per person and group size of past retreats",
+     "Who books accommodation: the shala or the travel partner",
+     "Follower count"
+    ],
+    "summary": "Ashtanga Yoga Tel Aviv (Maya Gross) runs destination retreats abroad: North India over Sukkot 2026 and a ten-day Yoga and Ayurveda retreat in Kerala on 14-24 January 2027, sold directly with an early-bird price for the first 10 registrants. That is proven winter activity, long-format, from the Israel priority market, and Greece is far closer than India. The Kerala trip is run with a travel operator, so confirm who chooses the venue. Medium risk; a strong candidate for a pilot retreat pitch."
+   },
+   "events": [
+    {
+     "title": "Yoga and Ayurveda retreat, Kerala, South India",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-01-14",
+     "endDate": "2027-01-24",
+     "nights": 10,
+     "location": "Kerala, South India",
+     "country": "IN",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DebyC2is_VP"
+     ]
+    },
+    {
+     "title": "Yoga retreat in North India with Maya Gross (Sukkot 2026)",
+     "eventType": "yoga_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "North India",
+     "country": "IN",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeTRaZssQ5i"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Ashtanga Yoga Tel Aviv Shala",
+    "country": "IL",
+    "languages": [
+     "he"
+    ],
+    "niche": "ashtanga yoga shala running destination retreats",
+    "markets": [
+     "IL"
+    ]
+   }
+  },
+  {
+   "handle": "charyogi",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVImiYcjEmc",
+      "https://www.instagram.com/p/C869WqiIO4A"
+     ],
+     "note": "Hosts her own ShantiBoom Yoga Escapes in El Cotillo, Fuerteventura and picks the location."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVImiYcjEmc",
+      "https://www.instagram.com/p/C869WqiIO4A"
+     ],
+     "note": "'RETREAT ALERT', 'We would love to host you', 'early booking strongly advised', prices and sold-out solo options."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/C869WqiIO4A"
+     ],
+     "note": "'Back this winter from the 14th to 18th of November' in El Cotillo; the year is not stated in the excerpt."
+    },
+    "canFillGroupSize": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVImiYcjEmc",
+      "https://www.instagram.com/p/C869WqiIO4A"
+     ],
+     "note": "'Only taking 12-14pp' and 'all Solo Options are now SOLD OUT'."
+    },
+    "audiencePaysPremium": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/C869WqiIO4A"
+     ],
+     "note": "'Prices start from £550' for a four-night escape: mid-market, below luxury-villa pricing."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVImiYcjEmc",
+      "https://www.instagram.com/p/C869WqiIO4A"
+     ],
+     "note": "'Is BACK' for October 2026 and 'back this winter' for November: a repeating series."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVImiYcjEmc",
+      "https://www.instagram.com/p/C869WqiIO4A"
+     ],
+     "note": "Four-night formats (15-19 October, 14-18 November)."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVImiYcjEmc",
+      "https://www.instagram.com/p/C869WqiIO4A"
+     ],
+     "note": "UK yoga host with 12-14 person groups, which matches the villa size; price point is lower than the villa's positioning."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/C869WqiIO4A"
+     ],
+     "note": "Solo options sold out; repeat editions."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Price point (from £550) is well below premium",
+     "November post carries a pack note that the handle was not literally present; attribution rests on the 'Char & Liz' sign-off"
+    ],
+    "missingInformation": [
+     "Year of the November El Cotillo escape",
+     "Follower count",
+     "Whether she would move a winter escape from the Canaries to Greece"
+    ],
+    "summary": "Charlotte Wellfare (charyogi) co-hosts ShantiBoom Yoga Escapes in El Cotillo, Fuerteventura with @lizsj93: a 15-19 October 2026 edition capped at 12-14 people, and a winter edition on 14-18 November with prices from £550 and solo options sold out. Group size and repeat demand fit nine bedrooms well, and she is in the UK priority market. The weak points are price (mid-market) and that the November year is not stated. Medium risk; a pilot retreat pitch for a winter Greece edition is reasonable."
+   },
+   "events": [
+    {
+     "title": "ShantiBoom Yoga Escapes Fuerteventura (12-14 participants)",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-10-15",
+     "endDate": "2026-10-19",
+     "nights": 4,
+     "location": "Fuerteventura",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVImiYcjEmc"
+     ]
+    },
+    {
+     "title": "ShantiBoom Yoga & Wellness Escapes, winter edition",
+     "eventType": "yoga_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": 4,
+     "location": "El Cotillo, Fuerteventura",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": 550,
+     "currency": "GBP",
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/C869WqiIO4A"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Charlotte Wellfare",
+    "country": "GB",
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga retreat host (ShantiBoom Yoga Escapes)",
+    "markets": [
+     "GB"
+    ]
+   }
+  },
+  {
+   "handle": "illinoisleadershipcenter",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dd9ylSZv9Yz",
+      "https://www.instagram.com/p/DeCVL_rF6gr"
+     ],
+     "note": "Runs the retreat at Allerton Park and Retreat Center, Monticello, IL; domestic institutional venue."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dd9ylSZv9Yz",
+      "https://www.instagram.com/p/DeCVL_rF6gr"
+     ],
+     "note": "Organises the LeaderShape Institute via applications, but it is a FREE student programme, not sold."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dd9ylSZv9Yz",
+      "https://www.instagram.com/p/DeCVL_rF6gr"
+     ],
+     "note": "LeaderShape Institute retreat 11-14 January 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No participant numbers."
+    },
+    "audiencePaysPremium": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeCVL_rF6gr"
+     ],
+     "note": "'FREE 3-day retreat' for students."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No prior editions in evidence."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeCVL_rF6gr"
+     ],
+     "note": "3-day format."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dd9ylSZv9Yz",
+      "https://www.instagram.com/p/DeCVL_rF6gr"
+     ],
+     "note": "US university student leadership programme held at a nearby retreat centre."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "University student programme, free of charge",
+     "US domestic; no international travel",
+     "Venue is a regional retreat centre near campus"
+    ],
+    "missingInformation": [
+     "Group size",
+     "Any international programmes"
+    ],
+    "summary": "Illinois Leadership Center runs the LeaderShape Institute, a free 3-day student leadership retreat at Allerton Park, Monticello, IL on 11-14 January 2027. It is a dated winter retreat, but the audience is university students, the event is free and domestic, and the venue is a regional retreat centre. Not a booking prospect for a Greek villa. High risk; no outreach."
+   },
+   "events": [
+    {
+     "title": "LeaderShape Institute",
+     "eventType": "leadership_retreat",
+     "startDate": "2027-01-11",
+     "endDate": "2027-01-14",
+     "nights": 3,
+     "location": "Allerton Park and Retreat Center, Monticello, IL",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dd9ylSZv9Yz",
+      "https://www.instagram.com/p/DeCVL_rF6gr"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Illinois Leadership Center",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "university student leadership programmes",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "jobridgefitness",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbQjfPrjZyI"
+     ],
+     "note": "Brings her retreat to Playitas Resort, Fuerteventura; she runs the event and has chosen this resort for it."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbQjfPrjZyI"
+     ],
+     "note": "'General bookings for next year's retreat open', 'Priority booking for past guests'."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbQjfPrjZyI"
+     ],
+     "note": "Only dated event is 1-6 May 2027, outside the November-April window."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size; waiting list is for information, not a sold-out signal."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbQjfPrjZyI"
+     ],
+     "note": "'Bringing this event back for its third year'."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbQjfPrjZyI"
+     ],
+     "note": "1-6 May (5 nights)."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbQjfPrjZyI"
+     ],
+     "note": "Fitness retreat with returning guests; currently uses a large sports resort rather than a private villa."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbQjfPrjZyI"
+     ],
+     "note": "Third edition with priority booking for past guests."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "No winter-dated event; current retreat runs in May",
+     "Uses a sports resort with on-site facilities; a villa format may not suit a training-heavy programme"
+    ],
+    "missingInformation": [
+     "Group size and price",
+     "Home market (location hint 'Upton' is unconfirmed)",
+     "Willingness to run an April or winter edition"
+    ],
+    "summary": "Jo Bridge (jobridgefitness) runs an annual fitness retreat at Playitas Resort, Fuerteventura, now in its third year, with priority booking for past guests; the 2027 edition is 1-6 May 2027. She is a proven repeat organiser who sells her own retreat, but the only dated event falls just outside the winter window and her format relies on a sports resort. Medium risk; pitch a pilot spring edition, ideally in April."
+   },
+   "events": [
+    {
+     "title": "Jo Bridge fitness retreat 2027 (third year)",
+     "eventType": "fitness_retreat",
+     "startDate": "2027-05-01",
+     "endDate": "2027-05-06",
+     "nights": 5,
+     "location": "Playitas Resort, Fuerteventura",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbQjfPrjZyI"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Jo Bridge",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "fitness coach running an annual fitness retreat",
+    "markets": []
+   }
+  },
+  {
+   "handle": "playitasresort",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DUnXVB5EfM5",
+      "https://www.instagram.com/reel/DUSqhGjD223"
+     ],
+     "note": "It is the venue (Playitas Resort, Fuerteventura), not a host."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DUnXVB5EfM5",
+      "https://www.instagram.com/reel/DUSqhGjD223"
+     ],
+     "note": "Markets an active-holiday resort; no hosted retreat of its own."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DUnXVB5EfM5",
+      "https://www.instagram.com/reel/DUSqhGjD223"
+     ],
+     "note": "Competing sports resort."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account, a competitor rather than a client"
+    ],
+    "missingInformation": [],
+    "summary": "Playitas Resort is an active-holiday sports resort in Fuerteventura; the evidence is staff and brand reels. It is a venue that other organisers (such as jobridgefitness) book, not a retreat host, so it is not a booking prospect. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Playitas Resort",
+    "country": "ES",
+    "languages": [
+     "en"
+    ],
+    "niche": "sports and active-holiday resort (venue)",
+    "markets": []
+   }
+  },
+  {
+   "handle": "ripple.surf.therapy",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DePQSH-jMJp?__d=1Leilanna",
+      "https://www.instagram.com/reel/DbifVCaM1qb"
+     ],
+     "note": "Runs retreats at a different surf venue per destination (@_dreamwavesurf_, @mellowresort, @surfmaroc): she selects partners."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DePQSH-jMJp?__d=1Leilanna",
+      "https://www.instagram.com/reel/DbifVCaM1qb"
+     ],
+     "note": "'Join us on one of our upcoming retreats', 'Comment RIPPLE and I'll send you more information'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.95,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DePQSH-jMJp?__d=1Leilanna",
+      "https://www.instagram.com/reel/DbifVCaM1qb"
+     ],
+     "note": "Fuerteventura 21-28 November 2026, Nicaragua 30 January-6 February 2027, Morocco 27 March-3 April and 10-17 April 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group sizes stated."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No prices stated."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DePQSH-jMJp?__d=1Leilanna"
+     ],
+     "note": "'Hosting 16(!) retreats around the world' plus four upcoming."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbifVCaM1qb"
+     ],
+     "note": "Week-long (7-night) formats."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DePQSH-jMJp?__d=1Leilanna",
+      "https://www.instagram.com/reel/DbifVCaM1qb"
+     ],
+     "note": "Product is built around surfing at surf camps; Porto Rafti is not a surf destination, though the therapy element could transfer."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DePQSH-jMJp?__d=1Leilanna"
+     ],
+     "note": "16 retreats hosted."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Surf is core to the product; venues are surf camps, not luxury villas"
+    ],
+    "missingInformation": [
+     "Group size and price per person",
+     "Home market (Sintra, Portugal location hint)",
+     "Interest in a non-surf therapy retreat format"
+    ],
+    "summary": "Ripple runs surf therapy retreats (therapy, surfing and connection) and has hosted 16 so far, with four winter-window weeks coming: Fuerteventura 21-28 November 2026, Nicaragua 30 January-6 February 2027, and two in Taghazout, Morocco (27 March-3 April and 10-17 April 2027). She is a proven winter organiser who picks a venue per destination. The catch is fit: the product depends on surf breaks and surf-camp venues, which Porto Rafti does not offer. Medium risk; scouting only, unless she wants a non-surf edition."
+   },
+   "events": [
+    {
+     "title": "Surf therapy retreat Fuerteventura",
+     "eventType": "wellness_retreat",
+     "startDate": "2026-11-21",
+     "endDate": "2026-11-28",
+     "nights": 7,
+     "location": "Fuerteventura (@_dreamwavesurf_)",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DePQSH-jMJp?__d=1Leilanna",
+      "https://www.instagram.com/reel/DbifVCaM1qb"
+     ]
+    },
+    {
+     "title": "Surf therapy retreat Nicaragua",
+     "eventType": "wellness_retreat",
+     "startDate": "2027-01-30",
+     "endDate": "2027-02-06",
+     "nights": 7,
+     "location": "El Viejo, Nicaragua (@mellowresort)",
+     "country": "NI",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DePQSH-jMJp?__d=1Leilanna",
+      "https://www.instagram.com/reel/DbifVCaM1qb"
+     ]
+    },
+    {
+     "title": "Surf therapy retreat Morocco (March)",
+     "eventType": "wellness_retreat",
+     "startDate": "2027-03-27",
+     "endDate": "2027-04-03",
+     "nights": 7,
+     "location": "Taghazout, Morocco (@surfmaroc)",
+     "country": "MA",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbifVCaM1qb"
+     ]
+    },
+    {
+     "title": "Surf therapy retreat Morocco (April)",
+     "eventType": "wellness_retreat",
+     "startDate": "2027-04-10",
+     "endDate": "2027-04-17",
+     "nights": 7,
+     "location": "Taghazout, Morocco",
+     "country": "MA",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbifVCaM1qb"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Ripple | Surf Therapy Retreat",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "surf therapy retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "aalacolumbus",
+   "classification": {
+    "group": "C_high_value_host",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Venue of Ascension not stated."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdCnP7lJs-s"
+     ],
+     "note": "'Early Bird Registration is live now' for its own Ascension retreat."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdCnP7lJs-s"
+     ],
+     "note": "Ascension leadership retreat in January 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Branded 'Ascension2027' suggests a series, but no earlier editions in evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdCnP7lJs-s"
+     ],
+     "note": "Local Columbus leadership academy; nothing indicates international travel."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "US local organisation; no evidence of international or destination events"
+    ],
+    "missingInformation": [
+     "Location, length and size of Ascension 2027",
+     "Participant profile and fee",
+     "Any destination retreats abroad"
+    ],
+    "summary": "African American Leadership Academy (Columbus) is opening early-bird registration for Ascension, a leadership retreat in January 2027. It is a leadership organisation running a winter retreat, so it fits Group C by type, but the evidence gives no location, size or price and points to a local US programme. High risk; low priority, scouting at most."
+   },
+   "events": [
+    {
+     "title": "Ascension 2027 leadership retreat",
+     "eventType": "leadership_retreat",
+     "startDate": "2027-01",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdCnP7lJs-s"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "African American Leadership Academy",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "community leadership academy",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "activesimuni_fitnessretreats",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdN71IKNWkk"
+     ],
+     "note": "It is the venue that organisers book ('Thank you @grownstrongretreats for booking our wonderful Active Šimuni')."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdN71IKNWkk"
+     ],
+     "note": "Sells venue hire to retreat hosts, not its own retreats."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdN71IKNWkk"
+     ],
+     "note": "Competing retreat venue (summer-focused, #summer2027)."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account, a competitor rather than a client"
+    ],
+    "missingInformation": [],
+    "summary": "Active Šimuni is a fitness-retreat venue in Šimuni (Croatia) that rents its property to retreat hosts and is taking 2027 bookings, mostly for summer. It is a competitor, not a host. The co-tagged organiser @grownstrongretreats, who booked it, may be worth discovering separately. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Active Šimuni fitness retreats",
+    "country": "HR",
+    "languages": [
+     "en"
+    ],
+    "niche": "fitness retreat venue",
+    "markets": []
+   }
+  },
+  {
+   "handle": "alfonsocuadra",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZ8IYcuN_l"
+     ],
+     "note": "Runs numbered destination masterminds (#17 in Sierra Leone); venue choice implied, none named."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZ8IYcuN_l"
+     ],
+     "note": "'Registration is open' for his Ultimate Mastermind Retreat #17."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZ8IYcuN_l"
+     ],
+     "note": "Sierra Leone mastermind on 10-14 December 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No participant numbers; mentions 'top 3 teams'."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZ8IYcuN_l"
+     ],
+     "note": "Audience described as entrepreneurs and investors; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZ8IYcuN_l"
+     ],
+     "note": "Retreat is numbered #17."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZ8IYcuN_l"
+     ],
+     "note": "10-14 December (4 nights)."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZ8IYcuN_l"
+     ],
+     "note": "Entrepreneur and investor mastermind suits a private estate; current destination is frontier travel to Sierra Leone."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZ8IYcuN_l"
+     ],
+     "note": "Sixteen prior editions implied by '#17'."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Destination focus (Sierra Leone) may be tied to investment tourism there rather than venue choice",
+     "No price, group size or follower count"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Past destinations of the 16 earlier editions",
+     "Home market"
+    ],
+    "summary": "Alfonso Cuadra runs the Ultimate Mastermind Retreat series for entrepreneurs and investors; edition #17 is in Sierra Leone on 10-14 December 2026 with registration open. A numbered series of business masterminds with a winter date is a good organiser profile for a private estate. The evidence does not say how he picks destinations, the group size or the price. Medium risk; worth a pilot pitch for a European edition."
+   },
+   "events": [
+    {
+     "title": "Ultimate Mastermind Retreat #17 Sierra Leone",
+     "eventType": "executive_mastermind",
+     "startDate": "2026-12-10",
+     "endDate": "2026-12-14",
+     "nights": 4,
+     "location": "Sierra Leone",
+     "country": "SL",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZ8IYcuN_l"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Alfonso Cuadra",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "entrepreneur mastermind retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "annabjurklint",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat offer in evidence; only a #yogaretreat hashtag."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.2,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbxosNhKzsi"
+     ],
+     "note": "Yoga studio owner relocating Studio17 to the south of Spain for a year; she might host retreats there."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Thin pack: one post, no retreat offer"
+    ],
+    "missingInformation": [
+     "Whether she organises retreats at all",
+     "Studio location (Halmstad hint) and audience",
+     "Follower count"
+    ],
+    "summary": "Anna Bjurklint runs Studio17, a yoga studio (Halmstad, Sweden location hint), and announces that the studio is moving to the south of Spain for a year. There is no retreat offer, date or price in the evidence, so she is not a classified organiser yet. She is in the Nordic priority market, so recheck later in case she launches retreats from Spain. Unknown risk."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Anna Bjurklint | Studio17",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga studio owner",
+    "markets": []
+   }
+  },
+  {
+   "handle": "balance.pilates_studio",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQeegSvDL6J"
+     ],
+     "note": "Studio runs its own Rebalance retreats ('we take care of everything'); venue not named."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQeegSvDL6J"
+     ],
+     "note": "Announces its own Rebalance winter retreat and a 19-22/11/26 retreat with an all-inclusive offer."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.75,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQeegSvDL6J"
+     ],
+     "note": "Rebalance winter retreat January 2026 (past season) and a retreat on 19-22/11/26."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Fine food and open bar suggest an upscale offer; no price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQeegSvDL6J"
+     ],
+     "note": "January 2026 winter retreat plus November 2026 retreat."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQeegSvDL6J"
+     ],
+     "note": "19-22 November (3 nights)."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQeegSvDL6J"
+     ],
+     "note": "Women's Pilates and yoga retreats with an indulgent offer (fine food, open bar, sound healing)."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "January 2026 post says 'more details soon'; no evidence it filled."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Retreats so far appear domestic (Eilat)",
+     "The 19-22/11/26 details come from an appended search snippet and may belong to a different post"
+    ],
+    "missingInformation": [
+     "Location of the November 2026 retreat",
+     "Group size and price",
+     "Whether they would take a group abroad"
+    ],
+    "summary": "Balance Studio is a Pilates and yoga studio in Eilat that runs its own women's retreats: the Rebalance winter retreat in January 2026 and a 19-22 November 2026 retreat with Nia, yoga, sound healing, fine food and an open bar. That is repeated winter activity from the Israel priority market, but the retreats look domestic and the November details rest on a search snippet. Medium risk; a pilot pitch for a short Greece edition is plausible."
+   },
+   "events": [
+    {
+     "title": "Rebalance winter retreat",
+     "eventType": "womens_retreat",
+     "startDate": "2026-01",
+     "endDate": null,
+     "nights": null,
+     "location": "Eilat",
+     "country": "IL",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQeegSvDL6J"
+     ]
+    },
+    {
+     "title": "Retreat: Nia, yoga, healing sounds, forest bathing",
+     "eventType": "womens_retreat",
+     "startDate": "2026-11-19",
+     "endDate": "2026-11-22",
+     "nights": 3,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DQeegSvDL6J"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Balance studio. Pilates|Yoga-EILAT",
+    "country": "IL",
+    "languages": [
+     "he"
+    ],
+    "niche": "Pilates and yoga studio running women's retreats",
+    "markets": [
+     "IL"
+    ]
+   }
+  }
+ ]
+}

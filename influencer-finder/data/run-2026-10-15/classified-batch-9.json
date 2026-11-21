@@ -1,0 +1,282 @@
+{
+  "batch": 9,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "ntxyouth",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DeHhcyKOREA"], "note": "Church youth ministry organising its own retreats; venue choice implied but irrelevant to a Greek villa."},
+        "sellsRetreats": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DeHhcyKOREA"], "note": "'REGISTER NOW', costs $160 / $135 for youth retreat weekends; organiser signals are explicit but the product is a youth ministry camp."},
+        "provenWinterActivity": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DeHhcyKOREA"], "note": "Youth Retreat 2026 November 22-24 and a Nov. 13-15, 2026 weekend; dated, organised by the account."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DeHhcyKOREA"], "note": "Weekend retreats priced $135-$160 per person; far below premium."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DeHhcyKOREA"], "note": "Several dated weekends (October 9-11, Nov. 13-15, November 22-24)."},
+        "longStayPotential": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DeHhcyKOREA"], "note": "Two-night weekends."},
+        "brandFit": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DeHhcyKOREA"], "note": "Texas church youth ministry (thegospel.co); audience is teenagers, budget pricing."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DeHhcyKOREA"], "note": "Paid weekends at $135-$160."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account", "Youth ministry; audience is minors", "pricing far below premium ($135-$160 per weekend)", "US-based (Texas)"],
+        "missingInformation": [],
+        "summary": "North Texas Youth is a church youth ministry (website thegospel.co) promoting Youth Retreat 2026 on November 22-24 plus other weekends (October 9-11 at $160, Nov. 13-15, 2026 at $135). The organiser signals and winter dates are real, but the product is a budget youth camp for teenagers in Texas, not a premium hosted group. Off-topic for Villa Lithos; discard."
+      },
+      "events": [
+        {"title": "Youth Retreat 2026", "eventType": "personal_development_retreat", "startDate": "2026-11-22", "endDate": "2026-11-24", "nights": 2, "location": "Texas", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DeHhcyKOREA"]},
+        {"title": "Youth ministry weekend Nov. 13-15, 2026", "eventType": "personal_development_retreat", "startDate": "2026-11-13", "endDate": "2026-11-15", "nights": 2, "location": "Texas", "country": "US", "groupSize": null, "pricePerPerson": 135, "currency": "USD", "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DeHhcyKOREA"]}
+      ],
+      "profile": {"displayName": "North Texas Youth", "country": "US", "languages": ["en"], "niche": "church youth ministry (off-topic)", "markets": ["US"]}
+    },
+    {
+      "handle": "oneevent.greece.cyprus",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Profile feed only (landscape and poster images); nothing states what the company does."},
+        "sellsRetreats": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/oneevent.greece.cyprus"], "note": "Name suggests an event agency / DMC for Greece and Cyprus; no retreat sales signals."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only image descriptions (mountain, coast, twilight)."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["venue/aggregator account, not a host (name indicates an event agency / DMC)", "Evidence pack contains no caption text, bio or events"],
+        "missingInformation": ["What One Event actually does (agency, DMC, venue, organiser)", "Client types and group sizes", "Whether they place corporate or retreat groups in private villas"],
+        "summary": "One Event Greece & Cyprus posts scenic images and posters (September-October 2026) but the pack contains no bio, captions or events, so its business cannot be verified from evidence. The name points to an event agency / destination management company covering Greece and Cyprus rather than a host that fills its own groups. Classified as none for the host groups; if it is a local agency it could be a referral partner, so flag it for a manual look rather than outreach."
+      },
+      "events": [],
+      "profile": {"displayName": "One Event Greece & Cyprus", "country": "GR", "languages": ["en"], "niche": "event agency / DMC (unverified)", "markets": ["GR", "CY"]}
+    },
+    {
+      "handle": "padel_time_club",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/padel_time_club?hl=en"], "note": "Chain of padel clubs in Israel; it is the venue."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/padel_time_club?hl=en"], "note": "Posts advertise coaching ('ILAN KONFINO COACH PADEL'); no retreat or travel event."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "brandFit": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/padel_time_club?hl=en"], "note": "Local club chain; padel is in scope but a club is not a travelling host."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["venue/aggregator account, not a host (padel club chain)"],
+        "missingInformation": ["Whether the chain or its coaches run padel trips abroad", "Member base size"],
+        "summary": "Padel Time Club is 'the leading padel club chain in Israel' (Tiberias among its locations); evidence is a profile feed with coaching posters (coach Ilan Konfino) from June and August 2026. It is a venue operator, not a host that would book a villa for a group. Not a target; at most a referral channel to Israeli padel coaches who organise trips."
+      },
+      "events": [],
+      "profile": {"displayName": "פאדל טיים קלאב | רשת מועדוני הפאדל המובילה בישראל", "country": "IL", "languages": ["he"], "niche": "padel club chain (venue)", "markets": ["IL"]}
+    },
+    {
+      "handle": "padelcommunityofisrael",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Community media account; no venue decisions in evidence."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/padelcommunityofisrael?hl=he"], "note": "Bio promotes full match videos on YouTube; no event sales."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Post dates (29 November 2025) are not events; Cyprus location hint has no event context."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Israeli padel community media; audience relevance possible but no evidence of trips."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["Community media account (match videos), not an organiser", "Thin evidence: profile snippet only"],
+        "missingInformation": ["Whether the community organises padel trips (the Cyprus hint is unexplained)", "Follower count and reach among Israeli padel players"],
+        "summary": "Padel Community of Israel is a community media account whose bio points to full match videos on YouTube; the pack has only a profile snippet with post dates and a Cyprus location hint without context. There are no organiser signals, no events and no venue decisions. Not a host; it could at best amplify a padel-retreat offer to Israeli players, so keep it as a possible referral channel and nothing more."
+      },
+      "events": [],
+      "profile": {"displayName": "קהילת פאדל ישראל", "country": "IL", "languages": ["he"], "niche": "padel community media", "markets": ["IL"]}
+    },
+    {
+      "handle": "padelisrael",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/padelisrael"], "note": "'The largest padel club chain in Israel'; it is the venue (court booking via Go Play app)."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/padelisrael"], "note": "Bio lists racket rental, academy and 'events' at its clubs; no travel retreat."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/padelisrael"], "note": "Bio mentions 'אירועים' (events) at the clubs; no details."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "brandFit": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/padelisrael"], "note": "Club chain, not a travelling host."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["venue/aggregator account, not a host (padel club chain)"],
+        "missingInformation": ["Whether the academy runs training camps abroad", "Member base size"],
+        "summary": "Padel Israel describes itself as the largest padel club chain in Israel, with on-site racket rental, an academy for all ages, events, and court booking through the Go Play app. It is a venue operator; nothing in the evidence shows it organising groups away from its own courts. Not a host target; a possible referral channel to Israeli padel coaches and players."
+      },
+      "events": [],
+      "profile": {"displayName": "פאדל ישראל • PADEL ISRAEL", "country": "IL", "languages": ["he"], "niche": "padel club chain (venue)", "markets": ["IL"]}
+    },
+    {
+      "handle": "padelit.eg",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Profile feed only; no venue decisions."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/padelit.eg?hl=en"], "note": "Padel brand/club in Egypt; no event or retreat content."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Post dates in January/February 2026 are not events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "brandFit": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/padelit.eg?hl=en"], "note": "Egyptian padel account outside the target markets."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account", "Egypt-based padel club/brand; no organiser signals; sparse posting since 2025"],
+        "missingInformation": [],
+        "summary": "Padel It (.eg) is an Egyptian padel account; the evidence is a profile feed with tagged photos by Gamal Sanad (January-February 2026) and older club posts from 2025. No organiser signals, events or retreat content, and the market is outside the villa's targets. Off-topic; discard."
+      },
+      "events": [],
+      "profile": {"displayName": "Padel It", "country": null, "languages": ["en"], "niche": "padel club/brand (off-topic market)", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "patricia_zafra",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DdYYc8qiG0q"], "note": "Runs her own Sunkiss Yoga Retreats in three different destinations (Granada, Dorset, Tenerife); she selects locations."},
+        "sellsRetreats": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DdYYc8qiG0q"], "note": "Dated retreat list with availability: 'Last spaces', '7 spaces left', 'Doors Open Soon'."},
+        "provenWinterActivity": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DdYYc8qiG0q"], "note": "Dorset Women's Yoga Retreat 'The Art of Receiving', January 15th-18th 2027."},
+        "canFillGroupSize": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DdYYc8qiG0q"], "note": "'7 spaces left' on the January retreat and 'Last spaces' on Granada imply groups of at least ~10; total capacity not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No prices in evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DdYYc8qiG0q"], "note": "Three dated retreats across October 2026, January 2027 and September 2027."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DdYYc8qiG0q"], "note": "Formats are 3 to 6 nights (Jan 15-18, Oct 6-11, Sep 19-25)."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DdYYc8qiG0q"], "note": "Bilingual (English/Spanish) yoga and sound-bath retreats in culturally rich settings (Alhambra, nature); women's retreat format."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DdYYc8qiG0q"], "note": "Multiple retreats selling down to last spaces."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["No prices or total group sizes in evidence", "Follower count unknown"],
+        "missingInformation": ["Price per person and capacity of each retreat", "Follower count and audience split (UK vs Spain)", "Whether she would run a Greek edition in winter"],
+        "summary": "Patricia Zafra (Sunkiss Yoga Retreats, floating sound baths) publishes a full retreat calendar: Granada 'Whispers of the Alhambra' October 6-11, 2026 (last spaces), Dorset women's retreat 'The Art of Receiving' January 15-18, 2027 (7 spaces left), and Tenerife 'A retreat for Nature Lovers' September 19-25, 2027 (doors open soon). She organises, sells and fills these herself in English and Spanish, with a dated winter retreat already in the January window. Prices and total group sizes are missing, so the premium question is open. Medium risk; strong pilot candidate for a 4-6 night winter retreat with a UK/Spanish audience."
+      },
+      "events": [
+        {"title": "GRANADA - Whispers of the Alhambra", "eventType": "yoga_retreat", "startDate": "2026-10-06", "endDate": "2026-10-11", "nights": 5, "location": "Granada", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DdYYc8qiG0q"]},
+        {"title": "DORSET - The Art of Receiving, Women's Yoga Retreat", "eventType": "womens_retreat", "startDate": "2027-01-15", "endDate": "2027-01-18", "nights": 3, "location": "Dorset", "country": "GB", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DdYYc8qiG0q"]},
+        {"title": "TENERIFE - A retreat for Nature Lovers", "eventType": "yoga_retreat", "startDate": "2027-09-19", "endDate": "2027-09-25", "nights": 6, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DdYYc8qiG0q"]}
+      ],
+      "profile": {"displayName": "Patricia Zafra ☀️ Sunkiss YOGA Retreats 🌒 Baños Sonido Flotantes", "country": "ES", "languages": ["en", "es"], "niche": "yoga and sound-bath retreats", "markets": ["ES", "GB"]}
+    },
+    {
+      "handle": "pennsylvania_bar_association.",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/Dbv39YAAoBU"], "note": "Professional bar association; events are conferences for lawyers (Hershey hint), not hosted retreats."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/Dbv39YAAoBU"], "note": "Promotes professional programming ('Promoting Professional Excellence in the Law'); no retreat sales."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "The 'November 6-7 Hershey' regex hint does not appear in the excerpt; cannot verify."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not verifiable from excerpt."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/Dbv39YAAoBU"], "note": "US state bar association."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account", "US professional association; events are domestic conferences", "Handle in pack ends with a dot (possible scrape artefact)"],
+        "missingInformation": [],
+        "summary": "The Pennsylvania Bar Association account posts professional programming for lawyers (reel of 7 August 2026, poster text 'Promoting Professional Excellence in the Law'). The November 6-7 Hershey hint comes from the regex layer and is not in the excerpt; even if real it is a domestic conference. Off-topic for a Greek retreat villa; discard."
+      },
+      "events": [],
+      "profile": {"displayName": "Pennsylvania Bar Association", "country": "US", "languages": ["en"], "niche": "professional association (off-topic)", "markets": ["US"]}
+    },
+    {
+      "handle": "purplevalleyyogatenerife",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DbX2xtfjk8R"], "note": "'Ashtanga Yoga Retreats | Tenerife' is a retreat centre; it is the venue."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DbX2xtfjk8R"], "note": "A retreat centre sells stays at its own premises with guest teachers; it is a competitor venue, not a host who would book elsewhere."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events in excerpt (post dates only)."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DbX2xtfjk8R"], "note": "Active posting of retreat programming through 2026; the mysoreyogaparis pack shows a guest-teacher week there."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Venue, not a host."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host (Ashtanga retreat centre in Tenerife)"],
+        "missingInformation": [],
+        "summary": "Purple Valley Yoga Tenerife ('Ashtanga Yoga Retreats | Tenerife') is a retreat centre that hosts guest teachers' weeks at its own site; the evidence is a feed of its programme posts from June to October 2026. As a venue it competes with Villa Lithos rather than booking it. Useful only as a source of guest-teacher names (e.g., Kia Naddermier's February week); not a target itself."
+      },
+      "events": [],
+      "profile": {"displayName": "Ashtanga Yoga Retreats | Tenerife (Purple Valley)", "country": "ES", "languages": ["en"], "niche": "retreat centre (venue)", "markets": ["GB", "ES"]}
+    },
+    {
+      "handle": "redemptionsf",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DdzZ78xJvyf"], "note": "Church organising its own all-church and pastors' retreats; venue choice implied, locally."},
+        "sellsRetreats": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DdzZ78xJvyf"], "note": "'Registration is NOW OPEN for the 2026 Pastors + Families Retreat', 'Join us October 16-17'; organiser signals for congregational retreats."},
+        "provenWinterActivity": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DdzZ78xJvyf"], "note": "Pastors + Families Retreat November 13-15 (2026 per the post)."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DdzZ78xJvyf"], "note": "Church congregation retreats; no pricing but not a premium buyer."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DdzZ78xJvyf"], "note": "Annual all-church retreat plus pastors' retreat."},
+        "longStayPotential": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DdzZ78xJvyf"], "note": "One- to two-night weekends."},
+        "brandFit": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DdzZ78xJvyf"], "note": "San Francisco church; congregational worship weekends."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account", "Church congregation retreats in the US"],
+        "missingInformation": [],
+        "summary": "Redemption SF is a church promoting its 2026 All Church retreat (October 16-17) and a Pastors + Families Retreat on November 13-15 with registration open. The organiser signals and the November date are genuine, but these are congregational worship weekends in the US, not premium hosted groups that would travel to Greece. Off-topic; discard."
+      },
+      "events": [
+        {"title": "2026 Pastors + Families Retreat", "eventType": "personal_development_retreat", "startDate": "2026-11-13", "endDate": "2026-11-15", "nights": 2, "location": null, "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DdzZ78xJvyf"]},
+        {"title": "2026 All Church Retreat", "eventType": "personal_development_retreat", "startDate": "2026-10-16", "endDate": "2026-10-17", "nights": 1, "location": null, "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DdzZ78xJvyf"]}
+      ],
+      "profile": {"displayName": "Redemption SF", "country": "US", "languages": ["en"], "niche": "church (off-topic)", "markets": ["US"]}
+    },
+    {
+      "handle": "reitenundyoga",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/Dbd9cu1Av5d"], "note": "Account 'Reiten & Yoga Retreats' organises its own retreats and a business mastermind in Hamburg; chooses venues, but core product needs horses."},
+        "sellsRetreats": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/Dbd9cu1Av5d"], "note": "Retreat brand name plus 'Mastermind in Hamburg - Business, Anmeldung ist offen: Link' (registration open)."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dates for the mastermind or any retreat in evidence."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/Dbd9cu1Av5d"], "note": "Monthly review post ('Ende Monat schau ich gern zurueck') plus a mastermind suggest an ongoing calendar."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "brandFit": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/Dbd9cu1Av5d"], "note": "Riding-plus-yoga retreats need horses and stables, which the villa does not offer; the business mastermind could fit."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/Dbd9cu1Av5d"], "note": "Open registration for a paid mastermind; retreat business established enough for monthly reviews."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Core product (riding + yoga) requires horses; venue mismatch", "No dates, prices or group sizes in evidence"],
+        "missingInformation": ["Retreat calendar, destinations and group sizes", "Format and size of the business mastermind", "Follower count"],
+        "summary": "Reiten & Yoga Retreats (Hamburg) runs riding-and-yoga retreats and, per the July 31, 2026 post, a business mastermind in Hamburg with registration open. The account is a first-person organiser, so it qualifies as a retreat organiser, but the signature product depends on horses and none of the evidence gives dates, prices or group sizes. The mastermind format is the only piece that could travel to a Greek villa. Medium risk; scouting conversation about hosting the mastermind abroad, not a retreat pitch."
+      },
+      "events": [
+        {"title": "Mastermind in Hamburg - Business", "eventType": "executive_mastermind", "startDate": null, "endDate": null, "nights": null, "location": "Hamburg", "country": "DE", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/Dbd9cu1Av5d"]}
+      ],
+      "profile": {"displayName": "Reiten & Yoga Retreats", "country": "DE", "languages": ["de"], "niche": "riding and yoga retreats / business mastermind", "markets": ["DE"]}
+    },
+    {
+      "handle": "restandreceiveretreats",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/restandreceiveretreats/p/DaYvfujGkGw?hl=fa"], "note": "Retreat brand that teaches hosting; presumably runs its own retreats, but no venue evidence."},
+        "sellsRetreats": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/restandreceiveretreats/p/DaYvfujGkGw?hl=fa"], "note": "Account name 'Rest and Receive Retreats' implies own retreats; the post sells a course, not a retreat."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No event history."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/restandreceiveretreats/p/DaYvfujGkGw?hl=fa"], "note": "Audience of 'aspiring retreat hosts' is the villa's buyer segment."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/restandreceiveretreats/p/DaYvfujGkGw?hl=fa"], "note": "Sells the 'Host Profitable Retreats' course."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["No location, follower count or dated retreats in evidence"],
+        "missingInformation": ["Home market and size of the aspiring-host community", "Own retreat calendar", "Follower count"],
+        "summary": "Rest and Receive Retreats sells the 'Host Profitable Retreats' course 'to help aspiring retreat hosts create retreats that are both transformational and profitable'. That is a retreat-business educator whose audience is future organisers, so it fits Group B as a referral channel. The account name implies it also runs retreats, but the pack has no dates, destinations, prices or follower data. Medium risk; approach for a referral or affiliate arrangement aimed at its student hosts."
+      },
+      "events": [],
+      "profile": {"displayName": "Rest and Receive Retreats", "country": null, "languages": ["en"], "niche": "retreat-hosting education", "markets": []}
+    }
+  ]
+}

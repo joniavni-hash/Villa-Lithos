@@ -1,0 +1,65 @@
+{
+ "spec": {
+  "id": "fcbedab6",
+  "query": "\"Fitness Retreat\" \"Anmeldung offen\" 2026 OR 2027",
+  "language": "de",
+  "eventType": "fitness_retreat",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ "results": [
+  {
+   "url": "https://www.instagram.com/reel/Dd9fUmVBtnb",
+   "title": "International team retreat 2026.",
+   "content": "Fitness Retreats Worldwide on September 15, 2026. Anmeldung jetzt offen! 🏔️🎿 11.–16. April in Engelberg. Die Anmeldung erfolgt online auf",
+   "score": 0.86413884
+  },
+  {
+   "url": "https://www.instagram.com/p/DVdiZ6wCcA3",
+   "title": "🌿Retreat Season is coming again!🌿 This ...",
+   "content": "Die Anmeldung ist offen Gönn dir eine Auszeit vom Alltag! Tauchen ein in eine tiefe Yogapraxis, Stille & Natur und tanke neue Energie",
+   "score": 0.46978843
+  },
+  {
+   "url": "https://www.instagram.com/p/DWV90qHikcC",
+   "title": "Instagram",
+   "content": "For 5. Gang har vi næææsten udsolgt Work Away Retreat til Spanien! 🌴  \n  \n👉🏼 Og vi har planlagt datoerne til efterårsretreatet den 27 sep til 2 okt 2026!   \n  \nSå du kan nu tilmelde dig en magisk oplevelse i Spanien. Kom med for kun 14.500 kr ex moms, som kan deles i rater.  \n  \nKun 1 plads tilbage!   \n  \nLæs mere via link i bio eller ræk ud til mig eller @juliebeicker 🫶🏻\n\njuliebeicker's profile picture\n\njuliebeicker\n\nDet er så vildt! Glæder mig til endnu en fed uge 🔥🔥🔥🤩\n\nReply\n\n152 [...] Photo by Luna Hvalsøe • Brandingfotograf, video & website on August 21, 2026.\n\nPhoto by Luna Hvalsøe • Brandingfotograf, video & website on August 03, 2026.\n\nVideo by Luna Hvalsøe • Brandingfotograf, video & website on August 02, 2026. May be an image of wine glass.\n\nPhoto by Luna Hvalsøe • Brandingfotograf, video & website on July 17, 2026.\n\nVideo by Luna Hvalsøe • Brandingfotograf, video & website on July 16, 2026.\n\nSee more posts\n\n--- [...] Reply\n\n152\n\nLog in to like or comment.\n\nMore posts from lunahvalsoefotograf\n\nPhoto by Luna Hvalsøe • Brandingfotograf, video & website on March 03, 2026.\n\nPhoto by Sascha Benzon | Brand & Web Designer on January 31, 2025.\n\nVideo by Julie Beicker · Executive coach, psykologi  & god energi✨ on October 06, 2026. May be an image of standing, wedding and text.\n\nVideo by Luna Hvalsøe • Brandingfotograf, video & website on October 04, 2026. May be an image of horizon and text.",
+   "score": 0.39026722
+  },
+  {
+   "url": "https://www.instagram.com/p/DZ7zA7rDpxq",
+   "title": "5 days to recode your energy and longevity 🧬 From July ...",
+   "content": "From July 20th to 24th, 2026, join us at @lodgeparkmegeve for The Recode Retreat—an exclusive, immersive wellness experience dedicated to deep",
+   "score": 0.38936135
+  },
+  {
+   "url": "https://www.instagram.com/p/DYCpSi9CCQB",
+   "title": "Sweden Retreat 2026 - FULLY BOOKED This year's ...",
+   "content": "This year's Sweden Retreat is now fully booked, with ten lovely ladies set to escape to Stockholm's spectacular Archipelago for four days of pure relaxation.",
+   "score": 0.17034262
+  },
+  {
+   "url": "https://www.instagram.com/p/C7uaJ0ioMxs",
+   "title": "Vom 11-13. Oktober findet mein erstes Purna Retreat statt. ...",
+   "content": "Mit gutem Essen, langen Spaziergängen und viel Yoga. Die Anmeldung ist ab jetzt möglich! Wenn du interessiert bist, melde dich bei mir es",
+   "score": 0.13565545
+  },
+  {
+   "url": "https://www.instagram.com/reel/DbP_puvDKrq",
+   "title": "Instagram",
+   "content": "Video by Breath of Alps Studio on September 18, 2026. May be a selfie of one or more people, people smiling, outdoors and text.\nVideo by Breath of Alps Studio on September 13, 2026. May be an image of yoga and text that says 'SHANTIKA International Holistic Training नইन Hosted at Breath of Alps Bad Gastein, BadGastein,Austria Austria'.\nVideo by Breath of Alps Studio on September 12, 2026. May be an image of nature, waterfall and text. [...] anatomie_der_schoenheit's profile picture\nPhoto by Breath of Alps Studio on September 29, 2026. May be an image of text.\nPhoto by Larissa Skripka on August 25, 2026.\nPhoto by Breath of Alps Studio on October 03, 2026. May be an image of text.\nVideo by Larissa Skripka on September 30, 2026. May be an image of horse and text.\nVideo by Breath of Alps Studio on September 20, 2026. May be an image of text that says 'Vollmond Atmen & Klangbad SAMSTAG 26.9. 19:45-21:00 19:45 BAD GASTEIN'. [...] Video by Larissa Skripka on September 10, 2026. May be an image of kitchenware, poster and text that says 'SOUND HEALING Was ist das eigentlich? HEUTE LIVE 19:00 Uhr KLÄNGE ATMUNG NERVENSYSTEM LIVEAUF LIVE AUF IN KOOPERATION MIT'.",
+   "score": 0.055458937
+  },
+  {
+   "url": "https://www.instagram.com/p/DbjW5CQDfcA",
+   "title": "This October, we will be hosting a special event at Zibelka ...",
+   "content": "\"Coming Home to Yourself\" is a three-day experiential retreat about authentic living—exploring the patterns, roles, and survival strategies we carry,",
+   "score": 0.035201255
+  }
+ ],
+ "fetchedAt": "2026-10-15T18:57:59.365011+00:00"
+}

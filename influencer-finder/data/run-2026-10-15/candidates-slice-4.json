@@ -1,0 +1,4959 @@
+{
+ "slice": 4,
+ "generatedAt": "2026-10-15T00:00:00Z",
+ "stats": {
+  "searchesAttempted": 40,
+  "searchesSucceeded": 40,
+  "rateLimited429": 1,
+  "extractCalls": 6,
+  "extractCallsSucceeded": 5,
+  "urlsExtracted": 49,
+  "urlsExtractFailed": [
+   "https://www.instagram.com/p/Db8RjRgkoo0"
+  ],
+  "failedQueryIds": []
+ },
+ "notes": [
+  "winterMonthMentioned is true when the evidence literally mentions a date in the villa's Nov-Apr window (November, December, January, February, March, April / Christmas / New Year), any year.",
+  "Handles were recorded only when a literal pattern was present ('Never miss a post from', 'More posts from', first line before '•\\nFollow', profile-picture pattern, '(@handle)' in title, or profile URL). handleSource records which pattern.",
+  "Two evidence items were attached to an already-confirmed handle on account-name/brand match rather than a literal pattern and are flagged inline: ladan_soltani (DdeE0FUM3Up) and charyogi (C869WqiIO4A).",
+  "Several high-scoring results for the English 'January 2027 registration' queries are US local yoga-studio teacher trainings or member-association conferences; studios are kept with offTopic=false and a note, associations/student orgs are offTopic=true."
+ ],
+ "candidates": [
+  {
+   "handle": "shahartangy",
+   "profileUrl": "https://www.instagram.com/shahartangy/",
+   "displayName": "שחר טנג׳י | תניא לחיים",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Degr8rasdCI",
+     "title": "ריטריט ״באתי לגני 5״ יוצא לדרך!!!✈️ ההרשמה נפתחה!!!!!! הריטריט ...",
+     "excerpt": "ריטריט ״באתי לגני 5״ יוצא לדרך!!!✈️ ההרשמה נפתחה!!!!!! הריטריט הינו לחברי האקדמיה בלבד ! לא לומדים אצלנו באקדמיה? כתבו לנו בתגובות ונחזור אליכם על בסיס מקום פנוי בלבד👇🏼 מספר החדרים מוגבל! הבטיחו את מקומכם !! | search snippet: 12-15 בנובמבר 2026 לפרטים והרשמה שלחי לנו הודעה",
+     "kind": "post",
+     "queryId": "a279d296",
+     "lane": "organizer_intent",
+     "score": 0.7813477
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "ריטריט ״באתי לגני 5״",
+     "dates": "12-15 בנובמבר 2026",
+     "location": null,
+     "price": null,
+     "spots": "מספר החדרים מוגבל!",
+     "role": "organizer",
+     "excerpt": "ריטריט ״באתי לגני 5״ יוצא לדרך!!!✈️ ההרשמה נפתחה!!!!!! הריטריט הינו לחברי האקדמיה בלבד !",
+     "url": "https://www.instagram.com/p/Degr8rasdCI"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "ההרשמה נפתחה!!!!!!",
+    "מספר החדרים מוגבל!",
+    "הבטיחו את מקומכם !!"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "ashtangayogatelaviv",
+   "profileUrl": "https://www.instagram.com/ashtangayogatelaviv/",
+   "displayName": "Ashtanga Yoga Tel Aviv Shala ᬒᬁ",
+   "bio": null,
+   "followers": null,
+   "website": "www.ashtangayoga.co.il",
+   "locationHints": [
+    "Tel Aviv",
+    "קרלה, דרום הודו"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DebyC2is_VP",
+     "title": "Instagram",
+     "excerpt": "ריטריט יוגה ואיורוודה | קרלה, דרום הודו 24–14 בינואר 2027 בהדרכת מאיה גרוס עשרה ימים של טבע פראי, חוכמה עתיקה, שלווה איסופית וזמן לעצמכם ... בהנחיית מאיה גרוס בשיתוף עם מסע לצ׳אי | מספר המקומות מוגבל. עכשיו במחיר מיוחד ל 10 נרשמים ראשונים. www.ashtangayoga.co.il",
+     "kind": "reel",
+     "queryId": "a279d296",
+     "lane": "organizer_intent",
+     "score": 0.7101667
+    },
+    {
+     "url": "https://www.instagram.com/reel/DeTRaZssQ5i",
+     "title": "Instagram",
+     "excerpt": "ריטריט יוגה בצפון הודו עם מאיה גרוס | סוכות 2026 תודות לאבי המקסימה על המילים החמות והשיתוף מהלב על הריטריט",
+     "kind": "reel",
+     "queryId": "c1bb0637",
+     "lane": "organizer_intent",
+     "score": 0.14651443
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "ריטריט יוגה ואיורוודה | קרלה, דרום הודו",
+     "dates": "24–14 בינואר 2027",
+     "location": "קרלה, דרום הודו",
+     "price": "במחיר מיוחד ל 10 נרשמים ראשונים",
+     "spots": "מספר המקומות מוגבל",
+     "role": "organizer",
+     "excerpt": "ריטריט יוגה ואיורוודה | קרלה, דרום הודו 24–14 בינואר 2027 בהדרכת מאיה גרוס",
+     "url": "https://www.instagram.com/reel/DebyC2is_VP"
+    },
+    {
+     "title": "ריטריט יוגה בצפון הודו עם מאיה גרוס | סוכות 2026",
+     "dates": "סוכות 2026",
+     "location": "צפון הודו",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "ריטריט יוגה בצפון הודו עם מאיה גרוס | סוכות 2026",
+     "url": "https://www.instagram.com/reel/DeTRaZssQ5i"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "מספר המקומות מוגבל",
+    "עכשיו במחיר מיוחד ל 10 נרשמים ראשונים",
+    "מוזמנים להצטרף אלינו למסע בלתי נשכח"
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "mayagrossyoga"
+   ]
+  },
+  {
+   "handle": "balance.pilates_studio",
+   "profileUrl": "https://www.instagram.com/balance.pilates_studio/",
+   "displayName": "Balance studio. Pilates|Yoga-EILAT",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Eilat",
+    "אילת"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DQeegSvDL6J",
+     "title": "💫Rebalance💫 ינואר 2026, ריבאלנס בריטריט חורף מעניין במיוחד. ...",
+     "excerpt": "💫Rebalance💫 ינואר 2026, ריבאלנס בריטריט חורף מעניין במיוחד. פרטים נוספים בקרוב… #RebalanceRetreat #WinterRebalance2026 #PilatesAndYogaRetreat #EilatRetreat #ריטריט_חורף #ריטריט_נשי #ריטריט_באילת | search snippet: מארגנת לעצמך מזוודה קטנה ואנחנו דואגות להככככללללל 19-22/11/26 ריטריט ניה, יוגה, צלילים מרפאים, מקלחת יער, אוכל משובח, אלכוהול חופשי על הבר,",
+     "kind": "reel",
+     "queryId": "c1bb0637",
+     "lane": "organizer_intent",
+     "score": 0.3775871
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Rebalance winter retreat",
+     "dates": "ינואר 2026",
+     "location": "Eilat",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "💫Rebalance💫 ינואר 2026, ריבאלנס בריטריט חורף מעניין במיוחד.",
+     "url": "https://www.instagram.com/reel/DQeegSvDL6J"
+    },
+    {
+     "title": "ריטריט ניה, יוגה, צלילים מרפאים",
+     "dates": "19-22/11/26",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "19-22/11/26 ריטריט ניה, יוגה, צלילים מרפאים, מקלחת יער, אוכל משובח, אלכוהול חופשי על הבר,",
+     "url": "https://www.instagram.com/reel/DQeegSvDL6J"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "פרטים נוספים בקרוב…"
+   ],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "sunyoga_studio",
+   "profileUrl": "https://www.instagram.com/sunyoga_studio/",
+   "displayName": "Sun Yoga | סטודיו מסורתי לאשטנגה",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Israel",
+    "מרוקו"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/Db03012I1UJ",
+     "title": "החלטת להקדיש שבוע אחד רק לדברים שעושים לך טוב יוגה בבוקר ...",
+     "excerpt": "החלטת להקדיש שבוע אחד רק לדברים שעושים לך טוב יוגה בבוקר, שמש, נופים, אוכל טוב, חיבורים חדשים, והרבה רגעים שפשוט לא צריך למהר בהם. ריטריט מורוקו להאט את הקצב ולהיות נוכחים רוצים להצטרף? לפרטים נוספים לפנות למספר: 0526337768",
+     "kind": "reel",
+     "queryId": "c1bb0637",
+     "lane": "organizer_intent",
+     "score": 0.06708697
+    },
+    {
+     "url": "https://www.instagram.com/p/DaNwiRWiEtt",
+     "title": "Instagram",
+     "excerpt": "הריטריט הזה נולד מתוך הרצון לשלב תרגול, תרבות, טבע וזמן אמיתי לעצמנו. ... אם מרוקו קוראת לכם, נשמח לצאת למסע הזה יחד. לפרטים נוספים והרשמה שלחו לנו הודעה בפרטי🤍",
+     "kind": "post",
+     "queryId": "c1bb0637",
+     "lane": "organizer_intent",
+     "score": 0.055458937
+    },
+    {
+     "url": "https://www.instagram.com/reel/DDt4nu3IhBe",
+     "title": "Instagram",
+     "excerpt": "בואו ללמוד להיות מורים מבית סאן יוגה.. מקומות אחרונים קורס מורים אשטנגה ויניאסה יוגה ינואר קורס ערב 12.1-23.5.23 ינואר קורס בוקר 7.1-2.4.25",
+     "kind": "reel",
+     "queryId": "a279d296",
+     "lane": "organizer_intent",
+     "score": 0.20900147
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "ריטריט מורוקו",
+     "dates": null,
+     "location": "מרוקו",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "ריטריט מורוקו להאט את הקצב ולהיות נוכחים רוצים להצטרף?",
+     "url": "https://www.instagram.com/reel/Db03012I1UJ"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "רוצים להצטרף?",
+    "לפרטים נוספים והרשמה שלחו לנו הודעה בפרטי",
+    "מקומות אחרונים"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "refreshbykf",
+   "profileUrl": "https://www.instagram.com/refreshbykf/",
+   "displayName": "refreshbykf",
+   "bio": null,
+   "followers": null,
+   "website": "www.refreshbykf.com",
+   "locationHints": [
+    "Virginia",
+    "Lansdowne Resort"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DdO6ZZKyHKV",
+     "title": "Instagram",
+     "excerpt": "🗣️Booking is NOW AVAIL for our 6th Wellness Retreat for MEN & WOMEN! 📣 ‘it is well with my SOULstice’™ The Winter Edit — is happening! ✨ 📆: December 11–13, 2026 📍: Lansdowne Resort / Virginia Kim is curating another epic weekend of well-being ... hosted & curated by our founder & CEO, Wellness Ambassador Kim Fields. EXCLUSIVE BOOKING & INFO at www.refreshbykf.com LINK IN BIO",
+     "kind": "reel",
+     "queryId": "bd9b0db1",
+     "lane": "winter_destination",
+     "score": 0.72231215
+    },
+    {
+     "url": "https://www.instagram.com/reel/DcHiD1MT__4",
+     "title": "Instagram",
+     "excerpt": "OUR WINTER SOULstice IS AVAIL FOR BOOKING! Our 6th Wellness Retreat for Men & Women is happening in Virginia! 📆: Dec 11-13, 2026 📍: Lansdowne Resort ℹ️: @refreshbykf.com LINK IN BIO",
+     "kind": "reel",
+     "queryId": "bd9b0db1",
+     "lane": "winter_destination",
+     "score": 0.6364215
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "‘it is well with my SOULstice’™ The Winter Edit (6th Wellness Retreat for Men & Women)",
+     "dates": "December 11–13, 2026",
+     "location": "Lansdowne Resort / Virginia",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "📆: December 11–13, 2026 📍: Lansdowne Resort / Virginia ... hosted & curated by our founder & CEO, Wellness Ambassador Kim Fields.",
+     "url": "https://www.instagram.com/reel/DdO6ZZKyHKV"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Booking is NOW AVAIL",
+    "LINK IN BIO",
+    "OUR WINTER SOULstice IS AVAIL FOR BOOKING!"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "robloudyoga",
+   "profileUrl": "https://www.instagram.com/robloudyoga/",
+   "displayName": "Rob Loud",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Teotepeque, El Salvador"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTI6x-rkVVN",
+     "title": "Instagram",
+     "excerpt": "So then there is this. December 2026! I’m very excited and honored to be co-facilitating “Living Vinyasa” a yoga and wellness retreat with the amazing Jesse Seymour ( @earthschoolyoga ) at @visitmizata . A beautiful and sought after eco-chic resort in the coastal town of Teotepeque, El Salvador ... Registration is live and spots are limited!! Link in bio & QR code",
+     "kind": "post",
+     "queryId": "bd9b0db1",
+     "lane": "winter_destination",
+     "score": 0.6063825
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "“Living Vinyasa” yoga and wellness retreat",
+     "dates": "December 2026",
+     "location": "Mizata Point Resort, Teotepeque, El Salvador",
+     "price": null,
+     "spots": "spots are limited",
+     "role": "co_host",
+     "excerpt": "co-facilitating “Living Vinyasa” a yoga and wellness retreat with the amazing Jesse Seymour ( @earthschoolyoga ) at @visitmizata",
+     "url": "https://www.instagram.com/p/DTI6x-rkVVN"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Registration is live and spots are limited!!",
+    "Link in bio & QR code for additional info and to secure your spot!"
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "earthschoolyoga",
+    "visitmizata"
+   ]
+  },
+  {
+   "handle": "suitedreamsgrancanaria",
+   "profileUrl": "https://www.instagram.com/suitedreamsgrancanaria/",
+   "displayName": "Suite Dreams Gran Canaria",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Gran Canaria"
+   ],
+   "accountType": "venue",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/suitedreamsgrancanaria",
+     "title": "Suite Dreams Gran Canaria (@suitedreamsgrancanaria) • Instagram photos and videos",
+     "excerpt": "Suite Dreams Gran Canaria (@suitedreamsgrancanaria) • Instagram photos and videos ## suitedreamsgrancanaria. Photo by Suite Dreams Gran Canaria on January 15, 2026.",
+     "kind": "profile",
+     "queryId": "47cc5625",
+     "lane": "competitor_venue",
+     "score": 0.16885726
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "profile_url"
+  },
+  {
+   "handle": "lascanterasbeachsuites",
+   "profileUrl": "https://www.instagram.com/lascanterasbeachsuites/",
+   "displayName": "Las Canteras Beach Suites | Gran Canaria",
+   "bio": "Your #holidayhome in Gran Canaria ☀️🌊. 7 luxurious suites very near.",
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Gran Canaria",
+    "Las Palmas de Gran Canaria"
+   ],
+   "accountType": "venue",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/lascanterasbeachsuites",
+     "title": "Las Canteras Beach Suites | Gran Canaria (@lascanterasbeachsuites) • Instagram photos and videos",
+     "excerpt": "Las Canteras Beach Suites | Gran Canaria. Your #holidayhome in Gran Canaria ☀️🌊. 7 luxurious suites very near.",
+     "kind": "profile",
+     "queryId": "47cc5625",
+     "lane": "competitor_venue",
+     "score": 0.12959012
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "profile_url"
+  },
+  {
+   "handle": "_the_retreat_",
+   "profileUrl": "https://www.instagram.com/_the_retreat_/",
+   "displayName": "The Retreat",
+   "bio": "Where travel meets intention. By @heyitsme_cg ☼ 2027: Tulum (4 spots left!), Peru (4 spots left!) + St. Lucia ☼ 2028:",
+   "followers": 1374,
+   "website": "jointheretreat.com",
+   "locationHints": [
+    "Tulum",
+    "Peru",
+    "St. Lucia",
+    "Swiss Alps",
+    "Iceland",
+    "Ohio"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://instagram.com/_the_retreat_",
+     "title": "The Retreat (@_the_retreat_) • Instagram photos and videos",
+     "excerpt": "1,374 followers 666 following The Retreat Where travel meets intention. By @heyitsme_cg ☼ 2027: Tulum (4 spots left!), Peru (4 spots left!) + St. Lucia ☼ 2028: ... jointheretreat.com",
+     "kind": "profile",
+     "queryId": "47cc5625",
+     "lane": "competitor_venue",
+     "score": 0.12893064
+    },
+    {
+     "url": "https://instagram.com/_the_retreat_",
+     "title": "The Retreat (@_the_retreat_) • Instagram photos and videos",
+     "excerpt": "(same profile returned again)",
+     "kind": "profile",
+     "queryId": "de3f4cb6",
+     "lane": "organizer_intent",
+     "score": 0.25273937
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "2027: Tulum",
+     "dates": "2027",
+     "location": "Tulum",
+     "price": null,
+     "spots": "4 spots left!",
+     "role": "organizer",
+     "excerpt": "☼ 2027: Tulum (4 spots left!), Peru (4 spots left!) + St. Lucia",
+     "url": "https://instagram.com/_the_retreat_"
+    },
+    {
+     "title": "2027: Peru",
+     "dates": "2027",
+     "location": "Peru",
+     "price": null,
+     "spots": "4 spots left!",
+     "role": "organizer",
+     "excerpt": "☼ 2027: Tulum (4 spots left!), Peru (4 spots left!) + St. Lucia",
+     "url": "https://instagram.com/_the_retreat_"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "4 spots left!",
+    "Sign Up FAQ"
+   ],
+   "handleSource": "profile_url",
+   "coTaggedHandles": [
+    "heyitsme_cg"
+   ]
+  },
+  {
+   "handle": "kalyanagiliair",
+   "profileUrl": "https://www.instagram.com/kalyanagiliair/",
+   "displayName": "𝐊𝐀𝐋𝐘𝐀𝐍𝐀 | Villa & Retreat",
+   "bio": "5 handcrafted villas, born from local artistry. Your private sanctuary on Gili Air.",
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Gili Air"
+   ],
+   "accountType": "venue",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/kalyanagiliair?hl=en",
+     "title": "𝐊𝐀𝐋𝐘𝐀𝐍𝐀 | Villa & Retreat (@kalyanagiliair) • Instagram photos and videos",
+     "excerpt": "5 handcrafted villas, born from local artistry. Your private sanctuary on Gili Air.",
+     "kind": "profile",
+     "queryId": "47cc5625",
+     "lane": "competitor_venue",
+     "score": 0.110270016
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "profile_url"
+  },
+  {
+   "handle": "saleemuddin797",
+   "profileUrl": "https://www.instagram.com/saleemuddin797/",
+   "displayName": "Saleem Uddin",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DU2HUSegJJ6",
+     "title": "Instagram",
+     "excerpt": "Al Jazeera's Ramadan Calendar Up to 2057 Ramadan Year and Start Date 2026 - February 18 2027 - February 8",
+     "kind": "post",
+     "queryId": "47cc5625",
+     "lane": "competitor_venue",
+     "score": 0.054605763
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "michaeljameswong",
+   "profileUrl": "https://www.instagram.com/michaeljameswong/",
+   "displayName": "Michael James Wong",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Switzerland",
+    "London",
+    "Stockholm",
+    "Edinburgh",
+    "Dublin",
+    "India"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeZV_RmDBeb",
+     "title": "Instagram",
+     "excerpt": "European Tour for 2026/2027 is kicking off next month ... Nov 6-8, 2026 🇨🇭Switzerland @yogameetsweggis Nov 13, 2026 🇬🇧 London @mission.e1 Nov 20-22, 2026 🇸🇪 Stockholm @urbanom_sthlm Dec 4-6, 2026 🏴󠁧󠁢󠁳󠁣󠁴󠁿Edinburgh @tribeyoga Jan 3-10, 2027 🇮🇳 Govindas Eco Village @radhika_dasa Retreat Mar 12-14, 2027 🇮🇪 Dublin @yogahub",
+     "kind": "post",
+     "queryId": "25a7a385",
+     "lane": "market_language",
+     "score": 0.31878248
+    },
+    {
+     "url": "https://www.instagram.com/p/DeZV_RmDBeb",
+     "title": "Instagram",
+     "excerpt": "(same post returned again) just comment TOUR and I’ll send you a link to all the workshops 🙌🏻",
+     "kind": "post",
+     "queryId": "0cb5b323",
+     "lane": "market_language",
+     "score": 0.650934
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Govindas Eco Village Retreat",
+     "dates": "Jan 3-10, 2027",
+     "location": "India",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Jan 3-10, 2027 🇮🇳 Govindas Eco Village @radhika_dasa Retreat",
+     "url": "https://www.instagram.com/p/DeZV_RmDBeb"
+    },
+    {
+     "title": "European Tour 2026/2027 workshops",
+     "dates": "Nov 6-8, 2026; Nov 13, 2026; Nov 20-22, 2026; Dec 4-6, 2026; Mar 12-14, 2027",
+     "location": "Switzerland; London; Stockholm; Edinburgh; Dublin",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "European Tour for 2026/2027 is kicking off next month, love to see you in the workshops and sessions.",
+     "url": "https://www.instagram.com/p/DeZV_RmDBeb"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "(More details coming soon for 200/300hr trainings soon)",
+    "comment TOUR and I’ll send you a link to all the workshops"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "adventure_with_liv",
+   "profileUrl": "https://www.instagram.com/adventure_with_liv/",
+   "displayName": "Liv | Adventure Travel | Cyprus Retreat Host",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Cyprus",
+    "Paphos",
+    "Germany"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DcHLulSIvDr",
+     "title": "Ladies. Saying yes and trying something ...",
+     "excerpt": "just come solo on the Cyprus adventure and wellness retreats 🥰 A small group of other women ... 4 full days of exploration, local experiences, relaxing moments and fun!!! 🤩 all planned by someone who knows the area 👌 ... Next retreat | April 2027 More dates coming 🔜 #cyprus #paphos #womenonly #cyprusretreat #womensretreat",
+     "kind": "reel",
+     "queryId": "3d43e938",
+     "lane": "market_language",
+     "score": 0.64047897
+    },
+    {
+     "url": "https://www.instagram.com/reel/DcHLulSIvDr",
+     "title": "Ladies. Saying yes and trying something ...",
+     "excerpt": "August 16, 2026: 4 full days of exploration, local experiences, relaxing moments and fun!!! Just book it 🤪 and find out. Cyprus adventure and",
+     "kind": "reel",
+     "queryId": "25a7a385",
+     "lane": "market_language",
+     "score": 0.16004303
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Cyprus adventure and wellness retreats (women only)",
+     "dates": "Next retreat | April 2027",
+     "location": "Cyprus / Paphos",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Next retreat | April 2027 More dates coming 🔜",
+     "url": "https://www.instagram.com/reel/DcHLulSIvDr"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Just book it 🤪 and find out.",
+    "More dates coming 🔜"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "louison_yoga",
+   "profileUrl": "https://www.instagram.com/louison_yoga/",
+   "displayName": "Louison Dalla Torre",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Sri Lanka",
+    "Biscarrosse"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DZJtJw7MzRv",
+     "title": "Cette retraite était initialement prévue en avril 2026 mais ...",
+     "excerpt": "3 séjours sont ouverts aux inscriptions. Du 4 au 10 janvier 2027 (Reste 1 place) En tarif normal 1480€ Du 10 au 16 mai 2027. Tarif early | extract: Je vous propose finalement de nous retrouver au Sri Lanka en mai 2027 ☀️🌊 ... au sein d’un groupe de femmes ... Inscriptions ouvertes pour ce voyage ✨ Plus d'infos par message 🙏 #retraiteyoga",
+     "kind": "reel",
+     "queryId": "d5364059",
+     "lane": "organizer_intent",
+     "score": 0.7613083
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Séjour janvier 2027",
+     "dates": "Du 4 au 10 janvier 2027",
+     "location": null,
+     "price": "En tarif normal 1480€",
+     "spots": "Reste 1 place",
+     "role": "organizer",
+     "excerpt": "3 séjours sont ouverts aux inscriptions. Du 4 au 10 janvier 2027 (Reste 1 place) En tarif normal 1480€",
+     "url": "https://www.instagram.com/reel/DZJtJw7MzRv"
+    },
+    {
+     "title": "Retraite Sri Lanka",
+     "dates": "mai 2027 / Du 10 au 16 mai 2027",
+     "location": "Sri Lanka",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "nous retrouver au Sri Lanka en mai 2027 ☀️🌊",
+     "url": "https://www.instagram.com/reel/DZJtJw7MzRv"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "3 séjours sont ouverts aux inscriptions",
+    "Inscriptions ouvertes pour ce voyage ✨",
+    "Reste 1 place"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "emyogaexperience",
+   "profileUrl": "https://www.instagram.com/emyogaexperience/",
+   "displayName": "EmYoga Expérience | Retraites de yoga",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Maroc",
+    "Norvège",
+    "Afrique du Sud"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DdjjvNQNCXN",
+     "title": "Va voir tes courriels !! 👀😍⁠ ⁠ La prévente est ouverte et ...",
+     "excerpt": "Va voir tes courriels !! 👀😍 La prévente est ouverte et ton accès exclusif aux retraites 2027 t'attend dans ta boîte de réception. Maroc. Norvège. Afrique du Sud. Comment réserver ? 📍 Ouvre le courriel → choisis ta destination → remplis le formulaire d’inscription → complète ton 25 % de dépôt TA PLACE SERA ALORS RÉSERVÉE 🙌🏽",
+     "kind": "reel",
+     "queryId": "d5364059",
+     "lane": "organizer_intent",
+     "score": 0.6506676
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Retraites 2027 (Maroc, Norvège, Afrique du Sud)",
+     "dates": "2027",
+     "location": "Maroc. Norvège. Afrique du Sud.",
+     "price": "25 % de dépôt",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "La prévente est ouverte et ton accès exclusif aux retraites 2027 t'attend dans ta boîte de réception. Maroc. Norvège. Afrique du Sud.",
+     "url": "https://www.instagram.com/reel/DdjjvNQNCXN"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "La prévente est ouverte",
+    "complète ton 25 % de dépôt"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "moulindestempliers",
+   "profileUrl": "https://www.instagram.com/moulindestempliers/",
+   "displayName": "Moulin des Templiers",
+   "bio": null,
+   "followers": null,
+   "website": "www.hotel-moulin-des-templiers.com/retraites",
+   "locationHints": [
+    "France"
+   ],
+   "accountType": "venue",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DdlbFn_Mjif",
+     "title": "Et si votre prochaine pause était bien plus qu'un simple ...",
+     "excerpt": "Au Moulin des Templiers, nos retraites bien-être ... • Retraite « Habiter l’Hiver » - 20 au 22 novembre 2026 • Retraite d’hiver - 26 au 28 février 2027 • Retraite « Accueillir le Printemps » - 12 au 14 mars 2027 • Retraite de printemps - 30 avril au 2 mai 2027 ... 📞 Réservations : par téléphone au 03 86 34 10 80 ou par email à contact@hotel-moulin-des-templiers.com",
+     "kind": "reel",
+     "queryId": "15631f40",
+     "lane": "organizer_intent",
+     "score": 0.6469293
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Retraite « Habiter l’Hiver »",
+     "dates": "20 au 22 novembre 2026",
+     "location": "Moulin des Templiers",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "• Retraite « Habiter l’Hiver » - 20 au 22 novembre 2026",
+     "url": "https://www.instagram.com/reel/DdlbFn_Mjif"
+    },
+    {
+     "title": "Retraite d’hiver",
+     "dates": "26 au 28 février 2027",
+     "location": "Moulin des Templiers",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "• Retraite d’hiver - 26 au 28 février 2027",
+     "url": "https://www.instagram.com/reel/DdlbFn_Mjif"
+    },
+    {
+     "title": "Retraite « Accueillir le Printemps »",
+     "dates": "12 au 14 mars 2027",
+     "location": "Moulin des Templiers",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "• Retraite « Accueillir le Printemps » - 12 au 14 mars 2027",
+     "url": "https://www.instagram.com/reel/DdlbFn_Mjif"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Réservations : par téléphone au 03 86 34 10 80"
+   ],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "alfonsocuadra",
+   "profileUrl": "https://www.instagram.com/alfonsocuadra/",
+   "displayName": "Alfonso Cuadra",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Sierra Leone, Africa"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DeZ8IYcuN_l",
+     "title": "ULTIMATE MASTERMIND RETREAT #17 SIERRA LEONE ...",
+     "excerpt": "Registration is open: https://forms.gle/ajzQVkcxDdemU5vo9. Or ... ✓ Available to participate 10–14 December 2026 The top 3 teams | extract: 🚨 ULTIMATE MASTERMIND RETREAT #17 SIERRA LEONE INFO SESSION! 🇸🇱🌴 ... brings together an incredible group of entrepreneurs, investors ... 🌍 Sierra Leone, Africa 🧠 Business & Personal Development 🤝 Mastermind With Like-Minded Entrepreneurs",
+     "kind": "reel",
+     "queryId": "aa3a6aad",
+     "lane": "winter_destination",
+     "score": 0.8415267
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "ULTIMATE MASTERMIND RETREAT #17 SIERRA LEONE",
+     "dates": "10–14 December 2026",
+     "location": "Sierra Leone, Africa",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Registration is open: https://forms.gle/ajzQVkcxDdemU5vo9. Or ... ✓ Available to participate 10–14 December 2026",
+     "url": "https://www.instagram.com/reel/DeZ8IYcuN_l"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Registration is open"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "coachkeren",
+   "profileUrl": "https://www.instagram.com/coachkeren/",
+   "displayName": "Coach Keren",
+   "bio": null,
+   "followers": null,
+   "website": "kereneldad.com/vipday2026",
+   "locationHints": [
+    "Austin, TX"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DcWYs3NivRv",
+     "title": "Instagram",
+     "excerpt": "If you’re ready to stop waiting for a crisis to give you permission to change your life, join me for VIP Day. November 14, 2026 | Austin, TX Limited spots available. Get your ticket: kereneldad.com/vipday2026 #businessretreat #austintexas #mastermind #businessowner #ceo",
+     "kind": "reel",
+     "queryId": "aa3a6aad",
+     "lane": "winter_destination",
+     "score": 0.41948205
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "VIP Day 2026",
+     "dates": "November 14, 2026",
+     "location": "Austin, TX",
+     "price": null,
+     "spots": "Limited spots available.",
+     "role": "organizer",
+     "excerpt": "join me for VIP Day. November 14, 2026 | Austin, TX Limited spots available. Get your ticket: kereneldad.com/vipday2026",
+     "url": "https://www.instagram.com/reel/DcWYs3NivRv"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Limited spots available.",
+    "Get your ticket"
+   ],
+   "handleSource": "first_line_before_follow"
+  },
+  {
+   "handle": "klaras.table",
+   "profileUrl": "https://www.instagram.com/klaras.table/",
+   "displayName": "Klara Marie",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "south of Gran Canaria"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DVJcOcUiAxW",
+     "title": "Instagram",
+     "excerpt": "This spring I’m joining a few beautiful retreats - the first one is Gran Soul Escape in the south of Gran Canaria, March 22-27. Together with @sinekloster and @danniutrera, we invite you to immerse yourself in daily yoga and pilates ... I’ll be cooking with local ingredients, creating nourishing meals and hosting small workshops throughout the week. Link in bio - only a few spots left.",
+     "kind": "post",
+     "queryId": "295e1244",
+     "lane": "competitor_venue",
+     "score": 0.7429634
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Gran Soul Escape",
+     "dates": "March 22-27",
+     "location": "south of Gran Canaria",
+     "price": null,
+     "spots": "only a few spots left",
+     "role": "co_host",
+     "excerpt": "Gran Soul Escape in the south of Gran Canaria, March 22-27. Together with @sinekloster and @danniutrera",
+     "url": "https://www.instagram.com/p/DVJcOcUiAxW"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Link in bio - only a few spots left."
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "sinekloster",
+    "danniutrera"
+   ]
+  },
+  {
+   "handle": "giuliayogabelluno",
+   "profileUrl": "https://www.instagram.com/giuliayogabelluno/",
+   "displayName": "Giulia Citterio",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Tenerife",
+    "Belluno",
+    "Trento"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DeRxhDVtDwx",
+     "title": "Instagram",
+     "excerpt": "Your Tenerife yoga retreat is waiting for you 🧡🌿 Beginning of 2027, a few days to slow down, reconnect and make space for yourself. Interested in joining us? ✨ Send me a message to ask about availability and receive all the details 🙏🏼 The retreat will be in Italian and English #yogaretreat #tenerife #canaryisland #blacklotusyoga",
+     "kind": "reel",
+     "queryId": "295e1244",
+     "lane": "competitor_venue",
+     "score": 0.6854659
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Tenerife yoga retreat",
+     "dates": "Beginning of 2027",
+     "location": "Tenerife",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Your Tenerife yoga retreat is waiting for you 🧡🌿 Beginning of 2027",
+     "url": "https://www.instagram.com/reel/DeRxhDVtDwx"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "Send me a message to ask about availability and receive all the details"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "ladan_soltani",
+   "profileUrl": "https://www.instagram.com/ladan_soltani/",
+   "displayName": "✨ Yoga / Meditation / Retreats ✨",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Canary Islands",
+    "Lanzarote",
+    "Spain"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DeJa7OZt3t9",
+     "title": "Instagram",
+     "excerpt": "So excited to be hosting 3 back to back winter retreats in the Canary Islands - Lanzarote - Spain ☀️ ... ✨21-27 December Christmas retreat ✨28th Dec-2nd Jan New Year retreat ✨3-8 January Yoga detox retreat ... delicious 😋 food prepared by the islands top plant based chef. #yogaretreatscanaryislands #christmasretreats #newyearretreats #winteryogaretreat",
+     "kind": "reel",
+     "queryId": "295e1244",
+     "lane": "competitor_venue",
+     "score": 0.5760895
+    },
+    {
+     "url": "https://www.instagram.com/reel/DdeE0FUM3Up",
+     "title": "Instagram",
+     "excerpt": "Video by ✨ Yoga / Meditation / Retreats ✨ on August 31, 2026. May be an image of text that says 'MY 3 WINTER CANARY ISLAND RETREATS CHRITSMAS NEW YEAR JANUARY YOGA DETOX'. ladan_soltani's profile picture (no literal handle pattern; attached on account-name match)",
+     "kind": "reel",
+     "queryId": "295e1244",
+     "lane": "competitor_venue",
+     "score": 0.52130115
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Christmas retreat",
+     "dates": "21-27 December",
+     "location": "Lanzarote, Canary Islands",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "✨21-27 December Christmas retreat",
+     "url": "https://www.instagram.com/reel/DeJa7OZt3t9"
+    },
+    {
+     "title": "New Year retreat",
+     "dates": "28th Dec-2nd Jan",
+     "location": "Lanzarote, Canary Islands",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "✨28th Dec-2nd Jan New Year retreat",
+     "url": "https://www.instagram.com/reel/DeJa7OZt3t9"
+    },
+    {
+     "title": "Yoga detox retreat",
+     "dates": "3-8 January",
+     "location": "Lanzarote, Canary Islands",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "✨3-8 January Yoga detox retreat",
+     "url": "https://www.instagram.com/reel/DeJa7OZt3t9"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "hosting 3 back to back winter retreats",
+    "I would love to welcome you"
+   ],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "mysoreyogaparis",
+   "profileUrl": "https://www.instagram.com/mysoreyogaparis/",
+   "displayName": "Kia Naddermier",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Paris",
+    "Tenerife",
+    "Oslo, NORWAY"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DTkq_EYDJWv",
+     "title": "Instagram",
+     "excerpt": "So grateful to be heading back to @purplevalleyyogatenerife in February with some of my favorite people! 🌊 ... Bhāvanā - The Path of Cultivation 1 Week Retreat with Kia Naddermier assisted by @agnetabeckman February 14-21 A couple of last spaces open! Reach out to @purplevalleyyogatenerife for details & booking. 🤍x #mysoreyogaparis #kianaddermier #purplevalleyyoga #fincanaranjastenerife",
+     "kind": "reel",
+     "queryId": "295e1244",
+     "lane": "competitor_venue",
+     "score": 0.42605945
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd81lEQjI8o",
+     "title": "mysoreyogaparis",
+     "excerpt": "mysoreyogaparis on October 1, 2026: 23-26th, Oslo, NORWAY 4. November 13-18th, Paris, FRANCE (module 3) 12-Day In-Depth Retreat contact@",
+     "kind": "post",
+     "queryId": "25a7a385",
+     "lane": "market_language",
+     "score": 0.28248852
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Bhāvanā - The Path of Cultivation, 1 Week Retreat",
+     "dates": "February 14-21",
+     "location": "Purple Valley Yoga Tenerife (Finca Naranjas)",
+     "price": null,
+     "spots": "A couple of last spaces open!",
+     "role": "organizer",
+     "excerpt": "1 Week Retreat with Kia Naddermier assisted by @agnetabeckman February 14-21 A couple of last spaces open!",
+     "url": "https://www.instagram.com/reel/DTkq_EYDJWv"
+    },
+    {
+     "title": "12-Day In-Depth Retreat (module 3)",
+     "dates": "November 13-18th",
+     "location": "Paris, FRANCE",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "November 13-18th, Paris, FRANCE (module 3) 12-Day In-Depth Retreat",
+     "url": "https://www.instagram.com/p/Dd81lEQjI8o"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "A couple of last spaces open!"
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "purplevalleyyogatenerife",
+    "agnetabeckman"
+   ]
+  },
+  {
+   "handle": "retreatcompany",
+   "profileUrl": "https://www.instagram.com/retreatcompany/",
+   "displayName": "The Retreat Company",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Lanzarote",
+    "Canary Islands - Spain"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DRJ39n2DFAB",
+     "title": "Instagram",
+     "excerpt": "Looking for alternative plans between Christmas and into the new year? There’s still space on this yoga retreat in the Canary Islands. 🎇 As featured in The Guardian’s ‘10 Great Christmas Getaways’. -6 day Luxury New Year Yoga Retreat -28th December - 2nd January -Canary Islands - Spain Located in the serene and picturesque Lanzarote, the villa boasts a tennis court, a swimming pool, and a dedic...",
+     "kind": "post",
+     "queryId": "295e1244",
+     "lane": "competitor_venue",
+     "score": 0.42348245
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "6 day Luxury New Year Yoga Retreat",
+     "dates": "28th December - 2nd January",
+     "location": "Lanzarote, Canary Islands - Spain",
+     "price": null,
+     "spots": "There’s still space",
+     "role": "promoter",
+     "excerpt": "-6 day Luxury New Year Yoga Retreat -28th December - 2nd January -Canary Islands - Spain",
+     "url": "https://www.instagram.com/p/DRJ39n2DFAB"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "There’s still space on this yoga retreat"
+   ],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "beppeyoga",
+   "profileUrl": "https://www.instagram.com/beppeyoga/",
+   "displayName": "Beppe - Yoga Teacher",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Gran Canaria"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DRkhOcDDAO3",
+     "title": "Instagram",
+     "excerpt": "Here you can see a bit of what we got up to this September. This was an open level retreat making it a suitable space also for beginners. ... Seeing the group blossom over our time in Gran Canaria was a wonderful experience. I hope to cross paths with you all again in the future 💛",
+     "kind": "reel",
+     "queryId": "295e1244",
+     "lane": "competitor_venue",
+     "score": 0.18453261
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "open level retreat in Gran Canaria",
+     "dates": "this September",
+     "location": "Gran Canaria",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "This was an open level retreat making it a suitable space also for beginners. ... our time in Gran Canaria",
+     "url": "https://www.instagram.com/reel/DRkhOcDDAO3"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "sostlaurent",
+   "profileUrl": "https://www.instagram.com/sostlaurent/",
+   "displayName": "Sophie ~ Yoga teacher & facialiste",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Sesimbra, Portugal"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DdmT5YmFlTX",
+     "title": "Instagram",
+     "excerpt": "Quelques bonnes raisons d’embarquer avec nous dans notre prochaine aventure 😍 ... Il reste encore de la place pour notre prochaine retraite au Portugal du 9 au 17 avril 2027. ✨ Et si toi aussi tu vivais cette aventure en 2027. #yogaretreat #retraitedeyoga | poster text: RETRAITE DE YOGA CO-CRÉATION SOPHIE & CHARLINE ... 9 AU 17 AVRIL 2027 SESIMBRA, PORTUGAL",
+     "kind": "post",
+     "queryId": "a38f98b9",
+     "lane": "market_language",
+     "score": 0.52203226
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Retraite de yoga co-création Sophie & Charline",
+     "dates": "du 9 au 17 avril 2027",
+     "location": "Sesimbra, Portugal",
+     "price": null,
+     "spots": "Il reste encore de la place",
+     "role": "co_host",
+     "excerpt": "Il reste encore de la place pour notre prochaine retraite au Portugal du 9 au 17 avril 2027.",
+     "url": "https://www.instagram.com/p/DdmT5YmFlTX"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Il reste encore de la place pour notre prochaine retraite"
+   ],
+   "handleSource": "more_posts_from",
+   "coTaggedHandles": [
+    "charline.yoga"
+   ]
+  },
+  {
+   "handle": "novafitnessretreat",
+   "profileUrl": "https://www.instagram.com/novafitnessretreat/",
+   "displayName": "Nova Fitness Retreat",
+   "bio": "Vietnam's first purpose built retreat. Official HYROX Affiliated Training Club IRONMAN Phu Quoc.",
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Phu Quoc, Vietnam"
+   ],
+   "accountType": "venue",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/novafitnessretreat?hl=en",
+     "title": "Nova Fitness Retreat (@novafitnessretreat) • Instagram photos and videos",
+     "excerpt": "Vietnam's first purpose built retreat. Official HYROX Affiliated Training Club IRONMAN Phu Quoc. ... 'NOVA FITNESS RETREAT CREATE. Join NoA as a Content Creator PHU QUOC, VIETNAM ... AUGUST & SEPTEMBER 2026 APPLY NOW!'",
+     "kind": "profile",
+     "queryId": "de3f4cb6",
+     "lane": "organizer_intent",
+     "score": 0.7325349
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "APPLY NOW!"
+   ],
+   "handleSource": "profile_url"
+  },
+  {
+   "handle": "columbiayoga",
+   "profileUrl": "https://www.instagram.com/columbiayoga/",
+   "displayName": "Yoga Center of Columbia - mind-body center and community",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Columbia"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Dd5Gr85jLLl",
+     "title": "Instagram",
+     "excerpt": "Registration is OPEN for our cornerstone programs beginning in January 2027 at the Yoga Center of Columbia: RYT 200 Yoga Teacher Training & RYT 500 Yoga Teacher Training! ... Save $200 when you register by December 15th!",
+     "kind": "post",
+     "queryId": "c965a45c",
+     "lane": "winter_destination",
+     "score": 0.93911994
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "RYT 200 / RYT 500 Yoga Teacher Training",
+     "dates": "beginning in January 2027",
+     "location": "Yoga Center of Columbia",
+     "price": "Save $200 when you register by December 15th!",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Registration is OPEN for our cornerstone programs beginning in January 2027 at the Yoga Center of Columbia",
+     "url": "https://www.instagram.com/p/Dd5Gr85jLLl"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Registration is OPEN",
+    "Secure your spot today on our website!"
+   ],
+   "handleSource": "more_posts_from",
+   "note": "local US studio teacher training, not a destination retreat"
+  },
+  {
+   "handle": "folkyogasf",
+   "profileUrl": "https://www.instagram.com/folkyogasf/",
+   "displayName": "Folk Yoga",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "San Francisco"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DePeZkzCqi1",
+     "title": "Instagram",
+     "excerpt": "Winter 2027 Yoga Teacher Training enrollment is now open with Advanced Early Bird Special pricing! ... PART-TIME January 10–April 4, 2027 ... FULL-TIME February 9–March 7, 2027 ... SUPER EARLY BIRD: $2,899 ... EARLY BIRD: $3,099 ... Regular tuition: $3,699 (Dec 2nd onwards) #YogaTeacherTrainingSF",
+     "kind": "reel",
+     "queryId": "c965a45c",
+     "lane": "winter_destination",
+     "score": 0.8934678
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "200 Hour Yoga Teacher Training Winter 2027",
+     "dates": "January 10–April 4, 2027 (part-time); February 9–March 7, 2027 (full-time)",
+     "location": "San Francisco",
+     "price": "SUPER EARLY BIRD: $2,899; EARLY BIRD: $3,099; Regular tuition: $3,699",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Winter 2027 Yoga Teacher Training enrollment is now open with Advanced Early Bird Special pricing!",
+     "url": "https://www.instagram.com/reel/DePeZkzCqi1"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "enrollment is now open",
+    "Visit the link in our bio to explore the programs and enroll"
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "local US studio teacher training"
+  },
+  {
+   "handle": "prana_holly_springs",
+   "profileUrl": "https://www.instagram.com/prana_holly_springs/",
+   "displayName": "Prana Yoga Holly Springs",
+   "bio": null,
+   "followers": null,
+   "website": "www.prana-yogahollysprings.com/ytt",
+   "locationHints": [
+    "Holly Springs"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeZv8q2CXIW",
+     "title": "Instagram",
+     "excerpt": "Ever thought about teaching yoga? Our 2027 200-Hour Teacher Training starts January 8. ... all on weekends. ... Visit www.prana-yogahollysprings.com/ytt for details",
+     "kind": "post",
+     "queryId": "c965a45c",
+     "lane": "winter_destination",
+     "score": 0.8765607
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "2027 200-Hour Teacher Training",
+     "dates": "starts January 8",
+     "location": "Holly Springs",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Our 2027 200-Hour Teacher Training starts January 8.",
+     "url": "https://www.instagram.com/p/DeZv8q2CXIW"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [],
+   "handleSource": "never_miss_a_post",
+   "note": "local US studio teacher training"
+  },
+  {
+   "handle": "imayogastudio",
+   "profileUrl": "https://www.instagram.com/imayogastudio/",
+   "displayName": "Ima Yoga fka Modo Yoga Miami Beach",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Miami Beach"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DQreq2-Do49",
+     "title": "Instagram",
+     "excerpt": "Registration for 200 Hour Teacher Training beginning this January through March is open! ✨✨ Early bird pricing ends Thanksgiving Day. Click the link in our bio to learn more and apply. #miamiyogatraining #ytt #miamibeach",
+     "kind": "post",
+     "queryId": "c965a45c",
+     "lane": "winter_destination",
+     "score": 0.7997713
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "200 Hour Teacher Training",
+     "dates": "this January through March",
+     "location": "Miami Beach",
+     "price": "Early bird pricing ends Thanksgiving Day",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Registration for 200 Hour Teacher Training beginning this January through March is open!",
+     "url": "https://www.instagram.com/p/DQreq2-Do49"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Registration ... is open!",
+    "Click the link in our bio to learn more and apply."
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "local US studio teacher training"
+  },
+  {
+   "handle": "mightyyoganh",
+   "profileUrl": "https://www.instagram.com/mightyyoganh/",
+   "displayName": "Mighty Yoga NH",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "NH",
+    "Ithaca"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Db3t16snavq",
+     "title": "Instagram",
+     "excerpt": "There’s still time to join the waitlist for our 2027 Yoga Teacher Training! Get early access to registration & prepare to deepen your practice at the link in our bio. 🪷🪷🪷 | image text: 'JANUARY-MAY 2027 LINK IN BIO FOR MORE INFO YOGA TEACHER TRAINING REGISTRATION IS LIVE!'",
+     "kind": "post",
+     "queryId": "c965a45c",
+     "lane": "winter_destination",
+     "score": 0.7343678
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "2027 Yoga Teacher Training",
+     "dates": "JANUARY-MAY 2027",
+     "location": "NH",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "There’s still time to join the waitlist for our 2027 Yoga Teacher Training!",
+     "url": "https://www.instagram.com/p/Db3t16snavq"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "join the waitlist",
+    "REGISTRATION IS LIVE!"
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "local US studio teacher training"
+  },
+  {
+   "handle": "purple_yoga",
+   "profileUrl": "https://www.instagram.com/purple_yoga/",
+   "displayName": "Purple Yoga",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DdVNKwxtlqB",
+     "title": "Instagram",
+     "excerpt": "Missed our current Fall Yoga Teacher Training? 💜 Purple Yoga Teacher Training Winter - Spring 2027 February 6th, 2027 - May 9th, 2027 Orientation/Opening Weekend: Saturday February 6th, 2027 Graduation: Sunday May 9th, 2027 email:membership@purpleyoga.org for more info",
+     "kind": "reel",
+     "queryId": "c965a45c",
+     "lane": "winter_destination",
+     "score": 0.7192461
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Purple Yoga Teacher Training Winter - Spring 2027",
+     "dates": "February 6th, 2027 - May 9th, 2027",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Purple Yoga Teacher Training Winter - Spring 2027 February 6th, 2027 - May 9th, 2027",
+     "url": "https://www.instagram.com/reel/DdVNKwxtlqB"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "email:membership@purpleyoga.org for more info"
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "local US studio teacher training"
+  },
+  {
+   "handle": "yogaonthelane",
+   "profileUrl": "https://www.instagram.com/yogaonthelane/",
+   "displayName": "Yoga On The Lane",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DZUf5ieqvw6",
+     "title": "Instagram",
+     "excerpt": "New dates! Yoga on the Lane, Teacher Training 2027: NEW Training Dates September 11–12 October 9–10 November 13–14 December 11–12 January 8–9 February 12–13 March 11–12",
+     "kind": "post",
+     "queryId": "c965a45c",
+     "lane": "winter_destination",
+     "score": 0.709684
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Yoga on the Lane, Teacher Training 2027",
+     "dates": "September 11–12 October 9–10 November 13–14 December 11–12 January 8–9 February 12–13 March 11–12",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "New dates! Yoga on the Lane, Teacher Training 2027",
+     "url": "https://www.instagram.com/p/DZUf5ieqvw6"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "New dates!"
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "studio weekend teacher training, not a destination retreat"
+  },
+  {
+   "handle": "ripple.surf.therapy",
+   "profileUrl": "https://www.instagram.com/ripple.surf.therapy/",
+   "displayName": "Ripple | Surf Therapy Retreat",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Sintra, Portugal",
+    "Fuerteventura",
+    "El Viejo, Nicaragua",
+    "Taghazout, Morocco"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DePQSH-jMJp?__d=1Leilanna",
+     "title": "Sometimes I still have those moments where I think: ...",
+     "excerpt": "Our next retreats takes place in: Fuerteventura | 21 – 28 November, 2026 Nicaragua | 30 January - 6 February, 2027 Morocco | 27 March - | extract: Over the past few years, I’ve had the privilege of hosting 16(!) retreats around the world, bringing therapy, surfing and human connection together. ... Comment RIPPLE below and I’ll send you more information.",
+     "kind": "post",
+     "queryId": "274ccfc5",
+     "lane": "competitor_venue",
+     "score": 0.76951396
+    },
+    {
+     "url": "https://www.instagram.com/reel/DbifVCaM1qb",
+     "title": "Instagram",
+     "excerpt": "join us on one of our upcoming retreats. ✨ 21 - 28 November 2026 | Fuerteventura @_dreamwavesurf_ ✨ 30 January - 6 February 2027 | El Viejo, Nicaragua @mellowresort ✨ 27 March - 3 April 2027 | Taghazout, Morocco @surfmaroc ✨10 - 17 April 2027 | Taghazout, Morocco",
+     "kind": "reel",
+     "queryId": "13705015",
+     "lane": "competitor_venue",
+     "score": 0.560566
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Surf therapy retreat Fuerteventura",
+     "dates": "21 - 28 November 2026",
+     "location": "Fuerteventura (@_dreamwavesurf_)",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "✨ 21 - 28 November 2026 | Fuerteventura @_dreamwavesurf_",
+     "url": "https://www.instagram.com/reel/DbifVCaM1qb"
+    },
+    {
+     "title": "Surf therapy retreat Nicaragua",
+     "dates": "30 January - 6 February 2027",
+     "location": "El Viejo, Nicaragua (@mellowresort)",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "✨ 30 January - 6 February 2027 | El Viejo, Nicaragua @mellowresort",
+     "url": "https://www.instagram.com/reel/DbifVCaM1qb"
+    },
+    {
+     "title": "Surf therapy retreat Morocco",
+     "dates": "27 March - 3 April 2027; 10 - 17 April 2027",
+     "location": "Taghazout, Morocco (@surfmaroc)",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "✨ 27 March - 3 April 2027 | Taghazout, Morocco @surfmaroc ✨10 - 17 April 2027 | Taghazout, Morocco",
+     "url": "https://www.instagram.com/reel/DbifVCaM1qb"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "hosting 16(!) retreats around the world",
+    "Comment RIPPLE below and I’ll send you more information."
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "_dreamwavesurf_",
+    "mellowresort",
+    "surfmaroc"
+   ]
+  },
+  {
+   "handle": "itskimberlykennedy",
+   "profileUrl": "https://www.instagram.com/itskimberlykennedy/",
+   "displayName": "Kimberly Kennedy",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "portugal"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DYpdS7Ix12V",
+     "title": "Instagram",
+     "excerpt": "throwback moment from hosting a retreat with @reginaosilva in portugal 🇵🇹 @coherenceretreats",
+     "kind": "reel",
+     "queryId": "274ccfc5",
+     "lane": "competitor_venue",
+     "score": 0.07990414
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "retreat in portugal (throwback)",
+     "dates": null,
+     "location": "portugal",
+     "price": null,
+     "spots": null,
+     "role": "co_host",
+     "excerpt": "hosting a retreat with @reginaosilva in portugal 🇵🇹 @coherenceretreats",
+     "url": "https://www.instagram.com/reel/DYpdS7Ix12V"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "more_posts_from",
+   "coTaggedHandles": [
+    "reginaosilva",
+    "coherenceretreats"
+   ]
+  },
+  {
+   "handle": "art_fuel_studio",
+   "profileUrl": "https://www.instagram.com/art_fuel_studio/",
+   "displayName": "ARTfuel Studio",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Portugal"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DcyrklzROHn",
+     "title": "Instagram",
+     "excerpt": "Still on a high from our time in Portugal with these wonderful artists! That’s a wrap for our 2026 Composition Lab retreats. ... PS: 2027 announcements loading….",
+     "kind": "reel",
+     "queryId": "be14d6a9",
+     "lane": "market_language",
+     "score": 0.34448805
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "2026 Composition Lab retreats",
+     "dates": "2026",
+     "location": "Portugal",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "That’s a wrap for our 2026 Composition Lab retreats.",
+     "url": "https://www.instagram.com/reel/DcyrklzROHn"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "2027 announcements loading…."
+   ],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "yogaden.nl",
+   "profileUrl": "https://www.instagram.com/yogaden.nl/",
+   "displayName": "Yoga Den Amsterdam",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Amsterdam",
+    "Paros, Greece"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DT_Av8OCNbz",
+     "title": "Instagram",
+     "excerpt": "Retreat with Tina in Paros, Greece (May 14-19 🇬🇷) Seven days of deep practice, clear and intelligent teaching, and a genuine nervous system reset, all held on one of the most beautiful islands in the Aegean 🌊 ... • A small group setting that allows for presence, attention, and connection",
+     "kind": "post",
+     "queryId": "be14d6a9",
+     "lane": "market_language",
+     "score": 0.1191314
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Retreat with Tina in Paros, Greece",
+     "dates": "May 14-19",
+     "location": "Paros, Greece",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Retreat with Tina in Paros, Greece (May 14-19 🇬🇷)",
+     "url": "https://www.instagram.com/p/DT_Av8OCNbz"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "msjamilahpitts",
+   "profileUrl": "https://www.instagram.com/msjamilahpitts/",
+   "displayName": "Jamilah Pitts",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Panama",
+    "Marrakech, Morocco",
+    "Hocking Hills",
+    "Belize",
+    "Columbus Ohio"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Dd7LmZYH2aC",
+     "title": "Instagram",
+     "excerpt": "✨✨✨ Our 2027 Wellness Retreats are now open✨✨✨ ... Our retreat season through my org @she_imprints is officially here! ... ✨ Panama during the week of Juneteenth ✨ Ease into fall with us in Marrakech, Morocco ✨ (for ladies in Ohio) Join us for a restorative weekend in Hocking Hills ✨ close out the 2027 New Year with us on a private island in Belize (December 2027) ... Morocco is almost sold out!",
+     "kind": "post",
+     "queryId": "0756887f",
+     "lane": "organizer_intent",
+     "score": 0.8145405
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Belize private island retreat",
+     "dates": "December 2027",
+     "location": "private island in Belize",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "close out the 2027 New Year with us on a private island in Belize (December 2027)",
+     "url": "https://www.instagram.com/p/Dd7LmZYH2aC"
+    },
+    {
+     "title": "Marrakech retreat",
+     "dates": "fall",
+     "location": "Marrakech, Morocco",
+     "price": null,
+     "spots": "Morocco is almost sold out!",
+     "role": "organizer",
+     "excerpt": "Ease into fall with us in Marrakech, Morocco",
+     "url": "https://www.instagram.com/p/Dd7LmZYH2aC"
+    },
+    {
+     "title": "2 day wellness experience at Homeostasis",
+     "dates": "December 5 - 6",
+     "location": "Columbus",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "(for ladies in Columbus) join us this December 5 - 6 for a 2 day wellness experience at Homeostasis",
+     "url": "https://www.instagram.com/p/Dd7LmZYH2aC"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Our 2027 Wellness Retreats are now open",
+    "Links in bio to apply.",
+    "All of our retreats have limited space and Morocco is almost sold out!"
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "she_imprints"
+   ]
+  },
+  {
+   "handle": "vituityhealth",
+   "profileUrl": "https://www.instagram.com/vituityhealth/",
+   "displayName": "Vituity",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Coronado, CA"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DXfKEqhD53E",
+     "title": "Instagram",
+     "excerpt": "Vituity's Wellness 2026 Retreat ... 📍 November 12–15 | Loews Coronado Bay Resort, Coronado, CA ❗️Limited spots ❗️Early bird pricing through June 5 #physicianwellbeing",
+     "kind": "reel",
+     "queryId": "0756887f",
+     "lane": "organizer_intent",
+     "score": 0.7011614
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Vituity's Wellness 2026 Retreat",
+     "dates": "November 12–15",
+     "location": "Loews Coronado Bay Resort, Coronado, CA",
+     "price": "Early bird pricing through June 5",
+     "spots": "Limited spots",
+     "role": "organizer",
+     "excerpt": "📍 November 12–15 | Loews Coronado Bay Resort, Coronado, CA ❗️Limited spots",
+     "url": "https://www.instagram.com/reel/DXfKEqhD53E"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Limited spots",
+    "Click the link in our bio to register!"
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "US physician staffing company internal wellness retreat"
+  },
+  {
+   "handle": "goddessretreats",
+   "profileUrl": "https://www.instagram.com/goddessretreats/",
+   "displayName": "Goddess Retreats | The Original Wellness Retreats for Women",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Bali",
+    "Ubud"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeLqlxKEzR4",
+     "title": "Instagram",
+     "excerpt": "As we look toward 2027, we’ve curated a fresh chapter of retreat programs created for women who want space to reconnect, reset, and return to themselves with ease. Lock in 2026 rates for your 2027 retreat when you reserve early, plus receive a complimentary room! Which retreat feels like your dream? Send us a DM for details 🤍 #goddessretreats #2027retreats #baliretreat #womenretreats",
+     "kind": "post",
+     "queryId": "0756887f",
+     "lane": "organizer_intent",
+     "score": 0.65835214
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "2027 retreat programs for women",
+     "dates": "2027",
+     "location": "Bali",
+     "price": "Lock in 2026 rates for your 2027 retreat when you reserve early, plus receive a complimentary room!",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "As we look toward 2027, we’ve curated a fresh chapter of retreat programs created for women",
+     "url": "https://www.instagram.com/p/DeLqlxKEzR4"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "Lock in 2026 rates for your 2027 retreat when you reserve early",
+    "Send us a DM for details"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "candacevandell",
+   "profileUrl": "https://www.instagram.com/candacevandell/",
+   "displayName": "Candace Kroslak-van Dell",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Caribbean",
+    "Punta Cana"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DRAd2bqkYR6",
+     "title": "Instagram",
+     "excerpt": "RISE RETREAT 2026 WAITLIST OPEN ❤️🚀🌴 • I took a group of beautiful woman to the Caribbean for my retreat this October ... COMMENT “Retreat” to get in the waitlist for May 2026! ... A special thanks to my amazing facilitators @puntacanaresort @jandalasoul @gongtherapypuntacana @swimhorsepuntacana",
+     "kind": "reel",
+     "queryId": "0756887f",
+     "lane": "organizer_intent",
+     "score": 0.5803764
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "RISE RETREAT 2026",
+     "dates": "May 2026",
+     "location": "Caribbean / Punta Cana",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "RISE RETREAT 2026 WAITLIST OPEN ... COMMENT “Retreat” to get in the waitlist for May 2026!",
+     "url": "https://www.instagram.com/reel/DRAd2bqkYR6"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "WAITLIST OPEN",
+    "COMMENT “Retreat” to get in the waitlist"
+   ],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "body.by.letty",
+   "profileUrl": "https://www.instagram.com/body.by.letty/",
+   "displayName": "Letty Mitchell",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Costa Rica"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DdjaPgCl46U",
+     "title": "Instagram",
+     "excerpt": "The Radical Reset - An Immersion in Costa Rica 🙏🏽 12th - 17th April 2027 ... We are beyond excited to be offering this special retreat in stunning Costa Rica. ... All info and bookings can be made via the link in my bio. | image text: 'The Radical Reset an immersion in Costa Rica 12-17th April 2027 Letty Mitchell + The Sound Shift'",
+     "kind": "post",
+     "queryId": "0756887f",
+     "lane": "organizer_intent",
+     "score": 0.3436946
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "The Radical Reset - An Immersion in Costa Rica",
+     "dates": "12th - 17th April 2027",
+     "location": "Costa Rica",
+     "price": null,
+     "spots": null,
+     "role": "co_host",
+     "excerpt": "The Radical Reset - An Immersion in Costa Rica 🙏🏽 12th - 17th April 2027",
+     "url": "https://www.instagram.com/p/DdjaPgCl46U"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "All info and bookings can be made via the link in my bio."
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "the_sound_shift"
+   ]
+  },
+  {
+   "handle": "tootsieolan",
+   "profileUrl": "https://www.instagram.com/tootsieolan/",
+   "displayName": "Tootsie Olan",
+   "bio": null,
+   "followers": null,
+   "website": "www.tootsieolan.com/retreats",
+   "locationHints": [
+    "Belize"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/Dc4Wy2MP3vI",
+     "title": "Instagram",
+     "excerpt": "LAST 5 ROOMS FOR BELIZE RETREAT! MLK weekend : January 16-20 2027 For this retreat, once we sell out, that’s it. No wiggle room for this retreat. I got all the inventory. ... All details in link bio + always at www.tootsieolan.com/retreats",
+     "kind": "reel",
+     "queryId": "0756887f",
+     "lane": "organizer_intent",
+     "score": 0.24175376
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Belize Retreat",
+     "dates": "January 16-20 2027",
+     "location": "Belize",
+     "price": null,
+     "spots": "LAST 5 ROOMS",
+     "role": "organizer",
+     "excerpt": "LAST 5 ROOMS FOR BELIZE RETREAT! MLK weekend : January 16-20 2027",
+     "url": "https://www.instagram.com/reel/Dc4Wy2MP3vI"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "LAST 5 ROOMS",
+    "once we sell out, that’s it",
+    "All details in link bio"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "offsiteio",
+   "profileUrl": "https://www.instagram.com/offsiteio/",
+   "displayName": "Offsiteio | Events & Offsites",
+   "bio": null,
+   "followers": null,
+   "website": "offsiteio.com",
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeDZF-LiX8H",
+     "title": "Your January kickoff is 90 days away 😅 Venue. Flights. ...",
+     "excerpt": "Your January kickoff is 90 days away 😅 Venue. Flights. Hotel block. Dinners. Activities. The agenda. And somehow it's all on you. Hand it to us. Offsiteio plans your team offsite end to end: venues, dinners, activities and on-site support. Free itemized proposal in 48 hours 👉 offsiteio.com #TeamOffsite #CompanyRetreat",
+     "kind": "post",
+     "queryId": "42a8520b",
+     "lane": "winter_destination",
+     "score": 0.66045773
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Book your 2027 offsite before the year ends.",
+    "Free proposal in 48 hours"
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "corporate offsite planning agency (intermediary), not an organizer"
+  },
+  {
+   "handle": "ngcoa",
+   "profileUrl": "https://www.instagram.com/ngcoa/",
+   "displayName": "Nat’l Golf Course Owners Assn",
+   "bio": null,
+   "followers": null,
+   "website": "GolfBusinessConference.com",
+   "locationHints": [
+    "Orlando"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DdjwqrQoEa8",
+     "title": "Instagram",
+     "excerpt": "𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗶𝘀 𝗢𝗣𝗘𝗡 for Golf Business Conference 2027 ... GOLF BUSINESS CONFERENCE 2027 JANUARY 25-27 ORLANDO",
+     "kind": "post",
+     "queryId": "42a8520b",
+     "lane": "winter_destination",
+     "score": 0.49465415
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": true,
+   "organizerSignals": [],
+   "handleSource": "first_line_before_follow"
+  },
+  {
+   "handle": "nwdanceproject",
+   "profileUrl": "https://www.instagram.com/nwdanceproject/",
+   "displayName": "NW Dance Project",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Portland",
+    "New York"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DeUke5oh-yH",
+     "title": "Instagram",
+     "excerpt": "AUDITION ALERT 🔔 2027/28 Season Company Audition Applications are open!",
+     "kind": "reel",
+     "queryId": "42a8520b",
+     "lane": "winter_destination",
+     "score": 0.04886242
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "barreandbreatheretreats",
+   "profileUrl": "https://www.instagram.com/barreandbreatheretreats/",
+   "displayName": "Barre & Breathe ~Boutique Barre Retreats~",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Scotland",
+    "Sicily"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DbFZX4zBkf-",
+     "title": "Instagram",
+     "excerpt": "We have a few spaces left for our Scotland and Sicily retreats, with our next May 2027 retreat being revealed very soon. Comment RETREAT below and we’ll send the details straight to your inbox first. ✨ #barreandbreatheretreats #womensretreat #wellnessretreat #barreretreat #yogaretreat",
+     "kind": "reel",
+     "queryId": "77f37b04",
+     "lane": "competitor_venue",
+     "score": 0.114358865
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Scotland and Sicily retreats",
+     "dates": null,
+     "location": "Scotland; Sicily",
+     "price": null,
+     "spots": "a few spaces left",
+     "role": "organizer",
+     "excerpt": "We have a few spaces left for our Scotland and Sicily retreats",
+     "url": "https://www.instagram.com/reel/DbFZX4zBkf-"
+    },
+    {
+     "title": "next May 2027 retreat",
+     "dates": "May 2027",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "our next May 2027 retreat being revealed very soon",
+     "url": "https://www.instagram.com/reel/DbFZX4zBkf-"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "a few spaces left",
+    "Comment RETREAT below and we’ll send the details straight to your inbox first."
+   ],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "annabjurklint",
+   "profileUrl": "https://www.instagram.com/annabjurklint/",
+   "displayName": "Anna Bjurklint | Studio17",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "south of Spain",
+    "Halmstad"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DbxosNhKzsi",
+     "title": "Instagram",
+     "excerpt": "Soon Studio17 will begin a new journey, moving to the south of Spain for a year! Following the sun. Trusting the unknown. Creating space for new connections, deeper practice, and beautiful moments along the way ... #yoga #yogastudio #yogaretreat",
+     "kind": "reel",
+     "queryId": "77f37b04",
+     "lane": "competitor_venue",
+     "score": 0.063302755
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "profile_picture_pattern"
+  },
+  {
+   "handle": "justrelaxing.k_l",
+   "profileUrl": "https://www.instagram.com/justrelaxing.k_l/",
+   "displayName": "Justrelaxing",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DbdqKXoNi9w",
+     "title": "Reel by Justrelaxing (@justrelaxing.k_l) · July 31, 2026",
+     "excerpt": "✨ Seven Months Of Inner Work. One Retreat To Bring It All Together. We are getting very excited for our upcoming Soul Ascension Mastermind Retreat this weekend",
+     "kind": "reel",
+     "queryId": "cf9c334f",
+     "lane": "market_language",
+     "score": 0.502564
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Soul Ascension Mastermind Retreat",
+     "dates": "this weekend (post dated July 31, 2026)",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "We are getting very excited for our upcoming Soul Ascension Mastermind Retreat this weekend",
+     "url": "https://www.instagram.com/reel/DbdqKXoNi9w"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "title_at_handle"
+  },
+  {
+   "handle": "pure_haifa",
+   "profileUrl": "https://www.instagram.com/pure_haifa/",
+   "displayName": "Pure Haifa - פיור חיפה",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "חיפה"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DZWyD_1APwF",
+     "title": "‎Pure Haifa - פיור חיפה‎ on Instagram‎",
+     "excerpt": "סדנת קיץ לנערות 2026 ☀️ שבועיים של תנועה, ביטחון עצמי, יצירה וחוויה קבוצתית. ... ההרשמה פתוחה - מספר המקומות מוגבל 🤍",
+     "kind": "post",
+     "queryId": "c1bb0637",
+     "lane": "organizer_intent",
+     "score": 0.14103305
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "ההרשמה פתוחה - מספר המקומות מוגבל"
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "local Pilates studio teen summer workshop"
+  },
+  {
+   "handle": "hillelwinnipeg",
+   "profileUrl": "https://www.instagram.com/hillelwinnipeg/",
+   "displayName": "Hillel Winnipeg",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Winnipeg"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeJ_g4VskF2",
+     "title": "🎆 SAVE THE DATE! The 10th Shabbat UnPlugged ...",
+     "excerpt": "🎆 SAVE THE DATE! The 10th Shabbat UnPlugged Leadership Retreat is happening January 8-10, 2027. More information to come!",
+     "kind": "post",
+     "queryId": "8501487a",
+     "lane": "winter_destination",
+     "score": 0.90330297
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "The 10th Shabbat UnPlugged Leadership Retreat",
+     "dates": "January 8-10, 2027",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "The 10th Shabbat UnPlugged Leadership Retreat is happening January 8-10, 2027.",
+     "url": "https://www.instagram.com/p/DeJ_g4VskF2"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Registration for the 2027 Leadership Weekend is now open."
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "student organization"
+  },
+  {
+   "handle": "national_home_delivery",
+   "profileUrl": "https://www.instagram.com/national_home_delivery/",
+   "displayName": "National Home Delivery",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "St. Thomas"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DdWtRWABqOR",
+     "title": "Instagram",
+     "excerpt": "Registration is open! The Retreat is open to all NHDA regular members ... 📍 Marriott Frenchman’s Cove, St. Thomas 🗓️ February 7–10, 2027 #NHDA #LeadershipRetreat",
+     "kind": "post",
+     "queryId": "8501487a",
+     "lane": "winter_destination",
+     "score": 0.86358756
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "NHDA Leadership Retreat",
+     "dates": "February 7–10, 2027",
+     "location": "Marriott Frenchman’s Cove, St. Thomas",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "📍 Marriott Frenchman’s Cove, St. Thomas 🗓️ February 7–10, 2027",
+     "url": "https://www.instagram.com/p/DdWtRWABqOR"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Registration is open!"
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "US trade association"
+  },
+  {
+   "handle": "ecis_official",
+   "profileUrl": "https://www.instagram.com/ecis_official/",
+   "displayName": "Ecis Schools",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Seville, Spain",
+    "Stockholm"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Ddo10rWDObV",
+     "title": "🌍 Small School Leadership Retreat | Seville, Spain ...",
+     "excerpt": "🌍 Small School Leadership Retreat | Seville, Spain 🇪🇸 📅 22–23 January 2027 📍 Myland International School, Seville ... 👉 REGISTER YOUR INTEREST",
+     "kind": "post",
+     "queryId": "8501487a",
+     "lane": "winter_destination",
+     "score": 0.83932644
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Small School Leadership Retreat",
+     "dates": "22–23 January 2027",
+     "location": "Myland International School, Seville, Spain",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🌍 Small School Leadership Retreat | Seville, Spain 🇪🇸 📅 22–23 January 2027",
+     "url": "https://www.instagram.com/p/Ddo10rWDObV"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "REGISTER YOUR INTEREST"
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "international schools association"
+  },
+  {
+   "handle": "aalacolumbus",
+   "profileUrl": "https://www.instagram.com/aalacolumbus/",
+   "displayName": "African American Leadership Academy",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Columbus"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DdCnP7lJs-s",
+     "title": "Instagram",
+     "excerpt": "January 2027 is coming, and the countdown to Ascension is officially on! This transformative retreat ... Early Bird Registration is live now through September 30th. #Ascension2027 #LeadershipRetreat",
+     "kind": "reel",
+     "queryId": "8501487a",
+     "lane": "winter_destination",
+     "score": 0.81133276
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Ascension 2027",
+     "dates": "January 2027",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "January 2027 is coming, and the countdown to Ascension is officially on!",
+     "url": "https://www.instagram.com/reel/DdCnP7lJs-s"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Early Bird Registration is live now"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "jccassociation",
+   "profileUrl": "https://www.instagram.com/jccassociation/",
+   "displayName": "JCC Association",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "San Diego"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DePqOn8jmQc",
+     "title": "Instagram",
+     "excerpt": "Mifgash, the JCC Movement's premier executive leadership conference, returns January 19–21, 2027, in San Diego! ... Registration opens soon.",
+     "kind": "reel",
+     "queryId": "8501487a",
+     "lane": "winter_destination",
+     "score": 0.80844593
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Mifgash executive leadership conference",
+     "dates": "January 19–21, 2027",
+     "location": "San Diego",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Mifgash ... returns January 19–21, 2027, in San Diego!",
+     "url": "https://www.instagram.com/reel/DePqOn8jmQc"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Registration opens soon."
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "illinoisleadershipcenter",
+   "profileUrl": "https://www.instagram.com/illinoisleadershipcenter/",
+   "displayName": "Illinois Leadership® Center",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Monticello, IL"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/Dd9ylSZv9Yz",
+     "title": "January 11-14, 2027 📍Location: Allerton Park and Retreat ...",
+     "excerpt": "LEADERSHAPE INSTITUTE APPLICATIONS ARE NOW OPEN!🌱 🗓️Dates: January 11-14, 2027 📍Location: Allerton Park and Retreat Center, Monticello, IL ⏰Deadline: November 8, 2026",
+     "kind": "reel",
+     "queryId": "8501487a",
+     "lane": "winter_destination",
+     "score": 0.72042775
+    },
+    {
+     "url": "https://www.instagram.com/p/DeCVL_rF6gr",
+     "title": "Instagram",
+     "excerpt": "LeaderShape Institute application is now open! During this FREE 3-day retreat to Allerton Park and Retreat Center in Monticello, student participants will: ... 📆 Retreat dates: Mon, January 11, 2027- Thurs. January 14, 2027",
+     "kind": "post",
+     "queryId": "8501487a",
+     "lane": "winter_destination",
+     "score": 0.7156829
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "LeaderShape Institute",
+     "dates": "January 11-14, 2027",
+     "location": "Allerton Park and Retreat Center, Monticello, IL",
+     "price": "FREE",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🗓️Dates: January 11-14, 2027 📍Location: Allerton Park and Retreat Center, Monticello, IL",
+     "url": "https://www.instagram.com/reel/Dd9ylSZv9Yz"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "APPLICATIONS ARE NOW OPEN!"
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "university student program"
+  },
+  {
+   "handle": "jobridgefitness",
+   "profileUrl": "https://www.instagram.com/jobridgefitness/",
+   "displayName": "Jo Bridge",
+   "bio": null,
+   "followers": null,
+   "website": "WWW.JOBRIDGEFITNESS.COM",
+   "locationHints": [
+    "Playitas Resort, Fuerteventura",
+    "Upton"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DbQjfPrjZyI",
+     "title": "Instagram",
+     "excerpt": "General bookings for next year's retreat open Saturday 1st August. I am delighted to be bringing this event back for its third year. Priority booking for past guests closes on Friday. ... Comment RETREAT to join the waiting list and find out more about the 2027 retreat. 😊 Retreat details: 📆 1st - 6th May 2027 📍Playitas Resort, Fuerteventura",
+     "kind": "post",
+     "queryId": "dd48ee2d",
+     "lane": "competitor_venue",
+     "score": 0.6651719
+    },
+    {
+     "url": "https://www.instagram.com/p/DbQjfPrjZyI",
+     "title": "Instagram",
+     "excerpt": "(same post returned again)",
+     "kind": "post",
+     "queryId": "275112f1",
+     "lane": "competitor_venue",
+     "score": 0.74697095
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "2027 retreat (third year)",
+     "dates": "1st - 6th May 2027",
+     "location": "Playitas Resort, Fuerteventura",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "📆 1st - 6th May 2027 📍Playitas Resort, Fuerteventura",
+     "url": "https://www.instagram.com/p/DbQjfPrjZyI"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "General bookings for next year's retreat open Saturday 1st August.",
+    "Priority booking for past guests",
+    "Comment RETREAT to join the waiting list"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "charyogi",
+   "profileUrl": "https://www.instagram.com/charyogi/",
+   "displayName": "Charlotte Wellfare",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "El Cotillo, Fuerteventura",
+    "London"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DVImiYcjEmc",
+     "title": "Instagram",
+     "excerpt": "RETREAT ALERT 🚨 ShantiBoom Yoga Escapes in beautiful Fuerteventura this year is BACK !!! = the 15-19th October 2026 !!! & We would love to host you!!! ... F.Y.I We are only taking 12-14pp on this epic escape this year ... So an early booking is strongly advised 👌. DM me for any further information needed",
+     "kind": "post",
+     "queryId": "dd48ee2d",
+     "lane": "competitor_venue",
+     "score": 0.64182705
+    },
+    {
+     "url": "https://www.instagram.com/p/C869WqiIO4A",
+     "title": "Instagram",
+     "excerpt": "It’s always summer in Fuerteventura 🌞. Shantiboom Yoga & Wellness Escapes are back this winter from the 14th to 18th of November in beautiful El Cotillio in the Canaries 🌴. Featuring incredible guest teacher and head of Vibes @lizsj93 ... Prices start from £550 and all Solo Options are now SOLD OUT. ... All our love, Char & Liz (no literal handle pattern in this result; attached on ShantiBoom b...",
+     "kind": "post",
+     "queryId": "275112f1",
+     "lane": "competitor_venue",
+     "score": 0.52524763
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "ShantiBoom Yoga Escapes Fuerteventura",
+     "dates": "15-19th October 2026",
+     "location": "Fuerteventura",
+     "price": null,
+     "spots": "only taking 12-14pp",
+     "role": "organizer",
+     "excerpt": "ShantiBoom Yoga Escapes in beautiful Fuerteventura this year is BACK !!! = the 15-19th October 2026 !!!",
+     "url": "https://www.instagram.com/p/DVImiYcjEmc"
+    },
+    {
+     "title": "Shantiboom Yoga & Wellness Escapes (winter)",
+     "dates": "14th to 18th of November",
+     "location": "El Cotillio in the Canaries",
+     "price": "Prices start from £550",
+     "spots": "all Solo Options are now SOLD OUT",
+     "role": "organizer",
+     "excerpt": "Shantiboom Yoga & Wellness Escapes are back this winter from the 14th to 18th of November in beautiful El Cotillio in the Canaries 🌴",
+     "url": "https://www.instagram.com/p/C869WqiIO4A"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "RETREAT ALERT",
+    "an early booking is strongly advised",
+    "all Solo Options are now SOLD OUT",
+    "link in my bio to book"
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "lizsj93"
+   ]
+  },
+  {
+   "handle": "joinmeretreats",
+   "profileUrl": "https://www.instagram.com/joinmeretreats/",
+   "displayName": "Me Retreats",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Fuerteventura, Canarias, Spain",
+    "Peak District"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DdgBkEkCCiA",
+     "title": "Instagram",
+     "excerpt": "Fuerteventura 2027 Just 7 spots left Join us on the beautiful island of Fuerteventura 🏖 (Link in bio) #fuerteventura #retreat #soloholiday #activeholiday #fitnessretreatspain",
+     "kind": "post",
+     "queryId": "dd48ee2d",
+     "lane": "competitor_venue",
+     "score": 0.48879638
+    },
+    {
+     "url": "https://www.instagram.com/p/DVIqRrzjDgI",
+     "title": "Instagram",
+     "excerpt": "Fuerteventura 2026 ☀️✨️🫶 6 days of friendship, fitness and trying new things 💙 Sunrise walks, beach workouts, spa day, gym workouts, lanzarote trip, beach and pool downtime, padel, driving range, morning runs, pilates and so much more.... #fitnessretreat #pilatesretreat",
+     "kind": "post",
+     "queryId": "275112f1",
+     "lane": "competitor_venue",
+     "score": 0.58721006
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Fuerteventura 2027",
+     "dates": "2027",
+     "location": "Fuerteventura",
+     "price": null,
+     "spots": "Just 7 spots left",
+     "role": "organizer",
+     "excerpt": "Fuerteventura 2027 Just 7 spots left Join us on the beautiful island of Fuerteventura 🏖",
+     "url": "https://www.instagram.com/p/DdgBkEkCCiA"
+    },
+    {
+     "title": "Fuerteventura 2026 fitness retreat",
+     "dates": "2026",
+     "location": "Fuerteventura",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Fuerteventura 2026 ☀️✨️🫶 6 days of friendship, fitness and trying new things 💙",
+     "url": "https://www.instagram.com/p/DVIqRrzjDgI"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "Just 7 spots left",
+    "(Link in bio)"
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "trainwithtash121"
+   ]
+  },
+  {
+   "handle": "ma.na_retreats",
+   "profileUrl": "https://www.instagram.com/ma.na_retreats/",
+   "displayName": "MA•NA - Yoga Retreats",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Fuerteventura, Canarias, Spain"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DcAnQkmD8vK",
+     "title": "Instagram",
+     "excerpt": "Four days in Fuerteventura with Laura @laurayoga.fuerteventura as part of MA•NA RETREATS @ma.na_retreats . A house at the foot of a volcano, six Vinyāsa classes, plant based mead, a dune run you won’t forget, and a group of strangers who won’t stay strangers for long. Bilingual retreat, English and Español.",
+     "kind": "post",
+     "queryId": "dd48ee2d",
+     "lane": "competitor_venue",
+     "score": 0.37566122
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Four days in Fuerteventura (MA•NA RETREATS)",
+     "dates": null,
+     "location": "Fuerteventura",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Four days in Fuerteventura with Laura @laurayoga.fuerteventura as part of MA•NA RETREATS",
+     "url": "https://www.instagram.com/p/DcAnQkmD8vK"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "laurayoga.fuerteventura"
+   ]
+  },
+  {
+   "handle": "arhatic_yoga_retreat",
+   "profileUrl": "https://www.instagram.com/arhatic_yoga_retreat/",
+   "displayName": "ARHATIC YOGA®️RETREAT in Portugal",
+   "bio": "Retiro de Yoga Arhatica em Portugal 📍 maio de 2027 📍na encantadora cidade de Tomar! 🇵🇹",
+   "followers": 1218,
+   "website": "retiro-arhatic-yoga-2026-29x0gw6.gamma.site",
+   "locationHints": [
+    "Tomar",
+    "Portugal"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/arhatic_yoga_retreat?hl=en",
+     "title": "ARHATIC YOGA®️RETREAT in Portugal (@arhatic_yoga_retreat) • Instagram photos and videos",
+     "excerpt": "1,218 followers 1,350 following ARHATIC YOGA®️RETREAT in Portugal Retiro de Yoga Arhatica em Portugal 📍 maio de 2027 📍na encantadora cidade de Tomar! 🇵🇹 retiro-arhatic-yoga-2026-29x0gw6.gamma.site",
+     "kind": "profile",
+     "queryId": "bdb3a1b8",
+     "lane": "organizer_intent",
+     "score": 0.62770075
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Retiro de Yoga Arhatica em Portugal",
+     "dates": "maio de 2027",
+     "location": "Tomar, Portugal",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Retiro de Yoga Arhatica em Portugal 📍 maio de 2027 📍na encantadora cidade de Tomar!",
+     "url": "https://www.instagram.com/arhatic_yoga_retreat?hl=en"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "profile_url"
+  },
+  {
+   "handle": "davidsonchaplains",
+   "profileUrl": "https://www.instagram.com/davidsonchaplains/",
+   "displayName": "Davidson Chaplains’ Office",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Davidson College"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Dd461kXHJP4",
+     "title": "Instagram",
+     "excerpt": "First Year Wellness Retreat - January 12 - 17, 2027 Come spend a week learning and practicing the dimensions of wellness with other first year students.",
+     "kind": "post",
+     "queryId": "bea1807a",
+     "lane": "winter_destination",
+     "score": 0.87981987
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "First Year Wellness Retreat",
+     "dates": "January 12 - 17, 2027",
+     "location": "the mountains (Davidson College)",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "First Year Wellness Retreat - January 12 - 17, 2027",
+     "url": "https://www.instagram.com/p/Dd461kXHJP4"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [],
+   "handleSource": "never_miss_a_post",
+   "note": "college chaplaincy"
+  },
+  {
+   "handle": "gracefulbalancecollective",
+   "profileUrl": "https://www.instagram.com/gracefulbalancecollective/",
+   "displayName": "Graceful Balance Collective",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeaTbtly30x",
+     "title": "Instagram",
+     "excerpt": "🎉 2027 RETREAT REGISTRATION IS OFFICIALLY OPEN! 🎉 ... 🌿 January — ALIGN One-Day Retreat 🤍 March — Women’s Wellness Conference: I’ve Seen His Goodness 🌊 May — He Called Me to Fish Coastal Retreat 🍂 September/October— BECOMING Women’s Retreat ... ✨ Public registration opens November 2! #ChristianWomensRetreat #WomensRetreat2027 #FaithBasedRetreats",
+     "kind": "post",
+     "queryId": "bea1807a",
+     "lane": "winter_destination",
+     "score": 0.87139857
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "ALIGN One-Day Retreat",
+     "dates": "January (2027)",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🌿 January — ALIGN One-Day Retreat",
+     "url": "https://www.instagram.com/p/DeaTbtly30x"
+    },
+    {
+     "title": "He Called Me to Fish Coastal Retreat",
+     "dates": "May (2027)",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🌊 May — He Called Me to Fish Coastal Retreat",
+     "url": "https://www.instagram.com/p/DeaTbtly30x"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "2027 RETREAT REGISTRATION IS OFFICIALLY OPEN!",
+    "Public registration opens November 2!",
+    "Your $97 annual membership gives you exclusive benefits, including early retreat registration"
+   ],
+   "handleSource": "never_miss_a_post",
+   "note": "US faith-based women's retreats"
+  },
+  {
+   "handle": "lizhuntlyjensch",
+   "profileUrl": "https://www.instagram.com/lizhuntlyjensch/",
+   "displayName": "Liz Huntly/Jensch",
+   "bio": null,
+   "followers": null,
+   "website": "www.surfshackyoga.com/costarica",
+   "locationHints": [
+    "Los Pargos, Costa Rica"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/lizhuntlyjensch/p/DcCEs1FPOA0",
+     "title": "Instagram",
+     "excerpt": "Registration for our Costa Rica retreat is open! Join us January 10-16, 2027 for a week of revitalization + rest at the delightful @peaceretreat in Los Pargos, minutes away from one of Costa Rica’s best surf beaches. Early bird pricing until August 31! Details + registration at www.surfshackyoga.com/costarica",
+     "kind": "post",
+     "queryId": "bea1807a",
+     "lane": "winter_destination",
+     "score": 0.8449346
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Costa Rica retreat",
+     "dates": "January 10-16, 2027",
+     "location": "@peaceretreat in Los Pargos, Costa Rica",
+     "price": "Early bird pricing until August 31!",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Registration for our Costa Rica retreat is open! Join us January 10-16, 2027",
+     "url": "https://www.instagram.com/lizhuntlyjensch/p/DcCEs1FPOA0"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Registration for our Costa Rica retreat is open!",
+    "Early bird pricing until August 31!"
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "surfshackyoga",
+    "commongroundsummerstudio",
+    "peaceretreat"
+   ]
+  },
+  {
+   "handle": "tulayoga",
+   "profileUrl": "https://www.instagram.com/tulayoga/",
+   "displayName": "Tula Yoga | Aberdeen, NJ",
+   "bio": null,
+   "followers": null,
+   "website": "tulayoganj.com",
+   "locationHints": [
+    "Aberdeen, NJ",
+    "Mar de Jade, coastal Mexico"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DeCHdKDAaSB",
+     "title": "Instagram",
+     "excerpt": "🌴 LAST CALL FOR MEXICO 🌴 ... Join Jennifer Cavalieri & Leah Kleiner for a New Year Reset Retreat at Mar de Jade in coastal Mexico, January 3-9, 2027. Seven days of yoga, meditation, reflection, nourishing food, ocean time ... We have just two spots left - visit tulayoganj.com to register!",
+     "kind": "reel",
+     "queryId": "bea1807a",
+     "lane": "winter_destination",
+     "score": 0.7715858
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "New Year Reset Retreat",
+     "dates": "January 3-9, 2027",
+     "location": "Mar de Jade, coastal Mexico",
+     "price": null,
+     "spots": "just two spots left",
+     "role": "organizer",
+     "excerpt": "New Year Reset Retreat at Mar de Jade in coastal Mexico, January 3-9, 2027.",
+     "url": "https://www.instagram.com/reel/DeCHdKDAaSB"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "LAST CALL FOR MEXICO",
+    "We have just two spots left"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "jenmurphyyoga",
+   "profileUrl": "https://www.instagram.com/jenmurphyyoga/",
+   "displayName": "Jen Murphy",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Playa Grande, CR"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeCWopbjJWz",
+     "title": "Instagram",
+     "excerpt": "Living Practice Yoga Retreat Playa Grande, CR 1/23-1/30/2027 With @jenmurphyyoga & @kimspearyoga What do you need when temps are in the freezing zone come January??? ... Registration closes on 10/15 for this retreat. Click on BIO for cost and details",
+     "kind": "post",
+     "queryId": "bea1807a",
+     "lane": "winter_destination",
+     "score": 0.76826453
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Living Practice Yoga Retreat",
+     "dates": "1/23-1/30/2027",
+     "location": "Playa Grande, CR",
+     "price": null,
+     "spots": null,
+     "role": "co_host",
+     "excerpt": "Living Practice Yoga Retreat Playa Grande, CR 1/23-1/30/2027 With @jenmurphyyoga & @kimspearyoga",
+     "url": "https://www.instagram.com/p/DeCWopbjJWz"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Registration closes on 10/15 for this retreat."
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "kimspearyoga",
+    "goodrootsboutique"
+   ]
+  },
+  {
+   "handle": "floyotravels",
+   "profileUrl": "https://www.instagram.com/floyotravels/",
+   "displayName": "FloYoTravels | Luxury Wellness Retreats",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DecFjevs1Hk",
+     "title": "Instagram",
+     "excerpt": "We’ve been planning something exciting. And we’re getting VERY close to opening registration. 👀 Here’s your first hint: you’ll need your mat and your passport. A new FloYo wellness retreat collab is coming this January. Join the VIP waitlist today! Registration will open to those on the VIP list first. Link in bio. ✈️ #FloYoTravels #WellnessRetreat #YogaRetreat #PilatesRetreat #GroupTravel",
+     "kind": "reel",
+     "queryId": "bea1807a",
+     "lane": "winter_destination",
+     "score": 0.6864757
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "FloYo wellness retreat collab",
+     "dates": "this January",
+     "location": "abroad (you’ll need your mat and your passport)",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "A new FloYo wellness retreat collab is coming this January.",
+     "url": "https://www.instagram.com/reel/DecFjevs1Hk"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "getting VERY close to opening registration",
+    "Join the VIP waitlist today!"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "joinbonde",
+   "profileUrl": "https://www.instagram.com/joinbonde/",
+   "displayName": "BONDE",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DbdnYBGub2k",
+     "title": "Instagram",
+     "excerpt": "Hot off the press: The first two dates on our 2027 retreat calendar: January 31st — February 3rd June 13th — 16th Mark your calendars. Locations and tickets available August 14th.",
+     "kind": "reel",
+     "queryId": "bea1807a",
+     "lane": "winter_destination",
+     "score": 0.6836946
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "BONDE 2027 retreat",
+     "dates": "January 31st — February 3rd",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "The first two dates on our 2027 retreat calendar: January 31st — February 3rd June 13th — 16th",
+     "url": "https://www.instagram.com/reel/DbdnYBGub2k"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Locations and tickets available August 14th."
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "taichifuerteventura",
+   "profileUrl": "https://www.instagram.com/taichifuerteventura/",
+   "displayName": "Tai Chi Fuerteventura",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Fuerteventura, Canary Island, Spain"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Deg6b4MI4fX",
+     "title": "Instagram",
+     "excerpt": "Video by Tai Chi Fuerteventura on September 13, 2026. (guest thank-you text) ... Photo by Tai Chi Fuerteventura on October 15, 2026. May be an image of sliding door, cabana and text. Fuerteventura, Canary Island, Spain",
+     "kind": "post",
+     "queryId": "082d0392",
+     "lane": "competitor_venue",
+     "score": 0.11900848
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "florabowley",
+   "profileUrl": "https://www.instagram.com/florabowley/",
+   "displayName": "Intuitive artist, author, + guide",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DagqVh4vyE3",
+     "title": "Intuitive artist, author, + guide (@florabowley) · July 7, 2026",
+     "excerpt": "July 7, 2026. Daily yoga and meditation followed by days of activity, culture and fun! retreats open across 35+ countries for 2026 and 2027.",
+     "kind": "reel",
+     "queryId": "2a121e0a",
+     "lane": "market_language",
+     "score": 0.3550819
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "retreats open across 35+ countries for 2026 and 2027"
+   ],
+   "handleSource": "title_at_handle"
+  },
+  {
+   "handle": "yogafestivaltribe",
+   "profileUrl": "https://www.instagram.com/yogafestivaltribe/",
+   "displayName": "Yoga Festival",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Greece"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DbGBRJ1ivsL",
+     "title": "Instagram",
+     "excerpt": "The tribe is on retreat in Greece 🇬🇷 (comments from aegialis_hotel_spa, eleniyogi, lindanewmanyoga, justinedavisyoga)",
+     "kind": "reel",
+     "queryId": "2a121e0a",
+     "lane": "market_language",
+     "score": 0.13752113
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "retreat in Greece",
+     "dates": "Video by Yoga Festival on July 22, 2026",
+     "location": "Greece",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "The tribe is on retreat in Greece 🇬🇷",
+     "url": "https://www.instagram.com/reel/DbGBRJ1ivsL"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "aegialis_hotel_spa"
+   ]
+  },
+  {
+   "handle": "lodgeparkmegeve",
+   "profileUrl": "https://www.instagram.com/lodgeparkmegeve/",
+   "displayName": "Lodge Park Megève",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Megève",
+    "French Alps"
+   ],
+   "accountType": "venue",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DZ7zA7rDpxq",
+     "title": "Instagram",
+     "excerpt": "5 days to recode your energy and longevity 🧬 From July 20th to 24th, 2026, join us at @lodgeparkmegeve for The Recode Retreat—an exclusive, immersive wellness experience dedicated to deep cellular regeneration. What awaits you in the heart of the French Alps: -Personalized vitality and lifestyle consultations -Tailored longevity & detox menus",
+     "kind": "post",
+     "queryId": "8f779eb7",
+     "lane": "organizer_intent",
+     "score": 0.5504388
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "The Recode Retreat",
+     "dates": "July 20th to 24th, 2026",
+     "location": "Lodge Park Megève, French Alps",
+     "price": null,
+     "spots": null,
+     "role": "co_host",
+     "excerpt": "From July 20th to 24th, 2026, join us at @lodgeparkmegeve for The Recode Retreat",
+     "url": "https://www.instagram.com/p/DZ7zA7rDpxq"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "therecodeclub"
+   ]
+  },
+  {
+   "handle": "sonastudio_",
+   "profileUrl": "https://www.instagram.com/sonastudio_/",
+   "displayName": "Sona Studio Pilates Lindfield",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Lindfield",
+    "Stockholm Archipelago, Sweden"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DYCpSi9CCQB",
+     "title": "Instagram",
+     "excerpt": "Sweden Retreat 2026 - FULLY BOOKED This year’s Sweden Retreat is now fully booked, with ten lovely ladies set to escape to Stockholm’s spectacular Archipelago for four days of pure relaxation. Think alfresco fitness, wilderness walks, sea swims, saunas, delicious local delicacies",
+     "kind": "post",
+     "queryId": "8f779eb7",
+     "lane": "organizer_intent",
+     "score": 0.33398145
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Sweden Retreat 2026",
+     "dates": "2026",
+     "location": "Stockholm Archipelago, Sweden",
+     "price": null,
+     "spots": "FULLY BOOKED",
+     "role": "organizer",
+     "excerpt": "Sweden Retreat 2026 - FULLY BOOKED ... ten lovely ladies",
+     "url": "https://www.instagram.com/p/DYCpSi9CCQB"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "FULLY BOOKED"
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "sonaretreats",
+    "wellontour"
+   ]
+  },
+  {
+   "handle": "zibelkazivljenja",
+   "profileUrl": "https://www.instagram.com/zibelkazivljenja/",
+   "displayName": "Zibelka Življenja",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Slovenia"
+   ],
+   "accountType": "venue",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DbjW5CQDfcA",
+     "title": "Instagram",
+     "excerpt": "This October, we will be hosting a special event at Zibelka Življenja. ... \"Coming Home to Yourself\" is a three-day experiential retreat about authentic living ... 📅 2–4 October 2026",
+     "kind": "post",
+     "queryId": "8f779eb7",
+     "lane": "organizer_intent",
+     "score": 0.23228444
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Coming Home to Yourself",
+     "dates": "2–4 October 2026",
+     "location": "Zibelka Življenja",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "\"Coming Home to Yourself\" is a three-day experiential retreat ... 📅 2–4 October 2026",
+     "url": "https://www.instagram.com/p/DbjW5CQDfcA"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "You are warmly invited if you feel called to join us."
+   ],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "padelrest",
+   "profileUrl": "https://www.instagram.com/padelrest/",
+   "displayName": "Padel Retreats & Community",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Köln"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTYG-NYDXEp",
+     "title": "Instagram",
+     "excerpt": "Mindful Matches – Padel x Yoga Power on court. Calm in flow. Padel, Deep Stretching und Yoga Flow – bewusst kombiniert, inklusive Matcha & good vibes. 📍 TheCube Köln 🗓 Freitag, 23. Januar 2026 ⏰ Start 09:30 | ⏳ 120 Minuten 🎾 Padel Turnier | Level 0–7 👉 Join us! - Anmeldung über Playtomic Link in Bio✨",
+     "kind": "post",
+     "queryId": "8f779eb7",
+     "lane": "organizer_intent",
+     "score": 0.10923949
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Mindful Matches – Padel x Yoga",
+     "dates": "Freitag, 23. Januar 2026",
+     "location": "TheCube Köln",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Mindful Matches – Padel x Yoga ... 📍 TheCube Köln 🗓 Freitag, 23. Januar 2026",
+     "url": "https://www.instagram.com/p/DTYG-NYDXEp"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Join us! - Anmeldung über Playtomic",
+    "Link in Bio"
+   ],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "yellowyogaberlin",
+   "profileUrl": "https://www.instagram.com/yellowyogaberlin/",
+   "displayName": "yellow yoga",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Berlin"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DVdiZ6wCcA3",
+     "title": "Instagram",
+     "excerpt": "The retreat program includes a variety of yoga styles to explore – from vinyasa and ashtanga to kundalini as well as yin and restorative yoga. In addition to yoga, we offer many other wonderful activities: breathing exercises (pranayama) and meditation, sound journeys and massages, sharing and singing circles, campfires, communal cooking, and hiking trips to the swimming lake! 🌷 Reservations ar...",
+     "kind": "post",
+     "queryId": "8f779eb7",
+     "lane": "organizer_intent",
+     "score": 0.100022875
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "yellow yoga retreat",
+     "dates": null,
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🌷 Reservations are now open! 🌷 🪻Link in bio to more infos and bookings.🪻",
+     "url": "https://www.instagram.com/p/DVdiZ6wCcA3"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "Reservations are now open!"
+   ],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "thepadelbeast",
+   "profileUrl": "https://www.instagram.com/thepadelbeast/",
+   "displayName": "Padel Beast",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Abu Dhabi, United Arab Emirates",
+    "V House Bali"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTA38O0EtnJ",
+     "title": "at the same villa chosen by the Kardashians & Tyga. This is ...",
+     "excerpt": "7 days of elite padel, 60 days during January & February 2027. Register now through the link in our bio. | extract: PADEL. PARADISE. LUXURY . 🌴🎾 Padel Beast ✕ V House Bali presents THE MOST AWAITED LUXURY PADEL RETREAT 7 days of elite padel, recovery, luxury living & pure island energy. Hosted at V House Bali ... ⚠️ ONLY 8 SLOTS AVAILABLE No extra slots. No extensions DM now to secure your spot.",
+     "kind": "post",
+     "queryId": "5f100c09",
+     "lane": "winter_destination",
+     "score": 0.76701033
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Padel Beast ✕ V House Bali Luxury Padel Retreat",
+     "dates": "January & February 2027",
+     "location": "V House Bali",
+     "price": null,
+     "spots": "ONLY 8 SLOTS AVAILABLE",
+     "role": "organizer",
+     "excerpt": "7 days of elite padel, 60 days during January & February 2027. Register now through the link in our bio.",
+     "url": "https://www.instagram.com/p/DTA38O0EtnJ"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Register now through the link in our bio",
+    "ONLY 8 SLOTS AVAILABLE",
+    "DM now to secure your spot."
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "thepadelretreat",
+   "profileUrl": "https://www.instagram.com/thepadelretreat/",
+   "displayName": "The Padel Retreat",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Uluwatu",
+    "Bali"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DdjBECsJFZy",
+     "title": "Instagram",
+     "excerpt": "Once you’ve experience The Padel Retreat… you won’t stop coming back 🎾🌴 3 more spots left for Uluwatu Oct 18 - 25! Comment for more information ✨ #ThePadelRetreat #Padel #Bali #PadelAddict #uluwatu",
+     "kind": "reel",
+     "queryId": "5f100c09",
+     "lane": "winter_destination",
+     "score": 0.20764856
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "The Padel Retreat Uluwatu",
+     "dates": "Oct 18 - 25",
+     "location": "Uluwatu, Bali",
+     "price": null,
+     "spots": "3 more spots left",
+     "role": "organizer",
+     "excerpt": "3 more spots left for Uluwatu Oct 18 - 25!",
+     "url": "https://www.instagram.com/reel/DdjBECsJFZy"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "3 more spots left",
+    "Comment for more information"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "activesimuni_fitnessretreats",
+   "profileUrl": "https://www.instagram.com/activesimuni_fitnessretreats/",
+   "displayName": "Active Šimuni fitness retreats",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Šimuni"
+   ],
+   "accountType": "venue",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DdN71IKNWkk",
+     "title": "Instagram",
+     "excerpt": "Thank you @grownstrongretreats for booking our wonderful Active Šimuni for your retreat. ... If you would like to host a retreat like this bookings for 2027 are open. Book a call via link in bio or send us DM to learn more about it. #activeholidayretreat #activesimunifitnessretreats #summer2027",
+     "kind": "reel",
+     "queryId": "275112f1",
+     "lane": "competitor_venue",
+     "score": 0.4902606
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "bookings for 2027 are open",
+    "Book a call via link in bio"
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "grownstrongretreats"
+   ],
+   "note": "competitor venue hosting third-party fitness retreats"
+  },
+  {
+   "handle": "playitasresort",
+   "profileUrl": "https://www.instagram.com/playitasresort/",
+   "displayName": "Playitas Resort",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Fuerteventura"
+   ],
+   "accountType": "venue",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DUnXVB5EfM5",
+     "title": "Instagram",
+     "excerpt": "Driven by people 💙 While you focus on training, recovery and performance, our team makes sure everything else is ready. ... #PlayitasResort #ActiveHoliday #Fuerteventura",
+     "kind": "reel",
+     "queryId": "275112f1",
+     "lane": "competitor_venue",
+     "score": 0.26873085
+    },
+    {
+     "url": "https://www.instagram.com/reel/DUSqhGjD223",
+     "title": "Instagram",
+     "excerpt": "The people behind the experience 💙 ... shape the Playitas experience day by day. #PlayitasResort #ActiveHoliday #Fuerteventura",
+     "kind": "reel",
+     "queryId": "13705015",
+     "lane": "competitor_venue",
+     "score": 0.1621812
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "more_posts_from",
+   "note": "competitor venue; jobridgefitness hosts May 2027 retreat here"
+  },
+  {
+   "handle": "sigridbrelid",
+   "profileUrl": "https://www.instagram.com/sigridbrelid/",
+   "displayName": "Sigrid Brelid ~",
+   "bio": null,
+   "followers": null,
+   "website": "portal-to-grace.com",
+   "locationHints": [
+    "Sweden",
+    "Björnbacka"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTkDZVNitx6",
+     "title": "The Initiation Retreat - Sweden 5 days in the ...",
+     "excerpt": "Join us for the final ORIN Women's Mastermind & Retreat. July 2026 to January 2027 Retreat at September 2026 | extract: The Initiation Retreat - Sweden 5 days in the field, for those longing to deepen their practice and reconnect with their true self. ... Read more & apply: portal-to-grace.com Sweden · 28 April – 3 May Link in bio",
+     "kind": "post",
+     "queryId": "4954443e",
+     "lane": "market_language",
+     "score": 0.67758125
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "The Initiation Retreat - Sweden",
+     "dates": "28 April – 3 May",
+     "location": "Sweden (Björnbacka)",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "The Initiation Retreat - Sweden 5 days in the field ... Sweden · 28 April – 3 May",
+     "url": "https://www.instagram.com/p/DTkDZVNitx6"
+    },
+    {
+     "title": "ORIN Women's Mastermind & Retreat",
+     "dates": "July 2026 to January 2027 Retreat at September 2026",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Join us for the final ORIN Women's Mastermind & Retreat. July 2026 to January 2027 Retreat at September 2026",
+     "url": "https://www.instagram.com/p/DTkDZVNitx6"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "Read more & apply"
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "bjornbacka.se"
+   ]
+  },
+  {
+   "handle": "eco__psyche",
+   "profileUrl": "https://www.instagram.com/eco__psyche/",
+   "displayName": "yoga | breath | community",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Glysboda, Sweden",
+    "Schull, West Cork",
+    "Mallorca"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/eco__psyche",
+     "title": "yoga | breath | community (@eco__psyche)",
+     "excerpt": "woodland of Glysboda, Sweden at @thequarryhouses ・ 2026 intentional holidays, 4 opportunities: 🌀April 17-20: Schull, West Cork ・ 🌀October 10-17: Mallorca,",
+     "kind": "profile",
+     "queryId": "4954443e",
+     "lane": "market_language",
+     "score": 0.2361994
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "2026 intentional holiday Schull",
+     "dates": "April 17-20",
+     "location": "Schull, West Cork",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🌀April 17-20: Schull, West Cork",
+     "url": "https://www.instagram.com/eco__psyche"
+    },
+    {
+     "title": "2026 intentional holiday Mallorca",
+     "dates": "October 10-17",
+     "location": "Mallorca",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🌀October 10-17: Mallorca,",
+     "url": "https://www.instagram.com/eco__psyche"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [
+    "2026 intentional holidays, 4 opportunities"
+   ],
+   "handleSource": "profile_url",
+   "coTaggedHandles": [
+    "thequarryhouses"
+   ]
+  },
+  {
+   "handle": "yogaunited",
+   "profileUrl": "https://www.instagram.com/yogaunited/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/yogaunited/reel/DT-x2YqkgaD?hl=zh-cn",
+     "title": "Join our newsletter to be the first to know about our dates ...",
+     "excerpt": "Ready to join us on an unforgettable adventure? Whether you're seeking deep rest, meaningful connection, cultural immersion, or the trip of a lifetime, our",
+     "kind": "reel",
+     "queryId": "4954443e",
+     "lane": "market_language",
+     "score": 0.09633978
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "Join our newsletter to be the first to know about our dates"
+   ],
+   "handleSource": "profile_url_path_segment"
+  },
+  {
+   "handle": "yog_apo",
+   "profileUrl": "https://www.instagram.com/yog_apo/",
+   "displayName": "Apolline Delmas • Yoga teacher Saint-Tropez",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Saint-Tropez",
+    "gorges du Verdon en Provence"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DSMvTFygHSo",
+     "title": "AU RYTHME DES 5 ÉLÉMENTS 📅 4 jours / 3 nuits ...",
+     "excerpt": "🥳 OUVERTURE DES INSCRIPTIONS EARLY BIRD 🧚 RETRAITE DE YOGA « SACRED FLOW » 11 ÈME ÉDITION : AU RYTHME DES 5 ÉLÉMENTS 📅 4 jours / 3 nuits 🇫🇷 À @casaolta dans les gorges du Verdon en Provence 📌 Du 14-17 mai 2026 ... yoga, méditation, cacao, cercle holistique, bains chauds & froids",
+     "kind": "reel",
+     "queryId": "15631f40",
+     "lane": "organizer_intent",
+     "score": 0.75831425
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "RETRAITE DE YOGA « SACRED FLOW » 11 ÈME ÉDITION : AU RYTHME DES 5 ÉLÉMENTS",
+     "dates": "Du 14-17 mai 2026",
+     "location": "@casaolta dans les gorges du Verdon en Provence",
+     "price": "EARLY BIRD",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🥳 OUVERTURE DES INSCRIPTIONS EARLY BIRD ... 📌 Du 14-17 mai 2026",
+     "url": "https://www.instagram.com/reel/DSMvTFygHSo"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "OUVERTURE DES INSCRIPTIONS EARLY BIRD",
+    "11 ÈME ÉDITION"
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "casaolta"
+   ]
+  },
+  {
+   "handle": "entreellesaunaturel",
+   "profileUrl": "https://www.instagram.com/entreellesaunaturel/",
+   "displayName": "Ariane~Symptothermie~Doula 🌻",
+   "bio": null,
+   "followers": null,
+   "website": "www.retraite-en-provence.com",
+   "locationHints": [
+    "Var, Provence-Alpes-Côte d'Azur",
+    "Vidauban"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DRhjDZpAv2Z",
+     "title": "✨ Retraite en Provence — 2026 ✨ Les inscriptions sont ...",
+     "excerpt": "✨ Retraite en Provence — 2026 ✨ Les inscriptions sont officiellement ouvertes 💛 5 jours pour ralentir ... 🌿 Yoga Vinyasa 🌿 Sound healing 🌿 Spa naturel ... 📍 Provence 📅 10 — 14 juin 2026 💫 Places limitées ... Plus d’infos et inscriptions sur notre site : www.retraite-en-provence.com",
+     "kind": "post",
+     "queryId": "15631f40",
+     "lane": "organizer_intent",
+     "score": 0.71829855
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Retraite en Provence — 2026",
+     "dates": "10 — 14 juin 2026",
+     "location": "Provence",
+     "price": null,
+     "spots": "Places limitées",
+     "role": "co_host",
+     "excerpt": "📍 Provence 📅 10 — 14 juin 2026 💫 Places limitées",
+     "url": "https://www.instagram.com/p/DRhjDZpAv2Z"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "Les inscriptions sont officiellement ouvertes",
+    "Places limitées"
+   ],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "alvina.yoga"
+   ]
+  },
+  {
+   "handle": "reso.meditation",
+   "profileUrl": "https://www.instagram.com/reso.meditation/",
+   "displayName": "Reso",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Le Poizat-Lalleyriat"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DVth1L4DLLM",
+     "title": "Instagram",
+     "excerpt": "C’était comment la retraite d’hiver cette année ?",
+     "kind": "post",
+     "queryId": "15631f40",
+     "lane": "organizer_intent",
+     "score": 0.10279923
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "retraite d’hiver",
+     "dates": null,
+     "location": "Le Poizat-Lalleyriat",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "C’était comment la retraite d’hiver cette année ?",
+     "url": "https://www.instagram.com/p/DVth1L4DLLM"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "fabricemidal"
+   ]
+  },
+  {
+   "handle": "hellobeesties",
+   "profileUrl": "https://www.instagram.com/hellobeesties/",
+   "displayName": "Wildebeest Publishing Company",
+   "bio": null,
+   "followers": null,
+   "website": "https://www.wildebeestpublishing.com/authorpreneur-retreat-2026",
+   "locationHints": [
+    "Greek Peak"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DSkrMVTD6PL",
+     "title": "Wildebeest Publishing Company on Instagram",
+     "excerpt": "📣 Our first annual Authorpreneur Retreat is open for registration! ... 3-DAY IMMERSIVE WORKSHOP GREEK PEAK RETREAT AUGUST 21-23, 2026 ... Early bird price ends January 16, 2026",
+     "kind": "post",
+     "queryId": "933ae41c",
+     "lane": "winter_destination",
+     "score": 0.27776968
+    }
+   ],
+   "eventsMentioned": [],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "open for registration!"
+   ],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "fitinfuerteventura",
+   "profileUrl": "https://www.instagram.com/fitinfuerteventura/",
+   "displayName": "Fit In Fuerte with Jenna (NEW)",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Fuerteventura"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/C0d-gY3MToz",
+     "title": "Instagram",
+     "excerpt": "Video by Jenna Shilston Fitness on August 14, 2026. May be an image of poster and text that says 'FIT IN FUERTE MARCH 2027 An exhilarating five night stay in sunny Fuerteventura Arrival: Friday 12th March Departure: Wednesday 17th March PACKAGE1 you'll receive: Villa stay Transfers from airport Breakfast, lunch dinner ... workouts daily Professional digital photos' #fitinfuerte #fitnessinfuerte...",
+     "kind": "post",
+     "queryId": "13705015",
+     "lane": "competitor_venue",
+     "score": 0.46162403
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "FIT IN FUERTE MARCH 2027",
+     "dates": "Arrival: Friday 12th March Departure: Wednesday 17th March",
+     "location": "Fuerteventura (Villa stay)",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "FIT IN FUERTE MARCH 2027 An exhilarating five night stay in sunny Fuerteventura",
+     "url": "https://www.instagram.com/p/C0d-gY3MToz"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "padelante.spain",
+   "profileUrl": "https://www.instagram.com/padelante.spain/",
+   "displayName": "Padelante Tours",
+   "bio": null,
+   "followers": null,
+   "website": "padelante.co.uk",
+   "locationHints": [
+    "Alicante, Spain",
+    "Dublin"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DbdOU6DAnOh",
+     "title": "Instagram",
+     "excerpt": "'PADELANTE HOLIDAY THE ULTIMATE PADEL CAMP IN SPAIN WHATS INCLUDED 13 PADEL COURTS AIRPORT TRANSFER 4-STAR COMFORT POOL & SPA FACILITIES ALICANTE SPAIN' ... From Dublin to the courts, hear what Dan had to say about his Padelante experience 🎾🇮🇪 Our next tour is approaching! Learn more at: padelante.co.uk #padeltravel #padelholidays",
+     "kind": "reel",
+     "queryId": "13705015",
+     "lane": "competitor_venue",
+     "score": 0.25229695
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Padelante Holiday padel camp",
+     "dates": null,
+     "location": "Alicante, Spain",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Our next tour is approaching! Learn more at: padelante.co.uk",
+     "url": "https://www.instagram.com/reel/DbdOU6DAnOh"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [
+    "Our next tour is approaching!"
+   ],
+   "handleSource": "more_posts_from"
+  },
+  {
+   "handle": "everybodybootcampessex",
+   "profileUrl": "https://www.instagram.com/everybodybootcampessex/",
+   "displayName": "Every Body Bootcaamp",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Essex",
+    "Lanzarote"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DVevJbfDC7i",
+     "title": "Instagram",
+     "excerpt": "Day Minus 1 - Every Body Bootcamp Lanzarote Retreat 🌞🌊",
+     "kind": "reel",
+     "queryId": "13705015",
+     "lane": "competitor_venue",
+     "score": 0.09332227
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Every Body Bootcamp Lanzarote Retreat",
+     "dates": "Video by Every Body Bootcaamp on March 04, 2026",
+     "location": "Lanzarote",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Day Minus 1 - Every Body Bootcamp Lanzarote Retreat 🌞🌊",
+     "url": "https://www.instagram.com/reel/DVevJbfDC7i"
+    }
+   ],
+   "winterMonthMentioned": true,
+   "organizerSignals": [],
+   "handleSource": "never_miss_a_post"
+  },
+  {
+   "handle": "cgymstudios",
+   "profileUrl": "https://www.instagram.com/cgymstudios/",
+   "displayName": "CGYM STUDIOS",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Fuerteventura"
+   ],
+   "accountType": "person_or_brand",
+   "offTopic": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DYfOhY0NmdE",
+     "title": "Instagram",
+     "excerpt": "Bootcamp Season starts now 🔥 Am 21. Mai geht’s los nach Fuerteventura und wir sind sowas von ready 💪🏽✨ Neue Challenges, neue Energie und starke Girls an einem Ort.",
+     "kind": "reel",
+     "queryId": "13705015",
+     "lane": "competitor_venue",
+     "score": 0.06165541
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "CGYM Bootcamp Fuerteventura",
+     "dates": "21. Mai",
+     "location": "Fuerteventura",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Am 21. Mai geht’s los nach Fuerteventura und wir sind sowas von ready",
+     "url": "https://www.instagram.com/reel/DYfOhY0NmdE"
+    }
+   ],
+   "winterMonthMentioned": false,
+   "organizerSignals": [],
+   "handleSource": "never_miss_a_post",
+   "coTaggedHandles": [
+    "cgymretreat"
+   ]
+  }
+ ],
+ "listingLeads": [
+  {
+   "url": "https://bookretreats.com/s/ttc/200-hours-yoga-teacher-training/spain",
+   "title": "THE 10 BEST 200 Hours Yoga Teacher Training in Spain 2026/2027 • BookRetreats.com",
+   "excerpt": "21 Day 200-Hour Yoga Teacher Training in Gran Canaria, Spain ... Nov 20 - Dec 10, 2026 ... From BR$10,191 BR$ 9,625",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Nov 20 - Dec 10, 2026",
+   "price": "From BR$10,191 BR$ 9,625",
+   "location": "Gran Canaria, Canary Islands, Spain",
+   "queryId": "01e79b05"
+  },
+  {
+   "url": "https://bookretreats.com/s/ttc/200-hours-yoga-teacher-training/spain",
+   "title": "THE 10 BEST 200 Hours Yoga Teacher Training in Spain 2026/2027 • BookRetreats.com",
+   "excerpt": "18 Day 200 Hour Hatha & Vinyasa Yoga Teacher Training in Ibiza ... Sant Jordi de ses Salines, Balearic Islands, Spain Nov | Jan | Feb, 2027 ... From BR$10,752 BR$ 9,620",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Nov | Jan | Feb, 2027",
+   "price": "From BR$10,752 BR$ 9,620",
+   "location": "Sant Jordi de ses Salines, Balearic Islands, Spain",
+   "queryId": "01e79b05"
+  },
+  {
+   "url": "https://bookretreats.com/s/ttc/200-hours-yoga-teacher-training/spain",
+   "title": "THE 10 BEST 200 Hours Yoga Teacher Training in Spain 2026/2027 • BookRetreats.com",
+   "excerpt": "8 Day 50 Hrs Somatic Movement & Meditative Arts Training in Spain ... Tenerife, Canary Islands, Spain Mar 28 - Apr 4, 2027",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Mar 28 - Apr 4, 2027",
+   "price": null,
+   "location": "Tenerife, Canary Islands, Spain",
+   "queryId": "01e79b05"
+  },
+  {
+   "url": "https://bookretreats.com/s/ttc/200-hours-yoga-teacher-training",
+   "title": "THE 10 BEST 200 Hours Yoga Teacher Training for 2026/2027 • BookRetreats.com",
+   "excerpt": "18 Day 200 Hrs TTC Vinyasa & Sound Healing in Tenerife ... Nov 1 - 18, 2026 ... From ₺ 94,210",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Nov 1 - 18, 2026",
+   "price": "From ₺ 94,210",
+   "location": "Tenerife, Canary Islands, Spain",
+   "queryId": "01e79b05"
+  },
+  {
+   "url": "https://retreat.guru/be/yoga-teacher-training-retreats",
+   "title": "2517+ Best Yoga Teacher Training Retreats | 2027 Prices",
+   "excerpt": "Kundalini Yoga Teacher Training Europe – 200h Hatha & Kundalini (Yoga Alliance RYT 200) – Individual Schedule ... Center Matsya Yoga Rossatz, Austria From €2,100",
+   "organizerName": "Matsya Yoga",
+   "instagramHandle": null,
+   "dates": "27 Days Package",
+   "price": "From €2,100",
+   "location": "Rossatz, Austria",
+   "queryId": "01e79b05"
+  },
+  {
+   "url": "https://www.bookyogaretreats.com/all/c/yoga-teacher-training/d/europe/greece",
+   "title": "Top 10 Yoga Teacher Training in Greece for 2026/2027",
+   "excerpt": "top yoga teacher training courses in Greece. YTTs at the best price! January 2027 February. From US$ 1,767",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "January 2027 February",
+   "price": "From US$ 1,767",
+   "location": "Greece",
+   "queryId": "01e79b05"
+  },
+  {
+   "url": "https://bookretreats.com/blog/11-top-affordable-yoga-retreats-1000-still-rock",
+   "title": "11 Top Affordable Yoga Retreats Under $1000 (That Still Rock) 2026/2027",
+   "excerpt": "5 Day Yoga & Self-Reflection Retreat in Magical Paleros, Greece Palairos, Aetolia-Acarnania, Greece | Prices from $402",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": null,
+   "price": "Prices from $402",
+   "location": "Palairos, Aetolia-Acarnania, Greece",
+   "queryId": "72c1a526"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/cheap-retreats/europe/may",
+   "title": "THE 10 BEST Cheap Retreats in Europe for May 2027 • BookRetreats.com",
+   "excerpt": "7 Day Surfing & Yoga Retreat in Famara, Lanzarote, Spain ... Available all year round 4.86 (306 reviews)",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Available all year round",
+   "price": "From US$ 561",
+   "location": "Famara, Lanzarote, Canary Islands, Spain",
+   "queryId": "72c1a526"
+  },
+  {
+   "url": "https://bookretreats.com/s/wellness-retreats/limassol/january",
+   "title": "Wellness Retreats in Limassol for January 2027",
+   "excerpt": "30 Best Wellness Retreats around Limassol for January 2027 with 8 reviews.",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "January 2027",
+   "price": null,
+   "location": "Limassol, Cyprus",
+   "queryId": "72c1a526"
+  },
+  {
+   "url": "https://bookretreats.com/s/wellness-retreats/fitness-retreats-for-singles/europe/april",
+   "title": "THE 10 BEST Fitness Retreats Singles in Europe for April 2027 • BookRetreats.com",
+   "excerpt": "5 Day Yoga & Fitness Retreat in Rovies, Greece Rovies, Euboea, Greece Mar 26 - 30, 2027 4.99 (33 reviews) ... From MX$ 28,097",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Mar 26 - 30, 2027",
+   "price": "From MX$ 28,097",
+   "location": "Rovies, Euboea, Greece",
+   "queryId": "a2dd68d8"
+  },
+  {
+   "url": "https://bookretreats.com/s/wellness-retreats/fitness-retreats-for-singles/europe/april",
+   "title": "THE 10 BEST Fitness Retreats Singles in Europe for April 2027 • BookRetreats.com",
+   "excerpt": "5 Day Euphoria Fitness Retreat in Myrtas, Greece Mystras, Laconia, Greece Available all year round 4.70 (119 reviews) ... From MX$ 52,087",
+   "organizerName": "Euphoria Fitness",
+   "instagramHandle": null,
+   "dates": "Available all year round",
+   "price": "From MX$ 52,087",
+   "location": "Mystras, Laconia, Greece",
+   "queryId": "a2dd68d8"
+  },
+  {
+   "url": "https://bookretreats.com/s/wellness-retreats/women-s-wellness-retreats/europe",
+   "title": "THE 10 BEST Women's Wellness Retreats in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "6 Day \"Reset & Rise\" Mental Detox Retreat for Women in Portugal Caparica, Setúbal, Portugal Feb 22 - 27 | Mar 22 - 27, 2027 4.95 (167 reviews) 95 people are interested",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Feb 22 - 27 | Mar 22 - 27, 2027",
+   "price": null,
+   "location": "Caparica, Setúbal, Portugal",
+   "queryId": "a2dd68d8"
+  },
+  {
+   "url": "https://bookretreats.com/s/wellness-retreats/women-s-wellness-retreats/europe",
+   "title": "THE 10 BEST Women's Wellness Retreats in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "8 Day Women's Body & Nervous System Reset Retreat in Cyprus Mazotos, Larnaca, Cyprus Nov | Feb | Mar | Apr | May, 2027 ... From US$1,783 US$ 1,559",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Nov | Feb | Mar | Apr | May, 2027",
+   "price": "From US$1,783 US$ 1,559",
+   "location": "Mazotos, Larnaca, Cyprus",
+   "queryId": "a2dd68d8"
+  },
+  {
+   "url": "https://bookretreats.com/s/wellness-retreats/women-s-wellness-retreats/europe",
+   "title": "THE 10 BEST Women's Wellness Retreats in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "7 Day Queendom: Women's Yoga & Art Retreat in Alicante, Spain Alicante, Comunidad Valenciana, Spain Feb 8 - 14, 2027 ... From €1,600 € 1,300",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Feb 8 - 14, 2027",
+   "price": "From €1,600 € 1,300",
+   "location": "Alicante, Comunidad Valenciana, Spain",
+   "queryId": "a2dd68d8"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/cheap-retreats/europe",
+   "title": "THE 10 BEST Cheap Retreats in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "6 Day Be Creative Women Retreat on Fuerteventura, Spain Lajares, Fuerteventura, Canary Islands, Spain Nov 9 - 14 | Nov 23 - 28, 2026 5.00 (2 reviews) 27 people are interested",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Nov 9 - 14 | Nov 23 - 28, 2026",
+   "price": null,
+   "location": "Lajares, Fuerteventura, Canary Islands, Spain",
+   "queryId": "a2dd68d8"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/cheap-retreats/europe/may",
+   "title": "THE 10 BEST Cheap Retreats in Europe for May 2027 • BookRetreats.com",
+   "excerpt": "5 Day Active Training & Wellness Break, Northern Tenerife, Spain Tenerife, Canary Islands, Spain Available all year round 4.83 (44 reviews) ... From US$ 1,610",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Available all year round",
+   "price": "From US$ 1,610",
+   "location": "Tenerife, Canary Islands, Spain",
+   "queryId": "a2dd68d8"
+  },
+  {
+   "url": "https://retreat.guru/be/leadership-training-retreats",
+   "title": "724+ Best Leadership Training Retreats | 2027 Prices",
+   "excerpt": "5 days Transformative Retreat in Gran Canaria Last Chance Date October 21 - 25, 2026 Center Experience-Team Vecindario, Spain €900 / 5 days",
+   "organizerName": "Experience-Team",
+   "instagramHandle": null,
+   "dates": "October 21 - 25, 2026",
+   "price": "€900 / 5 days",
+   "location": "Vecindario, Gran Canaria, Spain",
+   "queryId": "94a497a9"
+  },
+  {
+   "url": "https://retreat.guru/be/leadership-retreats",
+   "title": "1019+ Best Leadership & Social Change Retreats 2027",
+   "excerpt": "Relax, Heal & Cuddle: Puppy Yoga Retreat in Peyia Date Flexible Dates Center Puppy Yoga Retreat Peyia, Cyprus From €990",
+   "organizerName": "Puppy Yoga Retreat",
+   "instagramHandle": null,
+   "dates": "Flexible Dates",
+   "price": "From €990",
+   "location": "Peyia, Cyprus",
+   "queryId": "94a497a9"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/digital-nomad-retreats/europe",
+   "title": "THE 10 BEST Digital Nomad Retreats in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "6 Day Signature Entrepreneur's Retreat in Madeira, Portugal Madeira, Portugal May 24 - 29, 2027 This is a curated luxury group experience designed for a small circle of professionals who ... From BR$10,021 BR$ 7,955",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "May 24 - 29, 2027",
+   "price": "From BR$10,021 BR$ 7,955",
+   "location": "Madeira, Portugal",
+   "queryId": "94a497a9"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/digital-nomad-retreats/europe",
+   "title": "THE 10 BEST Digital Nomad Retreats in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "4 Day Leadership Ascent Private Retreat in Portugal Rua de Casal Bom, Viseu District, Portugal Available all year round 4.80 (6 reviews) ... From BR$ 5,486",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Available all year round",
+   "price": "From BR$ 5,486",
+   "location": "Viseu District, Portugal",
+   "queryId": "94a497a9"
+  },
+  {
+   "url": "https://retreat.guru/be/yoga-retreats-in-europe",
+   "title": "426+ Best Yoga Retreats in Europe | 2027 Prices & Reviews",
+   "excerpt": "Best Yoga Retreats Canary Islands (Gran Canaria - 40+ Activities Weekly) - See Yoga Retreats Date Flexible Dates Center See Yoga Retreats Canary Islands Las Palmas de Gran Canaria, Spain From €465",
+   "organizerName": "See Yoga Retreats Canary Islands",
+   "instagramHandle": null,
+   "dates": "Flexible Dates",
+   "price": "From €465",
+   "location": "Las Palmas de Gran Canaria, Spain",
+   "queryId": "94a497a9"
+  },
+  {
+   "url": "https://bookretreats.com/s/yoga-retreats/yoga-retreats-for-singles/europe",
+   "title": "THE 10 BEST Yoga Retreats for Singles in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "7 Day Luxury Christmas Yoga & Meditation Retreat, Canary Islands Canary Islands, Spain Dec 21 - 27, 2026 4.99 (76 reviews) 13 people are interested",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Dec 21 - 27, 2026",
+   "price": null,
+   "location": "Canary Islands, Spain",
+   "queryId": "94a497a9"
+  },
+  {
+   "url": "https://bookretreats.com/s/yoga-retreats/yoga-retreats-for-singles/europe",
+   "title": "THE 10 BEST Yoga Retreats for Singles in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "4 Day Semi Private Yoga & Ocean Healing Retreat In Tenerife Tenerife, Canary Islands, Spain Feb 9 - 12, 2027 4.99 (23 reviews) 3 people are interested",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Feb 9 - 12, 2027",
+   "price": null,
+   "location": "Tenerife, Canary Islands, Spain",
+   "queryId": "94a497a9"
+  },
+  {
+   "url": "https://bookretreats.com/s/meditation-retreats/affordable-meditation-retreats/europe/february",
+   "title": "THE 10 BEST Affordable Meditation Retreats in Europe February 2027 • BookRetreats.com",
+   "excerpt": "8 Day Recharge Wellness & Nature Yoga Retreat in Corfu Corfu, Greece Available all year round 4.17 (134 reviews) 9 people are interested ... From US$ 780",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Available all year round",
+   "price": "From US$ 780",
+   "location": "Corfu, Greece",
+   "queryId": "04b7fbe9"
+  },
+  {
+   "url": "https://bookretreats.com/s/meditation-retreats/affordable-meditation-retreats/europe/february",
+   "title": "THE 10 BEST Affordable Meditation Retreats in Europe February 2027 • BookRetreats.com",
+   "excerpt": "7 Day Art Retreat in Agioi Vavatsinias, Cyprus Agioi Vavatsinias, Larnaca, Cyprus Available all year round 5.00 (10 reviews) ... The spoon woodcarving workshop with Cyprus Art Retreat ... From US$ 1,402",
+   "organizerName": "Cyprus Art Retreat",
+   "instagramHandle": null,
+   "dates": "Available all year round",
+   "price": "From US$ 1,402",
+   "location": "Agioi Vavatsinias, Larnaca, Cyprus",
+   "queryId": "04b7fbe9"
+  },
+  {
+   "url": "https://bookretreats.com/s/yoga-retreats/vegan-retreats/europe/february",
+   "title": "THE 10 BEST Vegan Retreats in Europe for February 2027 • BookRetreats.com",
+   "excerpt": "11 Day Juice Detox, Yoga and Wellness Retreat in Portugal Lagos, Faro District, Portugal Oct | Dec | Feb | Mar, 2027 4.90 (49 reviews) 8 people are interested",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Oct | Dec | Feb | Mar, 2027",
+   "price": null,
+   "location": "Lagos, Faro District, Portugal",
+   "queryId": "04b7fbe9"
+  },
+  {
+   "url": "https://bookretreats.com/s/yoga-retreats/vegan-retreats/europe/february",
+   "title": "THE 10 BEST Vegan Retreats in Europe for February 2027 • BookRetreats.com",
+   "excerpt": "8 Day Inner Glow Retreat | Yoga, Pilates & Wellness in Spain La Oliva, Canary Islands, Spain Available all year round 5.00 (5 reviews) 21 people are interested",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Available all year round",
+   "price": null,
+   "location": "La Oliva, Canary Islands, Spain",
+   "queryId": "04b7fbe9"
+  },
+  {
+   "url": "https://bookretreats.com/s/wellness-retreats/larnaca/may",
+   "title": "THE 10 BEST Wellness Retreats in Larnaca for May 2027 • BookRetreats.com",
+   "excerpt": "8 Day Slow Living Yoga Retreat in Tochni, Cyprus Tochni, Larnaca, Cyprus Available from February to January 4.58 (39 reviews) Dear Diana, We are really grateful ... From BR$ 7,530",
+   "organizerName": "Diana",
+   "instagramHandle": null,
+   "dates": "Available from February to January",
+   "price": "From BR$ 7,530",
+   "location": "Tochni, Larnaca, Cyprus",
+   "queryId": "04b7fbe9"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/affordable-all-inclusive-wellness-retreats/may",
+   "title": "THE 10 BEST Affordable All-Inclusive Wellness Retreats May 2027 • BookRetreats.com",
+   "excerpt": "6 Day Adventure Yoga Retreat With Island Excursions, Tenerife Tenerife, Canary Islands, Spain Nov | Dec | Jan | Feb | Mar | Apr | May | More... 4.95 (45 reviews) 31 people are interested",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Nov | Dec | Jan | Feb | Mar | Apr | May | More...",
+   "price": null,
+   "location": "Tenerife, Canary Islands, Spain",
+   "queryId": "04b7fbe9"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/affordable-all-inclusive-wellness-retreats/may",
+   "title": "THE 10 BEST Affordable All-Inclusive Wellness Retreats May 2027 • BookRetreats.com",
+   "excerpt": "7 Day All-Inclusive Surf & Yoga Retreat in Tamraght, Morocco Tamraght, Souss-Massa, Morocco Available from September to May 4.90 (109 reviews)",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Available from September to May",
+   "price": null,
+   "location": "Tamraght, Souss-Massa, Morocco",
+   "queryId": "04b7fbe9"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/digital-nomad-retreats/crete",
+   "title": "THE 10 BEST Digital Nomad Retreats in Crete for 2026/2027 • BookRetreats.com",
+   "excerpt": "7 Day Re-Enchantment: Rest & Digital Detox, Canary Islands Fuerteventura, Canary Islands, Spain Nov, 2026 | Dec, 2026 | Feb, 2027 4.99 (60 reviews)",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Nov, 2026 | Dec, 2026 | Feb, 2027",
+   "price": null,
+   "location": "Fuerteventura, Canary Islands, Spain",
+   "queryId": "28981f74"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/digital-nomad-retreats/crete",
+   "title": "THE 10 BEST Digital Nomad Retreats in Crete for 2026/2027 • BookRetreats.com",
+   "excerpt": "5 Day Spring Equinox Euphoria Retreat in Greece Mystras, Laconia, Greece Mar 19 - 23, 2027 The Spring Equinox Euphoria Retreat Greece - Śakti Mandala Awakening JourneyJoin Bav Tailor and her ... From ₺ 182,269",
+   "organizerName": "Bav Tailor",
+   "instagramHandle": null,
+   "dates": "Mar 19 - 23, 2027",
+   "price": "From ₺ 182,269",
+   "location": "Mystras, Laconia, Greece",
+   "queryId": "28981f74"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/gay-retreats/fuerteventura/february",
+   "title": "THE 10 BEST Gay Retreats in Fuerteventura for February 2027 • BookRetreats.com",
+   "excerpt": "6 Day January New Year Yoga, Detox & Wellness Retreat - Canaries Lanzarote, Canary Islands, Spain Jan 3 - 8, 2027 4.99 (76 reviews) 2 people are interested",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Jan 3 - 8, 2027",
+   "price": null,
+   "location": "Lanzarote, Canary Islands, Spain",
+   "queryId": "28981f74"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/work-life-balance-retreats/europe",
+   "title": "THE 10 BEST Work-Life Balance Retreats in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "7 Day \"Create Your Life\" Self-Development Retreat in Portugal Alvor, Faro District, Portugal Oct | Feb | Nov, 2027 4.63 (4 reviews) 4 people are interested ... From US$ 1,851",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Oct | Feb | Nov, 2027",
+   "price": "From US$ 1,851",
+   "location": "Alvor, Faro District, Portugal",
+   "queryId": "28981f74"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/work-life-balance-retreats/europe",
+   "title": "THE 10 BEST Work-Life Balance Retreats in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "6 Day Singing Retreat- IgniteYour Voice & Creativity, Tenerife Tenerife, Canary Islands, Spain Nov 4 - 9, 2026 4.94 (9 reviews) 7 people are interested Alisa’s singing retreat was absolutely magical! ... From US$1,121 US$ 1,008",
+   "organizerName": "Alisa",
+   "instagramHandle": null,
+   "dates": "Nov 4 - 9, 2026",
+   "price": "From US$1,121 US$ 1,008",
+   "location": "Tenerife, Canary Islands, Spain",
+   "queryId": "28981f74"
+  },
+  {
+   "url": "https://retreat.guru/be/womens-retreats-in-europe",
+   "title": "33+ Best Women's Retreats in Europe | 2027 Prices & Reviews",
+   "excerpt": "5 Day The Tantric Woman Retreat in Tenerife Date March 3 - 7, 2027 Center Tantra Bridge Güímar, Spain ... €950 / 5 days",
+   "organizerName": "Tantra Bridge",
+   "instagramHandle": null,
+   "dates": "March 3 - 7, 2027",
+   "price": "€950 / 5 days",
+   "location": "Güímar, Tenerife, Spain",
+   "queryId": "8258f2c4"
+  },
+  {
+   "url": "https://retreat.guru/be/womens-retreats-in-europe",
+   "title": "33+ Best Women's Retreats in Europe | 2027 Prices & Reviews",
+   "excerpt": "3 Night, Relaxing and Rejuvinating Yoga and Hiking Holiday in Corfu Date 4 Days Package Center Yoga Corfu Holidays Agios Gordios, Greece From €299",
+   "organizerName": "Yoga Corfu Holidays",
+   "instagramHandle": null,
+   "dates": "4 Days Package",
+   "price": "From €299",
+   "location": "Agios Gordios, Corfu, Greece",
+   "queryId": "8258f2c4"
+  },
+  {
+   "url": "https://bookretreats.com/s/wellness-retreats/ladies-retreats/europe",
+   "title": "THE 10 BEST Ladies Retreats in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "3 Day AUREA Women's Empowerment Retreat in Barcelona, Spain Sant Pol de Mar, Catalonia, Spain Dec 4 - 6, 2026 | Mar 5 - 7, 2027 10 people are interested ... From € 420",
+   "organizerName": "AUREA",
+   "instagramHandle": null,
+   "dates": "Dec 4 - 6, 2026 | Mar 5 - 7, 2027",
+   "price": "From € 420",
+   "location": "Sant Pol de Mar, Catalonia, Spain",
+   "queryId": "8258f2c4"
+  },
+  {
+   "url": "https://bookretreats.com/s/wellness-retreats/ladies-retreats/europe",
+   "title": "THE 10 BEST Ladies Retreats in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "6 Days Yoga and Reconnect Women’s Retreat in Crete, Greece Crete, Greece Nov 10 - 15, 2026 10 people are interested Experience the Authentic Heart of Crete ... From € 850",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Nov 10 - 15, 2026",
+   "price": "From € 850",
+   "location": "Crete, Greece",
+   "queryId": "8258f2c4"
+  },
+  {
+   "url": "https://bookretreats.com/s/wellness-retreats/ladies-retreats/europe",
+   "title": "THE 10 BEST Ladies Retreats in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "5 Day Reset Retreat for Women Navigating Change, Mallorca, Spain ... From €2,000 € 1,895 8 people are interested",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": null,
+   "price": "From €2,000 € 1,895",
+   "location": "Mallorca, Spain",
+   "queryId": "8258f2c4"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/womens-entrepreneur-retreats/europe",
+   "title": "THE 10 BEST Women's Entrepreneur Retreats in Europe 2026/2027 • BookRetreats.com",
+   "excerpt": "5 Day Women's Longevity Retreat: Private Villa, French Riviera Nice, Provence-Alpes-Côte d'Azur, France Apr 21 - 25, 2027 Four nights in a private villa on the French Riviera, above Nice, for seven to ten women ... From BR$ 25,353",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Apr 21 - 25, 2027",
+   "price": "From BR$ 25,353",
+   "location": "Nice, Provence-Alpes-Côte d'Azur, France",
+   "queryId": "8258f2c4"
+  },
+  {
+   "url": "https://bookretreats.com/s/other-retreats/cheap-retreats/europe",
+   "title": "THE 10 BEST Cheap Retreats in Europe for 2026/2027 • BookRetreats.com",
+   "excerpt": "3 Days Wellness Weekend in black Forest, Germany Ühlingen-Birkendorf, Baden-Württemberg, Germany Jan 22 - 24 | Apr 23 - 25, 2027 4.97 (9 reviews)",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": "Jan 22 - 24 | Apr 23 - 25, 2027",
+   "price": null,
+   "location": "Ühlingen-Birkendorf, Baden-Württemberg, Germany",
+   "queryId": "04b7fbe9"
+  },
+  {
+   "url": "https://www.tripaneer.com/all/c/bootcamp",
+   "title": "Top 10 Bootcamp Holidays for 2026/2027",
+   "excerpt": "8 Day Bali Retreat: Boxing, Padel, Surfing, Yoga, Treks, From US$ 2,544.",
+   "organizerName": null,
+   "instagramHandle": null,
+   "dates": null,
+   "price": "From US$ 2,544",
+   "location": "Bali",
+   "queryId": "7c5c86c4"
+  }
+ ],
+ "unattributedPosts": [
+  {
+   "url": "https://www.instagram.com/p/C9KdQaiIFQs",
+   "title": "ריטריט יוגה - קיבוץ מורן 5-7.9 עם @_omerdan_ @nomad.gidi ...",
+   "excerpt": "padme.wellness ריטריט יוגה - קיבוץ מורן 5-7.9 עם @_omerdan_ @nomad.gidi הרשמה נפתחה. (first line 'padme.wellness' present but no literal handle pattern)",
+   "queryId": "a279d296"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DUXFdIlEqUA",
+   "title": "Instagram",
+   "excerpt": "2026 Wanderlust Fitness Retreats are HERE and we cannot wait to welcome more epic humans from around the world to, BALI and of course to @wanderlustfitnessvillage_bali ✈️🏝️ What our 8 day, 7 night Fitness Retreats include: -5 Star beachfront accommodation ... 👀 PLUS… our first EVER 2-location retreat runs July 12–19 ... 🔗 Spots are limited — hit the link in our bio to secure yours for 2026! (Vi...",
+   "queryId": "bd9b0db1"
+  },
+  {
+   "url": "https://www.instagram.com/p/DSVIzHSkXvc",
+   "title": "Instagram",
+   "excerpt": "usctrojanwomensnetwork 🗓️ Mark your calendars for Saturday, February 7, 2026 and join us for our annual wellness retreat ... featuring alumna @daniellegrayfit!",
+   "queryId": "bd9b0db1"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DV1iNcpEVsk",
+   "title": "Instagram",
+   "excerpt": "b_omifarms POV: You finally book the all-women wellness retreat for 2026—on a farm in North Carolina—because you’re choosing rest, sisterhood, and softness.",
+   "queryId": "bd9b0db1"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DaiZhFWqZ6W",
+   "title": "Back in Europe for two retreats in 2027🇩🇪 . Preregistration ...",
+   "excerpt": "Leipzig, Germany, from Friday 4 September to Sunday 6 September 2026, for Yoga & the Elements: transformative 2-night retreat. | extract: 'VIPASSANA RETREAT ... LOWER SAXONY GERMANY MARCH 13-19 7 SPOTS REMAINING MARCH 27-APRIL 2 6 SPOTS REMAINING' ... 'VIPASSANA PORTUGAL OCT 10-17 WAITLIST ... CANADA DEC 30-JAN' (Video by Whit Hornsberger; no literal handle pattern)",
+   "queryId": "25a7a385"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DRrg2f0ii7m",
+   "title": "New Retreat dates for 2026 Horse & Human Connection ...",
+   "excerpt": "Join us for a 5-day journey this coming May 3rd -9th 2026 into deep connection with horses and yourself.",
+   "queryId": "25a7a385"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DdJgKeNNq53",
+   "title": "Hear from the Happiness Retreat attendees directly! ...",
+   "excerpt": "Our 2026 retreat starts 30 October 2026 - Details are in the comments.",
+   "queryId": "25a7a385"
+  },
+  {
+   "url": "https://www.instagram.com/p/C5s7P96MMgl",
+   "title": "Join us for our next retreat this September in Portugal! Julie's ...",
+   "excerpt": "Join us for our next retreat this September in Portugal! Julie's comment captures it perfectly. Our retreats are self-care, personal development and",
+   "queryId": "25a7a385"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DaSAafvghJx",
+   "title": "Six retreats. Six unique journeys. Hundreds ...",
+   "excerpt": "Path of Love continues around the world, with retreats in Sweden, Greece, Australia, Italy, the USA and the UK coming up this year.",
+   "queryId": "25a7a385"
+  },
+  {
+   "url": "https://www.instagram.com/p/Dd8pR5rDL7N",
+   "title": "RETRAITE D'HIVER du Cercle Enchanté Du 31 janvier au ...",
+   "excerpt": "Du 31 janvier au 6 février 2027 ! La billetterie est ouverte !!!! Les inscriptions se passent par ici : https://lecercleenchante.com/tarifs-et-",
+   "queryId": "d5364059"
+  },
+  {
+   "url": "https://www.instagram.com/p/DabNKW7lsIr",
+   "title": "Ça y est !!! Les inscriptions pour la retraite au Guatemala 2027 ...",
+   "excerpt": "Ça y est !!! Les inscriptions pour la retraite au Guatemala 2027 sont officiellement ouvertes On en est déjà à la troisième édition",
+   "queryId": "d5364059"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DRVI9QpiHHa",
+   "title": "🌴Retraite au Mexique : 14-21 Mars 2026 🌴 J'ai l'immense ...",
+   "excerpt": "Retraite au Mexique : 14-21 Mars 2026 … des inscriptions pour la retraite de yoga. Inscriptions 👉 Tarif normal : 1600 € 👉 Early Bird : 1500 €.",
+   "queryId": "d5364059"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DVeqseEkTpC",
+   "title": "Le message que plusieurs attendaient… 🌊✈️🌺 ...",
+   "excerpt": "Demain, je vais enfin dévoiler toutes les dates officielles des retraites MissFit 2026-2027.",
+   "queryId": "d5364059"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DN4O3PCgTV9",
+   "title": "Mastermind Retreat brings founders, athletes & executives ...",
+   "excerpt": "Mastermind Retreat brings founders, athletes & executives together in Napa Valley. The room where leaders connect. ➡️Register now at teambig.",
+   "queryId": "aa3a6aad"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DeBjbhColl_",
+   "title": "Instagram",
+   "excerpt": "📅 14-18 January 2027 Limited places available. Send me a message with the word “RETREAT” and I’ll send you all the details. ‼️ Also have one room available 16-20 Nov ‼️ #Lanzarote #PilatesRetreat #WellnessRetreat #dbchealthretreat ... That’s exactly what awaits you in Lanzarote with DBC Health Retreats",
+   "queryId": "295e1244"
+  },
+  {
+   "url": "https://www.instagram.com/p/Ddy2GAOyLto",
+   "title": "Une semaine pour toi 💕 🇵🇹 Retraite bien-être au Portugal ...",
+   "excerpt": "Du 9 au 17 mai 2027 ✈️ Vol direct, hébergement, repas et 2 soupers de groupe inclus. Au programme : méditation, hypnose, entraînements,",
+   "queryId": "a38f98b9"
+  },
+  {
+   "url": "https://www.instagram.com/p/DbVPemyEyNy",
+   "title": "🩰🏄‍♀️ Prochaine retraite Pilates - 18 au 22 septembre 2026 ...",
+   "excerpt": "5 jours pour prendre soin de toi, bouger et rencontrer de nouvelles femmes dans un cadre ressourçant. Lisbonne, Portugal 18–22 septembre 2026 Villa",
+   "queryId": "a38f98b9"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DOd7SKGiM7Q",
+   "title": "Une retraite bien-être unique ✨ Nous sommes 3 femmes ...",
+   "excerpt": "Nous sommes 3 femmes passionnées, 3 univers différents et complémentaires, en France, au Portugal et en Suède.",
+   "queryId": "a38f98b9"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DP15-ULiJ8l",
+   "title": "all surrounded by the stunning nature of Monchique ...",
+   "excerpt": "VilaFoia accueille des studios et enseignants du monde entier pour créer des séjours uniques de transformation et de paix. #RetraitePilates (venue seed: VilaFoia, Monchique)",
+   "queryId": "a38f98b9"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DcjA3wmRUCA",
+   "title": "Instagram",
+   "excerpt": "Video by Luna Yoga on August 27, 2026. '2027-2028 200 hr TEACHER TRAINING Priority Registration Register by January 8, 2027 $3,250' (lunayogamtl profile picture lines only; no literal handle pattern)",
+   "queryId": "c965a45c"
+  },
+  {
+   "url": "https://www.instagram.com/p/DVWhhBsDVGm",
+   "title": "Instagram",
+   "excerpt": "retreatsintenerife's profile picture Photo by Retreats Tenerife on March 01, 2026. (venue seed: Retreats Tenerife; no literal handle pattern)",
+   "queryId": "274ccfc5"
+  },
+  {
+   "url": "https://www.instagram.com/p/DXhujf9CI5H",
+   "title": "The Retreat Facilitator Training 🔥(Closes Sunday) This is ...",
+   "excerpt": "Come on retreat with meI host intentional retreats designed to help you step away from the everyday and reconnect with yourself.",
+   "queryId": "274ccfc5"
+  },
+  {
+   "url": "https://www.instagram.com/p/DdEPJyojZsP?hl=es",
+   "title": "Here it comes! The 2027 Art Retreats.... Get ready! Portugal ...",
+   "excerpt": "Here it comes! The 2027 Art Retreats.... Get ready! Portugal, Arega 01-08 June 2027. The Netherlands, 28 June-July 5th 2027. Provence, France 19-26",
+   "queryId": "be14d6a9"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DaKp79YIrIB",
+   "title": "Instagram",
+   "excerpt": "☀️ 6 days / 5 nights of yoga, renewal and radiance ... 📍 Portugal | 25 -30 September 2026 🔗 in bio for all the details Spots are limited ... #reviveyogalondon #retreattorevive #radianceretreat",
+   "queryId": "be14d6a9"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DaavdgxvPgm",
+   "title": "No more burnouts this summer ... 👇 ...",
+   "excerpt": "At our offline retreats in the Netherlands & France, people want to be unproductive. This July 24–26, in a beautiful house in Dutch nature,",
+   "queryId": "be14d6a9"
+  },
+  {
+   "url": "https://www.instagram.com/p/DePa9K7DbkK",
+   "title": "TODAY ONLY (and this is the last time).. ...",
+   "excerpt": "Registration for our 2027 Annual Event (Jan. 27-30, 2027) in Portland, or online, opens today!",
+   "queryId": "42a8520b"
+  },
+  {
+   "url": "https://www.instagram.com/p/DXpFrZKjUf1",
+   "title": "Instagram",
+   "excerpt": "villavibes_retreat_hospitality's profile picture Photo by Villavibes Fuerteventura on April 27, 2026. (venue seed: Villavibes Fuerteventura; no literal handle pattern)",
+   "queryId": "77f37b04"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DUnekLEk7xA",
+   "title": "Instagram",
+   "excerpt": "vigeo_retreats's profile picture Video by Vigeo Retreats on February 11, 2026. ... Photo by Akasha Curation (no literal handle pattern)",
+   "queryId": "77f37b04"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Cy5eW11tOFp",
+   "title": "Instagram",
+   "excerpt": "Thank you to all the yogis who have signed up for our Winter Sanctuary in Tenerife, Spain. ... Although our retreat is currently fully booked, you can still add yourself to our waitlist. #yyogabrussels #retreat #tenerife",
+   "queryId": "77f37b04"
+  },
+  {
+   "url": "https://www.instagram.com/p/DZxqHvVE5gW",
+   "title": "Instagram",
+   "excerpt": "villamonacotenerife's profile picture Photo by Villa Monaco Tenerife on June 19, 2026. (venue seed; no literal handle pattern)",
+   "queryId": "77f37b04"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Dbie1Djhy6a",
+   "title": "yours, mind, and ours 💜 That's my why. And I'll get catch ...",
+   "excerpt": "And Timeless Mastermind, a 12 month container that includes and exclusive retreat + branded photoshoot… ... RETREAT SEPT, 2026.",
+   "queryId": "cf9c334f"
+  },
+  {
+   "url": "https://www.instagram.com/p/Da3m6Q0mOs1",
+   "title": "We're thrilled to have Rabbi Benjamin Gorelick joining us for the ...",
+   "excerpt": "We're thrilled to have Rabbi Benjamin Gorelick joining us for the second edition of The Experience House Mastermind.",
+   "queryId": "cf9c334f"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DeCA3m_sZpK",
+   "title": "We're opening Colibri to a handful of facilitators ready ...",
+   "excerpt": "October 3, 2026: If you teach, hold, guide, we are welcoming you to host your retreat, mastermind, residency at our sanctuary. Yoga. Breathwork (venue seed: Colibri)",
+   "queryId": "cf9c334f"
+  },
+  {
+   "url": "https://www.instagram.com/p/DZ-8WRWmQWt",
+   "title": "You had questions. I have answers. Swipe through for everything ...",
+   "excerpt": "It was officially day, one of the Greece Council Mastermind Retreat, and for anyone who is wondering whether or not international retreats are a good idea",
+   "queryId": "cf9c334f"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DTvCG0MDB61",
+   "title": "Instagram",
+   "excerpt": "Photo by Veronica Yablo • יוגה, טבע וחיים ביוון on September 17, 2026. ... 'סדרה מוקלטת ללימוד מדיטציית ויפאסנה 180 ₪ ... אין צורך לצאת לריטריט של 10 ימים' (Israeli yoga teacher living in Greece; no literal handle pattern)",
+   "queryId": "c1bb0637"
+  },
+  {
+   "url": "https://www.instagram.com/p/DdoaOUIl2Bf",
+   "title": "The NAPSEC 2027 Conference website is live! ...",
+   "excerpt": "🗓️ January 17–20, 2027 | San Diego, CA",
+   "queryId": "8501487a"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DUfzIPMjf_C",
+   "title": "First week surfing and suddenly everything makes sense ✨ ...",
+   "excerpt": "We host women-only surf retreats in Fuerteventura, in small, cozy groups of women. Our all-female team leads daily surf lessons, yoga, skate",
+   "queryId": "dd48ee2d"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Da3IwgYBDUe",
+   "title": "10 Oct 2026 FUERTEVENTURA Our Surf Skate & Yoga ...",
+   "excerpt": "Our Surf Skate & Yoga Retreat in Fuerteventura is more than a holiday - it's a chance to reconnect with yourself, challenge your body, and meet",
+   "queryId": "dd48ee2d"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DEUb6JDoa0W",
+   "title": "Instagram",
+   "excerpt": "I am very excited to be an organiser and a host of this retreat ... from arrival to departure to our base - @cnssantacruznaturehouse ... #longboard #skating #longboarddancing #retreat",
+   "queryId": "dd48ee2d"
+  },
+  {
+   "url": "https://www.instagram.com/p/DReH73vDZHW",
+   "title": "𝗵𝗲𝗿. 𝗿𝗲𝘄𝗶𝗹𝗱𝗶𝗻𝗴 𝗿𝗲𝘁𝗿𝗲𝗮𝘁 6–11 July 2026",
+   "excerpt": "WOMEN'S RETREAT 31 August — 5 September 2026 | Portugal. Oct 21 - 25 2026. Join us for a transformational 5 days of community living",
+   "queryId": "3d43e938"
+  },
+  {
+   "url": "https://www.instagram.com/p/DZPdMzQCGce",
+   "title": "Art Retreat, with @ilincabarbato, @josefinseifert ...",
+   "excerpt": "WOMEN'S RETREAT EXPERIENCE WITH MIRJAM, ALEXANDRA & PETRA March 13th - March 18th, 2026 Lagos, Portugal RESIDENCE",
+   "queryId": "3d43e938"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DXZyGYeDI1Z",
+   "title": "Portugal (link in bio) We can't wait to welcome you back ...",
+   "excerpt": "April 21, 2026: Embody Her Retreat 22–27 June | Portugal. Join us for a richer retreat experience",
+   "queryId": "3d43e938"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DUX8kUsjYse",
+   "title": "Solo Retreats at Asha's Place A sanctuary for women ...",
+   "excerpt": "*FINAL TWO ROOMS AVAILABLE* September 6-12 2026. Looking for deep healing?",
+   "queryId": "3d43e938"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DeZjNEUIRFN",
+   "title": "Instagram",
+   "excerpt": "kimihajian Waitlists for my 2027 yoga retreats and trainings are now open and linked in bio! 🦋 🌊 Soul & Sea Vol. 2 | Croatia retreat | 21–27 May 2027 🌀 50H Chakra Studies | Portugal | 1–6 July 2027 📖 200H Hatha Vinyasa Training | Hybrid Online, Prague + Sri Lanka (first line 'kimihajian'; no literal handle pattern)",
+   "queryId": "3d43e938"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DctJ_33Af1b",
+   "title": "Instagram",
+   "excerpt": "Photo by Stamps | Retreats, Tours & Events on October 15, 2026. ... Video by Maria Amiouni | Spiritual & Human Design Coach (stampstours profile picture lines; no literal handle pattern)",
+   "queryId": "3d43e938"
+  },
+  {
+   "url": "https://www.instagram.com/p/DebQP9pAqy_",
+   "title": "Instagram",
+   "excerpt": "There’s so much taking shape behind the scenes: our December teacher training, new events ... See you in Mallorca 🫶🏽 A few places are now open for our December teacher training. #pilatesretreat #mallorca #pilatesteachertraining (Video by Pilates with Saara | Saara Method; The Pilates Retreats)",
+   "queryId": "082d0392"
+  },
+  {
+   "url": "https://www.instagram.com/p/DbG1Jy7DlUj",
+   "title": "Instagram",
+   "excerpt": "purplevalleyyogatenerife's profile picture Photo by Ashtanga Yoga Retreats | Tenerife on September 17, 2026. (venue seed: Purple Valley Yoga Tenerife; no literal handle pattern)",
+   "queryId": "082d0392"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DcEEczJR7ar",
+   "title": "A yoga retreat is so much more than just ...",
+   "excerpt": "Come experience it for yourself on our upcoming retreat to Norway this October 12-18, 2026!🇳🇴✨. Set in a UNESCO protected area in the Alpujarra",
+   "queryId": "2a121e0a"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DTBBBmFEc3_",
+   "title": "2026 is your year ⭐️ A better-me year. More movement. ...",
+   "excerpt": "Adventures offers adventure yoga retreats, yoga. Every 2026 retreat sold out. Fitness Retreat Amorgos,",
+   "queryId": "2a121e0a"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DZu2ilStfQr",
+   "title": "Take us back ❤️ the beauty of retreat lives in all the layers ...",
+   "excerpt": "yoga, incredible food, unforgettable adventures, deep connection & time to simply BE. AWAKEN & FLOW • CRETE, GREECE October 1 - 8, 2026",
+   "queryId": "2a121e0a"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DbjMhUhoUum",
+   "title": "Instagram",
+   "excerpt": "Video by Sarah Dippen Yoga Retreat on October 08, 2026. ... Piazza di Spagna ... Camogli (sarahdippenyoga profile picture lines; no literal handle pattern)",
+   "queryId": "2a121e0a"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DWjkAZmRgnJ",
+   "title": "⭐️LAST SPOTS LEFT⭐️ We've got transformative, awe ...",
+   "excerpt": "We've got transformative, awe-inspiring retreats coming up this year. September 20th - 24th, September 23rd - 30th, 2026 Check our website or",
+   "queryId": "2a121e0a"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DTXxov9DI58",
+   "title": "Instagram",
+   "excerpt": "✨ Yogaretreat i Marocko – hösten 2026 ✨FULLBOKAD! Nästa resa 2027. ... 9 dagar långt Iyengar-retreat tillsammans – Sattva Yoga & Satya Yoga. ... 2–11 oktober 2026, Bab Zouina, Marocko. ... Vi, Sofia Bergström & Siri Tuseth ... Pris från 1285 € (boende, mat, transfer & yoga ingår) Intresserad? Läs mer på www.sattvayoga.se",
+   "queryId": "8f779eb7"
+  },
+  {
+   "url": "https://www.instagram.com/p/DWV90qHikcC",
+   "title": "Instagram",
+   "excerpt": "For 5. Gang har vi næææsten udsolgt Work Away Retreat til Spanien! 🌴 👉🏼 Og vi har planlagt datoerne til efterårsretreatet den 27 sep til 2 okt 2026! ... Kom med for kun 14.500 kr ex moms ... Kun 1 plads tilbage! ... ræk ud til mig eller @juliebeicker",
+   "queryId": "8f779eb7"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DbP_puvDKrq",
+   "title": "Instagram",
+   "excerpt": "Video by Breath of Alps Studio on September 13, 2026. 'SHANTIKA International Holistic Training Hosted at Breath of Alps Bad Gastein, Austria' (venue seed; no literal handle pattern)",
+   "queryId": "8f779eb7"
+  },
+  {
+   "url": "https://www.instagram.com/p/Dc37y9-FY-G",
+   "title": "🌴🎾 Serve, Rally & Escape! 🎾🏓 Ready to take your tennis or ...",
+   "excerpt": "padel game to paradise? Join TCC Travel. Jan. 19–26, 2027 Spots are limited! For more information & registration, contact travel@tennisclubs.ca (niagarafallsracquetcentre profile picture lines; no literal handle pattern)",
+   "queryId": "5f100c09"
+  },
+  {
+   "url": "https://www.instagram.com/p/DeBNY3fvvyz",
+   "title": "2027 CALENDAR IS HERE! 🔥🎾 A new year of padel ...",
+   "excerpt": "Registration Fee: 900K / pair. REGISTRATION ARE AVAILABLE!🔥 (Photo by Bali Padel Academy (BPA); no literal handle pattern)",
+   "queryId": "5f100c09"
+  },
+  {
+   "url": "https://www.instagram.com/p/Db8RjRgkoo0?__d=1%252F%253Fhidemenu%253Dtrue",
+   "title": "️ NEW 2027 PADEL HOLIDAY DATES ARE LIVE! 🎾🌍 We' ...",
+   "excerpt": "January 2027 💰 £795 including padel + hotel Limited spaces available! 👉 Book your Padelista Escape at padelistaescapes.com. Flexible times! (extract failed: 'Failed to fetch url')",
+   "queryId": "5f100c09"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DY7UiPYN-6_",
+   "title": "Discover what makes @nueva.alcantara.club so special! ...",
+   "excerpt": "Jan 3rd-8th 2027 ... For clubs, groups and corporate teams, a padel retreat combines sport, social time, coaching and a premium destination (thepadeldirectory profile picture lines; no literal handle pattern)",
+   "queryId": "5f100c09"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DblDdgAtVfU",
+   "title": "Nov 15–20 | Dec 6–11 | Dec 13–18 🗓️ 😍 2027 DATES ...",
+   "excerpt": "Join our 6-day intensive padel camps running twice a month through 2026/2027! Camp Price: €368 for 6 action-packed days. Just a €100 deposit",
+   "queryId": "5f100c09"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DX1iWYQs6fv",
+   "title": "Where the magic begins… ✨ Play hard Train like a pro Laugh ...",
+   "excerpt": "2027 NEW DATES JAN 2027 🏟️ Jan 3rd-8th 2027 🏟️ Jan 10th-15th 2027. FEB 2027 🏟️ Feb 1st-6th 2027 🏟️ Feb 7th-12th 2027. MARCH 2027 🏟️ March",
+   "queryId": "5f100c09"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DQZtiltCpY-",
+   "title": "🌅 Transformative Retreat in Spain 2026 with John Andreas ...",
+   "excerpt": "Join John Andreas, Sweden's leading voice in men's transformation, and",
+   "queryId": "4954443e"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DeBzjy3iis9",
+   "title": "Mykonos Mastermind Retreat 2026 Vlog #1 ...",
+   "excerpt": "A trip filled with incredible food, breathtaking views, plenty of laughter and, most importantly, time to connect, learn and create memories",
+   "queryId": "4954443e"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Dcg9-MYOA3A",
+   "title": "Over three days this August, the Land held space for twenty ...",
+   "excerpt": "August 26, 2026: 'Be More Human' retreat invited guests … meditation, water prayer, breathwork, conversations, ORIN Mastermind & Retreat Serra",
+   "queryId": "4954443e"
+  },
+  {
+   "url": "https://www.instagram.com/p/DOQfxBzCMGs",
+   "title": "Instagram",
+   "excerpt": "Du vendredi 9 au dimanche 11 janvier 2026 : 3 jours de retraite en ville, non résidentiels, au Parc Floral de Paris @espacecityzenparis (Inscriptions ouvertes). ... retraite organisée par @terredeveilvipassana",
+   "queryId": "15631f40"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DePXdThI5WW",
+   "title": "Instagram",
+   "excerpt": "Du 6 au 9 mai 2027, je vous ouvre à nouveau les portes de ma Maison du Bien-Être pour quatre jours en petit groupe. ... 📍 La Maison du Bien-Être, en Champagne 📅 Du 6 au 9 mai 2027 ✉️ contact@julieferrez.com #JulieFerrez",
+   "queryId": "15631f40"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DR181eXDBRP",
+   "title": "Instagram",
+   "excerpt": "Our retreat venue is built for fitness, boxing, and performance camps ... 'HOLIDAY Package WITH US AT CASA KINSELLA TENERIFE SOUTH Your Perfect Retreat in the Sun ... LUXURY ACCOMMODATION BEDROOMS SLEEPS POOL & PANORAMIC VIEWS PERFECT FOR GROUPS, TEAMS, FAMILIES' (venue seed: Retreat to Tenerife / Casa Kinsella)",
+   "queryId": "13705015"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DYzgvQTMuwD",
+   "title": "✨ comment RETREAT and I'll send you the details ✨ ...",
+   "excerpt": "ANJALI 200-Hour Vinyasa Flow Yoga Teacher Training 2026/27 Find Your Flow. Teach from Within. Yoga Alliance–certified teacher training",
+   "queryId": "0cb5b323"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DPPZNQSARdV",
+   "title": "AHHH :') comment “YTT” and I'll send you more info ...",
+   "excerpt": "join the @thepeacefulwarriorsyoga teaching team the upcoming training in dreamy Ericeira, Portugal July 14-August 4, 2026",
+   "queryId": "0cb5b323"
+  },
+  {
+   "url": "https://www.instagram.com/p/DbGkGXnkZT_",
+   "title": "There is something special about practicing yoga ...",
+   "excerpt": "An advanced 50-hour immersion for yoga teachers ・ 17-Day 200-Hour Yoga Teacher Training August 13-30 ・ in the heart of Sweden's beautiful",
+   "queryId": "0cb5b323"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DaoBn3hR40O",
+   "title": "Deepen your Yoga practice, become a Yoga teacher or just ...",
+   "excerpt": "Find all details of our Yoga Teacher Trainings, Retreats in Sweden",
+   "queryId": "0cb5b323"
+  }
+ ]
+}

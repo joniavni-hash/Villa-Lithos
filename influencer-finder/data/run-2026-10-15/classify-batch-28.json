@@ -1,0 +1,417 @@
+{
+ "batch": 28,
+ "candidates": [
+  {
+   "handle": "leyogascope",
+   "profileUrl": "https://www.instagram.com/leyogascope/",
+   "displayName": "Le Yogascope • Retraites yoga",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Provence, France",
+    "Corse"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DWzGRY-DbDA",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Never miss a post from leyogascope [...] Photo by Le Yogascope • Retraites yoga on April 06, 2026. leyogascope • Follow Provence, France"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXhTW1PjZKL",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Photo by Le Yogascope • Retraites yoga on April 24, 2026. aquadanceflow's profile picture leyogascope and 2 others Corse"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "betty.franks.art",
+   "profileUrl": "https://www.instagram.com/betty.franks.art/",
+   "displayName": "Betty Franks ■ Colorful Abstract Art",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Ireland",
+    "France",
+    "Italy",
+    "Greece"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Registration for Italy and Greece opens soon",
+    "comment VIP to join my first access list"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DWz2hirjB1A",
+     "kind": "post",
+     "title": "Get my 2027 Retreat schedule",
+     "excerpt": "✨The 2027 calendar is filling up! While we’re dreaming of Ireland and France in April, keep an eye out for a Mediterranean summer and a Grecian autumn. Registration for Italy and Greece opens soon. To see all my 2027 retreat schedule, comment RETREAT."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Grecian autumn retreat",
+     "dates": "autumn 2027",
+     "location": "Greece",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "keep an eye out for a Mediterranean summer and a Grecian autumn. Registration for Italy and Greece opens soon.",
+     "url": "https://www.instagram.com/p/DWz2hirjB1A"
+    }
+   ]
+  },
+  {
+   "handle": "brainhealthkitchen",
+   "profileUrl": "https://www.instagram.com/brainhealthkitchen/",
+   "displayName": "Annie Fenn MD | Brain Health",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Costa Rica"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "is officially open!",
+    "Details and sign-up are in the link in my bio!"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DVoY0uqBWYX",
+     "kind": "reel",
+     "title": "Annie Fenn MD | Brain Health on Instagram: Costa Rica 2027 is officially open!",
+     "excerpt": "Costa Rica 2027 is officially open! If you’ve been thinking about joining a Brain Health Retreat, this is your invitation. Early enrollment has its perks: our first 10 registered guests will receive a complimentary massage! Costa Rica Brain Health Retreat 2027 is now open ✨"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Costa Rica Brain Health Retreat 2027",
+     "dates": "2027",
+     "location": "Costa Rica",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Costa Rica Brain Health Retreat 2027 is now open ✨",
+     "url": "https://www.instagram.com/reel/DVoY0uqBWYX"
+    }
+   ]
+  },
+  {
+   "handle": "camplonestar",
+   "profileUrl": "https://www.instagram.com/camplonestar/",
+   "displayName": "Camp Lone Star",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Register today",
+    "Registration closes on January 16th!"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTTlAw-j6t6",
+     "kind": "post",
+     "title": "Register today to join us for Women's Renewal! ...",
+     "excerpt": "Register today to join us for Women's Renewal! Registration closes on January 16th! Cost: $230 (includes all meals, lodging, a t-shirt, coffee, snacks"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Women's Renewal",
+     "dates": "Registration closes on January 16th",
+     "location": null,
+     "price": "$230",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Register today to join us for Women's Renewal! Registration closes on January 16th! Cost: $230",
+     "url": "https://www.instagram.com/p/DTTlAw-j6t6"
+    }
+   ]
+  },
+  {
+   "handle": "courtfituk",
+   "profileUrl": "https://www.instagram.com/courtfituk/",
+   "displayName": "CourtFit Tennis",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Lisbon",
+    "La Manga",
+    "Vale do Lobo"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "More dates for next year going live soon",
+    "tap the link in bio or email us at holidays@courtfit.co.uk"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DcbYQ2VKCS0",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Book our tennis and padel retreats and have the time of your life! 🎾🌞 Upcoming trips: ✈️ Lisbon 30th Sep - 2nd Oct 2026 from £450pp ✈️ La Manga 4th - 8th Nov 2026 from £749pp ✈️ Vale do Lobo 11th -15th Nov 2026 from £749 More dates for next year going live soon email us at holidays@courtfit.co.uk!"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "La Manga tennis and padel retreat",
+     "dates": "4th - 8th Nov 2026",
+     "location": "La Manga",
+     "price": "from £749pp",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "✈️ La Manga 4th - 8th Nov 2026 from £749pp",
+     "url": "https://www.instagram.com/p/DcbYQ2VKCS0"
+    },
+    {
+     "title": "Vale do Lobo tennis and padel retreat",
+     "dates": "11th -15th Nov 2026",
+     "location": "Vale do Lobo",
+     "price": "from £749",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "✈️ Vale do Lobo 11th -15th Nov 2026 from £749",
+     "url": "https://www.instagram.com/p/DcbYQ2VKCS0"
+    }
+   ]
+  },
+  {
+   "handle": "csiocsigene",
+   "profileUrl": "https://www.instagram.com/csiocsigene/",
+   "displayName": "Csi Ocsigène",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Saint Léger Sous Cholet"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeRuPwTCLnx",
+     "kind": "post",
+     "title": "📣 '' BIENVENUE A LA RETRAITE '' Un parcours pour vous ...",
+     "excerpt": "📣 '' BIENVENUE A LA RETRAITE '' Un parcours pour vous aider à aborder cette transition avec sérénité ! Un parcours GRATUIT ouvert aux futurs et nouveaux retraités !"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "daniela_kosmalski_yoga",
+   "profileUrl": "https://www.instagram.com/daniela_kosmalski_yoga/",
+   "displayName": "Daniela Kosmalski",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Mexico",
+    "#santacruzyoga"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "registration now open",
+    "click link in my bio"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DaQLrskhX23",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Super happy to head back to this wonderful place next January. 🇲🇽Mexico Retreat 2027 registration now open. More info: click link in my bio or simply message me. Hope to host you and friends in the jungle."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Mexico Retreat 2027",
+     "dates": "next January",
+     "location": "Mexico",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🇲🇽Mexico Retreat 2027 registration now open.",
+     "url": "https://www.instagram.com/reel/DaQLrskhX23"
+    }
+   ]
+  },
+  {
+   "handle": "dotunoloyede",
+   "profileUrl": "https://www.instagram.com/dotunoloyede/",
+   "displayName": "Oladotun Oloyede",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Click the link in bio to register"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTMvY7kjOIJ?__d=1%2B",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "If you’re ready to scale, evolve, and take your next step, R3 Mastermind Retreat is where it happens. Make it a date. Click the link in bio to register. The vision for this year’s R3 Mastermind Retreat is simple: practical, applicable strategies."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "R3 Mastermind Retreat",
+     "dates": null,
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "R3 Mastermind Retreat is where it happens. Make it a date. Click the link in bio to register.",
+     "url": "https://www.instagram.com/p/DTMvY7kjOIJ?__d=1%2B"
+    }
+   ]
+  },
+  {
+   "handle": "doyogawithme",
+   "profileUrl": "https://www.instagram.com/doyogawithme/",
+   "displayName": "DoYogaWithMe",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "ready for registration!",
+    "Check the link in our bio"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DeeV67pBt1s",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Our 2027 retreat season is up and ready for registration! Check the link in our bio for more information—we hope to see you there! 🌴🌞🧘🏻 #retreats @mardejade_retreat #doyogawithme #yogaretreats #yoga"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "2027 retreat season",
+     "dates": "2027",
+     "location": "@mardejade_retreat",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Our 2027 retreat season is up and ready for registration!",
+     "url": "https://www.instagram.com/reel/DeeV67pBt1s"
+    }
+   ]
+  },
+  {
+   "handle": "drjoedispenza",
+   "profileUrl": "https://www.instagram.com/drjoedispenza/",
+   "displayName": "Dr Joe Dispenza",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Basel, Schweiz"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/drjoedispenza",
+     "kind": "profile",
+     "title": "Dr Joe Dispenza (@drjoedispenza)",
+     "excerpt": "Progressive Retreats in Basel, Schweiz, geübt. 16,000 people. 67 countries. Progressive Retreats here in Basel, Switzerland."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Progressive Retreats Basel",
+     "dates": null,
+     "location": "Basel, Switzerland",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Progressive Retreats here in Basel, Switzerland. 16,000 people. 67 countries.",
+     "url": "https://www.instagram.com/drjoedispenza"
+    }
+   ]
+  },
+  {
+   "handle": "drkarenhillspruden",
+   "profileUrl": "https://www.instagram.com/drkarenhillspruden/",
+   "displayName": null,
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Portsmouth, VA"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Haven't registered for the Sister Leaders Conference yet?"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/drkarenhillspruden/reel/DZxXT1ikvQR?hl=de",
+     "kind": "reel",
+     "title": "Unlock the leader in you! 🚀✨ Dive into 2 days of transformative ...",
+     "excerpt": "Haven't registered for the Sister Leaders Conference yet? Conference Theme: Purpose Led. Profit Focused. October 2-3, 2026, Rivers Casino (Portsmouth, VA)"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Sister Leaders Conference",
+     "dates": "October 2-3, 2026",
+     "location": "Rivers Casino (Portsmouth, VA)",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Sister Leaders Conference October 2-3, 2026, Rivers Casino (Portsmouth, VA)",
+     "url": "https://www.instagram.com/drkarenhillspruden/reel/DZxXT1ikvQR?hl=de"
+    }
+   ]
+  },
+  {
+   "handle": "eafc_jean_meunier",
+   "profileUrl": "https://www.instagram.com/eafc_jean_meunier/",
+   "displayName": "EAFC JEAN MEUNIER",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DcIW75Ylm0D",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Photo by EAFC JEAN MEUNIER on August 16, 2026. 'EAFC Jean Meunier 2026-2027 VENDEUR EN MAGASIN INSCRIPTIONS OUVERTES Enseignement pour Adultes'"
+    }
+   ],
+   "eventsMentioned": []
+  }
+ ]
+}

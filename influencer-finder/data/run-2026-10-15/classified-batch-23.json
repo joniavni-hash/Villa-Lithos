@@ -1,0 +1,1345 @@
+{
+ "batch": 23,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "barreandbreatheretreats",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbFZX4zBkf-"
+     ],
+     "note": "Runs retreats in several destinations (Scotland, Sicily, a new May 2027 location): she picks venues."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbFZX4zBkf-"
+     ],
+     "note": "'A few spaces left for our Scotland and Sicily retreats', 'Comment RETREAT'."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbFZX4zBkf-"
+     ],
+     "note": "Only dated retreat is May 2027; Scotland and Sicily dates not given."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'A few spaces left' with no total."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbFZX4zBkf-"
+     ],
+     "note": "Self-described 'Boutique Barre Retreats'; no price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbFZX4zBkf-"
+     ],
+     "note": "Multiple retreats (Scotland, Sicily) and a next one in May 2027."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbFZX4zBkf-"
+     ],
+     "note": "Boutique women's barre and wellness retreats in European destinations, a good aesthetic match."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbFZX4zBkf-"
+     ],
+     "note": "Several retreats on sale with few spaces left."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "No winter-dated retreat in evidence"
+    ],
+    "missingInformation": [
+     "Dates of the Scotland and Sicily retreats",
+     "Price, group size and follower count",
+     "Home market (Scotland location hint suggests UK)"
+    ],
+    "summary": "Barre & Breathe runs boutique barre, yoga and wellness retreats for women in Scotland and Sicily, with a few spaces left and a new May 2027 retreat about to be announced. The brand is boutique and European, and the host clearly chooses multiple destinations, which suits a Greek villa. No winter dates are shown so far. Medium risk; pitch a pilot winter or early spring edition in Greece."
+   },
+   "events": [
+    {
+     "title": "Scotland and Sicily retreats",
+     "eventType": "womens_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Scotland; Sicily",
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbFZX4zBkf-"
+     ]
+    },
+    {
+     "title": "Next retreat (May 2027, destination not yet revealed)",
+     "eventType": "womens_retreat",
+     "startDate": "2027-05",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbFZX4zBkf-"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Barre & Breathe ~Boutique Barre Retreats~",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "boutique barre and wellness retreats for women",
+    "markets": []
+   }
+  },
+  {
+   "handle": "body.by.letty",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdjaPgCl46U"
+     ],
+     "note": "Co-hosts 'The Radical Reset' immersion in Costa Rica with The Sound Shift; venue choice shared."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdjaPgCl46U"
+     ],
+     "note": "'All info and bookings can be made via the link in my bio'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdjaPgCl46U"
+     ],
+     "note": "Costa Rica immersion 12-17 April 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Called 'this special retreat'; no other editions in evidence."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdjaPgCl46U"
+     ],
+     "note": "12-17 April (5 nights)."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdjaPgCl46U"
+     ],
+     "note": "Body and sound-healing immersion; destination retreat abroad."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Co-hosted event, so she may not control the venue decision alone"
+    ],
+    "missingInformation": [
+     "Price, group size and follower count",
+     "Home market",
+     "Past retreat track record"
+    ],
+    "summary": "Letty Mitchell (body.by.letty) co-hosts 'The Radical Reset', an immersion in Costa Rica on 12-17 April 2027 with The Sound Shift, taking bookings through her bio link. It is a dated winter-window destination retreat, though co-hosted and with no price, group size or track record shown. Medium risk; a pilot pitch is reasonable once her home market is known."
+   },
+   "events": [
+    {
+     "title": "The Radical Reset, an immersion in Costa Rica",
+     "eventType": "wellness_retreat",
+     "startDate": "2027-04-12",
+     "endDate": "2027-04-17",
+     "nights": 5,
+     "location": "Costa Rica",
+     "country": "CR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdjaPgCl46U"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Letty Mitchell",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "body and wellness coach, retreat co-host",
+    "markets": []
+   }
+  },
+  {
+   "handle": "candacevandell",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRAd2bqkYR6"
+     ],
+     "note": "'I took a group of beautiful women to the Caribbean for my retreat'; partners with @puntacanaresort."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRAd2bqkYR6"
+     ],
+     "note": "'My retreat', 'RISE RETREAT 2026 WAITLIST OPEN'."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRAd2bqkYR6"
+     ],
+     "note": "Past retreat in October and next in May 2026; neither in November-April."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'A group of beautiful women'; no number."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRAd2bqkYR6"
+     ],
+     "note": "Caribbean resort retreat with horse swimming and gong therapy suggests a higher spend; no price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRAd2bqkYR6"
+     ],
+     "note": "October retreat followed by RISE Retreat May 2026 waitlist."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRAd2bqkYR6"
+     ],
+     "note": "Women's resort retreat with curated experiences."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRAd2bqkYR6"
+     ],
+     "note": "Ran a retreat with a group in the Caribbean in October."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Retreats so far fall in May and October, outside the target season",
+     "Caribbean destination suggests a North American audience"
+    ],
+    "missingInformation": [
+     "Price, group size and follower count",
+     "Home market",
+     "Year of the October retreat (only inferable)"
+    ],
+    "summary": "Candace Kroslak-van Dell runs the RISE Retreat for women: she took a group to Punta Cana in October and opened a waitlist for May 2026. She organises and sells her own retreats and has a completed edition, but dates so far avoid the November-April window and the Caribbean points to a North American audience. Medium risk; a pilot pitch for a spring edition in Greece is possible."
+   },
+   "events": [
+    {
+     "title": "RISE Retreat (October, Caribbean)",
+     "eventType": "womens_retreat",
+     "startDate": "2025-10",
+     "endDate": null,
+     "nights": null,
+     "location": "Punta Cana, Caribbean",
+     "country": "DO",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRAd2bqkYR6"
+     ]
+    },
+    {
+     "title": "RISE Retreat 2026",
+     "eventType": "womens_retreat",
+     "startDate": "2026-05",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DRAd2bqkYR6"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Candace Kroslak-van Dell",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "women's empowerment retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "cgymstudios",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYfOhY0NmdE"
+     ],
+     "note": "Studio takes its members on a bootcamp to Fuerteventura; venue not named."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYfOhY0NmdE"
+     ],
+     "note": "Runs a 'Bootcamp Season' trip to Fuerteventura; no booking language in the excerpt."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYfOhY0NmdE"
+     ],
+     "note": "Bootcamp starts 21 May (year not stated), outside the window."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'Starke Girls an einem Ort'; no number."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYfOhY0NmdE"
+     ],
+     "note": "'Bootcamp Season' implies a recurring format."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYfOhY0NmdE"
+     ],
+     "note": "German-speaking women's fitness bootcamp abroad."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Thin pack: one reel, no price, size or venue",
+     "Gym studio; bootcamp format may need gym facilities"
+    ],
+    "missingInformation": [
+     "Bootcamp dates (year), length, group size and price",
+     "Studio location (German-speaking market, city unknown)",
+     "Follower count"
+    ],
+    "summary": "CGYM Studios is a German-speaking gym studio that runs a women's bootcamp trip to Fuerteventura starting 21 May (year not stated). It organises destination fitness trips for its community, which puts it in Group A, and it sits in the German priority market. Evidence is a single reel with no winter date, price or group size. Medium risk; scouting conversation to see if a winter bootcamp is possible."
+   },
+   "events": [
+    {
+     "title": "CGYM Bootcamp Fuerteventura",
+     "eventType": "fitness_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Fuerteventura",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYfOhY0NmdE"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "CGYM STUDIOS",
+    "country": null,
+    "languages": [
+     "de"
+    ],
+    "niche": "women's gym studio running fitness bootcamps abroad",
+    "markets": [
+     "DE"
+    ]
+   }
+  },
+  {
+   "handle": "coachkeren",
+   "classification": {
+    "group": "C_high_value_host",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcWYs3NivRv"
+     ],
+     "note": "Hosts her own VIP Day in Austin, TX; venue not named."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcWYs3NivRv"
+     ],
+     "note": "'Join me for VIP Day', 'Limited spots available', 'Get your ticket'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcWYs3NivRv"
+     ],
+     "note": "VIP Day on 14 November 2026, but it is a one-day event in her home city, not a residential retreat."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'Limited spots available'; no number."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcWYs3NivRv"
+     ],
+     "note": "Targets CEOs and business owners (#ceo, #mastermind); no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcWYs3NivRv"
+     ],
+     "note": "One-day format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcWYs3NivRv"
+     ],
+     "note": "Executive coaching for business owners could fit a premium mastermind retreat."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Only a one-day local event in evidence; no destination retreat",
+     "US-based (Austin, TX)"
+    ],
+    "missingInformation": [
+     "Whether she runs residential masterminds or retreats",
+     "Price and group size",
+     "Follower count"
+    ],
+    "summary": "Coach Keren is a business coach for CEOs and business owners who sells tickets to a one-day VIP Day in Austin, TX on 14 November 2026 (tagged #businessretreat and #mastermind). Her audience is premium, but the only event shown is local and non-residential, so there is no proof she books destination venues. Medium risk; scouting only, to learn whether she runs residential masterminds."
+   },
+   "events": [
+    {
+     "title": "VIP Day 2026",
+     "eventType": "workshop",
+     "startDate": "2026-11-14",
+     "endDate": "2026-11-14",
+     "nights": null,
+     "location": "Austin, TX",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcWYs3NivRv"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Coach Keren",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "business and executive coach",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "columbiayoga",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd5Gr85jLLl"
+     ],
+     "note": "Teacher trainings run 'at the Yoga Center of Columbia', its own studio."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd5Gr85jLLl"
+     ],
+     "note": "Sells in-studio RYT 200/500 teacher trainings, not retreats."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd5Gr85jLLl"
+     ],
+     "note": "Programmes begin January 2027, but they are in-studio trainings, not residential retreats."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only an early-registration discount is mentioned."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd5Gr85jLLl"
+     ],
+     "note": "'Cornerstone programs' suggest a regular offering."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd5Gr85jLLl"
+     ],
+     "note": "Local US studio running in-studio trainings."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Studio running only in-studio trainings"
+    ],
+    "missingInformation": [],
+    "summary": "Yoga Center of Columbia is a US studio opening registration for in-studio RYT 200 and RYT 500 teacher trainings starting January 2027. It runs no destination retreats in the evidence, so it is outside the target groups. Exclude."
+   },
+   "events": [
+    {
+     "title": "RYT 200 / RYT 500 Yoga Teacher Training",
+     "eventType": "teacher_training",
+     "startDate": "2027-01",
+     "endDate": null,
+     "nights": null,
+     "location": "Yoga Center of Columbia",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd5Gr85jLLl"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Yoga Center of Columbia",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga studio",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "davidsonchaplains",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd461kXHJP4"
+     ],
+     "note": "Organises a First Year Wellness Retreat for students; not a commercial sale."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd461kXHJP4"
+     ],
+     "note": "First Year Wellness Retreat 12-17 January 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd461kXHJP4"
+     ],
+     "note": "12-17 January (5 nights)."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd461kXHJP4"
+     ],
+     "note": "US college chaplaincy programme for first-year students."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "College student programme; not a commercial organiser",
+     "US domestic"
+    ],
+    "missingInformation": [],
+    "summary": "Davidson College Chaplains' Office runs a First Year Wellness Retreat for students on 12-17 January 2027. It is a winter retreat, but a campus student programme with no commercial or international angle. Exclude."
+   },
+   "events": [
+    {
+     "title": "First Year Wellness Retreat",
+     "eventType": "wellness_retreat",
+     "startDate": "2027-01-12",
+     "endDate": "2027-01-17",
+     "nights": 5,
+     "location": null,
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dd461kXHJP4"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Davidson Chaplains' Office",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "college chaplaincy",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "ecis_official",
+   "classification": {
+    "group": "C_high_value_host",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddo10rWDObV"
+     ],
+     "note": "Chooses host city and venue for its leadership retreat (Myland International School, Seville)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddo10rWDObV"
+     ],
+     "note": "'Small School Leadership Retreat', 'REGISTER YOUR INTEREST'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddo10rWDObV"
+     ],
+     "note": "Leadership retreat in Seville, 22-23 January 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'Small School' refers to the schools, not group size; no number."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No fee shown; attendees are school leaders, likely institution-funded."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddo10rWDObV"
+     ],
+     "note": "Two-day format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddo10rWDObV"
+     ],
+     "note": "International school leaders meeting at a European destination in winter; a private estate could host a small leadership retreat."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Current retreat is hosted inside a member school, not a hotel or villa",
+     "Two-day format"
+    ],
+    "missingInformation": [
+     "Group size and fee",
+     "Whether ECIS rotates retreats across member cities",
+     "Contact for event planning"
+    ],
+    "summary": "ECIS (international schools network) runs a Small School Leadership Retreat in Seville on 22-23 January 2027, hosted at Myland International School. It is a European professional leadership group that picks host cities and runs events in winter, which fits Group C. The current format is short and school-hosted, and group size and fee are unknown. Medium risk; pitch a pilot leadership retreat in Athens."
+   },
+   "events": [
+    {
+     "title": "Small School Leadership Retreat",
+     "eventType": "leadership_retreat",
+     "startDate": "2027-01-22",
+     "endDate": "2027-01-23",
+     "nights": 1,
+     "location": "Myland International School, Seville",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddo10rWDObV"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Ecis Schools",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "international schools network, leadership events",
+    "markets": []
+   }
+  },
+  {
+   "handle": "eco__psyche",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/eco__psyche"
+     ],
+     "note": "Runs 'intentional holidays' in varied venues (@thequarryhouses in Glysboda, Schull in West Cork, Mallorca)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/eco__psyche"
+     ],
+     "note": "'2026 intentional holidays, 4 opportunities' listed in the profile."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/eco__psyche"
+     ],
+     "note": "April 17-20 in Schull, West Cork, listed among the 2026 holidays."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/eco__psyche"
+     ],
+     "note": "Four holidays in 2026."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/eco__psyche"
+     ],
+     "note": "Mallorca holiday runs October 10-17 (7 nights)."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/eco__psyche"
+     ],
+     "note": "Yoga, breath and community holidays in small, characterful European venues."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Profile excerpt is truncated; two of the four 2026 holidays are not visible"
+    ],
+    "missingInformation": [
+     "Home base and audience market (Sweden and Ireland venues)",
+     "Price and group size",
+     "2027 schedule"
+    ],
+    "summary": "eco__psyche (yoga, breath, community) runs 'intentional holidays' across Europe: four in 2026, including 17-20 April in Schull, West Cork, 10-17 October in Mallorca, and one at The Quarry Houses in Glysboda, Sweden. A shoulder-season April holiday and a week-long Mallorca format suggest a host who moves between European venues, with a possible Nordic link. No price or group size. Medium risk; pilot retreat pitch for a spring 2027 holiday in Greece."
+   },
+   "events": [
+    {
+     "title": "2026 intentional holiday, Schull",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-04-17",
+     "endDate": "2026-04-20",
+     "nights": 3,
+     "location": "Schull, West Cork",
+     "country": "IE",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/eco__psyche"
+     ]
+    },
+    {
+     "title": "2026 intentional holiday, Mallorca",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-10-10",
+     "endDate": "2026-10-17",
+     "nights": 7,
+     "location": "Mallorca",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/eco__psyche"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "yoga | breath | community",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga and breathwork holidays",
+    "markets": []
+   }
+  },
+  {
+   "handle": "entreellesaunaturel",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Co-hosts 'Retraite en Provence'; who picks the venue is not stated."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRhjDZpAv2Z"
+     ],
+     "note": "'Les inscriptions sont officiellement ouvertes', 'Places limitées', registration on 'notre site'."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRhjDZpAv2Z"
+     ],
+     "note": "Only dated retreat is 10-14 June 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'Places limitées' only."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Branded '2026' edition; earlier editions not in evidence."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRhjDZpAv2Z"
+     ],
+     "note": "5-day format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRhjDZpAv2Z"
+     ],
+     "note": "French women's wellness retreat (yoga, sound healing, natural spa)."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Retreat is local to her own region (Provence); co-hosted",
+     "Primary activity is doula and fertility-awareness work"
+    ],
+    "missingInformation": [
+     "Her role in the Retraite en Provence team",
+     "Price and group size",
+     "Interest in travelling abroad"
+    ],
+    "summary": "Ariane (entreellesaunaturel) is a doula and fertility-awareness educator in the Var who co-hosts 'Retraite en Provence', a 5-day yoga, sound-healing and natural-spa retreat on 10-14 June 2026 with limited places. She sits in the French priority market, but the retreat is local, co-hosted and outside the winter window. Medium risk; scouting only."
+   },
+   "events": [
+    {
+     "title": "Retraite en Provence 2026",
+     "eventType": "wellness_retreat",
+     "startDate": "2026-06-10",
+     "endDate": "2026-06-14",
+     "nights": 4,
+     "location": "Provence",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRhjDZpAv2Z"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Ariane~Symptothermie~Doula",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "doula and fertility awareness; retreat co-host",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "fitinfuerteventura",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/C0d-gY3MToz"
+     ],
+     "note": "Package includes a 'Villa stay' with transfers and meals: she books the villa herself."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/C0d-gY3MToz"
+     ],
+     "note": "Sells 'Fit in Fuerte March 2027' as a package (villa, transfers, meals, workouts, photos)."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/C0d-gY3MToz"
+     ],
+     "note": "Five-night stay, arrival Friday 12 March, departure Wednesday 17 March 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "All-inclusive package with professional photos; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Account labelled '(NEW)'; no earlier editions in evidence."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/C0d-gY3MToz"
+     ],
+     "note": "Five-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/C0d-gY3MToz"
+     ],
+     "note": "Villa-based, all-inclusive fitness retreat in winter sun: the exact model the villa serves."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "New account; no track record in evidence"
+    ],
+    "missingInformation": [
+     "Price per person and group size",
+     "Home market of Jenna and her clients",
+     "Follower count"
+    ],
+    "summary": "Jenna Shilston (Fit In Fuerte) sells a five-night villa-based fitness retreat in Fuerteventura, 12-17 March 2027, bundling villa stay, airport transfers, all meals, daily workouts and professional photos. She already books private villas for winter-sun groups, which is exactly the Villa Lithos model. The account is new, with no price, group size or history shown. Medium risk; strong pilot retreat candidate for a Greek winter edition."
+   },
+   "events": [
+    {
+     "title": "Fit in Fuerte March 2027",
+     "eventType": "fitness_retreat",
+     "startDate": "2027-03-12",
+     "endDate": "2027-03-17",
+     "nights": 5,
+     "location": "Fuerteventura (villa stay)",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/C0d-gY3MToz"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Fit In Fuerte with Jenna",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "fitness coach running villa fitness retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "florabowley",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Excerpt ('retreats open across 35+ countries') reads like aggregator copy, not her own offer."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": []
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Possible mis-attribution: the only excerpt reads like a retreat marketplace advert"
+    ],
+    "missingInformation": [
+     "Whether she hosts her own retreats, with dates and venues",
+     "Follower count and audience market"
+    ],
+    "summary": "Flora Bowley is an intuitive artist, author and guide, but the only evidence is a reel excerpt advertising 'retreats open across 35+ countries for 2026 and 2027', which reads like an aggregator advert rather than her own retreat. Nothing shows her organising or selling a retreat. Unknown risk; re-collect evidence before classifying her as an organiser."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Intuitive artist, author, + guide",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "intuitive painting artist and author",
+    "markets": []
+   }
+  }
+ ]
+}

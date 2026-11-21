@@ -1,0 +1,80 @@
+// classify-candidates: Stage 1 public screening with Claude, then scoring.
+// POST { candidateIds?: string[], limit?: number, deep?: boolean, runId?: string }
+// Screens candidates lacking a classification (or all given ids). Tier A candidates
+// get a second pass with the stronger model when deep=true.
+import { adminClient, json, CORS, requireUser, callClaude, parseJson, recordUsage, logRun } from '../_shared/clients.ts';
+import { errMsg } from '../_shared/clients.ts';
+import { SYSTEM_SCREENING, SYSTEM_DEEP, CLASSIFICATION_SCHEMA, buildScreeningUserMessage } from '../_shared/engine/ai/prompts.ts';
+import { scoreCandidate } from '../_shared/engine/scoring/score.ts';
+import { expectedBookedNights, eventInputs } from '../_shared/engine/scoring/ebn.ts';
+import { estimateVenueBudget, budgetInputsFromEvents } from '../_shared/engine/scoring/budget.ts';
+import { recommendTrack } from '../_shared/engine/outreach/generator.ts';
+import type { Candidate, Classification } from '../_shared/engine/pipeline/types.ts';
+import { toCandidate } from '../_shared/mappers.ts';
+
+Deno.serve(async (req) => {
+  if (req.method === 'OPTIONS') return new Response(null, { headers: CORS });
+  const auth = await requireUser(req);
+  if (auth instanceof Response) return auth;
+  const sb = adminClient();
+  const body = await req.json().catch(() => ({}));
+  const { data: settings } = await sb.from('villa_settings').select('*').eq('id', 1).maybeSingle();
+  let q = sb.from('candidates').select('*');
+  if (body.candidateIds?.length) q = q.in('id', body.candidateIds);
+  else q = q.is('classification', null).order('discovered_at', { ascending: true });
+  const { data: cands } = await q.limit(body.limit ?? 10);
+  const out: Array<{ id: string; handle: string; tier?: string; fitScore?: number; error?: string }> = [];
+  for (const row of cands ?? []) {
+    try {
+      const { data: ev } = await sb.from('evidence').select('url,title,excerpt,kind').eq('candidate_id', row.id).order('score', { ascending: false }).limit(40);
+      if (!ev?.length) { out.push({ id: row.id, handle: row.handle, error: 'no evidence' }); continue; }
+      const user = buildScreeningUserMessage({ handle: row.handle, profileUrl: row.profile_url, bio: row.bio, followers: row.followers, website: row.website, evidence: ev });
+      const res = await callClaude({ system: SYSTEM_SCREENING, messages: [{ role: 'user', content: user }], tier: 'screening', schema: CLASSIFICATION_SCHEMA, maxTokens: 3000 });
+      await recordUsage(sb, { runId: body.runId ?? null, candidateId: row.id, provider: 'claude', operation: 'classify', costUsd: res.costUsd, meta: { model: res.model, provider: res.provider } });
+      const parsed = parseJson<Classification & { events: Candidate['events']; profile: Record<string, unknown> }>(res.text);
+      const classification: Classification = { ...parsed, model: res.model, analysedAt: new Date().toISOString() };
+      delete (classification as unknown as Record<string, unknown>).events;
+      delete (classification as unknown as Record<string, unknown>).profile;
+      // Events: replace model-extracted events for this candidate (keep manual ones with provenance != ai)
+      for (const e of parsed.events ?? []) {
+        await sb.from('events').upsert({ candidate_id: row.id, title: e.title, event_type: e.eventType ?? null, start_date: e.startDate ?? null, end_date: e.endDate ?? null, nights: e.nights ?? null, location: e.location ?? null, country: e.country ?? null, group_size: e.groupSize ?? null, price_per_person: e.pricePerPerson ?? null, currency: e.currency ?? null, sold_out: e.soldOut ?? null, role: e.role, is_winter: !!e.isWinter, provenance: e.provenance ?? 'unknown', evidence_urls: e.evidenceUrls ?? [] }, { onConflict: 'candidate_id,title,start_date' });
+      }
+      const { data: events } = await sb.from('events').select('*').eq('candidate_id', row.id);
+      const cand = toCandidate(row, ev, events ?? [], classification);
+      if (parsed.profile?.markets && Array.isArray(parsed.profile.markets)) cand.markets = Array.from(new Set([...(cand.markets ?? []), ...(parsed.profile.markets as string[])])) as Candidate['markets'];
+      let score = scoreCandidate(cand, { weights: settings?.weights, floorPricePerNightEur: settings?.floor_price_per_night_eur, venueShare: settings?.venue_budget_share });
+      // Deep pass for Tier A
+      let finalClassification = classification;
+      if (body.deep !== false && score.tier === 'A') {
+        const deep = await callClaude({ system: SYSTEM_DEEP, messages: [{ role: 'user', content: user }], tier: 'deep', schema: CLASSIFICATION_SCHEMA, maxTokens: 5000 });
+        await recordUsage(sb, { runId: body.runId ?? null, candidateId: row.id, provider: 'claude', operation: 'deep', costUsd: deep.costUsd, meta: { model: deep.model } });
+        const dp = parseJson<Classification & { events: Candidate['events']; profile: Record<string, unknown> }>(deep.text);
+        finalClassification = { ...dp, model: deep.model, analysedAt: new Date().toISOString() };
+        delete (finalClassification as unknown as Record<string, unknown>).events; delete (finalClassification as unknown as Record<string, unknown>).profile;
+        cand.classification = finalClassification;
+        score = scoreCandidate(cand, { weights: settings?.weights, floorPricePerNightEur: settings?.floor_price_per_night_eur, venueShare: settings?.venue_budget_share });
+      }
+      const track = recommendTrack(cand);
+      const bi = budgetInputsFromEvents(cand.events, settings?.villa?.groupCapacity?.value);
+      const budget = estimateVenueBudget({ ...bi.inputs, venueShare: settings?.venue_budget_share }, settings?.floor_price_per_night_eur);
+      budget.assumptions.push(...bi.notes);
+      const budgetToFloorRatio = budget.venueBudgetPerNightEur == null ? null : budget.venueBudgetPerNightEur / budget.floorPricePerNightEur;
+      const ebn = expectedBookedNights({ score, ...eventInputs(cand.events), nightlyRevenueEur: settings?.nightly_revenue_eur ?? null, track: track.track, verified: false, budgetToFloorRatio });
+      const stage = row.pipeline_stage === 'discovered' ? (score.tier === 'A' || score.tier === 'B' ? 'publicly_qualified' : 'discovered') : row.pipeline_stage;
+      await sb.from('candidates').update({
+        classification: finalClassification, candidate_group: finalClassification.group, public_score: score, fit_score: row.verified_score ? row.fit_score : score.fitScore, confidence: row.verified_score ? row.confidence : score.confidence, tier: row.verified_score ? row.tier : score.tier,
+        ebn, budget, recommended_track: track.track, markets: cand.markets, niche: (parsed.profile?.niche as string) ?? row.niche, country: (parsed.profile?.country as string) ?? row.country, display_name: row.display_name ?? (parsed.profile?.displayName as string) ?? null,
+        pipeline_stage: stage, classified_at: new Date().toISOString(),
+      }).eq('id', row.id);
+      await sb.from('score_history').insert({ candidate_id: row.id, run_id: body.runId ?? null, kind: 'public', score, weights: settings?.weights ?? null });
+      if (body.runId) await logRun(sb, body.runId, 'info', `Classified @${row.handle}: tier ${score.tier}, fit ${score.fitScore}, conf ${score.confidence}`);
+      out.push({ id: row.id, handle: row.handle, tier: score.tier, fitScore: score.fitScore });
+    } catch (e) {
+      out.push({ id: row.id, handle: row.handle, error: errMsg(e) });
+      if (body.runId) await logRun(sb, body.runId, 'error', `Classification failed for @${row.handle}`, { error: errMsg(e) });
+    }
+  }
+  const { count } = await sb.from('candidates').select('*', { count: 'exact', head: true }).is('classification', null);
+  return json({ processed: out, remaining: count ?? 0 });
+});
+

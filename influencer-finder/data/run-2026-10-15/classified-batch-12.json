@@ -1,0 +1,289 @@
+{
+  "batch": 12,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "travelagenthaven",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence of her own events or venue choices."},
+        "sellsRetreats": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "She teaches travel agents and coaches about hosting retreats; no own retreat offer is evidenced."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events evidenced."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events evidenced."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only educational reel copy; no aesthetic or audience-quality evidence."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None in the pack."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["no bio or follower data", "audience is travel agents and coaches she mentors; organiser reach is indirect and early-stage"],
+        "missingInformation": ["audience size and geography", "whether her mentees actually run retreats", "any venue-recommendation or affiliate model"],
+        "summary": "Travel Agent Haven mentors travel agents and posts a reel aimed at life coaches and travel coaches who have 'ever thought about hosting a retreat', with comment-keyword lead magnets (INFO1, GTA) and hashtags #retreats #retreatsforwomen (https://www.instagram.com/reel/Ddm25RXzw_D). The audience is aspiring retreat hosts, which places it in group B, but the mentees are early-stage and nothing shows her own events, dates or venues. Commercial risk is unknown with no follower data. Only a light referral partnership is supported by the evidence."
+      },
+      "events": [],
+      "profile": {"displayName": "Travel Agent Haven", "country": "US", "languages": ["en"], "niche": "travel-agent mentoring / retreat-hosting education", "markets": ["US"]}
+    },
+    {
+      "handle": "tusc.inn",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DdRW2g_lPBG"], "note": "Tuscarora Inn & Conference Ctr is itself the venue; it hosts events on its own site."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DdRW2g_lPBG"], "note": "Runs its own Women's Retreat programme at its own venue (tuscarora.org/our-events); not an organiser that books external venues."},
+        "provenWinterActivity": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DdRW2g_lPBG"], "note": "'Join us November 6-8 for the 2026 Women's Retreat' is a dated winter-window event, but hosted at its own property."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No participant numbers."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DdRW2g_lPBG"], "note": "'2026 Women's Retreat' and an events page imply a recurring programme."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DdRW2g_lPBG"], "note": "Weekend format (Nov 6-8)."},
+        "brandFit": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DdRW2g_lPBG"], "note": "A US conference centre; a competitor-type venue, not a client."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "commercialRisk": "high",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["venue/aggregator account, not a host", "US conference centre"],
+        "missingInformation": [],
+        "summary": "Tuscarora Inn & Conference Ctr invites followers to 'Join us November 6-8 for the 2026 Women's Retreat', registering via its own events page at tuscarora.org/our-events (https://www.instagram.com/reel/DdRW2g_lPBG). It is a venue hosting events on its own premises, so it will never book another property; group none. The dated November event is recorded for completeness only."
+      },
+      "events": [
+        {"title": "2026 Women's Retreat", "eventType": "womens_retreat", "startDate": "2026-11-06", "endDate": "2026-11-08", "nights": 2, "location": "Tuscarora Inn & Conference Ctr", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DdRW2g_lPBG"]}
+      ],
+      "profile": {"displayName": "Tuscarora Inn & Conference Ctr", "country": "US", "languages": ["en"], "niche": "conference centre / venue", "markets": ["US"]}
+    },
+    {
+      "handle": "wagnerbespoke",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/wagnerbespoke/reel/DdU7aXSNEJ6?hl=de"], "note": "Plans corporate team retreats for clients for a planning fee and sources the trip ('save our groups much more than our planning fees'), so it selects or shortlists venues on clients' behalf."},
+        "sellsRetreats": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/wagnerbespoke/reel/DdU7aXSNEJ6?hl=de"], "note": "Sells retreat-planning services to companies, not its own retreats."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Team sizes not stated."},
+        "audiencePaysPremium": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/wagnerbespoke/reel/DdU7aXSNEJ6?hl=de"], "note": "Bespoke corporate planning with fees; corporate budgets, but no figures."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Volume of trips not evidenced."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No durations."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No aesthetic evidence; 'bespoke' positioning only."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/wagnerbespoke/reel/DdU7aXSNEJ6?hl=de"], "note": "Claims to have planned team trips for groups and saved them money; implies prior venue dealings."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "missingInformation": ["home market and client geography", "typical group size and budget", "bio and followers", "whether they place groups in Europe"],
+        "redFlags": ["no bio, follower or location data", "agency/planner account rather than a host"],
+        "summary": "Wagner Bespoke is a corporate team-retreat planner: the reel addresses someone 'tasked at work with planning a team retreat' and argues its planning fees are offset by savings while the client gets to be part of the trip (https://www.instagram.com/wagnerbespoke/reel/DdU7aXSNEJ6?hl=de). As a planner that shortlists venues for corporate groups it fits group B (reaches/decides for organisers). Geography, group sizes and budgets are not in the evidence, so commercial risk is unknown. A referral or venue-listing arrangement is the natural approach."
+      },
+      "events": [],
+      "profile": {"displayName": "Wagner Bespoke", "country": null, "languages": ["en"], "niche": "corporate team-retreat planner", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "wellliferetreats",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DdMVlovDG-f"], "note": "Shows 'the accommodation for our 20th-27th January 2027 Gran Canaria Wellness Retreat'; the organiser chose and contracted the accommodation."},
+        "sellsRetreats": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DdMVlovDG-f"], "note": "First-person, dated, 'just 8 places available', all-inclusive week."},
+        "provenWinterActivity": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DdMVlovDG-f"], "note": "Own retreat dated 20-27 January 2027, marketed as 'Your January escape'."},
+        "canFillGroupSize": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DdMVlovDG-f"], "note": "'Just 8 places available' implies a larger group with most places already taken; total size not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "All-inclusive week but no price given."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DdMVlovDG-f"], "note": "Account name and location hints (Gran Canaria, Cape Verde, Maspalomas) suggest multiple retreats; only one is dated in the excerpt."},
+        "longStayPotential": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DdMVlovDG-f"], "note": "7-night all-inclusive retreat ('a whole week dedicated to YOU')."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DdMVlovDG-f"], "note": "Warm-weather winter wellness with fitness, good food and community; the sunshine-in-January proposition matches the villa's positioning."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DdMVlovDG-f"], "note": "Already contracts accommodation abroad for retreats."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["no bio or follower data", "price per person not visible", "a March 2027 Cape Verde date appears only in heuristic extraction"],
+        "missingInformation": ["price per person and total group size", "home market of participants (likely UK)", "the Cape Verde / Maspalomas retreats and their dates", "follower count and engagement"],
+        "summary": "Well Life Retreats sells a 7-night all-inclusive Gran Canaria Wellness Retreat on 20th-27th January 2027 with fitness and movement, showing the accommodation and announcing 'just 8 places available' (https://www.instagram.com/p/DdMVlovDG-f). This is a strong group A match: proven winter dates, a week-long stay, the organiser picks the accommodation, and the pitch is warm sunshine in January, which Porto Rafti can also offer. Price, group size and follower data are missing, so commercial risk is medium. Propose a pilot winter week for 2027/28 and ask for their Cape Verde/Gran Canaria sales history."
+      },
+      "events": [
+        {"title": "Gran Canaria Wellness Retreat", "eventType": "wellness_retreat", "startDate": "2027-01-20", "endDate": "2027-01-27", "nights": 7, "location": "Gran Canaria", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DdMVlovDG-f"]}
+      ],
+      "profile": {"displayName": "Well Life Retreats", "country": "GB", "languages": ["en"], "niche": "fitness & wellness retreats (winter sun)", "markets": ["GB"]}
+    },
+    {
+      "handle": "womensfoodserviceforum",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DRAKkgyksm_"], "note": "The association books Hilton Anatole in Dallas for its conference; it decides venues, but at convention scale."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DRAKkgyksm_"], "note": "Sells registration to an industry leadership conference, not a retreat."},
+        "provenWinterActivity": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DRAKkgyksm_"], "note": "2026 WFF Leadership Conference, March 2-4, Dallas: dated winter-window event it organises."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Attendance not stated; a hotel conference implies far more than 18."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DRAKkgyksm_"], "note": "'2026 WFF Leadership Conference' implies an annual conference."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DRAKkgyksm_"], "note": "3-day conference."},
+        "brandFit": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DRAKkgyksm_"], "note": "Large US industry association event at a convention hotel; scale and format mismatch."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DRAKkgyksm_"], "note": "Contracts major hotel venues."},
+        "commercialRisk": "high",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["large hotel conference organiser; scale mismatch with an 18-guest villa", "off-topic account (US industry association)"],
+        "missingInformation": ["whether the association runs small executive offsites"],
+        "summary": "Women's Foodservice Forum announced that registration for the 2026 WFF Leadership Conference is open, March 2-4 at Hilton Anatole in Dallas, TX (https://www.instagram.com/reel/DRAKkgyksm_). It is a US industry association running a convention-scale conference, not a hosted retreat group, so it is marked none despite the dated March event. Commercial risk is high for the villa; the only theoretical angle would be a small executive offsite, for which there is no evidence."
+      },
+      "events": [
+        {"title": "2026 WFF Leadership Conference", "eventType": "leadership_retreat", "startDate": "2026-03-02", "endDate": "2026-03-04", "nights": 2, "location": "Hilton Anatole, Dallas, TX", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DRAKkgyksm_"]}
+      ],
+      "profile": {"displayName": "Women's Foodservice Forum", "country": "US", "languages": ["en"], "niche": "industry association / leadership conference", "markets": ["US"]}
+    },
+    {
+      "handle": "writingretreatdirectory",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/Dc6BbYADgOn?__d=1httpswww.instagram.comsyjobodygoals"], "note": "A listing directory that promotes other people's writing retreats; it does not host or book venues."},
+        "sellsRetreats": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/Dc6BbYADgOn?__d=1httpswww.instagram.comsyjobodygoals"], "note": "Sells listings/promotion to retreat hosts ('promote-your-retreat'), not retreats."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No own events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No own events."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not a host."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["venue/aggregator account, not a host"],
+        "missingInformation": ["audience size among writing-retreat hosts", "whether the directory accepts venue listings or sponsored content"],
+        "summary": "Writing Retreat Directory asks 'Are you hosting a writing retreat and looking to fill your spaces?' and sells promotion via writingretreatdirectory.com/promote-your-retreat, focused exclusively on writers and the retreats that serve them (https://www.instagram.com/p/Dc6BbYADgOn?__d=1httpswww.instagram.comsyjobodygoals). It is a listing aggregator, so per the rubric it is group none and will not book the villa itself. Its audience does include writing-retreat hosts, so it could be a paid channel to reach organisers if it accepts venue listings; that is a marketing question, not a booking lead."
+      },
+      "events": [],
+      "profile": {"displayName": "Writing Retreat Directory", "country": null, "languages": ["en"], "niche": "writing-retreat listing directory", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "yay_yoga_and_you",
+      "classification": {
+        "group": "C_high_value_host",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Training venue and format (in-studio vs residential) are not stated."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DZp04RzxPka"], "note": "Sells a 200h Hatha yoga teacher training ('Inscriptions ouvertes pour la promotion 2026-2027'); no retreat offer evidenced."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "The 2026-2027 training spans the winter but no module dates are given."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Cohort size not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DZp04RzxPka"], "note": "Just finished the last module of one training cohort and opened registration for the 2026-2027 cohort: a recurring annual programme."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No residential component evidenced."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "'Yoga pour tous' (yoga for everyone) positioning; no premium signals either way."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["training venue/format unknown; may be entirely in-studio", "no bio or follower data"],
+        "missingInformation": ["whether the 200h formation includes a residential module or retreat", "location of the school (France assumed from language)", "cohort size and tuition", "followers"],
+        "summary": "YAY YOGA | Yoga pour tous (with teacher Patrycja Krok) runs a 200h Hatha Yoga teacher training, has just completed the final module of one cohort and opened registration for the 2026-2027 promotion (https://www.instagram.com/reel/DZp04RzxPka). As a French-speaking school hosting recurring trainings it is a low-confidence group C host; nothing shows where the modules are held or whether a residential week exists. Commercial risk is unknown. A scouting conversation to check for an immersion module is the only sensible step."
+      },
+      "events": [
+        {"title": "Formation 200H Hatha Yoga, promotion 2026-2027", "eventType": "teacher_training", "startDate": null, "endDate": null, "nights": null, "location": "YAY YOGA (France, inferred from language)", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DZp04RzxPka"]}
+      ],
+      "profile": {"displayName": "YAY YOGA | Yoga pour tous", "country": "FR", "languages": ["fr"], "niche": "yoga school & 200h teacher training", "markets": ["FR"]}
+    },
+    {
+      "handle": "yogaonthelane",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DZUf5ieqvw6"], "note": "Monthly two-day training weekends at the studio."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DZUf5ieqvw6"], "note": "Teacher-training schedule only; no retreat."},
+        "provenWinterActivity": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DZUf5ieqvw6"], "note": "Training weekends on November 13-14, December 11-12, January 8-9, February 12-13 and March 11-12 fall in the winter window, but they are non-residential studio weekends."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Cohort size not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DZUf5ieqvw6"], "note": "'Teacher Training 2027' with 'New dates' implies an annual programme."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DZUf5ieqvw6"], "note": "Two-day weekend modules."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No aesthetic or audience evidence."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["studio training schedule, not a residential host", "no bio, location or follower data"],
+        "missingInformation": ["studio location", "whether the training includes a retreat/immersion", "followers"],
+        "summary": "Yoga on the Lane posted new Teacher Training 2027 dates as monthly weekends: September 11-12, October 9-10, November 13-14, December 11-12, January 8-9, February 12-13 and March 11-12 (https://www.instagram.com/p/DZUf5ieqvw6). This is an in-studio weekend course; although several weekends fall in the winter window, nothing suggests a travelling group. Group none; no location or follower data in the pack."
+      },
+      "events": [
+        {"title": "Yoga on the Lane Teacher Training 2027 (monthly weekends)", "eventType": "teacher_training", "startDate": "2027-09-11", "endDate": "2028-03-12", "nights": null, "location": "Yoga on the Lane studio", "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DZUf5ieqvw6"]}
+      ],
+      "profile": {"displayName": "Yoga On The Lane", "country": null, "languages": ["en"], "niche": "yoga studio & teacher training", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "yogaschule_passau.",
+      "classification": {
+        "group": "C_high_value_host",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DA2cWuwIXAY"], "note": "Took her 2-year teacher-training participants to an external residential venue (Yoga Vidya Ashram Bad Meinberg) for a 'Yoga-Intensivwoche'; she chooses where the intensive week happens."},
+        "sellsRetreats": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DA2cWuwIXAY"], "note": "The residential intensive week is part of a paid 2-year training rather than a stand-alone retreat; no registration or price shown."},
+        "provenWinterActivity": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DA2cWuwIXAY"], "note": "The only dated activity is the intensive week around October 07, 2024."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Number of Teilnehmerinnen not stated."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DA2cWuwIXAY"], "note": "Chose a low-cost ashram (Yoga Vidya) for the intensive week, suggesting modest budgets."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DA2cWuwIXAY"], "note": "A 2-year Yogalehrerausbildung with an intensive week implies repeated residential modules."},
+        "longStayPotential": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DA2cWuwIXAY"], "note": "A one-week residential intensive ('Intensivwoche')."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Traditional, teaching-focused school; ashram setting suggests simplicity rather than luxury."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DA2cWuwIXAY"], "note": "Has booked an external residential venue for a training group."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["evidence post dated October 2024; recent activity unknown", "handle ends with '.' (possible scraper artefact)", "intensive week held at an ashram, a low-cost institutional venue"],
+        "missingInformation": ["group size of the training cohort", "budget per participant and current schedule", "whether an intensive week could be held abroad", "followers"],
+        "summary": "Babette Woitke of Yogaschule Passau (www.yogaschule-passau.de) took the participants of her 2-year yoga teacher training on a 'Yoga-Intensivwoche' at the Yoga Vidya Ashram in Bad Meinberg, posted October 07, 2024 (https://www.instagram.com/reel/DA2cWuwIXAY). That is a host who moves a training group to an external residential venue for a week, which matches group C, and Germany is a priority market with short flights to Athens. The budget signal is modest (ashram venue) and the evidence is two years old, so commercial risk is medium. A scouting conversation about hosting a future intensive week in Greece is the realistic step."
+      },
+      "events": [
+        {"title": "Yoga-Intensivwoche der Yogalehrerausbildung Passau (Yoga Vidya Ashram Bad Meinberg)", "eventType": "teacher_training", "startDate": "2024-10", "endDate": null, "nights": null, "location": "Yoga Vidya Ashram, Bad Meinberg", "country": "DE", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DA2cWuwIXAY"]}
+      ],
+      "profile": {"displayName": "Babette Woitke (Yogaschule Passau)", "country": "DE", "languages": ["de"], "niche": "yoga school & 2-year teacher training", "markets": ["DE"]}
+    },
+    {
+      "handle": "yogasix_lakeridge",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DeeckcYsWht"], "note": "Franchise studio YTT, one weekend per month at partner studios (Mantra Spirit Studio + Moment Yoga)."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DeeckcYsWht"], "note": "Registration, early bird and 'claim your spot' refer to a 200-hour teacher training, not a retreat."},
+        "provenWinterActivity": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DeeckcYsWht"], "note": "Training begins December 11, 2026 (1 weekend per month for 6 months), but it is a non-residential studio course."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "'Spaces are limited' without numbers."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Price not in the excerpt ($750 hint unverified)."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "One cohort evidenced."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DeeckcYsWht"], "note": "Weekend-module format."},
+        "brandFit": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DeeckcYsWht"], "note": "US franchise studio programme."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["studio training schedule, not a residential host", "US franchise studio"],
+        "missingInformation": ["bio and followers"],
+        "summary": "YogaSix Lake Ridge opened 'Fast Start' registration for a 200-Hour Yoga Teacher Training beginning December 11, 2026, one weekend per month for six months with Mantra Spirit Studio and Moment Yoga, with limited spaces and early-bird savings (https://www.instagram.com/reel/DeeckcYsWht). It is a US franchise studio course delivered locally; the December start date is in the winter window but no group travels. Group none."
+      },
+      "events": [
+        {"title": "200-Hour Yoga Teacher Training (Fast Start, begins December 11, 2026)", "eventType": "teacher_training", "startDate": "2026-12-11", "endDate": null, "nights": null, "location": "Mantra Spirit Studio + Moment Yoga (YogaSix Lake Ridge)", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "co_host", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DeeckcYsWht"]}
+      ],
+      "profile": {"displayName": "YogaSix Lake Ridge", "country": "US", "languages": ["en"], "niche": "franchise yoga studio & teacher training", "markets": ["US"]}
+    },
+    {
+      "handle": "yogiandwild",
+      "classification": {
+        "group": "C_high_value_host",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Training venue not stated (Paris per location hint); unknown whether any module is residential."},
+        "sellsRetreats": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/Dd8gY7tCMPo"], "note": "Sells her 6th 200-hour yoga teacher training ('inscriptions sont maintenant ouvertes'); no retreat offer in the evidence."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No module dates given (training for 2027)."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Cohort size not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/Dd8gY7tCMPo"], "note": "'notre 6e Formation Professorale de Yoga - 200 heures est de retour': sixth edition of an annual training."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No residential component evidenced."},
+        "brandFit": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/Dd8gY7tCMPo"], "note": "Alumni comments ('La meilleure formation', 'Envie de revenir') show a loyal, engaged Paris community."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["training venue/format unknown (Paris-based; may be in-studio)", "no bio or follower data"],
+        "missingInformation": ["whether the 200h training includes an immersion week or retreat", "cohort size and tuition", "followers", "any retreats she runs outside the training"],
+        "summary": "Ludivine (Yogi & Wild), a Paris yoga teacher, announced that her 6th 200-hour Formation Professorale de Yoga is back for 2027 with registrations open, and alumni comment that it was 'the best thing that happened to me in 2026' and 'la meilleure formation' (https://www.instagram.com/p/Dd8gY7tCMPo). A sixth annual cohort with an engaged community makes her a plausible group C training host in a priority market (France), but the evidence shows neither venue, residential modules, dates nor prices. Commercial risk is unknown. Worth a scouting approach about hosting an immersion module or a graduates' retreat."
+      },
+      "events": [
+        {"title": "6e Formation Professorale de Yoga - 200 heures (2027)", "eventType": "teacher_training", "startDate": null, "endDate": null, "nights": null, "location": "Paris", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/Dd8gY7tCMPo"]}
+      ],
+      "profile": {"displayName": "Ludivine • Professeure de Yoga (Yogi & Wild)", "country": "FR", "languages": ["fr"], "niche": "yoga teacher & 200h teacher training", "markets": ["FR"]}
+    },
+    {
+      "handle": "yogiissy",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DavTBPMNJ2Y"], "note": "Hosts her winter retreat at a chosen chalet (@chalet.vinales) in the French Alps."},
+        "sellsRetreats": {"value": true, "confidence": 0.85, "evidenceUrls": ["https://www.instagram.com/reel/DavTBPMNJ2Y"], "note": "'Our first Winter retreat', 'Come join us! Comment Winter we'll send you the details': first-person organiser selling her own retreat."},
+        "provenWinterActivity": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DavTBPMNJ2Y"], "note": "Explicit winter retreat, returning 4-7 March 2027 ('fait son come back du 4 au 7 Mars 2027')."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size or spot count."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price; inclusions (Thai massage, French cuisine, jacuzzi) suggest a mid-to-upper offer."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DavTBPMNJ2Y"], "note": "A first winter retreat already held and a second edition announced for March 2027."},
+        "longStayPotential": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DavTBPMNJ2Y"], "note": "4-day / 3-night format, below the villa's 4-night planning minimum."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DavTBPMNJ2Y"], "note": "Boutique chalet with massage, cold plunge, jacuzzi and daily French cuisine fits a premium estate, but the product is built around ski/snow."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DavTBPMNJ2Y"], "note": "Has already run a retreat at a partner chalet and tags the venue."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["retreat concept is winter-sport led (ski, snowboarding); a Mediterranean version would need reframing", "3-night format shorter than the villa minimum", "no bio, follower or price data"],
+        "missingInformation": ["group size and price per person", "follower count and audience geography (French and English captions)", "whether she runs non-ski retreats"],
+        "summary": "Issy, a yoga and movement teacher, ran her first Winter Retreat in the French Alps at @chalet.vinales with yoga, mobility, ski/snowboard, Thai massage, cold plunge and French cuisine, and announces its return on 4-7 March 2027 (https://www.instagram.com/reel/DavTBPMNJ2Y). She organises, sells and picks the venue herself, with proven winter dates, so she is a solid group A candidate; the bilingual caption suggests a French/UK audience. The product is snow-based and 3 nights long, and price and group size are unknown, so commercial risk is medium. Pitch a 4-5 night 'Mediterranean winter' edition (yoga, hiking, sea cold-plunge) as a pilot."
+      },
+      "events": [
+        {"title": "Winter Retreat in the French Alps (2nd edition)", "eventType": "wellness_retreat", "startDate": "2027-03-04", "endDate": "2027-03-07", "nights": 3, "location": "Chalet Vinales, French Alps", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DavTBPMNJ2Y"]},
+        {"title": "First Winter Retreat in the French Alps", "eventType": "wellness_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Chalet Vinales, French Alps", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DavTBPMNJ2Y"]}
+      ],
+      "profile": {"displayName": "Issy | Yoga & movement teacher", "country": "FR", "languages": ["en", "fr"], "niche": "yoga & movement retreats (alpine winter)", "markets": ["FR", "GB"]}
+    }
+  ]
+}

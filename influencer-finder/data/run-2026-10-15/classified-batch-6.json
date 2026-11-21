@@ -1,0 +1,285 @@
+{
+  "batch": 6,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "chloe_monin_",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DcTV7O-FQdj"], "note": "Association Terre Happy 33 runs an annual programme and a mastermind retreat for entrepreneurs; venue choice is implied, not shown."},
+        "sellsRetreats": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DcTV7O-FQdj"], "note": "'Retraite mastermind entrepreneurs' co-hosted with Romain; registrations via the association's website."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Annual programme 2026-2027 announced but no retreat dates."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Non-profit association; pricing unknown."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DcTV7O-FQdj"], "note": "Annual programme ('parcours annuel 2026-2027') with workshops in September."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DcTV7O-FQdj"], "note": "Paid programme registrations via website; amounts unknown."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Operates through a non-profit association (Gironde, France), which usually means modest budgets", "Profile data (bio, followers) missing from the pack"],
+        "missingInformation": ["Retreat dates, location, duration and price", "Group size of the mastermind", "Follower count"],
+        "summary": "Chloe Monin co-hosts (with Romain) a 'retraite mastermind entrepreneurs dans le coeur' under the Association Terre Happy 33 and sells an annual 2026-2027 programme via the association website. She is a French organiser type, but the evidence gives no dates, venue, price or group size and the non-profit structure suggests limited venue budget. Low-effort follow-up: ask for the retreat calendar and group size before offering anything."
+      },
+      "events": [
+        {"title": "Retraite mastermind entrepreneurs dans le coeur (avec Romain)", "eventType": "executive_mastermind", "startDate": null, "endDate": null, "nights": null, "location": null, "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "co_host", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DcTV7O-FQdj"]}
+      ],
+      "profile": {"displayName": "Chloe Monin", "country": "FR", "languages": ["fr"], "niche": "entrepreneur mastermind retreats (association)", "markets": ["FR"]}
+    },
+    {
+      "handle": "cothinkk.",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DTagR_pDrjI"], "note": "One-day local gathering in downtown Asheville with a free RSVP form."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DTagR_pDrjI"], "note": "'Winter Retreat' is a 10:00-16:00 community meeting with RSVP, not a sold residential retreat."},
+        "provenWinterActivity": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DTagR_pDrjI"], "note": "Dated January 24 but a non-residential one-day event."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DTagR_pDrjI"], "note": "Day event only."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account: local US community organisation; 'retreat' is a one-day meeting"],
+        "missingInformation": [],
+        "summary": "CoThinkk is a community organisation in Asheville, North Carolina. Its '2026 Winter Retreat' is a one-day gathering on Saturday, January 24 (10:00-16:00) in downtown Asheville with a Google Forms RSVP. It is not a residential retreat organiser and has no venue-booking behaviour relevant to the villa."
+      },
+      "events": [
+        {"title": "CoThinkk 2026 Winter Retreat (one-day gathering)", "eventType": "workshop", "startDate": "2026-01-24", "endDate": "2026-01-24", "nights": 0, "location": "Downtown Asheville", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DTagR_pDrjI"]}
+      ],
+      "profile": {"displayName": "CoThinkk", "country": "US", "languages": ["en"], "niche": "community organisation", "markets": ["US"]}
+    },
+    {
+      "handle": "creator_empires",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/creator_empires"], "note": "Produces its own events and picked Tenerife for the next one."},
+        "sellsRetreats": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/creator_empires"], "note": "'Epic Events for Content Creators in the Language Space', 'Next Event -> Tenerife, October 4-9'; no price or registration text in the excerpt."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only an October 4-9 event is evidenced."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/creator_empires"], "note": "'Next Event' wording and an events brand with a podcast imply a series."},
+        "longStayPotential": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/creator_empires"], "note": "October 4-9 is a 5-night format."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/creator_empires"], "note": "Creator/entrepreneur gatherings on an island destination; audience tone unknown."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/creator_empires"], "note": "Runs ticketed events (implied) and has a website; no prices shown."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Small audience (2,120 followers)", "Year of the October 4-9 event not stated; bio may be stale"],
+        "missingInformation": ["Attendee count and ticket price", "Home market of the organisers and attendees", "Future event calendar"],
+        "summary": "Creator Empires (2,120 followers, creatorempires.com) produces events for content creators in the language-learning space and lists its next event in Tenerife on October 4-9, a 5-night destination format. It is a small events brand that chooses venues and would plausibly consider a Greek villa for a creator gathering. No prices, attendee counts or winter dates are in evidence. Approach with a pilot offer for a winter edition once the calendar is known."
+      },
+      "events": [
+        {"title": "Creator Empires event, Tenerife (October 4-9)", "eventType": "workshop", "startDate": null, "endDate": null, "nights": 5, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/creator_empires"]}
+      ],
+      "profile": {"displayName": "Creator Empires", "country": null, "languages": ["en"], "niche": "events for language-learning content creators", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "crossfitaffiliates",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DagnDk_GYq1"], "note": "Corporate conference at a Hilton hotel alongside the CrossFit Games."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DagnDk_GYq1"], "note": "Sells registration for a two-day affiliate conference, not a retreat."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "July 22-23, 2026 only."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "longStayPotential": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DagnDk_GYq1"], "note": "Two-day conference."},
+        "brandFit": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DagnDk_GYq1"], "note": "Large corporate conference format."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account: corporate brand conference channel (CrossFit affiliates), hotel conference format in the US"],
+        "missingInformation": [],
+        "summary": "CrossFit Affiliates is the corporate channel promoting a two-day affiliate-owner conference on July 22-23, 2026 at the Signia by Hilton in San Jose, California, alongside the CrossFit Games. It is a large hotel-based industry conference, not a retreat host, and is irrelevant to a Greek villa booking."
+      },
+      "events": [
+        {"title": "CrossFit Affiliate conference alongside the 2026 CrossFit Games", "eventType": "corporate_offsite", "startDate": "2026-07-22", "endDate": "2026-07-23", "nights": 1, "location": "Signia by Hilton, San Jose, California", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DagnDk_GYq1"]}
+      ],
+      "profile": {"displayName": "CrossFit Affiliates", "country": "US", "languages": ["en"], "niche": "fitness brand corporate channel", "markets": ["US"]}
+    },
+    {
+      "handle": "danihoyo_padelcoach",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No event evidence."},
+        "sellsRetreats": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "The reel excerpt is only comment noise ('Lombok') and a 'the padel method' video; no retreat offer."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Evidence pack contains only comment noise; no caption, bio or event content to judge"],
+        "missingInformation": ["Bio, follower count and any padel camp/retreat offers", "Whether he runs padel trips abroad"],
+        "summary": "Dani Hoyo is a padel coach whose only evidence is a viral reel (14,862 likes) whose visible text consists of comments saying 'Lombok' and a 'the padel method' video credit. Nothing in the pack shows a retreat, camp or venue decision. Unclassifiable on this evidence; re-collect his profile and captions if padel retreats are a target segment."
+      },
+      "events": [],
+      "profile": {"displayName": "Dani Hoyo (padel coach)", "country": null, "languages": [], "niche": "padel coaching", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "davidmuir112",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DYHY0aXjbaS"], "note": "Hosts his own week-long fitness event; has used Club La Santa for 17 years and is now also going to Gran Canaria, so venue choice is his but loyalty to a sports resort is strong."},
+        "sellsRetreats": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DYHY0aXjbaS"], "note": "'17 years of my Total Body Conditioning Week event' plus #retreat tags; no price or registration text in excerpt."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dates; 'later in the year' is undated."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": true, "confidence": 0.85, "evidenceUrls": ["https://www.instagram.com/p/DYHY0aXjbaS"], "note": "Annual event for 17 consecutive years."},
+        "longStayPotential": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DYHY0aXjbaS"], "note": "Week-long format."},
+        "brandFit": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DYHY0aXjbaS"], "note": "Group fitness community; accustomed to a sports resort rather than a private villa."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DYHY0aXjbaS"], "note": "Long-running hosted week at a commercial resort."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["17-year attachment to Club La Santa, a sports resort with facilities a villa may not match", "Profile data (bio, followers) missing from the pack"],
+        "missingInformation": ["Group size and price of the Total Body Conditioning Week", "Dates of the Lanzarote and Gran Canaria trips", "Whether a winter edition exists"],
+        "summary": "David Muir is a UK group-fitness instructor who has hosted his own 'Total Body Conditioning Week' at Club La Santa in Lanzarote for 17 years and is now adding a Gran Canaria fitness retreat. He is a proven recurring organiser with a loyal community and a week-long format. The evidence lacks dates, prices and group size, and his events depend on sports-resort facilities. A pilot fitness week in Greece is plausible if the villa can offer training space; verify facilities expectations first."
+      },
+      "events": [
+        {"title": "Total Body Conditioning Week at Club La Santa (17th year)", "eventType": "fitness_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Club La Santa, Lanzarote", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DYHY0aXjbaS"]},
+        {"title": "Gran Canaria fitness retreat", "eventType": "fitness_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Gran Canaria", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DYHY0aXjbaS"]}
+      ],
+      "profile": {"displayName": "David Muir", "country": "GB", "languages": ["en"], "niche": "group fitness instructor and fitness holidays", "markets": ["GB"]}
+    },
+    {
+      "handle": "defalcoretreatcenter",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/defalcoretreatcenter"], "note": "It is itself a retreat centre."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/defalcoretreatcenter"], "note": "Venue providing 'a refuge for those seeking spiritual and personal development'."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Post dates only, no events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host"],
+        "missingInformation": [],
+        "summary": "Bishop DeFalco Retreat Center is a religious retreat venue ('providing a refuge for those seeking spiritual and personal development'). It is a competing venue, not an organiser, and the pack shows no events. Not a target."
+      },
+      "events": [],
+      "profile": {"displayName": "Bishop DeFalco Retreat Center", "country": null, "languages": ["en"], "niche": "religious retreat centre (venue)", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "districtoffices",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "sellsRetreats": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/districtoffices/p/Dbde30UDZ2n?hl=de"], "note": "Office-space provider blogging about workplaces."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account"],
+        "missingInformation": [],
+        "summary": "District Offices is an office-space company; the only evidence is a blog promo about why office spaces matter in 2026. No retreats, events or venue decisions. Off-topic."
+      },
+      "events": [],
+      "profile": {"displayName": "District Offices", "country": null, "languages": ["en"], "niche": "office space provider", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "downtoearthlondon",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DZIOIhLCAks"], "note": "The studio selected a venue in France for its first retreat abroad after many UK retreats."},
+        "sellsRetreats": {"value": true, "confidence": 0.85, "evidenceUrls": ["https://www.instagram.com/p/DZIOIhLCAks"], "note": "Own retreat with early-bird pricing and booking link in bio."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only a June 14-20, 2027 retreat is dated."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group size stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Price not in excerpt."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DZIOIhLCAks"], "note": "'After running so many successful yoga and Pilates retreats in the UK'."},
+        "longStayPotential": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DZIOIhLCAks"], "note": "6-night format."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DZIOIhLCAks"], "note": "London yoga/Pilates studio taking its community abroad; tone is warm and community-led."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DZIOIhLCAks"], "note": "Track record of UK retreats and early-bird sales for France."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["First retreat abroad is only in June 2027; winter travel appetite unproven"],
+        "missingInformation": ["Price and group size of the France retreat", "Typical group size of their UK retreats", "Interest in a November-April edition"],
+        "summary": "Down To Earth London, a yoga and Pilates studio, is selling its first retreat abroad: a yoga retreat in France on 14-20 June 2027 led by teacher Aparna Bajpai, with early-bird pricing via link in bio, after 'so many successful' UK retreats. It is a London-market organiser with a recurring retreat programme, a 6-night format and a demonstrated willingness to go abroad. Price, group size and winter dates are missing. Pitch a pilot winter retreat near Athens as their second destination."
+      },
+      "events": [
+        {"title": "Yoga retreat in France with Aparna Bajpai", "eventType": "yoga_retreat", "startDate": "2027-06-14", "endDate": "2027-06-20", "nights": 6, "location": "France", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DZIOIhLCAks"]}
+      ],
+      "profile": {"displayName": "Down To Earth London", "country": "GB", "languages": ["en"], "niche": "yoga and Pilates studio running retreats", "markets": ["GB"]}
+    },
+    {
+      "handle": "dragonflyhousespain",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/DdUZUp7IF98"], "note": "A retreat venue in Southern Spain marketing itself to retreat leaders."},
+        "sellsRetreats": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DdUZUp7IF98"], "note": "Offers space for retreat leaders; does not sell its own retreats."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Markets spring 2027 hosting; no organiser activity."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host"],
+        "missingInformation": [],
+        "summary": "Dragonfly House is a retreat venue in Southern Spain inviting retreat leaders to host yoga, meditation and movement retreats there in spring 2027. It is a competing venue, not an organiser. Its followers are a possible source of retreat leaders, but the account itself is not a target."
+      },
+      "events": [],
+      "profile": {"displayName": "Dragonfly House Spain", "country": "ES", "languages": ["en"], "niche": "retreat venue", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "eagleskycamp",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/Ddt8rESDHy5"], "note": "Eagle Sky is the camp venue; the retreat is run by a church women's ministry (registration on bondcamp.com)."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/Ddt8rESDHy5"], "note": "Promotes a women's ministry retreat held at its site; questions go to the Women's Ministry."},
+        "provenWinterActivity": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/Ddt8rESDHy5"], "note": "Hosts a November 13, 2026 retreat as the venue, not as organiser."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/Ddt8rESDHy5"], "note": "Church camp audience."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host", "Religious camp context, likely US"],
+        "missingInformation": [],
+        "summary": "Eagle Sky is a camp venue promoting the 'Chosen Ladies Retreat' hosted on its grounds on November 13, 2026, with registration through bondcamp.com and questions routed to a church Women's Ministry. The account is the venue rather than the organiser, and the audience is a church community. Not a target."
+      },
+      "events": [
+        {"title": "Chosen Ladies Retreat at Eagle Sky", "eventType": "womens_retreat", "startDate": "2026-11-13", "endDate": null, "nights": null, "location": "Eagle Sky", "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "promoter", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/Ddt8rESDHy5"]}
+      ],
+      "profile": {"displayName": "Eagle Sky Camp", "country": null, "languages": ["en"], "niche": "church camp venue", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "eu_eurostat",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "sellsRetreats": {"value": false, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/eu_eurostat/p/DcvSk1JArl2?hl=sv"], "note": "EU statistics office posting tourism statistics."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account"],
+        "missingInformation": [],
+        "summary": "Eurostat is the EU statistical office; the post is a chart of overnight stays in tourism accommodation for the first half of 2026. It is an institutional data account with no retreat or event activity. Off-topic; the heuristic 'event' extraction is a false positive."
+      },
+      "events": [],
+      "profile": {"displayName": "Eurostat", "country": null, "languages": ["en"], "niche": "EU statistics office", "markets": ["OTHER"]}
+    }
+  ]
+}

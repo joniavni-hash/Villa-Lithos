@@ -1,0 +1,295 @@
+{
+  "batch": 2,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "amberhousley",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence of her own retreat venues in the pack."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/amberhousley"], "note": "Sells a Retreat Masterclass to women building experience-driven brands; no registration for her own retreat in evidence."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No events."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not applicable."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/amberhousley"], "note": "Hospitality-and-design-led positioning ('centerpieces AND profit margins'), heart-led women's brands."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None in pack."},
+        "commercialRisk": "low",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": [],
+        "missingInformation": ["Whether she hosts her own retreats and where", "Geography of her audience (26,200 followers)", "Masterclass audience size"],
+        "summary": "Amber Housley (26,200 followers) is a business coach and self-described retreat expert selling a Retreat Masterclass to multi-passionate women building experience-driven, hospitality-rooted brands (profile). Her audience is retreat hosts and would-be hosts, so she is a referral node rather than a direct booker; nothing in the pack shows her own retreat dates or venues. Low commercial risk. Recommend a referral partnership (venue feature inside the masterclass, affiliate commission); confirm whether she also hosts her own retreats, which could open a pilot track."
+      },
+      "events": [],
+      "profile": {"displayName": "Amber Housley | Business Coach + Retreat Expert", "country": null, "languages": ["en"], "niche": "business coaching for women retreat hosts", "markets": ["US"]}
+    },
+    {
+      "handle": "b_omifarms",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DV1iNcpEVsk"], "note": "A farm that hosts the retreat on its own property ('on a farm in North Carolina')."},
+        "sellsRetreats": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DV1iNcpEVsk"], "note": "'Join us in Wildwood, Georgia, November 6-8, 2026' for The Connected Woman Retreat 2026, although the farm itself is in North Carolina (possible mis-attribution)."},
+        "provenWinterActivity": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DV1iNcpEVsk"], "note": "November 6-8 2026 retreat; attribution uncertain."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Single event."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DV1iNcpEVsk"], "note": "2-night weekend."},
+        "brandFit": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DV1iNcpEVsk"], "note": "Farm-based, local US weekend retreat."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host: a farm hosting its own on-site women's retreat", "Location contradiction: 'farm in North Carolina' versus 'Wildwood, Georgia' in the same reel; second excerpt may belong to another organiser"],
+        "missingInformation": ["Whether B-omi Farms organises any off-site retreats"],
+        "summary": "B-omi Farms is a farm property promoting an all-women wellness retreat held on the farm in North Carolina (reel DV1iNcpEVsk); the same reel's second excerpt describes The Connected Woman Retreat 2026, Nov 6-8 2026 in Wildwood, Georgia, which contradicts the North Carolina location and may be mis-attributed. The account behaves as a venue hosting on its own land, not a travelling organiser, so it is classified none. Not a booking prospect for a Greek villa."
+      },
+      "events": [
+        {"title": "The Connected Woman Retreat 2026 (attribution uncertain)", "eventType": "womens_retreat", "startDate": "2026-11-06", "endDate": "2026-11-08", "nights": 2, "location": "Wildwood, Georgia", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "unknown", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DV1iNcpEVsk"]}
+      ],
+      "profile": {"displayName": "B-omi Farms", "country": "US", "languages": ["en"], "niche": "farm venue / women's wellness", "markets": ["US"]}
+    },
+    {
+      "handle": "bradshawwish",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No venue information."},
+        "sellsRetreats": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/Dd-YNe1g91k"], "note": "'Are you coming on our yoga teachers Retreat!?' is a first-person-plural invitation, but no dates, price or registration are visible."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "The only dated item (2027 YTT starting January 9) is a weekend-format training of uncertain attribution, not a retreat."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No evidence."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Very thin evidence: no bio, display name or follower count", "Mixed geography: Kenosha location hint versus Sydney-based commenters (@jo_day_yogasydney); the YTT excerpt may be mis-attributed"],
+        "missingInformation": ["Who the account is and where it is based", "Dates, location and price of the yoga teachers' retreat", "Follower count"],
+        "summary": "@bradshawwish posted 'Are you coming on our yoga teachers Retreat!?' (reel Dd-YNe1g91k), with Sydney yoga teachers responding enthusiastically, which suggests a co-organised retreat for yoga teachers; the reel's second excerpt about a 2027 YTT starting January 9 (every other weekend to June) appears to be a separate, possibly mis-attributed training. The pack has no bio, name, follower count, dates or prices, so this is a low-confidence organiser classification. Commercial risk is unknown. Verify identity and retreat details before any outreach; at most a scouting-stay conversation."
+      },
+      "events": [
+        {"title": "Yoga teachers retreat (dates not shown)", "eventType": "yoga_retreat", "startDate": null, "endDate": null, "nights": null, "location": null, "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "co_host", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/Dd-YNe1g91k"]},
+        {"title": "2027 Yoga Teacher Training (weekend format, attribution uncertain)", "eventType": "teacher_training", "startDate": "2027-01-09", "endDate": "2027-06", "nights": null, "location": null, "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "unknown", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/Dd-YNe1g91k"]}
+      ],
+      "profile": {"displayName": "@bradshawwish", "country": null, "languages": ["en"], "niche": "yoga teacher retreats", "markets": ["AU", "US"]}
+    },
+    {
+      "handle": "coherenceretreats",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DcPUVVat3SG"], "note": "Brand runs its own retreats ('one of our best retreats yet') and plans a 2027 European summer edition."},
+        "sellsRetreats": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DcPUVVat3SG"], "note": "'join us for 2027 euro summer' is an organiser invitation; no price or registration visible."},
+        "provenWinterActivity": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DcPUVVat3SG"], "note": "Explicitly summer-focused; no winter dates."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No sizes."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DcPUVVat3SG"], "note": "'one of our best retreats yet' implies several past retreats; posts since July 2025."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Duration unknown."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Insufficient evidence."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DcPUVVat3SG"], "note": "Past retreats delivered, no sales data."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Summer-oriented ('euro summer'), no winter evidence", "No bio, follower count or pricing in the pack"],
+        "missingInformation": ["Retreat type, duration, price and group size", "Home market (the phrase 'euro summer' suggests a non-European audience)", "Whether the 2027 destination is decided"],
+        "summary": "Coherence Retreats is a retreat brand that has run multiple retreats (Mallorca per location hint) and is inviting followers to a 2027 European summer edition (reel DcPUVVat3SG). It decides its own venues and sells directly, but the pack shows no prices, group sizes or winter activity, and the summer framing works against the Nov-Apr target. Medium risk given the thin data. Recommend a scouting-stay conversation to test a shoulder-season (April) or winter option near Athens; obtain their 2027 destination shortlist and pricing first."
+      },
+      "events": [
+        {"title": "Coherence Retreats 2027 euro summer retreat", "eventType": "wellness_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Europe (destination not stated; Mallorca per location hint)", "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DcPUVVat3SG"]}
+      ],
+      "profile": {"displayName": "Coherence Retreats", "country": null, "languages": ["en"], "niche": "wellness retreats", "markets": []}
+    },
+    {
+      "handle": "deutscherpadelverband",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DS-W45GE2gu"], "note": "National federation running coach-certification courses in Geretsried."},
+        "sellsRetreats": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DS-W45GE2gu"], "note": "Sells C-Coach courses and the weekly Padeleros Academy, not retreats."},
+        "provenWinterActivity": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DS-W45GE2gu"], "note": "Jan 17-18 coach course is a certification weekend, not a retreat."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DS-W45GE2gu"], "note": "Second coach course, annual academy."},
+        "longStayPotential": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DS-W45GE2gu"], "note": "Two-day hybrid courses."},
+        "brandFit": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DS-W45GE2gu"], "note": "Sports governing body."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["off-topic account: national sports federation offering coach certification, not retreats"],
+        "missingInformation": [],
+        "summary": "Deutscher Padel Verband is the German padel federation; its posts advertise a C-Coach certification course on January 17-18 in Geretsried and the Padeleros Academy 2026/27 weekly training (reel DS-W45GE2gu). It is a governing body, not a retreat organiser, and its events are domestic certification weekends. Classified none. It could be a future contact for German padel-travel referrals, but that is outside this programme's evidence."
+      },
+      "events": [
+        {"title": "DPV C-Coach Course (second edition)", "eventType": "workshop", "startDate": null, "endDate": null, "nights": null, "location": "Geretsried", "country": "DE", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DS-W45GE2gu"]}
+      ],
+      "profile": {"displayName": "Deutscher Padel Verband", "country": "DE", "languages": ["de", "en"], "niche": "sports federation", "markets": ["DE"]}
+    },
+    {
+      "handle": "driftwoodyogi",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DeT_8HAEa3E"], "note": "'After the incredible response to Greece, I'm heading to the South of France for a seven-night Reformer Pilates retreat' - she selects destinations herself."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DeT_8HAEa3E"], "note": "First-person retreat launch with dates (June 13-20 2027) and 'I would LOVE for you to come with me'; waitlist signal."},
+        "provenWinterActivity": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DeT_8HAEa3E"], "note": "Only June and late-summer 2027 dates in evidence."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group sizes."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No prices shown."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DeT_8HAEa3E"], "note": "Greece retreat completed, France 2027 announced, additional Cote d'Azur dates listed."},
+        "longStayPotential": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DeT_8HAEa3E"], "note": "Seven-night format."},
+        "brandFit": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DeT_8HAEa3E"], "note": "Reformer Pilates, long dinners, hilltop villages - premium lifestyle framing suited to a private estate."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DeT_8HAEa3E"], "note": "'incredible response to Greece'."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Summer-only dates so far", "Second excerpt mixes a 'KKRU Pilates' retreat (Sept 24-29 2027 and Aug 29 - Sep 3 2027) that may belong to another organiser"],
+        "missingInformation": ["Price per person and group size", "Where and when the Greece retreat took place", "Reformer equipment requirements (the villa would need to source Reformers)"],
+        "summary": "Briana Gallo (@driftwoodyogi) has already run a Greece retreat with an 'incredible response' and is launching The Provencal Pause, a seven-night Reformer Pilates retreat in Provence, June 13-20 2027 (post DeT_8HAEa3E). She chooses her own destinations, sells first-person, and favours a premium lifestyle format, which fits the villa well; the gap is that all evidence is summer. Medium risk pending price and group data. Recommend a pilot retreat pitch for a Nov-Apr 'Athens Riviera' edition building on her Greece success; note the Reformer equipment logistics."
+      },
+      "events": [
+        {"title": "The Provencal Pause - Reformer Pilates retreat, South of France", "eventType": "fitness_retreat", "startDate": "2027-06-13", "endDate": "2027-06-20", "nights": 7, "location": "Provence", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DeT_8HAEa3E"]},
+        {"title": "Greece retreat (completed, dates not shown)", "eventType": "fitness_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Greece", "country": "GR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DeT_8HAEa3E"]},
+        {"title": "KKRU Pilates + wellness retreat, Cote d'Azur (attribution uncertain)", "eventType": "fitness_retreat", "startDate": "2027-09-24", "endDate": "2027-09-29", "nights": 5, "location": "Cote d'Azur", "country": "FR", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "unknown", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DeT_8HAEa3E"]}
+      ],
+      "profile": {"displayName": "Briana Gallo", "country": null, "languages": ["en"], "niche": "Reformer Pilates retreats", "markets": ["US"]}
+    },
+    {
+      "handle": "everybodybootcampessex",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DVevJbfDC7i"], "note": "Essex bootcamp running its own 'Every Body Bootcamp Lanzarote Retreat'."},
+        "sellsRetreats": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DVevJbfDC7i"], "note": "Own-brand destination retreat ('Day Minus 1'), but no registration, price or spots visible."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Lanzarote retreat date not stated in the excerpt."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No sizes."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Only one retreat visible."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Duration unknown."},
+        "brandFit": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/reel/DVevJbfDC7i"], "note": "Community bootcamp brand; likely value-priced."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DVevJbfDC7i"], "note": "Retreat went ahead (countdown post)."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Low engagement visible on the reel (1 like, 31 views shown)", "No dates, price or group size"],
+        "missingInformation": ["Lanzarote retreat dates, length and price", "Group size and frequency", "Follower count"],
+        "summary": "Every Body Bootcamp (Essex, UK) ran its own Lanzarote fitness retreat (reel DVevJbfDC7i, 'Day Minus 1' countdown), which makes it a UK organiser that already takes clients abroad to a winter-sun destination. The pack contains no dates, pricing, group size or follower data, and the visible engagement is low, so the commercial case is unproven. Medium risk. Recommend a scouting-stay style conversation to learn their retreat format and whether an Athens-area fitness week in Nov-Apr suits their clients."
+      },
+      "events": [
+        {"title": "Every Body Bootcamp Lanzarote Retreat", "eventType": "fitness_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Lanzarote", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DVevJbfDC7i"]}
+      ],
+      "profile": {"displayName": "Every Body Bootcamp Essex", "country": "GB", "languages": ["en"], "niche": "fitness bootcamp retreats", "markets": ["GB"]}
+    },
+    {
+      "handle": "gracebrettnutritionandwellness",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DSSRuTWjOAI"], "note": "'I've hosted 30+ retreats' implies venue selection, but no specific venues shown."},
+        "sellsRetreats": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DSSRuTWjOAI"], "note": "First-person hosting of 30+ retreats; no current registration or price in the pack."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated events."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No group sizes."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing; 'elevated, intentional' framing only."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DSSRuTWjOAI"], "note": "30+ retreats hosted."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Formats unknown."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DSSRuTWjOAI"], "note": "Advocates 'elevated, intentional, unforgettable' retreat design."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DSSRuTWjOAI"], "note": "30+ retreats delivered (self-reported)."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Current content targets other practitioners (mentoring), so her own retreat calendar is not visible", "No bio, location or follower count in the pack"],
+        "missingInformation": ["Upcoming retreat dates, locations, prices and group sizes", "Country and home market", "Whether she still runs retreats or now mainly mentors"],
+        "summary": "Grace Brett (nutrition and wellness) states she has hosted 30+ retreats and now shares retreat-design tips for wellness practitioners and coaches (reel DSSRuTWjOAI). That track record makes her a plausible organiser and, secondarily, a reach channel into other hosts. The pack gives no dates, venues, prices or location, so winter activity and premium pricing are unverified. Medium risk. Recommend a pilot retreat approach (invite her to host at the villa) combined with a referral angle for her mentee practitioners; first confirm her current retreat calendar and home market."
+      },
+      "events": [],
+      "profile": {"displayName": "Grace Brett Nutrition and Wellness", "country": null, "languages": ["en"], "niche": "wellness retreats / practitioner mentoring", "markets": []}
+    },
+    {
+      "handle": "greenlotusyoga_teachertraining",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DUnF2Z_CGOL"], "note": "Chooses residential venues abroad: Suryalila (Spain) and Tenerife."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DUnF2Z_CGOL"], "note": "'Our Yin Yoga Teacher Training takes place in Tenerife from 20 to 26 August 2026, and we have a few spaces remaining', 10% last-minute discount, link in bio."},
+        "provenWinterActivity": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DUnF2Z_CGOL"], "note": "Only June-July and August dates."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Cohort size not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No prices."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DUnF2Z_CGOL"], "note": "Two residential trainings in one summer."},
+        "longStayPotential": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DUnF2Z_CGOL"], "note": "6-7 night residential trainings."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DUnF2Z_CGOL"], "note": "Established teacher trainer using retreat-centre venues."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DUnF2Z_CGOL"], "note": "Repeated trainings, though last-minute discounting suggests incomplete fill."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["10% last-minute discount with spaces remaining suggests difficulty filling the August 2026 training", "Summer-only evidence"],
+        "missingInformation": ["Price and cohort size", "Interest in a winter module (Ireland-based trainer may favour winter sun)", "Yoga hall requirements for teacher training"],
+        "summary": "Carol Murphy (Green Lotus Yoga, Oranmore, Ireland) runs residential 50-hour Yin Yoga teacher trainings abroad: Suryalila, Spain (June 27 - July 4) and Tenerife (Aug 20-26 2026, few spaces left, 10% last-minute discount; reel DUnF2Z_CGOL). She selects venues and sells directly, and her 6-7 night residential format suits the villa's minimum stay. Weak points: no winter dates yet and signs of under-filling. Medium risk. Recommend a pilot retreat proposal for a Nov-Apr Yin training near Athens aimed at her Irish/UK students; request past cohort sizes and pricing."
+      },
+      "events": [
+        {"title": "50hr Yin Yoga Teacher Training, Suryalila, Spain (June 27 - July 4, year not stated)", "eventType": "teacher_training", "startDate": null, "endDate": null, "nights": 7, "location": "Suryalila, Spain", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DUnF2Z_CGOL"]},
+        {"title": "Yin Yoga Teacher Training, Tenerife", "eventType": "teacher_training", "startDate": "2026-08-20", "endDate": "2026-08-26", "nights": 6, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DUnF2Z_CGOL"]}
+      ],
+      "profile": {"displayName": "Carol Murphy - Yoga Teacher Trainer", "country": "IE", "languages": ["en"], "niche": "yin yoga teacher training", "markets": ["IE"]}
+    },
+    {
+      "handle": "healing_space_bipoc",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/Dcbw6a9DX3u"], "note": "'Having hosted 10 international retreats' implies past venue choices; none specified."},
+        "sellsRetreats": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/Dcbw6a9DX3u"], "note": "Hosted 10 international retreats (first-person); current offer is a free training on how to plan and sell a first retreat."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No dated retreats."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No sizes."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No pricing."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/Dcbw6a9DX3u"], "note": "10 international retreats."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Unknown."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Insufficient evidence."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/Dcbw6a9DX3u"], "note": "10 international retreats hosted."},
+        "commercialRisk": "low",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": [],
+        "missingInformation": ["Size of her mentee audience", "Her own upcoming retreat calendar", "Price point of her past retreats"],
+        "summary": "Emma Kelly (UK) has hosted 10 international retreats and now mentors yoga teachers and wellness practitioners, offering a free training 'How to plan and sell your first retreat' on 27 August, 7-8pm UK time (post Dcbw6a9DX3u). Her audience is first-time retreat hosts in the UK, a market with direct flights to Athens, so she is a strong referral node and a possible host herself. Low commercial risk. Recommend a referral partnership (villa featured as a first-retreat venue in her training) and ask about her own next retreat."
+      },
+      "events": [
+        {"title": "How to plan and sell your first retreat (free online training, 27 August 7-8pm UK)", "eventType": "workshop", "startDate": null, "endDate": null, "nights": null, "location": "Online (UK time)", "country": "GB", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/Dcbw6a9DX3u"]}
+      ],
+      "profile": {"displayName": "Emma Kelly", "country": "GB", "languages": ["en"], "niche": "yoga teacher mentoring / retreat hosting", "markets": ["GB"]}
+    },
+    {
+      "handle": "holapadel_saintmedard",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DaK2MgJJEBX"], "note": "Padel club running camps on its own courts."},
+        "sellsRetreats": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/DaK2MgJJEBX"], "note": "Sells 2-day youth and adult day camps (EUR 200 for 2 days) and a padel school, not residential retreats."},
+        "provenWinterActivity": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DaK2MgJJEBX"], "note": "Summer camps and a school-year programme."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not stated."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DaK2MgJJEBX"], "note": "EUR 200 for two days including meals."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DaK2MgJJEBX"], "note": "Three summer dates and an annual school."},
+        "longStayPotential": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DaK2MgJJEBX"], "note": "Non-residential."},
+        "brandFit": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DaK2MgJJEBX"], "note": "Local club."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host: local padel club (Saint-Medard, France) running day camps"],
+        "missingInformation": [],
+        "summary": "Hola Padel Saint-Medard is a French padel club advertising summer 2026 day camps for ages 8-16 (EUR 200 for 2 days, meals included), adult intensive stages and its 2026-27 padel school (reel DaK2MgJJEBX). It is a venue running local, non-residential programmes, not a travelling organiser. Classified none."
+      },
+      "events": [
+        {"title": "Stages Jeunes Ete 2026 (2-day youth padel camps)", "eventType": "workshop", "startDate": null, "endDate": null, "nights": null, "location": "Saint-Medard", "country": "FR", "groupSize": null, "pricePerPerson": 200, "currency": "EUR", "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DaK2MgJJEBX"]}
+      ],
+      "profile": {"displayName": "Hola Padel Saint Medard", "country": "FR", "languages": ["fr"], "niche": "padel club", "markets": ["FR"]}
+    },
+    {
+      "handle": "imayogastudio",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DQreq2-Do49"], "note": "In-studio teacher training (Miami Beach studio)."},
+        "sellsRetreats": {"value": false, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DQreq2-Do49"], "note": "Sells 200-hour teacher trainings held at the studio; no travel retreats."},
+        "provenWinterActivity": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DQreq2-Do49"], "note": "A January-March training exists but it is a local, non-residential course."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Not stated."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DQreq2-Do49"], "note": "January-March and August 2026 cohorts."},
+        "longStayPotential": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DQreq2-Do49"], "note": "Non-residential."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Insufficient evidence."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "None."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Local yoga studio; teacher trainings are in-studio, no travel retreats in evidence"],
+        "missingInformation": ["Whether the studio runs any destination retreats"],
+        "summary": "Ima Yoga (formerly Modo Yoga Miami Beach) advertises in-studio 200-hour teacher trainings: one running January through March (early bird until Thanksgiving) and one beginning August 22 2026 (post DQreq2-Do49). These are local, non-residential programmes with no sign of destination retreats, so the studio does not fit a booking group. Classified none."
+      },
+      "events": [
+        {"title": "200 Hour Teacher Training, January through March (in-studio)", "eventType": "teacher_training", "startDate": null, "endDate": null, "nights": null, "location": "Ima Yoga, Miami Beach", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DQreq2-Do49"]},
+        {"title": "200HR Foundational Yoga Teacher Training beginning August 22 2026", "eventType": "teacher_training", "startDate": "2026-08-22", "endDate": null, "nights": null, "location": "Ima Yoga, Miami Beach", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DQreq2-Do49"]}
+      ],
+      "profile": {"displayName": "Ima Yoga fka Modo Yoga Miami Beach", "country": "US", "languages": ["en"], "niche": "yoga studio / teacher training", "markets": ["US"]}
+    }
+  ]
+}

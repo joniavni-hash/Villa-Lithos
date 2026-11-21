@@ -1,0 +1,404 @@
+{
+ "batch": 24,
+ "candidates": [
+  {
+   "handle": "floyotravels",
+   "profileUrl": "https://www.instagram.com/floyotravels/",
+   "displayName": "FloYoTravels | Luxury Wellness Retreats",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "getting VERY close to opening registration",
+    "Join the VIP waitlist today!"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DecFjevs1Hk",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "We’ve been planning something exciting. And we’re getting VERY close to opening registration. 👀 Here’s your first hint: you’ll need your mat and your passport. A new FloYo wellness retreat collab is coming this January. Join the VIP waitlist today! Registration will open to those on the VIP list first. Link in bio. ✈️ #FloYoTravels #WellnessRetreat #YogaRetreat #PilatesRetreat #GroupTravel"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "FloYo wellness retreat collab",
+     "dates": "this January",
+     "location": "abroad (you’ll need your mat and your passport)",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "A new FloYo wellness retreat collab is coming this January.",
+     "url": "https://www.instagram.com/reel/DecFjevs1Hk"
+    }
+   ]
+  },
+  {
+   "handle": "gracefulbalancecollective",
+   "profileUrl": "https://www.instagram.com/gracefulbalancecollective/",
+   "displayName": "Graceful Balance Collective",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "2027 RETREAT REGISTRATION IS OFFICIALLY OPEN!",
+    "Public registration opens November 2!",
+    "Your $97 annual membership gives you exclusive benefits, including early retreat registration"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeaTbtly30x",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "🎉 2027 RETREAT REGISTRATION IS OFFICIALLY OPEN! 🎉 ... 🌿 January — ALIGN One-Day Retreat 🤍 March — Women’s Wellness Conference: I’ve Seen His Goodness 🌊 May — He Called Me to Fish Coastal Retreat 🍂 September/October— BECOMING Women’s Retreat ... ✨ Public registration opens November 2! #ChristianWomensRetreat #WomensRetreat2027 #FaithBasedRetreats"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "ALIGN One-Day Retreat",
+     "dates": "January (2027)",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🌿 January — ALIGN One-Day Retreat",
+     "url": "https://www.instagram.com/p/DeaTbtly30x"
+    },
+    {
+     "title": "He Called Me to Fish Coastal Retreat",
+     "dates": "May (2027)",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "🌊 May — He Called Me to Fish Coastal Retreat",
+     "url": "https://www.instagram.com/p/DeaTbtly30x"
+    }
+   ]
+  },
+  {
+   "handle": "hellobeesties",
+   "profileUrl": "https://www.instagram.com/hellobeesties/",
+   "displayName": "Wildebeest Publishing Company",
+   "bio": null,
+   "followers": null,
+   "website": "https://www.wildebeestpublishing.com/authorpreneur-retreat-2026",
+   "locationHints": [
+    "Greek Peak"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "open for registration!"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DSkrMVTD6PL",
+     "kind": "post",
+     "title": "Wildebeest Publishing Company on Instagram",
+     "excerpt": "📣 Our first annual Authorpreneur Retreat is open for registration! ... 3-DAY IMMERSIVE WORKSHOP GREEK PEAK RETREAT AUGUST 21-23, 2026 ... Early bird price ends January 16, 2026"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "hillelwinnipeg",
+   "profileUrl": "https://www.instagram.com/hillelwinnipeg/",
+   "displayName": "Hillel Winnipeg",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Winnipeg"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Registration for the 2027 Leadership Weekend is now open."
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeJ_g4VskF2",
+     "kind": "post",
+     "title": "🎆 SAVE THE DATE! The 10th Shabbat UnPlugged ...",
+     "excerpt": "🎆 SAVE THE DATE! The 10th Shabbat UnPlugged Leadership Retreat is happening January 8-10, 2027. More information to come!"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "The 10th Shabbat UnPlugged Leadership Retreat",
+     "dates": "January 8-10, 2027",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "The 10th Shabbat UnPlugged Leadership Retreat is happening January 8-10, 2027.",
+     "url": "https://www.instagram.com/p/DeJ_g4VskF2"
+    }
+   ]
+  },
+  {
+   "handle": "itskimberlykennedy",
+   "profileUrl": "https://www.instagram.com/itskimberlykennedy/",
+   "displayName": "Kimberly Kennedy",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "portugal"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DYpdS7Ix12V",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "throwback moment from hosting a retreat with @reginaosilva in portugal 🇵🇹 @coherenceretreats"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "retreat in portugal (throwback)",
+     "dates": null,
+     "location": "portugal",
+     "price": null,
+     "spots": null,
+     "role": "co_host",
+     "excerpt": "hosting a retreat with @reginaosilva in portugal 🇵🇹 @coherenceretreats",
+     "url": "https://www.instagram.com/reel/DYpdS7Ix12V"
+    }
+   ]
+  },
+  {
+   "handle": "jccassociation",
+   "profileUrl": "https://www.instagram.com/jccassociation/",
+   "displayName": "JCC Association",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "San Diego"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Registration opens soon."
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DePqOn8jmQc",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Mifgash, the JCC Movement's premier executive leadership conference, returns January 19–21, 2027, in San Diego! ... Registration opens soon."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Mifgash executive leadership conference",
+     "dates": "January 19–21, 2027",
+     "location": "San Diego",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Mifgash ... returns January 19–21, 2027, in San Diego!",
+     "url": "https://www.instagram.com/reel/DePqOn8jmQc"
+    }
+   ]
+  },
+  {
+   "handle": "jenmurphyyoga",
+   "profileUrl": "https://www.instagram.com/jenmurphyyoga/",
+   "displayName": "Jen Murphy",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Playa Grande, CR"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Registration closes on 10/15 for this retreat."
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeCWopbjJWz",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Living Practice Yoga Retreat Playa Grande, CR 1/23-1/30/2027 With @jenmurphyyoga & @kimspearyoga What do you need when temps are in the freezing zone come January??? ... Registration closes on 10/15 for this retreat. Click on BIO for cost and details"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Living Practice Yoga Retreat",
+     "dates": "1/23-1/30/2027",
+     "location": "Playa Grande, CR",
+     "price": null,
+     "spots": null,
+     "role": "co_host",
+     "excerpt": "Living Practice Yoga Retreat Playa Grande, CR 1/23-1/30/2027 With @jenmurphyyoga & @kimspearyoga",
+     "url": "https://www.instagram.com/p/DeCWopbjJWz"
+    }
+   ]
+  },
+  {
+   "handle": "justrelaxing.k_l",
+   "profileUrl": "https://www.instagram.com/justrelaxing.k_l/",
+   "displayName": "Justrelaxing",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DbdqKXoNi9w",
+     "kind": "reel",
+     "title": "Reel by Justrelaxing (@justrelaxing.k_l) · July 31, 2026",
+     "excerpt": "✨ Seven Months Of Inner Work. One Retreat To Bring It All Together. We are getting very excited for our upcoming Soul Ascension Mastermind Retreat this weekend"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Soul Ascension Mastermind Retreat",
+     "dates": "this weekend (post dated July 31, 2026)",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "We are getting very excited for our upcoming Soul Ascension Mastermind Retreat this weekend",
+     "url": "https://www.instagram.com/reel/DbdqKXoNi9w"
+    }
+   ]
+  },
+  {
+   "handle": "kalyanagiliair",
+   "profileUrl": "https://www.instagram.com/kalyanagiliair/",
+   "displayName": "𝐊𝐀𝐋𝐘𝐀𝐍𝐀 | Villa & Retreat",
+   "bio": "5 handcrafted villas, born from local artistry. Your private sanctuary on Gili Air.",
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Gili Air"
+   ],
+   "accountType": "venue",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/kalyanagiliair?hl=en",
+     "kind": "profile",
+     "title": "𝐊𝐀𝐋𝐘𝐀𝐍𝐀 | Villa & Retreat (@kalyanagiliair) • Instagram photos and videos",
+     "excerpt": "5 handcrafted villas, born from local artistry. Your private sanctuary on Gili Air."
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "lascanterasbeachsuites",
+   "profileUrl": "https://www.instagram.com/lascanterasbeachsuites/",
+   "displayName": "Las Canteras Beach Suites | Gran Canaria",
+   "bio": "Your #holidayhome in Gran Canaria ☀️🌊. 7 luxurious suites very near.",
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Gran Canaria",
+    "Las Palmas de Gran Canaria"
+   ],
+   "accountType": "venue",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/lascanterasbeachsuites",
+     "kind": "profile",
+     "title": "Las Canteras Beach Suites | Gran Canaria (@lascanterasbeachsuites) • Instagram photos and videos",
+     "excerpt": "Las Canteras Beach Suites | Gran Canaria. Your #holidayhome in Gran Canaria ☀️🌊. 7 luxurious suites very near."
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "lizhuntlyjensch",
+   "profileUrl": "https://www.instagram.com/lizhuntlyjensch/",
+   "displayName": "Liz Huntly/Jensch",
+   "bio": null,
+   "followers": null,
+   "website": "www.surfshackyoga.com/costarica",
+   "locationHints": [
+    "Los Pargos, Costa Rica"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Registration for our Costa Rica retreat is open!",
+    "Early bird pricing until August 31!"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/lizhuntlyjensch/p/DcCEs1FPOA0",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Registration for our Costa Rica retreat is open! Join us January 10-16, 2027 for a week of revitalization + rest at the delightful @peaceretreat in Los Pargos, minutes away from one of Costa Rica’s best surf beaches. Early bird pricing until August 31! Details + registration at www.surfshackyoga.com/costarica"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Costa Rica retreat",
+     "dates": "January 10-16, 2027",
+     "location": "@peaceretreat in Los Pargos, Costa Rica",
+     "price": "Early bird pricing until August 31!",
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Registration for our Costa Rica retreat is open! Join us January 10-16, 2027",
+     "url": "https://www.instagram.com/lizhuntlyjensch/p/DcCEs1FPOA0"
+    }
+   ]
+  },
+  {
+   "handle": "lodgeparkmegeve",
+   "profileUrl": "https://www.instagram.com/lodgeparkmegeve/",
+   "displayName": "Lodge Park Megève",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Megève",
+    "French Alps"
+   ],
+   "accountType": "venue",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DZ7zA7rDpxq",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "5 days to recode your energy and longevity 🧬 From July 20th to 24th, 2026, join us at @lodgeparkmegeve for The Recode Retreat—an exclusive, immersive wellness experience dedicated to deep cellular regeneration. What awaits you in the heart of the French Alps: -Personalized vitality and lifestyle consultations -Tailored longevity & detox menus"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "The Recode Retreat",
+     "dates": "July 20th to 24th, 2026",
+     "location": "Lodge Park Megève, French Alps",
+     "price": null,
+     "spots": null,
+     "role": "co_host",
+     "excerpt": "From July 20th to 24th, 2026, join us at @lodgeparkmegeve for The Recode Retreat",
+     "url": "https://www.instagram.com/p/DZ7zA7rDpxq"
+    }
+   ]
+  }
+ ]
+}

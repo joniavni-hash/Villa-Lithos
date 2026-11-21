@@ -1,0 +1,19 @@
+{
+  "name": "villa-lithos-influencer-finder-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Platform-independent core of the Villa Lithos Influencer Finder: discovery query engine, candidate normalisation, commercial scoring, expected-booked-nights model, private-insights rescoring, outreach generation, Claude prompts, Supabase schema and edge functions.",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "queries": "tsx scripts/print-queries.ts",
+    "rank": "tsx scripts/rank-dataset.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

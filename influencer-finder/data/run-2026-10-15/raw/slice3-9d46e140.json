@@ -1,0 +1,38 @@
+{
+ "spec": {
+  "id": "9d46e140",
+  "query": "women's retreat January 2027 Europe OR Canary OR Morocco OR Cyprus OR Greece price per person instagram",
+  "language": "en",
+  "eventType": "womens_retreat",
+  "lane": "listing_site",
+  "includeDomains": [
+   "bookretreats.com",
+   "retreat.guru",
+   "bookyogaretreats.com",
+   "tripaneer.com",
+   "retreatsandvenues.com",
+   "eventbrite.com",
+   "eventbrite.co.uk",
+   "eventbrite.de",
+   "eventbrite.fr",
+   "eventbrite.nl"
+  ],
+  "searchDepth": "basic",
+  "priority": 3
+ },
+ "results": [
+  {
+   "url": "https://retreat.guru/be/womens-retreats-in-europe",
+   "title": "33+ Best Women's Retreats in Europe | 2027 Prices & Reviews",
+   "content": "# Book Top Women's Retreats in Europe\n\n## Discover Women's Retreats in Europe Discover all\n\nUpcoming Women's Retreats in Europe  \n 6 retreats Affordable Women's Retreats in Europe  \n 4 retreats Deluxe Women's Retreats in Europe\n\n## Top Europe Women's Retreats\n\n### 3 Night, Relaxing and Rejuvinating Yoga and Hiking Holiday in Corfu\n\nDate 4 Days Package \n\nCenter   Yoga Corfu Holidays   Agios Gordios, Greece\n\nFrom €299\n\nLoading logo\n\n### RetreatU 4 day Retreat 15th\n\nLast Chance iconLast Chance [...] Date 8 Days Package \n\nCenter   Joie de Vivre Retreats   Ménerbes, France\n\n$9,000\n\nLoading logo\n\n### 2 Day Private Tantra & Shibari Retreat for Couples in Zurich\n\nDate 2 Days Package \n\nCenter   Bina Taverna   Zürich, Switzerland\n\n$2,500\n\nLoading logo\n\n### The Man as the Safe Space / women edition (Northen Italy)\n\nDate 2 Days Package \n\nCenter   le44   Ostuni, Italy [...] Center   Waterways Qi Gong   Bern, Switzerland\n\nFrom €925 / 4 days\n\nLoading logo\n\n### 5 Day The Tantric Woman Retreat in Tenerife\n\nDate March 3 - 7, 2027 \n\nCenter   Tantra Bridge   Güímar, Spain\n\nelvin says, \"This was an amazing course. Really life changing. Everyone needs it.\" See more\n\n€950 / 5 days\n\n5.00\n\nLoading logo\n\n### Private psilocybin truffle ceremony for women\n\nTop Rated iconTop Rated\n\n Date Open Dates \n\nCenter   Earth Awareness   Teuge, Netherlands",
+   "score": 0.7606688
+  },
+  {
+   "url": "https://www.tripaneer.com/all/c/women-health-wellness-retreats/d/europe",
+   "title": "Top 10 Women Only Retreats in Europe for 2026/2027",
+   "content": "Find and compare 100+ top women's retreats in Europe. Discover programs for self-love, healing, and body nourishment at the best prices. Book today!",
+   "score": 0.38616195
+  }
+ ],
+ "fetchedAt": "2026-10-15T19:15:09.796858+00:00"
+}

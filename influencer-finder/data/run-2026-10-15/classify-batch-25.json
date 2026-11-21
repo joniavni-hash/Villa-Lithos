@@ -1,0 +1,413 @@
+{
+ "batch": 25,
+ "candidates": [
+  {
+   "handle": "louison_yoga",
+   "profileUrl": "https://www.instagram.com/louison_yoga/",
+   "displayName": "Louison Dalla Torre",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Sri Lanka",
+    "Biscarrosse"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "3 séjours sont ouverts aux inscriptions",
+    "Inscriptions ouvertes pour ce voyage ✨",
+    "Reste 1 place"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DZJtJw7MzRv",
+     "kind": "reel",
+     "title": "Cette retraite était initialement prévue en avril 2026 mais ...",
+     "excerpt": "3 séjours sont ouverts aux inscriptions. Du 4 au 10 janvier 2027 (Reste 1 place) En tarif normal 1480€ Du 10 au 16 mai 2027. Tarif early | extract: Je vous propose finalement de nous retrouver au Sri Lanka en mai 2027 ☀️🌊 ... au sein d’un groupe de femmes ... Inscriptions ouvertes pour ce voyage ✨ Plus d'infos par message 🙏 #retraiteyoga"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Séjour janvier 2027",
+     "dates": "Du 4 au 10 janvier 2027",
+     "location": null,
+     "price": "En tarif normal 1480€",
+     "spots": "Reste 1 place",
+     "role": "organizer",
+     "excerpt": "3 séjours sont ouverts aux inscriptions. Du 4 au 10 janvier 2027 (Reste 1 place) En tarif normal 1480€",
+     "url": "https://www.instagram.com/reel/DZJtJw7MzRv"
+    },
+    {
+     "title": "Retraite Sri Lanka",
+     "dates": "mai 2027 / Du 10 au 16 mai 2027",
+     "location": "Sri Lanka",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "nous retrouver au Sri Lanka en mai 2027 ☀️🌊",
+     "url": "https://www.instagram.com/reel/DZJtJw7MzRv"
+    }
+   ]
+  },
+  {
+   "handle": "ma.na_retreats",
+   "profileUrl": "https://www.instagram.com/ma.na_retreats/",
+   "displayName": "MA•NA - Yoga Retreats",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Fuerteventura, Canarias, Spain"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DcAnQkmD8vK",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Four days in Fuerteventura with Laura @laurayoga.fuerteventura as part of MA•NA RETREATS @ma.na_retreats . A house at the foot of a volcano, six Vinyāsa classes, plant based mead, a dune run you won’t forget, and a group of strangers who won’t stay strangers for long. Bilingual retreat, English and Español."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Four days in Fuerteventura (MA•NA RETREATS)",
+     "dates": null,
+     "location": "Fuerteventura",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Four days in Fuerteventura with Laura @laurayoga.fuerteventura as part of MA•NA RETREATS",
+     "url": "https://www.instagram.com/p/DcAnQkmD8vK"
+    }
+   ]
+  },
+  {
+   "handle": "mightyyoganh",
+   "profileUrl": "https://www.instagram.com/mightyyoganh/",
+   "displayName": "Mighty Yoga NH",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "NH",
+    "Ithaca"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "join the waitlist",
+    "REGISTRATION IS LIVE!"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Db3t16snavq",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "There’s still time to join the waitlist for our 2027 Yoga Teacher Training! Get early access to registration & prepare to deepen your practice at the link in our bio. 🪷🪷🪷 | image text: 'JANUARY-MAY 2027 LINK IN BIO FOR MORE INFO YOGA TEACHER TRAINING REGISTRATION IS LIVE!'"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "2027 Yoga Teacher Training",
+     "dates": "JANUARY-MAY 2027",
+     "location": "NH",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "There’s still time to join the waitlist for our 2027 Yoga Teacher Training!",
+     "url": "https://www.instagram.com/p/Db3t16snavq"
+    }
+   ]
+  },
+  {
+   "handle": "moulindestempliers",
+   "profileUrl": "https://www.instagram.com/moulindestempliers/",
+   "displayName": "Moulin des Templiers",
+   "bio": null,
+   "followers": null,
+   "website": "www.hotel-moulin-des-templiers.com/retraites",
+   "locationHints": [
+    "France"
+   ],
+   "accountType": "venue",
+   "organizerSignals": [
+    "Réservations : par téléphone au 03 86 34 10 80"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DdlbFn_Mjif",
+     "kind": "reel",
+     "title": "Et si votre prochaine pause était bien plus qu'un simple ...",
+     "excerpt": "Au Moulin des Templiers, nos retraites bien-être ... • Retraite « Habiter l’Hiver » - 20 au 22 novembre 2026 • Retraite d’hiver - 26 au 28 février 2027 • Retraite « Accueillir le Printemps » - 12 au 14 mars 2027 • Retraite de printemps - 30 avril au 2 mai 2027 ... 📞 Réservations : par téléphone au 03 86 34 10 80 ou par email à contact@hotel-moulin-des-templiers.com"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Retraite « Habiter l’Hiver »",
+     "dates": "20 au 22 novembre 2026",
+     "location": "Moulin des Templiers",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "• Retraite « Habiter l’Hiver » - 20 au 22 novembre 2026",
+     "url": "https://www.instagram.com/reel/DdlbFn_Mjif"
+    },
+    {
+     "title": "Retraite d’hiver",
+     "dates": "26 au 28 février 2027",
+     "location": "Moulin des Templiers",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "• Retraite d’hiver - 26 au 28 février 2027",
+     "url": "https://www.instagram.com/reel/DdlbFn_Mjif"
+    },
+    {
+     "title": "Retraite « Accueillir le Printemps »",
+     "dates": "12 au 14 mars 2027",
+     "location": "Moulin des Templiers",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "• Retraite « Accueillir le Printemps » - 12 au 14 mars 2027",
+     "url": "https://www.instagram.com/reel/DdlbFn_Mjif"
+    }
+   ]
+  },
+  {
+   "handle": "national_home_delivery",
+   "profileUrl": "https://www.instagram.com/national_home_delivery/",
+   "displayName": "National Home Delivery",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "St. Thomas"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Registration is open!"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DdWtRWABqOR",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Registration is open! The Retreat is open to all NHDA regular members ... 📍 Marriott Frenchman’s Cove, St. Thomas 🗓️ February 7–10, 2027 #NHDA #LeadershipRetreat"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "NHDA Leadership Retreat",
+     "dates": "February 7–10, 2027",
+     "location": "Marriott Frenchman’s Cove, St. Thomas",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "📍 Marriott Frenchman’s Cove, St. Thomas 🗓️ February 7–10, 2027",
+     "url": "https://www.instagram.com/p/DdWtRWABqOR"
+    }
+   ]
+  },
+  {
+   "handle": "ngcoa",
+   "profileUrl": "https://www.instagram.com/ngcoa/",
+   "displayName": "Nat’l Golf Course Owners Assn",
+   "bio": null,
+   "followers": null,
+   "website": "GolfBusinessConference.com",
+   "locationHints": [
+    "Orlando"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DdjwqrQoEa8",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗶𝘀 𝗢𝗣𝗘𝗡 for Golf Business Conference 2027 ... GOLF BUSINESS CONFERENCE 2027 JANUARY 25-27 ORLANDO"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "novafitnessretreat",
+   "profileUrl": "https://www.instagram.com/novafitnessretreat/",
+   "displayName": "Nova Fitness Retreat",
+   "bio": "Vietnam's first purpose built retreat. Official HYROX Affiliated Training Club IRONMAN Phu Quoc.",
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Phu Quoc, Vietnam"
+   ],
+   "accountType": "venue",
+   "organizerSignals": [
+    "APPLY NOW!"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/novafitnessretreat?hl=en",
+     "kind": "profile",
+     "title": "Nova Fitness Retreat (@novafitnessretreat) • Instagram photos and videos",
+     "excerpt": "Vietnam's first purpose built retreat. Official HYROX Affiliated Training Club IRONMAN Phu Quoc. ... 'NOVA FITNESS RETREAT CREATE. Join NoA as a Content Creator PHU QUOC, VIETNAM ... AUGUST & SEPTEMBER 2026 APPLY NOW!'"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "nwdanceproject",
+   "profileUrl": "https://www.instagram.com/nwdanceproject/",
+   "displayName": "NW Dance Project",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Portland",
+    "New York"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DeUke5oh-yH",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "AUDITION ALERT 🔔 2027/28 Season Company Audition Applications are open!"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "offsiteio",
+   "profileUrl": "https://www.instagram.com/offsiteio/",
+   "displayName": "Offsiteio | Events & Offsites",
+   "bio": null,
+   "followers": null,
+   "website": "offsiteio.com",
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Book your 2027 offsite before the year ends.",
+    "Free proposal in 48 hours"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DeDZF-LiX8H",
+     "kind": "post",
+     "title": "Your January kickoff is 90 days away 😅 Venue. Flights. ...",
+     "excerpt": "Your January kickoff is 90 days away 😅 Venue. Flights. Hotel block. Dinners. Activities. The agenda. And somehow it's all on you. Hand it to us. Offsiteio plans your team offsite end to end: venues, dinners, activities and on-site support. Free itemized proposal in 48 hours 👉 offsiteio.com #TeamOffsite #CompanyRetreat"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "padelante.spain",
+   "profileUrl": "https://www.instagram.com/padelante.spain/",
+   "displayName": "Padelante Tours",
+   "bio": null,
+   "followers": null,
+   "website": "padelante.co.uk",
+   "locationHints": [
+    "Alicante, Spain",
+    "Dublin"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Our next tour is approaching!"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DbdOU6DAnOh",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "'PADELANTE HOLIDAY THE ULTIMATE PADEL CAMP IN SPAIN WHATS INCLUDED 13 PADEL COURTS AIRPORT TRANSFER 4-STAR COMFORT POOL & SPA FACILITIES ALICANTE SPAIN' ... From Dublin to the courts, hear what Dan had to say about his Padelante experience 🎾🇮🇪 Our next tour is approaching! Learn more at: padelante.co.uk #padeltravel #padelholidays"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Padelante Holiday padel camp",
+     "dates": null,
+     "location": "Alicante, Spain",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Our next tour is approaching! Learn more at: padelante.co.uk",
+     "url": "https://www.instagram.com/reel/DbdOU6DAnOh"
+    }
+   ]
+  },
+  {
+   "handle": "padelrest",
+   "profileUrl": "https://www.instagram.com/padelrest/",
+   "displayName": "Padel Retreats & Community",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Köln"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Join us! - Anmeldung über Playtomic",
+    "Link in Bio"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTYG-NYDXEp",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Mindful Matches – Padel x Yoga Power on court. Calm in flow. Padel, Deep Stretching und Yoga Flow – bewusst kombiniert, inklusive Matcha & good vibes. 📍 TheCube Köln 🗓 Freitag, 23. Januar 2026 ⏰ Start 09:30 | ⏳ 120 Minuten 🎾 Padel Turnier | Level 0–7 👉 Join us! - Anmeldung über Playtomic Link in Bio✨"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Mindful Matches – Padel x Yoga",
+     "dates": "Freitag, 23. Januar 2026",
+     "location": "TheCube Köln",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Mindful Matches – Padel x Yoga ... 📍 TheCube Köln 🗓 Freitag, 23. Januar 2026",
+     "url": "https://www.instagram.com/p/DTYG-NYDXEp"
+    }
+   ]
+  },
+  {
+   "handle": "pure_haifa",
+   "profileUrl": "https://www.instagram.com/pure_haifa/",
+   "displayName": "Pure Haifa - פיור חיפה",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "חיפה"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "ההרשמה פתוחה - מספר המקומות מוגבל"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DZWyD_1APwF",
+     "kind": "post",
+     "title": "‎Pure Haifa - פיור חיפה‎ on Instagram‎",
+     "excerpt": "סדנת קיץ לנערות 2026 ☀️ שבועיים של תנועה, ביטחון עצמי, יצירה וחוויה קבוצתית. ... ההרשמה פתוחה - מספר המקומות מוגבל 🤍"
+    }
+   ],
+   "eventsMentioned": []
+  }
+ ]
+}

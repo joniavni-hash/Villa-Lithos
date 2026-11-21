@@ -1,0 +1,297 @@
+{
+  "batch": 7,
+  "model": "claude (session analyst)",
+  "results": [
+    {
+      "handle": "fincanaranjas",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/reel/Ddo4eZ1zf1v"], "note": "Finca Naranjas is the venue hosting @purplevalleyyogatenerife's January-April season."},
+        "sellsRetreats": {"value": false, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/reel/Ddo4eZ1zf1v"], "note": "Hosts another organisation's yoga season; does not sell its own retreats."},
+        "provenWinterActivity": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/Ddo4eZ1zf1v"], "note": "Winter hosting (January to April) exists, but as a venue, not an organiser."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "'Once again' hosting implies a recurring season for the organiser, not for the venue."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["venue/aggregator account, not a host"],
+        "missingInformation": ["Details of the organiser @purplevalleyyogatenerife (a potential winter-season lead in its own right)"],
+        "summary": "Finca Naranjas is a finca in Tenerife that hosts the Purple Valley Yoga Tenerife season every January to April, with international teachers and students. It is a venue, not an organiser, so it will not book the villa. The organiser it hosts, @purplevalleyyogatenerife, runs a proven multi-month winter programme and is the actual lead worth pursuing."
+      },
+      "events": [
+        {"title": "Purple Valley Yoga Tenerife season hosted at Finca Naranjas (January to April)", "eventType": "long_stay_program", "startDate": "2027-01", "endDate": "2027-04", "nights": null, "location": "Finca Naranjas, Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "promoter", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/Ddo4eZ1zf1v"]}
+      ],
+      "profile": {"displayName": "Finca Naranjas", "country": "ES", "languages": ["en"], "niche": "yoga retreat venue", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "folkyogasf",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DePeZkzCqi1"], "note": "Studio-based 200-hour teacher training (San Francisco), held at the studio."},
+        "sellsRetreats": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DePeZkzCqi1"], "note": "Sells a part-time / full-time local YTT with early-bird enrollment, not a residential retreat."},
+        "provenWinterActivity": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DePeZkzCqi1"], "note": "Part-time 200H YTT runs January 10 - April 4, 2027, but it is a non-residential local training."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Prices appear only in heuristic hints, not in the evidence excerpt."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DePeZkzCqi1"], "note": "Offers multiple training formats per year."},
+        "longStayPotential": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DePeZkzCqi1"], "note": "Three-month part-time course; no residential component evidenced."},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DePeZkzCqi1"], "note": "Paid teacher training with open enrollment."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Local studio teacher training in San Francisco; no residential or travel component", "US-based, far from the villa's core markets"],
+        "missingInformation": ["Whether the studio runs any destination retreats or YTT immersions abroad"],
+        "summary": "Folk Yoga SF is a San Francisco studio enrolling students in its 200-hour yoga teacher training, with a part-time track on January 10 - April 4, 2027 and a full-time option, plus early-bird pricing via link in bio. The winter dates are real, but this is a non-residential local course, so the studio does not book external venues. Not a villa prospect unless it launches a destination immersion."
+      },
+      "events": [
+        {"title": "Folk Yoga SF 200 Hour YTT, part-time", "eventType": "teacher_training", "startDate": "2027-01-10", "endDate": "2027-04-04", "nights": null, "location": "San Francisco", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/reel/DePeZkzCqi1"]}
+      ],
+      "profile": {"displayName": "Folk Yoga SF", "country": "US", "languages": ["en"], "niche": "yoga studio and teacher training", "markets": ["US"]}
+    },
+    {
+      "handle": "franchiseassembly.",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DdqvvABPro5"], "note": "Produces its own industry events ('Franchise Development & Sales Assembly', 'Hello Mastermind Retreats'), so it selects venues; locations in the hints are US cities."},
+        "sellsRetreats": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DdqvvABPro5"], "note": "Operates 'Hello Mastermind Retreats' (award-ranked #10) alongside its conference; no price or registration text in the excerpt."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Heuristic hints list November 2026 and January 2027 dates, but they are not visible in the evidence excerpt and could not be verified."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "B2B franchise executives; pricing not shown."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/reel/DdqvvABPro5"], "note": "Assembly voted an award 'for the 3rd year in a row'."},
+        "longStayPotential": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DdqvvABPro5"], "note": "Industry conference/mastermind formats are typically 1-2 nights (hints show 2-3 day events)."},
+        "brandFit": {"value": false, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DdqvvABPro5"], "note": "US franchise-industry conference brand, hotel format."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DdqvvABPro5"], "note": "Multi-year commercial event series with industry awards."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["US-only franchise industry events in hotel/conference format (Denver, Dallas, San Diego, New Orleans)", "Scale and sponsor-driven model do not fit an 18-guest private villa"],
+        "missingInformation": ["Attendee counts of the mastermind retreats", "Whether any international or small-format executive retreats are run"],
+        "summary": "Franchise Assembly produces US franchise-industry events, including the 'Franchise Development & Sales Assembly' (award-winning three years running) and 'Hello Mastermind Retreats' (ranked #10). It is technically a mastermind-retreat host with a recurring calendar, but every evidenced location is a US city and the format is a hotel conference. Winter dates appear only in unverified hints. Poor fit for Greece; no outreach recommended."
+      },
+      "events": [
+        {"title": "Hello Mastermind Retreats", "eventType": "executive_mastermind", "startDate": null, "endDate": null, "nights": null, "location": null, "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DdqvvABPro5"]},
+        {"title": "Franchise Development & Sales Assembly", "eventType": "corporate_offsite", "startDate": null, "endDate": null, "nights": null, "location": null, "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DdqvvABPro5"]}
+      ],
+      "profile": {"displayName": "Franchise Assembly", "country": "US", "languages": ["en"], "niche": "franchise industry conferences and masterminds", "markets": ["US"]}
+    },
+    {
+      "handle": "franchiseba",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de"], "note": "Lists the Hello Mastermind Fall Retreat (Denver) and the Franchise Development & Sales Assembly (Dallas) as its calendar and sells sponsorship for FBCE 2026; organiser role is implied rather than stated."},
+        "sellsRetreats": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de"], "note": "Promotes a mastermind retreat and sells conference sponsor spots ('Sponsor spots are limited')."},
+        "provenWinterActivity": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de"], "note": "Hello Mastermind Fall Retreat November 4-5, 2026 (Denver) and Assembly January 27-29, 2027 (Dallas); organiser role not explicit."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de"], "note": "Multiple dated events across 2026-2027."},
+        "longStayPotential": {"value": false, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de"], "note": "1-2 night conference formats."},
+        "brandFit": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de"], "note": "Industry association conferences with sponsor floors."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de"], "note": "Sells event sponsorship packages."},
+        "commercialRisk": "high",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["US industry association; all events in US cities in conference/hotel format", "Organiser role for the listed retreat is implied, not stated"],
+        "missingInformation": ["Whether FBA itself organises the Hello Mastermind Retreat or only lists it", "Attendee numbers and venue type"],
+        "summary": "The Franchise Brokers Association lists a 'Hello Mastermind Fall Retreat' on November 4-5, 2026 in Denver and the 'Franchise Development & Sales Assembly' on January 27-29, 2027 in Dallas, and sells sponsor spots for its FBCE 2026 conference. The dates fall in the winter window, but these are US industry conferences in hotel formats with sponsor floors, so they will not move to a private villa in Greece. No outreach recommended."
+      },
+      "events": [
+        {"title": "Hello Mastermind Fall Retreat", "eventType": "executive_mastermind", "startDate": "2026-11-04", "endDate": "2026-11-05", "nights": 1, "location": "Denver", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "unknown", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de"]},
+        {"title": "Franchise Development & Sales Assembly", "eventType": "corporate_offsite", "startDate": "2027-01-27", "endDate": "2027-01-29", "nights": 2, "location": "Dallas", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "unknown", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de"]},
+        {"title": "FBCE 2026 (Franchise Brokers Association conference)", "eventType": "corporate_offsite", "startDate": null, "endDate": null, "nights": null, "location": null, "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de"]}
+      ],
+      "profile": {"displayName": "Franchise Brokers Association", "country": "US", "languages": ["en"], "niche": "franchise industry association events", "markets": ["US"]}
+    },
+    {
+      "handle": "giuliayogabelluno",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DeRxhDVtDwx"], "note": "She chose Tenerife for her own retreat and manages bookings personally."},
+        "sellsRetreats": {"value": true, "confidence": 0.75, "evidenceUrls": ["https://www.instagram.com/reel/DeRxhDVtDwx"], "note": "'Interested in joining us? Send me a message to ask about availability and receive all the details'."},
+        "provenWinterActivity": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DeRxhDVtDwx"], "note": "Retreat scheduled for 'beginning of 2027', i.e. within the winter window, but no exact dates."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Single retreat evidenced."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "'A few days' - length unspecified."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DeRxhDVtDwx"], "note": "Slow-down, reconnect yoga retreat in a sunny island destination; bilingual Italian/English."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DeRxhDVtDwx"], "note": "Selling retreat places via DM; no prices or sell-through shown."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["DM-based sales with no public price suggests a small, informal operation", "Profile data (followers, website) missing from the pack"],
+        "missingInformation": ["Exact dates, duration, price and group size", "Follower count", "Whether she has run previous retreats"],
+        "summary": "Giulia Citterio, a yoga teacher from Belluno, Italy, is selling a Tenerife yoga retreat for the beginning of 2027 ('a few days to slow down'), held in Italian and English, with places booked by direct message. She is a small organiser who picks winter sun destinations and could run the same format near Athens. Dates, price, duration and group size are not in evidence. Pilot retreat conversation for winter 2027/28, after confirming her typical group size."
+      },
+      "events": [
+        {"title": "Tenerife yoga retreat, beginning of 2027 (Italian and English)", "eventType": "yoga_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/reel/DeRxhDVtDwx"]}
+      ],
+      "profile": {"displayName": "Giulia Citterio", "country": "IT", "languages": ["it", "en"], "niche": "yoga teacher running destination retreats", "markets": ["IT"]}
+    },
+    {
+      "handle": "gretaertl",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/gretaertl"], "note": "Self-described 'Retreat Host' co-posting with 'Radiance Retreats'; no venue decision shown."},
+        "sellsRetreats": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/gretaertl"], "note": "Display name 'Spiritual Life Coach + Retreat Host' and collaborative posts with Radiance Retreats; no registration, price or dates in the excerpt."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No event dates."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/gretaertl"], "note": "Spiritual coaching with a feminine, polished aesthetic (sundress visuals); weak signal."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Only a profile snapshot in the pack; no concrete retreat details"],
+        "missingInformation": ["Radiance Retreats dates, locations, prices and group sizes", "Follower count and home market", "Whether she is the organiser or a facilitator for Radiance Retreats"],
+        "summary": "Greta Ertl brands herself 'Spiritual Life Coach + Retreat Host' and shares collaborative posts with 'Radiance Retreats' (October 2026). The self-description and co-branding suggest she organises or co-hosts retreats, but the pack gives no dates, venues, prices or group sizes. Treat as an unverified organiser lead and gather the Radiance Retreats details before deciding on outreach."
+      },
+      "events": [],
+      "profile": {"displayName": "Greta Ertl | Spiritual Life Coach + Retreat Host", "country": null, "languages": ["en"], "niche": "spiritual life coaching retreats", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "insideoutwithcourtnaye.",
+      "classification": {
+        "group": "none",
+        "decidesVenue": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No venue or location mentioned; the mastermind appears to be a program, likely virtual."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DTBJJcjjm1e"], "note": "Sells places in a 'Ministry & Marketplace Mastermind' program; no in-person retreat evidence."},
+        "provenWinterActivity": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DTBJJcjjm1e"], "note": "Program starts Monday, January 5, but it is not a venue-based retreat."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DTBJJcjjm1e"], "note": "Faith-based ministry and business audience; no travel component."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DTBJJcjjm1e"], "note": "Paid mastermind program with sign-up via link in bio."},
+        "commercialRisk": "unknown",
+        "recommendedTrack": "scouting_stay",
+        "redFlags": ["Mastermind appears to be a virtual/program format; no venue-based event evidence", "Faith-based US-style audience outside core markets"],
+        "missingInformation": ["Whether the mastermind includes any in-person retreat", "Audience size and location"],
+        "summary": "Courtnaye Richard runs a 'Ministry & Marketplace Mastermind' for kingdom, ministry and business builders starting Monday, January 5, sold via link in bio with questions by inbox. Nothing indicates an in-person retreat or venue; it reads as an online program. Not a villa prospect on this evidence."
+      },
+      "events": [
+        {"title": "Ministry & Marketplace Mastermind (format unclear, likely virtual)", "eventType": "executive_mastermind", "startDate": "2026-01-05", "endDate": null, "nights": null, "location": null, "country": null, "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DTBJJcjjm1e"]}
+      ],
+      "profile": {"displayName": "Courtnaye Richard", "country": null, "languages": ["en"], "niche": "faith-based business mastermind", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "itamar_padel_tour",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/itamar_padel_tour/reel/DbtKJN1COUJ"], "note": "Handle and page content point to Israeli padel tours abroad (Cyprus, Madrid; David Lloyd Clubs imagery); the organiser chooses destinations and clubs."},
+        "sellsRetreats": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/itamar_padel_tour/reel/DbtKJN1COUJ"], "note": "'Padel tour' account by Itamar Kantzuker; the excerpt itself shows only club imagery, so the selling evidence is indirect."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Hinted tour dates (03.09-07.09, 23.07-26.07) are summer and not visible in the excerpt."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/itamar_padel_tour/reel/DbtKJN1COUJ"], "note": "Heuristic hints list two separate tour date ranges and two destinations; not verifiable in the excerpt."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "Hinted tours are 4-5 days; unverified."},
+        "brandFit": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/itamar_padel_tour/reel/DbtKJN1COUJ"], "note": "Israeli padel-travel groups fit the villa's IL market and short-flight positioning, but padel needs courts."},
+        "priorCommercialEvidence": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Padel tours require court access; the villa's padel facilities are not confirmed", "Evidence excerpt is thin (image text only); tour details come from heuristic hints"],
+        "missingInformation": ["Tour dates, group sizes and prices", "Whether winter tours are run", "Court/club arrangements needed near Porto Rafti"],
+        "summary": "Itamar Kantzuker runs 'Itamar Padel Tour', an Israeli account organising padel trips abroad; the page references Cyprus and Madrid tours and David Lloyd Clubs, and hints list July and September tour dates. This is an Israeli group-travel organiser in the villa's top market and within short-flight range, but the pack's excerpt is thin and gives no verified dates, prices or group sizes. A pilot padel-and-stay package could work if nearby courts can be arranged; verify tour sizes first."
+      },
+      "events": [
+        {"title": "Padel tour to Cyprus", "eventType": "padel_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Cyprus", "country": "CY", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/itamar_padel_tour/reel/DbtKJN1COUJ"]},
+        {"title": "Padel tour to Madrid", "eventType": "padel_retreat", "startDate": null, "endDate": null, "nights": null, "location": "Madrid", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/itamar_padel_tour/reel/DbtKJN1COUJ"]}
+      ],
+      "profile": {"displayName": "Itamar Kantzuker (Itamar Padel Tour)", "country": "IL", "languages": ["he"], "niche": "padel travel groups", "markets": ["IL"]}
+    },
+    {
+      "handle": "jakesasseville",
+      "classification": {
+        "group": "B_reaches_organizers",
+        "decidesVenue": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DcIMcI3zmoK"], "note": "Owns retreat venues himself; does not book third-party venues."},
+        "sellsRetreats": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/reel/DcIMcI3zmoK"], "note": "Venue owner and educator for retreat leaders rather than a retreat seller."},
+        "provenWinterActivity": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "runsRecurringEvents": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/reel/DcIMcI3zmoK"], "note": "Weekly community 'Office Hours' every Wednesday 3pm ET (online, not retreats)."},
+        "longStayPotential": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "brandFit": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/reel/DcIMcI3zmoK"], "note": "10 years owning retreat venues with 450+ retreat leaders hosted."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "referral_partnership",
+        "redFlags": ["Owns competing retreat venues, so referrals may conflict with his own properties", "US-based (ET time zone) community"],
+        "missingInformation": ["Size and geography of his retreat-leader community", "Whether his venues are still operating and where", "Terms he would accept for referring leaders to other venues"],
+        "summary": "Jake Sasseville says he has owned retreat venues for 10 years and seen 450+ retreat leaders pass through, and now runs a community for retreat leaders with weekly Office Hours (Wednesdays 3pm ET). His audience is exactly the organiser population the villa wants to reach, which makes him a Group B channel. The conflict is that he owns venues himself and his community is likely North American. Explore a referral partnership, with clear terms, rather than a hosting deal."
+      },
+      "events": [],
+      "profile": {"displayName": "Jake Sasseville", "country": "US", "languages": ["en"], "niche": "retreat-leader community and venue owner", "markets": ["US"]}
+    },
+    {
+      "handle": "jamieberman_.",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DRVpciukoMf"], "note": "Her mastermind includes a 4-day Maui retreat she organises."},
+        "sellsRetreats": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DRVpciukoMf"], "note": "'Becoming a Millionaire Mastermind is NOW OPEN', applications open, includes a 4-day Maui retreat."},
+        "provenWinterActivity": {"value": false, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DRVpciukoMf"], "note": "The program runs January-June 2026 with weekly online calls; the in-person retreat is in June."},
+        "canFillGroupSize": {"value": null, "confidence": 0, "evidenceUrls": [], "note": ""},
+        "audiencePaysPremium": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DRVpciukoMf"], "note": "High-ticket positioning for women entrepreneurs ('scale your income, build long-term wealth'); price not in the excerpt."},
+        "runsRecurringEvents": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "One cohort evidenced."},
+        "longStayPotential": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DRVpciukoMf"], "note": "4-day retreat component, around the villa's minimum."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DRVpciukoMf"], "note": "'Strategy meets soul' wealth mastermind with a Maui retreat; upscale, feminine, embodiment-oriented."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DRVpciukoMf"], "note": "Sells a 6-month paid mastermind with retreat."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Retreat located in Maui, implying a US audience with long-haul travel to Greece", "Price appears only in heuristic hints ('$100K'), not in the evidence excerpt"],
+        "missingInformation": ["Cohort size and price", "Home market of participants", "Whether future cohorts might retreat in Europe"],
+        "summary": "Jamie Berman sells the 'Becoming a Millionaire Mastermind' for women entrepreneurs (January-June 2026): weekly live calls, hot-seat coaching, a private community and a 4-day Maui retreat in June, with applications open. She organises a premium-positioned mastermind retreat and chooses the venue, but the retreat is in June and the audience is likely US-based. A pilot winter mastermind retreat in Greece is a plausible pitch only if her cohort includes European participants; cohort size and price are unknown."
+      },
+      "events": [
+        {"title": "Becoming a Millionaire Mastermind - 4-day Maui retreat", "eventType": "executive_mastermind", "startDate": "2026-06", "endDate": "2026-06", "nights": null, "location": "Maui", "country": "US", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DRVpciukoMf"]}
+      ],
+      "profile": {"displayName": "Jamie Berman", "country": "US", "languages": ["en"], "niche": "wealth mastermind for women entrepreneurs", "markets": ["US"]}
+    },
+    {
+      "handle": "lacasashambala",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"], "note": "Runs residential yoga teacher trainings in Arafo, Tenerife; the account name suggests a fixed house they operate, so they may not need an external venue."},
+        "sellsRetreats": {"value": true, "confidence": 0.85, "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"], "note": "'JOIN US IN ARAFO' with dated YTTs, 'SOLD OUT' and 'EARLY BIRD' labels."},
+        "provenWinterActivity": {"value": true, "confidence": 0.85, "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"], "note": "February YTT in Arafo (testimonial and 'memories from our February YTT') and a March 27 - April 13 training marked sold out."},
+        "canFillGroupSize": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"], "note": "Sold-out training cohorts, but cohort size is not stated."},
+        "audiencePaysPremium": {"value": false, "confidence": 0.3, "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"], "note": "Testimonial praises 'value for money', suggesting mid-market pricing; no price shown."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.85, "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"], "note": "February, March-April, May and July trainings in one year."},
+        "longStayPotential": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"], "note": "17-night training blocks."},
+        "brandFit": {"value": true, "confidence": 0.4, "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"], "note": "International YTT community in a sunny destination; value-oriented rather than luxury."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"], "note": "Sold-out cohorts and early-bird pricing."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Appears to operate its own fixed property ('La Casa Shambala') in Arafo, so it may not book external venues", "Value-for-money positioning may not support a premium nightly rate"],
+        "missingInformation": ["Whether the trainings are run at an owned house or a rented venue", "Cohort size and price per student", "Interest in a second winter location outside Tenerife"],
+        "summary": "La Casa Shambala runs residential 200-hour yoga teacher trainings in Arafo, Tenerife, with a calendar of February, March 27 - April 13 (sold out), May 4-21 and July 3-20 (early bird) cohorts and a testimonial praising February as 'a perfect month' with great value for money. It is a proven winter organiser with 17-night blocks and sold-out groups, which is a strong operational fit for a long-stay winter booking. The open question is whether it owns its Arafo house (in which case it would not need the villa) and what its cohorts pay. Approach with a pilot winter training block if it expands beyond Tenerife."
+      },
+      "events": [
+        {"title": "Yoga teacher training in Arafo, February 2026", "eventType": "teacher_training", "startDate": "2026-02", "endDate": "2026-02", "nights": null, "location": "Arafo, Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": null, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"]},
+        {"title": "Yoga teacher training in Arafo, March 27 - April 13", "eventType": "teacher_training", "startDate": "2026-03-27", "endDate": "2026-04-13", "nights": 17, "location": "Arafo, Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": true, "role": "organizer", "isWinter": true, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"]},
+        {"title": "Yoga teacher training in Arafo, May 4 - May 21", "eventType": "teacher_training", "startDate": "2026-05-04", "endDate": "2026-05-21", "nights": 17, "location": "Arafo, Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"]},
+        {"title": "Yoga teacher training in Arafo, July 3 - July 20 (early bird)", "eventType": "teacher_training", "startDate": "2026-07-03", "endDate": "2026-07-20", "nights": 17, "location": "Arafo, Tenerife", "country": "ES", "groupSize": null, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": false, "provenance": "evidence_supported_inference", "evidenceUrls": ["https://www.instagram.com/p/DVv3I3FDkk0"]}
+      ],
+      "profile": {"displayName": "La Casa Shambala (Yoga Teacher Trainings)", "country": "ES", "languages": ["en"], "niche": "residential yoga teacher trainings", "markets": ["OTHER"]}
+    },
+    {
+      "handle": "ladiesinweighting_be",
+      "classification": {
+        "group": "A_retreat_organizer",
+        "decidesVenue": {"value": true, "confidence": 0.7, "evidenceUrls": ["https://www.instagram.com/p/DdWOblMiKPB"], "note": "Christina & Laura choose the destination (Tenerife) for their own Grit & Glow retreat."},
+        "sellsRetreats": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DdWOblMiKPB"], "note": "'Our next GRIT & GLOW RETREAT', 'only 4 spots left', 'contact us ... to join us'."},
+        "provenWinterActivity": {"value": true, "confidence": 0.9, "evidenceUrls": ["https://www.instagram.com/p/DdWOblMiKPB"], "note": "February 2027 in Tenerife; poster reads Thu 25/02 to Mon 01/03, 5 days / 4 nights."},
+        "canFillGroupSize": {"value": true, "confidence": 0.85, "evidenceUrls": ["https://www.instagram.com/p/DdWOblMiKPB"], "note": "'Only 15 fabulous women but only 4 spots left' (11 sold at posting)."},
+        "audiencePaysPremium": {"value": null, "confidence": 0, "evidenceUrls": [], "note": "No price in evidence."},
+        "runsRecurringEvents": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DdWOblMiKPB"], "note": "'Our next' retreat implies previous editions."},
+        "longStayPotential": {"value": true, "confidence": 0.6, "evidenceUrls": ["https://www.instagram.com/p/DdWOblMiKPB"], "note": "4-night format equals the villa's minimum stay."},
+        "brandFit": {"value": true, "confidence": 0.5, "evidenceUrls": ["https://www.instagram.com/p/DdWOblMiKPB"], "note": "Women's strength-training and hiking retreat with beach mornings; active, premium-leaning community."},
+        "priorCommercialEvidence": {"value": true, "confidence": 0.8, "evidenceUrls": ["https://www.instagram.com/p/DdWOblMiKPB"], "note": "Selling and nearly filling a 15-person retreat months in advance."},
+        "commercialRisk": "medium",
+        "recommendedTrack": "pilot_retreat",
+        "redFlags": ["Price not disclosed", "Retreat includes a mountain hike (Teide); the villa would need comparable outdoor activity options"],
+        "missingInformation": ["Price per person", "Previous retreat destinations and dates", "Follower count"],
+        "summary": "Ladies in Weighting (Christina & Laura, Belgium) are selling their next 'Grit & Glow' women's strength-and-hiking retreat in Tenerife from Thursday 25 February to Monday 1 March 2027 (5 days / 4 nights), capped at 15 women with only 4 spots left at posting. They organise, choose destinations, fill groups of about 15 and run in the winter window, with a 4-night format matching the villa minimum. The price is not public. Strong pilot-retreat candidate for winter 2027/28 from a preferred market (BE); ask about their next destination and typical price."
+      },
+      "events": [
+        {"title": "Grit & Glow Retreat, Tenerife", "eventType": "fitness_retreat", "startDate": "2027-02-25", "endDate": "2027-03-01", "nights": 4, "location": "Tenerife, Canary Islands", "country": "ES", "groupSize": 15, "pricePerPerson": null, "currency": null, "soldOut": false, "role": "organizer", "isWinter": true, "provenance": "verified_public_fact", "evidenceUrls": ["https://www.instagram.com/p/DdWOblMiKPB"]}
+      ],
+      "profile": {"displayName": "Ladies in Weighting (Christina & Laura)", "country": "BE", "languages": ["en"], "niche": "women's strength training and fitness retreats", "markets": ["BE"]}
+    }
+  ]
+}

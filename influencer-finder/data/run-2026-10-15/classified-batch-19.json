@@ -1,0 +1,1217 @@
+{
+ "batch": 19,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "michellemartoneyoga",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DXFEoQzlFlE"
+     ],
+     "note": "Chooses an international venue herself ('Peaceful 3 acre heritage property' in Arugam Bay, details on 'my website')."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DXFEoQzlFlE"
+     ],
+     "note": "'Sri Lanka Retreat Registration now open', 'Join us', all details on my website."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DXFEoQzlFlE"
+     ],
+     "note": "Sri Lanka retreat March 20-28th, 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size or spots."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DXFEoQzlFlE"
+     ],
+     "note": "Private bungalows, on-site chef, Ayurvedic massage and safari in an all-inclusive package; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "One retreat in evidence."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DXFEoQzlFlE"
+     ],
+     "note": "9 days / 8 nights format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DXFEoQzlFlE"
+     ],
+     "note": "Heritage-property, private-bungalow, chef-led retreat matches a private estate offer."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sell-out or attendance evidence."
+    },
+    "commercialRisk": "low",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Home market and audience geography not stated"
+    ],
+    "missingInformation": [
+     "Group size and price",
+     "Audience home market",
+     "Past retreat history"
+    ],
+    "summary": "Michelle Martone sells her own Sri Lanka yoga retreat, March 20-28th, 2027: 9 days / 8 nights at a 3-acre heritage property in Arugam Bay with private bungalows, an on-site chef, twice-daily yoga, safari and Ayurvedic massage. She picks long-haul international venues, runs 8-night winter-window retreats and positions them at the premium end, which matches Villa Lithos well. No group size, price or market in evidence. Low risk; strong pilot candidate for a winter or early-spring Greece retreat."
+   },
+   "events": [
+    {
+     "title": "Sri Lanka Retreat, Arugam Bay",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-03-20",
+     "endDate": "2027-03-28",
+     "nights": 8,
+     "location": "Arugam Bay",
+     "country": "LK",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DXFEoQzlFlE"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "millesime.life",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRUz6m5iD36"
+     ],
+     "note": "The studio chose 'l'hôtel iconique Les Deux Tours à Marrakech' for its first signature retreat."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRUz6m5iD36"
+     ],
+     "note": "'Inscriptions ouvertes', 'Réservez votre place : lien en bio'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRUz6m5iD36"
+     ],
+     "note": "Retraite Pilates à Marrakech du 5 au 8 février 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Described as 'intimiste'; no number."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRUz6m5iD36"
+     ],
+     "note": "Iconic boutique hotel, spa treatment included, Pilates Reformer: premium positioning; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRUz6m5iD36"
+     ],
+     "note": "'inaugure sa première expérience signature': first retreat at the time."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRUz6m5iD36"
+     ],
+     "note": "Four-day / three-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRUz6m5iD36"
+     ],
+     "note": "Boutique, design-led Pilates studio choosing an iconic hotel; aesthetics match a luxury estate."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sell-out evidence."
+    },
+    "commercialRisk": "low",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "First retreat; repeat demand not yet proven",
+     "Intimate format may be below 10 participants"
+    ],
+    "missingInformation": [
+     "Price and group size of the Marrakech retreat",
+     "Whether it sold out and a second edition is planned",
+     "Studio location in France"
+    ],
+    "summary": "Millesime is a French Pilates studio that launched its first signature retreat: Pilates with Ludivine Meytre at the iconic Les Deux Tours hotel in Marrakech, 5-8 February 2026, with Reformer, mat, Yoga Nidra, breathwork and a spa treatment. It chooses premium short-haul winter venues for its own community, the exact pattern Villa Lithos targets, though it was a first edition with no price or group size shown. Low risk; strong pilot pitch for a February or March 2027 edition in Greece."
+   },
+   "events": [
+    {
+     "title": "Retraite Pilates à Marrakech avec Ludivine Meytre (Les Deux Tours)",
+     "eventType": "fitness_retreat",
+     "startDate": "2026-02-05",
+     "endDate": "2026-02-08",
+     "nights": 3,
+     "location": "Hotel Les Deux Tours, Marrakech",
+     "country": "MA",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRUz6m5iD36"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Millésime",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "Pilates studio and retreats",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "ofitness.surf",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/C_JygQiqlKo"
+     ],
+     "note": "Only 'Les inscriptions sont ouvertes' linking to Cegep Saint-Jean-sur-Richelieu activity sessions on qidigo.com; a college fitness class registration."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dated event."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Not applicable."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/C_JygQiqlKo"
+     ],
+     "note": "Local college fitness sessions; off-topic."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic: local fitness class registration via a Quebec college (Cegep) portal"
+    ],
+    "missingInformation": [],
+    "summary": "O Fitness posts a registration link to Cegep Saint-Jean-sur-Richelieu activity sessions on qidigo.com, i.e. local fitness classes in Quebec. No retreat, venue or travel signal. Off-topic; discard."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "O Fitness",
+    "country": "CA",
+    "languages": [
+     "fr"
+    ],
+    "niche": "local fitness classes",
+    "markets": [
+     "OTHER"
+    ]
+   }
+  },
+  {
+   "handle": "paddymcgurganmakeupartist",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcJMmMMNea1"
+     ],
+     "note": "Joins @yogafitretreats' retreat at Hydra Beach Hotel; the organiser chose the venue."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcJMmMMNea1"
+     ],
+     "note": "Promoter with discount code PADDY ('I'm heading to Greece with @yogafitretreats'); not the organiser."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcJMmMMNea1"
+     ],
+     "note": "Only event is 20-27 September 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Not applicable as promoter."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Make-up artist audience; no retreat audience evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence of conversions from the code."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Promoter/ambassador of another brand, not a host",
+     "The actual organiser is @yogafitretreats, which already runs Greece retreats (separate lead worth checking)"
+    ],
+    "missingInformation": [
+     "Whether @yogafitretreats is already in the candidate list"
+    ],
+    "summary": "Paddy Mc Gurgan, a make-up artist and educator, promotes a yogafit Retreats week in Greece (Hydra Beach Hotel, 20-27 September 2026) with a discount code. He is a promoter, not an organiser, so he would not book the villa. The organiser @yogafitretreats, which already sells Greece retreats, is the more relevant lead. Not a target himself."
+   },
+   "events": [
+    {
+     "title": "yogafit Retreats Greece, Hydra Beach Hotel",
+     "eventType": "wellness_retreat",
+     "startDate": "2026-09-20",
+     "endDate": "2026-09-27",
+     "nights": 7,
+     "location": "Hydra Beach Hotel",
+     "country": "GR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "promoter",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcJMmMMNea1"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Paddy Mc Gurgan",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "make-up artist and educator",
+    "markets": []
+   }
+  },
+  {
+   "handle": "padel_sopa",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Profile shows only a list of photo dates; no retreat or event content."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dated event."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Padel account; no retreat evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Very thin pack: profile page with only post dates",
+     "Padel club or brand; no retreat signal"
+    ],
+    "missingInformation": [
+     "Whether Sopa Padel runs padel camps or trips",
+     "Location and follower count"
+    ],
+    "summary": "Sopa Padel's profile excerpt lists only photo post dates (November 2025 to March 2026) with no captions, events or location. No retreat or venue-booking signal; padel trips would be in scope only if evidenced. Too thin to judge; discard unless a manual check shows padel retreats."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Sopa Padel",
+    "country": null,
+    "languages": [],
+    "niche": "padel",
+    "markets": []
+   }
+  },
+  {
+   "handle": "pennsylvania_bar_association",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No event venue in the excerpt."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dbv39YAAoBU"
+     ],
+     "note": "Professional association poster ('Promoting Professional Excellence in the Law'); no retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "The 'November 6-7, Hershey' hint is not in the excerpt and cannot be verified."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/Dbv39YAAoBU"
+     ],
+     "note": "State bar association running domestic professional programming."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Large US state professional body; domestic conferences, not offsites abroad",
+     "Winter date hint not verifiable from excerpt"
+    ],
+    "missingInformation": [],
+    "summary": "The Pennsylvania Bar Association posts professional programming for lawyers (reel of 7 August 2026, poster 'Promoting Professional Excellence in the Law'). The November 6-7 Hershey hint is not in the excerpt; even if real it is a domestic conference. Off-target for a Greek retreat villa; high risk, discard."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Pennsylvania Bar Association",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "professional association (law)",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "plumvillagefrance",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddgv-hxDLaa"
+     ],
+     "note": "Retreats are held at its own monastery ('Join us in Plum Village')."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddgv-hxDLaa"
+     ],
+     "note": "'Registration is now open' for its Christmas Holiday Retreat and New Year's Retreat."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddgv-hxDLaa"
+     ],
+     "note": "Christmas Holiday Retreat and New Year's Retreat, two weeks of practice."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No numbers."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddgv-hxDLaa"
+     ],
+     "note": "Seasonal retreat programme at its own centre."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddgv-hxDLaa"
+     ],
+     "note": "Two weeks of practice over the holidays."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddgv-hxDLaa"
+     ],
+     "note": "Monastic community hosting retreats on its own grounds."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue/monastic centre that hosts its own retreats; will not book an external villa"
+    ],
+    "missingInformation": [],
+    "summary": "Plum Village is a monastic practice centre in France opening registration for its Christmas Holiday and New Year's retreats (two weeks of practice). It runs winter retreats, but always on its own grounds, so it is a venue, not a prospective villa client. Discard."
+   },
+   "events": [
+    {
+     "title": "Christmas Holiday Retreat and New Year's Retreat (two weeks)",
+     "eventType": "personal_development_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Plum Village",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Ddgv-hxDLaa"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Plum Village",
+    "country": "FR",
+    "languages": [
+     "en"
+    ],
+    "niche": "monastic mindfulness practice centre",
+    "markets": []
+   }
+  },
+  {
+   "handle": "protimingfrance",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbU3yhLFaSp"
+     ],
+     "note": "'retraite' refers to retiring the old website ('accorder une retraite bien méritée' to the site), not a retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No event."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Not applicable."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Not applicable."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Not applicable."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Not applicable."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DbU3yhLFaSp"
+     ],
+     "note": "Race timing service; off-topic."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Not applicable."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic keyword false positive: French 'retraite' meaning retirement of a website"
+    ],
+    "missingInformation": [],
+    "summary": "ProTiming announces a new website, saying the old one is getting 'une retraite bien méritée' after 10 years. It is a race timing service, matched only on the word 'retraite'. Off-topic; discard."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "ProTiming",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "race timing service",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "radianceyogava",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcjEnBpgumc"
+     ],
+     "note": "Runs retreats in different places (Willow Grove; Puglia, Italy), so she picks venues."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcjEnBpgumc"
+     ],
+     "note": "'Registration is now open ... with just a few spaces remaining on each retreat'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcjEnBpgumc"
+     ],
+     "note": "Willow Grove retreat in December 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'a few spaces remaining' without total size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcjEnBpgumc"
+     ],
+     "note": "Two retreats on sale (December 2026, June 2027)."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Retreat lengths not stated."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcjEnBpgumc"
+     ],
+     "note": "Runs an international retreat in Puglia, Italy; Mediterranean destination experience."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcjEnBpgumc"
+     ],
+     "note": "Both retreats nearly full months ahead."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Location of Willow Grove and home market not stated"
+    ],
+    "missingInformation": [
+     "Where Willow Grove is",
+     "Group size and price",
+     "Audience home market"
+    ],
+    "summary": "Radiance Yoga has two retreats on sale with only a few spaces left on each: Willow Grove in December 2026 and Puglia, Italy in June 2027. She organises and sells her own retreats, travels to the Mediterranean and has a dated December retreat, though Willow Grove's location, prices and group sizes are not in evidence. Medium risk; good pilot candidate for a winter or spring Greece retreat."
+   },
+   "events": [
+    {
+     "title": "Willow Grove retreat",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-12",
+     "endDate": "2026-12",
+     "nights": null,
+     "location": "Willow Grove",
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcjEnBpgumc"
+     ]
+    },
+    {
+     "title": "Puglia retreat",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-06",
+     "endDate": "2027-06",
+     "nights": null,
+     "location": "Puglia",
+     "country": "IT",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DcjEnBpgumc"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "rivo_padel_lab",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Profile lists only video dates and a contact email; no events."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dated event."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Padel content account; no retreat evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Very thin pack; small padel content account (204 followers per profile excerpt)"
+    ],
+    "missingInformation": [
+     "Whether RIVO runs padel camps or trips",
+     "Location"
+    ],
+    "summary": "RIVO Padel Lab is a small padel content account (204 followers per the profile excerpt) with only post dates and a contact email visible. No retreat, camp or venue-booking signal. Discard."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "RIVO Padel Lab",
+    "country": null,
+    "languages": [],
+    "niche": "padel content",
+    "markets": []
+   }
+  },
+  {
+   "handle": "rosettathurman",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbLEKggxTpA"
+     ],
+     "note": "'Join me ... in my favorite place in the world: Honolulu'; she picks the location for her mastermind retreats."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbLEKggxTpA"
+     ],
+     "note": "'Want to mastermind with me in paradise?', 'My mastermind retreats', DM for information."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbLEKggxTpA"
+     ],
+     "note": "Only dated retreat is September 11-13, 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Described as 'intimate'; no number."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbLEKggxTpA"
+     ],
+     "note": "Business-growth workcations for entrepreneurs growing to 6 figures and beyond; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbLEKggxTpA"
+     ],
+     "note": "'My mastermind retreats are designed to be 3-day intimate workcations' implies a repeated format."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbLEKggxTpA"
+     ],
+     "note": "3-day format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbLEKggxTpA"
+     ],
+     "note": "Intimate business workcation in a beautiful location fits a private villa."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "US-based audience likely; short 3-day format may not justify long-haul travel"
+    ],
+    "missingInformation": [
+     "Group size and price",
+     "Audience geography",
+     "Whether she runs winter-season editions"
+    ],
+    "summary": "Rosetta Thurman runs 3-day intimate mastermind 'workcations' for Black women entrepreneurs growing coaching, consulting or service businesses; the next is September 11-13, 2026 in Honolulu. She is a first-person organiser who picks aspirational locations, but no winter date, price or group size is shown and the 3-day format is short for Greece. Medium risk; pilot pitch for a longer winter edition."
+   },
+   "events": [
+    {
+     "title": "Mastermind retreat in paradise (3-day workcation)",
+     "eventType": "executive_mastermind",
+     "startDate": "2026-09-11",
+     "endDate": "2026-09-13",
+     "nights": 2,
+     "location": "Honolulu, Hawaii",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbLEKggxTpA"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Rosetta Thurman",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "business mastermind retreats for women entrepreneurs",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "sigruncom",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQG-vK3CHkg"
+     ],
+     "note": "Shows 'what happens at a million dollar mastermind retreat', Day 1 with strategy, fondue and 'baroque magic', implying she curates the setting."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQG-vK3CHkg"
+     ],
+     "note": "Behind-the-scenes of her mastermind retreat; registration not shown."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Retreat date not stated; fondue is a seasonal hint only."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQG-vK3CHkg"
+     ],
+     "note": "'million dollar mastermind retreat' signals a high-ticket client base."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "One retreat shown."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQG-vK3CHkg"
+     ],
+     "note": "High-ticket business mastermind with curated cultural settings matches a luxury estate."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Location (Switzerland, Zurich) only from hints, not the excerpt"
+    ],
+    "missingInformation": [
+     "Retreat dates and location",
+     "Group size and price",
+     "How often she runs in-person mastermind retreats"
+    ],
+    "summary": "Sigrun shares Day 1 of a 'million dollar mastermind retreat' (strategy, connection, fondue and 'a little baroque magic'), with Switzerland and Zurich appearing as location hints. She appears to host high-ticket business mastermind retreats in curated settings, a strong brand fit for Villa Lithos, but no dates, group size or price are shown. Medium risk; pilot pitch for a winter mastermind retreat near Athens."
+   },
+   "events": [
+    {
+     "title": "Million dollar mastermind retreat",
+     "eventType": "executive_mastermind",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DQG-vK3CHkg"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Sigrun",
+    "country": "CH",
+    "languages": [
+     "en"
+    ],
+    "niche": "high-ticket business mastermind",
+    "markets": []
+   }
+  }
+ ]
+}

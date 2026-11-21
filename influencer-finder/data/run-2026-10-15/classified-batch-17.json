@@ -1,0 +1,1450 @@
+{
+ "batch": 17,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "franchiseassembly",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdqvvABPro5"
+     ],
+     "note": "Produces its own events (Franchise Development & Sales Assembly, Hello Mastermind Retreats), so venue choice sits with them; all location hints are US cities."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdqvvABPro5"
+     ],
+     "note": "Pack flags 'join us' and 'EARLY BIRD' selling signals; the products read as industry assemblies and mastermind retreats rather than wellness retreats."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "November 2026 and January 2027 dates appear only in the regex date hints, not in the visible excerpt, and cannot be tied to a specific event or city."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No attendance or spots figures."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing in evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdqvvABPro5"
+     ],
+     "note": "'voted for the 3rd year in a row' shows a recurring event brand."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Event length not stated in the excerpt."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdqvvABPro5"
+     ],
+     "note": "US franchise-industry assembly format in domestic cities; little overlap with a private Greek estate."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdqvvABPro5"
+     ],
+     "note": "Industry accolades three years running ('voted for the 3rd year in a row'; ranked #10)."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "US-domestic industry event producer; all location hints are US cities (Denver, Dallas, San Diego, New Orleans)",
+     "Winter dates exist only as unverified regex hints, not in the excerpt",
+     "Unclear whether 'Hello Mastermind Retreats' is their own brand or another ranked event"
+    ],
+    "missingInformation": [
+     "Which of the hinted dates belong to which event and city",
+     "Attendance per event and ticket price",
+     "Whether they ever run international mastermind retreats"
+    ],
+    "summary": "Franchise Assembly produces US franchise-industry events: the 'Franchise Development & Sales Assembly' (voted three years in a row) and, per the same reel, 'Hello Mastermind Retreats' (ranked #10). It sells its own events and picks venues, but every evidenced location is a US city and the format reads as an industry assembly rather than a residential retreat. Winter dates appear only in unverified hints. High commercial risk for a Greek villa; scouting only if they ever announce international mastermind retreats."
+   },
+   "events": [
+    {
+     "title": "Franchise Development & Sales Assembly",
+     "eventType": null,
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdqvvABPro5"
+     ]
+    },
+    {
+     "title": "Hello Mastermind Retreats",
+     "eventType": "executive_mastermind",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdqvvABPro5"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Franchise Assembly",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "franchise-industry events and mastermind retreats",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "franziskavh",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat she organises; only a lecture announcement."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc_U7dYiCb_"
+     ],
+     "note": "Evidence is a ticketed lecture ('THE POWER OF AYURVEDA mit Janesh Vaidya', Vortrag) with an Early Bird CHF 39 ticket, not a retreat; the Kerala Panchakarma programme is a sponsorship prize at a third-party venue."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc_U7dYiCb_"
+     ],
+     "note": "Only dated item is the lecture on 10 October 2026, outside the winter window."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc_U7dYiCb_"
+     ],
+     "note": "Only price shown is a CHF 39 early-bird lecture ticket."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No event history."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.2,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc_U7dYiCb_"
+     ],
+     "note": "Ayurveda and wellness theme is adjacent to retreat use, but no retreat format is shown."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales or attendance evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Single lecture post; no evidence she runs retreats",
+     "Kerala programme is a prize at Vaidya's Ayurveda Village, not her event"
+    ],
+    "missingInformation": [
+     "Whether she hosts residential Ayurveda retreats",
+     "Follower count and audience",
+     "Her role in the lecture (organiser or promoter)"
+    ],
+    "summary": "Franziska (Switzerland, St. Gallen per location hints) posts about a lecture 'THE POWER OF AYURVEDA' with Janesh Vaidya on 10 October 2026, early bird CHF 39, where one participant wins a two-week Panchakarma programme in Kerala. That is a local talk, not a retreat she sells, and her role is unclear. No venue-booking intent can be inferred; risk unknown. Not a target on current evidence."
+   },
+   "events": [
+    {
+     "title": "THE POWER OF AYURVEDA with Janesh Vaidya (lecture)",
+     "eventType": "workshop",
+     "startDate": "2026-10-10",
+     "endDate": "2026-10-10",
+     "nights": null,
+     "location": "St. Gallen",
+     "country": "CH",
+     "groupSize": null,
+     "pricePerPerson": 39,
+     "currency": "CHF",
+     "soldOut": null,
+     "role": "unknown",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dc_U7dYiCb_"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": "CH",
+    "languages": [
+     "de"
+    ],
+    "niche": "Ayurveda and wellness",
+    "markets": [
+     "CH"
+    ]
+   }
+  },
+  {
+   "handle": "ghoshyoga",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Format of the trainings (online or residential) is not stated."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbeQESNwV3"
+     ],
+     "note": "Evidence is a 300H Yoga Teacher Training (March to November 2027) and congratulations to 'our 2026 Online Teacher Training'; no retreat with registration or price."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "The 300H training runs March to November 2027 as a long programme of unknown format; that is not evidence of a winter retreat."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No cohort size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbeQESNwV3"
+     ],
+     "note": "Runs teacher trainings in successive years (2026 online cohort, 2027 300H)."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Training length is months, but residential component unknown."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No aesthetic or audience evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbeQESNwV3"
+     ],
+     "note": "Completed 2026 online teacher training cohort ('Massive congratulations to our 2026 Online Teacher Training')."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Teacher-training school, at least partly online; no retreat evidence",
+     "Location hint 'Israel' is not supported by the excerpt"
+    ],
+    "missingInformation": [
+     "Whether any 2027 module is residential and where",
+     "Home market (the Israel hint is unverified)",
+     "Cohort size and price"
+    ],
+    "summary": "Ghosh Yoga runs yoga teacher trainings: a 2026 online cohort and a 300H training from March to November 2027. Nothing shows a residential retreat, a venue choice or a price, so it is classified as a training school rather than a retreat organiser. The Israel location hint is not visible in the excerpt. Risk unknown; only worth a check if a residential module is announced."
+   },
+   "events": [
+    {
+     "title": "300H Yoga Teacher Training 2027 (March to November 2027)",
+     "eventType": "teacher_training",
+     "startDate": "2027-03",
+     "endDate": "2027-11",
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DcbeQESNwV3"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga teacher training",
+    "markets": []
+   }
+  },
+  {
+   "handle": "goddessretreats",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeLqlxKEzR4"
+     ],
+     "note": "Language reads as a Bali retreat operator or venue selling its own programmes ('Lock in 2026 rates for your 2027 retreat when you reserve early, plus receive a complimentary room')."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeLqlxKEzR4"
+     ],
+     "note": "Sells curated women's retreat programmes for 2027 via DM; but as an operator, likely at its own Bali base (#baliretreat)."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dates given for the 2027 programmes."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No prices shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeLqlxKEzR4"
+     ],
+     "note": "'a fresh chapter of retreat programs' for 2027 implies an ongoing programme calendar."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Programme lengths not stated."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeLqlxKEzR4"
+     ],
+     "note": "Women's reconnect-and-reset retreats match the villa's use case thematically."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Appears to be a Bali (Ubud) retreat operator or venue, not a travelling host that books third-party venues",
+     "'complimentary room' and 'lock in rates' is venue-sales language"
+    ],
+    "missingInformation": [
+     "Whether they run retreats outside Bali",
+     "Programme dates, length and pricing",
+     "Whether they own or rent their Bali property"
+    ],
+    "summary": "Goddess Retreats markets 2027 women's retreat programmes with early-booking rate locks and a complimentary room, tagged #baliretreat with an Ubud hint. The wording reads like a Bali retreat operator or venue selling its own packages, so it is a competitor-type account rather than an organiser who would book Villa Lithos. No dates, prices or group sizes. Medium risk; scouting only if they show multi-destination retreats."
+   },
+   "events": [
+    {
+     "title": "2027 women's retreat programmes (dates not stated)",
+     "eventType": "womens_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Bali (hashtag; Ubud hint)",
+     "country": "ID",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeLqlxKEzR4"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": "ID",
+    "languages": [
+     "en"
+    ],
+    "niche": "women's retreats, Bali",
+    "markets": []
+   }
+  },
+  {
+   "handle": "indiv_yoga",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT0mYEgDYsf?__d=1%2F%2F"
+     ],
+     "note": "Runs a residential 200hr training in France 'including all meals, accommodation', so they source the venue."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT0mYEgDYsf?__d=1%2F%2F"
+     ],
+     "note": "'Link in bio to secure your spot', 'From €2220 pp', 'Our 200hr Teacher Training course in France'."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT0mYEgDYsf?__d=1%2F%2F"
+     ],
+     "note": "Dated sessions: 22 Aug to 5 Sep 2026 (France) and a Paris session 29 October to 1 November 2026, which only touches 1 November and is a city training, not a winter retreat."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No cohort size."
+    },
+    "audiencePaysPremium": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT0mYEgDYsf?__d=1%2F%2F"
+     ],
+     "note": "From €2220 pp for a 200hr residential course including meals and accommodation is mid-market, not luxury."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT0mYEgDYsf?__d=1%2F%2F"
+     ],
+     "note": "'Notre prochaine session' implies repeated sessions."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT0mYEgDYsf?__d=1%2F%2F"
+     ],
+     "note": "Residential training 22 Aug to 5 Sep 2026 is a two-week stay format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT0mYEgDYsf?__d=1%2F%2F"
+     ],
+     "note": "Therapeutic yoga teacher training suits a quiet estate; price point is moderate."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sell-out or attendance evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Price point (from €2220 pp all-in for two weeks) may not support luxury villa rates",
+     "No winter residential dates in evidence"
+    ],
+    "missingInformation": [
+     "Cohort size",
+     "Whether they would run a winter residential training abroad",
+     "Follower count and home market (France or international)"
+    ],
+    "summary": "INDIV Yoga runs a Yoga Alliance 200hr teacher training in France with a therapeutic focus (led by Aurelie Poles), selling spots at from €2220 pp including meals and accommodation, with sessions 22 Aug to 5 Sep 2026 and in Paris 29 October to 1 November 2026. They organise residential programmes and pick venues, and the two-week format suits long stays. No winter residential session is evidenced and the price is mid-market. Medium risk; a pilot winter training in Greece is a plausible pitch if cohort size reaches 10 or more."
+   },
+   "events": [
+    {
+     "title": "200hr Teacher Training course in France (residential, meals and accommodation included)",
+     "eventType": "teacher_training",
+     "startDate": "2026-08-22",
+     "endDate": "2026-09-05",
+     "nights": 14,
+     "location": "France",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": 2220,
+     "currency": "EUR",
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT0mYEgDYsf?__d=1%2F%2F"
+     ]
+    },
+    {
+     "title": "Teacher training session in Paris",
+     "eventType": "teacher_training",
+     "startDate": "2026-10-29",
+     "endDate": "2026-11-01",
+     "nights": null,
+     "location": "Paris",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DT0mYEgDYsf?__d=1%2F%2F"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": "FR",
+    "languages": [
+     "en",
+     "fr"
+    ],
+    "niche": "therapeutic yoga teacher training",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "insideoutwithcourtnaye",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No venue mentioned; the programme appears to be online."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTBJJcjjm1e"
+     ],
+     "note": "Sells a 'Ministry & Marketplace Mastermind' programme via link in bio; no retreat or venue."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTBJJcjjm1e"
+     ],
+     "note": "Programme starts 'Monday, January 5th' (year not stated), but it is not a venue-based retreat."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No cohort size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only one programme shown."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unknown."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Faith-and-business mastermind; no retreat aesthetic shown."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Programme appears virtual; no in-person retreat"
+    ],
+    "missingInformation": [
+     "Whether the mastermind includes an in-person retreat",
+     "Price and cohort size",
+     "Home market"
+    ],
+    "summary": "Courtnaye Richard runs a 'Ministry & Marketplace Mastermind' for kingdom, ministry and business builders, starting Monday, January 5th (year not stated), sold via link in bio. Nothing indicates an in-person retreat or venue choice; it reads as an online programme. Not a villa prospect on this evidence; risk unknown."
+   },
+   "events": [
+    {
+     "title": "Ministry & Marketplace Mastermind (starts Monday, January 5th; year not stated; format likely virtual)",
+     "eventType": "executive_mastermind",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTBJJcjjm1e"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Courtnaye Richard",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "faith and business mastermind coaching",
+    "markets": []
+   }
+  },
+  {
+   "handle": "jamieberman_",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRVpciukoMf"
+     ],
+     "note": "Her mastermind includes a '4-day Maui retreat in June' that she runs, so she picks the venue."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRVpciukoMf"
+     ],
+     "note": "'The Becoming a Millionaire Mastermind is NOW OPEN', applications open, retreat included."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRVpciukoMf"
+     ],
+     "note": "Programme runs January to June 2026 with weekly online calls; the in-person retreat is in June."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No cohort size."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRVpciukoMf"
+     ],
+     "note": "Positioned for women entrepreneurs scaling income and building wealth; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only one cohort in evidence."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRVpciukoMf"
+     ],
+     "note": "4-day retreat format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRVpciukoMf"
+     ],
+     "note": "'Strategy meets soul' wealth mastermind with an island retreat aligns with a private estate offsite."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales or sell-out evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "'$100K' price hint in the pack is not in the excerpt and may be an income goal, not a price",
+     "Audience likely US-based"
+    ],
+    "missingInformation": [
+     "Cohort size and programme price",
+     "Audience geography",
+     "Whether a future cohort retreat could move to Nov-Apr"
+    ],
+    "summary": "Jamie Berman sells the 'Becoming a Millionaire Mastermind' for women entrepreneurs (January to June 2026): weekly live calls, hot-seat coaching, a private community and a 4-day Maui retreat in June. She organises a premium-positioned mastermind retreat and chooses the venue, but the retreat sits in June and the audience is likely US-based. Medium risk; a winter mastermind retreat in Greece is a plausible pilot pitch if her cohort includes European participants."
+   },
+   "events": [
+    {
+     "title": "Becoming a Millionaire Mastermind: 4-day Maui retreat",
+     "eventType": "executive_mastermind",
+     "startDate": "2026-06",
+     "endDate": "2026-06",
+     "nights": null,
+     "location": "Maui",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRVpciukoMf"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Jamie Berman",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "women's wealth and business mastermind",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "jessica_chandrayoga",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdmZ4saxz6y"
+     ],
+     "note": "Retreat placed at Golden Hill Retreat Center, Coldspring, Texas; the post presents it as her retreat."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdmZ4saxz6y"
+     ],
+     "note": "Full event announcement ('End of the Year Surrender & Reset Women's Retreat') on her account; no explicit 'my retreat' or price, so moderate confidence."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdmZ4saxz6y"
+     ],
+     "note": "Dated women's retreat December 4 - 6, 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No spots or group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only one retreat in evidence."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdmZ4saxz6y"
+     ],
+     "note": "Weekend format (two nights)."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdmZ4saxz6y"
+     ],
+     "note": "Women's restorative retreat theme fits; current venue is a domestic retreat centre."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sell-out evidence."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "US-domestic weekend retreat at a retreat centre; long-haul to Greece is a big step",
+     "Role inferred, not explicit"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Whether she runs international retreats",
+     "Follower count and audience geography"
+    ],
+    "summary": "Jessica (Chandra Yoga) posts an 'End of the Year Surrender & Reset' women's retreat, December 4 - 6, 2026, at Golden Hill Retreat Center in Coldspring, Texas. That is a dated winter-window retreat she appears to host, though the role is inferred and no price or group size is shown. The format is a domestic weekend, so a Greek villa would be a large step up. Medium risk; pilot pitch only after confirming she travels with groups."
+   },
+   "events": [
+    {
+     "title": "End of the Year Surrender & Reset Women's Retreat",
+     "eventType": "womens_retreat",
+     "startDate": "2026-12-04",
+     "endDate": "2026-12-06",
+     "nights": 2,
+     "location": "Golden Hill Retreat Center, Coldspring, Texas",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdmZ4saxz6y"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga and women's retreats",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "joinbonde",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdnYBGub2k"
+     ],
+     "note": "'Locations and tickets available August 14th': they choose and announce locations for each retreat."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdnYBGub2k"
+     ],
+     "note": "'our 2027 retreat calendar', tickets released by them."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdnYBGub2k"
+     ],
+     "note": "Organised retreat dated January 31st to February 3rd on 'our 2027 retreat calendar'."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdnYBGub2k"
+     ],
+     "note": "Multiple dated retreats on a 2027 'retreat calendar'."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdnYBGub2k"
+     ],
+     "note": "Both dated retreats are three-night formats."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No aesthetic or audience evidence beyond comments."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence; tickets not yet released at the time of the post."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "No location, home market or audience evidence"
+    ],
+    "missingInformation": [
+     "Locations chosen for the 2027 retreats (announced August 14th)",
+     "Price, group size and audience geography",
+     "Theme of the retreats"
+    ],
+    "summary": "Bonde announces 'the first two dates on our 2027 retreat calendar': January 31st to February 3rd and June 13th to 16th, with locations and tickets released August 14th. It is a retreat brand that picks locations per event and has a dated winter retreat, which is exactly the booking pattern Villa Lithos wants. No theme, price, group size or home market in evidence. Medium risk; strong first-contact candidate to learn whether the January 2027 venue is still open or a future winter date could be Greece."
+   },
+   "events": [
+    {
+     "title": "Bonde 2027 retreat (January 31st to February 3rd)",
+     "eventType": null,
+     "startDate": "2027-01-31",
+     "endDate": "2027-02-03",
+     "nights": 3,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdnYBGub2k"
+     ]
+    },
+    {
+     "title": "Bonde 2027 retreat (June 13th to 16th)",
+     "eventType": null,
+     "startDate": "2027-06-13",
+     "endDate": "2027-06-16",
+     "nights": 3,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbdnYBGub2k"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "retreat brand (theme not stated)",
+    "markets": []
+   }
+  },
+  {
+   "handle": "joinmeretreats",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdgBkEkCCiA"
+     ],
+     "note": "Runs destination fitness retreats ('Join us on the beautiful island of Fuerteventura')."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdgBkEkCCiA"
+     ],
+     "note": "'Fuerteventura 2027, Just 7 spots left, Join us, Link in bio'."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Fuerteventura 2027 retreat has no dates in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'Just 7 spots left' without a total group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdgBkEkCCiA"
+     ],
+     "note": "Year-labelled retreat (Fuerteventura 2027) and recent reels (October 12, 2026) suggest an ongoing calendar."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Retreat length unknown."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdgBkEkCCiA"
+     ],
+     "note": "Active fitness and solo-holiday retreats can use a villa base; budget positioning unknown."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sell-out evidence yet."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Solo/active-holiday positioning may be budget-oriented"
+    ],
+    "missingInformation": [
+     "Dates of the Fuerteventura 2027 retreat",
+     "Price and total group size",
+     "Home market of the audience"
+    ],
+    "summary": "Me Retreats sells fitness and active-holiday retreats, currently 'Fuerteventura 2027' with 'Just 7 spots left' (hashtags #fitnessretreatspain #soloholiday). They choose the destination and sell spots directly, so they are a genuine organiser, but no dates, price or total group size are given. Medium risk; a pilot pitch for a winter Greece edition makes sense once dates and pricing are confirmed."
+   },
+   "events": [
+    {
+     "title": "Fuerteventura 2027 retreat",
+     "eventType": "fitness_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Fuerteventura",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DdgBkEkCCiA"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Me Retreats",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "fitness and active-holiday retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "kimihajian",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZjNEUIRFN"
+     ],
+     "note": "Runs 'my 2027 yoga retreats and trainings' in Croatia, Portugal, Prague and Sri Lanka; destination choice is hers."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZjNEUIRFN"
+     ],
+     "note": "'Waitlists for my 2027 yoga retreats and trainings are now open', early bird code."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZjNEUIRFN"
+     ],
+     "note": "Dated 2027 events are May (Croatia) and July (Portugal); the Sri Lanka training dates are TBC."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZjNEUIRFN"
+     ],
+     "note": "'Soul & Sea Vol. 2' shows a repeat retreat; multiple programmes per year."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZjNEUIRFN"
+     ],
+     "note": "200H Hatha Vinyasa Training (hybrid, residential parts in Prague and Sri Lanka) implies multi-week stays."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZjNEUIRFN"
+     ],
+     "note": "Sea-side yoga retreats in Mediterranean destinations match a Greek coastal villa."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZjNEUIRFN"
+     ],
+     "note": "Second edition of Soul & Sea implies the first ran; no sell-out data."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "No winter-window dates",
+     "Price and group size unknown"
+    ],
+    "missingInformation": [
+     "Dates of the 200H training in Sri Lanka",
+     "Group size and price",
+     "Home market (Prague hint)"
+    ],
+    "summary": "Kimi Hajian runs her own 2027 yoga calendar: Soul & Sea Vol. 2 retreat in Croatia (21-27 May 2027), 50H Chakra Studies in Portugal (1-6 July 2027) and a 200H Hatha Vinyasa training (hybrid online, Prague and Sri Lanka, dates TBC), with waitlists and early bird codes. She chooses Mediterranean destinations and repeats formats, which makes a Greek edition natural, but nothing is dated in the November-April window. Medium risk; pilot pitch for a winter or shoulder-season retreat or training module."
+   },
+   "events": [
+    {
+     "title": "Soul & Sea Vol. 2 Croatia retreat",
+     "eventType": "yoga_retreat",
+     "startDate": "2027-05-21",
+     "endDate": "2027-05-27",
+     "nights": 6,
+     "location": "Croatia",
+     "country": "HR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZjNEUIRFN"
+     ]
+    },
+    {
+     "title": "50H Chakra Studies",
+     "eventType": "teacher_training",
+     "startDate": "2027-07-01",
+     "endDate": "2027-07-06",
+     "nights": 5,
+     "location": "Portugal",
+     "country": "PT",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZjNEUIRFN"
+     ]
+    },
+    {
+     "title": "200H Hatha Vinyasa Training (hybrid online, Prague and Sri Lanka, 2027, dates TBC)",
+     "eventType": "teacher_training",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Prague and Sri Lanka",
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DeZjNEUIRFN"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga retreats and teacher trainings",
+    "markets": []
+   }
+  },
+  {
+   "handle": "klaras.table",
+   "classification": {
+    "group": "B_reaches_organizers",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVJcOcUiAxW"
+     ],
+     "note": "She joins retreats hosted with @sinekloster and @danniutrera as the cook; venue choice likely sits with the lead hosts."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVJcOcUiAxW"
+     ],
+     "note": "Co-host language ('Together with @sinekloster and @danniutrera, we invite you') and link in bio; she is the chef, not the lead organiser."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVJcOcUiAxW"
+     ],
+     "note": "Co-hosts Gran Soul Escape, Gran Canaria, March 22-27 (year not stated in the excerpt)."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Only 'a few spots left' hint; no group size."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No price."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVJcOcUiAxW"
+     ],
+     "note": "'This spring I'm joining a few beautiful retreats' shows repeated retreat work."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVJcOcUiAxW"
+     ],
+     "note": "Five-night retreat format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVJcOcUiAxW"
+     ],
+     "note": "Local-ingredient retreat cooking complements a private villa offer."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "low",
+    "recommendedTrack": "referral_partnership",
+    "redFlags": [
+     "Chef/collaborator, not the lead organiser",
+     "Year of the March retreat not stated"
+    ],
+    "missingInformation": [
+     "Year and venue of Gran Soul Escape",
+     "Which retreat hosts she works with regularly",
+     "Her home market"
+    ],
+    "summary": "Klara's Table is a retreat chef who joins several retreats a season; the first is Gran Soul Escape in the south of Gran Canaria, March 22-27, co-hosted with @sinekloster and @danniutrera, where she cooks and runs small workshops. She is not the lead organiser, but she works with multiple retreat hosts in the winter season, making her a referral channel (and a possible chef partner for villa retreats). Low risk; referral partnership."
+   },
+   "events": [
+    {
+     "title": "Gran Soul Escape (yoga and pilates retreat, south of Gran Canaria, March 22-27, year not stated)",
+     "eventType": "yoga_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "South of Gran Canaria",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DVJcOcUiAxW"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "retreat chef",
+    "markets": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "spec": {
+  "id": "ce0ea1c0",
+  "query": "\"formation professeur de yoga\" \"inscriptions ouvertes\" 2026 OR 2027",
+  "language": "fr",
+  "eventType": "teacher_training",
+  "lane": "organizer_intent",
+  "includeDomains": [
+   "instagram.com"
+  ],
+  "searchDepth": "basic",
+  "priority": 2
+ },
+ "results": [
+  {
+   "url": "https://www.instagram.com/p/DcT9Xxajq1S",
+   "title": "Les inscriptions pour le Mana Yoga Training 2026 / 2027 sont ...",
+   "content": "Alors rejoins-nous le 29 août 2026 ou en janvier 2027 pour la formation de professeur de yoga. À Vertou (44), près de Nantes, sur 11 week-ends. Formation",
+   "score": 0.9191869
+  },
+  {
+   "url": "https://www.instagram.com/p/DUBsuxiCNVf",
+   "title": "🙏🏼 FORMATION PROFESSEUR DE YOGA 2026~2027 Les ...",
+   "content": "FORMATION PROFESSEUR DE YOGA 2026~2027 Les inscriptions sont ouvertes!!! · La pratique régulière du yoga permet non seulement au corps de se transformer au",
+   "score": 0.9152729
+  },
+  {
+   "url": "https://www.instagram.com/reel/DWej-L7jsAv",
+   "title": "Ce n'est pas juste une formation professorale de yoga. C' ...",
+   "content": "✨ Inscriptions ouvertes pour la cohorte 2026-2027 qui débute dès septembre à Magog. ... Sortie de la promotion 2026 de ma formation de professeur",
+   "score": 0.8886914
+  },
+  {
+   "url": "https://www.instagram.com/reel/DZp04RzxPka",
+   "title": "Nous avons terminé le dernier module de la formation de ...",
+   "content": "DEVENEZ PROFESSEUR DE YOGA – FORMATION 200H Hatha Yoga ... Inscriptions ouvertes pour la promotion 2026-2027. Toutes les",
+   "score": 0.8872928
+  },
+  {
+   "url": "https://www.instagram.com/p/Dd8gY7tCMPo",
+   "title": "Et si tu devenais professeur.e de yoga en 2027? Cette ...",
+   "content": "C'est officiel: notre 6e Formation Professorale de Yoga – 200 heures est de retour, et les inscriptions sont maintenant ouvertes. Profitez d",
+   "score": 0.86108357
+  },
+  {
+   "url": "https://www.instagram.com/p/Da21MWnjQJR",
+   "title": "Formation de professeur·e de yoga 200h Que vous soyez ...",
+   "content": "Deviens professeur·e de Vinyasa Yoga ✨ (Formation 200h – Édition 2027) ... Les inscriptions sont ouvertes. Studio Spirale — Marseille",
+   "score": 0.8315952
+  },
+  {
+   "url": "https://www.instagram.com/p/Dd0puRrCH4d",
+   "title": "LES FORMATIONS AYA - 5–9 mai YIN YOGA — 50H",
+   "content": "2026 / 2027 · Module de formation, 20 heures, inscription possible à l'unité. · La formation 50h de yin est faite pour les",
+   "score": 0.7982658
+  },
+  {
+   "url": "https://www.instagram.com/p/DePlqjRCM7z",
+   "title": "ET SI CET ÉTÉ, VOUS DEVENIEZ PROFESSEUR ...",
+   "content": "Prochaines sessions : 2026 : du 3 au 7 octobre et du 21 au 24 novembre 2027 : du 27 au 31 mars et du 6 au 9 mai Si tu souhaites",
+   "score": 0.5735118
+  }
+ ],
+ "fetchedAt": "2026-10-15T18:41:13Z"
+}

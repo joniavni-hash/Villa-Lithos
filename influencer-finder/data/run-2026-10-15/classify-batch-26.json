@@ -1,0 +1,411 @@
+{
+ "batch": 26,
+ "candidates": [
+  {
+   "handle": "purple_yoga",
+   "profileUrl": "https://www.instagram.com/purple_yoga/",
+   "displayName": "Purple Yoga",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "email:membership@purpleyoga.org for more info"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DdVNKwxtlqB",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "Missed our current Fall Yoga Teacher Training? 💜 Purple Yoga Teacher Training Winter - Spring 2027 February 6th, 2027 - May 9th, 2027 Orientation/Opening Weekend: Saturday February 6th, 2027 Graduation: Sunday May 9th, 2027 email:membership@purpleyoga.org for more info"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Purple Yoga Teacher Training Winter - Spring 2027",
+     "dates": "February 6th, 2027 - May 9th, 2027",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Purple Yoga Teacher Training Winter - Spring 2027 February 6th, 2027 - May 9th, 2027",
+     "url": "https://www.instagram.com/reel/DdVNKwxtlqB"
+    }
+   ]
+  },
+  {
+   "handle": "reso.meditation",
+   "profileUrl": "https://www.instagram.com/reso.meditation/",
+   "displayName": "Reso",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Le Poizat-Lalleyriat"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DVth1L4DLLM",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "C’était comment la retraite d’hiver cette année ?"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "retraite d’hiver",
+     "dates": null,
+     "location": "Le Poizat-Lalleyriat",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "C’était comment la retraite d’hiver cette année ?",
+     "url": "https://www.instagram.com/p/DVth1L4DLLM"
+    }
+   ]
+  },
+  {
+   "handle": "saleemuddin797",
+   "profileUrl": "https://www.instagram.com/saleemuddin797/",
+   "displayName": "Saleem Uddin",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DU2HUSegJJ6",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Al Jazeera's Ramadan Calendar Up to 2057 Ramadan Year and Start Date 2026 - February 18 2027 - February 8"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "shahartangy",
+   "profileUrl": "https://www.instagram.com/shahartangy/",
+   "displayName": "שחר טנג׳י | תניא לחיים",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "ההרשמה נפתחה!!!!!!",
+    "מספר החדרים מוגבל!",
+    "הבטיחו את מקומכם !!"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Degr8rasdCI",
+     "kind": "post",
+     "title": "ריטריט ״באתי לגני 5״ יוצא לדרך!!!✈️ ההרשמה נפתחה!!!!!! הריטריט ...",
+     "excerpt": "ריטריט ״באתי לגני 5״ יוצא לדרך!!!✈️ ההרשמה נפתחה!!!!!! הריטריט הינו לחברי האקדמיה בלבד ! לא לומדים אצלנו באקדמיה? כתבו לנו בתגובות ונחזור אליכם על בסיס מקום פנוי בלבד👇🏼 מספר החדרים מוגבל! הבטיחו את מקומכם !! | search snippet: 12-15 בנובמבר 2026 לפרטים והרשמה שלחי לנו הודעה"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "ריטריט ״באתי לגני 5״",
+     "dates": "12-15 בנובמבר 2026",
+     "location": null,
+     "price": null,
+     "spots": "מספר החדרים מוגבל!",
+     "role": "organizer",
+     "excerpt": "ריטריט ״באתי לגני 5״ יוצא לדרך!!!✈️ ההרשמה נפתחה!!!!!! הריטריט הינו לחברי האקדמיה בלבד !",
+     "url": "https://www.instagram.com/p/Degr8rasdCI"
+    }
+   ]
+  },
+  {
+   "handle": "sigridbrelid",
+   "profileUrl": "https://www.instagram.com/sigridbrelid/",
+   "displayName": "Sigrid Brelid ~",
+   "bio": null,
+   "followers": null,
+   "website": "portal-to-grace.com",
+   "locationHints": [
+    "Sweden",
+    "Björnbacka"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Read more & apply"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTkDZVNitx6",
+     "kind": "post",
+     "title": "The Initiation Retreat - Sweden 5 days in the ...",
+     "excerpt": "Join us for the final ORIN Women's Mastermind & Retreat. July 2026 to January 2027 Retreat at September 2026 | extract: The Initiation Retreat - Sweden 5 days in the field, for those longing to deepen their practice and reconnect with their true self. ... Read more & apply: portal-to-grace.com Sweden · 28 April – 3 May Link in bio"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "The Initiation Retreat - Sweden",
+     "dates": "28 April – 3 May",
+     "location": "Sweden (Björnbacka)",
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "The Initiation Retreat - Sweden 5 days in the field ... Sweden · 28 April – 3 May",
+     "url": "https://www.instagram.com/p/DTkDZVNitx6"
+    },
+    {
+     "title": "ORIN Women's Mastermind & Retreat",
+     "dates": "July 2026 to January 2027 Retreat at September 2026",
+     "location": null,
+     "price": null,
+     "spots": null,
+     "role": "organizer",
+     "excerpt": "Join us for the final ORIN Women's Mastermind & Retreat. July 2026 to January 2027 Retreat at September 2026",
+     "url": "https://www.instagram.com/p/DTkDZVNitx6"
+    }
+   ]
+  },
+  {
+   "handle": "sonastudio_",
+   "profileUrl": "https://www.instagram.com/sonastudio_/",
+   "displayName": "Sona Studio Pilates Lindfield",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Lindfield",
+    "Stockholm Archipelago, Sweden"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "FULLY BOOKED"
+   ],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DYCpSi9CCQB",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Sweden Retreat 2026 - FULLY BOOKED This year’s Sweden Retreat is now fully booked, with ten lovely ladies set to escape to Stockholm’s spectacular Archipelago for four days of pure relaxation. Think alfresco fitness, wilderness walks, sea swims, saunas, delicious local delicacies"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Sweden Retreat 2026",
+     "dates": "2026",
+     "location": "Stockholm Archipelago, Sweden",
+     "price": null,
+     "spots": "FULLY BOOKED",
+     "role": "organizer",
+     "excerpt": "Sweden Retreat 2026 - FULLY BOOKED ... ten lovely ladies",
+     "url": "https://www.instagram.com/p/DYCpSi9CCQB"
+    }
+   ]
+  },
+  {
+   "handle": "sostlaurent",
+   "profileUrl": "https://www.instagram.com/sostlaurent/",
+   "displayName": "Sophie ~ Yoga teacher & facialiste",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Sesimbra, Portugal"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Il reste encore de la place pour notre prochaine retraite"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DdmT5YmFlTX",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Quelques bonnes raisons d’embarquer avec nous dans notre prochaine aventure 😍 ... Il reste encore de la place pour notre prochaine retraite au Portugal du 9 au 17 avril 2027. ✨ Et si toi aussi tu vivais cette aventure en 2027. #yogaretreat #retraitedeyoga | poster text: RETRAITE DE YOGA CO-CRÉATION SOPHIE & CHARLINE ... 9 AU 17 AVRIL 2027 SESIMBRA, PORTUGAL"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Retraite de yoga co-création Sophie & Charline",
+     "dates": "du 9 au 17 avril 2027",
+     "location": "Sesimbra, Portugal",
+     "price": null,
+     "spots": "Il reste encore de la place",
+     "role": "co_host",
+     "excerpt": "Il reste encore de la place pour notre prochaine retraite au Portugal du 9 au 17 avril 2027.",
+     "url": "https://www.instagram.com/p/DdmT5YmFlTX"
+    }
+   ]
+  },
+  {
+   "handle": "suitedreamsgrancanaria",
+   "profileUrl": "https://www.instagram.com/suitedreamsgrancanaria/",
+   "displayName": "Suite Dreams Gran Canaria",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Gran Canaria"
+   ],
+   "accountType": "venue",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/suitedreamsgrancanaria",
+     "kind": "profile",
+     "title": "Suite Dreams Gran Canaria (@suitedreamsgrancanaria) • Instagram photos and videos",
+     "excerpt": "Suite Dreams Gran Canaria (@suitedreamsgrancanaria) • Instagram photos and videos ## suitedreamsgrancanaria. Photo by Suite Dreams Gran Canaria on January 15, 2026."
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "taichifuerteventura",
+   "profileUrl": "https://www.instagram.com/taichifuerteventura/",
+   "displayName": "Tai Chi Fuerteventura",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Fuerteventura, Canary Island, Spain"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [],
+   "winterMonthMentioned": false,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/Deg6b4MI4fX",
+     "kind": "post",
+     "title": "Instagram",
+     "excerpt": "Video by Tai Chi Fuerteventura on September 13, 2026. (guest thank-you text) ... Photo by Tai Chi Fuerteventura on October 15, 2026. May be an image of sliding door, cabana and text. Fuerteventura, Canary Island, Spain"
+    }
+   ],
+   "eventsMentioned": []
+  },
+  {
+   "handle": "thepadelbeast",
+   "profileUrl": "https://www.instagram.com/thepadelbeast/",
+   "displayName": "Padel Beast",
+   "bio": null,
+   "followers": null,
+   "website": null,
+   "locationHints": [
+    "Abu Dhabi, United Arab Emirates",
+    "V House Bali"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "Register now through the link in our bio",
+    "ONLY 8 SLOTS AVAILABLE",
+    "DM now to secure your spot."
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/p/DTA38O0EtnJ",
+     "kind": "post",
+     "title": "at the same villa chosen by the Kardashians & Tyga. This is ...",
+     "excerpt": "7 days of elite padel, 60 days during January & February 2027. Register now through the link in our bio. | extract: PADEL. PARADISE. LUXURY . 🌴🎾 Padel Beast ✕ V House Bali presents THE MOST AWAITED LUXURY PADEL RETREAT 7 days of elite padel, recovery, luxury living & pure island energy. Hosted at V House Bali ... ⚠️ ONLY 8 SLOTS AVAILABLE No extra slots. No extensions DM now to secure your spot."
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Padel Beast ✕ V House Bali Luxury Padel Retreat",
+     "dates": "January & February 2027",
+     "location": "V House Bali",
+     "price": null,
+     "spots": "ONLY 8 SLOTS AVAILABLE",
+     "role": "organizer",
+     "excerpt": "7 days of elite padel, 60 days during January & February 2027. Register now through the link in our bio.",
+     "url": "https://www.instagram.com/p/DTA38O0EtnJ"
+    }
+   ]
+  },
+  {
+   "handle": "tootsieolan",
+   "profileUrl": "https://www.instagram.com/tootsieolan/",
+   "displayName": "Tootsie Olan",
+   "bio": null,
+   "followers": null,
+   "website": "www.tootsieolan.com/retreats",
+   "locationHints": [
+    "Belize"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "LAST 5 ROOMS",
+    "once we sell out, that’s it",
+    "All details in link bio"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/Dc4Wy2MP3vI",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "LAST 5 ROOMS FOR BELIZE RETREAT! MLK weekend : January 16-20 2027 For this retreat, once we sell out, that’s it. No wiggle room for this retreat. I got all the inventory. ... All details in link bio + always at www.tootsieolan.com/retreats"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "Belize Retreat",
+     "dates": "January 16-20 2027",
+     "location": "Belize",
+     "price": null,
+     "spots": "LAST 5 ROOMS",
+     "role": "organizer",
+     "excerpt": "LAST 5 ROOMS FOR BELIZE RETREAT! MLK weekend : January 16-20 2027",
+     "url": "https://www.instagram.com/reel/Dc4Wy2MP3vI"
+    }
+   ]
+  },
+  {
+   "handle": "tulayoga",
+   "profileUrl": "https://www.instagram.com/tulayoga/",
+   "displayName": "Tula Yoga | Aberdeen, NJ",
+   "bio": null,
+   "followers": null,
+   "website": "tulayoganj.com",
+   "locationHints": [
+    "Aberdeen, NJ",
+    "Mar de Jade, coastal Mexico"
+   ],
+   "accountType": "person_or_brand",
+   "organizerSignals": [
+    "LAST CALL FOR MEXICO",
+    "We have just two spots left"
+   ],
+   "winterMonthMentioned": true,
+   "evidence": [
+    {
+     "url": "https://www.instagram.com/reel/DeCHdKDAaSB",
+     "kind": "reel",
+     "title": "Instagram",
+     "excerpt": "🌴 LAST CALL FOR MEXICO 🌴 ... Join Jennifer Cavalieri & Leah Kleiner for a New Year Reset Retreat at Mar de Jade in coastal Mexico, January 3-9, 2027. Seven days of yoga, meditation, reflection, nourishing food, ocean time ... We have just two spots left - visit tulayoganj.com to register!"
+    }
+   ],
+   "eventsMentioned": [
+    {
+     "title": "New Year Reset Retreat",
+     "dates": "January 3-9, 2027",
+     "location": "Mar de Jade, coastal Mexico",
+     "price": null,
+     "spots": "just two spots left",
+     "role": "organizer",
+     "excerpt": "New Year Reset Retreat at Mar de Jade in coastal Mexico, January 3-9, 2027.",
+     "url": "https://www.instagram.com/reel/DeCHdKDAaSB"
+    }
+   ]
+  }
+ ]
+}

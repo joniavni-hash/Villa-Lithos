@@ -1,0 +1,80 @@
+{
+ "note": "Condensed record: author pattern, handle and key verbatim excerpts copied from the Tavily extract response (full page text not persisted).",
+ "results": [
+  {
+   "url": "https://www.instagram.com/franchiseba/reel/DayD1QHjrlI?hl=de",
+   "authorPattern": "Weitere Beiträge von franchiseba (German-locale 'More posts from')",
+   "handle": "franchiseba",
+   "displayName": "Franchise Brokers Association",
+   "excerpt": "Sponsor spots are limited. Once they are gone, they are gone. Check the FBCE 2026 sponsorship options and secure your place on the conference floor. #FranchiseEvents #FBCE2026 #FranchiseBrokersAssociation"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Dd1wqzlDK4D",
+   "authorPattern": "Never miss a post from rushcreekchurch",
+   "handle": "rushcreekchurch",
+   "displayName": "Rush Creek Church",
+   "excerpt": "Register today for the 2026 Women’s Retreat on November 5-7 at beautiful Spring Lakes Ranch in Waco, TX! ... Comment \"Retreat\" to claim your spot and sign-up today!"
+  },
+  {
+   "url": "https://www.instagram.com/p/B9HUgtXnDVr",
+   "authorPattern": "sheri_rosenthal's profile picture (first line)",
+   "handle": "sheri_rosenthal",
+   "displayName": "Sheri Rosenthal",
+   "excerpt": "Photo by Sheri Rosenthal on February 28, 2020. ... Video by Wanderlust Entrepreneur on May 05, 2026."
+  },
+  {
+   "url": "https://www.instagram.com/reel/Dcng-uGiehj",
+   "authorPattern": "Never miss a post from yoga.biz.mentor",
+   "handle": "yoga.biz.mentor",
+   "displayName": "Manu | Mentorship & Consulting for Wellness & Retreat Brands",
+   "excerpt": "Video by Manu | Mentorship & Consulting for Wellness & Retreat Brands on August 29, 2026. May be a meme of one or more people and text that says 'How my client went from having no retreat sales to filling up her retreat'. Follow @yoga.biz.mentor for #wellness and #retreat #business"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DavTBPMNJ2Y",
+   "authorPattern": "Never miss a post from yogiissy",
+   "handle": "yogiissy",
+   "displayName": "Issy🔹Yoga & movement teacher",
+   "excerpt": "Our first Winter retreat in French Alps🤍💙 🔹Yoga and meditation practice 🔹 Mobility, movements and inversions 🔹Winter sport : ski, snowboarding, hiking ... 🔹 Thai massage ... cold plunge, warm jacuzzi. 🔹 French cuisine with dessert everyday 🔹Beautiful cozy chalet with epic mountain view ... Come join us! Comment ‘Winter’ we’ll send you the details of retreat directly."
+  },
+  {
+   "url": "https://www.instagram.com/reel/Daf_rKlhkL7",
+   "authorPattern": "Never miss a post from theriveryoga",
+   "handle": "theriveryoga",
+   "displayName": "The River Yoga 🌀",
+   "excerpt": "✏️ Fall 2026 200 Hour Yoga Teacher Training ✏️ September 9 - November 18, 2026 Led by Kurt Joyce & Meghann Saige Volz @kurt.moves @meghannsaige ... ✨ Free Virtual Info Session July 21, 2026 | 6:00–6:30 PM on Zoom ... Learn more + sign up via link in bio"
+  },
+  {
+   "url": "https://www.instagram.com/reel/DZaZOYdw525",
+   "authorPattern": "Never miss a post from thecenterslo",
+   "handle": "thecenterslo",
+   "displayName": "The Center Studio",
+   "excerpt": "🧘‍♀️ 200-Hour Yoga Teacher Training | September 2026 ✨ ... • 8 immersive training weekends from September 2026–April 2027 ... 🌿 Early Enrollment Special: Enroll now and receive $300 off tuition. Applications are now open. Visit the link in our bio or head to thecenterslo.com/ytt to learn more and reserve your spot."
+  },
+  {
+   "url": "https://www.instagram.com/p/DYlNJdagaaW",
+   "authorPattern": "Never miss a post from nourishmovelovebali",
+   "handle": "nourishmovelovebali",
+   "displayName": "Alka Martine |  Business Mentor • Psychologist • Retreat Host",
+   "excerpt": "Most online business coaches advice starts at phase three or four. Strategy. Content. Instagram. Funnels. Launch plans. ... It is because they skipped phase one."
+  },
+  {
+   "url": "https://www.instagram.com/reel/Ddo4eZ1zf1v",
+   "authorPattern": "Never miss a post from fincanaranjas",
+   "handle": "fincanaranjas",
+   "displayName": "Finca Naranjas",
+   "excerpt": "A little oasis in Tenerife. Finca Naranjas is a place to stay and enjoy days filled with wellbeing, sport and family holiday adventures around the island, book your wedding or special event, or to join one of the many retreats held here throughout the year. ... the beautiful retreat of @giuliayogabelluno"
+  },
+  {
+   "url": "https://www.instagram.com/reel/Ddt8rESDHy5",
+   "authorPattern": "Never miss a post from eagleskycamp",
+   "handle": "eagleskycamp",
+   "displayName": null,
+   "excerpt": "Ladies, you are chosen — gifted by God, and never meant to carry it alone. Join us at the Chosen Ladies Retreat, Eagle Sky, where we lean on each other and remember whose we are. Registration closes October 13. See you on November 13, 2026.❄️🤍"
+  }
+ ],
+ "failed_results": [],
+ "response_time": 3.41,
+ "request_id": "1fbf4a7e-1ab5-4eea-b82a-c223bb915349",
+ "auth_mode": "keyed",
+ "fetchedAt": "2026-10-15T19:01:04Z"
+}

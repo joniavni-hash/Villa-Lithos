@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Standalone Deno/Vitest package with its own tsconfig; not part of the Next.js app.
+    "influencer-finder/**",
   ]),
 ]);
 

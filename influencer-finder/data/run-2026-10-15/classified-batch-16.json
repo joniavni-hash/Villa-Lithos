@@ -1,0 +1,1182 @@
+{
+ "batch": 16,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "blackrockretreat",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DUGdZx7EbIo"
+     ],
+     "note": "'Announcing our 2026 Spring Women's Retreat', 'Registration is now open'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DUGdZx7EbIo"
+     ],
+     "note": "Retreat on March 22-24, 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DUGdZx7EbIo"
+     ],
+     "note": "Two-night weekend."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DUGdZx7EbIo"
+     ],
+     "note": "Domestic weekend women's retreat with a guest speaker; the account name reads as a retreat centre."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Account name suggests a retreat centre running programmes on its own grounds",
+     "Event is already past (March 2026)"
+    ],
+    "missingInformation": [
+     "Whether Black Rock Retreat is a venue",
+     "Location, price and group size"
+    ],
+    "summary": "Black Rock Retreat announced its 2026 Spring Women's Retreat 'Breathe Deeply' on March 22-24 with a guest speaker and open registration. The account appears to be a retreat centre hosting its own programme, so it is a venue-type organiser with a domestic weekend format. Group none."
+   },
+   "events": [
+    {
+     "title": "2026 Spring Women's Retreat: Breathe Deeply",
+     "eventType": "womens_retreat",
+     "startDate": "2026-03-22",
+     "endDate": "2026-03-24",
+     "nights": 2,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DUGdZx7EbIo"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "retreat centre / women's retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "campamichai",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSH4Y6fjK4a"
+     ],
+     "note": "Sells summer camp places, not retreats."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSH4Y6fjK4a"
+     ],
+     "note": "Camp dates 1-20 July 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Summer camp, off-topic for winter villa bookings"
+    ],
+    "missingInformation": [],
+    "summary": "Camp Amichai is an Israeli summer camp opening registration for 1-20 July 2026. It is off-topic for winter group bookings. Group none."
+   },
+   "events": [
+    {
+     "title": "Camp Amichai summer 2026",
+     "eventType": null,
+     "startDate": "2026-07-01",
+     "endDate": "2026-07-20",
+     "nights": null,
+     "location": null,
+     "country": "IL",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DSH4Y6fjK4a"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "מחנה עמיחי",
+    "country": "IL",
+    "languages": [
+     "he"
+    ],
+    "niche": "summer camp",
+    "markets": [
+     "IL"
+    ]
+   }
+  },
+  {
+   "handle": "campsbayretreat_padel",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/campsbayretreat_padel?hl=en"
+     ],
+     "note": "It is a venue: the padel court at Camps Bay Retreat, Cape Town."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/campsbayretreat_padel?hl=en"
+     ],
+     "note": "Promotes its court; no hosted retreats."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/campsbayretreat_padel?hl=en"
+     ],
+     "note": "Competing hotel venue."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account (hotel padel court in Cape Town)"
+    ],
+    "missingInformation": [],
+    "summary": "Padel at Camps Bay Retreat promotes 'the most beautiful court in Africa' at a Cape Town hotel. It is a venue, not an organiser. Group none."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Padel at Camps Bay Retreat",
+    "country": "ZA",
+    "languages": [
+     "en"
+    ],
+    "niche": "hotel padel court",
+    "markets": []
+   }
+  },
+  {
+   "handle": "cfciofficial",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DUa_ZwNDCtb"
+     ],
+     "note": "Offers an 'On-Demand: Growth Leadership Retreat 2026', i.e. recorded content, not a residential event."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Church account; retreat is on-demand content",
+     "Thin pack"
+    ],
+    "missingInformation": [
+     "Whether the church runs residential retreats"
+    ],
+    "summary": "Covenant Fellowship Church International promotes an on-demand 'Growth Leadership Retreat 2026'. It is online content from a church, with no residential event or venue choice. Group none."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Covenant Fellowship Church International",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "church",
+    "markets": []
+   }
+  },
+  {
+   "handle": "chalochaloindia",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/chalochaloindia"
+     ],
+     "note": "Travel operator assembling its own yoga immersion trip."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/chalochaloindia"
+     ],
+     "note": "'Yoga Immersion Retreat 2026 vom 20. bis 31. Oktober 2026 findet unser...' with a German-speaking teacher."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/chalochaloindia"
+     ],
+     "note": "Dated 20-31 October 2026."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/chalochaloindia"
+     ],
+     "note": "An 11-night immersion."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/chalochaloindia"
+     ],
+     "note": "India-based travel operator selling India trips."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Travel agency/tour operator based in Shimla, selling India; not a fit for a Greece venue"
+    ],
+    "missingInformation": [],
+    "summary": "Chalo Reisen / Chalo Travels is a Shimla-based travel operator selling a Yoga Immersion Retreat on 20-31 October 2026 to German speakers with a German-speaking teacher. It is an agency selling India itineraries, not an organiser likely to book Greece. Group none."
+   },
+   "events": [
+    {
+     "title": "Yoga Immersion Retreat 2026 (German-speaking teacher)",
+     "eventType": "yoga_retreat",
+     "startDate": "2026-10-20",
+     "endDate": "2026-10-31",
+     "nights": 11,
+     "location": null,
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/chalochaloindia"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Chalo Reisen / Chalo Travels",
+    "country": "IN",
+    "languages": [
+     "de",
+     "en"
+    ],
+    "niche": "India travel operator (yoga trips)",
+    "markets": [
+     "DE"
+    ]
+   }
+  },
+  {
+   "handle": "citychurchrva",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRxgTxhCepI"
+     ],
+     "note": "'Registration is open for our 2026 Women's Retreat'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRxgTxhCepI"
+     ],
+     "note": "Saturday, January 24 (2026 retreat)."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRxgTxhCepI"
+     ],
+     "note": "One-day event at a church lodge."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRxgTxhCepI"
+     ],
+     "note": "Local one-day church event."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Local church event, one day, at a church lodge"
+    ],
+    "missingInformation": [],
+    "summary": "City Church of Richmond ran a one-day 2026 Women's Retreat on Saturday, January 24 at the Lodge at Hope Church with a guest speaker. It is a local church event with no overnight stay or destination travel. Group none."
+   },
+   "events": [
+    {
+     "title": "City Church 2026 Women's Retreat",
+     "eventType": "womens_retreat",
+     "startDate": "2026-01-24",
+     "endDate": null,
+     "nights": null,
+     "location": "Lodge at Hope Church",
+     "country": null,
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DRxgTxhCepI"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "City Church of Richmond",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "church",
+    "markets": []
+   }
+  },
+  {
+   "handle": "cothinkk",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTagR_pDrjI"
+     ],
+     "note": "Member gathering with an RSVP form, not a sold retreat."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTagR_pDrjI"
+     ],
+     "note": "'2026 Winter Retreat' on Saturday, January 24."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTagR_pDrjI"
+     ],
+     "note": "One-day, 10:00 AM - 4:00 PM."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTagR_pDrjI"
+     ],
+     "note": "Local one-day strategy gathering in Downtown Asheville; no overnight component."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Local one-day event; no overnight stay",
+     "Organisation size and budget unknown"
+    ],
+    "missingInformation": [
+     "Number of members",
+     "Whether they ever run multi-day or destination retreats"
+    ],
+    "summary": "CoThinkk held a '2026 Winter Retreat' ('Take Your Seat') on Saturday, January 24, 10:00-4:00 in Downtown Asheville, a strategy and shared-values gathering for its community. It is a community group whose 'retreat' is a local day event with no overnight stay, so it does not qualify as an offsite host. Group none (consistent with the earlier batch-6 record for 'cothinkk.')."
+   },
+   "events": [
+    {
+     "title": "CoThinkk 2026 Winter Retreat: Take Your Seat",
+     "eventType": "leadership_retreat",
+     "startDate": "2026-01-24",
+     "endDate": null,
+     "nights": null,
+     "location": "Downtown Asheville",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DTagR_pDrjI"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "CoThinkk",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "community leadership organisation",
+    "markets": []
+   }
+  },
+  {
+   "handle": "efcst",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DS0JK6zgScj"
+     ],
+     "note": "Announces its own Women's Retreat and Young Adult Retreat; registration links coming."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Nonprofit patient-community retreats; dates, location and format not stated"
+    ],
+    "missingInformation": [
+     "Dates, location, size"
+    ],
+    "summary": "The Epilepsy Foundation account (efcst) says dates are set for its Women's Retreat and Young Adult Retreat weekends, with registration to follow. These are nonprofit community weekends with no destination or budget signals. Group none."
+   },
+   "events": [],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "epilepsy foundation community programmes",
+    "markets": []
+   }
+  },
+  {
+   "handle": "emunaarussi",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Thin pack: one Hebrew post about registration for a 2026-2027 activity year; nature of the activity not stated"
+    ],
+    "missingInformation": [
+     "What the activity is",
+     "Whether any retreat is involved"
+    ],
+    "summary": "The only evidence is a Hebrew post titled 'two weeks in a very magical place' announcing that registration for the 2026-2027 activity year is open via the bio link and 'tribe groups'. There is not enough to identify a retreat business. Group none; thin pack."
+   },
+   "events": [],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "he"
+    ],
+    "niche": null,
+    "markets": [
+     "IL"
+    ]
+   }
+  },
+  {
+   "handle": "emyogaexperience",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.55,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdjjvNQNCXN"
+     ],
+     "note": "Runs its own 2027 retreats in Morocco, Norway and South Africa."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.85,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdjjvNQNCXN"
+     ],
+     "note": "Presale open; registration form plus 25% deposit reserves a place."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "2027 retreats undated in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdjjvNQNCXN"
+     ],
+     "note": "Destinations include Norway and South Africa, implying a travel-ready audience; no prices."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdjjvNQNCXN"
+     ],
+     "note": "2027 retreat season with presale to an existing email list."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.45,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdjjvNQNCXN"
+     ],
+     "note": "Destination yoga retreats in varied countries; Greece would extend the portfolio."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdjjvNQNCXN"
+     ],
+     "note": "Exclusive presale to an email list implies returning clients."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "No dates for 2027 retreats; winter activity unproven",
+     "French-language audience; home market not stated"
+    ],
+    "missingInformation": [
+     "Dates of the 2027 retreats",
+     "Price and group size",
+     "Home market"
+    ],
+    "summary": "EM Yoga Experience runs French-language destination yoga retreats and has opened presale for its 2027 season in Morocco, Norway and South Africa, booked with a 25% deposit. It is a clear organiser that picks international destinations, which makes Greece a plausible addition. No dates, prices or group sizes are in evidence and the wording ('courriels') hints at a Quebec audience. Medium risk; good pilot-retreat lead."
+   },
+   "events": [
+    {
+     "title": "2027 retreat, Morocco",
+     "eventType": "yoga_retreat",
+     "startDate": "2027",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": "MA",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdjjvNQNCXN"
+     ]
+    },
+    {
+     "title": "2027 retreat, Norway",
+     "eventType": "yoga_retreat",
+     "startDate": "2027",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": "NO",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdjjvNQNCXN"
+     ]
+    },
+    {
+     "title": "2027 retreat, South Africa",
+     "eventType": "yoga_retreat",
+     "startDate": "2027",
+     "endDate": null,
+     "nights": null,
+     "location": null,
+     "country": "ZA",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DdjjvNQNCXN"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": null,
+    "country": null,
+    "languages": [
+     "fr"
+    ],
+    "niche": "destination yoga retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "encounterchurchofpalmyra",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Thin pack: one reel titled 'Women's Retreat 2026' with no details"
+    ],
+    "missingInformation": [
+     "Dates, location, format"
+    ],
+    "summary": "Encounter Church of Palmyra posted a reel titled 'Women's Retreat 2026' with no further details. A local church retreat with no destination or budget signals. Group none; thin pack."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Encounter Church of Palmyra",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "church",
+    "markets": []
+   }
+  },
+  {
+   "handle": "foundever_greece",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DWQbtKtkuZZ"
+     ],
+     "note": "Recruitment content for customer-service and B2B sales roles in Athens."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DWQbtKtkuZZ"
+     ],
+     "note": "Off-topic employer account."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence in pack."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Off-topic: BPO employer recruiting in Athens"
+    ],
+    "missingInformation": [],
+    "summary": "Foundever Greece posts job adverts for customer-service and B2B sales roles in Athens. It is off-topic for retreat bookings. Group none."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Foundever Greece",
+    "country": "GR",
+    "languages": [
+     "en"
+    ],
+    "niche": "customer-service employer (recruiting)",
+    "markets": []
+   }
+  }
+ ]
+}

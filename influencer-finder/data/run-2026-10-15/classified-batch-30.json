@@ -1,0 +1,1213 @@
+{
+ "batch": 30,
+ "model": "claude (session analyst)",
+ "results": [
+  {
+   "handle": "monicathemedium",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYz4Ys1JSbk"
+     ],
+     "note": "Chose Villa Punto de Vista, 'sister property next door to the villa where my previous retreats were held'; she books private villas."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYz4Ys1JSbk"
+     ],
+     "note": "'Only TWO spots remain', 'Link in bio for more info'."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYz4Ys1JSbk"
+     ],
+     "note": "Only dated retreat is August 17-22, 2026."
+    },
+    "canFillGroupSize": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYz4Ys1JSbk"
+     ],
+     "note": "Near sold out ('Only TWO spots remain'); total size not stated."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYz4Ys1JSbk"
+     ],
+     "note": "Private villa venues in Costa Rica; no price shown."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYz4Ys1JSbk"
+     ],
+     "note": "'the villa where my previous retreats were held'."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYz4Ys1JSbk"
+     ],
+     "note": "Five-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYz4Ys1JSbk"
+     ],
+     "note": "Villa-based retreat format matches a private estate."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYz4Ys1JSbk"
+     ],
+     "note": "Previous retreats held; current one nearly sold out."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "No winter-dated event in evidence"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Where she plans to host in 2027",
+     "Home market"
+    ],
+    "summary": "Monica Imani (medium) hosts villa retreats in Costa Rica: August 17-22, 2026 at Villa Punto de Vista, next door to the villa of her previous retreats, with only two spots left. She says no Costa Rica retreat is planned for 2027, so she may be looking for a new destination, and her villa-based format fits a private estate. No winter dates yet and no price shown. Medium risk; timely pilot pitch for a 2027 winter edition."
+   },
+   "events": [
+    {
+     "title": "Costa Rica retreat at Villa Punto de Vista",
+     "eventType": "personal_development_retreat",
+     "startDate": "2026-08-17",
+     "endDate": "2026-08-22",
+     "nights": 5,
+     "location": "Villa Punto de Vista, Costa Rica",
+     "country": "CR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": false,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DYz4Ys1JSbk"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Monica Imani",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "spiritual medium retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "mycoachnadz",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence on venue choice."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeFt2VjoGPZ"
+     ],
+     "note": "'Day 1 Gran Canaria, Let the Goddess Retreat begin' reads as her own retreat; no registration or price shown."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Goddess Retreat is undated."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.2,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeFt2VjoGPZ"
+     ],
+     "note": "Women's destination retreat in the Canaries."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.2,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeFt2VjoGPZ"
+     ],
+     "note": "A retreat actually ran (Day 1 post)."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Single short caption; dates and role not explicit"
+    ],
+    "missingInformation": [
+     "Retreat dates, price, group size",
+     "Home market",
+     "Follower count"
+    ],
+    "summary": "Coach Nadz (Nadine Sinclair) posted 'Day 1 Gran Canaria, Let the Goddess Retreat begin', suggesting she hosts a women's retreat in the Canaries. Dates, price, group size and home market are absent. Commercial risk unknown; scout only."
+   },
+   "events": [
+    {
+     "title": "Goddess Retreat",
+     "eventType": "womens_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "Gran Canaria",
+     "country": "ES",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DeFt2VjoGPZ"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Nadine Sinclair (Coach Nadz)",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "coaching and women's retreats",
+    "markets": []
+   }
+  },
+  {
+   "handle": "paamon.tlv",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/paamon.tlv/p/DasR1PHDEb8?hl=bg"
+     ],
+     "note": "Workshops take place at its own space ('the workshop will take place at Paamon')."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/paamon.tlv/p/DasR1PHDEb8?hl=bg"
+     ],
+     "note": "Sells local creative workshops for adults and children, not retreats."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat events."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/paamon.tlv/p/DasR1PHDEb8?hl=bg"
+     ],
+     "note": "Local Tel Aviv workshop venue."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue running its own local workshops"
+    ],
+    "missingInformation": [],
+    "summary": "Paamon (Tel Aviv) is a local space running a week of creative workshops for adults and children (8+) on its own premises. It is a venue, not a retreat organiser that books destinations. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": null,
+    "country": "IL",
+    "languages": [
+     "he"
+    ],
+    "niche": "local creative workshop space",
+    "markets": [
+     "IL"
+    ]
+   }
+  },
+  {
+   "handle": "pantarhei.movement",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No retreat evidence; only a studio video post."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No events."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Pack is a single studio post with no event content"
+    ],
+    "missingInformation": [
+     "Whether the studio runs destination retreats"
+    ],
+    "summary": "Pantarhei Studio is an Israeli dance and somatic-movement centre; the only evidence is a video post dated October 15, 2026 with no event content. A studio with no retreat evidence is out of scope for now. Recheck if it announces destination retreats."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Pantarhei Studio",
+    "country": "IL",
+    "languages": [
+     "he"
+    ],
+    "niche": "dance and somatic movement studio",
+    "markets": [
+     "IL"
+    ]
+   }
+  },
+  {
+   "handle": "pgbchope",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dcj6tqojhiy"
+     ],
+     "note": "Church chooses the retreat location (Jekyll Island)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dcj6tqojhiy"
+     ],
+     "note": "'Registration for Ladies Retreat 2027 is officially OPEN!'"
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dcj6tqojhiy"
+     ],
+     "note": "January 22nd - 24th in a post titled 'Ladies Retreat 2027'."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dcj6tqojhiy"
+     ],
+     "note": "'$350 all-inclusive' is budget pricing."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dcj6tqojhiy"
+     ],
+     "note": "Annual Ladies Retreat; 'after having to cancel our 2026 retreat'."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dcj6tqojhiy"
+     ],
+     "note": "Two-night weekend."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dcj6tqojhiy"
+     ],
+     "note": "Local church retreat at budget price."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No sales evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Local church retreat",
+     "2026 edition cancelled",
+     "Pricing far below premium ($350 all-inclusive)"
+    ],
+    "missingInformation": [],
+    "summary": "Pleasant Grove Baptist Church has opened registration for Ladies Retreat 2027, January 22-24 on Jekyll Island, at $350 all-inclusive, after cancelling its 2026 retreat. It is a local church weekend at budget pricing with no destination travel, consistent with how other church retreats were rated. Exclude."
+   },
+   "events": [
+    {
+     "title": "Ladies Retreat 2027",
+     "eventType": "womens_retreat",
+     "startDate": "2027-01-22",
+     "endDate": "2027-01-24",
+     "nights": 2,
+     "location": "Jekyll Island",
+     "country": "US",
+     "groupSize": null,
+     "pricePerPerson": 350,
+     "currency": "USD",
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "evidence_supported_inference",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Dcj6tqojhiy"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Pleasant Grove Baptist Church",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "church",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "retreatvenues_com",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": false,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Db_HoF3jOhv"
+     ],
+     "note": "'Your retreat venue in Tenerife': it is a venue for hire."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Db_HoF3jOhv"
+     ],
+     "note": "Rents its venue; no own retreats."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No events."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": false,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/Db_HoF3jOhv"
+     ],
+     "note": "Competing venue."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "high",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Venue account (competitor)"
+    ],
+    "missingInformation": [],
+    "summary": "Retreat Venues is a venue-for-hire account promoting a retreat venue in Tenerife. It is a competitor, not a booker. Exclude."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Retreat Venues - Venue for Hire",
+    "country": "ES",
+    "languages": [
+     "en"
+    ],
+    "niche": "retreat venue hire",
+    "markets": []
+   }
+  },
+  {
+   "handle": "saisonschlemm",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence on venue choice."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZpyRO-NK_c"
+     ],
+     "note": "'our food & yoga retreat in the South of France' with @nadine.felden: co-hosted retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Retreat is undated."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZpyRO-NK_c"
+     ],
+     "note": "Food and yoga retreat in a French setting suits a villa with a kitchen."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZpyRO-NK_c"
+     ],
+     "note": "Recap of a retreat that ran."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Co-host (food side); lead organiser may be @nadine.felden"
+    ],
+    "missingInformation": [
+     "Dates, price, group size",
+     "Which partner books the venue",
+     "Home market"
+    ],
+    "summary": "Saison Schlemm co-hosted a food and yoga retreat in the South of France with @nadine.felden and posted a recap. A culinary co-host who already runs villa-style retreats could bring a Greek edition, but dates, price, group size and who chooses the venue are unknown. Commercial risk unknown; scout both co-hosts."
+   },
+   "events": [
+    {
+     "title": "Food & yoga retreat in the South of France (with @nadine.felden)",
+     "eventType": "wellness_retreat",
+     "startDate": null,
+     "endDate": null,
+     "nights": null,
+     "location": "South of France",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "co_host",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DZpyRO-NK_c"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Saison Schlemm",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "food and yoga retreats (culinary co-host)",
+    "markets": []
+   }
+  },
+  {
+   "handle": "sarayogaofficial",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "Unclear whether she or 'Retreats in der Schweiz' chose the venue."
+    },
+    "sellsRetreats": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "'I will be guiding' could be her own retreat or a guest-teacher slot; the post is credited to Retreats in der Schweiz."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dates in evidence."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/sarayogaofficial/p/DaIpPqkMPHI?__d=1%2F%3Fhidemenu%3Dtrue"
+     ],
+     "note": "Yoga plus vision and mastermind sessions; Swiss audience."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Role ambiguous: may be a guest facilitator for Retreats in der Schweiz"
+    ],
+    "missingInformation": [
+     "Whether she sells her own retreats",
+     "Dates, price, group size"
+    ],
+    "summary": "Sara Yoga announces she 'will be guiding' a retreat with vision and mastermind sessions and deep mindset work, in a post credited to Retreats in der Schweiz. Whether she organises or is a guest facilitator is not clear, and no dates or prices appear. Commercial risk unknown; scout."
+   },
+   "events": [],
+   "profile": {
+    "displayName": null,
+    "country": "CH",
+    "languages": [
+     "en",
+     "de"
+    ],
+    "niche": "yoga and mindset retreats",
+    "markets": [
+     "CH"
+    ]
+   }
+  },
+  {
+   "handle": "sculptneworleans",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbEnAtSJ3jw"
+     ],
+     "note": "Sells a 'Luxury Villa Accommodation' Pilates and wine retreat in Languedoc; picks the villa."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbEnAtSJ3jw"
+     ],
+     "note": "'JOIN US FOR THE ULTIMATE PILATES & WINE ESCAPE', 'Details for our France 2027 Retreat coming soon'."
+    },
+    "provenWinterActivity": {
+     "value": false,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbEnAtSJ3jw"
+     ],
+     "note": "Only dated retreat is June 21-25, 2027."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size evidence."
+    },
+    "audiencePaysPremium": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbEnAtSJ3jw"
+     ],
+     "note": "Luxury villa, curated wine classes, excursions."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbEnAtSJ3jw"
+     ],
+     "note": "'Was so nice we're doing it twice'."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbEnAtSJ3jw"
+     ],
+     "note": "Four-night format."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.6,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbEnAtSJ3jw"
+     ],
+     "note": "Luxury-villa Pilates and wine escape is a close format match."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbEnAtSJ3jw"
+     ],
+     "note": "Previous France edition ran and is being repeated."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Summer-only so far",
+     "US (New Orleans) studio audience; long-haul"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Interest in a winter or shoulder-season edition"
+    ],
+    "summary": "Sculpt New Orleans, a Pilates studio, runs a luxury-villa Pilates and wine retreat in Languedoc and is repeating it on June 21-25, 2027. The format is a close match for a private estate and they choose villas themselves, but the only dates are summer and the audience is US-based. Medium risk; scouting pitch for an off-season Greek edition."
+   },
+   "events": [
+    {
+     "title": "France Retreat: Pilates & Wine Escape",
+     "eventType": "fitness_retreat",
+     "startDate": "2027-06-21",
+     "endDate": "2027-06-25",
+     "nights": 4,
+     "location": "Languedoc, South of France (luxury villa)",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": false,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/reel/DbEnAtSJ3jw"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Sculpt New Orleans",
+    "country": "US",
+    "languages": [
+     "en"
+    ],
+    "niche": "Pilates studio with destination retreats",
+    "markets": [
+     "US"
+    ]
+   }
+  },
+  {
+   "handle": "shirakucher",
+   "classification": {
+    "group": "none",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "sellsRetreats": {
+     "value": false,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/shirakucher/p/DUdt-qtjC8b?__d=11%252F"
+     ],
+     "note": "Reflection post thanking the places she taught; no retreat."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No events."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "brandFit": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "No retreat content in pack"
+    ],
+    "missingInformation": [
+     "Whether she runs retreats"
+    ],
+    "summary": "Shira Kucher posts in Hebrew about two and a half years of teaching and a new home for her classes. The pack shows a local teacher with no retreat activity. Out of scope for now."
+   },
+   "events": [],
+   "profile": {
+    "displayName": null,
+    "country": "IL",
+    "languages": [
+     "he"
+    ],
+    "niche": "movement/yoga teacher",
+    "markets": [
+     "IL"
+    ]
+   }
+  },
+  {
+   "handle": "soizic_michelot_mbsr_paris",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": true,
+     "confidence": 0.5,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DOQfxBzCMGs"
+     ],
+     "note": "Chooses her own retreat venues (Parc Floral de Paris, a residential place in the Perche)."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.8,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DOQfxBzCMGs"
+     ],
+     "note": "'Voici les dates des prochaines retraites', 'Inscriptions ouvertes'."
+    },
+    "provenWinterActivity": {
+     "value": true,
+     "confidence": 0.9,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DOQfxBzCMGs"
+     ],
+     "note": "Retreats 9-11 January 2026 and 9-12 April 2026 (past winter season)."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No group size in the excerpt."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No pricing evidence."
+    },
+    "runsRecurringEvents": {
+     "value": true,
+     "confidence": 0.7,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DOQfxBzCMGs"
+     ],
+     "note": "Series of meditation retreats on a published calendar."
+    },
+    "longStayPotential": {
+     "value": false,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DOQfxBzCMGs"
+     ],
+     "note": "Three-day formats."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DOQfxBzCMGs"
+     ],
+     "note": "Quiet residential MBSR retreats suit a calm private estate."
+    },
+    "priorCommercialEvidence": {
+     "value": true,
+     "confidence": 0.4,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DOQfxBzCMGs"
+     ],
+     "note": "Published retreat calendar with registration."
+    },
+    "commercialRisk": "medium",
+    "recommendedTrack": "pilot_retreat",
+    "redFlags": [
+     "Domestic (Paris region) retreats so far"
+    ],
+    "missingInformation": [
+     "Price and group size",
+     "Whether participants would travel abroad",
+     "Winter 2026/27 dates"
+    ],
+    "summary": "Soizic Michelot (MBSR Paris) runs meditation retreats: a non-residential city retreat 9-11 January 2026 at Parc Floral de Paris and a residential retreat 9-12 April 2026 in the Perche, two hours from Paris. She organises and sells, has proven winter-season activity and serves a priority French market. Retreats so far are domestic and short. Medium risk; pilot pitch for a residential winter retreat abroad."
+   },
+   "events": [
+    {
+     "title": "Retraite en ville, Parc Floral de Paris",
+     "eventType": "workshop",
+     "startDate": "2026-01-09",
+     "endDate": "2026-01-11",
+     "nights": null,
+     "location": "Parc Floral de Paris",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DOQfxBzCMGs"
+     ]
+    },
+    {
+     "title": "Retraite residentielle dans le Perche",
+     "eventType": "wellness_retreat",
+     "startDate": "2026-04-09",
+     "endDate": "2026-04-12",
+     "nights": 3,
+     "location": "Perche, 2h from Paris",
+     "country": "FR",
+     "groupSize": null,
+     "pricePerPerson": null,
+     "currency": null,
+     "soldOut": null,
+     "role": "organizer",
+     "isWinter": true,
+     "provenance": "verified_public_fact",
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DOQfxBzCMGs"
+     ]
+    }
+   ],
+   "profile": {
+    "displayName": "Soizic Michelot - MBSR Paris",
+    "country": "FR",
+    "languages": [
+     "fr"
+    ],
+    "niche": "MBSR mindfulness retreats",
+    "markets": [
+     "FR"
+    ]
+   }
+  },
+  {
+   "handle": "solarmedusa",
+   "classification": {
+    "group": "A_retreat_organizer",
+    "decidesVenue": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "sellsRetreats": {
+     "value": true,
+     "confidence": 0.3,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZJo0IXmySC?img_index=2"
+     ],
+     "note": "Display name 'Yoga - Photography - Retreats' and comments on 'a powerful week' in Mexico; no registration shown."
+    },
+    "provenWinterActivity": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No dated event."
+    },
+    "canFillGroupSize": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "audiencePaysPremium": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "runsRecurringEvents": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "longStayPotential": {
+     "value": true,
+     "confidence": 0.2,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZJo0IXmySC?img_index=2"
+     ],
+     "note": "'What a powerful week' suggests week-long retreats."
+    },
+    "brandFit": {
+     "value": true,
+     "confidence": 0.2,
+     "evidenceUrls": [
+      "https://www.instagram.com/p/DZJo0IXmySC?img_index=2"
+     ],
+     "note": "Yoga and photography retreat host."
+    },
+    "priorCommercialEvidence": {
+     "value": null,
+     "confidence": 0,
+     "evidenceUrls": [],
+     "note": "No evidence."
+    },
+    "commercialRisk": "unknown",
+    "recommendedTrack": "scouting_stay",
+    "redFlags": [
+     "Thin pack: comments only"
+    ],
+    "missingInformation": [
+     "Whether she sells her own retreats",
+     "Dates, price, group size",
+     "Home market"
+    ],
+    "summary": "Georgia Hunter brands herself around yoga, photography and retreats; a July 20, 2026 post from Mexico draws comments about 'a powerful week'. Organiser status and dates are not shown. Commercial risk unknown; scout."
+   },
+   "events": [],
+   "profile": {
+    "displayName": "Georgia Hunter - Yoga, Photography, Retreats",
+    "country": null,
+    "languages": [
+     "en"
+    ],
+    "niche": "yoga and photography retreats",
+    "markets": []
+   }
+  }
+ ]
+}
