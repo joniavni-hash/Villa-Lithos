@@ -6,7 +6,8 @@ import { agentAuthorized } from "../../../lib/seo-agent";
 // writes one small JSON object per click (leads/YYYY-MM-DD/<time>-<suffix>.json).
 // Replaces the lead_clicks table in the Lovable/Supabase database from November 2026.
 //
-// GET  /api/seo/leads?since=YYYY-MM-DD[&until=YYYY-MM-DD]   rows {created_at, channel, block, page, country, device}
+// GET  /api/seo/leads?since=YYYY-MM-DD[&until=YYYY-MM-DD]   rows {created_at, channel, block, page, country, device,
+//      and, for rows written from 22.11.2026: source, ref_host, utm_source, utm_medium, utm_campaign, landing}
 // POST /api/seo/leads  {rows:[{created_at, channel, block, page, country, device}]}
 //      one-time import of historical rows (each becomes a blob dated by created_at)
 // Always "Authorization: Bearer SEO_AGENT_TOKEN".
@@ -23,6 +24,13 @@ export type LeadRow = {
   page: string;
   country: string | null;
   device: string | null;
+  // Traffic source, present on rows written by /api/lead from 22.11.2026 (older rows: absent = "unknown").
+  source?: "ai" | "paid" | "organic" | "email" | "social" | "referral" | "direct";
+  ref_host?: string;
+  utm_source?: string;
+  utm_medium?: string;
+  utm_campaign?: string;
+  landing?: string;
 };
 
 export async function GET(req: Request) {
