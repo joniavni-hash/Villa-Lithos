@@ -54,6 +54,79 @@ function sameOriginReferrerPath(): string | null {
   }
 }
 
+// First-touch traffic source of the browsing session (November 2026). Stored once
+// per session in sessionStorage under `vl_src` and sent with every lead beacon so
+// /api/lead can classify the inquiry as organic, ai, paid, social, referral or
+// direct. Only the referrer's hostname (never the full URL), the three utm values,
+// whether a gclid was present, and the landing path: no personal data.
+type FirstTouch = {
+  ref_host: string;
+  utm_source: string;
+  utm_medium: string;
+  utm_campaign: string;
+  gclid: boolean;
+  landing: string;
+};
+
+const OWN_HOST = /(^|\.)villalithos(greece)?\.com$/i;
+const FIRST_TOUCH_KEY = "vl_src";
+
+function readFirstTouch(): FirstTouch | null {
+  try {
+    const raw = window.sessionStorage.getItem(FIRST_TOUCH_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw) as Partial<FirstTouch>;
+      if (parsed && typeof parsed.landing === "string") {
+        return {
+          ref_host: typeof parsed.ref_host === "string" ? parsed.ref_host : "",
+          utm_source: typeof parsed.utm_source === "string" ? parsed.utm_source : "",
+          utm_medium: typeof parsed.utm_medium === "string" ? parsed.utm_medium : "",
+          utm_campaign: typeof parsed.utm_campaign === "string" ? parsed.utm_campaign : "",
+          gclid: parsed.gclid === true,
+          landing: parsed.landing,
+        };
+      }
+    }
+  } catch {
+    // storage unavailable or unreadable: fall through and compute from this page view
+  }
+  return null;
+}
+
+function firstTouch(): FirstTouch | null {
+  const stored = readFirstTouch();
+  if (stored) return stored;
+  try {
+    let refHost = "";
+    if (document.referrer) {
+      try {
+        const host = new URL(document.referrer).hostname.toLowerCase();
+        if (host && !OWN_HOST.test(host)) refHost = host.slice(0, 100);
+      } catch {
+        refHost = "";
+      }
+    }
+    const sp = new URL(window.location.href).searchParams;
+    const utm = (name: string) => (sp.get(name) || "").trim().slice(0, 100);
+    const ft: FirstTouch = {
+      ref_host: refHost,
+      utm_source: utm("utm_source"),
+      utm_medium: utm("utm_medium"),
+      utm_campaign: utm("utm_campaign"),
+      gclid: sp.has("gclid"),
+      landing: window.location.pathname.slice(0, 200),
+    };
+    try {
+      window.sessionStorage.setItem(FIRST_TOUCH_KEY, JSON.stringify(ft));
+    } catch {
+      // storage unavailable: the values of this page view are used as-is
+    }
+    return ft;
+  } catch {
+    return null;
+  }
+}
+
 function withSource(block: string, sourcePath: string | null): string {
   if (block !== "inquiry" || window.location.pathname !== "/") return block;
   if (!sourcePath || sourcePath === "/") return block;
@@ -72,6 +145,15 @@ export default function LeadTracker() {
       lastPath.current = pathname;
     }
   }, [pathname]);
+
+  // Record the first-touch source on the first page view of the session (before any click).
+  useEffect(() => {
+    try {
+      firstTouch();
+    } catch {
+      // never block rendering over attribution
+    }
+  }, []);
 
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
@@ -117,7 +199,22 @@ export default function LeadTracker() {
         } catch {
           // storage unavailable: count the click
         }
-        const payload = JSON.stringify({ channel, block, page: window.location.pathname });
+        const ft = firstTouch();
+        const payload = JSON.stringify({
+          channel,
+          block,
+          page: window.location.pathname,
+          ...(ft
+            ? {
+                ref_host: ft.ref_host,
+                utm_source: ft.utm_source,
+                utm_medium: ft.utm_medium,
+                utm_campaign: ft.utm_campaign,
+                gclid: ft.gclid,
+                landing: ft.landing,
+              }
+            : {}),
+        });
         const sent = navigator.sendBeacon?.("/api/lead", new Blob([payload], { type: "application/json" }));
         if (!sent) fetch("/api/lead", { method: "POST", body: payload, keepalive: true }).catch(() => {});
       } catch {
