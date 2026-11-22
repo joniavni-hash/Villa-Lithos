@@ -4,7 +4,7 @@ import StayWithUs from "@/components/StayWithUs";
 import PageCta from "@/components/PageCta";
 
 const TITLE = "Day Trips from Porto Rafti and Rafina Port: A Practical Attica Guide";
-const DESC = "Five practical day trips from Porto Rafti and Rafina port: Athens, Cape Sounion, Brauron, Marathon and the Cycladic ferries, with drive times, ticket prices, opening hours and crowd-avoidance tips.";
+const DESC = "Rafina port 20 min, Brauron 10, Marathon 35, Athens 40, Cape Sounion 50: five day trips from Porto Rafti with drive times, tickets, hours and timing tips.";
 const URL = "https://www.villalithos.com/articles/day-trips-from-porto-rafti";
 const PUBLISHED = "2026-05-11";
 const MODIFIED = "2026-10-09";
