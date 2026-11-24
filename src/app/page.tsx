@@ -21,7 +21,7 @@ import "./winter.css";
 // Regenerate daily so the October-to-March winter mode switches on its own.
 export const revalidate = 86400;
 
-const HOME_TITLE = "Villa Lithos Greece | Luxury 9-Bed Estate Near Athens";
+const HOME_TITLE = "Villa Lithos Porto Rafti | Luxury 9-Bedroom Villa Near Athens";
 const HOME_DESC = "Experience Villa Lithos in Greece: an exclusive 9-bedroom luxury estate in Porto Rafti for 22 guests with heated pool, padel court, gym, and sea views.";
 
 export const metadata: Metadata = {
